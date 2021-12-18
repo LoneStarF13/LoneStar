@@ -87,6 +87,9 @@ GLOBAL_PROTECT(href_token)
 		return
 	GLOB.deadmins[target] = src
 	GLOB.admin_datums -= target
+	
+	GLOB.admins -= src //lonestar edit. lets staff deadmin
+	GLOB.adminchat -= src
 	deadmined = TRUE
 	var/client/C
 	if ((C = owner) || (C = GLOB.directory[target]))
