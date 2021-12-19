@@ -1064,6 +1064,9 @@
 /obj/structure/table/reinforced,
 /obj/item/taperecorder,
 /obj/item/pda/medical,
+/obj/machinery/light{
+	dir = 1
+	},
 /turf/open/floor/carpet,
 /area/f13/ncr)
 "avu" = (
@@ -2264,10 +2267,8 @@
 	},
 /area/f13/building)
 "bal" = (
-/obj/structure/sign/poster/prewar/poster82{
-	pixel_x = -32
-	},
-/turf/open/floor/carpet,
+/obj/structure/sign/poster/official/cohiba_robusto_ad,
+/turf/closed/wall/f13/supermart,
 /area/f13/ncr)
 "bau" = (
 /obj/structure/car/rubbish1,
@@ -5979,6 +5980,16 @@
 	},
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
+"cJP" = (
+/obj/structure/window/fulltile/house{
+	icon_state = "storewindowbottom"
+	},
+/obj/structure/barricade/bars,
+/obj/structure/curtain{
+	color = "#808080"
+	},
+/turf/open/floor/carpet,
+/area/f13/ncr)
 "cJS" = (
 /obj/structure/table/wood,
 /obj/item/trash/waffles,
@@ -10317,8 +10328,15 @@
 	},
 /area/f13/building)
 "eJy" = (
-/obj/structure/sign/poster/official/cohiba_robusto_ad,
-/turf/closed/wall/f13/supermart,
+/obj/structure/window/fulltile/house{
+	dir = 2;
+	icon_state = "storewindowtop"
+	},
+/obj/structure/barricade/bars,
+/obj/structure/curtain{
+	color = "#808080"
+	},
+/turf/open/floor/carpet,
 /area/f13/ncr)
 "eJN" = (
 /obj/machinery/light{
@@ -11375,6 +11393,12 @@
 	icon_state = "horizontaltopborderbottom2left"
 	},
 /area/f13/wasteland)
+"fdK" = (
+/obj/structure/table/reinforced,
+/obj/item/paper_bin,
+/obj/item/pen/fountain,
+/turf/open/floor/carpet,
+/area/f13/ncr)
 "fdO" = (
 /obj/structure/window/reinforced/tinted{
 	dir = 8
@@ -19800,6 +19824,9 @@
 	dir = 8
 	},
 /obj/structure/curtain,
+/obj/machinery/shower{
+	dir = 8
+	},
 /turf/open/floor/f13{
 	icon_state = "whitegreenrustychess"
 	},
@@ -20193,13 +20220,12 @@
 	},
 /area/f13/building)
 "iPB" = (
-/obj/machinery/shower{
-	dir = 8
+/obj/structure/sign/poster/contraband/pinup_couch{
+	pixel_x = 32
 	},
 /obj/structure/curtain,
-/obj/structure/sign/poster/contraband/pinup_couch{
-	pixel_x = 32;
-	pixel_z = 0
+/obj/machinery/shower{
+	dir = 8
 	},
 /turf/open/floor/f13{
 	icon_state = "whitegreenrustychess"
@@ -20763,6 +20789,9 @@
 	dir = 8
 	},
 /obj/structure/curtain,
+/obj/machinery/shower{
+	dir = 8
+	},
 /turf/open/floor/f13{
 	icon_state = "whitegreenrustychess"
 	},
@@ -21315,6 +21344,9 @@
 /obj/structure/sign/poster/contraband/pinup_shower{
 	pixel_x = 32
 	},
+/obj/machinery/shower{
+	dir = 8
+	},
 /turf/open/floor/f13{
 	icon_state = "whitegreenrustychess"
 	},
@@ -21590,6 +21622,12 @@
 	},
 /turf/open/floor/f13/wood,
 /area/f13/legion)
+"jqG" = (
+/obj/structure/sign/poster/prewar/poster82{
+	pixel_x = -32
+	},
+/turf/open/floor/carpet,
+/area/f13/ncr)
 "jrg" = (
 /obj/structure/table/reinforced,
 /obj/effect/decal/cleanable/dirt,
@@ -57035,10 +57073,10 @@ fyf
 fyf
 fyf
 xEc
-xEc
-xEc
-xEc
-xEc
+eJy
+cJP
+eJy
+cJP
 xEc
 xEc
 bRz
@@ -57293,9 +57331,9 @@ fyf
 fyf
 xEc
 avr
-aQw
-bal
+fdK
 jFl
+iuE
 wuq
 bBG
 hIB
@@ -58062,7 +58100,7 @@ gcK
 gcK
 gcK
 fyf
-xEc
+bal
 aHH
 aSl
 bcj
@@ -59093,7 +59131,7 @@ gcK
 xEc
 aIX
 aQw
-jFl
+jqG
 jFl
 xEc
 bLL
@@ -59604,7 +59642,7 @@ gcK
 ktB
 ktB
 gcK
-eJy
+xEc
 jFl
 aVY
 jFl
