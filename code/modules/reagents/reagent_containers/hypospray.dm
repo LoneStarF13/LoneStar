@@ -196,6 +196,7 @@
 	list_reagents = null
 
 /obj/item/reagent_containers/hypospray/medipen/stimpak/imitation
+	name = "imitation stimpak"
 	desc = "A handheld delivery system for medicine. This one is filled with ground up flower juice, but hey, whatever gets you moving, right?"
 	list_reagents = list(/datum/reagent/medicine/stimpak/imitation = 10)
 

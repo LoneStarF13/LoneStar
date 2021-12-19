@@ -43,18 +43,16 @@
 		M.AdjustKnockdown(-5*REAGENTS_EFFECT_MULTIPLIER, 0)
 		M.adjustStaminaLoss(-2*REAGENTS_EFFECT_MULTIPLIER)
 		. = TRUE
-	..()
 
 /datum/reagent/medicine/stimpak/overdose_process(mob/living/M)
 	M.adjustToxLoss(5*REAGENTS_EFFECT_MULTIPLIER)
 	M.adjustOxyLoss(8*REAGENTS_EFFECT_MULTIPLIER)
 	M.drowsyness += 2*REAGENTS_EFFECT_MULTIPLIER
 	M.jitteriness += 3
-	..()
-	. = TRUE
 
 /datum/reagent/medicine/stimpak/imitation
 	name = "Imitation Stimpak Fluid"
+	color =  "#d37913"
 	description = "Rapidly heals damage when injected. A poor man's stimpak."
 	reagent_state = LIQUID
 
@@ -65,7 +63,6 @@
 	M.adjustFireLoss(-2.5*REAGENTS_EFFECT_MULTIPLIER)
 	M.AdjustKnockdown(-5*REAGENTS_EFFECT_MULTIPLIER, 0)
 	M.adjustStaminaLoss(-2*REAGENTS_EFFECT_MULTIPLIER)
-	..()
 
 /datum/reagent/medicine/stimpak/super_stimpak
 	name = "super stim chemicals"
@@ -77,7 +74,7 @@
 	overdose_threshold = 20
 	addiction_threshold = 16
 
-datum/reagent/medicine/stimpak/super_stimpak/on_mob_life(mob/living/M)
+/datum/reagent/medicine/stimpak/super_stimpak/on_mob_life(mob/living/M)
 	if(M.health < 0)					//Functions as epinephrine.
 		M.adjustToxLoss(-0.5*REAGENTS_EFFECT_MULTIPLIER, 0)
 		M.adjustBruteLoss(-0.5*REAGENTS_EFFECT_MULTIPLIER, 0)
@@ -102,14 +99,11 @@ datum/reagent/medicine/stimpak/super_stimpak/on_mob_life(mob/living/M)
 		M.AdjustStun(-10*REAGENTS_EFFECT_MULTIPLIER, 0)
 		M.AdjustKnockdown(-10*REAGENTS_EFFECT_MULTIPLIER, 0)
 		M.adjustStaminaLoss(-4*REAGENTS_EFFECT_MULTIPLIER)
-		. = TRUE
-	..()
 
-/datum/reagent/medicine/super_stimpak/overdose_process(mob/living/M)
+
+/datum/reagent/medicine/stimpak/super_stimpak/overdose_process(mob/living/M)
 	M.adjustToxLoss(10*REAGENTS_EFFECT_MULTIPLIER)
 	M.adjustOxyLoss(12*REAGENTS_EFFECT_MULTIPLIER)
-	..()
-	. = TRUE
 	
 /datum/reagent/medicine/longpork_stew
 	name = "longpork stew"
