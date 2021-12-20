@@ -212,8 +212,10 @@
 	var/list/publisher = list("Oasis Publishing","Brotherhood News","Mojave Publishing","FEV News")
 	//tell the nice people on discord what went on before the salt cannon happens.
 	world.TgsTargetedChatBroadcast("The current round has ended. Please standby for your [pick(publisher)] report!", FALSE)
-	world.TgsTargetedChatBroadcast(send_news_report(),FALSE)
-
+	//lonestar edit. i'm adding a timer here because i'm tired of the messages being sent out of order
+	CALLBACK(addtimer(world.TgsTargetedChatBroadcast(send_news_report(),FALSE), 3 SECONDS))
+	//role id ping for discord users to know when the round has ended
+	send2chat("<@&922230570791108628>", "server_status")
 	CHECK_TICK
 
 	set_observer_default_invisibility(0, "<span class='warning'>The round is over! You are now visible to the living.</span>")
