@@ -213,7 +213,7 @@
 	//tell the nice people on discord what went on before the salt cannon happens.
 	world.TgsTargetedChatBroadcast("The current round has ended. Please standby for your [pick(publisher)] report!", FALSE)
 	//lonestar edit. i'm adding a timer here because i'm tired of the messages being sent out of order
-	addtimer(CALLBACK(src, send_roundinfo(), 3 SECONDS))
+	addtimer(CALLBACK(src, .proc/send_roundinfo), 3 SECONDS)
 
 	CHECK_TICK
 
