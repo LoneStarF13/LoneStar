@@ -51,7 +51,6 @@
 	icon_state = "post"
 	cuttable = FALSE
 
-// Why do these even exist? For mapping? - Dave
 /obj/structure/fence/cut/medium
 	icon_state = "straight_cut2"
 	hole_size = MEDIUM_HOLE
