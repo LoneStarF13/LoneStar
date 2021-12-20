@@ -48,56 +48,6 @@
 /obj/item/gun/energy/laser/cyborg/emp_act()
 	return
 
-/obj/item/gun/energy/laser/cyborg/mean/obj/item/gun/energy/laser/practice
-	name = "practice laser gun"
-	icon_state = "laser-p"
-	desc = "A modified version of the basic laser gun, this one fires less concentrated energy bolts designed for target practice."
-	ammo_type = list(/obj/item/ammo_casing/energy/laser/practice)
-	clumsy_check = 0
-	item_flags = NONE
-
-/obj/item/gun/energy/laser/practice/hyperburst
-	name = "toy hyper-burst launcher"
-	desc = "A toy laser with a unique beam shaping lens that projects harmless bolts capable of going through objects. Compatible with existing laser tag systems."
-	ammo_type = list(/obj/item/ammo_casing/energy/laser/magtag)
-	icon_state = "toyburst"
-	obj_flags = NONE
-	fire_delay = 40
-	w_class = WEIGHT_CLASS_HUGE
-	weapon_weight = WEAPON_HEAVY
-	selfcharge = EGUN_SELFCHARGE
-	charge_delay = 2
-	recoil = 2
-	cell_type = /obj/item/stock_parts/cell/toymagburst
-
-/obj/item/gun/energy/laser/retro
-	name ="retro laser gun"
-	icon_state = "retro"
-	desc = "An older model of the basic lasergun, no longer used by Nanotrasen's private security or military forces. Nevertheless, it is still quite deadly and easy to maintain, making it a favorite amongst pirates and other outlaws."
-	ammo_x_offset = 3
-
-/obj/item/gun/energy/laser/captain
-	name = "antique laser gun"
-	icon_state = "caplaser"
-	item_state = "caplaser"
-	desc = "This is an antique laser gun. All craftsmanship is of the highest quality. It is decorated with assistant leather and chrome. The object menaces with spikes of energy. On the item is an image of Space Station 13. The station is exploding."
-	force = 10
-	ammo_x_offset = 3
-	selfcharge = EGUN_SELFCHARGE
-	resistance_flags = INDESTRUCTIBLE | LAVA_PROOF | FIRE_PROOF | ACID_PROOF
-
-/obj/item/gun/energy/laser/cyborg
-	can_charge = FALSE
-	desc = "An energy-based laser gun that draws power from the cyborg's internal energy cell directly. So this is what freedom looks like?"
-	icon = 'icons/obj/items_cyborg.dmi'
-	icon_state = "laser_cyborg"
-	selfcharge = EGUN_SELFCHARGE_BORG
-	cell_type = /obj/item/stock_parts/cell/secborg
-	charge_delay = 3
-
-/obj/item/gun/energy/laser/cyborg/emp_act()
-	return
-
 /obj/item/gun/energy/laser/cyborg/mean
 	use_cyborg_cell = TRUE
 	selfcharge = EGUN_NO_SELFCHARGE
@@ -271,6 +221,22 @@
 	item_state = "laser-pistol"
 	ammo_type = list(/obj/item/ammo_casing/energy/laser/pistol/wattz/magneto/hitscan)
 
+/obj/item/gun/energy/laser/wattz/recharger
+	name = "Recharger Pistol"
+	desc = "A recharger pistol manufactured by the Followers of the Apocalpyse. As the name implied, it charges its capacitor banks over time using radioactive decay."
+	icon_state = "wattz1000"
+	item_state = "laser-pistol"
+	fire_delay = 0
+	slowdown = 0.1
+	can_remove = 0
+	can_charge = 0
+	selfcharge = 1
+	w_class = WEIGHT_CLASS_SMALL
+	weapon_weight = WEAPON_LIGHT
+	slot_flags = ITEM_SLOT_BELT
+	ammo_type = list(/obj/item/ammo_casing/energy/laser/pistol/recharger/hitscan)
+	cell_type = /obj/item/stock_parts/cell/ammo/breeder
+	equipsound = 'sound/f13weapons/equipsounds/aep7equip.ogg'
 
 //AEP 7 Laser pistol
 /obj/item/gun/energy/laser/pistol
@@ -291,6 +257,14 @@
 	scope_y_offset = 22
 	equipsound = 'sound/f13weapons/equipsounds/aep7equip.ogg'
 
+//Compliance Regulator
+/obj/item/gun/energy/laser/pistol/complianceregulator
+	name = "AEP5-CR"
+	desc = "A laser pistol that has been modified for less-than-lethal work."
+	ammo_type = list(/obj/item/ammo_casing/energy/disabler)
+	item_state = "AEP5CR"
+	icon_state = "AEP5CR"
+	w_class = WEIGHT_CLASS_SMALL
 
 //Solar Scorcher
 /obj/item/gun/energy/laser/solar
@@ -325,6 +299,8 @@
 	ammo_type = list(/obj/item/ammo_casing/energy/laser/ultra_pistol)
 	cell_type = /obj/item/stock_parts/cell/ammo/ec
 	equipsound = 'sound/f13weapons/equipsounds/aep7equip.ogg'
+
+
 
 ////////////////
 //LASER RIFLES//
@@ -603,7 +579,3 @@
 //// BETA /// Obsolete
 /obj/item/gun/energy/laser/lasertesting
 	ammo_type = list(/obj/item/ammo_casing/energy/laser/pistol/lasertest)
-	use_cyborg_cell = TRUE
-	selfcharge = EGUN_NO_SELFCHARGE
-
-
