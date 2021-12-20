@@ -786,7 +786,8 @@
 	fire_delay = 0
 	slowdown = 0.1
 	can_remove = 0
-	selfcharge = 2
+	can_charge = 0
+	selfcharge = 1
 	w_class = WEIGHT_CLASS_SMALL
 	weapon_weight = WEAPON_LIGHT
 	slot_flags = ITEM_SLOT_BELT
