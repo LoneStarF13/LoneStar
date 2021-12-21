@@ -825,20 +825,19 @@
 	icon_state = "utility_t"
 	item_color = "utility_t"
 
-//Chinese hats
+//Chinese Army
 
 /obj/item/clothing/head/f13/chinese
-	name = "chinese cap"
+	name = "PLA field cap"
 	desc = "(I) A People's Liberation Army cap, worn by enlisted and non-commissioned officers."
 	icon_state = "chinese_soldier"
 	item_state = "chinese_soldier"
 
 /obj/item/clothing/head/f13/chinese/officer
-	name = "chinese officer's cap"
+	name = "PLA officer's cap"
 	desc = "(I) A People's Liberation Army peaked cap, worn by officers."
 	icon_state = "chinese_officer"
 	item_state = "chinese_officer"
-
 
 //DONOR, PATREON AND CUSTOM
 

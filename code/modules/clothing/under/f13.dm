@@ -1474,14 +1474,15 @@
 	item_state = "masonduds"
 
 //Chinese Army
+
 /obj/item/clothing/under/f13/chinese
-	name = "Chinese Army uniform"
+	name = "PLA uniform"
 	desc = "An pre-war People's Liberation Army uniform, worn by enlisted and NCOs."
 	icon_state = "chinese_soldier"
 	item_state = "chinese_soldier"
 
 /obj/item/clothing/under/f13/chinese/officer
-	name = "Chinese Army officer's uniform"
+	name = "PLA officer's uniform"
 	desc = "An pre-war People's Liberation Army uniform, worn by officers."
 	icon_state = "chinese_officer"
 	item_state = "chinese_officer"
