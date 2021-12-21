@@ -7,6 +7,7 @@
 	metabolization_rate = 0.5 * REAGENTS_METABOLISM
 	overdose_threshold = 35
 	addiction_threshold = 25
+	var/healing_power = -4
 	value = REAGENT_VALUE_COMMON
 
 /datum/reagent/medicine/stimpak/reaction_mob(mob/living/M, method=TOUCH, reac_volume, show_message = 1)
@@ -36,33 +37,25 @@
 	if(M.getBruteLoss() == 0 && M.getFireLoss() == 0 && M.getToxLoss() == 0)
 		metabolization_rate = 1000 * REAGENTS_METABOLISM //instant metabolise if it won't help you, prevents prehealing before combat
 	if(!M.reagents.has_reagent(/datum/reagent/medicine/healing_powder)) // We don't want these healing items to stack, so we only apply the healing if these chems aren't found.We only check for the less powerful chems, so the least powerful one always heals.
-		M.adjustBruteLoss(-4*REAGENTS_EFFECT_MULTIPLIER)
-		M.adjustFireLoss(-4*REAGENTS_EFFECT_MULTIPLIER)
-		M.adjustToxLoss(-1*REAGENTS_EFFECT_MULTIPLIER)
-		M.AdjustStun(-5*REAGENTS_EFFECT_MULTIPLIER, 0)
-		M.AdjustKnockdown(-5*REAGENTS_EFFECT_MULTIPLIER, 0)
-		M.adjustStaminaLoss(-2*REAGENTS_EFFECT_MULTIPLIER)
+		M.adjustBruteLoss(healing_power*REAGENTS_EFFECT_MULTIPLIER)
+		M.adjustFireLoss(healing_power*REAGENTS_EFFECT_MULTIPLIER)
 		. = TRUE
+	..()
 
 /datum/reagent/medicine/stimpak/overdose_process(mob/living/M)
-	M.adjustToxLoss(5*REAGENTS_EFFECT_MULTIPLIER)
-	M.adjustOxyLoss(8*REAGENTS_EFFECT_MULTIPLIER)
+	M.adjustToxLoss(2*REAGENTS_EFFECT_MULTIPLIER)
+	M.adjustOxyLoss(2*REAGENTS_EFFECT_MULTIPLIER)
 	M.drowsyness += 2*REAGENTS_EFFECT_MULTIPLIER
 	M.jitteriness += 3
+	..()
+	. = TRUE
 
 /datum/reagent/medicine/stimpak/imitation
 	name = "Imitation Stimpak Fluid"
 	color =  "#d37913"
 	description = "Rapidly heals damage when injected. A poor man's stimpak."
 	reagent_state = LIQUID
-
-/datum/reagent/medicine/stimpak/imitation/on_mob_life(mob/living/carbon/M)
-	if(M.getBruteLoss() == 0 && M.getFireLoss() == 0)
-		metabolization_rate = 1000 * REAGENTS_METABOLISM //instant metabolise if it won't help you, prevents prehealing before combat
-	M.adjustBruteLoss(-2.5*REAGENTS_EFFECT_MULTIPLIER)
-	M.adjustFireLoss(-2.5*REAGENTS_EFFECT_MULTIPLIER)
-	M.AdjustKnockdown(-5*REAGENTS_EFFECT_MULTIPLIER, 0)
-	M.adjustStaminaLoss(-2*REAGENTS_EFFECT_MULTIPLIER)
+	healing_power = -2.5
 
 /datum/reagent/medicine/stimpak/super_stimpak
 	name = "super stim chemicals"
@@ -73,37 +66,12 @@
 	metabolization_rate = 0.5 * REAGENTS_METABOLISM
 	overdose_threshold = 20
 	addiction_threshold = 16
-
-/datum/reagent/medicine/stimpak/super_stimpak/on_mob_life(mob/living/M)
-	if(M.health < 0)					//Functions as epinephrine.
-		M.adjustToxLoss(-0.5*REAGENTS_EFFECT_MULTIPLIER, 0)
-		M.adjustBruteLoss(-0.5*REAGENTS_EFFECT_MULTIPLIER, 0)
-		M.adjustFireLoss(-0.5*REAGENTS_EFFECT_MULTIPLIER, 0)
-	if(M.oxyloss > 35)
-		M.setOxyLoss(35, 0)
-	if(M.losebreath >= 4)
-		M.losebreath -= 2
-	if(M.losebreath < 0)
-		M.losebreath = 0
-	M.adjustStaminaLoss(-0.5*REAGENTS_EFFECT_MULTIPLIER, 0)
-	. = 1
-	if(prob(20))
-		M.AdjustAllImmobility(-20, 0)
-		M.AdjustUnconscious(-20, 0)
-	if(M.getBruteLoss() == 0 && M.getFireLoss() == 0 && M.getToxLoss() == 0 && M.getOxyLoss() == 0)
-		metabolization_rate = 1000 * REAGENTS_METABOLISM //instant metabolise if it won't help you, prevents prehealing before combat
-	if(!M.reagents.has_reagent(/datum/reagent/medicine/healing_powder/poultice) && !M.reagents.has_reagent(/datum/reagent/medicine/stimpak) && !M.reagents.has_reagent(/datum/reagent/medicine/healing_powder)) // We don't want these healing items to stack, so we only apply the healing if these chems aren't found. We only check for the less powerful chems, so the least powerful one always heals.
-		M.adjustBruteLoss(-8*REAGENTS_EFFECT_MULTIPLIER)
-		M.adjustFireLoss(-8*REAGENTS_EFFECT_MULTIPLIER)
-		M.adjustToxLoss(-2*REAGENTS_EFFECT_MULTIPLIER)
-		M.AdjustStun(-10*REAGENTS_EFFECT_MULTIPLIER, 0)
-		M.AdjustKnockdown(-10*REAGENTS_EFFECT_MULTIPLIER, 0)
-		M.adjustStaminaLoss(-4*REAGENTS_EFFECT_MULTIPLIER)
-
+	healing_power = -8
 
 /datum/reagent/medicine/stimpak/super_stimpak/overdose_process(mob/living/M)
-	M.adjustToxLoss(10*REAGENTS_EFFECT_MULTIPLIER)
-	M.adjustOxyLoss(12*REAGENTS_EFFECT_MULTIPLIER)
+	M.adjustToxLoss(4*REAGENTS_EFFECT_MULTIPLIER)
+	M.adjustOxyLoss(2*REAGENTS_EFFECT_MULTIPLIER)
+	..()
 	
 /datum/reagent/medicine/longpork_stew
 	name = "longpork stew"

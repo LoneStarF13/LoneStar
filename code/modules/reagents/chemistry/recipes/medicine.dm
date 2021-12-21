@@ -420,3 +420,81 @@ datum/chemical_reaction/rezadone
 	id = /datum/reagent/medicine/bitter_drink
 	results = list(/datum/reagent/medicine/bitter_drink = 30)
 	required_reagents = list(/datum/reagent/consumable/ethanol/salgam = 10 , /datum/reagent/consumable/ethanol/brocbrew = 10 , /datum/reagent/consumable/sunset = 10 , /datum/reagent/consumable/ethanol/yellowpulque = 10)
+
+/datum/chemical_reaction/stimneutralization1
+	name = "Stimpak Neutralization"
+	id = "Stimpak Neutralization"
+	results = list(/datum/reagent/medicine/stimpak = 1)
+	required_reagents = list(/datum/reagent/medicine/bitter_drink = 1, /datum/reagent/medicine/stimpak = 1)
+
+/datum/chemical_reaction/stimneutralization3
+	name = "Stimpak Neutralization3"
+	id = "Stimpak Neutralization3"
+	results = list(/datum/reagent/medicine/stimpak = 1)
+	required_reagents = list(/datum/reagent/medicine/stimpak/imitation = 1, /datum/reagent/medicine/stimpak = 1)
+
+/datum/chemical_reaction/stimneutralization2
+	name = "Stimpak Neutralization2"
+	id = "Stimpak Neutralization2"
+	results = list(/datum/reagent/medicine/stimpak = 1)
+	required_reagents = list(/datum/reagent/medicine/healing_powder/poultice = 1, /datum/reagent/medicine/stimpak = 1)
+
+/datum/chemical_reaction/superstimneutralization1
+	name = "Super Stim Neutralization"
+	id = "Super Stim Neutralization 1"
+	results = list(/datum/reagent/medicine/stimpak/super_stimpak = 1)
+	required_reagents = list(/datum/reagent/medicine/stimpak/super_stimpak = 1, /datum/reagent/medicine/healing_powder/poultice = 1)
+
+/datum/chemical_reaction/superstimneutralization2
+	name = "Super Stim Neutralization2"
+	id = "Super Stim Neutralization 2"
+	results = list(/datum/reagent/medicine/stimpak/super_stimpak = 1)
+	required_reagents = list(/datum/reagent/medicine/stimpak/super_stimpak = 1, /datum/reagent/medicine/healing_powder = 1)
+
+/datum/chemical_reaction/superstimneutralization3
+	name = "Super Stim Neutralization3"
+	id = "Super Stim Neutralization 3"
+	results = list(/datum/reagent/medicine/stimpak/super_stimpak = 1)
+	required_reagents = list(/datum/reagent/medicine/stimpak/super_stimpak = 1, /datum/reagent/medicine/stimpak = 1)
+
+/datum/chemical_reaction/superstimneutralization4
+	name = "Super Stim Neutralization4"
+	id = "Super Stim Neutralization 4"
+	results = list(/datum/reagent/medicine/stimpak/super_stimpak = 1)
+	required_reagents = list(/datum/reagent/medicine/stimpak/super_stimpak = 1, /datum/reagent/medicine/stimpak/imitation = 1)
+
+/datum/chemical_reaction/superstimneutralization5
+	name = "Super Stim Neutralization5"
+	id = "Super Stim Neutralization 5"
+	results = list(/datum/reagent/medicine/stimpak/super_stimpak = 1)
+	required_reagents = list(/datum/reagent/medicine/stimpak/super_stimpak = 1, /datum/reagent/medicine/bitter_drink = 1)
+
+/datum/chemical_reaction/poulticeneutralization1
+	name = "Poultice neutralization1"
+	id = "Poultice neutralization1"
+	results = list(/datum/reagent/medicine/healing_powder/poultice = 1)
+	required_reagents = list(/datum/reagent/medicine/healing_powder/poultice = 1, /datum/reagent/medicine/healing_powder = 1)
+
+/datum/chemical_reaction/poulticeneutralization2
+	name = "Poultice neutralization2"
+	id = "Poultice neutralization2"
+	results = list(/datum/reagent/medicine/healing_powder/poultice = 1)
+	required_reagents = list(/datum/reagent/medicine/healing_powder/poultice = 1, /datum/reagent/medicine/stimpak/imitation = 1)
+
+/datum/chemical_reaction/imitationneutralization
+	name = "Imitation Neutralization"
+	id = "Imitation neutralization"
+	results = list(/datum/reagent/medicine/stimpak/imitation = 1)
+	required_reagents = list(/datum/reagent/medicine/stimpak/imitation = 1, /datum/reagent/medicine/healing_powder = 1)
+
+/datum/chemical_reaction/bitterdrinkneutralization
+	name = "Bitter Drink Neutralization"
+	id = "Bitter Drink Neutralization 2"
+	results = list(/datum/reagent/medicine/bitter_drink = 1)
+	required_reagents = list(/datum/reagent/medicine/bitter_drink = 1, /datum/reagent/medicine/healing_powder = 1)
+
+/datum/chemical_reaction/bitterdrinkneutralization2
+	name = "Bitter Drink Neutralization2"
+	id = "Bitter Drink Neutralization 2"
+	results = list(/datum/reagent/medicine/bitter_drink = 1)
+	required_reagents = list(/datum/reagent/medicine/bitter_drink = 1, /datum/reagent/medicine/healing_powder/poultice = 1)
