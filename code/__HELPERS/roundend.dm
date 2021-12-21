@@ -666,4 +666,4 @@
 /datum/controller/subsystem/ticker/proc/send_roundinfo()
 	world.TgsTargetedChatBroadcast(send_news_report(),FALSE)
 	//role id ping for discord users to know when the round has ended
-	world.send2chat("<@&922230570791108628>", "server_status")
+	send2chat("<@&922230570791108628>", "server_status")
