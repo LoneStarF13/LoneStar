@@ -631,7 +631,7 @@ Scribe
 			/datum/job/bos/f13initiate,
 		),
 		/datum/matchmaking_pref/disciple = list(
-			/datum/job/bos/f13seniorscribe,
+			/datum/job/bos/f13headscribe,
 		),
 	)
 
@@ -791,7 +791,7 @@ Knight
 	/datum/outfit/loadout/knightc,
 	/datum/outfit/loadout/knightd,
 	/datum/outfit/loadout/knighte,
-	/datum/outfit/loadout/knightf
+	/datum/outfit/loadout/knightf,
 	)
 
 	outfit = /datum/outfit/job/bos/f13knight
@@ -809,7 +809,7 @@ Knight
 			/datum/job/bos/f13initiate,
 		),
 		/datum/matchmaking_pref/disciple = list(
-			/datum/job/bos/f13seniorknight,
+			/datum/job/bos/f13knightcap,
 		),
 	)
 
