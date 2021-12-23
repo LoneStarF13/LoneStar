@@ -18,7 +18,7 @@
 
 /datum/gear/head/chineseofficer
 	name = "Chinese Army officer's cap"
-	path = /obj/item/clothing/under/f13/chinese/officer
+	path = /obj/item/clothing/head/f13/chinese/officer
 	cost = 3
 
 /datum/gear/head/stripedbeanie
