@@ -533,7 +533,7 @@ Paladin
 
 /*
 Senior Scribe
-*/
+
 
 /datum/job/bos/f13seniorscribe
 	title = "Senior Scribe"
@@ -591,6 +591,7 @@ Senior Scribe
 		/obj/item/storage/firstaid/regular = 1,
 		/obj/item/reagent_containers/hypospray/CMO = 1,
 	)
+*/
 
 /*
 Scribe
@@ -599,8 +600,8 @@ Scribe
 /datum/job/bos/f13scribe
 	title = "Scribe"
 	flag = F13SCRIBE
-	total_positions = 3
-	spawn_positions = 3
+	total_positions = 2
+	spawn_positions = 2
 	description = "You answer directly to the Senior Scribe, tasked with researching and reverse-engineering recovered technologies from the old world, while maintaining the brotherhoods scientific archives. You may also be given a trainee to assign duties to."
 	forbids = "The Brotherhood of Steel Forbids: Unethical human experimentation. Violence beyond what is needed to accomplish Brotherhood goals, and cruel torture or experiments on the minds or bodies of prisoners."
 	enforces = "The Brotherhood of Steel Expects: Obeying the Chain That - Binds your direct superior. Collection and safeguarding of technology from the wasteland. Experimentation and research."
@@ -612,6 +613,7 @@ Scribe
 	loadout_options = list(
 	/datum/outfit/loadout/scribea,
 	/datum/outfit/loadout/scribeb,
+	/datum/outfit/loadout/scribec,
 	)
 
 	outfit = /datum/outfit/job/bos/f13scribe
@@ -654,7 +656,7 @@ Scribe
 	..()
 	if(visualsOnly)
 		return
-	ADD_TRAIT(H, TRAIT_SURGERY_MID, src)
+	ADD_TRAIT(H, TRAIT_SURGERY_HIGH, src)
 	ADD_TRAIT(H, TRAIT_MEDICALGRADUATE, src)
 	ADD_TRAIT(H, TRAIT_CHEMWHIZ, src)
 
@@ -670,9 +672,15 @@ Scribe
 		/obj/item/clothing/accessory/bos/scribe=1,
 		)
 
+/datum/outfit/loadout/scribec
+	name = "Senior Scribe"
+	backpack_contents = list(
+		/obj/item/clothing/accessory/bos/seniorscribe=1,
+		/obj/item/clothing/suit/f13/seniorscribe=1,
+		)
 /*
 Senior Knight
-*/
+
 
 /datum/job/bos/f13seniorknight
 	title = "Senior Knight"
@@ -759,7 +767,7 @@ Senior Knight
 		/obj/item/stock_parts/cell/ammo/ec=2,
 		)
 
-
+*/
 /*
 Knight
 */
@@ -767,8 +775,8 @@ Knight
 /datum/job/bos/f13knight
 	title = "Knight"
 	flag = F13KNIGHT
-	total_positions = 3
-	spawn_positions = 3
+	total_positions = 2
+	spawn_positions = 2
 	description = " You are the Brotherhood Knight, the veritable lifeblood of your organization. You are a versatile and adaptably trained person: from your primary duties of weapon & armor repair to basic combat, survival and stealth skills, the only thing you lack is proper experience. You are also in charge of Initiates."
 	forbids = "TheBrotherhood of Steel Forbids: Unethical human experimentation. Violence beyond what is needed to accomplish Brotherhood goals, and cruel torture or experiments on the minds or bodies of prisoners."
 	enforces = "The Brotherhood of Steel Expects: Obeying the Chain That - Binds your direct superior. Collection and safeguarding of technology from the wasteland. Experimentation and research."
@@ -781,7 +789,9 @@ Knight
 	/datum/outfit/loadout/knighta, //AER9
 	/datum/outfit/loadout/knightb, //R82
 	/datum/outfit/loadout/knightc,
-	/datum/outfit/loadout/knightd
+	/datum/outfit/loadout/knightd,
+	/datum/outfit/loadout/knighte,
+	/datum/outfit/loadout/knightf
 	)
 
 	outfit = /datum/outfit/job/bos/f13knight
@@ -863,6 +873,29 @@ Knight
 		/obj/item/gun/energy/laser/pistol=1,
 		/obj/item/stock_parts/cell/ammo/ec=2,
 		)
+/datum/outfit/loadout/knighte
+	name = "Senior Footknight"
+	backpack_contents = list(
+		/obj/item/clothing/accessory/bos/seniorknight=1,
+		/obj/item/gun/energy/laser/aer9=1,
+		/obj/item/stock_parts/cell/ammo/mfc=2,
+		/obj/item/gun/ballistic/automatic/pistol/mk23 = 1,
+		/obj/item/ammo_box/magazine/m45exp = 2,
+		/obj/item/clothing/head/helmet/f13/combat/brotherhood/senior = 1,
+		/obj/item/clothing/suit/armor/f13/combat/brotherhood/senior = 1,
+		)
+
+/datum/outfit/loadout/knightf
+	name = "Senior Knight-Defender"
+	backpack_contents = list(
+		/obj/item/clothing/accessory/bos/seniorknight=1,
+		/obj/item/gun/ballistic/automatic/r93=1,
+		/obj/item/ammo_box/magazine/m556/rifle=2,
+		/obj/item/gun/energy/laser/pistol=1,
+		/obj/item/stock_parts/cell/ammo/ec=2,
+		/obj/item/clothing/head/helmet/f13/combat/brotherhood/senior = 1,
+		/obj/item/clothing/suit/armor/f13/combat/brotherhood/senior = 1,
+		)
 /*
 Initiate
 */
@@ -870,8 +903,8 @@ Initiate
 /datum/job/bos/f13initiate
 	title = "Initiate"
 	flag = F13INITIATE
-	total_positions = 3
-	spawn_positions = 3
+	total_positions = 2
+	spawn_positions = 2
 	description = "Either recently inducted or born into the Brotherhood, you have since proven yourself worthy of assignment to the Chapter. You are to assist your superiors and receive training how they deem fit. You are NEVER allowed to leave the bunker without the direct supervision of a superior; doing so may result in exile or transferrence back the Valley."
 	forbids = "The Brotherhood of Steel Forbids: Unethical human experimentation. Violence beyond what is needed to accomplish Brotherhood goals."
 	enforces = "The Brotherhood of Steel Expects: Obeying the Chain That - Binds your direct superior. Collection and safeguarding of technology from the wasteland. Experimentation and research."
