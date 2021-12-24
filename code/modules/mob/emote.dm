@@ -46,5 +46,8 @@
 	. = ..()
 	if(.)
 		user.SpinAnimation(7,1)
+
+/datum/emote/flip/run_emote(mob/living/user, params)
 	if(ishuman(user))
 		user.adjustStaminaLoss(5)
+	. = ..()
