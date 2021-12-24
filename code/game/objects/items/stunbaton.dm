@@ -155,18 +155,11 @@
 		return FALSE
 	if(turned_on && HAS_TRAIT(user, TRAIT_CLUMSY) && prob(50))
 		clowning_around(user)
-	if(IS_STAMCRIT(user))			//CIT CHANGE - makes it impossible to baton in stamina softcrit
-		to_chat(user, "<span class='danger'>You're too exhausted to use [src] properly.</span>")
-		return TRUE
 	user.DelayNextAction()
 	if(ishuman(M))
 		var/mob/living/carbon/human/L = M
 		if(check_martial_counter(L, user))
 			return TRUE
-	if(turned_on)
-		if(baton_stun(M, user, disarming))
-			user.do_attack_animation(M)
-			user.adjustStaminaLossBuffered(getweight(user, STAM_COST_BATON_MOB_MULT))
 	else if(user.a_intent != INTENT_HARM)			//they'll try to bash in the last proc.
 		M.visible_message("<span class='warning'>[user] has prodded [M] with [src]. Luckily it was off.</span>", \
 						"<span class='warning'>[user] has prodded you with [src]. Luckily it was off</span>")

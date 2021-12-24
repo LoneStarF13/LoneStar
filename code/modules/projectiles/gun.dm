@@ -331,10 +331,6 @@ ATTACHMENTS
 	if(recoil)
 		shake_camera(user, recoil + 1, recoil)
 
-	if(stam_cost) //CIT CHANGE - makes gun recoil cause staminaloss
-		var/safe_cost = clamp(stam_cost, 0, STAMINA_NEAR_CRIT - user.getStaminaLoss())*(firing && burst_size >= 2 ? 1/burst_size : 1)
-		user.adjustStaminaLossBuffered(safe_cost) //CIT CHANGE - ditto
-
 	if(suppressed)
 		playsound(user, fire_sound, 10, 1)
 	else
@@ -387,7 +383,6 @@ ATTACHMENTS
 		return
 	if(firing)
 		return
-	var/stamloss = user.getStaminaLoss()
 	if(flag) //It's adjacent, is the user, or is on the user's person
 		if(target in user.contents) //can't shoot stuff inside us.
 			return
@@ -436,8 +431,6 @@ ATTACHMENTS
 	var/bonus_spread = 0
 	var/loop_counter = 0
 
-	if(user)
-		bonus_spread = getinaccuracy(user, bonus_spread, stamloss) //CIT CHANGE - adds bonus spread while not aiming
 	if(ishuman(user) && user.a_intent == INTENT_HARM && weapon_weight <= WEAPON_LIGHT)
 		var/mob/living/carbon/human/H = user
 		for(var/obj/item/gun/G in H.held_items)
@@ -983,28 +976,14 @@ ATTACHMENTS
 		azoom = new(src)
 
 /obj/item/gun/proc/getinaccuracy(mob/living/user, bonus_spread, stamloss)
-	if(inaccuracy_modifier == 0)
-		return bonus_spread
-	var/base_inaccuracy = weapon_weight * 25 * inaccuracy_modifier //+ 50 + (-user.special_p*5)//SPECIAL Integration
-	var/aiming_delay = 0 //Otherwise aiming would be meaningless for slower guns such as sniper rifles and launchers.
-	if(fire_delay)
-		var/penalty = (last_fire + GUN_AIMING_TIME + fire_delay) - world.time
-		if(penalty > 0) //Yet we only penalize users firing it multiple times in a haste. fire_delay isn't necessarily cumbersomeness.
-			aiming_delay = penalty
-	if(SEND_SIGNAL(user, COMSIG_COMBAT_MODE_CHECK, COMBAT_MODE_ACTIVE) || HAS_TRAIT(user, TRAIT_INSANE_AIM)) //To be removed in favor of something less tactless later.
-		base_inaccuracy /= 1.5
-	if(stamloss > STAMINA_NEAR_SOFTCRIT) //This can null out the above bonus.
-		base_inaccuracy *= 1 + (stamloss - STAMINA_NEAR_SOFTCRIT)/(STAMINA_NEAR_CRIT - STAMINA_NEAR_SOFTCRIT)*0.5
-	if(HAS_TRAIT(user, TRAIT_POOR_AIM)) //nice shootin' tex
-		if(!HAS_TRAIT(user, TRAIT_INSANE_AIM))
-			bonus_spread += 60
-		else
-			//you have both poor aim and insane aim, why?
-			bonus_spread += rand(0,50)
-	var/mult = max((GUN_AIMING_TIME + aiming_delay + user.last_click_move - world.time)/GUN_AIMING_TIME, -0.5) //Yes, there is a bonus for taking time aiming.
-	if(mult < 0) //accurate weapons should provide a proper bonus with negative inaccuracy. the opposite is true too.
-		mult *= 1/inaccuracy_modifier
-	return max(bonus_spread + (base_inaccuracy * mult), 0) //no negative spread.
+    if(inaccuracy_modifier == 0)
+        return bonus_spread
+    if(HAS_TRAIT(user, TRAIT_POOR_AIM)) //nice shootin' tex
+        if(!HAS_TRAIT(user, TRAIT_INSANE_AIM))
+            bonus_spread += 60
+        else
+            //you have both poor aim and insane aim, why?
+            bonus_spread += rand(0,50)
 
 /obj/item/gun/proc/getstamcost(mob/living/carbon/user)
 	. = recoil

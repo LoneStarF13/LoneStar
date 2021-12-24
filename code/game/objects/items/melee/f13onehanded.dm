@@ -410,10 +410,6 @@ obj/item/melee/onehanded/knife/switchblade
 	if(!on)
 		return ..()
 
-	if(IS_STAMCRIT(user))//CIT CHANGE - makes batons unusuable in stamina softcrit
-		to_chat(user, "<span class='warning'>You're too exhausted for that.</span>")//CIT CHANGE - ditto
-		return //CIT CHANGE - ditto
-
 	add_fingerprint(user)
 	if((HAS_TRAIT(user, TRAIT_CLUMSY)) && prob(50))
 		to_chat(user, "<span class ='danger'>You club yourself over the head.</span>")
@@ -467,7 +463,6 @@ obj/item/melee/onehanded/knife/switchblade
 			else
 				target.LAssailant = WEAKREF(user)
 			cooldown_check = world.time + cooldown
-			user.adjustStaminaLossBuffered(getweight(user, STAM_COST_BATON_MOB_MULT))
 		else
 			var/wait_desc = get_wait_description()
 			if(wait_desc)

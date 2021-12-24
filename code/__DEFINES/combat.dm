@@ -205,9 +205,6 @@ GLOBAL_LIST_INIT(shove_disarming_types, typecacheof(list(
 //Nice shot bonus
 #define NICE_SHOT_RICOCHET_BONUS	20	//if the shooter has the NICE_SHOT trait and they fire a ricocheting projectile, add this to the ricochet chance and auto aim angle
 
-///Time to spend without clicking on other things required for your shots to become accurate.
-#define GUN_AIMING_TIME (2 SECONDS)
-
 //Object/Item sharpness
 #define SHARP_NONE			0
 #define SHARP_EDGED			1
@@ -265,18 +262,14 @@ GLOBAL_LIST_INIT(shove_disarming_types, typecacheof(list(
 #define TOTAL_MASS_TOY_SWORD 1.5
 
 //stamina cost defines.
-#define STAM_COST_ATTACK_OBJ_MULT	1.2
-#define STAM_COST_ATTACK_MOB_MULT	1
-#define STAM_COST_BATON_MOB_MULT	1
-#define STAM_COST_NO_COMBAT_MULT	1.25
-#define STAM_COST_W_CLASS_MULT		1.25
-#define STAM_COST_THROW_MULT		2
-#define STAM_COST_THROW_MOB			2.5 //multiplied by (mob size + 1)^2.
+#define STAM_COST_ATTACK_MOB_MULT	0
+#define STAM_COST_NO_COMBAT_MULT	0
+#define STAM_COST_W_CLASS_MULT		0
 
 ///Multiplier of the (STAMINA_NEAR_CRIT - user current stamina loss) : (STAMINA_NEAR_CRIT - STAMINA_SOFTCRIT) ratio used in damage penalties when stam soft-critted.
-#define STAM_CRIT_ITEM_ATTACK_PENALTY	0.66
+#define STAM_CRIT_ITEM_ATTACK_PENALTY	1
 /// changeNext_move penalty multiplier of the above.
-#define STAM_CRIT_ITEM_ATTACK_DELAY		1.75
+#define STAM_CRIT_ITEM_ATTACK_DELAY		1
 /// Damage penalty when fighting prone.
 #define LYING_DAMAGE_PENALTY			0.7
 /// Added delay when firing guns stam-softcritted. Summed with a hardset CLICK_CD_RANGE delay, similar to STAM_CRIT_DAMAGE_DELAY otherwise.

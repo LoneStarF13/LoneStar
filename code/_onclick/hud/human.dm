@@ -117,21 +117,6 @@
 	using.hud = src
 	static_inventory += using
 
-	//CITADEL CHANGES - sprint button
-	using = new /obj/screen/sprintbutton
-	using.icon = tg_ui_icon_to_cit_ui(ui_style)
-	using.icon_state = ((owner.combat_flags & COMBAT_FLAG_SPRINT_ACTIVE) ? "act_sprint_on" : "act_sprint")
-	using.screen_loc = ui_movi
-	using.hud = src
-	static_inventory += using
-	//END OF CITADEL CHANGES
-
-	//same as above but buffer.
-	sprint_buffer = new /obj/screen/sprint_buffer
-	sprint_buffer.screen_loc = ui_sprintbufferloc
-	sprint_buffer.hud = src
-	static_inventory += sprint_buffer
-
 	// clickdelay
 	clickdelay = new
 	clickdelay.hud = src
