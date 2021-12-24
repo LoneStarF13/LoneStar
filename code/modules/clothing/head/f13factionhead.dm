@@ -968,7 +968,7 @@ obj/item/clothing/head/f13/army/beret
 	item_state = "chinese_officer"
 
 //Old World Law Enforcement
-//Tranquilityville Police and generic State Police
+//Police and State Police
 
 /obj/item/clothing/head/f13/police/officer
 	name = "police officer's cap"
