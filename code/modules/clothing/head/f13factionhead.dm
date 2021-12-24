@@ -926,34 +926,31 @@
 	item_state = "army_general"
 	armor = list("tier" = 2, "energy" = 20, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 20, "acid" = 0)
 
-/obj/item/clothing/head/f13/army/service
-	name = "US Army side cap"
-	desc = "(II) US Army side cap, wear with a service uniform."
+obj/item/clothing/head/f13/army/beret
+	name = "US Army beret"
+	desc = "(II) A black beret, standard issue for all US Army personnel, this one holds the generic Department of the Army beret flash."
 	icon = 'icons/fallout/clothing/hats.dmi'
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
-	icon_state = "army_sidecap"
-	item_state = "army_sidecap"
+	icon_state = "army_beret"
+	item_state = "army_beret"
 	armor = list("tier" = 2, "energy" = 20, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 20, "acid" = 0)
 
-//replace the service and dress uniform sprites at some point, both are just placeholders from bay at the moment
-//ALSO MAKE SURE TO REMOVE THIS MESSAGE WHEN YOU DO!
-
-/obj/item/clothing/head/f13/army/service/officer
-	name = "US Army officer's service cap"
-	desc = "(II) US Army officer's cap, wear with a service uniform."
+/obj/item/clothing/head/f13/army/beret/airborne
+	name = "US Army airborne beret"
+	desc = "(II) A red beret, issued to US Army airborne forces, this one holds the beret flash of the 82nd Airborne Div, 1st BCT."
 	icon = 'icons/fallout/clothing/hats.dmi'
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
-	icon_state = "army_service_officer"
-	item_state = "army_service_officer"
+	icon_state = "army_beret_airborne"
+	item_state = "army_beret_airborne"
 	armor = list("tier" = 2, "energy" = 20, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 20, "acid" = 0)
 
-/obj/item/clothing/head/f13/army/service/general
-	name = "US Army general's service cap"
-	desc = "(II) US Army general's cap, wear with a service uniform."
+/obj/item/clothing/head/f13/army/beret/specialforces
+	name = "US Army special forces beret"
+	desc = "(II) A green beret, issued to US Army special forces personnel, this one holds the beret flash of the 2nd Special Forces Group."
 	icon = 'icons/fallout/clothing/hats.dmi'
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
-	icon_state = "army_service_general"
-	item_state = "army_service_general"
+	icon_state = "army_beret_specialforces"
+	item_state = "army_beret_specialforces"
 	armor = list("tier" = 2, "energy" = 20, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 20, "acid" = 0)
 
 //People's Liberation Army
