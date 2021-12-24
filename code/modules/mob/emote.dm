@@ -46,3 +46,5 @@
 	. = ..()
 	if(.)
 		user.SpinAnimation(7,1)
+	if(ishuman(user))
+		user.adjustStaminaLoss(5)
