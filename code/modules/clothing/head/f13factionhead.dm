@@ -919,12 +919,12 @@
 
 /obj/item/clothing/head/f13/army/general
 	name = "US Army general's cap"
-	desc = "(II) US Army officer's cap."
+	desc = "(III) US Army officer's cap."
 	icon = 'icons/fallout/clothing/hats.dmi'
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
 	icon_state = "army_general"
 	item_state = "army_general"
-	armor = list("tier" = 2, "energy" = 20, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 20, "acid" = 0)
+	armor = list("tier" = 3, "energy" = 20, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 20, "acid" = 0)
 
 obj/item/clothing/head/f13/army/beret
 	name = "US Army beret"
@@ -937,21 +937,21 @@ obj/item/clothing/head/f13/army/beret
 
 /obj/item/clothing/head/f13/army/beret/airborne
 	name = "US Army airborne beret"
-	desc = "(II) A red beret, issued to US Army airborne forces, this one holds the beret flash of the 82nd Airborne Div, 1st BCT."
+	desc = "(III) A red beret, issued to US Army airborne forces, this one holds the beret flash of the 82nd Airborne Div, 1st BCT."
 	icon = 'icons/fallout/clothing/hats.dmi'
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
 	icon_state = "army_beret_airborne"
 	item_state = "army_beret_airborne"
-	armor = list("tier" = 2, "energy" = 20, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 20, "acid" = 0)
+	armor = list("tier" = 3, "energy" = 20, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 20, "acid" = 0)
 
 /obj/item/clothing/head/f13/army/beret/specialforces
 	name = "US Army special forces beret"
-	desc = "(II) A green beret, issued to US Army special forces personnel, this one holds the beret flash of the 2nd Special Forces Group."
+	desc = "(IV) A green beret, issued to US Army special forces personnel, this one holds the beret flash of the 2nd Special Forces Group."
 	icon = 'icons/fallout/clothing/hats.dmi'
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
 	icon_state = "army_beret_specialforces"
 	item_state = "army_beret_specialforces"
-	armor = list("tier" = 2, "energy" = 20, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 20, "acid" = 0)
+	armor = list("tier" = 4, "energy" = 20, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 20, "acid" = 0)
 
 //People's Liberation Army
 
@@ -966,6 +966,45 @@ obj/item/clothing/head/f13/army/beret
 	desc = "(I) A People's Liberation Army peaked cap, worn by officers."
 	icon_state = "chinese_officer"
 	item_state = "chinese_officer"
+
+//Old World Law Enforcement
+//Tranquilityville Police and generic State Police
+
+/obj/item/clothing/head/f13/police/officer
+	name = "police officer's cap"
+	desc = "(II) A simple dark navy peaked cap, worn by police."
+	icon = 'icons/fallout/clothing/hats.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
+	icon_state = "police_officer"
+	item_state = "police_officer"
+	armor = list("tier" = 2, "energy" = 10, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 10, "acid" = 0)
+
+/obj/item/clothing/head/f13/police/sergeant
+	name = "police campaign hat"
+	desc = "(II) A simple dark navy campaign hat, worn by police."
+	icon = 'icons/fallout/clothing/hats.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
+	icon_state = "police_sergeant"
+	item_state = "police_sergeant"
+	armor = list("tier" = 2, "energy" = 10, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 10, "acid" = 0)
+
+/obj/item/clothing/head/f13/police/lieutenant
+	name = "police lieutenant's cap"
+	desc = "(II) A simple dark navy peaked cap, worn by police."
+	icon = 'icons/fallout/clothing/hats.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
+	icon_state = "police_lieutenant"
+	item_state = "police_lieutenant"
+	armor = list("tier" = 2, "energy" = 10, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 10, "acid" = 0)
+
+/obj/item/clothing/head/f13/police/chief
+	name = "police chief's cap"
+	desc = "(III) A simple dark navy peaked cap, worn by police."
+	icon = 'icons/fallout/clothing/hats.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
+	icon_state = "police_chief"
+	item_state = "police_chief"
+	armor = list("tier" = 3, "energy" = 10, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 10, "acid" = 0)
 
 //THE GRAVEYARD
 //UNUSED or LEGACY - RETAINED IN CASE DESIRED FOR ADMIN SPAWN OR REIMPLEMENATION. MAY NOT BE EVERYTHING THAT'S UNUSED. TEST BEFORE USING

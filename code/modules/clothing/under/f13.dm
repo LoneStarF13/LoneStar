@@ -817,7 +817,7 @@
 //Old World Law Enforcement
 //Police and State Police
 
-/obj/item/clothing/under/f13/police
+/obj/item/clothing/under/f13/police/officer
 	name = "Police Officer's uniform"
 	desc = "A classic law enforcement uniform, composed of a dark navy long sleeve shirt, dark navy pants, and a black tie."
 	icon = 'icons/fallout/clothing/uniforms.dmi'
