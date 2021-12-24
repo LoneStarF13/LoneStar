@@ -219,7 +219,7 @@
 	var/list/presentmins = adm["present"]
 	var/list/afkmins = adm["afk"]
 	.["admins"] = presentmins.len + afkmins.len //equivalent to the info gotten from adminwho
-	//.["security_level"] = "[NUM2SECLEVEL(GLOB.security_level)]"
+	.["security_level"] = "[NUM2SECLEVEL(GLOB.security_level)]"
 	.["round_duration"] = WORLDTIME2TEXT("hh:mm:ss")
 	.["map"] = SSmapping.config.map_name
 	return json_encode(.)
