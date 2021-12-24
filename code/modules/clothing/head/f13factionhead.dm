@@ -403,7 +403,6 @@
 	icon_state = "legion-combat2"
 	item_state = "legion-combat2"
 
-
 //NCR
 
 /obj/item/clothing/head/f13/ncr
@@ -668,8 +667,8 @@
 	flash_protect = 0
 	resistance_flags = null
 	armor = list("tier" = 2, "energy" = 20, "bomb" = 20, "bio" = 20, "rad" = 20, "fire" = 20, "acid" = 0)
-	
-	
+
+
 /obj/item/clothing/head/helmet/f13/rangercombat/eliteriot/reclaimed
 	name = "reclaimed desert ranger gear"
 	desc = "(IV) A refurbished and personalized set of pre-unification desert ranger gear."
@@ -768,7 +767,7 @@
 	desc = "(VI) A black cowboy hat with a snakeskin band."
 	icon_state = "sheriffhat"
 	armor = list("tier" = 6, "energy" = 40, "bomb" = 25, "bio" = 40, "rad" = 40, "fire" = 80, "acid" = 0)
-	
+
 /obj/item/clothing/head/f13/town/commissioner
 	name = "commissioner's hat"
 	desc = "(V*) A blue hat with a silver badge"
@@ -896,7 +895,80 @@
 	item_state = "vtcc_riot_helmet"
 	armor = list("tier" = 7, "energy" = 35, "bomb" = 35, "bio" = 40, "rad" = 10, "fire" = 60, "acid" = 10)
 
+//Old World Militaries
+//US Army and PLA
 
+/obj/item/clothing/head/f13/army
+	name = "US Army field cap"
+	desc = "(II) Standard issue US Army field cap."
+	icon = 'icons/fallout/clothing/hats.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
+	icon_state = "army_cap"
+	item_state = "army_cap"
+	armor = list("tier" = 2, "energy" = 20, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 20, "acid" = 0)
+	dynamic_hair_suffix = "+generic"
+
+/obj/item/clothing/head/f13/army/officer
+	name = "US Army officer's cap"
+	desc = "(II) US Army officer's cap."
+	icon = 'icons/fallout/clothing/hats.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
+	icon_state = "army_officer"
+	item_state = "army_officer"
+	armor = list("tier" = 2, "energy" = 20, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 20, "acid" = 0)
+
+/obj/item/clothing/head/f13/army/general
+	name = "US Army general's cap"
+	desc = "(II) US Army officer's cap."
+	icon = 'icons/fallout/clothing/hats.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
+	icon_state = "army_general"
+	item_state = "army_general"
+	armor = list("tier" = 2, "energy" = 20, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 20, "acid" = 0)
+
+/obj/item/clothing/head/f13/army/service
+	name = "US Army side cap"
+	desc = "(II) US Army side cap, wear with a service uniform."
+	icon = 'icons/fallout/clothing/hats.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
+	icon_state = "army_sidecap"
+	item_state = "army_sidecap"
+	armor = list("tier" = 2, "energy" = 20, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 20, "acid" = 0)
+
+//replace the service and dress uniform sprites at some point, both are just placeholders from bay at the moment
+//ALSO MAKE SURE TO REMOVE THIS MESSAGE WHEN YOU DO!
+
+/obj/item/clothing/head/f13/army/service/officer
+	name = "US Army officer's service cap"
+	desc = "(II) US Army officer's cap, wear with a service uniform."
+	icon = 'icons/fallout/clothing/hats.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
+	icon_state = "army_service_officer"
+	item_state = "army_service_officer"
+	armor = list("tier" = 2, "energy" = 20, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 20, "acid" = 0)
+
+/obj/item/clothing/head/f13/army/service/general
+	name = "US Army general's service cap"
+	desc = "(II) US Army general's cap, wear with a service uniform."
+	icon = 'icons/fallout/clothing/hats.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
+	icon_state = "army_service_general"
+	item_state = "army_service_general"
+	armor = list("tier" = 2, "energy" = 20, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 20, "acid" = 0)
+
+//People's Liberation Army
+
+/obj/item/clothing/head/f13/chinese
+	name = "PLA field cap"
+	desc = "(I) A People's Liberation Army cap, worn by enlisted and non-commissioned officers."
+	icon_state = "chinese_soldier"
+	item_state = "chinese_soldier"
+
+/obj/item/clothing/head/f13/chinese/officer
+	name = "PLA officer's cap"
+	desc = "(I) A People's Liberation Army peaked cap, worn by officers."
+	icon_state = "chinese_officer"
+	item_state = "chinese_officer"
 
 //THE GRAVEYARD
 //UNUSED or LEGACY - RETAINED IN CASE DESIRED FOR ADMIN SPAWN OR REIMPLEMENATION. MAY NOT BE EVERYTHING THAT'S UNUSED. TEST BEFORE USING
