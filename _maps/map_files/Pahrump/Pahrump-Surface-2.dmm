@@ -10731,10 +10731,7 @@
 /area/f13/building)
 "eQc" = (
 /obj/structure/mirror,
-/turf/closed/wall/f13/store{
-	desc = "A pre-War wall made of solid concrete.";
-	name = "concrete wall"
-	},
+/turf/closed/wall/r_wall,
 /area/f13/ncr)
 "eQj" = (
 /obj/structure/target_stake,
@@ -11411,10 +11408,7 @@
 /area/f13/building)
 "fed" = (
 /obj/structure/sign/poster/contraband/pinup_shower,
-/turf/closed/wall/f13/store{
-	desc = "A pre-War wall made of solid concrete.";
-	name = "concrete wall"
-	},
+/turf/closed/wall,
 /area/f13/ncr)
 "fek" = (
 /obj/structure/window/fulltile/house{
@@ -12267,10 +12261,7 @@
 /area/f13/village)
 "fvN" = (
 /obj/structure/sign/poster/contraband/pinup_bed,
-/turf/closed/wall/f13/store{
-	desc = "A pre-War wall made of solid concrete.";
-	name = "concrete wall"
-	},
+/turf/closed/wall,
 /area/f13/ncr)
 "fwf" = (
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -20987,10 +20978,7 @@
 /area/f13/village)
 "iYY" = (
 /obj/structure/sign/poster/contraband/pinup_topless,
-/turf/closed/wall/f13/store{
-	desc = "A pre-War wall made of solid concrete.";
-	name = "concrete wall"
-	},
+/turf/closed/wall,
 /area/f13/ncr)
 "iZa" = (
 /obj/item/picket_sign,
@@ -24213,10 +24201,7 @@
 /area/f13/building)
 "krc" = (
 /obj/structure/sign/poster/ncr/democracy,
-/turf/closed/wall/f13/store{
-	desc = "A pre-War wall made of solid concrete.";
-	name = "concrete wall"
-	},
+/turf/closed/wall,
 /area/f13/ncr)
 "krf" = (
 /obj/structure/sign/painting/library{
@@ -24501,10 +24486,7 @@
 	icon_state = "flag_ncr";
 	name = "NCR banner"
 	},
-/turf/closed/wall/f13/store{
-	desc = "A pre-War wall made of solid concrete.";
-	name = "concrete wall"
-	},
+/turf/closed/wall/r_wall,
 /area/f13/ncr)
 "kzB" = (
 /obj/effect/spawner/lootdrop/trash,
@@ -34922,7 +34904,7 @@
 /obj/structure/table/reinforced,
 /obj/structure/barricade/sandbags,
 /obj/structure/barricade/bars,
-/obj/machinery/door/poddoor/shutters{
+/obj/machinery/door/poddoor{
 	id = "ncr_gate"
 	},
 /turf/open/indestructible/ground/outside/road{
@@ -37526,7 +37508,7 @@
 	name = "NCR Camp Miller Entrance";
 	req_access_txt = "121"
 	},
-/obj/machinery/door/poddoor/shutters{
+/obj/machinery/door/poddoor{
 	id = "ncr_gate"
 	},
 /turf/open/indestructible/ground/outside/road{
@@ -39560,7 +39542,7 @@
 	color = "000000"
 	},
 /obj/structure/barricade/bars,
-/obj/machinery/door/poddoor/shutters{
+/obj/machinery/door/poddoor{
 	id = "ncr_gate"
 	},
 /turf/open/indestructible/ground/outside/road{
@@ -41627,11 +41609,10 @@
 	},
 /area/f13/building)
 "sBf" = (
-/obj/structure/sign/poster/ncr/keep_to_myself,
-/turf/closed/wall/f13/store{
-	desc = "A pre-War wall made of solid concrete.";
-	name = "concrete wall"
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
 	},
+/turf/closed/wall/r_wall,
 /area/f13/ncr)
 "sBk" = (
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -41655,10 +41636,7 @@
 /area/f13/wasteland)
 "sCz" = (
 /obj/structure/sign/poster/ncr/irradiated_food,
-/turf/closed/wall/f13/store{
-	desc = "A pre-War wall made of solid concrete.";
-	name = "concrete wall"
-	},
+/turf/closed/wall/r_wall,
 /area/f13/ncr)
 "sCG" = (
 /obj/machinery/door/airlock/wood{
@@ -43808,6 +43786,9 @@
 	},
 /turf/open/floor/plasteel/elevatorshaft,
 /area/f13/building)
+"tyf" = (
+/turf/closed/wall,
+/area/f13/ncr)
 "tyw" = (
 /obj/structure/rack,
 /obj/item/stack/sheet/glass{
@@ -50712,10 +50693,7 @@
 /area/f13/ncr)
 "wLb" = (
 /obj/structure/sign/poster/ncr/loaded,
-/turf/closed/wall/f13/store{
-	desc = "A pre-War wall made of solid concrete.";
-	name = "concrete wall"
-	},
+/turf/closed/wall,
 /area/f13/ncr)
 "wLf" = (
 /obj/effect/decal/remains/human,
@@ -54393,46 +54371,46 @@ ktB
 "}
 (2,1,1) = {"
 ktB
-wyi
-wyi
-wyi
-wyi
-wyi
-wyi
-wyi
-wyi
-wyi
-wyi
-wyi
+wjR
+wjR
+wjR
+wjR
+wjR
+wjR
+wjR
+wjR
+wjR
+wjR
+wjR
 kzu
-wyi
-wyi
-wyi
-wyi
+wjR
+wjR
+wjR
+wjR
 mGC
 emz
 emz
 emz
 mGC
-wyi
-wyi
-wyi
-wyi
-wyi
-wyi
-wyi
-wyi
-wyi
-wyi
-wyi
-wyi
-wyi
-wyi
-wyi
-wyi
-wyi
-wyi
-wyi
+wjR
+wjR
+wjR
+wjR
+wjR
+wjR
+wjR
+wjR
+wjR
+wjR
+wjR
+wjR
+wjR
+wjR
+wjR
+wjR
+wjR
+wjR
+wjR
 ktB
 gcK
 gcK
@@ -54650,7 +54628,7 @@ ktB
 "}
 (3,1,1) = {"
 ktB
-wyi
+wjR
 ace
 xGv
 dKA
@@ -54659,7 +54637,7 @@ fhG
 dKA
 xGv
 chO
-wyi
+wjR
 jxd
 kHU
 lvS
@@ -54671,7 +54649,7 @@ pEt
 qMn
 duZ
 sdo
-wyi
+wjR
 sWz
 xGv
 nVM
@@ -54679,17 +54657,17 @@ xGv
 xGv
 nVM
 sWz
-wyi
+tyf
 aMc
 hTq
 gBo
 cJt
 qtv
-wyi
+tyf
 sNB
 rUp
 vyB
-wyi
+wjR
 ktB
 gcK
 gcK
@@ -54907,7 +54885,7 @@ ktB
 "}
 (4,1,1) = {"
 ktB
-wyi
+wjR
 chO
 xGv
 dRI
@@ -54916,7 +54894,7 @@ xGv
 dRI
 xGv
 iuE
-wyi
+wjR
 jFl
 elT
 elT
@@ -54936,17 +54914,17 @@ gpp
 gpp
 gpp
 xGv
-wyi
+tyf
 klp
 kKl
 hTq
 mGx
 kMo
-wyi
+tyf
 qhd
 rUp
 rUp
-wyi
+wjR
 ktB
 gcK
 ktB
@@ -55164,16 +55142,16 @@ ktB
 "}
 (5,1,1) = {"
 ktB
-wyi
+wjR
 cio
 cio
-wyi
+wjR
 arU
 fju
-wyi
+wjR
 cio
 cio
-wyi
+wjR
 jIJ
 elT
 eoi
@@ -55193,17 +55171,17 @@ vVF
 xnt
 xnt
 jQd
-wyi
+tyf
 lpz
 les
 hTq
 nff
 dZh
-wyi
+tyf
 lfG
 rof
 rUp
-wyi
+wjR
 ktB
 gcK
 gcK
@@ -55421,7 +55399,7 @@ ktB
 "}
 (6,1,1) = {"
 ktB
-wyi
+wjR
 ace
 xGv
 dKA
@@ -55430,7 +55408,7 @@ xGv
 dKA
 xGv
 chO
-wyi
+wjR
 jNs
 kIv
 lGW
@@ -55442,7 +55420,7 @@ pNQ
 qOX
 rAA
 sdo
-wyi
+wjR
 arU
 xGv
 jQd
@@ -55450,17 +55428,17 @@ gpp
 gpp
 gpp
 xGv
-wyi
-wyi
-wyi
+tyf
+tyf
+tyf
 bZg
-wyi
-wyi
-wyi
-wyi
-wyi
+tyf
+tyf
+tyf
+tyf
+tyf
 ccg
-wyi
+wjR
 ktB
 gcK
 gcK
@@ -55678,7 +55656,7 @@ ktB
 "}
 (7,1,1) = {"
 ktB
-wyi
+wjR
 chO
 xGv
 dRI
@@ -55687,7 +55665,7 @@ iul
 dRI
 xGv
 iuE
-wyi
+wjR
 jNt
 elT
 eoi
@@ -55699,7 +55677,7 @@ pSE
 qOX
 duZ
 siE
-wyi
+wjR
 sYe
 tCQ
 jQd
@@ -55717,7 +55695,7 @@ nVM
 xGv
 xGv
 xGv
-wyi
+wjR
 ktB
 gcK
 gcK
@@ -55935,16 +55913,16 @@ ktB
 "}
 (8,1,1) = {"
 ktB
-wyi
+wjR
 cio
 cio
-wyi
+wjR
 arU
 fow
-wyi
+wjR
 cio
 cio
-wyi
+wjR
 jQt
 elT
 lIh
@@ -55956,7 +55934,7 @@ qvQ
 dRA
 pqO
 snN
-wyi
+wjR
 arU
 xGv
 xGv
@@ -55964,17 +55942,17 @@ xnt
 gpp
 gpp
 xGv
-wyi
-wyi
-wyi
+tyf
+tyf
+tyf
 hFQ
-wyi
-wyi
-wyi
-wyi
-wyi
+tyf
+tyf
+tyf
+tyf
+tyf
 ccg
-wyi
+wjR
 ktB
 gcK
 gcK
@@ -56192,7 +56170,7 @@ ktB
 "}
 (9,1,1) = {"
 ktB
-wyi
+wjR
 ace
 xGv
 dKA
@@ -56201,7 +56179,7 @@ jQd
 dKA
 xGv
 chO
-wyi
+wjR
 jSD
 elT
 eoi
@@ -56221,17 +56199,17 @@ gpp
 gpp
 gpp
 jaj
-wyi
+tyf
 kOW
 pem
 pem
 pem
 cze
-wyi
+tyf
 lfG
 gGO
 rUp
-wyi
+wjR
 ktB
 gcK
 gcK
@@ -56449,7 +56427,7 @@ ktB
 "}
 (10,1,1) = {"
 ktB
-wyi
+wjR
 chO
 xGv
 dRI
@@ -56458,7 +56436,7 @@ jQd
 dRI
 xGv
 iuE
-wyi
+wjR
 jSD
 elT
 eoi
@@ -56478,17 +56456,17 @@ gpp
 gHI
 gpp
 xGv
-wyi
+tyf
 pem
 pem
 pem
 pem
 wux
-wyi
+tyf
 qhd
 rUp
 rUp
-wyi
+wjR
 ktB
 gcK
 gcK
@@ -56706,16 +56684,16 @@ ktB
 "}
 (11,1,1) = {"
 ktB
-wyi
+wjR
 cio
 cio
-wyi
+wjR
 arU
 fow
-dWH
+sBf
 cio
 cio
-wyi
+wjR
 jSO
 elT
 eoi
@@ -56727,7 +56705,7 @@ qvQ
 dRA
 pqO
 snN
-wyi
+wjR
 sWz
 xGv
 uSm
@@ -56735,17 +56713,17 @@ xGv
 xGv
 uSm
 wKU
-wyi
+tyf
 wwm
 ilv
 jwV
 pem
 lFL
-wyi
+tyf
 dNU
 rUp
 vyB
-wyi
+wjR
 ktB
 gcK
 gcK
@@ -56963,7 +56941,7 @@ ktB
 "}
 (12,1,1) = {"
 ktB
-wyi
+wjR
 alE
 bNn
 xGv
@@ -56972,7 +56950,7 @@ xGv
 xGv
 xGv
 xGv
-wyi
+wjR
 jVl
 elT
 elT
@@ -56984,25 +56962,25 @@ qvQ
 dRA
 xuL
 koD
-wyi
-wyi
-wyi
-wyi
-wyi
+wjR
+wjR
+wjR
+wjR
+wjR
 vMN
 pOM
-wyi
-wyi
+tyf
+tyf
 krc
-wyi
-wyi
-wyi
-wyi
-wyi
-wyi
-wyi
-wyi
-wyi
+tyf
+tyf
+tyf
+tyf
+tyf
+tyf
+tyf
+tyf
+wjR
 ktB
 gcK
 gcK
@@ -57220,7 +57198,7 @@ ktB
 "}
 (13,1,1) = {"
 ktB
-wyi
+wjR
 amp
 bOq
 jQd
@@ -57241,25 +57219,25 @@ qvQ
 dRA
 pqO
 koD
-wyi
+wjR
 sYF
 tDQ
 vcg
-wyi
+wjR
 xGv
 sWz
-wyi
+tyf
 xeK
 pMO
 vEG
-wyi
+tyf
 dtO
-wyi
-wyi
-wyi
-wyi
-wyi
-wyi
+tyf
+tyf
+tyf
+tyf
+wjR
+wjR
 ktB
 gcK
 gcK
@@ -57477,16 +57455,16 @@ ktB
 "}
 (14,1,1) = {"
 ktB
-wyi
-wyi
-wyi
-wyi
-wyi
+wjR
+wjR
+wjR
+wjR
+wjR
 fsh
-wyi
-dWH
-wyi
-wyi
+wjR
+sBf
+wjR
+wjR
 kiL
 kiL
 kiL
@@ -57498,24 +57476,24 @@ qvQ
 dRA
 pqO
 koD
-wyi
+wjR
 sZT
 tEr
 vcm
-wyi
+wjR
 xGv
 xGv
-wyi
+tyf
 xmS
 xXX
 tOE
-wyi
+tyf
 uNR
-wyi
+tyf
 cMT
 cqA
 oUo
-wyi
+wjR
 ktB
 gcK
 gcK
@@ -57734,14 +57712,14 @@ ktB
 "}
 (15,1,1) = {"
 ktB
-wyi
+wjR
 apw
 bRz
 dYY
 eHk
 fxz
 htl
-wyi
+wjR
 geM
 sVF
 hJI
@@ -57755,24 +57733,24 @@ qvQ
 dRA
 sCK
 koD
-wyi
+wjR
 tbH
 tLA
 tLA
-wyi
+wjR
 hfz
 wDX
-wyi
+tyf
 mGf
 pjS
 mGf
-wyi
+tyf
 dtO
-wyi
+tyf
 pwI
 qwe
 kBw
-wyi
+wjR
 ktB
 gcK
 gcK
@@ -57991,7 +57969,7 @@ ktB
 "}
 (16,1,1) = {"
 ktB
-wyi
+wjR
 arU
 jQd
 xGv
@@ -58012,24 +57990,24 @@ qvQ
 vfc
 pqO
 koD
-sBf
+bal
 tdn
 tNa
 rUp
-dWH
+sBf
 xGv
 xGv
-wyi
+tyf
 xmV
 pMO
 eZW
-wyi
+tyf
 tfZ
-wyi
+tyf
 eXo
 qwe
 vNo
-wyi
+wjR
 ktB
 gcK
 gcK
@@ -58248,7 +58226,7 @@ ktB
 "}
 (17,1,1) = {"
 ktB
-wyi
+wjR
 aux
 xGv
 jQd
@@ -58269,24 +58247,24 @@ qvQ
 oyx
 pqO
 snN
-wyi
-wyi
-wyi
+wjR
+wjR
+wjR
 vcY
-wyi
+wjR
 iul
 xGv
-wyi
-wyi
+tyf
+tyf
 gox
-wyi
-wyi
-wyi
-wyi
-wyi
+tyf
+tyf
+tyf
+tyf
+tyf
 kXg
-wyi
-wyi
+tyf
+wjR
 ktB
 gcK
 gcK
@@ -58505,14 +58483,14 @@ ktB
 "}
 (18,1,1) = {"
 ktB
-wyi
+wjR
 apw
 cgN
 dYY
 eIC
 xGv
 hHm
-wyi
+wjR
 bfu
 cpK
 wyi
@@ -58543,7 +58521,7 @@ xGv
 nVM
 xGv
 xGv
-wyi
+wjR
 ktB
 gcK
 gcK
@@ -58762,14 +58740,14 @@ ktB
 "}
 (19,1,1) = {"
 ktB
-wyi
-wyi
-wyi
-wyi
-wyi
+wjR
+wjR
+wjR
+wjR
+wjR
 eJN
-wyi
-wyi
+wjR
+wjR
 koD
 cpK
 wyi
@@ -58800,7 +58778,7 @@ xGv
 xGv
 xGv
 xGv
-wyi
+wjR
 ktB
 gcK
 gcK
@@ -59019,11 +58997,11 @@ ktB
 "}
 (20,1,1) = {"
 ktB
-wyi
+wjR
 afr
 cnt
 ebv
-dWH
+sBf
 fFO
 ees
 ees
@@ -59040,24 +59018,24 @@ qvQ
 snB
 pqO
 snN
-wyi
-wyi
-wyi
+wjR
+wjR
+wjR
 aBT
-wyi
+wjR
 xGv
 xGv
-wyi
+tyf
 pOM
 lpu
 lpu
 pOM
-wyi
-wyi
-wyi
+tyf
+tyf
+tyf
 rZx
-wyi
-wyi
+tyf
+wjR
 ktB
 gcK
 gcK
@@ -59276,7 +59254,7 @@ ktB
 "}
 (21,1,1) = {"
 ktB
-wyi
+wjR
 auH
 xGv
 xGv
@@ -59297,24 +59275,24 @@ qvQ
 psK
 pqO
 koD
-wyi
+wjR
 toH
 eJV
 toL
-wyi
+wjR
 iul
 xGv
-wyi
+tyf
 qUZ
 kyT
 ykz
 myt
-wyi
-wyi
+tyf
+tyf
 iRl
 qQQ
 otD
-wyi
+wjR
 ktB
 gcK
 gcK
@@ -59533,11 +59511,11 @@ ktB
 "}
 (22,1,1) = {"
 ktB
-wyi
+wjR
 afr
 cnt
 ebv
-wyi
+wjR
 fIF
 hKH
 hKH
@@ -59554,24 +59532,24 @@ qvQ
 pqO
 pqO
 koD
-wyi
+wjR
 btj
 mIv
 btj
-wyi
+wjR
 iul
 iul
-wyi
+tyf
 mAk
 kyT
 ykz
 mAk
 iYY
-wyi
+tyf
 iRl
 qQQ
 sZs
-wyi
+wjR
 ktB
 gcK
 gcK
@@ -59790,14 +59768,14 @@ ktB
 "}
 (23,1,1) = {"
 ktB
-wyi
-wyi
-wyi
-wyi
-wyi
-wyi
-wyi
-wyi
+wjR
+wjR
+wjR
+wjR
+wjR
+wjR
+wjR
+wjR
 koD
 cpK
 wyi
@@ -59815,20 +59793,20 @@ sCz
 tte
 toL
 vim
-wyi
+wjR
 arU
 wDX
-wyi
+tyf
 xnR
 ykz
 kyT
 osd
-wyi
-wyi
+tyf
+tyf
 tAk
 qQQ
 otD
-wyi
+wjR
 ktB
 gcK
 gcK
@@ -60047,7 +60025,7 @@ ktB
 "}
 (24,1,1) = {"
 ktB
-wyi
+wjR
 avr
 cqA
 eeE
@@ -60068,11 +60046,11 @@ qvQ
 dRA
 pqO
 snN
-wyi
+wjR
 toL
 toL
 eJV
-wyi
+wjR
 xGv
 xGv
 wLb
@@ -60080,12 +60058,12 @@ xIo
 ykz
 kyT
 xIo
-wyi
-wyi
+tyf
+tyf
 stz
 uPy
 nqg
-wyi
+wjR
 ktB
 gcK
 gcK
@@ -60304,7 +60282,7 @@ ktB
 "}
 (25,1,1) = {"
 ktB
-wyi
+wjR
 aAr
 ctJ
 ctJ
@@ -60325,24 +60303,24 @@ qvQ
 psK
 snB
 koD
-wyi
+wjR
 toL
 tXt
 eJV
-wyi
+wjR
 xGv
 jaj
-wyi
+tyf
 myt
 kyT
 kyT
 myt
-wyi
-wyi
+tyf
+tyf
 lOj
 fed
 lOj
-wyi
+wjR
 ktB
 gcK
 gcK
@@ -60561,7 +60539,7 @@ ktB
 "}
 (26,1,1) = {"
 ktB
-wyi
+wjR
 aCv
 ctJ
 ejl
@@ -60582,24 +60560,24 @@ pqO
 pqO
 pqO
 koD
-wyi
+wjR
 tvE
 unF
 viD
-wyi
+wjR
 xGv
 xGv
-wyi
+tyf
 xKH
 kyT
 kyT
 xKH
 fvN
-wyi
+tyf
 wRa
-wyi
+tyf
 wRa
-wyi
+wjR
 ktB
 gcK
 gcK
@@ -60818,14 +60796,14 @@ ktB
 "}
 (27,1,1) = {"
 ktB
-wyi
+wjR
 aDX
 qwe
 elF
 eNU
 eNU
 ctJ
-dWH
+sBf
 koD
 eme
 lae
@@ -60839,24 +60817,24 @@ pqO
 pqO
 thW
 koD
-wyi
-wyi
-wyi
-wyi
-wyi
+wjR
+wjR
+wjR
+wjR
+wjR
 xdt
 wGO
-wyi
-wyi
-wyi
-wyi
-wyi
-wyi
-wyi
-wyi
-wyi
-wyi
-wyi
+wjR
+tyf
+tyf
+tyf
+tyf
+tyf
+tyf
+wjR
+wjR
+wjR
+wjR
 ktB
 gcK
 gcK
@@ -61075,14 +61053,14 @@ ktB
 "}
 (28,1,1) = {"
 ktB
-wyi
+wjR
 qwe
 ctJ
 eoA
 ctJ
 eoA
 qwe
-dWH
+sBf
 fLc
 jpA
 nkp
@@ -61103,14 +61081,14 @@ eJb
 sHu
 cpK
 cpK
-wyi
+wjR
 xKV
 wxK
 aBY
 iNF
 tZr
-wyi
-wyi
+tyf
+wjR
 ktB
 ktB
 ktB
@@ -61332,16 +61310,16 @@ ktB
 "}
 (29,1,1) = {"
 ktB
-wyi
-wyi
-wyi
-wyi
-wyi
-wyi
-wyi
-wyi
-wyi
-wyi
+wjR
+wjR
+wjR
+wjR
+wjR
+wjR
+wjR
+wjR
+wjR
+wjR
 koD
 unI
 mzY
@@ -61367,7 +61345,7 @@ sGG
 sGG
 sGG
 jSN
-wyi
+wjR
 ktB
 gcK
 gcK
@@ -61589,16 +61567,16 @@ ktB
 "}
 (30,1,1) = {"
 ktB
-wyi
+wjR
 aLu
 cEV
 aSo
-wyi
+wjR
 fSq
 hUO
 bQh
 iBF
-wyi
+wjR
 koD
 unI
 mzY
@@ -61624,7 +61602,7 @@ pbM
 pbM
 pbM
 dbr
-wyi
+wjR
 ktB
 gcK
 gcK
@@ -61846,11 +61824,11 @@ ktB
 "}
 (31,1,1) = {"
 ktB
-wyi
+wjR
 aSl
 cLP
 epJ
-wyi
+wjR
 gbN
 qQQ
 bZC
@@ -61880,8 +61858,8 @@ pvD
 qzr
 pfb
 gie
-wyi
-wyi
+wjR
+wjR
 ktB
 gcK
 gcK
@@ -62103,7 +62081,7 @@ ktB
 "}
 (32,1,1) = {"
 ktB
-wyi
+wjR
 aSo
 cVx
 aSo
@@ -62112,7 +62090,7 @@ loX
 qQQ
 bTf
 iIx
-wyi
+wjR
 koD
 unI
 qvQ
@@ -62137,7 +62115,7 @@ sGG
 sGG
 sGG
 sGG
-wyi
+wjR
 ktB
 gcK
 gcK
@@ -62360,11 +62338,11 @@ ktB
 "}
 (33,1,1) = {"
 ktB
-wyi
+wjR
 aXR
 dbz
 eur
-wyi
+wjR
 gmQ
 qQQ
 bZC
@@ -62394,7 +62372,7 @@ qLO
 sGG
 oTe
 lIP
-wyi
+wjR
 ktB
 gcK
 gcK
@@ -62617,16 +62595,16 @@ ktB
 "}
 (34,1,1) = {"
 ktB
-wyi
-wyi
-wyi
-wyi
+wjR
+wjR
+wjR
+wjR
 eQc
 grf
 qQQ
 idS
 czU
-wyi
+wjR
 bfu
 unI
 qvQ
@@ -62651,7 +62629,7 @@ mfW
 pbM
 sEC
 ptc
-wyi
+wjR
 ktB
 gcK
 gcK
@@ -62874,7 +62852,7 @@ ktB
 "}
 (35,1,1) = {"
 ktB
-wyi
+wjR
 bcj
 dgU
 eCh
@@ -62883,7 +62861,7 @@ gsj
 lmc
 qQQ
 iOQ
-wyi
+wjR
 koD
 unI
 mKp
@@ -62908,7 +62886,7 @@ hSK
 pbM
 kMV
 idH
-wyi
+wjR
 ktB
 gcK
 gcK
@@ -63131,7 +63109,7 @@ ktB
 "}
 (36,1,1) = {"
 ktB
-wyi
+wjR
 bkT
 qQQ
 qQQ
@@ -63140,7 +63118,7 @@ qQQ
 qQQ
 qQQ
 iPB
-wyi
+wjR
 koD
 unI
 mKp
@@ -63153,19 +63131,19 @@ vfc
 pqO
 koD
 itn
-wyi
-wyi
-wyi
-wyi
+wjR
+wjR
+wjR
+wjR
 xdt
 wjB
-wyi
-wyi
-wyi
-wyi
-wyi
-wyi
-wyi
+wjR
+wjR
+wjR
+wjR
+wjR
+wjR
+wjR
 ktB
 gcK
 gcK
@@ -63388,7 +63366,7 @@ ktB
 "}
 (37,1,1) = {"
 ktB
-wyi
+wjR
 bnn
 qQQ
 qQQ
@@ -63397,7 +63375,7 @@ qQQ
 qQQ
 lmc
 iXi
-wyi
+wjR
 koD
 eaZ
 mOD
@@ -63410,10 +63388,10 @@ wsh
 pqO
 sya
 cpK
-wyi
+wjR
 urK
 vzk
-wyi
+wjR
 xGv
 iul
 xGv
@@ -63422,7 +63400,7 @@ nDy
 kJh
 tXC
 oyL
-wyi
+wjR
 ktB
 gcK
 gcK
@@ -63645,7 +63623,7 @@ ktB
 "}
 (38,1,1) = {"
 ktB
-wyi
+wjR
 brE
 qQQ
 qQQ
@@ -63654,7 +63632,7 @@ qQQ
 qQQ
 qQQ
 jhe
-wyi
+wjR
 koD
 unI
 mKp
@@ -63667,10 +63645,10 @@ pqO
 pqO
 koD
 dkg
-wyi
+wjR
 uug
 vEV
-wyi
+wjR
 nPy
 xGv
 wUW
@@ -63679,7 +63657,7 @@ lOY
 iIo
 hON
 uLK
-wyi
+wjR
 ktB
 gcK
 gcK
@@ -63902,7 +63880,7 @@ ktB
 "}
 (39,1,1) = {"
 ktB
-wyi
+wjR
 bcj
 diw
 eCh
@@ -63911,7 +63889,7 @@ lgR
 qQQ
 ifQ
 qQQ
-wyi
+wjR
 wwM
 eaZ
 qvQ
@@ -63924,7 +63902,7 @@ snB
 pqO
 koD
 sNC
-wyi
+wjR
 uyB
 xGv
 wjB
@@ -63936,7 +63914,7 @@ mco
 tdX
 tvh
 uLK
-wyi
+wjR
 ktB
 gcK
 gcK
@@ -64159,7 +64137,7 @@ ktB
 "}
 (40,1,1) = {"
 ktB
-wyi
+wjR
 cuG
 wyi
 cuG
@@ -64168,7 +64146,7 @@ gsV
 hVU
 eRe
 hVU
-wyi
+wjR
 koD
 unI
 qvQ
@@ -64181,10 +64159,10 @@ pqO
 pqO
 sya
 hJI
-wyi
+wjR
 uzG
 vFL
-wyi
+wjR
 xGv
 xGv
 wUW
@@ -64193,7 +64171,7 @@ ybK
 ybK
 uXZ
 oKE
-wyi
+wjR
 ktB
 gcK
 gcK
@@ -64416,7 +64394,7 @@ ktB
 "}
 (41,1,1) = {"
 ktB
-wyi
+wjR
 bsf
 qQQ
 qQQ
@@ -64425,7 +64403,7 @@ lmc
 lmc
 qQQ
 jhe
-wyi
+wjR
 koD
 unI
 qvQ
@@ -64438,10 +64416,10 @@ pqO
 pqO
 koD
 uaf
-wyi
-wyi
-wyi
-wyi
+wjR
+wjR
+wjR
+wjR
 iul
 xGv
 iul
@@ -64450,7 +64428,7 @@ tvh
 xGv
 xGv
 ffv
-wyi
+wjR
 ktB
 gcK
 gcK
@@ -64673,7 +64651,7 @@ ktB
 "}
 (42,1,1) = {"
 ktB
-wyi
+wjR
 qQQ
 qQQ
 lmc
@@ -64682,7 +64660,7 @@ qQQ
 qQQ
 qQQ
 qQQ
-dWH
+sBf
 koD
 unI
 qvQ
@@ -64695,7 +64673,7 @@ pqO
 xuL
 koD
 uaf
-wyi
+wjR
 uEK
 vHu
 wqO
@@ -64707,7 +64685,7 @@ uoC
 apw
 iul
 mZW
-wyi
+wjR
 ktB
 gcK
 gcK
@@ -64930,7 +64908,7 @@ ktB
 "}
 (43,1,1) = {"
 ktB
-wyi
+wjR
 bsV
 dku
 bsV
@@ -64939,7 +64917,7 @@ guA
 loX
 ilL
 loX
-wyi
+wjR
 koD
 unI
 qvQ
@@ -64952,7 +64930,7 @@ pqO
 pqO
 koD
 sNC
-wyi
+wjR
 uHB
 vMu
 wqO
@@ -64964,7 +64942,7 @@ tvh
 hYp
 iul
 swJ
-wyi
+wjR
 ktB
 gcK
 gcK
@@ -65187,16 +65165,16 @@ ktB
 "}
 (44,1,1) = {"
 ktB
-wyi
+wjR
 btj
 btj
 btj
-wyi
-wyi
+wjR
+wjR
 iau
-wyi
+wjR
 iau
-wyi
+wjR
 bfu
 unI
 qvQ
@@ -65209,7 +65187,7 @@ pqO
 vfc
 koD
 cpK
-wyi
+wjR
 uLK
 xGv
 wvV
@@ -65221,7 +65199,7 @@ lKq
 apw
 xGv
 bkk
-wyi
+wjR
 ktB
 gcK
 gcK
@@ -65444,7 +65422,7 @@ ktB
 "}
 (45,1,1) = {"
 ktB
-wyi
+wjR
 geM
 ees
 ees
@@ -65466,19 +65444,19 @@ pqO
 pqO
 koD
 cpK
-wyi
-wyi
-wyi
-wyi
+wjR
+wjR
+wjR
+wjR
 xdt
 wjB
-wyi
-wyi
-wyi
-wyi
-wyi
-wyi
-wyi
+wjR
+wjR
+wjR
+wjR
+wjR
+wjR
+wjR
 ktB
 gcK
 gcK
@@ -65701,7 +65679,7 @@ ktB
 "}
 (46,1,1) = {"
 ktB
-wyi
+wjR
 fLc
 ybI
 ybI
@@ -65731,11 +65709,11 @@ dkg
 cpK
 cpK
 aND
-wyi
+wjR
 mGJ
 ooq
 aJh
-wyi
+wjR
 ktB
 gcK
 gcK
@@ -65958,7 +65936,7 @@ ktB
 "}
 (47,1,1) = {"
 ktB
-wyi
+wjR
 bAo
 bAo
 bAo
@@ -65992,7 +65970,7 @@ iJc
 aJh
 aJh
 eQj
-wyi
+wjR
 ktB
 gcK
 gcK
@@ -66215,7 +66193,7 @@ ktB
 "}
 (48,1,1) = {"
 ktB
-wyi
+wjR
 bAo
 dlI
 dlI
@@ -66249,7 +66227,7 @@ iJc
 ooq
 aJh
 ooq
-wyi
+wjR
 ktB
 gcK
 gcK
@@ -66472,7 +66450,7 @@ ktB
 "}
 (49,1,1) = {"
 ktB
-wyi
+wjR
 bAo
 dlR
 dlR
@@ -66506,7 +66484,7 @@ iJc
 aJh
 aJh
 mRU
-wyi
+wjR
 ktB
 gcK
 gcK
@@ -66729,7 +66707,7 @@ ktB
 "}
 (50,1,1) = {"
 ktB
-wyi
+wjR
 bAo
 dpG
 eEM
@@ -66763,7 +66741,7 @@ iJc
 ooq
 nHL
 nHL
-wyi
+wjR
 ktB
 gcK
 gcK
@@ -66986,7 +66964,7 @@ ktB
 "}
 (51,1,1) = {"
 ktB
-wyi
+wjR
 bAo
 dsn
 dsn
@@ -67020,7 +66998,7 @@ iJc
 nHL
 nHL
 eQj
-wyi
+wjR
 ktB
 gcK
 gcK
@@ -67243,7 +67221,7 @@ ktB
 "}
 (52,1,1) = {"
 ktB
-wyi
+wjR
 bAo
 bAo
 bAo
@@ -67277,7 +67255,7 @@ mqs
 tXo
 ooq
 aJh
-wyi
+wjR
 ktB
 gcK
 gcK
