@@ -737,6 +737,7 @@
 		/obj/item/melee/onehanded/knife/bayonet = 1,
 		/obj/item/storage/box/ration/menu_two = 1,
 		)
+
 /obj/effect/mob_spawn/human/fallout13/ncr/ranger
 	name = "NCR Ranger Spawn"
 	desc = "An entry point for rangers of the NCR to join a battle."
@@ -759,8 +760,10 @@
 		/obj/item/clothing/mask/gas/ranger = 1,
 		/obj/item/melee/onehanded/knife/bowie = 1,
 		)
+
 /obj/effect/mob_spawn/human/fallout13/ncr/special(mob/living/new_spawn)
 	new_spawn.real_name = random_unique_name(gender)
+
 /obj/effect/mob_spawn/human/fallout13/legion
 	name = "Prime Legionnaire Spawn"
 	desc = "An entry point for prime legionaries of Caesar's Legion to join a battle."
@@ -777,6 +780,7 @@
 		/obj/item/melee/onehanded/machete = 1,
 		/obj/item/grenade/homemade/firebomb = 1,
 		)
+
 /obj/effect/mob_spawn/human/fallout13/legion/veteran
 	name = "Veteran Legionnaire Spawn"
 	desc = "An entry point for veteran legionaries of Caesar's Legion to join a battle."
@@ -789,6 +793,7 @@
 		/obj/item/ammo_box/tube/m44 = 3,
 		/obj/item/melee/onehanded/machete/gladius = 1,
 		)
+
 /obj/effect/mob_spawn/human/fallout13/bos
 	name = "Knight Spawn"
 	desc = "An entry point for knights of the Brotherhood Of Steel to join a battle."
@@ -804,6 +809,7 @@
 		/obj/item/clothing/accessory/bos/knight=1,
 		/obj/item/stock_parts/cell/ammo/mfc=2,
 		)
+
 /obj/effect/mob_spawn/human/fallout13/bos/paladin
 	name = "Paladin Spawn"
 	desc = "An entry point for paladins of the Brotherhood Of Steel to join a battle."
@@ -818,8 +824,10 @@
 		/obj/item/ammo_box/magazine/m45exp=2,
 		/obj/item/clothing/accessory/bos/paladin=1
 		)
+
 /obj/effect/mob_spawn/human/fallout13/bos/special(mob/living/new_spawn)
 	new_spawn.real_name = random_unique_name(gender)
+
 /obj/effect/mob_spawn/human/fallout13/raider
 	name = "Raider Spawn"
 	desc = "An entry point for raiders to join a battle."
@@ -841,14 +849,17 @@
 		/obj/item/ammo_box/magazine/greasegun = 2,
 		/obj/item/reagent_containers/hypospray/medipen/stimpak = 2,
 		)
+
 /obj/effect/mob_spawn/human/fallout13/raider/special(mob/living/new_spawn)
 	new_spawn.real_name = random_unique_name(gender)
 	to_chat(new_spawn, "<span class='userdanger'>You are a raider, therefore, an antagonist! You must maintain immersion and roleplay according. Remember, you are still beholden to escalation rules!</span>")
+
 /obj/effect/mob_spawn/human/fallout13/raider/Initialize(mapload)
 	. = ..()
 	var/area/A = get_area(src)
 	if(A)
 		notify_ghosts("A small gang of raiders are arriving at \the [A.name].", source = src, action=NOTIFY_ATTACK, flashwindow = FALSE, ignore_key = POLL_IGNORE_RAIDER, ignore_dnr_observers = FALSE)
+
 /obj/effect/mob_spawn/human/fallout13/tribal
 	name = "Spear Hunter Spawn"
 	desc = "An entry point for spear hunters to join a battle."
@@ -866,6 +877,7 @@
 		/obj/item/binoculars = 1,
 		/obj/item/restraints/legcuffs/bola/tactical = 1
 	)
+	
 /obj/effect/mob_spawn/human/fallout13/tribal/ranged
 	name = "Bow Hunter Spawn"
 	desc = "An entry point for bow hunters to join a battle."
