@@ -982,8 +982,7 @@ ATTACHMENTS
 		if(!HAS_TRAIT(user, TRAIT_INSANE_AIM))
 			bonus_spread += 60
 		else
-			 //you have both poor aim and insane aim, why?
-			bonus_spread += rand(0,50)
+			bonus_spread += rand(0,50)  //you have both poor aim and insane aim, why?
 
 /obj/item/gun/proc/getstamcost(mob/living/carbon/user)
 	. = recoil
