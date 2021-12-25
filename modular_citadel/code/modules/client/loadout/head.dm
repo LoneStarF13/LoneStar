@@ -214,7 +214,7 @@
 
 /datum/gear/head/usarmy/officer
 	name = "US Army officer's cap"
-	path = /obj/item/clothing/head/f13/army/general
+	path = /obj/item/clothing/head/f13/army/officer
 	cost = 3
 
 /datum/gear/head/chinese
