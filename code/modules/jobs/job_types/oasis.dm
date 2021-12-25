@@ -536,7 +536,7 @@ Mayor
 	backpack_contents = list(
 		/obj/item/storage/bag/money/small/settler = 1,
 		/obj/item/ammo_box/shotgun/bean = 2,
-		/obj/item/book/manual/chef_recipes = 1
+		/obj/item/book/manual/nuka_recipes = 1
 		)
 
 /datum/outfit/loadout/rugged
