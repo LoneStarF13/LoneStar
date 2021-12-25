@@ -516,8 +516,8 @@
 	path = /obj/item/clothing/under/f13/army
 	cost = 2
 
-/datum/gear/uniform/chinese/officer
-	name = "US Army combat officer's uniform"
+/datum/gear/uniform/usarmy/officer
+	name = "US Army officer's combat uniform"
 	path = /obj/item/clothing/under/f13/army/officer
 	cost = 3
 
