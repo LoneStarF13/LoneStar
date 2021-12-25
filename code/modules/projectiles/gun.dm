@@ -976,14 +976,14 @@ ATTACHMENTS
 		azoom = new(src)
 
 /obj/item/gun/proc/getinaccuracy(mob/living/user, bonus_spread, stamloss)
-    if(inaccuracy_modifier == 0)
-        return bonus_spread
-    if(HAS_TRAIT(user, TRAIT_POOR_AIM)) //nice shootin' tex
-        if(!HAS_TRAIT(user, TRAIT_INSANE_AIM))
-            bonus_spread += 60
-        else
-            //you have both poor aim and insane aim, why?
-            bonus_spread += rand(0,50)
+	if(inaccuracy_modifier == 0)
+		return bonus_spread
+	if(HAS_TRAIT(user, TRAIT_POOR_AIM)) //nice shootin' tex
+		if(!HAS_TRAIT(user, TRAIT_INSANE_AIM))
+			bonus_spread += 60
+		else
+			 //you have both poor aim and insane aim, why?
+			bonus_spread += rand(0,50)
 
 /obj/item/gun/proc/getstamcost(mob/living/carbon/user)
 	. = recoil
