@@ -19,7 +19,7 @@
 					/obj/item/reagent_containers/food/condiment/pack/soysauce = 5,
 					/obj/item/reagent_containers/food/condiment/saltshaker = 5,
 					/obj/item/reagent_containers/food/condiment/peppermill = 5,
-					/obj/item/book/manual/chef_recipes = 1)
+					/obj/item/book/manual/nuka_recipes = 1)
 	contraband = list(
 					/obj/item/kitchen/knife/butcher = 2,
 					/obj/item/reagent_containers/syringe = 3)
