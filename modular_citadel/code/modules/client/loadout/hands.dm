@@ -85,6 +85,10 @@
 	path = /obj/item/lighter
 	cost = 2
 
+/datum/gear/hands/cobpipe
+	name = "corn cob pipe"
+	path = /obj/item/clothing/mask/cigarette/pipe/cobpipe
+
 /datum/gear/hands/cigar
 	name = "cigar"
 	path = /obj/item/clothing/mask/cigarette/cigar
