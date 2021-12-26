@@ -625,8 +625,8 @@
 /obj/item/clothing/head/helmet/f13/combat/mk2/ncr
 	name = "reinforced NCR combat helmet"
 	desc = "(VI) An advanced pre-war titanium plated, ceramic coated, kevlar, padded helmet designed to withstand extreme punishment of all forms, repainted to the colour scheme of the New California Republic."
-	icon_state = "ncr_helmet"
-	item_state = "ncr_helmet"
+	icon_state = "ncr_helmet_mk2"
+	item_state = "ncr_helmet_mk2"
 
 /obj/item/clothing/head/helmet/f13/ncr/rangercombat
 	name = "ranger combat helmet"
