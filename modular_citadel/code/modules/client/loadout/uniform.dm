@@ -531,6 +531,16 @@
 	path = /obj/item/clothing/under/f13/army/officer
 	cost = 3
 
+/datum/gear/uniform/usnavy
+	name = "US Navy jumpsuit"
+	path = /obj/item/clothing/under/f13/navy
+	cost = 2
+
+/datum/gear/uniform/usnavy/officer
+	name = "US Navy officer's jumpsuit"
+	path = /obj/item/clothing/under/f13/navy/officer
+	cost = 3
+
 //CHINA
 
 /datum/gear/uniform/chinese
