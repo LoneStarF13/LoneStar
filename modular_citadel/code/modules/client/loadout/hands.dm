@@ -41,6 +41,16 @@
 	path = /obj/item/storage/backpack/cultpack 
 	cost = 3
 
+/datum/gear/hands/briefcase/crafted
+	name = "briefcase"
+	path = /obj/item/storage/briefcase/crafted 
+	cost = 2
+
+/datum/gear/hands/toolbox/mechanical/old
+	name = "rusty blue toolbox"
+	path = /obj/item/storage/toolbox/mechanical/old 
+	cost = 2
+
 /datum/gear/hands/cane
 	name = "cane"
 	path = /obj/item/cane
@@ -48,6 +58,18 @@
 /datum/gear/hands/cigarettes
 	name = "cigarette pack"
 	path = /obj/item/storage/fancy/cigarettes
+
+/datum/gear/hands/cigarettes/cigpack_bigboss
+	name = "\improper Big Boss Smokes"
+	path = /obj/item/storage/fancy/cigarettes/cigpack_bigboss
+
+/datum/gear/hands/cigarettes/cigpack_pyramid
+	name = "\improper Pyramid Smokes"
+	path = /obj/item/storage/fancy/cigarettes/cigpack_pyramid
+
+/datum/gear/hands/cigarettes/cigpack_greytort
+	name = "\improper Grey Tortoise Smokes"
+	path = /obj/item/storage/fancy/cigarettes/cigpack_greytort
 
 /datum/gear/hands/dice
 	name = "dice bag"
