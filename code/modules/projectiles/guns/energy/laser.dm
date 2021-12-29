@@ -224,7 +224,6 @@
 /obj/item/gun/energy/laser/wattz/recharger
 	name = "Recharger Pistol"
 	desc = "A recharger pistol manufactured by the Followers of the Apocalpyse. As the name implied, it charges its capacitor banks over time using radioactive decay."
-	slowdown = 0.1
 	can_remove = 0
 	can_charge = 0
 	selfcharge = 1
@@ -259,7 +258,6 @@
 	name = "AEP5-CR"
 	desc = "A laser pistol that has been modified for less-than-lethal work."
 	ammo_type = list(/obj/item/projectile/beam/laser/pistol/hitscan/stun)
-	item_state = "AEP5CR"
 	icon_state = "AEP5CR"
 	w_class = WEIGHT_CLASS_SMALL
 
