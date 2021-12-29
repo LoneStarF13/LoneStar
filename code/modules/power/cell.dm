@@ -470,7 +470,7 @@
 	desc = "A miniature microfusion reactor connected to capacitor banks. This is not a removable part, you messed up."
 	icon = 'icons/fallout/objects/powercells.dmi'
 	icon_state = "ec-full"
-	maxcharge = 1000
+	maxcharge = 2000
 
 /obj/item/stock_parts/cell/ammo/ec/update_icon()
 	switch(charge)
