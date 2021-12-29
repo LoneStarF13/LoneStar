@@ -272,7 +272,7 @@
 
 /datum/crafting_recipe/legionriothelmet_broken
 	name = "Legion Riot Helmet"
-	result = /obj/item/clothing/suit/armor/f13/legion/legionriothelmet
+	result = /obj/item/clothing/head/helmet/f13/legion/legionriothelmet
 	reqs = list(/obj/item/clothing/head/helmet/f13/rangerbroken = 1,
 				/obj/item/toy/crayon/spraycan)
 	time = 30
@@ -292,7 +292,7 @@
 
 /datum/crafting_recipe/legionriothelmet_ncr
 	name = "Legion Riot Helmet"
-	result = /obj/item/clothing/suit/armor/f13/legion/legionriothelmet
+	result = /obj/item/clothing/head/helmet/f13/legion/legionriothelmet
 	reqs = list(/obj/item/clothing/head/helmet/f13/ncr/rangercombat = 1,
 				/obj/item/toy/crayon/spraycan)
 	time = 30
