@@ -286,7 +286,7 @@
 	armor = list("tier" = 5, "energy" = 35, "bomb" = 39, "bio" = 60, "rad" = 20, "fire" = 80, "acid" = 0)
 
 /obj/item/clothing/suit/armor/f13/legion/legionriot
-	name = "riot legion armor"
+	name = "legion riot armor"
 	icon = 'icons/fallout/clothing/armored_medium.dmi'
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/armor_medium.dmi'
 	desc = "(V) It's a set of standard legion armor strengthened using numerous parts taken from a set of riot armor, still retaining great mobility with added protection."
