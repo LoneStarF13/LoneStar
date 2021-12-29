@@ -223,6 +223,7 @@
 /obj/item/flag/khan
 	name = "Great Khans flag"
 	desc = "A flag worn and weathered from a long cherished history. A decorated smiling skull smiles mockingly upon those who challenge it."
+	icon_state = "khanflag"
 	item_state = "khanflag"
 	faction = "Great Khans"
 
