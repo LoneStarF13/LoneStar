@@ -11,16 +11,6 @@
 	name = "beanie"
 	path = /obj/item/clothing/head/beanie
 
-/datum/gear/head/chinese
-	name = "Chinese Army cap"
-	path = /obj/item/clothing/head/f13/chinese
-	cost = 2
-
-/datum/gear/head/chineseofficer
-	name = "Chinese Army officer's cap"
-	path = /obj/item/clothing/head/f13/chinese/officer
-	cost = 3
-
 /datum/gear/head/stripedbeanie
 	name = "striped beanie"
 	path = /obj/item/clothing/head/beanie/striped
@@ -216,6 +206,49 @@
 	name = "(III) pot helmet"
 	path = /obj/item/clothing/head/f13/pot
 	cost = 4
+
+//POLICE
+
+/datum/gear/head/police
+	name = "Police Officer's cap"
+	path = /obj/item/clothing/head/f13/police/officer
+	cost = 2
+
+/datum/gear/head/police/sergeant
+	name = "Police campaign hat"
+	path = /obj/item/clothing/head/f13/police/sergeant
+	cost = 2
+
+/datum/gear/head/police/lieutenant
+	name = "Police Lieutenant's cap"
+	path = /obj/item/clothing/head/f13/army/officer
+	cost = 3
+
+//US
+
+/datum/gear/head/usarmy
+	name = "US Army field cap"
+	path = /obj/item/clothing/head/f13/army
+	cost = 2
+
+/datum/gear/head/usarmy/officer
+	name = "US Army officer's cap"
+	path = /obj/item/clothing/head/f13/army/officer
+	cost = 3
+
+//CHINA
+
+/datum/gear/head/chinese
+	name = "PLA field cap"
+	path = /obj/item/clothing/head/f13/chinese
+	cost = 2
+
+/datum/gear/head/chinese/officer
+	name = "PLA officer's cap"
+	path = /obj/item/clothing/head/f13/chinese/officer
+	cost = 3
+
+//NCR
 
 /datum/gear/head/ncr_sapper
 	name = "NCR sapper beret"
