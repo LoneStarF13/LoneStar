@@ -7015,16 +7015,6 @@
 	icon_state = "floorrusty"
 	},
 /area/f13/city)
-"dij" = (
-/obj/structure/barricade/wooden/strong,
-/obj/structure/barricade/wooden/planks/pregame,
-/obj/structure/decoration/rag,
-/obj/item/flag/khan{
-	pixel_x = -14;
-	pixel_y = 16
-	},
-/turf/open/indestructible/ground/outside/desert,
-/area/f13/wasteland)
 "dit" = (
 /turf/closed/wall/f13/supermart,
 /area/f13/building)
@@ -7087,13 +7077,6 @@
 	},
 /turf/open/floor/wood,
 /area/f13/raiders)
-"djl" = (
-/obj/item/flag/khan{
-	pixel_x = 4;
-	pixel_y = -10
-	},
-/turf/open/indestructible/ground/outside/desert,
-/area/f13/wasteland)
 "djI" = (
 /obj/machinery/workbench,
 /turf/open/floor/f13/wood,
@@ -18975,6 +18958,13 @@
 	icon_state = "floorrusty"
 	},
 /area/f13/building)
+"ied" = (
+/obj/item/flag/khan{
+	pixel_x = 4;
+	pixel_y = -10
+	},
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/wasteland)
 "iez" = (
 /obj/structure/wreck/trash/machinepiletwo,
 /obj/effect/decal/cleanable/oil{
@@ -21899,8 +21889,16 @@
 	},
 /area/f13/wasteland)
 "jnN" = (
+/obj/structure/barricade/wooden/strong,
+/obj/structure/barricade/wooden/planks/pregame,
+/obj/structure/decoration/rag{
+	icon_state = "skin"
+	},
+/obj/item/flag/khan{
+	pixel_y = 17
+	},
 /turf/open/indestructible/ground/outside/desert,
-/area/f13/village)
+/area/f13/wasteland)
 "jnX" = (
 /obj/structure/simple_door/room,
 /turf/open/floor/f13/wood,
@@ -23325,6 +23323,15 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13/wood,
 /area/f13/building)
+"jUG" = (
+/obj/structure/barricade/wooden/strong,
+/obj/structure/decoration/rag,
+/obj/structure/barricade/wooden/planks/pregame,
+/obj/item/flag/khan{
+	pixel_y = 16
+	},
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/wasteland)
 "jUS" = (
 /obj/structure/car,
 /turf/open/indestructible/ground/outside/road{
@@ -31667,17 +31674,6 @@
 	},
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/wasteland)
-"nHk" = (
-/obj/structure/barricade/wooden/strong,
-/obj/structure/barricade/wooden/planks/pregame,
-/obj/structure/decoration/rag{
-	icon_state = "skin"
-	},
-/obj/item/flag/khan{
-	pixel_y = 17
-	},
-/turf/open/indestructible/ground/outside/desert,
-/area/f13/wasteland)
 "nHl" = (
 /obj/structure/bed/mattress{
 	icon_state = "mattress5"
@@ -37378,6 +37374,16 @@
 	},
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
+"qqx" = (
+/obj/structure/barricade/wooden/strong,
+/obj/structure/barricade/wooden/planks/pregame,
+/obj/structure/decoration/rag,
+/obj/item/flag/khan{
+	pixel_x = -14;
+	pixel_y = 16
+	},
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/wasteland)
 "qqK" = (
 /obj/structure/closet/bus,
 /turf/open/indestructible/ground/outside/road{
@@ -39831,15 +39837,6 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plasteel/f13/vault_floor/white,
 /area/f13/building)
-"rzt" = (
-/obj/structure/barricade/wooden/strong,
-/obj/structure/decoration/rag,
-/obj/structure/barricade/wooden/planks/pregame,
-/obj/item/flag/khan{
-	pixel_y = 16
-	},
-/turf/open/indestructible/ground/outside/desert,
-/area/f13/wasteland)
 "rzz" = (
 /obj/machinery/mineral/stacking_unit_console{
 	machinedir = 5
@@ -68399,7 +68396,7 @@ jxH
 fyf
 fyf
 fyf
-dij
+qqx
 fyf
 hLi
 gcK
@@ -68652,7 +68649,7 @@ pEv
 ptP
 ptP
 fyf
-rzt
+jUG
 fyf
 fyf
 fyf
@@ -69910,11 +69907,11 @@ gcK
 gcK
 gcK
 ktB
-nHk
+jnN
 cOU
 fyf
 fyf
-djl
+ied
 nlO
 mfD
 pon
@@ -70691,7 +70688,7 @@ gcK
 gcK
 gcK
 gcK
-jnN
+fyf
 fyf
 fyf
 fyf
