@@ -354,7 +354,7 @@ datum/reagent/medicine/super_stimpak/on_mob_life(mob/living/M)
 			M.set_disgust(12)
 			M.adjustStaminaLoss(30*REAGENTS_EFFECT_MULTIPLIER)
 			to_chat(M, "<span class='danger'>Your stomach churns, your eyes cloud and you're pretty sure you just popped a lung. You shouldn't take so much med-X at once. </span>")
-		if(81) to 120)
+		if(81 to 120)
 			M.confused +=40
 			M.blur_eyes(30)
 			M.losebreath += 10
