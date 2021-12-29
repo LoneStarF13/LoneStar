@@ -254,12 +254,23 @@
 	equipsound = 'sound/f13weapons/equipsounds/aep7equip.ogg'
 
 //Compliance Regulator
-/obj/item/gun/energy/laser/pistol/complianceregulator
+/obj/item/gun/energy/laser/complianceregulator
 	name = "AEP5-CR"
 	desc = "A laser pistol that has been modified for less-than-lethal work."
 	ammo_type = list(/obj/item/projectile/beam/laser/pistol/hitscan/stun)
+	icon = 'icons/fallout/objects/guns/energy.dmi'
+	lefthand_file = 'icons/fallout/onmob/weapons/guns_lefthand.dmi'
+	righthand_file = 'icons/fallout/onmob/weapons/guns_righthand.dmi'
+	ammo_type = list(/obj/item/ammo_casing/energy/laser/pistol/hitscan)
+	cell_type = /obj/item/stock_parts/cell/ammo/ec
+	fire_delay = 0
+	slowdown = 0.2
 	icon_state = "AEP5CR"
+	icon_state = "AEP5CR"
+	slot_flags = ITEM_SLOT_BELT
+	w_class = WEIGHT_CLASS_NORMAL
 	w_class = WEIGHT_CLASS_SMALL
+	equipsound = 'sound/f13weapons/equipsounds/aep7equip.ogg'
 
 //Solar Scorcher
 /obj/item/gun/energy/laser/solar
