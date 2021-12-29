@@ -18767,18 +18767,6 @@
 	},
 /turf/open/floor/f13/wood,
 /area/f13/building)
-"iaB" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/railing{
-	layer = 4.1
-	},
-/obj/machinery/computer/shuttle/bunkerelevator{
-	dir = 4;
-	possible_destinations = "Vault_Ground;Vault_Level_1";
-	shuttleId = "cave_vault_elevator"
-	},
-/turf/open/floor/plasteel/elevatorshaft,
-/area/f13/caves)
 "iaL" = (
 /obj/effect/decal/marking,
 /turf/open/indestructible/ground/outside/road{
@@ -39328,18 +39316,6 @@
 	icon_state = "rubble"
 	},
 /area/f13/wasteland)
-"rjE" = (
-/obj/docking_port/stationary{
-	area_type = /area/f13;
-	dir = 8;
-	height = 2;
-	id = "Vault_Ground";
-	name = "Ground";
-	roundstart_template = /datum/map_template/shuttle/cave/vault/elevator;
-	width = 2
-	},
-/turf/open/floor/plasteel/elevatorshaft,
-/area/f13/caves)
 "rjH" = (
 /obj/machinery/hydroponics/soil,
 /turf/open/indestructible/ground/outside/dirt,
@@ -59636,7 +59612,7 @@ gcK
 ekW
 ggK
 gaV
-iaB
+ijK
 mvB
 mvB
 gaV
@@ -59895,7 +59871,7 @@ ggK
 gaV
 ijK
 mvB
-rjE
+mvB
 gaV
 ggK
 ggK
