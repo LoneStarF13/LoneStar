@@ -135,7 +135,7 @@ also: most hitscan weapons have more charge than their normal projectile counter
 
 /obj/item/ammo_casing/energy/laser/pistol/recharger/hitscan
 	projectile_type = /obj/item/projectile/beam/laser/recharger/hitscan
-	e_cost = 50 //20 shots
+	e_cost = 100 //20 shots
 	fire_sound = 'sound/f13weapons/aep7fire.ogg'
 
 /obj/item/ammo_casing/energy/laser/pistol/wattz
