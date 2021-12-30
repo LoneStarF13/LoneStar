@@ -13909,14 +13909,11 @@
 	},
 /area/f13/wasteland)
 "ggq" = (
-/obj/structure/fence{
-	dir = 4
-	},
+/obj/structure/simple_door/bunker/glass,
 /turf/open/indestructible/ground/outside/sidewalk{
-	dir = 9;
-	icon_state = "outerpavement"
+	icon_state = "horizontaloutermain1"
 	},
-/area/f13/wasteland)
+/area/f13/building)
 "ggs" = (
 /obj/structure/closet/crate/trashcart,
 /obj/item/trash/candy,
@@ -18777,9 +18774,9 @@
 	},
 /area/f13/building)
 "ibZ" = (
-/mob/living/simple_animal/hostile/eyebot,
-/turf/open/indestructible/ground/outside/road{
-	icon_state = "horizontalinnermain1"
+/obj/machinery/computer/shuttle/northbunkerelevator,
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "horizontaltopbordertop0"
 	},
 /area/f13/wasteland)
 "icn" = (
@@ -26681,10 +26678,17 @@
 /turf/open/floor/f13/wood,
 /area/f13/village)
 "lwu" = (
-/obj/structure/simple_door/bunker/glass,
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "horizontaloutermain1"
+/obj/docking_port/stationary{
+	area_type = /area/f13;
+	dwidth = 1;
+	height = 3;
+	id = "North_Ground";
+	json_key = null;
+	name = "Ground";
+	roundstart_template = /datum/map_template/shuttle/northbunker/elevator;
+	width = 4
 	},
+/turf/open/floor/plasteel/elevatorshaft,
 /area/f13/building)
 "lww" = (
 /obj/structure/chair/wood{
@@ -32635,9 +32639,9 @@
 /turf/open/floor/plasteel/f13/vault_floor/red/white,
 /area/f13/building)
 "oil" = (
-/obj/machinery/computer/shuttle/northbunkerelevator,
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "horizontaltopbordertop0"
+/mob/living/simple_animal/hostile/eyebot,
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontalinnermain1"
 	},
 /area/f13/wasteland)
 "oiu" = (
@@ -44014,18 +44018,14 @@
 /turf/open/floor/f13/wood,
 /area/f13/building)
 "tyd" = (
-/obj/docking_port/stationary{
-	area_type = /area/f13;
-	dwidth = 1;
-	height = 3;
-	id = "North_Ground";
-	json_key = null;
-	name = "Ground";
-	roundstart_template = /datum/map_template/shuttle/northbunker/elevator;
-	width = 4
+/obj/structure/fence{
+	dir = 4
 	},
-/turf/open/floor/plasteel/elevatorshaft,
-/area/f13/building)
+/turf/open/indestructible/ground/outside/sidewalk{
+	dir = 9;
+	icon_state = "outerpavement"
+	},
+/area/f13/wasteland)
 "tyf" = (
 /turf/closed/wall,
 /area/f13/ncr)
@@ -78389,6 +78389,7 @@ gcK
 gcK
 uaf
 uaf
+cpK
 unI
 qvQ
 mHW
@@ -78398,8 +78399,7 @@ mHW
 mHW
 wGJ
 ehN
-xbX
-xbX
+ehN
 xbX
 hBN
 aJb
@@ -78646,6 +78646,7 @@ gcK
 dkg
 uaf
 dkg
+cpK
 unI
 qvQ
 ehN
@@ -78657,7 +78658,6 @@ wGJ
 wGJ
 ehN
 ehN
-hOl
 sgz
 sgz
 sgz
@@ -78903,16 +78903,16 @@ gcK
 dkg
 dkg
 cpK
+cpK
 unI
 qvQ
 ehN
 wGJ
-ibZ
+oil
 mHW
 rbe
 wGJ
 ehN
-kaM
 kaM
 kaM
 qoS
@@ -79160,6 +79160,7 @@ gcK
 dkg
 dkg
 cpK
+cpK
 unI
 qvQ
 ehN
@@ -79171,7 +79172,6 @@ ehN
 ehN
 geM
 pMI
-ees
 ees
 ees
 deU
@@ -79412,6 +79412,7 @@ gcK
 gcK
 gcK
 gcK
+gcK
 mrq
 mrq
 mrq
@@ -79427,8 +79428,7 @@ wGJ
 wGJ
 gmX
 koD
-ggq
-ptf
+tyd
 fCg
 ptf
 ptf
@@ -79669,6 +79669,7 @@ gcK
 gcK
 gcK
 gcK
+gcK
 mrq
 tOL
 tOL
@@ -79685,7 +79686,6 @@ wGJ
 gmX
 koD
 lyY
-fyf
 fyf
 fyf
 fyf
@@ -79926,11 +79926,12 @@ gbL
 gcK
 gcK
 gcK
+gcK
 mrq
 tOL
 tOL
-tyd
 lwu
+ggq
 unI
 qvQ
 wGJ
@@ -79942,7 +79943,6 @@ pqO
 gmX
 koD
 pMI
-feL
 feL
 feL
 feL
@@ -80183,11 +80183,12 @@ gcK
 gcK
 gcK
 gcK
+gcK
 mrq
 tOL
 tOL
 tOL
-lwu
+ggq
 unI
 qvQ
 rbe
@@ -80198,7 +80199,6 @@ wGJ
 pqO
 gmX
 koD
-cpK
 cpK
 cpK
 dkg
@@ -80440,6 +80440,7 @@ gbL
 gcK
 gcK
 gcK
+gcK
 mrq
 tOL
 tOL
@@ -80456,7 +80457,6 @@ pqO
 gmX
 koD
 cpK
-dkg
 dkg
 uaf
 uaf
@@ -80697,12 +80697,13 @@ gcK
 gcK
 gcK
 gcK
+gcK
 mrq
 mrq
 mrq
 mrq
 mrq
-oil
+ibZ
 qvQ
 ehN
 wGJ
@@ -80713,7 +80714,6 @@ ehN
 ehN
 koD
 cpK
-dkg
 uaf
 qGZ
 trd
@@ -80959,6 +80959,7 @@ gcK
 gcK
 cpK
 cpK
+cpK
 unI
 xhJ
 kaM
@@ -80969,7 +80970,6 @@ kaM
 kaM
 huu
 koD
-dkg
 dkg
 dkg
 eme
@@ -81216,6 +81216,7 @@ gcK
 dkg
 cpK
 cpK
+cpK
 sIf
 ezp
 ees
@@ -81226,7 +81227,6 @@ ees
 ees
 ees
 sVF
-cpK
 cpK
 dkg
 uaf
