@@ -294,7 +294,7 @@ Great Khan
 	backpack_contents = list(
 		/obj/item/ammo_box/shotgun/buck=1, \
 		/obj/item/ammo_box/shotgun/bean=1, \
-		/obj/item/restraints/handcuffs=2)
+		/obj/item/restraints/legcuffs/bola/tactical=1)
 
 /datum/outfit/loadout/skirmisher
 	name = "Skirmisher"
