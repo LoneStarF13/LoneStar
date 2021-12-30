@@ -9158,16 +9158,11 @@
 	},
 /area/f13/building)
 "efR" = (
-/obj/structure/closet,
-/obj/item/clothing/under/rank/prisoner,
-/obj/item/clothing/shoes/sneakers/orange,
-/obj/item/restraints/handcuffs,
-/obj/item/instrument/guitar,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/f13{
-	icon_state = "floorrusty"
+/obj/item/picket_sign,
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "horizontaltopbordertop0"
 	},
-/area/f13/building)
+/area/f13/wasteland)
 "egn" = (
 /obj/structure/barricade/wooden,
 /obj/structure/decoration/rag,
@@ -9232,14 +9227,12 @@
 	},
 /area/f13/ncr)
 "ehK" = (
-/obj/item/storage/trash_stack{
-	icon_state = "trash_3"
+/obj/effect/decal/marking,
+/obj/item/picket_sign,
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontalbottombordertop0"
 	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/f13{
-	icon_state = "floorrusty"
-	},
-/area/f13/building)
+/area/f13/wasteland)
 "ehN" = (
 /turf/open/indestructible/ground/outside/road{
 	icon_state = "verticalinnermain0"
@@ -18843,6 +18836,10 @@
 	dir = 6
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/door/poddoor/shutters{
+	id = "policestationgarage";
+	name = "Police Station Garage"
+	},
 /turf/open/floor/f13{
 	icon_state = "floorrustysolid"
 	},
@@ -24576,6 +24573,10 @@
 	dir = 10
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/door/poddoor/shutters{
+	id = "policestationgarage";
+	name = "Police Station Garage"
+	},
 /turf/open/floor/f13{
 	icon_state = "floorrustysolid"
 	},
@@ -25329,6 +25330,7 @@
 /area/f13/village)
 "kQC" = (
 /obj/structure/simple_door/metal/store,
+/obj/structure/barricade/wooden/planks/pregame,
 /turf/open/floor/f13{
 	icon_state = "floorrustysolid"
 	},
@@ -27616,6 +27618,9 @@
 	},
 /obj/structure/chair{
 	dir = 4
+	},
+/obj/structure/sign/poster/official/report_crimes{
+	pixel_x = -32
 	},
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
@@ -30606,6 +30611,14 @@
 /obj/item/clothing/under/f13/raiderharness,
 /turf/open/floor/f13,
 /area/f13/building)
+"njh" = (
+/obj/structure/table,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/instrument/guitar,
+/turf/open/floor/f13{
+	icon_state = "floorrusty"
+	},
+/area/f13/building)
 "nkp" = (
 /turf/open/indestructible/ground/outside/sidewalk{
 	dir = 4;
@@ -31800,10 +31813,10 @@
 	},
 /area/f13/building)
 "nNn" = (
-/obj/item/picket_sign,
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "horizontalbottomborderbottom0"
+/obj/effect/decal/remains{
+	icon_state = "remains"
 	},
+/turf/open/indestructible/ground/outside/sidewalk,
 /area/f13/wasteland)
 "nNo" = (
 /obj/effect/turf_decal/stripes/white/line{
@@ -51869,6 +51882,12 @@
 	icon_state = "bluerustychess2"
 	},
 /area/f13/building)
+"xbF" = (
+/mob/living/simple_animal/hostile/ghoul/reaver,
+/turf/open/floor/f13{
+	icon_state = "floorrusty"
+	},
+/area/f13/building)
 "xbK" = (
 /mob/living/simple_animal/hostile/ghoul,
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -52794,11 +52813,16 @@
 	},
 /area/f13/building)
 "xws" = (
-/obj/effect/decal/remains{
-	icon_state = "remains"
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/button/door{
+	id = "policestationgarage";
+	name = "Police Station Garage";
+	pixel_y = 32
 	},
-/turf/open/indestructible/ground/outside/sidewalk,
-/area/f13/wasteland)
+/turf/open/floor/f13{
+	icon_state = "floorrusty"
+	},
+/area/f13/building)
 "xwW" = (
 /obj/structure/table/wood,
 /obj/item/clothing/suit/f13/robe_liz,
@@ -103204,8 +103228,8 @@ bLY
 pqO
 wGJ
 gmX
-nNn
-unI
+koD
+efR
 qvQ
 mHW
 sQX
@@ -103478,9 +103502,9 @@ lOz
 ujC
 gts
 qxA
-vYv
-vPu
-mdD
+xbF
+ujC
+ujC
 rKm
 gts
 rfd
@@ -103726,16 +103750,16 @@ sQX
 sQX
 dFQ
 ubg
-gmX
+hgQ
 koD
-xws
+cpK
 kxY
 sIO
 pPG
 ujC
 gts
 epF
-uVE
+ujC
 ujC
 uHA
 sSw
@@ -103987,12 +104011,12 @@ gmX
 dKW
 cpK
 gts
-ujC
+xws
 vWC
 ujC
 gts
 ozI
-ehK
+ujC
 vYv
 vYv
 xeQ
@@ -104240,7 +104264,7 @@ sQX
 sQX
 iLg
 ilG
-wFh
+ehK
 dKW
 cpK
 gts
@@ -104513,8 +104537,8 @@ gTY
 gts
 ujC
 ujC
-tnu
-efR
+njh
+tzB
 tzB
 gts
 ktB
@@ -105270,7 +105294,7 @@ sQX
 rbe
 gmX
 koD
-cpK
+nNn
 lRd
 ujC
 pSp
