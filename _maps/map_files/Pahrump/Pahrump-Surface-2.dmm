@@ -1298,6 +1298,10 @@
 	pixel_x = 7;
 	pixel_y = 7
 	},
+/obj/item/melee/onehanded/knife/survival{
+	pixel_x = -6;
+	pixel_y = 5
+	},
 /turf/open/floor/wood,
 /area/f13/raiders)
 "aAK" = (
@@ -2735,7 +2739,6 @@
 "bix" = (
 /obj/structure/rack,
 /obj/item/melee/classic_baton/telescopic,
-/obj/item/melee/onehanded/knife/survival,
 /turf/open/floor/wood,
 /area/f13/raiders)
 "biA" = (
@@ -8397,11 +8400,13 @@
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
 "dLB" = (
-/obj/structure/bed/dogbed,
-/obj/structure/bed/old,
-/obj/item/bedsheet/brown,
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/raiders)
+/obj/structure/flora/grass/wasteland{
+	icon_state = "tall_grass_2";
+	pixel_x = -3;
+	pixel_y = 5
+	},
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/wasteland)
 "dLO" = (
 /turf/closed/wall/f13/tunnel,
 /area/f13/building)
@@ -14812,6 +14817,7 @@
 /obj/structure/chair/f13chair1{
 	dir = 4
 	},
+/obj/effect/landmark/start/f13/pusher,
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/wasteland)
 "gwp" = (
@@ -21442,8 +21448,6 @@
 /obj/structure/destructible/tribal_torch/wall/lit{
 	dir = 8
 	},
-/obj/structure/bed/old,
-/obj/item/bedsheet/brown,
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/raiders)
 "jfG" = (
@@ -30044,6 +30048,24 @@
 /obj/effect/spawner/lootdrop/f13/armor/random,
 /turf/open/floor/f13/wood,
 /area/f13/village)
+"mWk" = (
+/obj/structure/barricade/tentclothedge{
+	dir = 1;
+	pixel_y = -3
+	},
+/obj/structure/decoration/rag{
+	icon_state = "skin"
+	},
+/obj/structure/decoration/rag{
+	icon_state = "skulls";
+	pixel_x = 4;
+	pixel_y = 2
+	},
+/turf/open/indestructible/ground/outside/dirt{
+	dir = 1;
+	icon_state = "dirt"
+	},
+/area/f13/raiders)
 "mWn" = (
 /obj/structure/rack,
 /obj/item/clothing/under/pants/jeans{
@@ -35639,6 +35661,12 @@
 	icon_state = "yellowrustyfull"
 	},
 /area/f13/building)
+"pCS" = (
+/obj/effect/landmark/start/f13/pusher,
+/turf/open/indestructible/ground/outside/dirt{
+	icon_state = "dirtcorner"
+	},
+/area/f13/wasteland)
 "pCX" = (
 /obj/machinery/grill,
 /turf/open/indestructible/ground/outside/dirt,
@@ -36929,6 +36957,17 @@
 	icon_state = "wasteland32"
 	},
 /area/f13/wasteland)
+"qfD" = (
+/obj/structure/barricade/tentclothedge{
+	dir = 1;
+	pixel_y = -3
+	},
+/obj/structure/decoration/rag,
+/turf/open/indestructible/ground/outside/dirt{
+	dir = 1;
+	icon_state = "dirt"
+	},
+/area/f13/raiders)
 "qfI" = (
 /obj/structure/chair/sofa/left{
 	dir = 8
@@ -44178,6 +44217,15 @@
 /obj/structure/chair/office/dark,
 /turf/open/floor/wood/f13/old/ruinedstraightwest,
 /area/f13/building)
+"tAE" = (
+/obj/structure/simple_door/tentflap_cloth{
+	pixel_y = -3
+	},
+/turf/open/indestructible/ground/outside/dirt{
+	dir = 1;
+	icon_state = "dirt"
+	},
+/area/f13/raiders)
 "tAX" = (
 /obj/structure/window/fulltile/house{
 	icon_state = "housewindowvertical"
@@ -52227,6 +52275,11 @@
 	icon_state = "reddirtyfull"
 	},
 /area/f13/building)
+"xfS" = (
+/obj/structure/closet/crate/trashcart,
+/obj/item/twohanded/baseball/spiked,
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/wasteland)
 "xgk" = (
 /turf/open/indestructible/ground/outside/water{
 	desc = "Deep, filtered pool water.";
@@ -61412,8 +61465,8 @@ gcK
 gcK
 gcK
 gcK
-gcK
-gcK
+ggK
+ggK
 gcK
 gcK
 ovO
@@ -61661,7 +61714,7 @@ ktB
 gcK
 gcK
 gcK
-gcK
+ktB
 gcK
 gcK
 ktB
@@ -63201,7 +63254,7 @@ gcK
 gcK
 gcK
 gcK
-gcK
+ktB
 gcK
 gcK
 gcK
@@ -63723,9 +63776,9 @@ gcK
 gcK
 gcK
 gcK
-gcK
-ktB
-gcK
+bKy
+uey
+fyf
 gcK
 ktB
 gcK
@@ -63978,14 +64031,14 @@ gcK
 gcK
 gcK
 gcK
-gcK
-gcK
-ktB
-gcK
-gcK
-gcK
-gcK
-gcK
+bKy
+fFu
+fyf
+fyf
+dLB
+fyf
+uey
+vAe
 oMn
 cWG
 rOm
@@ -64235,14 +64288,14 @@ gcK
 ktB
 gcK
 ktB
-gcK
-gcK
-ktB
-gcK
-gcK
-gcK
-gcK
-gcK
+fyf
+hna
+ims
+ims
+ims
+lHr
+fyf
+uey
 kCH
 mvv
 mvv
@@ -64492,20 +64545,20 @@ gcK
 gcK
 gcK
 gcK
-gcK
-gcK
-gcK
-gcK
-gcK
-gcK
-ktB
-gcK
+dLB
+jnE
+mnC
+kZp
+mnC
+mWk
+fyf
+fyf
 kCH
 mvv
 mvv
 mvv
 bpD
-qOV
+pCS
 wDc
 tBN
 mvv
@@ -64749,14 +64802,14 @@ ktB
 ktB
 gcK
 gcK
-gcK
-gcK
-gcK
-gcK
-gcK
-gcK
-gcK
-gcK
+fyf
+jnE
+iqZ
+kZp
+kZp
+tAE
+fyf
+xfS
 kCH
 pYj
 smk
@@ -65006,13 +65059,13 @@ gcK
 gcK
 gcK
 gcK
-gcK
-gcK
-ktB
-gcK
-gcK
-gcK
-gcK
+fyf
+jnE
+mnC
+kZp
+mnC
+qfD
+fyf
 mWy
 oNR
 mfD
@@ -65262,13 +65315,13 @@ gcK
 gcK
 gcK
 gcK
-gcK
-gcK
-gcK
-gcK
-gcK
-gcK
 fyf
+fyf
+hqL
+iyy
+iyy
+iyy
+mqp
 fyf
 fyf
 fyf
@@ -65517,13 +65570,13 @@ gcK
 ktB
 gcK
 gcK
-gcK
-gcK
 ktB
-gcK
-gcK
-gcK
-gcK
+bKy
+fyf
+fyf
+nxY
+fyf
+fyf
 bKy
 kUs
 vAe
@@ -65778,7 +65831,7 @@ gcK
 gcK
 gcK
 gcK
-gcK
+fyf
 hna
 ims
 ims
@@ -66552,7 +66605,7 @@ vCF
 bKy
 jnE
 mnC
-dLB
+kZp
 mnC
 may
 xGH

@@ -8671,6 +8671,7 @@
 /obj/item/book/granter/crafting_recipe/gunsmith_three,
 /obj/effect/decal/cleanable/dirt,
 /obj/item/crafting/timer,
+/obj/item/mining_scanner,
 /turf/open/floor/plasteel/darkpurple/side{
 	dir = 1
 	},
@@ -11811,6 +11812,11 @@
 /obj/structure/flora/ausbushes/fullgrass,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/underground/cave)
+"oei" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/vending/snack,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/vault)
 "oey" = (
 /obj/item/twohanded/required/kirbyplants/random,
 /turf/open/floor/f13/wood,
@@ -12692,7 +12698,9 @@
 /area/f13/bunker)
 "peV" = (
 /obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/radroach,
+/mob/living/simple_animal/hostile/radroach{
+	faction = list("raider")
+	},
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/f13/vault)
@@ -44393,7 +44401,7 @@ tid
 otc
 juS
 rgv
-tcZ
+oei
 tid
 qqZ
 rwb
@@ -44650,7 +44658,7 @@ tid
 dLh
 rgv
 rgv
-rgv
+tcZ
 tid
 iEP
 hFN
