@@ -2911,7 +2911,6 @@
 /area/f13/brotherhood/armory)
 "bVg" = (
 /obj/machinery/door/unpowered/securedoor{
-	autoclose = 1;
 	name = "Den Store Backroom";
 	req_one_access_txt = "87"
 	},
@@ -3781,8 +3780,7 @@
 /obj/structure/decoration/vent,
 /obj/structure/curtain,
 /obj/machinery/shower{
-	dir = 1;
-	icon_state = "shower"
+	dir = 1
 	},
 /turf/open/floor/f13{
 	icon_state = "bluedirtychess2"
@@ -6093,7 +6091,6 @@
 /area/f13/bunker)
 "dIN" = (
 /obj/machinery/door/unpowered/securedoor{
-	autoclose = 1;
 	name = "Den Torture Room";
 	req_one_access_txt = "87"
 	},
@@ -6271,7 +6268,6 @@
 /area/f13/clinic)
 "dOT" = (
 /obj/machinery/door/unpowered/securedoor{
-	autoclose = 1;
 	name = "Den Cells";
 	req_one_access_txt = "87"
 	},
@@ -6293,7 +6289,6 @@
 /area/f13/den)
 "dPl" = (
 /obj/machinery/door/unpowered/securedoor{
-	autoclose = 1;
 	name = "Den Clinic";
 	req_one_access_txt = "87"
 	},
@@ -6359,7 +6354,6 @@
 /area/f13/clinic)
 "dQG" = (
 /obj/machinery/door/unpowered/securedoor{
-	autoclose = 1;
 	name = "Den Clinic Spare Room";
 	req_one_access_txt = "87"
 	},
@@ -7220,7 +7214,6 @@
 /area/f13/brotherhood/operating)
 "epg" = (
 /obj/machinery/door/unpowered/securedoor{
-	autoclose = 1;
 	name = "Den Store";
 	req_one_access_txt = "87"
 	},
@@ -7911,7 +7904,6 @@
 "eJq" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/unpowered/securedoor{
-	autoclose = 1;
 	name = "Den Gatehouse";
 	req_one_access_txt = "87"
 	},
@@ -7963,7 +7955,6 @@
 /area/f13/bunker)
 "eLg" = (
 /obj/machinery/door/unpowered/securedoor{
-	autoclose = 1;
 	name = "Den Boss Office";
 	req_one_access_txt = "87"
 	},
@@ -21464,10 +21455,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/red,
 /area/f13/bunker)
-"poD" = (
-/obj/structure/decoration/vent/rusty,
-/turf/closed/wall/rust,
-/area/f13/den)
 "poN" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -21968,7 +21955,6 @@
 /area/f13/tcoms)
 "pHQ" = (
 /obj/machinery/door/unpowered/securedoor{
-	autoclose = 1;
 	name = "Storage";
 	req_one_access_txt = "87"
 	},
@@ -25706,11 +25692,14 @@
 /area/f13/brotherhood/rnd)
 "sud" = (
 /obj/machinery/door/unpowered/securedoor{
-	autoclose = 1;
 	name = "Den Dorms";
 	req_one_access_txt = "87"
 	},
 /turf/open/floor/wood/f13/old,
+/area/f13/den)
+"suh" = (
+/obj/structure/decoration/vent/rusty,
+/turf/closed/wall/rust,
 /area/f13/den)
 "suk" = (
 /obj/effect/decal/cleanable/cobweb/cobweb2,
@@ -31721,7 +31710,6 @@
 /area/f13/bunker)
 "xFA" = (
 /obj/machinery/door/unpowered/securedoor{
-	autoclose = 1;
 	name = "Den Clinic Backroom";
 	req_one_access_txt = "87"
 	},
@@ -60985,7 +60973,7 @@ wYo
 wYo
 wYo
 wYo
-poD
+suh
 tur
 tur
 afb

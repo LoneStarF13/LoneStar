@@ -434,9 +434,7 @@
 /area/f13/vault)
 "azm" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/nest/assaultron{
-	max_mobs = 2
-	},
+/obj/structure/nest/assaultron,
 /turf/open/floor/plasteel/f13/vault_floor/red,
 /area/f13/bunker)
 "azq" = (
@@ -464,8 +462,7 @@
 	dir = 4
 	},
 /obj/structure/disposalpipe/trunk{
-	dir = 1;
-	icon_state = "pipe-t"
+	dir = 1
 	},
 /obj/machinery/disposal/bin,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
@@ -483,8 +480,7 @@
 /area/f13/underground/cave)
 "aCJ" = (
 /obj/machinery/camera/autoname{
-	dir = 10;
-	icon_state = "camera"
+	dir = 10
 	},
 /obj/structure/table/glass,
 /obj/item/storage/box/monkeycubes,
@@ -954,6 +950,11 @@
 	icon_state = "darkdirtysolid"
 	},
 /area/f13/bunker)
+"bdM" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/vending/snack,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/vault)
 "ben" = (
 /obj/structure/stone_tile/burnt,
 /obj/structure/stone_tile/block/burnt,
@@ -3526,7 +3527,6 @@
 "egh" = (
 /obj/machinery/conveyor{
 	dir = 4;
-	icon_state = "conveyor_map";
 	id = "mining_area"
 	},
 /turf/open/floor/f13/wood,
@@ -3733,7 +3733,6 @@
 "eqx" = (
 /obj/machinery/conveyor{
 	dir = 6;
-	icon_state = "conveyor_map";
 	id = "mining_area"
 	},
 /turf/open/floor/f13/wood,
@@ -5197,8 +5196,7 @@
 /area/f13/vault)
 "gia" = (
 /obj/structure/fence/corner{
-	dir = 4;
-	icon_state = "corner"
+	dir = 4
 	},
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/f13/vault)
@@ -11812,11 +11810,6 @@
 /obj/structure/flora/ausbushes/fullgrass,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/underground/cave)
-"oei" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/vending/snack,
-/turf/open/floor/plasteel/f13/vault_floor/floor,
-/area/f13/vault)
 "oey" = (
 /obj/item/twohanded/required/kirbyplants/random,
 /turf/open/floor/f13/wood,
@@ -12485,7 +12478,6 @@
 "oSz" = (
 /obj/effect/decal/cleanable/dirt,
 /mob/living/simple_animal/hostile/securitron/sentrybot{
-	aggro_vision_range = 15;
 	color = "#FFFF00";
 	desc = "A pre-war military robot equipped with a high-yield gatling laser and improved dual fusion cores setup to detonate in the event of the robot's destruction. This one looks armored up and powered up to an exponential degree. Oh, fuck.";
 	extra_projectiles = 5;
@@ -12931,8 +12923,7 @@
 /area/f13/bunker)
 "psy" = (
 /obj/structure/fence{
-	dir = 1;
-	icon_state = "straight"
+	dir = 1
 	},
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/f13/vault)
@@ -13560,7 +13551,6 @@
 "qgW" = (
 /obj/machinery/conveyor{
 	dir = 8;
-	icon_state = "conveyor_map";
 	id = "mining_area"
 	},
 /obj/structure/plasticflaps,
@@ -14083,7 +14073,6 @@
 "qKk" = (
 /obj/machinery/conveyor{
 	dir = 10;
-	icon_state = "conveyor_map";
 	id = "mining_area"
 	},
 /turf/open/floor/f13/wood,
@@ -15625,8 +15614,7 @@
 /area/f13/bunker)
 "sCd" = (
 /obj/structure/chair/wood{
-	dir = 4;
-	icon_state = "wooden_chair_settler"
+	dir = 4
 	},
 /turf/open/floor/f13/wood,
 /area/f13/underground/cave)
@@ -16395,8 +16383,7 @@
 /area/f13/bunker)
 "tDL" = (
 /obj/structure/simple_door/metal/fence{
-	dir = 8;
-	icon_state = "fence"
+	dir = 8
 	},
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/f13/vault)
@@ -17713,8 +17700,7 @@
 /area/f13/vault)
 "vmW" = (
 /obj/structure/toilet{
-	dir = 8;
-	icon_state = "toilet00"
+	dir = 8
 	},
 /turf/open/floor/f13{
 	icon_state = "whitegreenrustychess"
@@ -17864,9 +17850,7 @@
 "vtP" = (
 /obj/structure/sink{
 	dir = 4;
-	icon_state = "sink";
-	pixel_x = 10;
-	pixel_y = 0
+	pixel_x = 10
 	},
 /obj/structure/mirror{
 	pixel_x = 32
@@ -44401,7 +44385,7 @@ tid
 otc
 juS
 rgv
-oei
+bdM
 tid
 qqZ
 rwb
