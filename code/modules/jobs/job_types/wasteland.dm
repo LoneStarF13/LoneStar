@@ -301,7 +301,7 @@ Great Khan
 	r_hand = obj/item/gun/ballistic/automatic/smg/mini_uzi
 	gloves = /obj/item/melee/unarmed/brass/spiked
 	backpack_contents = list(
-		/obj/item/ammo_box/magazine/uzi9mm=3)
+		/obj/item/ammo_box/magazine/uzim9mm=3)
 
 
 /*
