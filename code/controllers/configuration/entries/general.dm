@@ -216,19 +216,19 @@
 	config_entry_value = ""
 
 /datum/config_entry/string/discordurl
-	config_entry_value = "https://discord.gg/a5Nb6vgVcG"
+	config_entry_value = "https://discord.gg/NxWex2drF9"
 
 /datum/config_entry/string/wikiurltg
 	config_entry_value = ""
 
 /datum/config_entry/string/forumurl
-	config_entry_value = "https://discord.gg/a5Nb6vgVcG"
+	config_entry_value = null
 
 /datum/config_entry/string/rulesurl
-	config_entry_value = "https://discord.gg/a5Nb6vgVcG"
+	config_entry_value = null
 
 /datum/config_entry/string/githuburl
-	config_entry_value = "https://github.com/nokele/Fortune13"
+	config_entry_value = null
 
 /datum/config_entry/string/roundstatsurl
 
@@ -511,3 +511,7 @@
 /datum/config_entry/flag/atmos_equalize_enabled
 	default = FALSE
 
+// for tgs to ping certain channels. if the channel is tagged with server_status in tgs, it will send a message to that 
+// via send2chat("Hello world.", CONFIG_GET(string/discord_channel_serverstatus))
+/datum/config_entry/string/discord_channel_serverstatus
+	config_entry_value = "server_status"

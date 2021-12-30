@@ -637,13 +637,13 @@
 				/obj/item/twohanded/chainsaw,
 				/obj/item/twohanded/sledgehammer/rockethammer,
 				/obj/item/melee/powered/ripper,
-				/obj/item/melee/powerfist,
+				/obj/item/melee/powerfist/f13,
 				/obj/item/melee/transforming/energy/axe/protonaxe,
 				/obj/item/gun/ballistic/revolver/ballisticfist,
 				/obj/item/twohanded/sledgehammer/supersledge,
 				/obj/item/shishkebabpack,
 				/obj/item/melee/unarmed/deathclawgauntlet,
-				/obj/item/melee/powerfist/moleminer
+				/obj/item/melee/powerfist/f13/moleminer
 				)
 
 /obj/effect/spawner/lootdrop/f13/weapon/melee/random
@@ -1163,6 +1163,13 @@
 	items = list(
 				/obj/item/gun/ballistic/automatic/assault_rifle,
 				/obj/item/ammo_box/magazine/m556/rifle/assault/
+				)
+
+/obj/effect/spawner/bundle/f13/assault_carbine
+	name = "assault carbine and ammo spawner"
+	items = list(
+				/obj/item/gun/ballistic/automatic/assault_carbine,
+				/obj/item/ammo_box/magazine/m5mm
 				)
 
 /obj/effect/spawner/bundle/f13/marksman
