@@ -298,7 +298,7 @@ Great Khan
 
 /datum/outfit/loadout/skirmisher
 	name = "Skirmisher"
-	r_hand = obj/item/gun/ballistic/automatic/smg/mini_uzi
+	r_hand = /obj/item/gun/ballistic/automatic/smg/mini_uzi
 	gloves = /obj/item/melee/unarmed/brass/spiked
 	backpack_contents = list(
 		/obj/item/ammo_box/magazine/uzim9mm=3)
