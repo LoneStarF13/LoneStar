@@ -252,6 +252,7 @@
 	w_class = WEIGHT_CLASS_HUGE
 	burst_size = 5
 	burst_shot_delay = 1
+	ranged_attack_speed = CLICK_CD_RAPID
 	fire_delay = 5
 	spread = 10
 	weapon_weight = WEAPON_HEAVY
