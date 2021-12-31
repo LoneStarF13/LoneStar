@@ -268,7 +268,7 @@
 	armor = list("tier" = 6, "energy" = 35, "bomb" = 39, "bio" = 60, "rad" = 20, "fire" = 80, "acid" = 0)
 
 /obj/item/clothing/suit/armor/f13/legion/legionsalvaged
-	name = "legion salvaged power armor"
+	name = "legion heavy armor"
 	icon = 'icons/fallout/clothing/armored_medium.dmi'
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/armor_medium.dmi' // Inconsistent naming, clean all of the sprites and code up sometime
 	desc = "(VI) It's a set of standard legion armor strengthened using numerous parts taken from a suit of power armor, still retaining great mobility with added protection."

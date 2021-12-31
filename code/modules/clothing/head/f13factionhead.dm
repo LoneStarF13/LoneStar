@@ -365,7 +365,7 @@
 	resistance_flags = LAVA_PROOF | FIRE_PROOF
 
 /obj/item/clothing/head/helmet/f13/legion/legionsalvagedhelmet
-	name = "legion salvaged power armor helmet"
+	name = "legion heavy helmet"
 	desc = "(VII) A once-operational power armor helmet, repurposed by the Legion into a symbol of its might. It has a large plume of red horse hair across the top of it going horizontally."
 	icon_state = "legion-palacent"
 	item_state = "legion-palacent"
