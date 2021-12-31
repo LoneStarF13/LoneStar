@@ -272,7 +272,7 @@
 
 /datum/crafting_recipe/legionsalvaged_salvaged
 	name = "Legion Salvaged Power Armor"
-	result = /obj/item/clothing/suit/armored/heavy/salvaged_t45
+	result = /obj/item/clothing/suit/armor/f13/legion/legionsalvaged
 	reqs = list(/obj/item/clothing/suit/armored/heavy/salvaged_t45 = 1,
 				/obj/item/toy/crayon/spraycan)
 	time = 30
