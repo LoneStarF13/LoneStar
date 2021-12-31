@@ -432,7 +432,7 @@ Star Paladin
 		/obj/item/ammo_box/magazine/m45exp = 2,
 	)
 
-/datum/outfit/loadout/spaladina
+/datum/outfit/loadout/spaladinc
 	name = "Vanguard Senior Paladin"
 	backpack_contents = list(
 		/obj/item/minigunpackbal5mm = 1,

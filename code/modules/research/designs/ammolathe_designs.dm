@@ -277,7 +277,7 @@
 	name = "5mm FMJ ammo box"
 	id = "m5mm"
 	materials = list(/datum/material/iron = 24000, /datum/material/blackpowder = 1500)
-	build_path = /obj/item/ammo_box/m5mm
+	build_path = /obj/item/ammo_box/m5mmbox
 	category = list("initial", "Basic Ammo")
 
 /*
