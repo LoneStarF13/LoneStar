@@ -950,6 +950,7 @@
 	mag_type = /obj/item/ammo_box/magazine/m556/rifle
 	fire_delay = 3.25
 	spread = 1
+	burst_size = 1
 	can_attachments = FALSE
 	semi_auto = TRUE
 	automatic_burst_overlay = FALSE
