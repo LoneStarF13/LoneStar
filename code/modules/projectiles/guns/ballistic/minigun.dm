@@ -158,7 +158,7 @@
 	righthand_file = 'icons/mob/inhands/equipment/backpack_righthand.dmi'
 	slot_flags = ITEM_SLOT_BACK
 	w_class = WEIGHT_CLASS_HUGE
-	var/obj/item/gun/ballistic/minigunbal/gun
+	var/obj/item/gun/ballistic/minigunbal5mm/gun
 	var/armed = 0 //whether the gun is attached, 0 is attached, 1 is the gun is wielded.
 	var/overheat = 0
 	var/overheat_max = 30
@@ -253,9 +253,9 @@
 	burst_size = 5
 	burst_shot_delay = 1
 	fire_delay = 5
-	spread = 5
+	spread = 10
 	weapon_weight = WEAPON_HEAVY
-	extra_penetration = 10
+	extra_penetration = 0.29
 	extra_damage = -9
 	fire_sound = 'sound/f13weapons/assaultrifle_fire.ogg'
 	mag_type = /obj/item/ammo_box/magazine/internal/minigunbal5mm
