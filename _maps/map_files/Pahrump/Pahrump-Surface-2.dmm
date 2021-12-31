@@ -32008,6 +32008,10 @@
 /obj/item/reagent_containers/food/snacks/meatsalted,
 /turf/open/floor/f13/wood,
 /area/f13/legion)
+"nHW" = (
+/obj/structure/barricade/wooden/strong,
+/turf/closed/wall/f13/wood,
+/area/f13/caves)
 "nId" = (
 /obj/effect/decal/cleanable/glass,
 /obj/item/gun/ballistic/automatic/pistol/type17,
@@ -39182,6 +39186,17 @@
 	icon_state = "plating"
 	},
 /area/f13/building)
+"qXS" = (
+/obj/machinery/door/unpowered/securedoor{
+	max_integrity = 300;
+	obj_integrity = 300;
+	req_access_txt = "131"
+	},
+/obj/structure/decoration/rag{
+	icon_state = "skulls"
+	},
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/caves)
 "qYa" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/decoration/cctv{
@@ -96835,7 +96850,7 @@ fyf
 fyf
 fyf
 fyf
-wnA
+nHW
 wnA
 gcK
 gcK
@@ -97092,7 +97107,7 @@ fyf
 fyf
 fyf
 fyf
-ggK
+qXS
 ggK
 ggK
 wnA
@@ -97348,8 +97363,8 @@ fyf
 fyf
 gcK
 gcK
+nHW
 wnA
-ggK
 ggK
 ggK
 ggK
