@@ -247,7 +247,7 @@
 	icon_state = "minigunbal_spin"
 	item_state = "minigun"
 	flags_1 = CONDUCT_1
-	slowdown = 5
+	slowdown = 2
 	slot_flags = null
 	w_class = WEIGHT_CLASS_HUGE
 	burst_size = 5
