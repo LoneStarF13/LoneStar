@@ -263,7 +263,7 @@
 /datum/crafting_recipe/legionsalvaged_ncr
 	name = "Legion Salvaged Power Armor"
 	result = /obj/item/clothing/suit/armor/f13/legion/legionsalvaged
-	reqs = list(/obj/item/clothing/suit/armor/f13/power_armor/ncr = 1,
+	reqs = list(/obj/item/clothing/suit/armored/heavy/salvaged_NCR = 1,
 				/obj/item/toy/crayon/spraycan)
 	time = 30
 	category = CAT_CLOTHING
