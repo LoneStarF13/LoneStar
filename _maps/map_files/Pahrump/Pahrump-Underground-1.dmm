@@ -7477,6 +7477,12 @@
 /obj/machinery/light,
 /turf/open/floor/wood/f13,
 /area/f13/den)
+"eqA" = (
+/obj/structure/nest/deathclaw,
+/turf/open/floor/f13{
+	icon_state = "yellowdirtyfull"
+	},
+/area/f13/clinic)
 "eqD" = (
 /obj/machinery/smartfridge/food,
 /obj/structure/window/reinforced{
@@ -7877,6 +7883,18 @@
 /obj/machinery/vending/cola,
 /obj/machinery/light/small{
 	dir = 8
+	},
+/turf/open/floor/f13{
+	icon_state = "yellowdirtyfull"
+	},
+/area/f13/clinic)
+"eDi" = (
+/obj/structure/table,
+/obj/machinery/computer/terminal{
+	dir = 8;
+	doc_content_1 = "500 lbs. of miscellaneous biomatter. 1000 lbs. of purified water. x4 uranium fuel rods (model number 188A)";
+	doc_title_1 = "Research Station WYVERN Requistion Log #37";
+	termtag = "Secret"
 	},
 /turf/open/floor/f13{
 	icon_state = "yellowdirtyfull"
@@ -8348,11 +8366,10 @@
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/f13/brotherhood/mining)
 "ePT" = (
-/obj/structure/nest/deathclaw,
-/turf/open/floor/f13{
-	icon_state = "yellowdirtyfull"
-	},
-/area/f13/clinic)
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/computer/terminal,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/f13/bunker)
 "eQC" = (
 /obj/machinery/telecomms/server/presets/engineering,
 /turf/open/floor/plasteel/dark/telecomms/mainframe,
@@ -11155,11 +11172,17 @@
 /area/f13/den)
 "gAp" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/item/paper,
 /obj/structure/table/reinforced,
 /obj/machinery/button/door{
 	id = "hate";
-	name = "Door Control"
+	name = "Door Control";
+	pixel_x = -8;
+	pixel_y = 7
+	},
+/obj/machinery/computer/terminal{
+	doc_content_1 = "This place is a fucking mess. Still, there's plenty of old army shit, plus security doors and gun turrets we can fix up. Should make for a good hideout. Bobby and Fuckbarrel swear they can hear screaming coming from the rock, but they're just pussies. Made em drag some barrels of water out from the old camp for not shutting up about it.";
+	doc_title_1 = "First Entry";
+	pixel_x = 5
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/bunker)
@@ -15135,8 +15158,11 @@
 /area/f13/brotherhood/archives)
 "jzC" = (
 /obj/structure/table,
-/obj/effect/spawner/lootdrop/f13/medical/wasteland/meds,
-/obj/effect/spawner/lootdrop/f13/weapon/gun/ballistic/high,
+/obj/machinery/computer/terminal{
+	dir = 8;
+	doc_content_1 = "Turns out those two bitches weren't being pussies. We managed to get the locks into some old medical bay opened up, and we all heard the yelling. Less yelling, more some fucking pantsshittingly nasty nightstalker death scream. I don't know why the fuck we bothered opening this place up. Now we had to go through a hundred pounds of steel and an entire barrel of welder fuel to seal off those rooms and that freaky-ass meat monster. Fuck. I can still hear it.";
+	doc_title_1 = "Second Entry"
+	},
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowdirtyfull"
 	},
@@ -17686,13 +17712,12 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/brotherhood/operations)
 "lDD" = (
-/obj/item/paper_bin{
-	pixel_y = 6
-	},
-/obj/item/pen{
-	pixel_y = 9
-	},
 /obj/structure/table,
+/obj/machinery/computer/terminal{
+	dir = 4;
+	doc_content_1 = "Fucking bastard. Right before we're supposed to start shipping out the combat-claws, one of the eggheads has a breakdown. 'Wah, wah, we're hurting these beautiful creatures', cry me a fucking river. Unfortunately, he decided to have the 'beautiful creatures' hurt us instead. He released all of the shitty fucks into the base, and made sure to set the cloning pods to overdrive to pump out more of them. Deathclaws can rip open Advanced Power Armor like it's made of paper, and Control isn't willing to send us any robots or heavier munitions to clear the base out. So we're abandoning ship. What a fucking waste.";
+	doc_title_1 = "Research Station WYVERN Security Log #89"
+	},
 /turf/open/floor/f13{
 	icon_state = "greenrustyfull"
 	},
@@ -20505,6 +20530,12 @@
 	},
 /area/f13/den)
 "nQe" = (
+/obj/item/paper_bin{
+	pixel_y = 6
+	},
+/obj/item/pen{
+	pixel_y = 9
+	},
 /obj/structure/table,
 /turf/open/floor/f13{
 	icon_state = "greenrustyfull"
@@ -23881,6 +23912,17 @@
 /obj/item/trash/f13/dog,
 /turf/open/floor/f13/wood,
 /area/f13/building)
+"qsc" = (
+/obj/structure/table,
+/obj/machinery/computer/terminal{
+	dir = 8;
+	doc_content_1 = "The cloned deathclaws are coming along well. We've been able to get them to respond to verbal commands and hand signals so far, though the assault teams are questioning their usefulness--the deathclaws' intelligence and reaction speed is slowed by the gene and chemical treatments we're using to keep them docile for training.";
+	doc_title_1 = "Research Station WYVERN Lab Log #44"
+	},
+/turf/open/floor/f13{
+	icon_state = "purplefull"
+	},
+/area/f13/clinic)
 "qsi" = (
 /obj/structure/table/booth,
 /obj/effect/decal/cleanable/glass,
@@ -25748,6 +25790,14 @@
 	icon_state = "tealwhrusty"
 	},
 /area/f13/den)
+"rGs" = (
+/obj/structure/table,
+/obj/effect/spawner/lootdrop/f13/medical/wasteland/meds,
+/obj/effect/spawner/lootdrop/f13/weapon/gun/ballistic/high,
+/turf/open/floor/plasteel/f13{
+	icon_state = "yellowdirtyfull"
+	},
+/area/f13/bunker)
 "rGw" = (
 /obj/effect/decal/cleanable/cobweb,
 /turf/open/indestructible/ground/inside/mountain,
@@ -26250,6 +26300,11 @@
 /area/f13/tunnel)
 "saX" = (
 /obj/structure/table,
+/obj/machinery/computer/terminal{
+	dir = 1;
+	doc_content_1 = "Fuck this place. We tried to break into another part of the base. Boss found a map on a computer pointing out an armory, and went fucking psycho about breaking in and looting whatever shit the army left in here. It worked and it didn't. We managed to find some little bunker shitshack with sweet guns and a goddamn suit of power armor in it, but before we could get it out, boom. Deathclaws. They must've heard us digging to the shitshack. I managed to get away and close the tunnel we made with some dynamite, but a few guys got shredded. Fuck.";
+	doc_title_1 = "Third Entry"
+	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/bunker)
 "sbt" = (
@@ -37628,7 +37683,7 @@ puJ
 puJ
 puJ
 egg
-khL
+qsc
 uls
 xIF
 puJ
@@ -38914,7 +38969,7 @@ wFL
 lVt
 mxI
 lVt
-ePT
+lVt
 lVt
 lVt
 wFL
@@ -39427,7 +39482,7 @@ puJ
 mDR
 puJ
 ciF
-pqV
+eDi
 xIk
 iYk
 puJ
@@ -39684,7 +39739,7 @@ puJ
 lVt
 eCN
 lVt
-lVt
+eqA
 lVt
 lVt
 kzO
@@ -57602,7 +57657,7 @@ cJH
 dOf
 xSi
 ecp
-ecp
+ePT
 guz
 ecp
 xSi
@@ -57864,7 +57919,7 @@ dOf
 gWc
 ecp
 fLU
-iVt
+rGs
 jzC
 jXS
 kCb
@@ -60431,7 +60486,7 @@ eOx
 foP
 fYq
 cJH
-hkR
+gbY
 hMQ
 cJH
 jfa
@@ -61460,7 +61515,7 @@ ecp
 fLU
 fLU
 fLU
-gbY
+hkR
 fLU
 fLU
 fLU

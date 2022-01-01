@@ -599,6 +599,19 @@
 	icon_state = "bluerustychess2"
 	},
 /area/f13/bunker)
+"sO" = (
+/obj/structure/table,
+/obj/machinery/computer/terminal{
+	dir = 1;
+	doc_content_1 = "++AUTONOMOUS BIOMONITOR LOGS++ ++ATTEMPTING TO CONNECT TO POSEIDONET...FAILED++ ++PERSONNEL BIOSIGNS: ALL DECEASED++ ++ATTEMPTING TO CONNECT TO POSEIDONET...FAILED++ ++ATTEMPTING TO CONNECT TO POSEIDONET...FAILED++ ++ATTEMPTING TO CONNECT TO POSEIDONET...FAILED++ ++OVERRIDE COMMUNICATIONS SYSTEM++ ++BROADCASTING RADIO HAIL ON MILITARY FREQUENCIES++ ++NO RESPONSE++ ++BROADCASTING RADIO HAIL ON POLICE FREQUENCIES++ ++NO RESPONSE++ ++BROADCASTING RADIO HAIL ON CIVILIAN FREQUENCIES++ ++NO RESPONSE++";
+	doc_title_1 = "Automatic Emergency Radio Hail";
+	termtag = "Business"
+	},
+/turf/open/floor/plasteel/barber{
+	icon = 'icons/turf/f13floors2.dmi';
+	icon_state = "bluerustychess2"
+	},
+/area/f13/bunker)
 "ti" = (
 /obj/structure/closet/crate/bin,
 /turf/open/floor/plasteel/barber{
@@ -1393,7 +1406,11 @@
 /area/f13/underground/cave)
 "RD" = (
 /obj/structure/table,
-/obj/item/storage/belt/medical,
+/obj/machinery/computer/terminal{
+	dir = 8;
+	doc_content_1 = "++OH DEAR. OUR MEDICAL BAY HAS BEEN NEEDING RESTOCKING FOR ALMOST 2000 DAYS, AND NOT A SINGLE CRATE HAS SHOWN UP. I SAY, THE ARMY IS SLACKING IN ITS GOD-GIVEN DUTIES!++";
+	doc_title_1 = "Third Entry"
+	},
 /turf/open/floor/plasteel/barber{
 	icon = 'icons/turf/f13floors2.dmi';
 	icon_state = "bluerustychess2"
@@ -1463,6 +1480,8 @@
 /obj/structure/table,
 /obj/machinery/computer/terminal{
 	dir = 8;
+	doc_content_1 = "CAN TYPE BY HOLDING STICKS IN FINGERS. MASTER TOLD US THERE WERE NORMALS HERE FOR THE UNITY, AND GUNS FOR US. NO NORMALS, NOT LOTS OF GUNS. THE SARJENT SAYS WE GO BACK TO MARIPOSA SOON. HOPE WE FIND SQUISHIES TO SMASH ON WAY BACK.";
+	doc_title_1 = "Second Entry";
 	termtag = "Business"
 	},
 /turf/open/floor/plasteel/barber{
@@ -2650,7 +2669,7 @@ Rl
 Rl
 xG
 qA
-qN
+sO
 XM
 XM
 Oh

@@ -215,8 +215,11 @@
 /area/f13/bunker)
 "dS" = (
 /obj/structure/table/reinforced,
-/obj/item/paper_bin/carbon,
-/obj/item/pen/fountain,
+/obj/machinery/computer/terminal{
+	dir = 4;
+	doc_content_1 = "Author: MAJ. M. Schuster.   Still in Yuma. Still watching these stupid vats. I have no idea what the CC are even trying to do with this bullshit experimental set. Everything we work on just comes out looking like a meatloaf with eyes and tentacles. Plus, we don't have the material to soundproof the interior walls, so I can hear the dumb shits screaming all night.";
+	doc_title_1 = "Log 87"
+	},
 /turf/open/floor/plasteel/barber{
 	icon = 'icons/turf/f13floors2.dmi';
 	icon_state = "bluerustychess2"
@@ -854,7 +857,9 @@
 "qa" = (
 /obj/structure/table,
 /obj/machinery/computer/terminal{
-	dir = 1
+	dir = 1;
+	doc_content_1 = "Author: MAJ. M. Schuster.    Control is happy. They sent us an ice cream maker. It doesn't help that we still have a quota of these freaks to make, and that we can still hear them yapping all hours, but hey. It's ice cream.";
+	doc_title_1 = "Log 94"
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
@@ -1404,6 +1409,11 @@
 /area/f13/bunker)
 "As" = (
 /obj/structure/table,
+/obj/machinery/computer/terminal{
+	dir = 1;
+	doc_content_1 = "Author: MAJ. M. Schuster.       I'll be damned. They're not just expanding our little facility, they're connecting it to Research Station WYVERN. Setting up an elevator and everything. Guess we'll be making deathclaw meatloaf soon.";
+	doc_title_1 = "Log 98"
+	},
 /turf/open/floor/plating/tunnel{
 	icon_state = "tunnelrusty"
 	},
@@ -2158,7 +2168,8 @@
 /area/f13/bunker)
 "NZ" = (
 /obj/structure/table/reinforced,
-/obj/effect/decal/cleanable/dirt,
+/obj/item/paper_bin/carbon,
+/obj/item/pen/fountain,
 /turf/open/floor/plasteel/barber{
 	icon = 'icons/turf/f13floors2.dmi';
 	icon_state = "bluerustychess2"
@@ -4260,7 +4271,7 @@ rW
 rW
 BD
 lp
-lp
+yB
 lp
 tS
 DQ
@@ -4345,7 +4356,7 @@ rW
 lp
 KG
 AK
-yB
+lp
 Wy
 BD
 oo

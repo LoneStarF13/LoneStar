@@ -178,7 +178,7 @@
 /turf/open/floor/grass,
 /area/f13/bunker)
 "eZ" = (
-/obj/structure/table/wood,
+/obj/structure/junk/small/table,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/bunker)
 "fb" = (
@@ -364,7 +364,12 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/bunker)
 "ka" = (
-/obj/machinery/computer,
+/obj/structure/table/reinforced,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/computer/terminal{
+	doc_content_1 = "All hydroponics bays are operating at [100]% capacity.   All experimental Botano-Bays (Trademark of West-Tek) operating at [100]% capacity.      --Sysop Note: I've barricaded myself in the control room. Who would've thought plants get this pissy when they catch the flu?";
+	doc_title_1 = "Welcome to the Med-Tek automated botanical maintenance array!"
+	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/bunker)
 "kj" = (
@@ -600,10 +605,8 @@
 /turf/open/floor/grass,
 /area/f13/bunker)
 "sg" = (
+/obj/machinery/plantgenes,
 /obj/structure/table/reinforced,
-/obj/item/stack/f13Cash/caps{
-	amount = 121
-	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/bunker)
 "si" = (
@@ -879,8 +882,11 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/bunker)
 "zv" = (
-/obj/machinery/plantgenes,
 /obj/structure/table/reinforced,
+/obj/machinery/computer/terminal{
+	doc_content_1 = "All hydroponics bays are operating at [100]% capacity.  All experimental Botano-Bays (Trademark of West-Tek) operating at [100]% capacity.          --Sysop Note: All good so far. Corporate is trying to use some pitcher plant subspecies as an organic centrifuge. Really living in the future.";
+	doc_title_1 = "Welcome to the Med-Tek automated botanical maintenance array!"
+	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/bunker)
 "zz" = (
@@ -1191,7 +1197,11 @@
 /turf/closed/wall/r_wall/rust,
 /area/f13/bunker)
 "Hb" = (
-/obj/structure/junk/small/table,
+/obj/structure/table/wood,
+/obj/machinery/computer/terminal{
+	doc_content_1 = "All hydroponics bays are operating at [56]% capacity.   All experimental Botano-Bays (Trademark of West-Tek) operating at [88]% capacity.      --Sysop Note: The mountains shielded us from the worst of it. Dave's trying to get the elevator working again, but one of the motors is blown completely. The RnD guys are insisting we keep to the timetable Corporate gave us. They think there's a Corporate left.";
+	doc_title_1 = "Welcome to the Med-Tek automated botanical maintenance array!"
+	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/bunker)
 "Ic" = (
@@ -1203,6 +1213,12 @@
 /obj/structure/glowshroom/single,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/radiation)
+"In" = (
+/obj/item/stack/f13Cash/caps{
+	amount = 121
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/f13/bunker)
 "Ir" = (
 /obj/structure/nest/radroach,
 /turf/open/indestructible/ground/inside/mountain,
@@ -4181,7 +4197,7 @@ ZX
 Xm
 YI
 Ye
-Ye
+In
 Ye
 Ko
 Xm

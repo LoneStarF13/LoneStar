@@ -59,6 +59,7 @@
 /obj/machinery/light/small{
 	dir = 1
 	},
+/obj/structure/spider/stickyweb,
 /turf/open/floor/plating/tunnel{
 	icon_state = "tunnelrusty"
 	},
@@ -397,6 +398,16 @@
 	icon_state = "bluerustychess2"
 	},
 /area/f13/bunker)
+"kI" = (
+/obj/structure/table,
+/obj/machinery/button/door{
+	id = 93
+	},
+/turf/open/floor/plasteel/barber{
+	icon = 'icons/turf/f13floors2.dmi';
+	icon_state = "bluerustychess2"
+	},
+/area/f13/bunker)
 "lb" = (
 /obj/structure/table,
 /obj/item/clothing/suit/toggle/labcoat/f13/followers,
@@ -648,6 +659,7 @@
 /obj/effect/spawner/lootdrop/f13/blueprintHigh,
 /obj/structure/closet,
 /obj/effect/spawner/lootdrop/f13/weapon/gun/energy/high,
+/obj/effect/decal/cleanable/cobweb/cobweb2,
 /turf/open/floor/plating/tunnel,
 /area/f13/radiation)
 "tD" = (
@@ -1148,6 +1160,8 @@
 /obj/structure/table/reinforced,
 /obj/machinery/computer/terminal{
 	dir = 4;
+	doc_content_1 = "Ahken here. The Uglies can't fit their big meaty fingers on the keys, so they're having me do all this grunt work. Recording supply stocks, using the old P-Net link to send reports to Mariposa, keeping the fiddly little wires and crap in the airlocks and elevators working. Might as well record some thoughts for posterity, while I'm at it.";
+	doc_title_1 = "SEPTEMBER 3RD 2160";
 	termtag = "Business"
 	},
 /turf/open/floor/plasteel/barber{
@@ -1362,10 +1376,12 @@
 	},
 /area/f13/bunker)
 "Qz" = (
-/obj/structure/table,
-/obj/machinery/button/door{
-	id = 93
+/obj/machinery/computer/terminal{
+	dir = 1;
+	doc_content_1 = "Ahken, writing. I might be fucked. The Uglies had me fixing up some robots to use in fighting our way into a nearby Vault. Long story short, the well armored, well armed combat robots with plasma guns now think we're all communists. We lost an entire section of the base to the things, no one wants to go in and take them down. I might be able to sneak out through a ventilation shaft and make for somewhere safe. God willing.";
+	doc_title_1 = "JANUARY 12TH 2161"
 	},
+/obj/structure/table,
 /turf/open/floor/plasteel/barber{
 	icon = 'icons/turf/f13floors2.dmi';
 	icon_state = "bluerustychess2"
@@ -1396,6 +1412,8 @@
 /obj/structure/table,
 /obj/machinery/computer/terminal{
 	dir = 1;
+	doc_content_1 = "Ahken clocking in. Been pretty good this week. Another box of pristine Wattz 2000s got brought in by the Uglies, and I've been working on jury-rigging some recycler chips. Fun stuff. Need to keep my skin wet so I don't go up like a Christmas tree if I slip soldering, but hey, my ugly ass can use some moisturizing.";
+	doc_title_1 = "OCTOBER 9TH 2160";
 	termtag = "Business"
 	},
 /turf/open/floor/plasteel/barber{
@@ -1912,7 +1930,7 @@ Kz
 "}
 (10,1,1) = {"
 wR
-Xj
+OZ
 Gw
 jc
 Hu
@@ -2511,7 +2529,7 @@ Kz
 wR
 My
 bp
-bp
+kI
 bp
 MV
 wR
