@@ -281,14 +281,6 @@
 	else
 		qdel(src)
 
-/obj/item/gun/ballistic/minigunbal5mm/process_fire(atom/target, mob/living/user, message = TRUE, params = null, zone_override = "", bonus_spread = 0, stam_cost = 0)
-	if(ammo_pack)
-		if(ammo_pack.overheat < ammo_pack.overheat_max)
-			ammo_pack.overheat += burst_size
-			..()
-		else
-			to_chat(user, "The gun's heat sensor locked the trigger to prevent barrel damage.")
-
 /obj/item/gun/ballistic/minigunbal5mm/afterattack(atom/target, mob/living/user, flag, params)
 	if(!ammo_pack || ammo_pack.loc != user)
 		to_chat(user, "You need the backpack ammo belt to fire the gun!")
