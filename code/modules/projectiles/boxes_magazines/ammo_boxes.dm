@@ -283,7 +283,7 @@
 	multiple_sprites = 2
 	caliber = "m5mm"
 	ammo_type = /obj/item/ammo_casing/m5mm
-	max_ammo = 50
+	max_ammo = 60
 	w_class = WEIGHT_CLASS_NORMAL
 	custom_materials = list(/datum/material/iron = 24000, /datum/material/blackpowder = 1500)
 
