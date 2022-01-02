@@ -53,7 +53,7 @@ Civilian round				=	-10% damage for .223. AP reduced by 50%
 
 /obj/item/projectile/bullet/a556/uraniumtipped
 	name = "5.56 uranium-tipped bullet"
-	damage = 30
+	damage = 25
 	armour_penetration = 0.2
 	irradiate = 300
 
