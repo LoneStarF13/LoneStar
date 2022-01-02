@@ -221,26 +221,57 @@
 	item_state = "laser-pistol"
 	ammo_type = list(/obj/item/ammo_casing/energy/laser/pistol/wattz/magneto/hitscan)
 
+/obj/item/gun/energy/laser/wattz/recharger
+	name = "Recharger Pistol"
+	desc = "A recharger pistol manufactured by the Followers of the Apocalpyse. As the name implied, it charges its capacitor banks over time using radioactive decay."
+	can_remove = 0
+	can_charge = 0
+	selfcharge = 1
+	w_class = WEIGHT_CLASS_SMALL
+	weapon_weight = WEAPON_LIGHT
+	slot_flags = ITEM_SLOT_BELT
+	ammo_type = list(/obj/item/ammo_casing/energy/laser/pistol/recharger/hitscan)
+	cell_type = /obj/item/stock_parts/cell/ammo/breeder
+	equipsound = 'sound/f13weapons/equipsounds/aep7equip.ogg'
 
 //AEP 7 Laser pistol
 /obj/item/gun/energy/laser/pistol
 	name = "\improper AEP7 laser pistol"
 	desc = "A basic energy-based laser gun that fires concentrated beams of light."
 	slowdown = 0.2
-	icon_state = "AEP7"
-	item_state = "laser-pistol"
+	icon_state = "AEP5CR"
+	icon_state = "AEP5CR"
 	w_class = WEIGHT_CLASS_NORMAL
-	weapon_weight = WEAPON_MEDIUM
+	weapon_weight = WEAPON_LIGHT
 	slot_flags = ITEM_SLOT_BELT
 	ammo_type = list(/obj/item/ammo_casing/energy/laser/pistol/hitscan)
 	cell_type = /obj/item/stock_parts/cell/ammo/ec
 	fire_delay = 0
-	can_scope = TRUE
+	can_scope = FALSE
 	scope_state = "AEP7_scope"
 	scope_x_offset = 7
 	scope_y_offset = 22
 	equipsound = 'sound/f13weapons/equipsounds/aep7equip.ogg'
 
+//Compliance Regulator
+
+/obj/item/gun/energy/laser/complianceregulator
+	name = "AEP5-CR"
+	desc = "A laser pistol that has been modified for less-than-lethal work."
+	slowdown = 0.2
+	icon_state = "AEP7"
+	item_state = "laser-pistol"
+	w_class = WEIGHT_CLASS_NORMAL
+	weapon_weight = WEAPON_MEDIUM
+	slot_flags = ITEM_SLOT_BELT
+	ammo_type = list(/obj/item/ammo_casing/energy/laser/stun)
+	cell_type = /obj/item/stock_parts/cell/ammo/ec
+	fire_delay = 0
+	can_scope = FALSE
+	scope_state = "AEP7_scope"
+	scope_x_offset = 7
+	scope_y_offset = 22
+	equipsound = 'sound/f13weapons/equipsounds/aep7equip.ogg'
 
 //Solar Scorcher
 /obj/item/gun/energy/laser/solar

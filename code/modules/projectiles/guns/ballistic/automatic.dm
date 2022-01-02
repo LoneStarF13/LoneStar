@@ -620,7 +620,6 @@
 	desc = "A 5.56x45 semi-automatic service rifle manufactured by the NCR and issued to all combat personnel."
 	icon_state = "service_rifle"
 	item_state = "servicerifle"
-	extra_damage = 4
 	mag_type = /obj/item/ammo_box/magazine/m556/rifle
 	fire_delay = 3.5
 	burst_size = 1
@@ -660,7 +659,7 @@
 	desc = "A cut down version of the standard-issue service rifle tapped with mounting holes for a scope. Shorter barrel, lower muzzle velocity."
 	icon_state = "scout_carbine"
 	extra_damage = 2
-	fire_delay = 4
+	fire_delay = 3.5
 	spread = 1
 	can_scope = TRUE
 	scope_state = "scope_short"
@@ -950,6 +949,7 @@
 	mag_type = /obj/item/ammo_box/magazine/m556/rifle
 	fire_delay = 3.25
 	spread = 1
+	burst_size = 1
 	can_attachments = FALSE
 	semi_auto = TRUE
 	automatic_burst_overlay = FALSE
@@ -958,33 +958,7 @@
 	zoom_amt = 6
 	zoom_out_amt = 9
 	can_bayonet = FALSE
-	actions_types = list(/datum/action/item_action/toggle_firemode)
 	fire_sound = 'sound/weapons/Gunshot_large_silenced.ogg'
-
-
-/obj/item/gun/ballistic/automatic/r93/burst_select()
-	var/mob/living/carbon/human/user = usr
-	switch(select)
-		if(0)
-			select += 1
-			burst_size = 2
-			spread = 8
-			fire_delay = 3.75
-			recoil = 0.1
-			weapon_weight = WEAPON_HEAVY
-			to_chat(user, "<span class='notice'>You switch to 2-rnd burst.</span>")
-			enable_burst()
-		if(1)
-			select = 0
-			burst_size = 1
-			fire_delay = 3.25
-			spread = 1
-			weapon_weight = WEAPON_MEDIUM
-			to_chat(user, "<span class='notice'>You switch to semi-auto.</span>")
-	playsound(user, 'sound/weapons/empty.ogg', 100, 1)
-	update_icon()
-	return
-
 
 //Type 93 Chinese rifle				Keywords: 5.56mm, Automatic, 20 (10-50) round magazine
 /obj/item/gun/ballistic/automatic/type93
