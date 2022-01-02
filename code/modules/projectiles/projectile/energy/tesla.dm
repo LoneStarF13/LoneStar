@@ -28,3 +28,38 @@
 /obj/item/projectile/energy/tesla/cannon
 	name = "tesla orb"
 	power = 20000
+
+/obj/item/projectile/energy/teslacannon
+	name = "tesla beam"
+	icon_state = "tesla_projectile"
+	impact_effect_type = /obj/effect/temp_visual/impact_effect/blue_laser
+	light_color = LIGHT_COLOR_BLUE
+	damage = 55
+	armour_penetration = 0.35
+	wound_bonus = 30
+	tracer_type = /obj/effect/projectile/tracer/pulse
+	muzzle_type = /obj/effect/projectile/muzzle/pulse
+	impact_type = /obj/effect/projectile/impact/pulse
+	hitscan = TRUE
+	hitscan_light_intensity = 4
+	hitscan_light_range = 1
+	hitscan_light_color_override = LIGHT_COLOR_BLUE
+	muzzle_flash_intensity = 9
+	muzzle_flash_range = 4
+	muzzle_flash_color_override = LIGHT_COLOR_BLUE
+	impact_light_intensity = 8
+	impact_light_range = 3.75
+	impact_light_color_override = LIGHT_COLOR_BLUE
+	var/zap_flags = ZAP_MOB_DAMAGE | ZAP_OBJ_DAMAGE
+	var/zap_range = 1
+
+/obj/item/projectile/energy/teslacannon/fire(setAngle, atom/direct_target)
+	var/atom/source = fired_from || firer
+	if(source)
+		chain = source.Beam(src, icon_state = "lightning[rand(1, 12)]", time = INFINITY, maxdistance = INFINITY)
+	return ..()
+
+/obj/item/projectile/energy/teslacannon/on_hit(atom/target)
+	. = ..()
+	tesla_zap(target, zap_range, zap_flags)
+	qdel(src)
