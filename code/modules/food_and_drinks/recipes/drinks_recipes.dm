@@ -1085,7 +1085,7 @@
 /datum/chemical_reaction/nukadark
 	name = "Nuka Dark"
 	id = "nukadark"
-	results = list(/datum/reagent/consumable/nukadark = 2)
+	results = list(/datum/reagent/consumable/ethanol/nukadark = 2)
 	required_reagents = list(/datum/reagent/consumable/nuka_cola = 1, /datum/reagent/consumable/ethanol/rum = 1)
 
 /datum/chemical_reaction/nukaorange
