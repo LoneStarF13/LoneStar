@@ -48,6 +48,13 @@
 	},
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/bunker)
+"ack" = (
+/obj/structure/sign/poster/ncr/irradiated_food,
+/turf/closed/wall/f13/store{
+	desc = "A pre-War wall made of solid concrete.";
+	name = "concrete wall"
+	},
+/area/f13/ncr)
 "acG" = (
 /obj/structure/table/wood/settler,
 /obj/machinery/recharger,
@@ -150,13 +157,6 @@
 /obj/structure/nest/ghoul,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/tunnel)
-"agi" = (
-/obj/machinery/door/airlock/hatch{
-	name = "NCR Command and Control";
-	req_access_txt = "121"
-	},
-/turf/open/floor/plating,
-/area/f13/ncr)
 "agw" = (
 /obj/machinery/door/poddoor{
 	id = "soup"
@@ -1109,6 +1109,10 @@
 /obj/structure/barricade/bars,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/tunnel)
+"aII" = (
+/obj/effect/landmark/start/f13/ncrlieutenant,
+/turf/open/floor/carpet/black,
+/area/f13/ncr)
 "aIP" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/sink/greyscale{
@@ -2112,12 +2116,6 @@
 /obj/structure/closet/crate/bin,
 /turf/open/floor/wood/f13/stage_t,
 /area/f13/brotherhood/operations)
-"brt" = (
-/obj/item/radio/intercom/retro{
-	pixel_x = -29
-	},
-/turf/open/floor/carpet/black,
-/area/f13/ncr)
 "brI" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13{
@@ -3009,12 +3007,6 @@
 	icon_state = "housewood_stage_bottom"
 	},
 /area/f13/brotherhood/archives)
-"bUB" = (
-/obj/machinery/light/small{
-	dir = 1
-	},
-/turf/open/floor/plating,
-/area/f13/ncr)
 "bUR" = (
 /obj/structure/wreck/trash/two_barrels,
 /turf/open/floor/plasteel/f13/vault_floor/yellow{
@@ -3551,13 +3543,6 @@
 	icon_state = "redrustyfull"
 	},
 /area/f13/bunker)
-"cmC" = (
-/obj/effect/decal/cleanable/dirt{
-	color = "000000"
-	},
-/obj/machinery/light,
-/turf/open/floor/carpet/black,
-/area/f13/ncr)
 "cmH" = (
 /obj/structure/rack,
 /obj/item/stack/sheet/metal/fifty,
@@ -3634,6 +3619,18 @@
 	icon_state = "neutraldirtyfull"
 	},
 /area/f13/tunnel)
+"cnV" = (
+/obj/structure/table/wood,
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/obj/item/card/id/dogtag/ncrtrooper,
+/obj/item/card/id/dogtag/ncrtrooper,
+/obj/item/card/id/dogtag/ncrtrooper,
+/obj/item/card/id/dogtag/ncrsergeant,
+/obj/structure/safe/floor,
+/turf/open/floor/carpet/black,
+/area/f13/ncr)
 "cod" = (
 /obj/structure/barricade/wooden,
 /obj/structure/barricade/wooden/planks/pregame,
@@ -4555,6 +4552,10 @@
 /obj/effect/decal/cleanable/blood,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/tunnel)
+"cMb" = (
+/obj/machinery/msgterminal/ncr,
+/turf/open/space/basic,
+/area/f13/ncr)
 "cMf" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
@@ -7111,6 +7112,13 @@
 "efa" = (
 /turf/open/floor/wood/f13/oak,
 /area/f13/den)
+"efb" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/structure/guncase,
+/turf/open/floor/carpet/black,
+/area/f13/ncr)
 "efg" = (
 /obj/structure/decoration/rag{
 	icon_state = "skin"
@@ -7805,6 +7813,13 @@
 /obj/effect/turf_decal/stripes/box,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/brotherhood/armory)
+"ezA" = (
+/obj/machinery/light/small{
+	dir = 8;
+	light_color = "#d8b1b1"
+	},
+/turf/open/floor/plating,
+/area/f13/ncr)
 "ezG" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/rack,
@@ -8287,6 +8302,10 @@
 /obj/structure/barricade/wooden/planks/pregame,
 /turf/open/water,
 /area/f13/bunker)
+"eNa" = (
+/obj/structure/simple_door/room/dirty,
+/turf/open/floor/carpet/black,
+/area/f13/ncr)
 "eNf" = (
 /obj/structure/table/wood/fancy/royalblack,
 /obj/machinery/computer/terminal{
@@ -8485,11 +8504,6 @@
 /obj/item/reagent_containers/pill/patch/jet,
 /turf/open/floor/wood/f13/oak,
 /area/f13/den)
-"eVs" = (
-/obj/structure/table/wood,
-/obj/item/pda,
-/turf/open/floor/carpet/black,
-/area/f13/ncr)
 "eVu" = (
 /obj/structure/table/wood,
 /obj/effect/spawner/lootdrop/f13/medical/wasteland/meds/drug,
@@ -9153,6 +9167,12 @@
 	icon_state = "bluerustychess2"
 	},
 /area/f13/bunker)
+"fqo" = (
+/turf/closed/wall/f13/store{
+	desc = "A pre-War wall made of solid concrete.";
+	name = "concrete wall"
+	},
+/area/f13/ncr)
 "fqz" = (
 /obj/structure/lattice{
 	density = 1
@@ -12763,6 +12783,16 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/brotherhood/armory)
+"hBi" = (
+/obj/structure/table/wood,
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/obj/item/documents{
+	desc = "Documents and maps concerning the local NCR presence."
+	},
+/turf/open/floor/carpet/black,
+/area/f13/ncr)
 "hBz" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/indestructible/ground/inside/mountain,
@@ -12842,10 +12872,6 @@
 	light_range = 4
 	},
 /area/f13/brotherhood/archives)
-"hEk" = (
-/obj/machinery/msgterminal/ncr,
-/turf/open/space/basic,
-/area/f13/ncr)
 "hEy" = (
 /obj/effect/decal/cleanable/robot_debris/old,
 /turf/open/indestructible/ground/inside/mountain,
@@ -12881,10 +12907,6 @@
 /obj/effect/spawner/lootdrop/f13/weapon/melee/random_high,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
-"hHv" = (
-/obj/machinery/computer/card/ncr,
-/turf/open/space/basic,
-/area/f13/ncr)
 "hHw" = (
 /obj/item/trash/f13/cram_large,
 /turf/open/indestructible/ground/inside/mountain,
@@ -13721,6 +13743,12 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/wood_tiled,
 /area/f13/brotherhood/leisure)
+"iqy" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/turf/open/floor/carpet/black,
+/area/f13/ncr)
 "iqD" = (
 /mob/living/simple_animal/hostile/poison/giant_spider/hunter,
 /obj/effect/decal/cleanable/dirt{
@@ -14021,6 +14049,13 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/bunker)
+"iAt" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/obj/effect/landmark/start/f13/ncrcaptain,
+/turf/open/floor/carpet/black,
+/area/f13/ncr)
 "iAu" = (
 /obj/machinery/door/airlock/medical{
 	name = "Cremation";
@@ -14135,12 +14170,6 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/brotherhood/leisure)
-"iFK" = (
-/obj/structure/chair/office{
-	dir = 1
-	},
-/turf/open/floor/carpet/black,
-/area/f13/ncr)
 "iFL" = (
 /obj/effect/decal/cleanable/blood/gibs/human,
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
@@ -14721,10 +14750,6 @@
 	icon_state = "tunnelrusty"
 	},
 /area/f13/bunker)
-"jfz" = (
-/obj/structure/simple_door/room/dirty,
-/turf/open/floor/carpet/black,
-/area/f13/ncr)
 "jfB" = (
 /obj/structure/table/wood/fancy/black{
 	desc = "A set of thin pipes that no longer function.";
@@ -15127,6 +15152,12 @@
 	icon_state = "floorrusty"
 	},
 /area/f13/building)
+"jvc" = (
+/obj/structure/table/wood/bar,
+/obj/item/reagent_containers/food/drinks/bottle/f13nukacola,
+/obj/item/reagent_containers/food/drinks/bottle/f13nukacola,
+/turf/open/floor/carpet/black,
+/area/f13/ncr)
 "jwZ" = (
 /turf/open/floor/plasteel/f13{
 	icon_state = "yellowdirtyfull"
@@ -16457,10 +16488,6 @@
 /obj/structure/table/wood,
 /turf/open/floor/carpet/black,
 /area/f13/brotherhood/archives)
-"kzK" = (
-/obj/effect/landmark/start/f13/ncrlieutenant,
-/turf/open/floor/carpet/black,
-/area/f13/ncr)
 "kzL" = (
 /obj/machinery/button/crematorium{
 	pixel_y = 19
@@ -16877,16 +16904,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13/wood,
 /area/f13/building)
-"kSN" = (
-/obj/structure/table/wood,
-/obj/effect/decal/cleanable/dirt{
-	color = "000000"
-	},
-/obj/item/documents{
-	desc = "Documents and maps concerning the local NCR presence."
-	},
-/turf/open/floor/carpet/black,
-/area/f13/ncr)
 "kTc" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/chair/office/dark,
@@ -18226,13 +18243,6 @@
 /obj/structure/lattice/catwalk,
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/f13/brotherhood/operations)
-"mca" = (
-/obj/machinery/light{
-	dir = 1
-	},
-/obj/structure/guncase,
-/turf/open/floor/carpet/black,
-/area/f13/ncr)
 "mcC" = (
 /obj/item/statuebust,
 /obj/structure/cable{
@@ -18571,15 +18581,9 @@
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier2,
 /turf/open/floor/f13/wood,
 /area/f13/building)
-"mvZ" = (
-/obj/structure/sink{
-	dir = 4;
-	pixel_x = 10
-	},
-/obj/structure/mirror{
-	pixel_x = 32
-	},
-/turf/open/floor/plating,
+"mwy" = (
+/obj/machinery/computer/card/ncr,
+/turf/open/space/basic,
 /area/f13/ncr)
 "mxc" = (
 /obj/structure/fence/handrail{
@@ -19023,12 +19027,6 @@
 /obj/structure/sign/departments/medbay,
 /turf/closed/wall/r_wall,
 /area/f13/brotherhood/chemistry)
-"mNW" = (
-/turf/closed/wall/f13/store{
-	desc = "A pre-War wall made of solid concrete.";
-	name = "concrete wall"
-	},
-/area/f13/ncr)
 "mNY" = (
 /obj/structure/barricade/sandbags,
 /turf/open/indestructible/ground/inside/subway,
@@ -19288,6 +19286,12 @@
 "mXm" = (
 /turf/open/floor/wood/wood_tiled,
 /area/f13/followers)
+"mXG" = (
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/f13/ncr)
 "mXH" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/gibber,
@@ -20819,6 +20823,14 @@
 	icon_state = "floorgrime"
 	},
 /area/f13/den)
+"nYl" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/obj/machinery/light,
+/obj/machinery/photocopier,
+/turf/open/floor/carpet/black,
+/area/f13/ncr)
 "nYo" = (
 /obj/structure/sign/warning{
 	name = "WARNING: In the event of an attack, personel are forbidden to shelter here."
@@ -21239,6 +21251,16 @@
 /obj/structure/barricade/bars,
 /turf/open/water,
 /area/f13/den)
+"onj" = (
+/obj/structure/sink{
+	dir = 4;
+	pixel_x = 10
+	},
+/obj/structure/mirror{
+	pixel_x = 32
+	},
+/turf/open/floor/plating,
+/area/f13/ncr)
 "ont" = (
 /obj/structure/flora/rock/jungle{
 	density = 1
@@ -21719,6 +21741,13 @@
 	},
 /turf/open/floor/plating/tunnel,
 /area/f13/caves)
+"oHW" = (
+/obj/machinery/door/airlock/hatch{
+	name = "NCR Command and Control";
+	req_access_txt = "121"
+	},
+/turf/open/floor/plating,
+/area/f13/ncr)
 "oHZ" = (
 /obj/item/pickaxe,
 /turf/open/indestructible/ground/inside/subway,
@@ -21942,13 +21971,6 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/brotherhood/rnd)
-"oRh" = (
-/obj/machinery/light/small{
-	dir = 8;
-	light_color = "#d8b1b1"
-	},
-/turf/open/floor/plating,
-/area/f13/ncr)
 "oRI" = (
 /turf/open/floor/plating/dirt,
 /area/f13/bunker)
@@ -23427,6 +23449,11 @@
 /obj/machinery/autolathe/ammo,
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/tunnel)
+"pZw" = (
+/obj/structure/table/wood,
+/obj/item/pda,
+/turf/open/floor/carpet/black,
+/area/f13/ncr)
 "pZO" = (
 /obj/structure/dresser,
 /obj/machinery/light{
@@ -23679,6 +23706,12 @@
 /obj/item/stack/sheet/prewar,
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/tunnel)
+"qiG" = (
+/obj/structure/chair/office{
+	dir = 1
+	},
+/turf/open/floor/carpet/black,
+/area/f13/ncr)
 "qiH" = (
 /obj/item/trash/f13/fancylads,
 /turf/open/indestructible/ground/inside/mountain,
@@ -24777,12 +24810,6 @@
 /obj/effect/spawner/lootdrop/f13/cash_random_low,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/tunnel)
-"qTA" = (
-/obj/effect/decal/cleanable/dirt{
-	color = "000000"
-	},
-/turf/open/floor/carpet/black,
-/area/f13/ncr)
 "qUd" = (
 /obj/machinery/light{
 	dir = 1
@@ -25822,14 +25849,6 @@
 /obj/structure/wreck/trash/two_barrels,
 /turf/open/floor/f13/wood,
 /area/f13/caves)
-"rFH" = (
-/obj/structure/ladder/unbreakable{
-	height = 2;
-	id = "commandncr";
-	name = "Command Bunker Ladder"
-	},
-/turf/open/floor/plating,
-/area/f13/ncr)
 "rFQ" = (
 /obj/structure/rack,
 /obj/effect/spawner/lootdrop/f13/traitbooks,
@@ -25905,6 +25924,10 @@
 	},
 /turf/open/floor/plating/tunnel,
 /area/f13/brotherhood/archives)
+"rIR" = (
+/obj/machinery/radioterminal/ncr,
+/turf/open/space/basic,
+/area/f13/ncr)
 "rJA" = (
 /obj/item/pickaxe,
 /turf/open/indestructible/ground/inside/mountain,
@@ -26033,9 +26056,6 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/brotherhood/medical)
-"rNB" = (
-/turf/open/floor/plating,
-/area/f13/ncr)
 "rNL" = (
 /obj/machinery/light,
 /turf/open/floor/f13{
@@ -26504,18 +26524,6 @@
 /obj/machinery/telecomms/server/presets/service,
 /turf/open/floor/plasteel/dark/telecomms/mainframe,
 /area/f13/tcoms)
-"shu" = (
-/obj/structure/table/wood,
-/obj/structure/table/wood,
-/obj/item/paper_bin,
-/obj/item/pen/fountain,
-/obj/item/pda,
-/obj/item/stack/f13Cash/ncr{
-	amount = 1000;
-	pixel_y = 17
-	},
-/turf/open/floor/carpet/black,
-/area/f13/ncr)
 "shM" = (
 /obj/structure/table,
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ballistic/high,
@@ -26565,6 +26573,9 @@
 	icon_state = "greenrustyfull"
 	},
 /area/f13/clinic)
+"sjg" = (
+/turf/open/floor/plating,
+/area/f13/ncr)
 "sjA" = (
 /obj/structure/closet/crate/large,
 /obj/effect/decal/cleanable/dirt,
@@ -26638,9 +26649,6 @@
 /obj/item/reagent_containers/food/snacks/f13/yumyum,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/bunker)
-"smh" = (
-/turf/open/floor/carpet/black,
-/area/f13/ncr)
 "snm" = (
 /turf/open/floor/plasteel/f13/vault_floor/white,
 /area/f13/bunker)
@@ -26823,13 +26831,6 @@
 /obj/item/bedsheet/ce,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/brotherhood/offices1st)
-"sxi" = (
-/obj/structure/sign/poster/ncr/irradiated_food,
-/turf/closed/wall/f13/store{
-	desc = "A pre-War wall made of solid concrete.";
-	name = "concrete wall"
-	},
-/area/f13/ncr)
 "sxq" = (
 /obj/structure/spider/stickyweb,
 /obj/effect/decal/cleanable/dirt{
@@ -27198,6 +27199,12 @@
 	},
 /turf/open/indestructible/ground/outside/water,
 /area/f13/den)
+"sPN" = (
+/obj/item/radio/intercom/retro{
+	pixel_x = -29
+	},
+/turf/open/floor/carpet/black,
+/area/f13/ncr)
 "sPQ" = (
 /obj/structure/curtain{
 	color = "#845f58"
@@ -27705,12 +27712,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/f13/inside,
 /area/f13/brotherhood/operating)
-"tpI" = (
-/obj/structure/table/wood/bar,
-/obj/item/reagent_containers/food/drinks/bottle/f13nukacola,
-/obj/item/reagent_containers/food/drinks/bottle/f13nukacola,
-/turf/open/floor/carpet/black,
-/area/f13/ncr)
 "tpQ" = (
 /obj/effect/spawner/structure/window/plasma/reinforced,
 /obj/structure/grille,
@@ -27821,6 +27822,12 @@
 	icon_state = "neutralfull2"
 	},
 /area/f13/followers)
+"tto" = (
+/obj/structure/toilet{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/f13/ncr)
 "ttS" = (
 /obj/structure/bed/mattress{
 	icon_state = "mattress5"
@@ -28502,6 +28509,14 @@
 	icon_state = "greenrustyfull"
 	},
 /area/f13/clinic)
+"tRY" = (
+/obj/structure/ladder/unbreakable{
+	height = 2;
+	id = "commandncr";
+	name = "Command Bunker Ladder"
+	},
+/turf/open/floor/plating,
+/area/f13/ncr)
 "tSA" = (
 /obj/machinery/power/smes/engineering,
 /obj/structure/cable{
@@ -29037,13 +29052,6 @@
 /obj/item/organ/heart,
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/tunnel)
-"uqr" = (
-/obj/effect/decal/cleanable/dirt{
-	color = "000000"
-	},
-/obj/effect/landmark/start/f13/ncrcaptain,
-/turf/open/floor/carpet/black,
-/area/f13/ncr)
 "uqw" = (
 /obj/structure/window/reinforced/spawner/east,
 /obj/structure/window/reinforced/spawner/north,
@@ -30672,18 +30680,6 @@
 /obj/item/pickaxe,
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
 /area/f13/caves)
-"vMB" = (
-/obj/structure/table/wood,
-/obj/effect/decal/cleanable/dirt{
-	color = "000000"
-	},
-/obj/item/card/id/dogtag/ncrtrooper,
-/obj/item/card/id/dogtag/ncrtrooper,
-/obj/item/card/id/dogtag/ncrtrooper,
-/obj/item/card/id/dogtag/ncrsergeant,
-/obj/structure/safe/floor,
-/turf/open/floor/carpet/black,
-/area/f13/ncr)
 "vMG" = (
 /obj/structure/cable{
 	icon_state = "2-8"
@@ -30856,12 +30852,6 @@
 /obj/item/clothing/under/f13/bosformgold_m,
 /turf/open/floor/carpet/black,
 /area/f13/brotherhood/offices2nd)
-"vWL" = (
-/obj/structure/toilet{
-	dir = 8
-	},
-/turf/open/floor/plating,
-/area/f13/ncr)
 "vWQ" = (
 /obj/structure/table/wood/fancy,
 /turf/open/floor/carpet/black,
@@ -32217,6 +32207,18 @@
 /obj/effect/spawner/lootdrop/f13/resourcespawner,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
+"xeP" = (
+/obj/structure/table/wood,
+/obj/structure/table/wood,
+/obj/item/paper_bin,
+/obj/item/pen/fountain,
+/obj/item/pda,
+/obj/item/stack/f13Cash/ncr{
+	amount = 1000;
+	pixel_y = 17
+	},
+/turf/open/floor/carpet/black,
+/area/f13/ncr)
 "xeW" = (
 /obj/structure/fence/handrail_end/non_dense{
 	dir = 1;
@@ -32234,6 +32236,9 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/brotherhood/rnd)
+"xfZ" = (
+/turf/open/floor/carpet/black,
+/area/f13/ncr)
 "xgs" = (
 /obj/effect/decal/waste{
 	icon_state = "goo10"
@@ -33016,10 +33021,6 @@
 	icon_state = "darkyellowfull"
 	},
 /area/f13/brotherhood/rnd)
-"xGj" = (
-/obj/machinery/radioterminal/ncr,
-/turf/open/space/basic,
-/area/f13/ncr)
 "xGB" = (
 /turf/open/floor/f13{
 	icon_state = "redmark"
@@ -34131,10 +34132,10 @@ uoO
 uoO
 uoO
 uoO
-mNW
-mNW
-mNW
-mNW
+fqo
+fqo
+fqo
+fqo
 uoO
 uoO
 uoO
@@ -34388,10 +34389,10 @@ aoj
 uoO
 uoO
 uoO
-mNW
-bUB
-rFH
-mNW
+fqo
+mXG
+tRY
+fqo
 uoO
 uoO
 uoO
@@ -34645,10 +34646,10 @@ uoO
 uoO
 eLE
 eLE
-mNW
-rNB
-rNB
-mNW
+fqo
+sjg
+sjg
+fqo
 eLE
 eLE
 aoj
@@ -34901,12 +34902,12 @@ uoO
 uoO
 uoO
 eLE
-mNW
-mNW
-mNW
-agi
-mNW
-mNW
+fqo
+fqo
+fqo
+oHW
+fqo
+fqo
 eLE
 aoj
 aoj
@@ -35158,12 +35159,12 @@ uoO
 uoO
 uoO
 eLE
-mNW
-hHv
-brt
-smh
-tpI
-mNW
+fqo
+mwy
+sPN
+xfZ
+jvc
+fqo
 eLE
 eLE
 eLE
@@ -35415,15 +35416,15 @@ uoO
 uoO
 uoO
 eLE
-mNW
-hEk
-iFK
-qTA
-cmC
-mNW
-mNW
-mNW
-mNW
+fqo
+cMb
+qiG
+iqy
+nYl
+fqo
+fqo
+fqo
+fqo
 eLE
 uoO
 uoO
@@ -35672,15 +35673,15 @@ aoj
 aoj
 aoj
 eLE
-sxi
-xGj
-smh
-kzK
-smh
-jfz
-rNB
-oRh
-mNW
+ack
+rIR
+xfZ
+aII
+xfZ
+eNa
+sjg
+ezA
+fqo
 eLE
 uoO
 uoO
@@ -35929,15 +35930,15 @@ aoj
 aoj
 aoj
 eLE
-mNW
-mca
-qTA
-uqr
-smh
-mNW
-vWL
-mvZ
-mNW
+fqo
+efb
+iqy
+iAt
+xfZ
+fqo
+tto
+onj
+fqo
 eLE
 uoO
 uoO
@@ -36186,15 +36187,15 @@ aoj
 aoj
 aoj
 eLE
-mNW
-kSN
-eVs
-shu
-vMB
-mNW
-mNW
-mNW
-mNW
+fqo
+hBi
+pZw
+xeP
+cnV
+fqo
+fqo
+fqo
+fqo
 eLE
 uoO
 uoO
@@ -36443,12 +36444,12 @@ aoj
 aoj
 aoj
 eLE
-mNW
-mNW
-mNW
-mNW
-mNW
-mNW
+fqo
+fqo
+fqo
+fqo
+fqo
+fqo
 eLE
 eLE
 eLE
