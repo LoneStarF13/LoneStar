@@ -346,7 +346,9 @@
 "avl" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/sign/departments/examroom,
-/turf/closed/indestructible/vaultdoor,
+/turf/closed/wall/r_wall/f13vault{
+	icon_state = "2-i"
+	},
 /area/f13/vault)
 "avm" = (
 /obj/machinery/light/fo13colored/Red{
@@ -1458,7 +1460,7 @@
 "bGb" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/remains/human,
-/turf/open/floor/plasteel/f13/vault_floor/floor,
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite,
 /area/f13/vault)
 "bHb" = (
 /obj/structure/cable{
@@ -4314,19 +4316,11 @@
 /area/f13/bunker)
 "feM" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/weather/snow/corner{
-	dir = 4
-	},
-/obj/effect/turf_decal/weather/snow/corner{
-	dir = 1
-	},
 /obj/effect/decal/cleanable/blood/old{
 	icon_state = "gibmid1";
 	pixel_x = 6;
 	pixel_y = 9
 	},
-/obj/effect/decal/remains/human,
-/obj/effect/decal/cleanable/insectguts,
 /turf/open/floor/plasteel/showroomfloor,
 /area/f13/vault)
 "feR" = (
@@ -4412,7 +4406,7 @@
 /obj/structure/decoration/rag{
 	icon_state = "skin"
 	},
-/turf/open/space/basic,
+/turf/open/floor/plasteel/showroomfloor,
 /area/f13/vault)
 "fjH" = (
 /obj/machinery/light{
@@ -4567,7 +4561,9 @@
 /obj/structure/fireaxecabinet{
 	pixel_x = 33
 	},
-/turf/closed/indestructible/vaultdoor,
+/turf/closed/wall/r_wall/f13vault{
+	icon_state = "2-i"
+	},
 /area/f13/vault)
 "fud" = (
 /obj/effect/decal/cleanable/dirt,
@@ -6460,9 +6456,10 @@
 /turf/open/floor/carpet/green,
 /area/f13/underground/cave)
 "huH" = (
-/obj/effect/decal/cleanable/dirt,
 /obj/structure/fans/tiny,
-/turf/closed/indestructible/vaultdoor,
+/turf/closed/wall/r_wall/f13vault{
+	icon_state = "2-i"
+	},
 /area/f13/vault)
 "huM" = (
 /obj/structure/table/wood,
@@ -7445,6 +7442,11 @@
 	dir = 5
 	},
 /area/f13/vault)
+"iNt" = (
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/raider,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/vault)
 "iOg" = (
 /obj/structure/girder/reinforced,
 /obj/effect/decal/cleanable/dirt,
@@ -7463,7 +7465,9 @@
 /area/f13/bunker)
 "iOm" = (
 /obj/structure/mirror,
-/turf/closed/indestructible/vaultdoor,
+/turf/closed/wall/r_wall/f13vault{
+	icon_state = "2-i"
+	},
 /area/f13/vault)
 "iOq" = (
 /obj/effect/turf_decal/stripes/corner{
@@ -8467,7 +8471,9 @@
 	icon_state = "skulls";
 	name = "skulls"
 	},
-/turf/closed/indestructible/vaultdoor,
+/turf/closed/wall/r_wall/f13vault{
+	icon_state = "2-i"
+	},
 /area/f13/vault)
 "kjz" = (
 /obj/effect/decal/cleanable/dirt,
@@ -8495,7 +8501,7 @@
 /obj/machinery/light/small/broken{
 	dir = 4
 	},
-/turf/open/floor/plasteel/showroomfloor,
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite,
 /area/f13/vault)
 "kkC" = (
 /obj/structure/window/reinforced{
@@ -12434,7 +12440,7 @@
 /obj/machinery/door/poddoor{
 	id = "vaultelevator"
 	},
-/turf/closed/indestructible/vaultdoor,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/vault)
 "oUE" = (
 /obj/structure/rack,
@@ -13074,6 +13080,7 @@
 /mob/living/simple_animal/hostile/wolf/alpha{
 	faction = list("raider")
 	},
+/mob/living/simple_animal/hostile/raider,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/vault)
 "pBV" = (
@@ -13664,9 +13671,7 @@
 	req_access_txt = "5"
 	},
 /obj/structure/decoration/rag,
-/turf/closed/wall/r_wall/f13vault{
-	icon_state = "2-i"
-	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite,
 /area/f13/vault)
 "qrP" = (
 /obj/structure/chair/comfy/beige{
@@ -17012,7 +17017,6 @@
 /area/f13/vault)
 "uxD" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/chem_dispenser,
 /obj/structure/table/glass,
 /obj/machinery/light/broken{
 	dir = 1
@@ -17156,8 +17160,12 @@
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
 /area/f13/bunker)
 "uGE" = (
-/obj/structure/sign/departments/science,
-/turf/closed/indestructible/vaultdoor,
+/obj/structure/fireaxecabinet{
+	pixel_x = 33
+	},
+/turf/closed/wall/r_wall/f13vault{
+	icon_state = "2-i"
+	},
 /area/f13/vault)
 "uIJ" = (
 /obj/structure/chair/f13chair2{
@@ -19311,12 +19319,16 @@
 /obj/structure/fireaxecabinet{
 	pixel_x = 33
 	},
-/turf/closed/indestructible/vaultdoor,
+/turf/closed/wall/r_wall/f13vault{
+	icon_state = "2-i"
+	},
 /area/f13/vault)
 "xip" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/sign/poster/prewar/poster72,
-/turf/closed/indestructible/vaultdoor,
+/turf/closed/wall/r_wall/f13vault{
+	icon_state = "2-i"
+	},
 /area/f13/vault)
 "xiC" = (
 /obj/effect/decal/cleanable/dirt,
@@ -39770,18 +39782,18 @@ heT
 xsH
 eqU
 bZo
-xsH
+mAN
 nJV
 pwK
 mlL
-xsH
+mAN
 lOD
 qom
-xsH
+mAN
 aXC
 rGd
 hQs
-xsH
+mAN
 tET
 aob
 fRh
@@ -40034,7 +40046,7 @@ uMK
 iOm
 vyb
 kky
-xsH
+mAN
 rXW
 gyG
 gqF
@@ -40282,20 +40294,20 @@ heT
 heT
 heT
 xsH
-fab
-xsH
-adI
+huH
+mAN
+uGE
 wAC
 cOX
 ref
-xsH
+mAN
 sAa
-xsH
-xsH
-fab
-xsH
+mAN
+mAN
+huH
+mAN
 unR
-xsH
+mAN
 rBR
 eLG
 ewi
@@ -41053,23 +41065,23 @@ heT
 heT
 heT
 xsH
-fab
-xsH
-xsH
+huH
+mAN
+mAN
 bHX
 kjz
 uDq
-xsH
-xsH
-xsH
-xsH
+mAN
+mAN
+mAN
+mAN
 kjy
 kcN
 kcN
-uGE
-xsH
-fab
-xsH
+iuD
+mAN
+huH
+mAN
 xsH
 heT
 heT
@@ -41313,9 +41325,9 @@ xsH
 jYN
 pnm
 clD
-hJL
-hJL
-huH
+fWx
+fWx
+iMj
 xCH
 whP
 gjL
@@ -41581,9 +41593,9 @@ fWx
 ttu
 rgv
 nrm
-hJL
-hJL
-hJL
+fWx
+fWx
+fWx
 xsH
 heT
 heT
@@ -41827,7 +41839,7 @@ xsH
 aBy
 fiH
 lts
-hJL
+fWx
 vRT
 qrL
 pgB
@@ -41837,7 +41849,7 @@ jmp
 fWx
 loM
 rgv
-hJL
+fWx
 mBJ
 rib
 ycL
@@ -42081,7 +42093,7 @@ heT
 heT
 heT
 xsH
-huH
+iMj
 sgg
 avl
 tRO
@@ -42094,7 +42106,7 @@ fWx
 gqE
 scL
 vEo
-huH
+iMj
 pJb
 rRC
 uyy
@@ -42860,12 +42872,12 @@ bAE
 rgv
 lhz
 gqE
-hJL
-hJL
-hJL
-hJL
-hJL
-hJL
+fWx
+fWx
+fWx
+fWx
+fWx
+fWx
 pss
 lze
 iyd
@@ -43116,16 +43128,16 @@ hRh
 fWx
 mcS
 rgv
-hJL
+fWx
 rBN
 rcI
 xYT
 fMC
 nZK
 cqc
-hJL
-huH
-hJL
+fWx
+iMj
+fWx
 xsH
 heT
 heT
@@ -43366,10 +43378,10 @@ heT
 heT
 heT
 xsH
-hJL
-hJL
-hJL
-hJL
+fWx
+fWx
+fWx
+fWx
 rgv
 rgv
 cUk
@@ -43630,7 +43642,7 @@ lWL
 rgv
 rgv
 rgv
-hJL
+fWx
 ppw
 xyJ
 ruB
@@ -44137,14 +44149,14 @@ heT
 heT
 heT
 xsH
-hJL
-hJL
-hJL
+fWx
+fWx
+fWx
 rkZ
 rgv
 rgv
-rgv
-hJL
+iNt
+fWx
 dEi
 pWL
 pWL
@@ -44397,20 +44409,20 @@ xsH
 jeT
 aTp
 aTp
-hJL
+fWx
 ama
 kfe
 rgv
 lhi
-hJL
+fWx
 tCC
 eOE
 gyK
 cuk
 sPe
-hJL
-hJL
-huH
+fWx
+fWx
+iMj
 xsH
 heT
 heT
@@ -44654,17 +44666,17 @@ xsH
 jeT
 aTp
 aTp
-hJL
+fWx
 fId
 rgv
 rgv
 gqE
-hJL
+fWx
 mZI
 gYU
 bRu
 xWF
-huH
+iMj
 cPm
 nPg
 lGh
@@ -44916,7 +44928,7 @@ rgv
 rgv
 rgv
 rCV
-hJL
+fWx
 rPu
 mWV
 ngv
