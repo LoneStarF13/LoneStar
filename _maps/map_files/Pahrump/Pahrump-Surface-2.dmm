@@ -4964,7 +4964,8 @@
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/ncr)
 "ciO" = (
-/obj/structure/closet/crate/bin,
+/obj/structure/table/wood,
+/obj/machinery/reagentgrinder,
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/wasteland)
 "cjb" = (
@@ -44355,7 +44356,7 @@
 /area/f13/building)
 "tpD" = (
 /obj/structure/table/wood,
-/obj/machinery/reagentgrinder,
+/obj/item/reagent_containers/food/drinks/bottle/nukashine,
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/wasteland)
 "tpR" = (
@@ -48946,7 +48947,9 @@
 /area/f13/wasteland)
 "vsm" = (
 /obj/structure/table/wood,
-/obj/item/reagent_containers/food/drinks/bottle/nukashine,
+/obj/item/crafting/abraxo,
+/obj/item/soap/homemade,
+/obj/item/reagent_containers/spray,
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/wasteland)
 "vsn" = (
@@ -53474,11 +53477,11 @@
 	},
 /area/f13/building)
 "xqy" = (
-/obj/structure/table/wood,
-/obj/item/crafting/abraxo,
-/obj/item/soap/homemade,
-/obj/item/reagent_containers/spray,
-/turf/open/indestructible/ground/outside/dirt,
+/obj/structure/closet/crate/bin,
+/turf/open/indestructible/ground/outside/dirt{
+	dir = 1;
+	icon_state = "dirtcorner"
+	},
 /area/f13/wasteland)
 "xqI" = (
 /obj/structure/window/fulltile/ruins{
@@ -67573,11 +67576,11 @@ lHr
 tBN
 mvv
 mvv
-tpD
 mvv
-vsm
-xqy
-ciO
+mvv
+mvv
+mvv
+mvv
 mvv
 mvv
 mvv
@@ -67829,11 +67832,11 @@ fyf
 qOV
 daU
 mvv
-mEy
+ciO
 tsv
 mvv
-mvv
-mvv
+tpD
+vsm
 aBH
 mfD
 mfD
@@ -68085,13 +68088,13 @@ fyf
 qOV
 daU
 mvv
-aBH
+goK
 rlm
 ttU
 unW
 vwt
 xzn
-hCg
+xqy
 fyf
 fyf
 tBN
