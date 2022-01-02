@@ -771,7 +771,6 @@
 				/obj/effect/spawner/bundle/f13/trenchshotgun,
 				/obj/effect/spawner/bundle/f13/revolver45,
 				/obj/effect/spawner/bundle/f13/thatgun,
-				/obj/effect/spawner/bundle/f13/m1garand,
 				/obj/effect/spawner/bundle/f13/guns/tommygun,
 				/obj/item/gun/ballistic/automatic/smg/american180
 				)
@@ -779,12 +778,14 @@
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ballistic/high
 	name = "high tier ballistic gun"
 	loot = list(/obj/effect/spawner/bundle/f13/marksman = 15,
-				/obj/effect/spawner/bundle/f13/assault_rifle = 20,
-				/obj/effect/spawner/bundle/f13/r84 = 10,
+				/obj/effect/spawner/bundle/f13/assault_rifle = 15,
+				/obj/effect/spawner/bundle/f13/r84 = 5,
 				/obj/effect/spawner/bundle/f13/brushgun = 10,
 				/obj/effect/spawner/bundle/f13/hunting = 5,
+				/obj/effect/spawner/bundle/f13/guns/tommygun = 10,
+				/obj/effect/spawner/bundle/f13/m1garand = 10,
 				/obj/effect/spawner/bundle/f13/pistol14 = 15,
-				/obj/effect/spawner/bundle/f13/dkssniper = 15
+				/obj/effect/spawner/bundle/f13/dkssniper = 10
 				)
 
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ballistic/superhigh
@@ -1884,10 +1885,7 @@
 		/obj/item/book/granter/crafting_recipe/blueprint/smg10mm,
 		/obj/item/book/granter/crafting_recipe/blueprint/m1carbine,
 		/obj/item/book/granter/crafting_recipe/blueprint/scoutcarbine,
-		/obj/item/book/granter/crafting_recipe/blueprint/aep7,
 		/obj/item/book/granter/crafting_recipe/blueprint/commando,
-		/obj/item/book/granter/crafting_recipe/blueprint/pps,
-		/obj/item/book/granter/crafting_recipe/blueprint/leveraction,
 	)
 
 /obj/effect/spawner/lootdrop/f13/blueprintHigh
@@ -1895,14 +1893,14 @@
 	icon_state = "blueprint_loot"
 	lootcount = 1
 	loot = list(
+		/obj/item/book/granter/crafting_recipe/blueprint/leveraction,
 		/obj/item/book/granter/crafting_recipe/blueprint/r91,
 		/obj/item/book/granter/crafting_recipe/blueprint/sniper,
-		/obj/item/book/granter/crafting_recipe/blueprint/aer9,
 		/obj/item/book/granter/crafting_recipe/blueprint/riotshotgun,
 		/obj/item/book/granter/crafting_recipe/blueprint/r84,
-		/obj/item/book/granter/crafting_recipe/blueprint/neostead,
 		/obj/item/book/granter/crafting_recipe/blueprint/deagle,
 		/obj/item/book/granter/crafting_recipe/blueprint/marksman,
+		/obj/item/book/granter/crafting_recipe/blueprint/aep7,
 		/obj/item/book/granter/crafting_recipe/blueprint/plasmapistol,
 		/obj/item/book/granter/crafting_recipe/blueprint/brushgun,
 	)
@@ -1913,7 +1911,8 @@
 	lootcount = 1
 	loot = list(
 		/obj/item/book/granter/crafting_recipe/blueprint/gauss,
-		/obj/item/book/granter/crafting_recipe/blueprint/plasmarifle,
+		/obj/item/book/granter/crafting_recipe/blueprint/neostead,
+		/obj/item/book/granter/crafting_recipe/blueprint/aer9,
 	)
 
 /obj/effect/spawner/lootdrop/f13/blueprintVHighBallistics
