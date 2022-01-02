@@ -1256,7 +1256,7 @@
 	name = "CZ53 personal minigun"
 	desc = "Boasting an extreme rate of fire, the Rockwell CZ53 personal minigun is the perfect weapon for suppressing fire."
 	icon_state = "M38"
-	item_state = "minigun"
+	item_state = "M38"
 	slot_flags = 0
 	slowdown = 2.25
 	burst_size = 5

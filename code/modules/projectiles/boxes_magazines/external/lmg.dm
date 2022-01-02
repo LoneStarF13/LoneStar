@@ -53,10 +53,10 @@
 	icon_state = "cz53"
 	ammo_type = /obj/item/ammo_casing/m5mm
 	caliber = "m5mm"
-	max_ammo = 250
+	max_ammo = 240
 	multiple_sprites = 2
 
-/obj/item/ammo_box/magazine/minigun5mm/empty
+/obj/item/ammo_box/magazine/cz53/empty
 	start_empty = 1
 
 /obj/item/ammo_box/magazine/mg34
