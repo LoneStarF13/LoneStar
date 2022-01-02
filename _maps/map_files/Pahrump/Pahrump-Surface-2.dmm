@@ -1261,22 +1261,7 @@
 	},
 /area/f13/village)
 "aAI" = (
-/obj/structure/table,
-/obj/machinery/light/small{
-	dir = 8;
-	light_color = "#d8b1b1";
-	pixel_y = -32
-	},
-/obj/item/reagent_containers/pill/patch/jet,
-/obj/item/reagent_containers/pill/patch/jet,
-/obj/item/reagent_containers/food/drinks/bottle/molotov{
-	pixel_x = 7;
-	pixel_y = 7
-	},
-/obj/item/melee/onehanded/knife/survival{
-	pixel_x = -6;
-	pixel_y = 5
-	},
+/obj/machinery/workbench/bottler,
 /turf/open/floor/wood,
 /area/f13/raiders)
 "aAK" = (
@@ -1750,7 +1735,7 @@
 /turf/open/floor/carpet/royalblack,
 /area/f13/ncr)
 "aMl" = (
-/obj/machinery/workbench/bottler,
+/obj/machinery/autolathe,
 /turf/open/floor/wood/f13/housewoodbroken4,
 /area/f13/raiders)
 "aMn" = (
@@ -2024,8 +2009,10 @@
 /turf/open/floor/f13/wood,
 /area/f13/clinic)
 "aSW" = (
-/obj/machinery/autolathe,
-/turf/open/floor/wood,
+/obj/structure/decoration/rag{
+	icon_state = "skin"
+	},
+/turf/closed/wall/f13/wood/house,
 /area/f13/raiders)
 "aSY" = (
 /obj/effect/decal/cleanable/dirt{
@@ -2263,11 +2250,16 @@
 /turf/open/floor/f13/wood,
 /area/f13/village)
 "aZF" = (
-/obj/structure/rack,
-/obj/item/restraints/legcuffs/bola,
-/obj/item/restraints/legcuffs/bola,
-/obj/effect/decal/cleanable/cobweb/cobweb2,
-/turf/open/floor/wood/f13/housewoodbroken2,
+/obj/structure/table,
+/obj/structure/closet/crate/large,
+/obj/item/stack/ore/blackpowder/twenty,
+/obj/item/stack/sheet/metal/fifty,
+/obj/item/stack/sheet/glass/fifty,
+/obj/item/stack/sheet/hay/twenty,
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/open/floor/wood,
 /area/f13/raiders)
 "aZJ" = (
 /turf/open/indestructible/ground/inside/subway,
@@ -2594,7 +2586,8 @@
 /area/f13/building)
 "bgd" = (
 /obj/structure/table,
-/obj/effect/spawner/lootdrop/f13/medical/wasteland/meds/drug,
+/obj/item/stack/sheet/cardboard/fifty,
+/obj/structure/bedsheetbin,
 /turf/open/floor/wood,
 /area/f13/raiders)
 "bgk" = (
@@ -3537,8 +3530,8 @@
 	},
 /area/f13/building)
 "bzm" = (
-/obj/structure/decoration/clock,
-/turf/closed/wall/f13/wood/house,
+/obj/structure/table,
+/turf/open/floor/wood,
 /area/f13/raiders)
 "bzo" = (
 /obj/machinery/chem_dispenser,
@@ -4722,12 +4715,7 @@
 	},
 /area/f13/village)
 "cbM" = (
-/obj/structure/table,
-/obj/structure/closet/crate/large,
-/obj/item/stack/ore/blackpowder/twenty,
-/obj/item/stack/sheet/metal/fifty,
-/obj/item/stack/sheet/glass/fifty,
-/obj/item/stack/sheet/hay/twenty,
+/obj/structure/rack,
 /turf/open/floor/wood,
 /area/f13/raiders)
 "cbS" = (
@@ -11428,7 +11416,9 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/building)
 "eZI" = (
-/obj/machinery/workbench,
+/obj/machinery/autolathe/ammo,
+/obj/item/book/granter/crafting_recipe/gunsmith_two,
+/obj/item/book/granter/crafting_recipe/gunsmith_one,
 /turf/open/floor/wood,
 /area/f13/raiders)
 "eZW" = (
@@ -13590,13 +13580,18 @@
 /turf/open/indestructible/ground/outside/sidewalk,
 /area/f13/wasteland)
 "fTx" = (
-/obj/structure/barricade/tentclothedge{
-	dir = 8
+/obj/structure/table,
+/obj/item/melee/onehanded/knife/survival{
+	pixel_x = -6;
+	pixel_y = 5
 	},
-/turf/open/indestructible/ground/outside/dirt{
-	dir = 4;
-	icon_state = "dirt"
+/obj/item/reagent_containers/pill/patch/jet,
+/obj/item/reagent_containers/pill/patch/jet,
+/obj/item/reagent_containers/food/drinks/bottle/molotov{
+	pixel_x = 7;
+	pixel_y = 7
 	},
+/turf/open/floor/wood,
 /area/f13/raiders)
 "fTy" = (
 /obj/machinery/computer/slot_machine,
@@ -16046,6 +16041,10 @@
 /area/f13/wasteland)
 "gVt" = (
 /obj/structure/table,
+/obj/machinery/light/small{
+	dir = 8;
+	light_color = "#d8b1b1"
+	},
 /turf/open/floor/wood,
 /area/f13/raiders)
 "gVH" = (
@@ -18217,7 +18216,15 @@
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
 "hLm" = (
-/obj/structure/reagent_dispensers/barrel/explosive,
+/obj/effect/spawner/lootdrop/f13/medical/wasteland/meds/drug{
+	pixel_y = 10
+	},
+/obj/structure/table,
+/obj/machinery/light/small{
+	dir = 8;
+	light_color = "#d8b1b1";
+	pixel_y = -32
+	},
 /turf/open/floor/wood,
 /area/f13/raiders)
 "hLs" = (
@@ -18266,9 +18273,8 @@
 	},
 /area/f13/caves)
 "hMz" = (
-/obj/structure/bed/old,
-/obj/item/bedsheet/brown,
-/turf/open/indestructible/ground/outside/dirt,
+/obj/structure/decoration/clock,
+/turf/closed/wall/f13/wood/house,
 /area/f13/raiders)
 "hMI" = (
 /obj/structure/table/wood/settler,
@@ -18946,7 +18952,7 @@
 	},
 /area/f13/building)
 "iad" = (
-/obj/structure/rack,
+/obj/machinery/workbench,
 /turf/open/floor/wood,
 /area/f13/raiders)
 "iam" = (
@@ -19322,12 +19328,6 @@
 	icon_state = "dirt"
 	},
 /area/f13/wasteland)
-"iiE" = (
-/obj/structure/decoration/rag{
-	icon_state = "skin"
-	},
-/turf/closed/wall/f13/wood/house,
-/area/f13/raiders)
 "iiF" = (
 /obj/structure/simple_door/metal/dirtystore,
 /obj/machinery/door/poddoor/shutters{
@@ -33703,9 +33703,9 @@
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
 /area/f13/building)
 "osF" = (
-/obj/machinery/autolathe/ammo,
-/obj/item/book/granter/crafting_recipe/gunsmith_one,
-/obj/item/book/granter/crafting_recipe/gunsmith_two,
+/obj/structure/rack,
+/obj/item/restraints/legcuffs/bola,
+/obj/item/restraints/legcuffs/bola,
 /turf/open/floor/wood,
 /area/f13/raiders)
 "osH" = (
@@ -50353,15 +50353,6 @@
 /obj/structure/chair/stool,
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
-"vYp" = (
-/obj/structure/table,
-/obj/machinery/light/small{
-	dir = 1
-	},
-/obj/item/stack/sheet/cardboard/twenty,
-/obj/structure/bedsheetbin,
-/turf/open/floor/wood/f13/housewoodbroken2,
-/area/f13/raiders)
 "vYs" = (
 /turf/open/floor/plating/f13/outside/road{
 	icon_state = "crossborderbottomright"
@@ -67318,10 +67309,10 @@ ktB
 gcK
 gcK
 gcK
-ktB
-gcK
-gcK
 uKu
+uKu
+uKu
+hMz
 gin
 dkW
 qlW
@@ -67576,8 +67567,8 @@ gcK
 gcK
 ktB
 uKu
-uKu
-uKu
+fTx
+hLm
 bzm
 qiN
 iRv
@@ -67832,9 +67823,9 @@ gcK
 gcK
 gcK
 ktB
-uKu
+aSW
 aAI
-bgd
+iRv
 eoI
 iRv
 iRv
@@ -68346,10 +68337,10 @@ uKu
 cos
 dEc
 gVt
-uKu
-aSW
+bgd
 iRv
-eZI
+iRv
+iRv
 uKu
 dlX
 uKu
@@ -68602,9 +68593,9 @@ gcK
 uKu
 iRv
 dLB
-hLm
-iiE
-vYp
+iRv
+iRv
+jQz
 jQz
 osF
 cYz
@@ -68858,9 +68849,9 @@ gcK
 gcK
 uKu
 iRv
+jQz
 iRv
-iRv
-iRv
+jQz
 iRv
 iRv
 cbM
@@ -69117,7 +69108,7 @@ uKu
 dld
 iRv
 iad
-uKu
+eZI
 aZF
 bix
 krS
