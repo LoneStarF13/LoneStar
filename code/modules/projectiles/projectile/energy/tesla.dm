@@ -31,7 +31,7 @@
 
 /obj/item/projectile/energy/teslacannon
 	name = "tesla beam"
-	icon_state = "tesla_projectile"
+	icon_state = "omnilaser"
 	impact_effect_type = /obj/effect/temp_visual/impact_effect/blue_laser
 	light_color = LIGHT_COLOR_BLUE
 	damage = 55
