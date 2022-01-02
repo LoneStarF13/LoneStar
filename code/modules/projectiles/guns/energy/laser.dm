@@ -583,6 +583,58 @@
 	ammo_x_offset = 3
 
 
+//Gatling Laser
+/obj/item/gun/energy/minigun
+	name = "laser gatling gun"
+	desc = "An advanced laser cannon with an incredible rate of fire. Requires a bulky backpack power source to use."
+	icon = 'icons/obj/guns/minigun.dmi'
+	icon_state = "minigun_spin"
+	item_state = "minigun"
+	flags_1 = CONDUCT_1
+	slowdown = 1
+	slot_flags = null
+	w_class = WEIGHT_CLASS_HUGE
+	custom_materials = null
+	burst_size = 5
+	burst_shot_delay = 1
+	ranged_attack_speed = CLICK_CD_RAPID
+	fire_delay = 1
+	weapon_weight = WEAPON_HEAVY
+	fire_sound = 'sound/weapons/laser.ogg'
+	ammo_type = list(/obj/item/ammo_casing/energy/laser/gatling/hitscan)
+	cell_type = /obj/item/stock_parts/cell/ammo/ecp
+	casing_ejector = FALSE
+	item_flags = NEEDS_PERMIT | SLOWS_WHILE_IN_HAND
+	var/obj/item/minigunpack/ammo_pack
+
+/obj/item/gun/energy/minigun/Initialize()
+	if(istype(loc, /obj/item/minigunpack)) //We should spawn inside an ammo pack so let's use that one.
+		ammo_pack = loc
+	else
+		return INITIALIZE_HINT_QDEL //No pack, no gun
+
+	return ..()
+
+/obj/item/gun/energy/minigun/attack_self(mob/living/user)
+	return
+
+/obj/item/gun/energy/minigun/dropped(mob/user)
+	. = ..()
+	if(ammo_pack)
+		ammo_pack.attach_gun(user)
+	else
+		qdel(src)
+
+/obj/item/gun/energy/minigun/afterattack(atom/target, mob/living/user, flag, params)
+	if(!ammo_pack || ammo_pack.loc != user)
+		to_chat(user, "You need the backpack power source to fire the gun!")
+	. = ..()
+
+/obj/item/gun/energy/minigun/dropped(mob/living/user)
+	. = ..()
+	ammo_pack.attach_gun(user)
+
+
 //// BETA /// Obsolete
 /obj/item/gun/energy/laser/lasertesting
 	ammo_type = list(/obj/item/ammo_casing/energy/laser/pistol/lasertest)
