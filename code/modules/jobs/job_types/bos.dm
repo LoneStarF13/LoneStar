@@ -188,6 +188,7 @@ Head Paladin
 	name = "Minigun Head Paladin"
 	backpack_contents = list(
 		/obj/item/minigunpackbal5mm=1,
+		/obj/item/ammo_box/magazine/cz53=1,
 		/obj/item/gun/energy/laser/pistol=1,
 		/obj/item/stock_parts/cell/ammo/ec=2,
 	)
@@ -436,6 +437,7 @@ Star Paladin
 	name = "Vanguard Senior Paladin"
 	backpack_contents = list(
 		/obj/item/minigunpackbal5mm = 1,
+		/obj/item/ammo_box/magazine/cz53=1,
 		/obj/item/gun/energy/laser/pistol=1,
 		/obj/item/stock_parts/cell/ammo/ec=2,
 	)
@@ -535,6 +537,7 @@ Paladin
 	name = "Vanguard Junior Paladin"
 	backpack_contents = list(
 		/obj/item/minigunpackbal5mm = 1,
+		/obj/item/ammo_box/magazine/cz53=1,
 		/obj/item/gun/energy/laser/pistol=1,
 		/obj/item/stock_parts/cell/ammo/ec=2,
 		/obj/item/clothing/accessory/bos/juniorpaladin = 1,
@@ -564,6 +567,7 @@ Paladin
 	name = "Vanguard Paladin"
 	backpack_contents = list(
 		/obj/item/minigunpackbal5mm=1,
+		/obj/item/ammo_box/magazine/cz53=1,
 		/obj/item/gun/energy/laser/pistol=1,
 		/obj/item/stock_parts/cell/ammo/ec=2,
 		/obj/item/clothing/accessory/bos/paladin=1
