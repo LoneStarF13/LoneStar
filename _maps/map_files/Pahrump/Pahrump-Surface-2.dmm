@@ -9375,12 +9375,8 @@
 /turf/open/floor/wood,
 /area/f13/raiders)
 "egW" = (
-/obj/structure/barricade/tentclothcorner,
-/turf/open/indestructible/ground/outside/dirt{
-	dir = 1;
-	icon_state = "dirtcorner"
-	},
-/area/f13/caves)
+/turf/open/indestructible/ground/outside/savannah/bottomleft,
+/area/f13/wasteland)
 "eha" = (
 /obj/structure/fence/handrail_corner{
 	dir = 1;
@@ -34593,7 +34589,8 @@
 	},
 /area/f13/building)
 "oMn" = (
-/turf/open/indestructible/ground/outside/savannah/bottomleft,
+/mob/living/simple_animal/chicken,
+/turf/open/indestructible/ground/outside/savannah/topcenter,
 /area/f13/wasteland)
 "oMp" = (
 /turf/open/indestructible/ground/outside/dirt{
@@ -37899,10 +37896,10 @@
 	dir = 8
 	},
 /turf/open/indestructible/ground/outside/dirt{
-	dir = 8;
-	icon_state = "dirtcorner"
+	dir = 9;
+	icon_state = "dirt"
 	},
-/area/f13/wasteland)
+/area/f13/raiders)
 "qoN" = (
 /obj/item/kirbyplants/random,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
@@ -38847,7 +38844,7 @@
 "qLC" = (
 /mob/living/simple_animal/cow/brahmin,
 /obj/structure/destructible/tribal_torch/lit,
-/turf/open/indestructible/ground/outside/savannah/bottomleftcorner,
+/turf/open/indestructible/ground/outside/savannah/topcenter,
 /area/f13/wasteland)
 "qLO" = (
 /obj/structure/chair/booth{
@@ -42041,6 +42038,13 @@
 /obj/item/flashlight/lantern,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
+"smq" = (
+/obj/structure/barricade/tentclothedge{
+	dir = 1;
+	pixel_y = -3
+	},
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/raiders)
 "smw" = (
 /obj/structure/chair/wood/fancy{
 	dir = 8
@@ -49139,13 +49143,14 @@
 /area/f13/building)
 "vuU" = (
 /obj/structure/barricade/tentclothedge{
-	dir = 4
+	dir = 1;
+	pixel_y = -3
 	},
 /turf/open/indestructible/ground/outside/dirt{
-	dir = 8;
+	dir = 6;
 	icon_state = "dirt"
 	},
-/area/f13/caves)
+/area/f13/raiders)
 "vuZ" = (
 /obj/structure/barricade/wooden,
 /turf/open/indestructible/ground/outside/desert,
@@ -68989,7 +68994,7 @@ mEy
 gzq
 ovO
 pYj
-jnE
+vuU
 tZT
 unW
 vJP
@@ -69246,7 +69251,7 @@ mvv
 mWy
 clL
 qwW
-jnE
+smq
 bEP
 xcV
 mRH
@@ -69502,12 +69507,12 @@ rjH
 rjH
 srL
 cdL
-fZe
+oMn
 qoL
-vuU
-vuU
-vuU
-egW
+iaB
+iaB
+iaB
+lHr
 gcK
 gcK
 gcK
@@ -69758,7 +69763,7 @@ rjH
 rjH
 rjH
 srL
-oMn
+cdL
 qLC
 gcK
 gcK
@@ -70014,9 +70019,9 @@ mvv
 rjH
 rjH
 rjH
-gcK
-gcK
-gcK
+srL
+egW
+ebx
 gcK
 ktB
 ktB
