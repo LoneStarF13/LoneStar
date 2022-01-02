@@ -53,12 +53,6 @@
 	var/zap_flags = ZAP_MOB_DAMAGE | ZAP_OBJ_DAMAGE
 	var/zap_range = 1
 
-/obj/item/projectile/energy/teslacannon/fire(setAngle, atom/direct_target)
-	var/atom/source = fired_from || firer
-	if(source)
-		chain = source.Beam(src, icon_state = "lightning[rand(1, 12)]", time = INFINITY, maxdistance = INFINITY)
-	return ..()
-
 /obj/item/projectile/energy/teslacannon/on_hit(atom/target)
 	. = ..()
 	tesla_zap(target, zap_range, zap_flags)
