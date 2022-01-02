@@ -779,9 +779,9 @@
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ballistic/high
 	name = "high tier ballistic gun"
 	loot = list(/obj/effect/spawner/bundle/f13/assault_rifle = 20,
-				/obj/effect/spawner/bundle/f13/r84 = 15,
+				/obj/effect/spawner/bundle/f13/r84 = 10,
 				/obj/effect/spawner/bundle/f13/hunting = 15,
-				/obj/effect/spawner/bundle/f13/guns/tommygun = 15,
+				/obj/effect/spawner/bundle/f13/guns/tommygun = 20,
 				/obj/effect/spawner/bundle/f13/m1garand = 15,
 				/obj/effect/spawner/bundle/f13/pistol14 = 15,
 				)
