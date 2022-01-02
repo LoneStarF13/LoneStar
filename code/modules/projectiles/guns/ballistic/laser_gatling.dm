@@ -13,9 +13,6 @@
 	w_class = WEIGHT_CLASS_HUGE
 	var/obj/item/gun/ballistic/minigun/gun
 	var/armed = 0 //whether the gun is attached, 0 is attached, 1 is the gun is wielded.
-	var/overheat = 0
-	var/overheat_max = 40
-	var/heat_diffusion = 1
 
 /obj/item/minigunpack/Initialize()
 	. = ..()
@@ -25,9 +22,6 @@
 /obj/item/minigunpack/Destroy()
 	STOP_PROCESSING(SSobj, src)
 	return ..()
-
-/obj/item/minigunpack/process()
-	overheat = max(0, overheat - heat_diffusion)
 
 /obj/item/minigunpack/on_attack_hand(mob/living/carbon/user)
 	if(src.loc == user)
@@ -109,7 +103,8 @@
 	fire_delay = 1
 	weapon_weight = WEAPON_HEAVY
 	fire_sound = 'sound/weapons/laser.ogg'
-	mag_type = /obj/item/ammo_box/magazine/internal/minigun
+	ammo_type = list(/obj/item/ammo_casing/energy/laser/gatling/hitscan)
+	cell_type = /obj/item/stock_parts/cell/ammo/ecp
 	casing_ejector = FALSE
 	item_flags = NEEDS_PERMIT | SLOWS_WHILE_IN_HAND
 	var/obj/item/minigunpack/ammo_pack
@@ -131,14 +126,6 @@
 		ammo_pack.attach_gun(user)
 	else
 		qdel(src)
-
-/obj/item/gun/ballistic/minigun/process_fire(atom/target, mob/living/user, message = TRUE, params = null, zone_override = "", bonus_spread = 0, stam_cost = 0)
-	if(ammo_pack)
-		if(ammo_pack.overheat < ammo_pack.overheat_max)
-			ammo_pack.overheat += burst_size
-			..()
-		else
-			to_chat(user, "The gun's heat sensor locked the trigger to prevent lens damage.")
 
 /obj/item/gun/ballistic/minigun/afterattack(atom/target, mob/living/user, flag, params)
 	if(!ammo_pack || ammo_pack.loc != user)

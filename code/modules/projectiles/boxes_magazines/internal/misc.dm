@@ -6,9 +6,9 @@
 
 /obj/item/ammo_box/magazine/internal/minigun
 	name = "gatling gun fusion core"
-	ammo_type = /obj/item/ammo_casing/caseless/laser/gatling
-	caliber = "gatling"
-	max_ammo = 5000
+	ammo_type = /obj/item/ammo_casing/energy/laser/gatling/hitscan
+	caliber = "ecp"
+	max_ammo = 240
 
 /obj/item/ammo_box/magazine/internal/minigunbal
 	name = "minigun ammo pack"
@@ -20,7 +20,7 @@
 	name = "minigun ammo pack"
 	ammo_type = /obj/item/ammo_casing/m5mm
 	caliber = "m5mm"
-	max_ammo = 480
+	max_ammo = 500
 
 //Basic Bow Ammo
 /obj/item/ammo_box/magazine/internal/tribalbow
