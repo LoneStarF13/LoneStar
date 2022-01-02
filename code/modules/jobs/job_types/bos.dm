@@ -460,8 +460,7 @@ Paladin
 	/datum/outfit/loadout/paladina, //R91
 	/datum/outfit/loadout/paladinb, //AER9
 	/datum/outfit/loadout/paladinc,
-	/datum/outfit/loadout/paladind,
-	/datum/outfit/loadout/paladine
+	/datum/outfit/loadout/paladind
 	)
 
 	outfit = /datum/outfit/job/bos/f13paladin
