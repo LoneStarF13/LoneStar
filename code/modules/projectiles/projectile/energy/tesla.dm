@@ -50,13 +50,7 @@
 	impact_light_intensity = 8
 	impact_light_range = 3.75
 	impact_light_color_override = LIGHT_COLOR_BLUE
-	var/zap_flags = ZAP_MOB_DAMAGE | ZAP_OBJ_DAMAGE
-	var/zap_range = 1
 
 /obj/item/projectile/energy/teslacannon/on_hit(atom/target)
 	. = ..()
-	tesla_zap(target, zap_range, zap_flags)
-	damage = 10
-	armour_penetration = 0.1
-	wound_bonus = 5
-	qdel(src)
+	explosion(target, 0, 0, 1, 0, adminlog = FALSE)
