@@ -13590,13 +13590,14 @@
 /turf/open/indestructible/ground/outside/sidewalk,
 /area/f13/wasteland)
 "fTx" = (
-/obj/structure/flora/grass/wasteland{
-	icon_state = "tall_grass_2";
-	pixel_x = -3;
-	pixel_y = 5
+/obj/structure/barricade/tentclothedge{
+	dir = 8
 	},
-/turf/open/indestructible/ground/outside/desert,
-/area/f13/wasteland)
+/turf/open/indestructible/ground/outside/dirt{
+	dir = 4;
+	icon_state = "dirt"
+	},
+/area/f13/raiders)
 "fTy" = (
 /obj/machinery/computer/slot_machine,
 /obj/effect/decal/cleanable/dirt,
@@ -17041,13 +17042,13 @@
 	},
 /area/f13/village)
 "hna" = (
-/obj/structure/barricade/tentclothcorner{
-	dir = 1
+/obj/structure/flora/grass/wasteland{
+	icon_state = "tall_grass_2";
+	pixel_x = -3;
+	pixel_y = 5
 	},
-/turf/open/indestructible/ground/outside/dirt{
-	icon_state = "dirtcorner"
-	},
-/area/f13/raiders)
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/wasteland)
 "hnh" = (
 /obj/structure/rack,
 /obj/item/storage/pill_bottle/stimulant,
@@ -18265,13 +18266,9 @@
 	},
 /area/f13/caves)
 "hMz" = (
-/obj/structure/barricade/tentclothedge{
-	dir = 8
-	},
-/turf/open/indestructible/ground/outside/dirt{
-	dir = 4;
-	icon_state = "dirt"
-	},
+/obj/structure/bed/old,
+/obj/item/bedsheet/brown,
+/turf/open/indestructible/ground/outside/dirt,
 /area/f13/raiders)
 "hMI" = (
 /obj/structure/table/wood/settler,
@@ -18575,7 +18572,8 @@
 /turf/open/floor/carpet/royalblack,
 /area/f13/ncr)
 "hTs" = (
-/obj/structure/dresser,
+/obj/structure/bed/old,
+/obj/item/bedsheet/brown,
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/raiders)
 "hTI" = (
@@ -21904,8 +21902,14 @@
 	},
 /area/f13/building)
 "jkk" = (
-/obj/structure/destructible/tribal_torch/wall/lit{
-	dir = 8
+/obj/structure/bed/dogbed,
+/mob/living/simple_animal/hostile/wolf/alpha{
+	desc = "The Rottweiler is a robust dog breed of great strength descended from the mastiffs.This one smells of beans and sunflowers.";
+	faction = list("neutral");
+	icon_dead = "rottweiler_dead";
+	icon_living = "rottweiler";
+	icon_state = "rottweiler";
+	name = "Sunflower"
 	},
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/raiders)
@@ -22123,16 +22127,12 @@
 	},
 /area/f13/wasteland)
 "jnN" = (
-/obj/structure/bed/dogbed,
-/mob/living/simple_animal/hostile/wolf/alpha{
-	desc = "The Rottweiler is a robust dog breed of great strength descended from the mastiffs.This one smells of beans and sunflowers.";
-	faction = list("neutral");
-	icon_dead = "rottweiler_dead";
-	icon_living = "rottweiler";
-	icon_state = "rottweiler";
-	name = "Sunflower"
+/obj/structure/barricade/tentclothcorner{
+	dir = 1
 	},
-/turf/open/indestructible/ground/outside/dirt,
+/turf/open/indestructible/ground/outside/dirt{
+	icon_state = "dirtcorner"
+	},
 /area/f13/raiders)
 "jnX" = (
 /obj/structure/simple_door/room,
@@ -26081,12 +26081,21 @@
 	},
 /area/f13/village)
 "kZp" = (
-/obj/structure/barricade/tentclothcorner{
-	dir = 4
+/obj/structure/barricade/tentclothedge{
+	dir = 1;
+	pixel_y = -3
+	},
+/obj/structure/decoration/rag{
+	icon_state = "skin"
+	},
+/obj/structure/decoration/rag{
+	icon_state = "skulls";
+	pixel_x = 4;
+	pixel_y = 2
 	},
 /turf/open/indestructible/ground/outside/dirt{
-	dir = 4;
-	icon_state = "dirtcorner"
+	dir = 1;
+	icon_state = "dirt"
 	},
 /area/f13/raiders)
 "kZz" = (
@@ -26652,17 +26661,8 @@
 	},
 /area/f13/ncr)
 "lmk" = (
-/obj/structure/barricade/tentclothedge{
-	dir = 1;
+/obj/structure/simple_door/tentflap_cloth{
 	pixel_y = -3
-	},
-/obj/structure/decoration/rag{
-	icon_state = "skin"
-	},
-/obj/structure/decoration/rag{
-	icon_state = "skulls";
-	pixel_x = 4;
-	pixel_y = 2
 	},
 /turf/open/indestructible/ground/outside/dirt{
 	dir = 1;
@@ -26848,9 +26848,11 @@
 /turf/open/floor/f13/wood,
 /area/f13/village)
 "lpL" = (
-/obj/structure/simple_door/tentflap_cloth{
+/obj/structure/barricade/tentclothedge{
+	dir = 1;
 	pixel_y = -3
 	},
+/obj/structure/decoration/rag,
 /turf/open/indestructible/ground/outside/dirt{
 	dir = 1;
 	icon_state = "dirt"
@@ -26911,15 +26913,10 @@
 	},
 /area/f13/building)
 "lqV" = (
-/obj/structure/barricade/tentclothedge{
-	dir = 1;
-	pixel_y = -3
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 8
 	},
-/obj/structure/decoration/rag,
-/turf/open/indestructible/ground/outside/dirt{
-	dir = 1;
-	icon_state = "dirt"
-	},
+/turf/open/indestructible/ground/outside/dirt,
 /area/f13/raiders)
 "lrf" = (
 /obj/structure/table/reinforced,
@@ -27535,12 +27532,14 @@
 	},
 /area/f13/building)
 "lHU" = (
-/obj/structure/reagent_dispensers/barrel/three,
-/obj/effect/spawner/lootdrop/f13/medical/wasteland/meds/drug{
-	pixel_y = 10
+/obj/structure/barricade/tentclothedge{
+	dir = 8
 	},
-/turf/open/indestructible/ground/outside/desert,
-/area/f13/wasteland)
+/turf/open/indestructible/ground/outside/dirt{
+	dir = 4;
+	icon_state = "dirt"
+	},
+/area/f13/raiders)
 "lIh" = (
 /obj/item/toy/beach_ball/holoball,
 /turf/open/indestructible/ground/outside/dirt,
@@ -28292,6 +28291,12 @@
 	},
 /turf/open/floor/wood,
 /area/f13/building)
+"lXB" = (
+/obj/structure/chair/wood/worn{
+	dir = 1
+	},
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/wasteland)
 "lXH" = (
 /obj/structure/rack,
 /obj/item/reagent_containers/spray/plantbgone,
@@ -29428,15 +29433,10 @@
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/tunnel)
 "mwt" = (
-/obj/structure/decoration/rag,
-/obj/structure/barricade/tentclothedge{
-	dir = 1;
+/obj/structure/simple_door/tentflap_cloth{
 	pixel_y = -3
 	},
-/turf/open/indestructible/ground/outside/dirt{
-	dir = 5;
-	icon_state = "dirt"
-	},
+/turf/open/indestructible/ground/outside/dirt,
 /area/f13/raiders)
 "mwO" = (
 /obj/structure/destructible/tribal_torch/wall,
@@ -30381,10 +30381,23 @@
 	},
 /area/f13/wasteland)
 "mUo" = (
-/obj/structure/simple_door/tentflap_cloth{
+/obj/structure/barricade/tentclothedge{
+	dir = 1;
 	pixel_y = -3
 	},
-/turf/open/indestructible/ground/outside/dirt,
+/obj/structure/decoration/rag,
+/obj/structure/decoration/rag{
+	icon_state = "skin"
+	},
+/obj/structure/decoration/rag{
+	icon_state = "skulls";
+	pixel_x = 4;
+	pixel_y = 2
+	},
+/turf/open/indestructible/ground/outside/dirt{
+	dir = 9;
+	icon_state = "dirt"
+	},
 /area/f13/raiders)
 "mUx" = (
 /obj/structure/fence{
@@ -30434,22 +30447,12 @@
 	},
 /area/f13/building)
 "mVv" = (
-/obj/structure/barricade/tentclothedge{
-	dir = 1;
-	pixel_y = -3
-	},
-/obj/structure/decoration/rag,
-/obj/structure/decoration/rag{
-	icon_state = "skin"
-	},
-/obj/structure/decoration/rag{
-	icon_state = "skulls";
-	pixel_x = 4;
-	pixel_y = 2
+/obj/structure/barricade/tentclothcorner{
+	dir = 4
 	},
 /turf/open/indestructible/ground/outside/dirt{
-	dir = 9;
-	icon_state = "dirt"
+	dir = 4;
+	icon_state = "dirtcorner"
 	},
 /area/f13/raiders)
 "mVR" = (
@@ -31921,8 +31924,10 @@
 /turf/open/floor/f13/wood,
 /area/f13/legion)
 "nDe" = (
-/obj/structure/tires/two,
-/obj/structure/wreck/trash/halftire,
+/obj/structure/reagent_dispensers/barrel/three,
+/obj/effect/spawner/lootdrop/f13/medical/wasteland/meds/drug{
+	pixel_y = 10
+	},
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
 "nDg" = (
@@ -31988,7 +31993,8 @@
 	pixel_y = 22
 	},
 /turf/open/indestructible/ground/outside/dirt{
-	icon_state = "dirtcorner"
+	dir = 4;
+	icon_state = "dirt"
 	},
 /area/f13/wasteland)
 "nDY" = (
@@ -32546,6 +32552,14 @@
 	icon_state = "floorrusty"
 	},
 /area/f13/city)
+"nRx" = (
+/obj/machinery/grill{
+	pixel_y = -7
+	},
+/turf/open/indestructible/ground/outside/dirt{
+	icon_state = "dirt"
+	},
+/area/f13/wasteland)
 "nRz" = (
 /obj/structure/fence/wooden{
 	dir = 4;
@@ -32684,12 +32698,16 @@
 	},
 /area/f13/wasteland)
 "nVu" = (
-/obj/machinery/grill,
+/obj/structure/decoration/rag,
+/obj/structure/barricade/tentclothedge{
+	dir = 1;
+	pixel_y = -3
+	},
 /turf/open/indestructible/ground/outside/dirt{
-	dir = 6;
+	dir = 5;
 	icon_state = "dirt"
 	},
-/area/f13/wasteland)
+/area/f13/raiders)
 "nVz" = (
 /obj/structure/rack,
 /obj/item/clothing/shoes/jackboots,
@@ -40172,8 +40190,7 @@
 /turf/closed/wall/rust,
 /area/f13/building)
 "rss" = (
-/obj/structure/bed/old,
-/obj/item/bedsheet/brown,
+/obj/structure/dresser,
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/raiders)
 "rsA" = (
@@ -63969,7 +63986,7 @@ gcK
 ktB
 gcK
 gcK
-ktB
+gcK
 gcK
 gcK
 gcK
@@ -64227,10 +64244,10 @@ ktB
 gcK
 gcK
 gcK
+bKy
+uey
+fyf
 gcK
-gcK
-gcK
-ktB
 gcK
 fyf
 fyf
@@ -64482,14 +64499,14 @@ gcK
 gcK
 gcK
 gcK
-gcK
-gcK
 bKy
-uey
+fFu
 fyf
-gcK
+fyf
+hna
+fyf
+uey
 ktB
-gcK
 ptP
 fyf
 sGI
@@ -64739,12 +64756,12 @@ gcK
 gcK
 gcK
 gcK
-bKy
-fFu
 fyf
-fyf
-fTx
-fyf
+jnN
+lHU
+lHU
+lHU
+mVv
 uey
 vAe
 pJQ
@@ -64996,11 +65013,11 @@ gcK
 ktB
 gcK
 ktB
-fyf
 hna
-hMz
-hMz
-hMz
+jnE
+hTs
+unW
+hTs
 kZp
 fyf
 uey
@@ -65253,11 +65270,11 @@ gcK
 gcK
 gcK
 gcK
-fTx
+fyf
 jnE
 rss
 unW
-rss
+unW
 lmk
 fyf
 fyf
@@ -65514,7 +65531,7 @@ fyf
 jnE
 hTs
 unW
-unW
+hTs
 lpL
 fyf
 ntv
@@ -65768,13 +65785,13 @@ gcK
 gcK
 gcK
 fyf
-jnE
-rss
-unW
-rss
-lqV
+hqL
+iaB
+iaB
+iaB
+lHr
 fyf
-nDe
+fyf
 pPF
 mfD
 xGH
@@ -66025,16 +66042,16 @@ gcK
 gcK
 fyf
 fyf
-hqL
-iaB
-iaB
-iaB
-lHr
 fyf
 fyf
 fyf
 fyf
-tBN
+nDe
+vAe
+fyf
+fyf
+fyf
+nRx
 mvv
 aBH
 mfD
@@ -66283,11 +66300,11 @@ bKy
 fyf
 fyf
 nxY
-fyf
-fyf
-bKy
+jnN
 lHU
-vAe
+lHU
+lHU
+mVv
 uey
 qOV
 cWG
@@ -66540,11 +66557,11 @@ gcK
 hwC
 hwC
 fyf
-hna
-hMz
-hMz
-hMz
-kZp
+jnE
+hTs
+lqV
+hTs
+nVu
 nDJ
 daU
 mvv
@@ -66800,9 +66817,9 @@ iVQ
 jnE
 rss
 jkk
-rss
+unW
 mwt
-nVu
+mvv
 mvv
 rht
 mvv
@@ -67056,16 +67073,16 @@ grc
 fyf
 jnE
 hTs
-jnN
 unW
+hTs
 mUo
-mvv
+xGH
 mvv
 gYA
 mvv
 iSi
 mvv
-mvv
+lXB
 bpD
 ocB
 rbr
@@ -67311,14 +67328,14 @@ qlW
 gSx
 vCF
 bKy
-jnE
-rss
-unW
-rss
-mVv
-xGH
+hqL
+iaB
+iaB
+iaB
+lHr
+tBN
 mvv
-mvv
+fNH
 mvv
 mvv
 mvv
@@ -67568,11 +67585,11 @@ dZK
 fpv
 gND
 fyf
-hqL
-iaB
-iaB
-iaB
-lHr
+fyf
+fyf
+fyf
+fyf
+fyf
 tBN
 mvv
 mvv
