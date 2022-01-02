@@ -50,7 +50,3 @@
 	impact_light_intensity = 8
 	impact_light_range = 3.75
 	impact_light_color_override = LIGHT_COLOR_BLUE
-
-/obj/item/projectile/energy/teslacannon/on_hit(atom/target)
-	. = ..()
-	explosion(target, 0, 0, 1, 0, adminlog = FALSE)
