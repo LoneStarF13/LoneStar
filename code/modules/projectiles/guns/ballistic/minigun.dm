@@ -149,8 +149,8 @@
 	ammo_pack.attach_gun(user)
 
 /obj/item/minigunpackbal5mm
-	name = "Minigun ammo belt"
-	desc = "The massive ammo belt for the minigun."
+	name = "CZ53 personal minigun ammo belt"
+	desc = "The massive ammo belt for the CZ53 personal minigun."
 	icon = 'icons/obj/guns/minigun.dmi'
 	icon_state = "balholstered"
 	item_state = "backpack"
@@ -160,9 +160,6 @@
 	w_class = WEIGHT_CLASS_HUGE
 	var/obj/item/gun/ballistic/minigunbal5mm/gun
 	var/armed = 0 //whether the gun is attached, 0 is attached, 1 is the gun is wielded.
-	var/overheat = 0
-	var/overheat_max = 30
-	var/heat_diffusion = 3.5 //How much heat is lost per tick
 
 /obj/item/minigunpackbal5mm/Initialize()
 	. = ..()
@@ -172,9 +169,6 @@
 /obj/item/minigunpackbal5mm/Destroy()
 	STOP_PROCESSING(SSobj, src)
 	return ..()
-
-/obj/item/minigunpackbal5mm/process()
-	overheat = max(0, overheat - heat_diffusion)
 
 //ATTACK HAND IGNORING PARENT RETURN VALUE
 /obj/item/minigunpackbal5mm/attack_hand(mob/living/carbon/user)
@@ -241,8 +235,8 @@
 
 
 /obj/item/gun/ballistic/minigunbal5mm
-	name = "minigun"
-	desc = "A minigun."
+	name = "CZ53 personal minigun"
+	desc = "Boasting an extreme rate of fire, the Rockwell CZ53 personal minigun is the perfect weapon for suppressing fire."
 	icon = 'icons/obj/guns/minigun.dmi'
 	icon_state = "minigunbal_spin"
 	item_state = "minigun"
