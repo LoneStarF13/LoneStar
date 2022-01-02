@@ -56,4 +56,7 @@
 /obj/item/projectile/energy/teslacannon/on_hit(atom/target)
 	. = ..()
 	tesla_zap(target, zap_range, zap_flags)
+	damage = 10
+	armour_penetration = 0.1
+	wound_bonus = 5
 	qdel(src)
