@@ -583,6 +583,20 @@
 	ammo_x_offset = 3
 
 
+//Tesla Cannon
+/obj/item/gun/energy/laser/teslacannon
+	name = "Tesla Cannon"
+	desc = "A shoulder-mounted energy weapon that is powered by electron charge packs that discharges a large electrical impulse upon impact with a much larger area of effect. "
+	icon_state = "lasercannon"
+	item_state = "laser"
+	ammo_type = list(/obj/item/ammo_casing/energy/laser/teslacannon)
+	cell_type = /obj/item/stock_parts/cell/ammo/ecp
+	fire_delay = 13
+	slowdown = 1
+	weapon_weight = WEAPON_HEAVY
+	equipsound = 'sound/f13weapons/equipsounds/aer14equip.ogg'
+
+
 //// BETA /// Obsolete
 /obj/item/gun/energy/laser/lasertesting
 	ammo_type = list(/obj/item/ammo_casing/energy/laser/pistol/lasertest)
