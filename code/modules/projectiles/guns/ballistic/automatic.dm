@@ -1272,6 +1272,10 @@
 	var/require_twohands = FALSE
 	fire_sound = 'sound/f13weapons/assaultrifle_fire.ogg'
 
+/obj/item/gun/ballistic/automatic/cz53/update_icon()
+	icon_state = "M38[cover_open ? "open" : "closed"][magazine ? CEILING(get_ammo(0)/20, 1)*20 : "-empty"]"
+	item_state = "M38[cover_open ? "open" : "closed"][magazine ? "mag" : "nomag"]"
+
 /obj/item/gun/ballistic/automatic/cz53/examine(mob/user)
 	. = ..()
 	if(cover_open && magazine)
