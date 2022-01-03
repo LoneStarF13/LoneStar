@@ -434,7 +434,7 @@
 	desc = "Mmm. Delicious flower juice."
 	illustration = "syringe"
 
-/obj/item/storage/box/medicine/stimpaks/stimpaks5/PopulateContents()
+/obj/item/storage/box/medicine/stimpaks/stimpaks5/imitation/PopulateContents()
 	for(var/i in 1 to 5)
 		new /obj/item/reagent_containers/hypospray/medipen/stimpak/imitation(src)
 
@@ -446,8 +446,8 @@
 /obj/item/storage/box/medicine/stimpaks/superstimpaks5/PopulateContents()
 	for(var/i in 1 to 5)
 		new /obj/item/reagent_containers/hypospray/medipen/stimpak/super(src)
-	
-	
+
+
 /obj/item/storage/box/medicine/bitterdrink5
 	name = "box of bitter drinks"
 	desc = "A box full of bitter drinks."
