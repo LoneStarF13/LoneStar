@@ -13675,17 +13675,7 @@
 /turf/open/indestructible/ground/outside/sidewalk,
 /area/f13/wasteland)
 "fTx" = (
-/obj/structure/fence{
-	dir = 1
-	},
-/obj/effect/decal/cleanable/glass{
-	pixel_y = -2
-	},
-/obj/structure/closet/bus{
-	pixel_x = 85;
-	pixel_y = -23
-	},
-/turf/open/indestructible/ground/outside/desert,
+/turf/closed/indestructible/rock,
 /area/f13/wasteland)
 "fTy" = (
 /obj/machinery/computer/slot_machine,
@@ -18339,11 +18329,8 @@
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
 "hLm" = (
-/obj/structure/chair/booth{
-	dir = 4;
-	pixel_y = 12
-	},
-/turf/open/indestructible/ground/outside/dirt,
+/obj/structure/tires/two,
+/turf/closed/mineral/random/low_chance,
 /area/f13/wasteland)
 "hLs" = (
 /obj/structure/curtain{
@@ -21120,7 +21107,7 @@
 	pixel_y = -12
 	},
 /obj/effect/decal/cleanable/glass,
-/turf/open/indestructible/ground/outside/desert,
+/turf/closed/indestructible/rock,
 /area/f13/wasteland)
 "iSj" = (
 /obj/structure/rack,
@@ -30466,21 +30453,17 @@
 	},
 /area/f13/wasteland)
 "mSC" = (
-/obj/structure/table/booth{
-	pixel_y = 10
+/obj/structure/fence{
+	dir = 1
 	},
-/obj/item/reagent_containers/food/condiment/saltshaker{
-	pixel_y = 17
+/obj/effect/decal/cleanable/glass{
+	pixel_y = -2
 	},
-/obj/item/reagent_containers/food/condiment/peppermill{
-	pixel_x = 4;
-	pixel_y = 13
+/obj/structure/closet/bus{
+	pixel_x = 85;
+	pixel_y = -23
 	},
-/obj/item/reagent_containers/food/condiment/ketchup{
-	pixel_x = -8;
-	pixel_y = 17
-	},
-/turf/open/indestructible/ground/outside/dirt,
+/turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
 "mSD" = (
 /obj/machinery/microwave/stove,
@@ -33159,8 +33142,8 @@
 /area/f13/building)
 "occ" = (
 /obj/structure/chair/booth{
-	dir = 8;
-	pixel_y = 11
+	dir = 4;
+	pixel_y = 12
 	},
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/wasteland)
@@ -39382,6 +39365,23 @@
 	icon_state = "bluedirtychess2"
 	},
 /area/f13/caves)
+"qSs" = (
+/obj/structure/table/booth{
+	pixel_y = 10
+	},
+/obj/item/reagent_containers/food/condiment/saltshaker{
+	pixel_y = 17
+	},
+/obj/item/reagent_containers/food/condiment/peppermill{
+	pixel_x = 4;
+	pixel_y = 13
+	},
+/obj/item/reagent_containers/food/condiment/ketchup{
+	pixel_x = -8;
+	pixel_y = 17
+	},
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/wasteland)
 "qSt" = (
 /obj/machinery/light,
 /obj/effect/spawner/lootdrop/f13/medical/wasteland/meds/drug,
@@ -42992,6 +42992,13 @@
 	icon_state = "whitegreenrustychess"
 	},
 /area/f13/ncr)
+"sGI" = (
+/obj/structure/chair/booth{
+	dir = 8;
+	pixel_y = 11
+	},
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/wasteland)
 "sGL" = (
 /obj/effect/decal/remains/human,
 /turf/open/floor/f13/wood,
@@ -64048,9 +64055,9 @@ gcK
 gcK
 gcK
 gcK
-eKM
-mnC
 fTx
+mnC
+mSC
 szb
 gun
 uSI
@@ -64562,7 +64569,7 @@ uey
 fyf
 gcK
 gcK
-fyf
+fTx
 fyf
 fyf
 ciP
@@ -64819,11 +64826,11 @@ fyf
 hna
 fyf
 uey
-fyf
-ptP
+fTx
+hLm
 ptP
 tBN
-hLm
+occ
 bpD
 wOK
 kpu
@@ -65076,11 +65083,11 @@ lHU
 lHU
 mVv
 uey
-vAe
+fTx
 pJQ
 nRx
 daU
-mSC
+qSs
 bpD
 hAC
 fyf
@@ -65333,11 +65340,11 @@ lqV
 hTs
 kZp
 fyf
-uey
+fTx
 kCH
 qTP
 mvv
-occ
+sGI
 bpD
 fyf
 fyf
@@ -65590,7 +65597,7 @@ jkk
 unW
 lmk
 fyf
-fyf
+vAe
 kCH
 tka
 mvv
