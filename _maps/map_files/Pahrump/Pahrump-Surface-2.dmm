@@ -16189,14 +16189,6 @@
 	},
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/legion)
-"gVR" = (
-/obj/structure/barricade/wooden/strong,
-/obj/structure/barricade/wooden/planks/pregame,
-/turf/open/indestructible/ground/outside/dirt{
-	dir = 4;
-	icon_state = "dirt"
-	},
-/area/f13/wasteland)
 "gWm" = (
 /obj/structure/chair/sofa/right,
 /turf/open/floor/wood/f13/oak,
@@ -18354,10 +18346,6 @@
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
 "hLm" = (
-/obj/structure/barricade/tentclothedge{
-	dir = 1;
-	pixel_y = -3
-	},
 /obj/structure/decoration/rag{
 	icon_state = "skin"
 	},
@@ -18366,6 +18354,7 @@
 	pixel_x = 4;
 	pixel_y = 2
 	},
+/obj/structure/barricade/tentclothedge,
 /turf/open/indestructible/ground/outside/dirt{
 	dir = 5;
 	icon_state = "dirt"
@@ -25290,14 +25279,6 @@
 	},
 /turf/open/floor/carpet,
 /area/f13/building)
-"kDF" = (
-/obj/structure/barricade/wooden/strong,
-/obj/structure/decoration/warning,
-/turf/open/indestructible/ground/outside/dirt{
-	dir = 4;
-	icon_state = "dirtcorner"
-	},
-/area/f13/wasteland)
 "kDQ" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -26252,11 +26233,8 @@
 	},
 /area/f13/village)
 "kZp" = (
-/obj/structure/barricade/tentclothedge{
-	dir = 1;
-	pixel_y = -3
-	},
 /obj/structure/decoration/rag,
+/obj/structure/barricade/tentclothedge,
 /turf/open/indestructible/ground/outside/dirt{
 	dir = 9;
 	icon_state = "dirt"
@@ -29605,9 +29583,7 @@
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/tunnel)
 "mwt" = (
-/obj/structure/simple_door/tentflap_cloth{
-	pixel_y = -3
-	},
+/obj/structure/simple_door/tentflap_cloth,
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/raiders)
 "mwO" = (
@@ -30562,10 +30538,6 @@
 	},
 /area/f13/wasteland)
 "mUo" = (
-/obj/structure/barricade/tentclothedge{
-	dir = 1;
-	pixel_y = -3
-	},
 /obj/structure/decoration/rag,
 /obj/structure/decoration/rag{
 	icon_state = "skin"
@@ -30575,6 +30547,7 @@
 	pixel_x = 4;
 	pixel_y = 2
 	},
+/obj/structure/barricade/tentclothedge,
 /turf/open/indestructible/ground/outside/dirt{
 	dir = 9;
 	icon_state = "dirt"
@@ -31275,6 +31248,14 @@
 	},
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/legion)
+"niM" = (
+/obj/structure/barricade/wooden/strong,
+/obj/structure/decoration/warning,
+/turf/open/indestructible/ground/outside/dirt{
+	dir = 4;
+	icon_state = "dirtcorner"
+	},
+/area/f13/wasteland)
 "niU" = (
 /obj/structure/table,
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier2,
@@ -32882,10 +32863,7 @@
 /area/f13/wasteland)
 "nVu" = (
 /obj/structure/decoration/rag,
-/obj/structure/barricade/tentclothedge{
-	dir = 1;
-	pixel_y = -3
-	},
+/obj/structure/barricade/tentclothedge,
 /turf/open/indestructible/ground/outside/dirt{
 	dir = 5;
 	icon_state = "dirt"
@@ -49243,6 +49221,14 @@
 /obj/structure/destructible/tribal_torch/wall/lit,
 /turf/open/floor/carpet/red,
 /area/f13/legion)
+"vpZ" = (
+/obj/structure/barricade/wooden/strong,
+/obj/structure/barricade/wooden/planks/pregame,
+/turf/open/indestructible/ground/outside/dirt{
+	dir = 4;
+	icon_state = "dirt"
+	},
+/area/f13/wasteland)
 "vqb" = (
 /obj/structure/bed/mattress{
 	icon_state = "mattress4"
@@ -54578,10 +54564,7 @@
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
 /area/f13/building)
 "xKi" = (
-/obj/structure/barricade/tentclothedge{
-	dir = 1;
-	pixel_y = -3
-	},
+/obj/structure/barricade/tentclothedge,
 /turf/open/indestructible/ground/outside/dirt{
 	dir = 1;
 	icon_state = "dirt"
@@ -63826,8 +63809,8 @@ mvh
 mvh
 oWC
 sqx
-gVR
-kDF
+vpZ
+niM
 mvh
 oWC
 ktB
