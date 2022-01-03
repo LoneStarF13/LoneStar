@@ -360,10 +360,11 @@
 	name = "Deathclaw Spear"
 	result = /obj/item/twohanded/spear/bonespear/deathclaw
 	time = 240
-	reqs = list(/obj/item/stack/sheet/animalhide/deathclaw = 6,
-				/obj/item/stack/sheet/sinew = 2,
-				/obj/item/stack/sheet/bone = 8,
-				/obj/item/stack/sheet/mineral/wood = 10)
+	reqs = list(/obj/item/stack/sheet/animalhide/deathclaw = 10,
+				/obj/item/stack/sheet/sinew = 10,
+				/obj/item/stack/sheet/bone = 10,
+				/obj/item/stack/sheet/mineral/wood = 10,
+				/obj/item/advanced_crafting_components/alloys = 1)
 	category = CAT_TRIBAL
 	tools = list(TOOL_WORKBENCH)
 	always_availible = FALSE
