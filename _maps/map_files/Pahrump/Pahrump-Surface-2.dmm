@@ -1266,7 +1266,8 @@
 /area/f13/village)
 "aAI" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/wood/f13/oak,
+/obj/effect/decal/cleanable/ash,
+/turf/open/floor/wood/f13/housewoodbroken2,
 /area/f13/raiders)
 "aAK" = (
 /obj/effect/decal/cleanable/blood/tracks{
@@ -1740,6 +1741,15 @@
 /area/f13/ncr)
 "aMl" = (
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/bed/dogbed,
+/mob/living/simple_animal/hostile/wolf/alpha{
+	desc = "The Rottweiler is a robust dog breed of great strength descended from the mastiffs.This one smells of beans and sunflowers.";
+	faction = list("neutral");
+	icon_dead = "rottweiler_dead";
+	icon_living = "rottweiler";
+	icon_state = "rottweiler";
+	name = "Sunflower"
+	},
 /turf/open/floor/wood/f13/oak,
 /area/f13/raiders)
 "aMn" = (
@@ -4216,6 +4226,9 @@
 "bPf" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/glass/beaker/waterbottle/large,
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 8
+	},
 /turf/open/floor/f13/wood,
 /area/f13/wasteland)
 "bPt" = (
@@ -4969,13 +4982,14 @@
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/ncr)
 "ciO" = (
-/obj/structure/chair/bench{
-	dir = 1
-	},
-/turf/closed/mineral/random/low_chance,
-/area/f13/caves)
+/obj/structure/table,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/binoculars,
+/turf/open/floor/wood/f13/oak,
+/area/f13/raiders)
 "ciP" = (
 /obj/structure/flora/tree/cactus,
+/obj/structure/destructible/tribal_torch/lit,
 /turf/open/indestructible/ground/outside/dirt{
 	icon_state = "dirt"
 	},
@@ -5216,6 +5230,7 @@
 "cos" = (
 /obj/machinery/workbench/forge,
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/cobweb,
 /turf/open/floor/wood/f13/oak,
 /area/f13/raiders)
 "cot" = (
@@ -13660,9 +13675,18 @@
 /turf/open/indestructible/ground/outside/sidewalk,
 /area/f13/wasteland)
 "fTx" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/wood/f13/oak,
-/area/f13/raiders)
+/obj/structure/fence{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/glass{
+	pixel_y = -2
+	},
+/obj/structure/closet/bus{
+	pixel_x = 87;
+	pixel_y = -25
+	},
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/wasteland)
 "fTy" = (
 /obj/machinery/computer/slot_machine,
 /obj/effect/decal/cleanable/dirt,
@@ -18315,9 +18339,12 @@
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
 "hLm" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/wood/f13/oak,
-/area/f13/raiders)
+/obj/structure/chair/booth{
+	dir = 4;
+	pixel_y = 12
+	},
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/wasteland)
 "hLs" = (
 /obj/structure/curtain{
 	color = "#845f58";
@@ -18370,6 +18397,10 @@
 	},
 /obj/structure/rack,
 /obj/effect/decal/cleanable/dirt,
+/obj/item/flashlight/glowstick/red,
+/obj/item/flashlight/glowstick/red,
+/obj/item/flashlight/glowstick/red,
+/obj/item/storage/toolbox/mechanical/old,
 /turf/open/floor/wood/f13/oak,
 /area/f13/raiders)
 "hMI" = (
@@ -22018,15 +22049,7 @@
 	},
 /area/f13/building)
 "jkk" = (
-/obj/structure/bed/dogbed,
-/mob/living/simple_animal/hostile/wolf/alpha{
-	desc = "The Rottweiler is a robust dog breed of great strength descended from the mastiffs.This one smells of beans and sunflowers.";
-	faction = list("neutral");
-	icon_dead = "rottweiler_dead";
-	icon_living = "rottweiler";
-	icon_state = "rottweiler";
-	name = "Sunflower"
-	},
+/obj/structure/campfire,
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/raiders)
 "jkn" = (
@@ -24820,8 +24843,6 @@
 /area/f13/wasteland)
 "krS" = (
 /obj/structure/rack,
-/obj/item/storage/toolbox/mechanical/old,
-/obj/item/binoculars,
 /obj/item/camera,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/f13/oak,
@@ -30446,21 +30467,20 @@
 /area/f13/wasteland)
 "mSC" = (
 /obj/structure/table/booth{
-	pixel_y = -10
+	pixel_y = 10
 	},
-/obj/item/reagent_containers/food/condiment/saltshaker,
+/obj/item/reagent_containers/food/condiment/saltshaker{
+	pixel_y = 17
+	},
 /obj/item/reagent_containers/food/condiment/peppermill{
 	pixel_x = 4;
-	pixel_y = -4
+	pixel_y = 13
 	},
 /obj/item/reagent_containers/food/condiment/ketchup{
 	pixel_x = -8;
-	pixel_y = -3
+	pixel_y = 17
 	},
-/turf/open/indestructible/ground/outside/dirt{
-	dir = 6;
-	icon_state = "dirt"
-	},
+/turf/open/indestructible/ground/outside/dirt,
 /area/f13/wasteland)
 "mSD" = (
 /obj/machinery/microwave/stove,
@@ -33140,7 +33160,7 @@
 "occ" = (
 /obj/structure/chair/booth{
 	dir = 8;
-	pixel_y = -12
+	pixel_y = 11
 	},
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/wasteland)
@@ -40334,7 +40354,7 @@
 /area/f13/wasteland)
 "rqc" = (
 /obj/effect/decal/cleanable/cobweb/cobweb2,
-/turf/closed/mineral/random/low_chance,
+/turf/closed/mineral/random/high_chance,
 /area/f13/caves)
 "rqz" = (
 /obj/effect/decal/cleanable/dirt,
@@ -42979,15 +42999,6 @@
 	icon_state = "whitegreenrustychess"
 	},
 /area/f13/ncr)
-"sGI" = (
-/obj/structure/chair/booth{
-	dir = 4;
-	pixel_y = -12
-	},
-/turf/open/indestructible/ground/outside/dirt{
-	icon_state = "dirt"
-	},
-/area/f13/wasteland)
 "sGL" = (
 /obj/effect/decal/remains/human,
 /turf/open/floor/f13/wood,
@@ -44612,6 +44623,9 @@
 "tpD" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/food/drinks/bottle/nukashine,
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 4
+	},
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/wasteland)
 "tpR" = (
@@ -44729,6 +44743,9 @@
 /obj/structure/table/wood,
 /obj/item/reagent_containers/glass/rag{
 	pixel_y = 8
+	},
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 4
 	},
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/wasteland)
@@ -53109,6 +53126,9 @@
 /obj/item/reagent_containers/food/drinks/beer,
 /obj/item/reagent_containers/food/drinks/beer,
 /obj/item/reagent_containers/food/drinks/bottle/whiskey,
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 4
+	},
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/raiders)
 "xcX" = (
@@ -55686,13 +55706,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13/wood,
 /area/f13/legion)
-"ymb" = (
-/obj/structure/closet/bus{
-	pixel_x = 50;
-	pixel_y = -55
-	},
-/turf/open/indestructible/ground/outside/desert,
-/area/f13/wasteland)
 "ymi" = (
 /obj/structure/table/wood/settler,
 /turf/open/indestructible/ground/outside/dirt,
@@ -60945,8 +60958,8 @@ hwC
 hwC
 hwC
 gcK
-ktB
 gcK
+ktB
 gcK
 gcK
 gbL
@@ -61202,9 +61215,9 @@ fyf
 hwC
 gcK
 gcK
+gcK
+gcK
 ktB
-gcK
-gcK
 gcK
 gbL
 gcK
@@ -61461,7 +61474,7 @@ gcK
 gcK
 ktB
 gcK
-gcK
+ktB
 gcK
 gcK
 gcK
@@ -63004,10 +63017,10 @@ gcK
 gcK
 gcK
 gcK
-gcK
+ktB
 gcK
 ktB
-ktB
+gcK
 gcK
 gcK
 gcK
@@ -63255,18 +63268,18 @@ lPT
 lPT
 lPT
 lPT
+gcK
+gcK
+gcK
+gcK
 ktB
 gcK
 gcK
 gcK
+gcK
 ktB
 gcK
 gcK
-gcK
-gcK
-gcK
-gcK
-ciO
 gcK
 gcK
 gcK
@@ -63509,18 +63522,18 @@ gcK
 gcK
 gcK
 gcK
-ktB
 gcK
 gcK
 gcK
 ktB
 gcK
 gcK
+gcK
 ktB
 gcK
 gcK
 gcK
-gcK
+ktB
 gcK
 gcK
 gcK
@@ -63766,9 +63779,9 @@ fyf
 gcK
 gcK
 gcK
-gcK
-gcK
-gcK
+ktB
+ktB
+ktB
 gcK
 ktB
 gcK
@@ -63776,7 +63789,7 @@ gcK
 gcK
 gcK
 gcK
-gcK
+ktB
 gcK
 gcK
 gcK
@@ -64044,7 +64057,7 @@ gcK
 gcK
 eKM
 mnC
-mnC
+fTx
 szb
 gun
 uSI
@@ -64279,7 +64292,7 @@ fyf
 gcK
 gcK
 gcK
-gcK
+ktB
 gcK
 gcK
 gcK
@@ -64300,7 +64313,7 @@ gcK
 ktB
 gcK
 iSi
-ymb
+fyf
 qSs
 tBN
 mvv
@@ -64805,7 +64818,7 @@ gcK
 gcK
 gcK
 gcK
-gcK
+ktB
 bKy
 fFu
 fyf
@@ -64816,8 +64829,8 @@ uey
 fyf
 ptP
 ptP
-sGI
-mvv
+tBN
+hLm
 bpD
 wOK
 kpu
@@ -65052,16 +65065,16 @@ gcK
 ktB
 gcK
 gcK
-gcK
-gcK
-gcK
-gcK
-gcK
-gcK
-gcK
-gcK
-gcK
-gcK
+gbL
+gbL
+gbL
+gbL
+gbL
+gbL
+gbL
+gbL
+gbL
+gbL
 gcK
 uLw
 jnN
@@ -65073,8 +65086,8 @@ uey
 vAe
 pJQ
 nRx
+daU
 mSC
-mvv
 bpD
 hAC
 fyf
@@ -65307,31 +65320,31 @@ gcK
 gcK
 gcK
 gcK
+ktB
 gcK
-gcK
-gcK
-gcK
-gcK
-gcK
-gcK
-gcK
-gcK
-gcK
-gcK
-gcK
+gbL
+gbL
+gbL
+gbL
+gbL
+gbL
+gbL
+gbL
+gbL
+gbL
 gcK
 hna
 jnE
 hTs
-unW
+lqV
 hTs
 kZp
 fyf
 uey
 kCH
 qTP
-occ
 mvv
+occ
 bpD
 fyf
 fyf
@@ -65567,20 +65580,20 @@ gcK
 ktB
 gcK
 gcK
-gcK
-gcK
-gcK
-gcK
-gcK
-gcK
-gcK
-gcK
-gcK
+gbL
+gbL
+gbL
+gbL
+gbL
+gbL
+gbL
+gbL
+gbL
 gcK
 fyf
 jnE
 rss
-unW
+jkk
 unW
 lmk
 fyf
@@ -65824,15 +65837,15 @@ ktB
 gcK
 gcK
 gcK
-gcK
-gcK
-gcK
-gcK
-gcK
-gcK
-gcK
-gcK
-gcK
+gbL
+gbL
+gbL
+gbL
+gbL
+gbL
+gbL
+gbL
+gbL
 gcK
 fyf
 jnE
@@ -66081,14 +66094,14 @@ gcK
 gcK
 gcK
 gcK
-gcK
-gcK
-gcK
-gcK
-gcK
-gcK
-gcK
-gcK
+gbL
+gbL
+gbL
+gbL
+gbL
+gbL
+gbL
+gbL
 gcK
 gcK
 fyf
@@ -66113,7 +66126,7 @@ pXo
 pXo
 vPY
 fyf
-fyf
+uey
 fyf
 gcK
 gcK
@@ -66338,17 +66351,17 @@ gcK
 gcK
 gcK
 gcK
-gcK
-gcK
-gcK
-gcK
-gcK
-gcK
+gbL
+gbL
+gbL
+gbL
+gbL
+gbL
 gcK
 gcK
 gcK
 fyf
-fyf
+uey
 fyf
 fyf
 fyf
@@ -66596,10 +66609,10 @@ gcK
 gcK
 gcK
 gcK
-gcK
-gcK
-gcK
-gcK
+gbL
+gbL
+gbL
+gbL
 gcK
 gcK
 gcK
@@ -66628,7 +66641,7 @@ mvv
 vKC
 fyf
 fyf
-fyf
+uey
 gcK
 gcK
 gcK
@@ -66854,14 +66867,14 @@ gcK
 gcK
 gcK
 rqc
+gbL
+gbL
 gcK
 gcK
 gcK
 gcK
-gcK
-gcK
-fyf
-fyf
+fFu
+uey
 fyf
 fyf
 jnE
@@ -67625,7 +67638,7 @@ gcK
 gcK
 gcK
 uKu
-iRv
+aMl
 iRv
 urJ
 hMz
@@ -67882,7 +67895,7 @@ gcK
 gcK
 gcK
 cYz
-qiN
+ciO
 iRv
 iRv
 cbM
@@ -67921,7 +67934,7 @@ gcK
 ktB
 gcK
 ktB
-ktB
+gcK
 gcK
 gcK
 gcK
@@ -68675,7 +68688,7 @@ tBm
 unW
 vBr
 xKi
-fyf
+vAe
 fyf
 fyf
 nlO
@@ -69165,7 +69178,7 @@ gcK
 gcK
 cYz
 iRv
-jQz
+aAI
 iRv
 fFS
 iRv
@@ -69189,7 +69202,7 @@ tZT
 nJr
 vJP
 xKi
-vAe
+fyf
 fyf
 iVQ
 fyf
@@ -69686,7 +69699,7 @@ uKu
 qHX
 cNa
 dgB
-fyf
+bKy
 tBN
 mvv
 mvv
@@ -69939,9 +69952,9 @@ ktB
 gcK
 gcK
 gcK
-bKy
 udx
 udx
+fyf
 uey
 fyf
 tBN
@@ -70195,7 +70208,7 @@ gcK
 gcK
 ktB
 ktB
-ktB
+gcK
 bcK
 bcK
 cqr
@@ -70450,7 +70463,7 @@ gcK
 ktB
 gcK
 ktB
-ktB
+gcK
 gcK
 ktB
 bcK
@@ -70963,7 +70976,7 @@ ktB
 gcK
 gcK
 ktB
-ktB
+gcK
 gcK
 gcK
 gcK
@@ -71224,7 +71237,7 @@ gcK
 fyf
 fyf
 gcK
-ktB
+gcK
 ktB
 cPZ
 mkw
@@ -71477,7 +71490,7 @@ gcK
 gcK
 gcK
 ktB
-fyf
+hwC
 fyf
 fyf
 gcK
@@ -71734,7 +71747,7 @@ ktB
 gcK
 gcK
 ktB
-fyf
+hwC
 fyf
 fyf
 fyf
@@ -71991,7 +72004,7 @@ gcK
 ktB
 gcK
 gcK
-fyf
+pis
 fyf
 fyf
 fyf
