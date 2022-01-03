@@ -5,6 +5,6 @@
 	width = 7
 	height = 7
 	movement_force = list("KNOCKDOWN" = 0, "THROW" = 0)
-
-/obj/docking_port/mobile/elevator/request(obj/docking_port/stationary/S) //No transit, no ignition, just a simple up/down platform
-	initiate_docking(S, force=TRUE)
+	callTime = 0
+	ignitionTime = 55
+	rechargeTime = 55
