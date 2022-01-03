@@ -28186,11 +28186,13 @@
 	},
 /area/f13/building)
 "lRi" = (
-/obj/effect/decal/remains{
-	icon_state = "remains"
+/obj/structure/fence{
+	dir = 1
 	},
-/obj/machinery/hydroponics/soil,
-/turf/open/indestructible/ground/outside/dirt,
+/obj/effect/decal/cleanable/glass{
+	pixel_y = -2
+	},
+/turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
 "lRj" = (
 /obj/structure/legion_extractor,
@@ -29284,11 +29286,9 @@
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/legion)
 "mnC" = (
-/obj/structure/fence{
-	dir = 1
-	},
-/obj/effect/decal/cleanable/glass{
-	pixel_y = -2
+/obj/structure/tires/two,
+/obj/structure/wreck/bus/rusted{
+	layer = 4
 	},
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
@@ -31815,10 +31815,11 @@
 /area/f13/village)
 "ntv" = (
 /obj/structure/tires/two,
-/obj/structure/wreck/bus/rusted{
-	layer = 4
+/obj/structure/tires/five,
+/turf/open/indestructible/ground/outside/dirt{
+	dir = 4;
+	icon_state = "dirt"
 	},
-/turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
 "ntz" = (
 /obj/structure/simple_door/interior,
@@ -32183,9 +32184,8 @@
 /area/f13/legion)
 "nDe" = (
 /obj/structure/tires/two,
-/obj/structure/tires/five,
 /turf/open/indestructible/ground/outside/dirt{
-	dir = 4;
+	dir = 8;
 	icon_state = "dirt"
 	},
 /area/f13/wasteland)
@@ -33237,10 +33237,10 @@
 	},
 /area/f13/building)
 "occ" = (
-/obj/structure/tires/two,
+/obj/structure/barricade/wooden/strong,
+/obj/structure/decoration/warning,
 /turf/open/indestructible/ground/outside/dirt{
-	dir = 8;
-	icon_state = "dirt"
+	icon_state = "dirtcorner"
 	},
 /area/f13/wasteland)
 "ock" = (
@@ -34904,10 +34904,10 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/vault1,
 /area/f13/building)
 "oOh" = (
-/obj/structure/barricade/wooden/strong,
-/obj/structure/decoration/warning,
+/obj/structure/flora/tree/cactus,
+/obj/structure/destructible/tribal_torch/lit,
 /turf/open/indestructible/ground/outside/dirt{
-	icon_state = "dirtcorner"
+	icon_state = "dirt"
 	},
 /area/f13/wasteland)
 "oOi" = (
@@ -36767,9 +36767,20 @@
 /turf/open/floor/f13/wood,
 /area/f13/building)
 "pJQ" = (
-/obj/structure/flora/tree/cactus,
-/obj/structure/destructible/tribal_torch/lit,
+/obj/structure/table/booth,
+/obj/item/reagent_containers/food/condiment/ketchup{
+	pixel_x = -8;
+	pixel_y = 9
+	},
+/obj/item/reagent_containers/food/condiment/saltshaker{
+	pixel_y = 11
+	},
+/obj/item/reagent_containers/food/condiment/peppermill{
+	pixel_x = 4;
+	pixel_y = 5
+	},
 /turf/open/indestructible/ground/outside/dirt{
+	dir = 6;
 	icon_state = "dirt"
 	},
 /area/f13/wasteland)
@@ -37059,22 +37070,10 @@
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
 "pPF" = (
-/obj/structure/table/booth,
-/obj/item/reagent_containers/food/condiment/ketchup{
-	pixel_x = -8;
-	pixel_y = 9
+/obj/structure/chair/booth{
+	dir = 8
 	},
-/obj/item/reagent_containers/food/condiment/saltshaker{
-	pixel_y = 11
-	},
-/obj/item/reagent_containers/food/condiment/peppermill{
-	pixel_x = 4;
-	pixel_y = 5
-	},
-/turf/open/indestructible/ground/outside/dirt{
-	dir = 6;
-	icon_state = "dirt"
-	},
+/turf/open/indestructible/ground/outside/dirt,
 /area/f13/wasteland)
 "pPG" = (
 /obj/structure/window/fulltile/house{
@@ -39478,10 +39477,12 @@
 	},
 /area/f13/caves)
 "qSs" = (
-/obj/structure/chair/booth{
-	dir = 8
+/obj/structure/barricade/wooden/strong,
+/obj/structure/barricade/wooden/planks/pregame,
+/turf/open/indestructible/ground/outside/dirt{
+	dir = 4;
+	icon_state = "dirt"
 	},
-/turf/open/indestructible/ground/outside/dirt,
 /area/f13/wasteland)
 "qSt" = (
 /obj/machinery/light,
@@ -42855,10 +42856,10 @@
 /area/f13/building)
 "szb" = (
 /obj/structure/barricade/wooden/strong,
-/obj/structure/barricade/wooden/planks/pregame,
+/obj/structure/decoration/warning,
 /turf/open/indestructible/ground/outside/dirt{
 	dir = 4;
-	icon_state = "dirt"
+	icon_state = "dirtcorner"
 	},
 /area/f13/wasteland)
 "szi" = (
@@ -43122,12 +43123,10 @@
 	},
 /area/f13/ncr)
 "sGI" = (
-/obj/structure/barricade/wooden/strong,
-/obj/structure/decoration/warning,
-/turf/open/indestructible/ground/outside/dirt{
-	dir = 4;
-	icon_state = "dirtcorner"
+/obj/structure/fence{
+	dir = 1
 	},
+/turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
 "sGL" = (
 /obj/effect/decal/remains/human,
@@ -44445,9 +44444,8 @@
 	},
 /area/f13/village)
 "tka" = (
-/obj/structure/fence{
-	dir = 1
-	},
+/obj/structure/flora/tree/cactus,
+/obj/structure/wreck/trash/halftire,
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
 "tkc" = (
@@ -47916,9 +47914,11 @@
 /turf/open/floor/wood/f13/stage_br,
 /area/f13/wasteland)
 "uKq" = (
-/obj/structure/flora/tree/cactus,
-/obj/structure/wreck/trash/halftire,
-/turf/open/indestructible/ground/outside/desert,
+/obj/effect/landmark/start/f13/pusher,
+/turf/open/indestructible/ground/outside/dirt{
+	dir = 4;
+	icon_state = "dirt"
+	},
 /area/f13/wasteland)
 "uKu" = (
 /turf/closed/wall/f13/wood/house,
@@ -48350,12 +48350,10 @@
 /turf/open/floor/f13/wood,
 /area/f13/building)
 "uSI" = (
-/obj/effect/landmark/start/f13/pusher,
-/turf/open/indestructible/ground/outside/dirt{
-	dir = 4;
-	icon_state = "dirt"
-	},
-/area/f13/wasteland)
+/obj/structure/barricade/wooden/strong,
+/obj/structure/barricade/wooden/planks/pregame,
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/caves)
 "uTd" = (
 /obj/structure/chair/wood,
 /obj/machinery/light/small{
@@ -52534,10 +52532,12 @@
 	},
 /area/f13/building)
 "wOK" = (
-/obj/structure/barricade/wooden/strong,
-/obj/structure/barricade/wooden/planks/pregame,
+/obj/structure/tires/two,
+/obj/effect/decal/cleanable/oil{
+	icon_state = "floor5"
+	},
 /turf/open/indestructible/ground/outside/desert,
-/area/f13/caves)
+/area/f13/wasteland)
 "wOL" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light,
@@ -53077,13 +53077,6 @@
 	icon_state = "housewood2-broken"
 	},
 /area/f13/building)
-"wYa" = (
-/obj/structure/tires/two,
-/obj/effect/decal/cleanable/oil{
-	icon_state = "floor5"
-	},
-/turf/open/indestructible/ground/outside/desert,
-/area/f13/wasteland)
 "wYh" = (
 /obj/effect/decal/remains{
 	icon_state = "remains"
@@ -63721,11 +63714,11 @@ oWC
 gun
 gun
 oWC
-oOh
+occ
+qSs
 szb
-sGI
 gun
-wOK
+uSI
 ktB
 gcK
 gcK
@@ -63977,12 +63970,12 @@ gcK
 gcK
 ktB
 mvh
-mnC
+lRi
 sqx
 hsB
 evG
-tka
-tka
+sGI
+sGI
 ktB
 gcK
 gcK
@@ -64492,7 +64485,7 @@ gcK
 ktB
 fyf
 fyf
-pJQ
+oOh
 mvv
 bpD
 fyf
@@ -64748,12 +64741,12 @@ gcK
 gcK
 ktB
 kpu
-ntv
+mnC
 ciP
 mvv
 bpD
-uKq
-wYa
+tka
+wOK
 sZJ
 gcK
 gcK
@@ -65005,8 +64998,8 @@ fyf
 gcK
 ktB
 mSC
-nDe
-pPF
+ntv
+pJQ
 mvv
 bpD
 hAC
@@ -65263,7 +65256,7 @@ gcK
 ktB
 kCH
 nRx
-qSs
+pPF
 mvv
 bpD
 fyf
@@ -65523,7 +65516,7 @@ qTP
 mvv
 mvv
 doX
-uSI
+uKq
 wDc
 qOV
 pon
@@ -66033,7 +66026,7 @@ hCg
 qOV
 wDc
 lpL
-occ
+nDe
 snS
 mvv
 mvv
@@ -71179,7 +71172,7 @@ yhE
 doX
 wDc
 fyf
-fyf
+siJ
 fyf
 fyf
 fyf
@@ -71690,7 +71683,7 @@ kUm
 mvv
 rjH
 rjH
-lRi
+rjH
 bpD
 fyf
 fyf
