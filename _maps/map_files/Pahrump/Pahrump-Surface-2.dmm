@@ -3379,7 +3379,7 @@
 	pixel_y = 17
 	},
 /turf/open/indestructible/ground/outside/desert,
-/area/f13/wasteland)
+/area/f13/caves)
 "buO" = (
 /obj/structure/rack,
 /obj/item/stack/sheet/mineral/wood/twenty,
@@ -6281,9 +6281,15 @@
 /turf/open/floor/carpet/red,
 /area/f13/building)
 "cOU" = (
-/obj/structure/tires/five,
-/obj/effect/spawner/lootdrop/f13/medical/wasteland/meds/drug{
-	pixel_y = 10
+/obj/structure/barricade/wooden/strong,
+/obj/structure/decoration/rag{
+	icon_state = "skin"
+	},
+/obj/structure/barricade/wooden/planks/pregame,
+/obj/structure/fence/wooden{
+	dir = 1;
+	icon_state = "post_wood";
+	pixel_x = -18
 	},
 /turf/open/indestructible/ground/outside/dirt{
 	icon_state = "dirt"
@@ -6328,13 +6334,9 @@
 /turf/open/floor/f13/wood,
 /area/f13/village)
 "cPZ" = (
-/obj/structure/barricade/wooden/strong,
-/obj/structure/barricade/wooden/planks/pregame,
-/obj/structure/decoration/rag{
-	icon_state = "skin"
-	},
-/obj/structure/fence/wooden{
-	dir = 4
+/obj/structure/tires/five,
+/obj/effect/spawner/lootdrop/f13/medical/wasteland/meds/drug{
+	pixel_y = 10
 	},
 /turf/open/indestructible/ground/outside/dirt{
 	icon_state = "dirt"
@@ -6354,14 +6356,12 @@
 /area/f13/wasteland)
 "cQC" = (
 /obj/structure/barricade/wooden/strong,
+/obj/structure/barricade/wooden/planks/pregame,
 /obj/structure/decoration/rag{
 	icon_state = "skin"
 	},
-/obj/structure/barricade/wooden/planks/pregame,
 /obj/structure/fence/wooden{
-	dir = 1;
-	icon_state = "post_wood";
-	pixel_x = -18
+	dir = 4
 	},
 /turf/open/indestructible/ground/outside/dirt{
 	icon_state = "dirt"
@@ -7881,15 +7881,12 @@
 	},
 /area/f13/wasteland)
 "dxJ" = (
-/obj/structure/decoration/rag,
-/obj/structure/table,
-/obj/structure/barricade/bars{
-	layer = 2.8
+/obj/machinery/door/unpowered/securedoor{
+	max_integrity = 300;
+	obj_integrity = 300;
+	req_access_txt = "125"
 	},
-/turf/open/indestructible/ground/outside/dirt{
-	dir = 1;
-	icon_state = "dirt"
-	},
+/turf/open/indestructible/ground/outside/dirt,
 /area/f13/wasteland)
 "dxK" = (
 /obj/machinery/sleeper,
@@ -7970,11 +7967,13 @@
 	},
 /area/f13/tunnel)
 "dzE" = (
-/obj/effect/decal/remains{
-	icon_state = "remains"
+/obj/structure/decoration/rag,
+/obj/structure/table,
+/obj/structure/barricade/bars{
+	layer = 2.8
 	},
 /turf/open/indestructible/ground/outside/dirt{
-	dir = 5;
+	dir = 1;
 	icon_state = "dirt"
 	},
 /area/f13/wasteland)
@@ -9591,11 +9590,13 @@
 /turf/open/floor/f13/wood,
 /area/f13/building)
 "ekW" = (
-/obj/item/flag/khan{
-	pixel_x = 4;
-	pixel_y = -10
+/obj/effect/decal/remains{
+	icon_state = "remains"
 	},
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/indestructible/ground/outside/dirt{
+	dir = 5;
+	icon_state = "dirt"
+	},
 /area/f13/wasteland)
 "els" = (
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -29071,12 +29072,11 @@
 	},
 /area/f13/building)
 "mkw" = (
-/obj/machinery/door/unpowered/securedoor{
-	max_integrity = 300;
-	obj_integrity = 300;
-	req_access_txt = "125"
+/obj/item/flag/khan{
+	pixel_x = 4;
+	pixel_y = -6
 	},
-/turf/open/indestructible/ground/outside/dirt,
+/turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
 "mkH" = (
 /obj/structure/chair/wood/modern{
@@ -53578,6 +53578,14 @@
 	icon_state = "bluerustychess2"
 	},
 /area/f13/building)
+"xlX" = (
+/obj/structure/barricade/wooden/strong,
+/obj/structure/barricade/wooden/planks/pregame,
+/obj/structure/decoration/rag{
+	icon_state = "skin"
+	},
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/caves)
 "xmr" = (
 /obj/structure/nest/raider/boss{
 	spawn_time = 10
@@ -70987,11 +70995,11 @@ gcK
 gcK
 gcK
 ktB
-buD
-cOU
+eBu
+tBN
 mvv
 bpD
-ekW
+fyf
 nlO
 mfD
 pon
@@ -71243,12 +71251,12 @@ gcK
 fyf
 fyf
 gcK
-gcK
 ktB
+buD
 cPZ
+mvv
+bpD
 mkw
-dxJ
-eBu
 vtg
 vtg
 gcK
@@ -71503,9 +71511,9 @@ gcK
 gcK
 ktB
 cQC
-mvv
-bpD
-ktB
+dxJ
+dzE
+xlX
 gcK
 gcK
 gcK
@@ -71758,11 +71766,11 @@ fyf
 fyf
 fyf
 gcK
-gcK
-cVF
+ktB
+cOU
 mvv
 bpD
-gcK
+ktB
 ktB
 ktB
 ktB
@@ -72014,11 +72022,11 @@ pis
 fyf
 fyf
 fyf
-fyf
-qOV
-daU
+gcK
+gcK
+cVF
 mvv
-dzE
+bpD
 gcK
 gcK
 gcK
@@ -72272,11 +72280,11 @@ fyf
 iGM
 fyf
 fyf
-nlO
-mfD
-mfD
-mfD
-hCg
+qOV
+daU
+mvv
+ekW
+gcK
 fyf
 fyf
 fyf
@@ -72528,12 +72536,12 @@ fyf
 qOV
 cWG
 cWG
-cWG
-cWG
-wDc
 fyf
-fyf
-fyf
+nlO
+mfD
+mfD
+mfD
+hCg
 fyf
 fyf
 fyf
