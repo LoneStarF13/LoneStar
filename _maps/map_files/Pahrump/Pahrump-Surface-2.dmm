@@ -1274,9 +1274,17 @@
 	},
 /area/f13/village)
 "aAI" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "#363636"
+	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/wood/f13/oak,
-/area/f13/raiders)
+/obj/machinery/light/broken{
+	dir = 1
+	},
+/turf/open/floor/f13{
+	icon_state = "floorrusty"
+	},
+/area/f13/building)
 "aAK" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 9
@@ -1749,8 +1757,11 @@
 /area/f13/ncr)
 "aMl" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/wood/f13/oak,
-/area/f13/raiders)
+/obj/item/kirbyplants/random,
+/turf/open/floor/f13{
+	icon_state = "redrustyfull"
+	},
+/area/f13/building)
 "aMn" = (
 /obj/effect/decal/cleanable/oil{
 	icon_state = "floor5"
@@ -13814,8 +13825,17 @@
 /area/f13/wasteland)
 "fTx" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/wood/f13/oak,
-/area/f13/raiders)
+/obj/effect/decal/cleanable/dirt{
+	color = "#363636"
+	},
+/obj/effect/overlay/junk/sink{
+	pixel_y = 23
+	},
+/obj/effect/overlay/junk/mirror{
+	pixel_y = 34
+	},
+/turf/open/floor/plasteel/f13/vault_floor/neutral/neutralchess/neutralchess2,
+/area/f13/building)
 "fTy" = (
 /obj/machinery/computer/slot_machine,
 /obj/effect/decal/cleanable/dirt,
@@ -18563,8 +18583,13 @@
 /area/f13/wasteland)
 "hLm" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/wood/f13/oak,
-/area/f13/raiders)
+/obj/structure/window/fulltile/house{
+	icon_state = "storewindowbottom"
+	},
+/turf/open/floor/f13{
+	icon_state = "redrustyfull"
+	},
+/area/f13/building)
 "hLs" = (
 /obj/structure/curtain{
 	color = "#845f58";
@@ -22305,14 +22330,6 @@
 	dir = 1;
 	icon_state = "dirt"
 	},
-/area/f13/building)
-"jjk" = (
-/obj/effect/decal/cleanable/dirt{
-	color = "#363636"
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/light,
-/turf/open/floor/plasteel/f13/vault_floor/misc/bar,
 /area/f13/building)
 "jjn" = (
 /obj/structure/simple_door/room,
@@ -36865,14 +36882,6 @@
 	icon_state = "housewood2"
 	},
 /area/f13/village)
-"pEi" = (
-/obj/structure/closet/cardboard,
-/obj/effect/decal/cleanable/dirt,
-/obj/item/reagent_containers/food/snacks/f13/bubblegum/large,
-/turf/open/floor/plasteel/f13{
-	icon_state = "yellowrustyfull"
-	},
-/area/f13/building)
 "pEk" = (
 /obj/item/ammo_casing/c10mm,
 /turf/open/indestructible/ground/outside/desert,
@@ -39767,6 +39776,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/junk/micro,
+/obj/machinery/light,
 /turf/open/floor/plasteel/f13/vault_floor/misc/bar,
 /area/f13/building)
 "qQQ" = (
@@ -102521,7 +102531,7 @@ tFU
 tFU
 tFU
 tFU
-tFU
+fTx
 lcY
 xHo
 tFU
@@ -103548,10 +103558,10 @@ gEK
 gEK
 gEK
 gEK
-gEK
+vug
 vug
 eJS
-jjk
+vug
 tFU
 mcN
 unI
@@ -104828,7 +104838,7 @@ akM
 kqn
 ieQ
 ktB
-tFU
+vry
 gEK
 gEK
 crV
@@ -105085,8 +105095,8 @@ skq
 bcV
 ieQ
 ktB
-vry
-gEK
+tFU
+aAI
 gEK
 gEK
 gEK
@@ -105342,7 +105352,7 @@ skq
 kqn
 ieQ
 ktB
-tFU
+vry
 gEK
 gEK
 gEK
@@ -105599,7 +105609,7 @@ skq
 bcV
 ieQ
 ktB
-tFU
+vry
 gEK
 gEK
 gEK
@@ -105614,7 +105624,7 @@ mHW
 apk
 pqO
 gmX
-gmX
+sBk
 bFJ
 srw
 uRJ
@@ -106628,7 +106638,7 @@ ktB
 ktB
 ktB
 tFU
-tFU
+aMl
 sAL
 uxE
 esW
@@ -107148,7 +107158,7 @@ tFU
 tFU
 tFU
 cnv
-cnv
+hLm
 tFU
 tFU
 cpK
