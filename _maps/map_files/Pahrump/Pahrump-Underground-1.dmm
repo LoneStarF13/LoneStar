@@ -658,6 +658,11 @@
 /obj/structure/bus_door,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
+"axd" = (
+/obj/structure/table/wood,
+/obj/item/pda,
+/turf/open/floor/carpet/black,
+/area/f13/ncr)
 "axe" = (
 /obj/structure/closet/crate/secure,
 /obj/effect/spawner/lootdrop/f13/weapon/gun/energy/high,
@@ -7298,6 +7303,17 @@
 	},
 /turf/closed/wall/r_wall,
 /area/f13/brotherhood/operating)
+"eoT" = (
+/obj/structure/table/wood,
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/obj/item/card/id/dogtag/ncrtrooper,
+/obj/item/card/id/dogtag/ncrtrooper,
+/obj/item/card/id/dogtag/ncrtrooper,
+/obj/item/card/id/dogtag/ncrsergeant,
+/turf/open/floor/carpet/black,
+/area/f13/ncr)
 "epg" = (
 /obj/machinery/door/unpowered/securedoor{
 	autoclose = 1;
@@ -8448,6 +8464,14 @@
 	icon_state = "tealwhdirty_chess2"
 	},
 /area/f13/brotherhood/leisure)
+"fbm" = (
+/obj/structure/toilet{
+	dir = 4
+	},
+/turf/open/floor/f13{
+	icon_state = "bluedirtychess2"
+	},
+/area/f13/ncr)
 "fcv" = (
 /obj/structure/chair/wood{
 	dir = 8
@@ -9159,6 +9183,9 @@
 "fxu" = (
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/bunker)
+"fxv" = (
+/turf/open/floor/plasteel/f13/vault_floor/plating,
+/area/f13/ncr)
 "fxy" = (
 /obj/structure/chair/bench,
 /obj/effect/decal/cleanable/dirt,
@@ -11220,6 +11247,10 @@
 	icon_state = "neutralrustyfull"
 	},
 /area/f13/brotherhood/leisure)
+"gKV" = (
+/obj/machinery/light,
+/turf/open/floor/carpet/black,
+/area/f13/ncr)
 "gLy" = (
 /obj/structure/flora/rock/jungle{
 	density = 1
@@ -11928,6 +11959,10 @@
 "hkD" = (
 /turf/closed/mineral/random/low_chance,
 /area/f13/tunnel)
+"hkG" = (
+/obj/structure/guncase,
+/turf/open/floor/carpet/black,
+/area/f13/ncr)
 "hkR" = (
 /obj/machinery/door/airlock/grunge,
 /obj/structure/barricade/wooden/planks/pregame,
@@ -17781,6 +17816,13 @@
 	icon_state = "whitegreenrustychess"
 	},
 /area/f13/bunker)
+"muK" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/obj/effect/landmark/start/f13/ncrcaptain,
+/turf/open/floor/carpet/black,
+/area/f13/ncr)
 "mvl" = (
 /obj/machinery/light/fo13colored{
 	dir = 8
@@ -19952,6 +19994,17 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/brotherhood/operations)
+"nXc" = (
+/obj/structure/table/wood,
+/obj/item/paper_bin,
+/obj/item/pen/fountain,
+/obj/item/pda,
+/obj/item/stack/f13Cash/ncr{
+	amount = 1000;
+	pixel_y = 17
+	},
+/turf/open/floor/carpet/black,
+/area/f13/ncr)
 "nXg" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/small{
@@ -24241,6 +24294,12 @@
 /obj/machinery/telecomms/bus/preset_three,
 /turf/open/floor/plasteel/dark/telecomms/mainframe,
 /area/f13/tcoms)
+"rgL" = (
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/open/floor/plasteel/f13/vault_floor/plating,
+/area/f13/ncr)
 "rhG" = (
 /obj/structure/barricade/bars,
 /obj/structure/decoration/rag,
@@ -25252,6 +25311,10 @@
 /obj/effect/decal/cleanable/blood/tracks,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
+"rWA" = (
+/obj/effect/landmark/start/f13/ncrlieutenant,
+/turf/open/floor/carpet/black,
+/area/f13/ncr)
 "rXk" = (
 /obj/machinery/light/small,
 /obj/structure/lattice{
@@ -25703,6 +25766,12 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/brotherhood/offices1st)
+"std" = (
+/obj/structure/chair/office{
+	dir = 8
+	},
+/turf/open/floor/carpet/black,
+/area/f13/ncr)
 "str" = (
 /obj/structure/fence/handrail{
 	density = 0;
@@ -26118,6 +26187,14 @@
 	icon_state = "housewood4-broken"
 	},
 /area/f13/tunnel)
+"sOP" = (
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/open/floor/f13{
+	icon_state = "bluedirtychess2"
+	},
+/area/f13/ncr)
 "sPK" = (
 /obj/structure/handrail/g_central{
 	pixel_y = -16
@@ -26324,6 +26401,19 @@
 "tda" = (
 /turf/open/floor/carpet,
 /area/f13/den)
+"tdj" = (
+/obj/structure/table/wood,
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/obj/item/documents{
+	desc = "Documents and maps concerning the local NCR presence."
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/carpet/black,
+/area/f13/ncr)
 "tdJ" = (
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/bunker)
@@ -26878,6 +26968,18 @@
 	icon_state = "darkyellowfull"
 	},
 /area/f13/brotherhood/offices1st)
+"tAt" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/obj/machinery/computer/card/ncr{
+	dir = 4
+	},
+/obj/item/radio/intercom/retro{
+	pixel_x = -29
+	},
+/turf/open/floor/carpet/black,
+/area/f13/ncr)
 "tAv" = (
 /obj/machinery/vending/medical{
 	req_access = null
@@ -26978,6 +27080,13 @@
 	icon_state = "greenrustyfull"
 	},
 /area/f13/clinic)
+"tEA" = (
+/obj/machinery/door/airlock/hatch{
+	name = "NCR Command and Control";
+	req_access_txt = "121"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/plating,
+/area/f13/ncr)
 "tEG" = (
 /obj/structure/table{
 	layer = 2.9
@@ -27663,6 +27772,16 @@
 	icon_state = "darkrusty"
 	},
 /area/f13/bunker)
+"ubl" = (
+/obj/machinery/msgterminal/ncr{
+	dir = 4
+	},
+/obj/machinery/light/small{
+	dir = 8;
+	light_color = "#d8b1b1"
+	},
+/turf/open/floor/carpet/black,
+/area/f13/ncr)
 "ubt" = (
 /obj/structure/kitchenspike,
 /turf/open/indestructible/ground/inside/subway,
@@ -27671,6 +27790,14 @@
 /obj/effect/spawner/lootdrop/f13/traitbooks,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/tunnel)
+"udP" = (
+/obj/structure/ladder/unbreakable{
+	height = 2;
+	id = "ncrcnc";
+	name = "Command Post ladder"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/plating,
+/area/f13/ncr)
 "uel" = (
 /obj/structure/simple_door/metal/barred,
 /obj/structure/decoration/rag{
@@ -30357,6 +30484,12 @@
 "wAO" = (
 /turf/open/floor/wood/f13/old,
 /area/f13/caves)
+"wBx" = (
+/obj/machinery/radioterminal/ncr{
+	dir = 4
+	},
+/turf/open/floor/carpet/black,
+/area/f13/ncr)
 "wBF" = (
 /obj/structure/grille,
 /obj/structure/window/fulltile/house{
@@ -30667,6 +30800,9 @@
 /obj/structure/barricade/wooden,
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/tunnel)
+"wRB" = (
+/turf/open/floor/carpet/black,
+/area/f13/ncr)
 "wRQ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/kirbyplants/random,
@@ -31842,6 +31978,15 @@
 	},
 /turf/closed/wall/r_wall,
 /area/f13/brotherhood/archives)
+"xPD" = (
+/obj/structure/table/wood,
+/obj/item/reagent_containers/food/drinks/bottle/f13nukacola,
+/obj/item/reagent_containers/food/drinks/bottle/f13nukacola{
+	pixel_x = 4;
+	pixel_y = 6
+	},
+/turf/open/floor/carpet/black,
+/area/f13/ncr)
 "xQo" = (
 /obj/structure/bookcase/manuals/engineering{
 	desc = "A collection of scrolls, archives and relics.";
@@ -32781,16 +32926,16 @@ uoO
 uoO
 uoO
 uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
+eLE
+eLE
+eLE
+eLE
+eLE
+eLE
+eLE
+eLE
+eLE
+eLE
 uoO
 uoO
 fqo
@@ -33038,16 +33183,16 @@ aoj
 aoj
 uoO
 uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-aoj
-uoO
+eLE
+oLt
+oLt
+oLt
+oLt
+oLt
+oLt
+oLt
+oLt
+eLE
 uoO
 uoO
 fqo
@@ -33294,6 +33439,20 @@ aoj
 aoj
 aoj
 uoO
+<<<<<<< Updated upstream
+=======
+eLE
+oLt
+oLt
+tAt
+ubl
+wBx
+oLt
+fbm
+vrY
+oLt
+eLE
+>>>>>>> Stashed changes
 uoO
 uoO
 uoO
@@ -33302,6 +33461,7 @@ uoO
 uoO
 uoO
 uoO
+<<<<<<< Updated upstream
 uoO
 uoO
 uoO
@@ -33313,6 +33473,8 @@ sjg
 fqo
 eLE
 eLE
+=======
+>>>>>>> Stashed changes
 aoj
 aoj
 aoj
@@ -33551,17 +33713,35 @@ aoj
 aoj
 aoj
 uoO
+<<<<<<< Updated upstream
+=======
+eLE
+oLt
+eoT
+wRB
+std
+wRB
+hTy
+rhV
+sOP
+oLt
+eLE
+>>>>>>> Stashed changes
 uoO
 uoO
 uoO
 uoO
+<<<<<<< Updated upstream
 aoj
 aoj
 aoj
+=======
+>>>>>>> Stashed changes
 uoO
 uoO
 uoO
 uoO
+<<<<<<< Updated upstream
 eLE
 fqo
 fqo
@@ -33570,6 +33750,8 @@ oHW
 fqo
 fqo
 eLE
+=======
+>>>>>>> Stashed changes
 aoj
 aoj
 aoj
@@ -33808,16 +33990,34 @@ aoj
 aoj
 aoj
 uoO
+<<<<<<< Updated upstream
+=======
+eLE
+oLt
+nXc
+wRB
+rWA
+wRB
+oLt
+oLt
+oLt
+oLt
+eLE
+>>>>>>> Stashed changes
 uoO
 uoO
 uoO
 uoO
+<<<<<<< Updated upstream
 aoj
 aoj
+=======
+>>>>>>> Stashed changes
 uoO
 uoO
 uoO
 uoO
+<<<<<<< Updated upstream
 uoO
 eLE
 fqo
@@ -33830,6 +34030,11 @@ eLE
 eLE
 eLE
 eLE
+=======
+aoj
+uoO
+aoj
+>>>>>>> Stashed changes
 uoO
 aoj
 aoj
@@ -34065,6 +34270,20 @@ aoj
 aoj
 aoj
 uoO
+<<<<<<< Updated upstream
+=======
+eLE
+oLt
+tdj
+wRB
+muK
+gKV
+oLt
+eLE
+eLE
+eLE
+eLE
+>>>>>>> Stashed changes
 uoO
 uoO
 uoO
@@ -34076,6 +34295,7 @@ uoO
 uoO
 uoO
 uoO
+<<<<<<< Updated upstream
 eLE
 fqo
 cMb
@@ -34087,6 +34307,8 @@ fqo
 fqo
 fqo
 eLE
+=======
+>>>>>>> Stashed changes
 uoO
 uoO
 uoO
@@ -34322,14 +34544,14 @@ aoj
 aoj
 aoj
 uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
+eLE
+oLt
+axd
+xPD
+hkG
+wRB
+oLt
+eLE
 aoj
 aoj
 aoj
@@ -34579,14 +34801,14 @@ uoO
 uoO
 uoO
 uoO
-uoO
-uoO
-aoj
-uoO
-uoO
-uoO
-uoO
-uoO
+eLE
+oLt
+oLt
+oLt
+oLt
+tEA
+oLt
+eLE
 aoj
 aoj
 aoj
@@ -34837,13 +35059,13 @@ uoO
 uoO
 uoO
 uoO
-uoO
-aoj
-uoO
-uoO
-uoO
-uoO
-uoO
+eLE
+oLt
+udP
+rgL
+fxv
+oLt
+eLE
 aoj
 aoj
 aoj
@@ -35095,11 +35317,11 @@ uoO
 uoO
 uoO
 eLE
-eLE
-eLE
-eLE
-eLE
-eLE
+oLt
+oLt
+oLt
+oLt
+oLt
 eLE
 aoj
 aoj
