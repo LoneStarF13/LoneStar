@@ -8248,11 +8248,6 @@
 	icon_state = "housewood3-broken"
 	},
 /area/f13/raiders)
-"dEo" = (
-/obj/structure/rack,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/f13/wood,
-/area/f13/raiders)
 "dEt" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/nest/radroach{
@@ -33652,6 +33647,12 @@
 	},
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
+"omW" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/f13/wood{
+	icon_state = "housewood2-broken"
+	},
+/area/f13/raiders)
 "onh" = (
 /obj/structure/chair/comfy/plywood{
 	dir = 8
@@ -37649,12 +37650,6 @@
 	icon_state = "floorrusty"
 	},
 /area/f13/building)
-"qfw" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/f13/wood{
-	icon_state = "housewood2-broken"
-	},
-/area/f13/raiders)
 "qfA" = (
 /obj/structure/flora/grass/wasteland{
 	icon_state = "tall_grass_2";
@@ -43961,6 +43956,11 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/legion)
+"sZX" = (
+/obj/structure/rack,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/f13/wood,
+/area/f13/raiders)
 "tad" = (
 /obj/machinery/light/broken,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -67672,7 +67672,7 @@ gcK
 gcK
 uKu
 aMl
-qfw
+omW
 urJ
 hMz
 gin
@@ -68445,7 +68445,7 @@ gxl
 akA
 jQz
 lsF
-qfw
+omW
 urJ
 lsF
 egU
@@ -68701,8 +68701,8 @@ dEc
 gVt
 bgd
 urJ
-qfw
-dEo
+omW
+sZX
 uKu
 dlX
 qHX
@@ -68958,7 +68958,7 @@ dLB
 lsF
 jQz
 lsF
-qfw
+omW
 osF
 cYz
 dsL
@@ -69212,7 +69212,7 @@ gcK
 cYz
 jQz
 aAI
-qfw
+omW
 fFS
 jQz
 lsF
@@ -70513,17 +70513,17 @@ jfD
 jwl
 jwl
 pon
+gcK
+gcK
+gcK
 ktB
-ktB
-ktB
-ktB
 gcK
 gcK
 gcK
 gcK
 gcK
-fyf
-fyf
+hwC
+hwC
 gcK
 ktB
 gcK
@@ -70770,9 +70770,9 @@ jha
 jGe
 lZX
 lPT
+gcK
 ktB
-gcK
-gcK
+ktB
 gcK
 gcK
 fyf
@@ -71029,7 +71029,7 @@ lPT
 lPT
 ktB
 gcK
-fyf
+gcK
 fyf
 fyf
 fyf
@@ -71279,13 +71279,13 @@ eBu
 vtg
 vtg
 gcK
-ktB
-ktB
-ktB
-ktB
+gcK
+gcK
+gcK
+gcK
+gcK
 ktB
 gcK
-fyf
 fyf
 fyf
 fyf
@@ -71534,13 +71534,13 @@ mvv
 bpD
 ktB
 gcK
+gcK
+gcK
 ktB
 ktB
-gcK
-gcK
-gcK
-gcK
-gcK
+ktB
+ktB
+ktB
 gcK
 fyf
 fyf
@@ -71791,14 +71791,14 @@ mvv
 bpD
 gcK
 ktB
+ktB
+ktB
 gcK
 gcK
 gcK
 gcK
-fyf
-fyf
-fyf
-fyf
+gcK
+gcK
 fyf
 fyf
 fyf
@@ -72049,8 +72049,8 @@ dzE
 gcK
 gcK
 gcK
-fyf
-fyf
+gcK
+gcK
 fyf
 fyf
 fyf
