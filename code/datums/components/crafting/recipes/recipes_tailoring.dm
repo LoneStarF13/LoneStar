@@ -133,7 +133,7 @@
 
 /datum/crafting_recipe/ncrsalvagedarmorconversion
 	name = "Salvaged NCR Power Armor"
-	result = /obj/item/clothing/suit/armor/f13/power_armor/ncr
+	result = /obj/item/stack/crafting/armor_plate/twenty
 	reqs = list(/obj/item/clothing/suit/armor/f13/power_armor/t45b = 1,
 				/obj/item/toy/crayon/spraycan)
 	time = 30
@@ -241,80 +241,117 @@
 	always_availible = FALSE
 
 /datum/crafting_recipe/legionsalvaged
-	name = "Legion Salvaged Power Armor"
-	result = /obj/item/clothing/suit/armor/f13/legion/legionsalvaged
-	reqs = list(/obj/item/clothing/suit/armor/f13/power_armor = 1,
-				/obj/item/toy/crayon/spraycan)
+	name = "Shred armor for armor plates"
+	result = /obj/item/stack/crafting/armor_plate/twenty
+	reqs = list(/obj/item/clothing/suit/armor/f13/power_armor = 1,)
 	time = 30
 	category = CAT_CLOTHING
 	subcategory = CAT_ARMOR
 	always_availible = FALSE
 
 /datum/crafting_recipe/legionsalvagedhelmet
-	name = "Legion Salvaged Power Armor Helmet"
-	result = /obj/item/clothing/head/helmet/f13/legion/legionsalvagedhelmet
-	reqs = list(/obj/item/clothing/head/helmet/f13/power_armor = 1,
-				/obj/item/toy/crayon/spraycan)
+	name = "Shred armor for armor plates"
+	result = /obj/item/stack/crafting/armor_plate/twenty
+	reqs = list(/obj/item/clothing/head/helmet/f13/power_armor = 1,)
 	time = 30
 	category = CAT_CLOTHING
 	subcategory = CAT_ARMOR
 	always_availible = FALSE
 
 /datum/crafting_recipe/legionsalvaged_ncr
-	name = "Legion Salvaged Power Armor"
-	result = /obj/item/clothing/suit/armor/f13/legion/legionsalvaged
-	reqs = list(/obj/item/clothing/suit/armored/heavy/salvaged_NCR = 1,
-				/obj/item/toy/crayon/spraycan)
+	name = "Shred armor for armor plates"
+	result = /obj/item/stack/crafting/armor_plate/twenty
+	reqs = list(/obj/item/clothing/suit/armored/heavy/salvaged_NCR = 1,)
 	time = 30
 	category = CAT_CLOTHING
 	subcategory = CAT_ARMOR
 	always_availible = FALSE
 
 /datum/crafting_recipe/legionsalvaged_salvaged
-	name = "Legion Salvaged Power Armor"
-	result = /obj/item/clothing/suit/armor/f13/legion/legionsalvaged
-	reqs = list(/obj/item/clothing/suit/armored/heavy/salvaged_t45 = 1,
-				/obj/item/toy/crayon/spraycan)
+	name = "Shred armor for armor plates"
+	result = /obj/item/stack/crafting/armor_plate/twenty
+	reqs = list(/obj/item/clothing/suit/armored/heavy/salvaged_t45 = 1,)
 	time = 30
 	category = CAT_CLOTHING
 	subcategory = CAT_ARMOR
 	always_availible = FALSE
 
 /datum/crafting_recipe/legionriot_broken
-	name = "Legion Riot Armor"
-	result = /obj/item/clothing/suit/armor/f13/legion/legionriot
-	reqs = list(/obj/item/clothing/suit/armor/f13/leather_jacket/combat/riotpolice = 1,
-				/obj/item/toy/crayon/spraycan)
+	name = "Shred armor for armor plates"
+	result = /obj/item/stack/crafting/armor_plate/fifteen
+	reqs = list(/obj/item/clothing/suit/armor/f13/leather_jacket/combat/riotpolice = 1,)
 	time = 30
 	category = CAT_CLOTHING
 	subcategory = CAT_ARMOR
 	always_availible = FALSE
 
 /datum/crafting_recipe/legionriothelmet_broken
-	name = "Legion Riot Helmet"
-	result = /obj/item/clothing/head/helmet/f13/legion/legionriothelmet
-	reqs = list(/obj/item/clothing/head/helmet/f13/rangerbroken = 1,
-				/obj/item/toy/crayon/spraycan)
+	name = "Shred armor for armor plates"
+	result = /obj/item/stack/crafting/armor_plate/fifteen
+	reqs = list(/obj/item/clothing/head/helmet/f13/rangerbroken = 1,)
 	time = 30
 	category = CAT_CLOTHING
 	subcategory = CAT_ARMOR
 	always_availible = FALSE
 
 /datum/crafting_recipe/legionriot_ncr
-	name = "Legion Riot Armor"
-	result = /obj/item/clothing/suit/armor/f13/legion/legionriot
-	reqs = list(/obj/item/clothing/suit/armor/f13/rangercombat = 1,
-				/obj/item/toy/crayon/spraycan)
+	name = "Shred armor for armor plates"
+	result = /obj/item/stack/crafting/armor_plate/fifteen
+	reqs = list(/obj/item/clothing/suit/armor/f13/rangercombat = 1,)
 	time = 30
 	category = CAT_CLOTHING
 	subcategory = CAT_ARMOR
 	always_availible = FALSE
 
 /datum/crafting_recipe/legionriothelmet_ncr
-	name = "Legion Riot Helmet"
-	result = /obj/item/clothing/head/helmet/f13/legion/legionriothelmet
-	reqs = list(/obj/item/clothing/head/helmet/f13/ncr/rangercombat = 1,
-				/obj/item/toy/crayon/spraycan)
+	name = "Shred armor for armor plates"
+	result = /obj/item/stack/crafting/armor_plate/fifteen
+	reqs = list(/obj/item/clothing/head/helmet/f13/ncr/rangercombat = 1,)
+	time = 30
+	category = CAT_CLOTHING
+	subcategory = CAT_ARMOR
+	always_availible = FALSE
+
+/datum/crafting_recipe/ncrsalvaged
+	name = "Shred armor for armor plates"
+	result = /obj/item/stack/crafting/armor_plate/twenty
+	reqs = list(/obj/item/clothing/suit/armor/f13/power_armor = 1,)
+	time = 30
+	category = CAT_CLOTHING
+	subcategory = CAT_ARMOR
+	always_availible = FALSE
+
+/datum/crafting_recipe/ncrsalvagedhelmet
+	name = "Shred armor for armor plates"
+	result = /obj/item/stack/crafting/armor_plate/twenty
+	reqs = list(/obj/item/clothing/head/helmet/f13/power_armor = 1,)
+	time = 30
+	category = CAT_CLOTHING
+	subcategory = CAT_ARMOR
+	always_availible = FALSE
+
+/datum/crafting_recipe/ncrsalvaged_salvaged
+	name = "Shred armor for armor plates"
+	result = /obj/item/stack/crafting/armor_plate/twenty
+	reqs = list(/obj/item/clothing/suit/armored/heavy/salvaged_t45 = 1,)
+	time = 30
+	category = CAT_CLOTHING
+	subcategory = CAT_ARMOR
+	always_availible = FALSE
+
+/datum/crafting_recipe/ncrriot_broken
+	name = "Shred armor for armor plates"
+	result = /obj/item/stack/crafting/armor_plate/fifteen
+	reqs = list(/obj/item/clothing/suit/armor/f13/leather_jacket/combat/riotpolice = 1,)
+	time = 30
+	category = CAT_CLOTHING
+	subcategory = CAT_ARMOR
+	always_availible = FALSE
+
+/datum/crafting_recipe/ncrriothelmet_broken
+	name = "Shred armor for armor plates"
+	result = /obj/item/stack/crafting/armor_plate/fifteen
+	reqs = list(/obj/item/clothing/head/helmet/f13/rangerbroken = 1,)
 	time = 30
 	category = CAT_CLOTHING
 	subcategory = CAT_ARMOR
