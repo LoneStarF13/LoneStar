@@ -365,7 +365,6 @@ Star Paladin
 	loadout_options = list(
 		/datum/outfit/loadout/spaladina, //R91 Assault Rifle
 		/datum/outfit/loadout/spaladinb, //AER12
-		/datum/outfit/loadout/spaladinc  //Minigun
 		)
 
 	outfit = /datum/outfit/job/bos/f13seniorpaladin
@@ -433,14 +432,6 @@ Star Paladin
 		/obj/item/ammo_box/magazine/m45exp = 2,
 	)
 
-/datum/outfit/loadout/spaladinc
-	name = "Vanguard Senior Paladin"
-	backpack_contents = list(
-		/obj/item/minigunpackbal5mm = 1,
-		/obj/item/ammo_box/magazine/cz53=1,
-		/obj/item/gun/energy/laser/pistol=1,
-		/obj/item/stock_parts/cell/ammo/ec=2,
-	)
 
 /*
 Paladin
@@ -461,10 +452,8 @@ Paladin
 	loadout_options = list(
 	/datum/outfit/loadout/paladina, //R91
 	/datum/outfit/loadout/paladinb, //AER9
-	/datum/outfit/loadout/paladinc, //Minigun
+	/datum/outfit/loadout/paladinc,
 	/datum/outfit/loadout/paladind,
-	/datum/outfit/loadout/paladine,
-	/datum/outfit/loadout/paladinf
 	)
 
 	outfit = /datum/outfit/job/bos/f13paladin
@@ -534,16 +523,6 @@ Paladin
 		)
 
 /datum/outfit/loadout/paladinc
-	name = "Vanguard Junior Paladin"
-	backpack_contents = list(
-		/obj/item/minigunpackbal5mm = 1,
-		/obj/item/ammo_box/magazine/cz53=1,
-		/obj/item/gun/energy/laser/pistol=1,
-		/obj/item/stock_parts/cell/ammo/ec=2,
-		/obj/item/clothing/accessory/bos/juniorpaladin = 1,
-	)
-
-/datum/outfit/loadout/paladind
 	name = "Firesupport Paladin"
 	backpack_contents = list(
 		/obj/item/gun/ballistic/automatic/assault_rifle=1,
@@ -553,23 +532,13 @@ Paladin
 		/obj/item/clothing/accessory/bos/paladin=1
 		)
 
-/datum/outfit/loadout/paladine
+/datum/outfit/loadout/paladind
 	name = "Frontline Paladin"
 	backpack_contents = list(
 		/obj/item/gun/energy/laser/aer9=1,
 		/obj/item/stock_parts/cell/ammo/mfc=2,
 		/obj/item/gun/ballistic/automatic/pistol/mk23=1,
 		/obj/item/ammo_box/magazine/m45exp=2,
-		/obj/item/clothing/accessory/bos/paladin=1
-		)
-
-/datum/outfit/loadout/paladinf
-	name = "Vanguard Paladin"
-	backpack_contents = list(
-		/obj/item/minigunpackbal5mm=1,
-		/obj/item/ammo_box/magazine/cz53=1,
-		/obj/item/gun/energy/laser/pistol=1,
-		/obj/item/stock_parts/cell/ammo/ec=2,
 		/obj/item/clothing/accessory/bos/paladin=1
 		)
 
