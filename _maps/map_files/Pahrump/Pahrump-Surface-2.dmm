@@ -714,6 +714,14 @@
 /obj/structure/bed/old,
 /turf/open/floor/carpet/black,
 /area/f13/legion)
+"aox" = (
+/obj/structure/barricade/wooden/strong,
+/obj/structure/barricade/wooden/planks/pregame,
+/turf/open/indestructible/ground/outside/dirt{
+	dir = 4;
+	icon_state = "dirt"
+	},
+/area/f13/wasteland)
 "aoy" = (
 /obj/structure/chair/f13chair1{
 	dir = 4
@@ -19315,6 +19323,14 @@
 	},
 /turf/open/floor/carpet/black,
 /area/f13/ncr)
+"idM" = (
+/obj/structure/barricade/wooden/strong,
+/obj/structure/decoration/warning,
+/turf/open/indestructible/ground/outside/dirt{
+	dir = 4;
+	icon_state = "dirtcorner"
+	},
+/area/f13/wasteland)
 "idS" = (
 /obj/structure/table,
 /obj/item/healthanalyzer,
@@ -29065,12 +29081,10 @@
 	},
 /area/f13/building)
 "mkw" = (
-/obj/structure/barricade/wooden/strong,
-/obj/structure/barricade/wooden/planks/pregame,
-/turf/open/indestructible/ground/outside/dirt{
-	dir = 4;
-	icon_state = "dirt"
+/obj/structure/chair/bench{
+	pixel_y = -2
 	},
+/turf/open/indestructible/ground/outside/dirt,
 /area/f13/wasteland)
 "mkH" = (
 /obj/structure/chair/wood/modern{
@@ -47281,14 +47295,6 @@
 	icon_state = "horizontaltopbordertop2left"
 	},
 /area/f13/wasteland)
-"uyS" = (
-/obj/structure/barricade/wooden/strong,
-/obj/structure/decoration/warning,
-/turf/open/indestructible/ground/outside/dirt{
-	dir = 4;
-	icon_state = "dirtcorner"
-	},
-/area/f13/wasteland)
 "uzs" = (
 /obj/structure/table/reinforced,
 /obj/structure/railing{
@@ -63801,8 +63807,8 @@ mvh
 mvh
 oWC
 sqx
-mkw
-uyS
+aox
+idM
 mvh
 oWC
 ktB
@@ -65856,7 +65862,7 @@ fyf
 ntv
 kCH
 mvv
-hxO
+mkw
 mvv
 mvv
 mvv
