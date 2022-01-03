@@ -16189,6 +16189,14 @@
 	},
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/legion)
+"gVR" = (
+/obj/structure/barricade/wooden/strong,
+/obj/structure/barricade/wooden/planks/pregame,
+/turf/open/indestructible/ground/outside/dirt{
+	dir = 4;
+	icon_state = "dirt"
+	},
+/area/f13/wasteland)
 "gWm" = (
 /obj/structure/chair/sofa/right,
 /turf/open/floor/wood/f13/oak,
@@ -25282,6 +25290,14 @@
 	},
 /turf/open/floor/carpet,
 /area/f13/building)
+"kDF" = (
+/obj/structure/barricade/wooden/strong,
+/obj/structure/decoration/warning,
+/turf/open/indestructible/ground/outside/dirt{
+	dir = 4;
+	icon_state = "dirtcorner"
+	},
+/area/f13/wasteland)
 "kDQ" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -42343,7 +42359,9 @@
 "sqx" = (
 /obj/structure/barricade/wooden/strong,
 /obj/structure/decoration/warning,
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/indestructible/ground/outside/dirt{
+	icon_state = "dirtcorner"
+	},
 /area/f13/wasteland)
 "sqy" = (
 /obj/structure/bed/mattress{
@@ -63808,8 +63826,8 @@ mvh
 mvh
 oWC
 sqx
-oWC
-sqx
+gVR
+kDF
 mvh
 oWC
 ktB
@@ -69218,7 +69236,7 @@ jxH
 mvB
 mvv
 doX
-jxH
+ntI
 pKq
 rWF
 qSe
@@ -72528,9 +72546,9 @@ fyf
 qOV
 cWG
 cWG
-fyf
-nlO
-mfD
+cWG
+daU
+aBH
 mfD
 mfD
 hCg
