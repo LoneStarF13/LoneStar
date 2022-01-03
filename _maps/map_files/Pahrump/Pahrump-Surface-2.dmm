@@ -6228,18 +6228,6 @@
 	icon_state = "plating"
 	},
 /area/f13/ncr)
-"cNa" = (
-/obj/structure/window/fulltile/house{
-	icon_state = "housewindowbroken"
-	},
-/obj/structure/barricade/wooden/planks/pregame,
-/obj/structure/curtain{
-	color = "#845f58"
-	},
-/turf/open/floor/f13/wood{
-	icon_state = "housewood3-broken"
-	},
-/area/f13/raiders)
 "cNc" = (
 /obj/structure/legion_extractor,
 /turf/open/indestructible/ground/outside/dirt,
@@ -6375,7 +6363,9 @@
 	icon_state = "post_wood";
 	pixel_x = -18
 	},
-/turf/open/indestructible/ground/outside/dirt,
+/turf/open/indestructible/ground/outside/dirt{
+	icon_state = "dirt"
+	},
 /area/f13/wasteland)
 "cQH" = (
 /obj/effect/decal/cleanable/dirt{
@@ -9123,12 +9113,6 @@
 /obj/machinery/light/small,
 /turf/open/floor/wood/f13/housewoodbroken,
 /area/f13/building)
-"dZK" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/f13/wood{
-	icon_state = "housewood3-broken"
-	},
-/area/f13/raiders)
 "dZS" = (
 /obj/structure/table,
 /obj/effect/decal/cleanable/dirt,
@@ -21074,12 +21058,6 @@
 	},
 /turf/open/floor/f13/wood,
 /area/f13/building)
-"iRv" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/f13/wood{
-	icon_state = "housewood3-broken"
-	},
-/area/f13/raiders)
 "iRx" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
@@ -37915,11 +37893,6 @@
 	icon_state = "yellowrustyfull"
 	},
 /area/f13/building)
-"qlW" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/f13/wood,
-/area/f13/raiders)
 "qmc" = (
 /obj/machinery/light/small,
 /turf/open/floor/wood,
