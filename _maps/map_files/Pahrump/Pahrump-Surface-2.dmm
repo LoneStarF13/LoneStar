@@ -7032,7 +7032,7 @@
 	obj_integrity = 300;
 	req_access_txt = "125"
 	},
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/indestructible/ground/outside/dirt,
 /area/f13/wasteland)
 "dgU" = (
 /obj/structure/table/reinforced,
@@ -7881,12 +7881,15 @@
 	},
 /area/f13/wasteland)
 "dxJ" = (
-/obj/machinery/door/unpowered/securedoor{
-	max_integrity = 300;
-	obj_integrity = 300;
-	req_access_txt = "125"
+/obj/structure/decoration/rag,
+/obj/structure/table,
+/obj/structure/barricade/bars{
+	layer = 2.8
 	},
-/turf/open/indestructible/ground/outside/dirt,
+/turf/open/indestructible/ground/outside/dirt{
+	dir = 1;
+	icon_state = "dirt"
+	},
 /area/f13/wasteland)
 "dxK" = (
 /obj/machinery/sleeper,
@@ -7967,13 +7970,11 @@
 	},
 /area/f13/tunnel)
 "dzE" = (
-/obj/structure/decoration/rag,
-/obj/structure/table,
-/obj/structure/barricade/bars{
-	layer = 2.8
+/obj/effect/decal/remains{
+	icon_state = "remains"
 	},
 /turf/open/indestructible/ground/outside/dirt{
-	dir = 1;
+	dir = 5;
 	icon_state = "dirt"
 	},
 /area/f13/wasteland)
@@ -9590,13 +9591,11 @@
 /turf/open/floor/f13/wood,
 /area/f13/building)
 "ekW" = (
-/obj/effect/decal/remains{
-	icon_state = "remains"
+/obj/item/flag/khan{
+	pixel_x = 4;
+	pixel_y = -6
 	},
-/turf/open/indestructible/ground/outside/dirt{
-	dir = 5;
-	icon_state = "dirt"
-	},
+/turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
 "els" = (
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -29072,12 +29071,13 @@
 	},
 /area/f13/building)
 "mkw" = (
-/obj/item/flag/khan{
-	pixel_x = 4;
-	pixel_y = -6
+/obj/structure/barricade/wooden/strong,
+/obj/structure/barricade/wooden/planks/pregame,
+/obj/structure/decoration/rag{
+	icon_state = "skin"
 	},
 /turf/open/indestructible/ground/outside/desert,
-/area/f13/wasteland)
+/area/f13/caves)
 "mkH" = (
 /obj/structure/chair/wood/modern{
 	dir = 4
@@ -53578,14 +53578,6 @@
 	icon_state = "bluerustychess2"
 	},
 /area/f13/building)
-"xlX" = (
-/obj/structure/barricade/wooden/strong,
-/obj/structure/barricade/wooden/planks/pregame,
-/obj/structure/decoration/rag{
-	icon_state = "skin"
-	},
-/turf/open/indestructible/ground/outside/desert,
-/area/f13/caves)
 "xmr" = (
 /obj/structure/nest/raider/boss{
 	spawn_time = 10
@@ -71256,7 +71248,7 @@ buD
 cPZ
 mvv
 bpD
-mkw
+ekW
 vtg
 vtg
 gcK
@@ -71511,9 +71503,9 @@ gcK
 gcK
 ktB
 cQC
+dgK
 dxJ
-dzE
-xlX
+mkw
 gcK
 gcK
 gcK
@@ -72283,7 +72275,7 @@ fyf
 qOV
 daU
 mvv
-ekW
+dzE
 gcK
 fyf
 fyf
