@@ -78,7 +78,7 @@
 #define LOADOUT_LIMBS		 		list(LOADOUT_LIMB_NORMAL,LOADOUT_LIMB_PROSTHETIC,LOADOUT_LIMB_AMPUTATED) //you can amputate your legs/arms though
 
 //loadout saving/loading specific defines
-#define MAXIMUM_LOADOUT_SAVES 5
+#define MAXIMUM_LOADOUT_SAVES 30	//Remember to increase this if more slots are added
 #define LOADOUT_ITEM				"loadout_item"
 
 //loadout item flags
