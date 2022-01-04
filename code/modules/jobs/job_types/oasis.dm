@@ -295,7 +295,7 @@ Mayor
 /datum/outfit/loadout/police
 	name = "Oasis PD"
 	uniform = /obj/item/clothing/under/f13/police/officer
-	suit = /obj/item/clothing/suit/armor/vest/alt
+	suit = /obj/item/clothing/suit/armor/bulletproof
 	head = /obj/item/clothing/head/f13/police/officer
 	neck = /obj/item/storage/belt/holster/legholster
 	r_hand = /obj/item/gun/ballistic/shotgun/police

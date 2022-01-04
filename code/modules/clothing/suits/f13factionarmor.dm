@@ -643,6 +643,10 @@
 	icon_state = "towntrench_heavy"
 	armor = list("tier" = 6, "energy" = 40, "bomb" = 25, "bio" = 40, "rad" = 40, "fire" = 80, "acid" = 0)
 
+/obj/item/clothing/suit/armor/f13/town/sheriff/Initialize()
+	. = ..()
+	AddComponent(/datum/component/armor_plate)
+
 /obj/item/clothing/suit/armor/f13/town/chief
 	name = "OPD Chief's jacket"
 	desc = "(V*)A navy-blue jacket with blue shoulder designations, '/OPD/' stitched into one of the chest pockets, and hidden ceramic trauma plates. It has a small compartment for a holdout pistol."
@@ -653,11 +657,19 @@
 	armor = list("tier" = 5, "linebullet" = 75, "energy" = 30, "bomb" = 25, "bio" = 40, "rad" = 40, "fire" = 80, "acid" = 0)
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets/small/holdout
 
+/obj/item/clothing/suit/armor/f13/town/chief/Initialize()
+	. = ..()
+	AddComponent(/datum/component/armor_plate)
+
 /obj/item/clothing/suit/armor/f13/town/deputy
 	name = "deputy trenchcoat"
 	desc = "(V) An armored trench coat with added shoulderpads, a chestplate, and legguards."
 	icon_state = "towntrench_medium"
 	armor = list("tier" = 5, "energy" = 40, "bomb" = 25, "bio" = 40, "rad" = 35, "fire" = 80, "acid" = 0)
+
+/obj/item/clothing/suit/armor/f13/town/deputy/Initialize()
+	. = ..()
+	AddComponent(/datum/component/armor_plate)
 
 //Great Khan
 /obj/item/clothing/suit/armor/khan_jacket
@@ -666,6 +678,10 @@
 	icon_state = "khan_jacket"
 	item_state = "khan_jacket"
 	armor = list("tier" = 4, "energy" = 20, "bomb" = 10, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0)
+
+/obj/item/clothing/suit/armor/khan_jacket/Initialize()
+	. = ..()
+	AddComponent(/datum/component/armor_plate)
 
 //Wayfarer
 /obj/item/clothing/suit/armor/f13/lightcloak
