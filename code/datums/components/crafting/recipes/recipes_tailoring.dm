@@ -153,7 +153,7 @@
 
 
 /datum/crafting_recipe/ncrcombatarmor
-	name = "Shred armor for armor plates"
+	name = "Shred combat armor for armor plates"
 	result = /obj/item/stack/crafting/armor_plate/five
 	blacklist = list(/obj/item/clothing/suit/armor/f13/combat/mk2)
 	reqs = list(/obj/item/clothing/suit/armor/f13/combat = 1,)
@@ -163,7 +163,7 @@
 	always_availible = FALSE
 
 /datum/crafting_recipe/ncrcombathelmet
-	name = "Shred armor for armor plates"
+	name = "Shred combat helmet for armor plates"
 	result = /obj/item/stack/crafting/armor_plate/five
 	blacklist = list(/obj/item/clothing/head/helmet/f13/combat/mk2)
 	reqs = list(/obj/item/clothing/head/helmet/f13/combat = 1,)
@@ -173,7 +173,7 @@
 	always_availible = FALSE
 
 /datum/crafting_recipe/ncrcombatarmormk2
-	name = "Shred armor for armor plates"
+	name = "Shred combat armor mk2 for armor plates"
 	result = /obj/item/stack/crafting/armor_plate/ten
 	blacklist = list(/obj/item/clothing/suit/armor/f13/combat)
 	reqs = list(/obj/item/clothing/suit/armor/f13/combat/mk2 = 1,)
@@ -183,7 +183,7 @@
 	always_availible = FALSE
 
 /datum/crafting_recipe/ncrcombathelmetmk2
-	name = "Shred armor for armor plates"
+	name = "Shred comabt helmet mk2 for armor plates"
 	result = /obj/item/stack/crafting/armor_plate/ten
 	blacklist = list(/obj/item/clothing/head/helmet/f13/combat)
 	reqs = list(/obj/item/clothing/head/helmet/f13/combat/mk2 = 1,)
@@ -193,7 +193,7 @@
 	always_availible = FALSE
 
 /datum/crafting_recipe/legioncombatarmor
-	name = "Shred armor for armor plates"
+	name = "Shred combat armor for armor plates"
 	result = /obj/item/stack/crafting/armor_plate/five
 	blacklist = list(/obj/item/clothing/suit/armor/f13/combat/mk2)
 	reqs = list(/obj/item/clothing/suit/armor/f13/combat = 1,)
@@ -203,7 +203,7 @@
 	always_availible = FALSE
 
 /datum/crafting_recipe/legioncombathelmet
-	name = "Shred armor for armor plates"
+	name = "Shred combat helmet for armor plates"
 	result = /obj/item/stack/crafting/armor_plate/five
 	blacklist = list(/obj/item/clothing/head/helmet/f13/combat/mk2)
 	reqs = list(/obj/item/clothing/head/helmet/f13/combat = 1,)
@@ -213,7 +213,7 @@
 	always_availible = FALSE
 
 /datum/crafting_recipe/legioncombatarmormk2
-	name = "Shred armor for armor plates"
+	name = "Shred combat armor mk2 for armor plates"
 	result = /obj/item/stack/crafting/armor_plate/ten
 	blacklist = list(/obj/item/clothing/suit/armor/f13/combat)
 	reqs = list(/obj/item/clothing/suit/armor/f13/combat/mk2 = 1,)
@@ -223,7 +223,7 @@
 	always_availible = FALSE
 
 /datum/crafting_recipe/legioncombathelmetmk2
-	name = "Shred armor for armor plates"
+	name = "Shred combat helmet mk2 for armor plates"
 	result = /obj/item/stack/crafting/armor_plate/ten
 	blacklist = list(/obj/item/clothing/head/helmet/f13/combat)
 	reqs = list(/obj/item/clothing/head/helmet/f13/combat/mk2 = 1,)
@@ -233,7 +233,7 @@
 	always_availible = FALSE
 
 /datum/crafting_recipe/legionsalvaged
-	name = "Shred armor for armor plates"
+	name = "Shred power armor for armor plates"
 	result = /obj/item/stack/crafting/armor_plate/twenty
 	reqs = list(/obj/item/clothing/suit/armor/f13/power_armor = 1,)
 	time = 30
@@ -242,7 +242,7 @@
 	always_availible = FALSE
 
 /datum/crafting_recipe/legionsalvagedhelmet
-	name = "Shred armor for armor plates"
+	name = "Shred power armor helmet for armor plates"
 	result = /obj/item/stack/crafting/armor_plate/twenty
 	reqs = list(/obj/item/clothing/head/helmet/f13/power_armor = 1,)
 	time = 30
@@ -251,7 +251,7 @@
 	always_availible = FALSE
 
 /datum/crafting_recipe/legionsalvaged_ncr
-	name = "Shred armor for armor plates"
+	name = "Shred salvaged power armor for armor plates"
 	result = /obj/item/stack/crafting/armor_plate/twenty
 	reqs = list(/obj/item/clothing/suit/armored/heavy/salvaged_NCR = 1,)
 	time = 30
@@ -260,7 +260,7 @@
 	always_availible = FALSE
 
 /datum/crafting_recipe/legionsalvaged_salvaged
-	name = "Shred armor for armor plates"
+	name = "Shred salvaged power armor helmet for armor plates"
 	result = /obj/item/stack/crafting/armor_plate/twenty
 	reqs = list(/obj/item/clothing/suit/armored/heavy/salvaged_t45 = 1,)
 	time = 30
@@ -269,7 +269,7 @@
 	always_availible = FALSE
 
 /datum/crafting_recipe/legionriot_broken
-	name = "Shred armor for armor plates"
+	name = "Shred riot armor for armor plates"
 	result = /obj/item/stack/crafting/armor_plate/fifteen
 	reqs = list(/obj/item/clothing/suit/armor/f13/leather_jacket/combat/riotpolice = 1,)
 	time = 30
@@ -278,7 +278,7 @@
 	always_availible = FALSE
 
 /datum/crafting_recipe/legionriothelmet_broken
-	name = "Shred armor for armor plates"
+	name = "Shred riot helmet for armor plates"
 	result = /obj/item/stack/crafting/armor_plate/fifteen
 	reqs = list(/obj/item/clothing/head/helmet/f13/rangerbroken = 1,)
 	time = 30
@@ -287,7 +287,7 @@
 	always_availible = FALSE
 
 /datum/crafting_recipe/legionriot_ncr
-	name = "Shred armor for armor plates"
+	name = "Shred veteran ranger armor for armor plates"
 	result = /obj/item/stack/crafting/armor_plate/fifteen
 	reqs = list(/obj/item/clothing/suit/armor/f13/rangercombat = 1,)
 	time = 30
@@ -296,7 +296,7 @@
 	always_availible = FALSE
 
 /datum/crafting_recipe/legionriothelmet_ncr
-	name = "Shred armor for armor plates"
+	name = "Shred veteran ranger helmet for armor plates"
 	result = /obj/item/stack/crafting/armor_plate/fifteen
 	reqs = list(/obj/item/clothing/head/helmet/f13/ncr/rangercombat = 1,)
 	time = 30
@@ -305,7 +305,7 @@
 	always_availible = FALSE
 
 /datum/crafting_recipe/ncrsalvaged
-	name = "Shred armor for armor plates"
+	name = "Shred power armor for armor plates"
 	result = /obj/item/stack/crafting/armor_plate/twenty
 	reqs = list(/obj/item/clothing/suit/armor/f13/power_armor = 1,)
 	time = 30
@@ -314,7 +314,7 @@
 	always_availible = FALSE
 
 /datum/crafting_recipe/ncrsalvagedhelmet
-	name = "Shred armor for armor plates"
+	name = "Shred power armor helmet for armor plates"
 	result = /obj/item/stack/crafting/armor_plate/twenty
 	reqs = list(/obj/item/clothing/head/helmet/f13/power_armor = 1,)
 	time = 30
@@ -323,7 +323,7 @@
 	always_availible = FALSE
 
 /datum/crafting_recipe/ncrsalvaged_salvaged
-	name = "Shred armor for armor plates"
+	name = "Shred salvaged power armor for armor plates"
 	result = /obj/item/stack/crafting/armor_plate/twenty
 	reqs = list(/obj/item/clothing/suit/armored/heavy/salvaged_t45 = 1,)
 	time = 30
@@ -332,7 +332,7 @@
 	always_availible = FALSE
 
 /datum/crafting_recipe/ncrriot_broken
-	name = "Shred armor for armor plates"
+	name = "Shred riot armor for armor plates"
 	result = /obj/item/stack/crafting/armor_plate/fifteen
 	reqs = list(/obj/item/clothing/suit/armor/f13/leather_jacket/combat/riotpolice = 1,)
 	time = 30
@@ -341,7 +341,7 @@
 	always_availible = FALSE
 
 /datum/crafting_recipe/ncrriothelmet_broken
-	name = "Shred armor for armor plates"
+	name = "Shred riot helmet for armor plates"
 	result = /obj/item/stack/crafting/armor_plate/fifteen
 	reqs = list(/obj/item/clothing/head/helmet/f13/rangerbroken = 1,)
 	time = 30
