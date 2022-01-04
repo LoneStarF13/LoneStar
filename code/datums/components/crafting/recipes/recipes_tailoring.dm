@@ -153,88 +153,80 @@
 
 
 /datum/crafting_recipe/ncrcombatarmor
-	name = "NCR combat armor"
-	result = /obj/item/clothing/suit/armor/f13/combat/ncr
+	name = "Shred armor for armor plates"
+	result = /obj/item/stack/crafting/armor_plate/five
 	blacklist = list(/obj/item/clothing/suit/armor/f13/combat/mk2)
-	reqs = list(/obj/item/clothing/suit/armor/f13/combat = 1,
-				/obj/item/toy/crayon/spraycan)
+	reqs = list(/obj/item/clothing/suit/armor/f13/combat = 1,)
 	time = 30
 	category = CAT_CLOTHING
 	subcategory = CAT_ARMOR
 	always_availible = FALSE
 
 /datum/crafting_recipe/ncrcombathelmet
-	name = "NCR combat helmet"
-	result = /obj/item/clothing/head/helmet/f13/combat/ncr
+	name = "Shred armor for armor plates"
+	result = /obj/item/stack/crafting/armor_plate/five
 	blacklist = list(/obj/item/clothing/head/helmet/f13/combat/mk2)
-	reqs = list(/obj/item/clothing/head/helmet/f13/combat = 1,
-				/obj/item/toy/crayon/spraycan)
+	reqs = list(/obj/item/clothing/head/helmet/f13/combat = 1,)
 	time = 30
 	category = CAT_CLOTHING
 	subcategory = CAT_ARMOR
 	always_availible = FALSE
 
 /datum/crafting_recipe/ncrcombatarmormk2
-	name = "reinforced NCR combat armor"
-	result = /obj/item/clothing/suit/armor/f13/combat/mk2/ncr
+	name = "Shred armor for armor plates"
+	result = /obj/item/stack/crafting/armor_plate/ten
 	blacklist = list(/obj/item/clothing/suit/armor/f13/combat)
-	reqs = list(/obj/item/clothing/suit/armor/f13/combat/mk2 = 1,
-				/obj/item/toy/crayon/spraycan)
+	reqs = list(/obj/item/clothing/suit/armor/f13/combat/mk2 = 1,)
 	time = 30
 	category = CAT_CLOTHING
 	subcategory = CAT_ARMOR
 	always_availible = FALSE
 
 /datum/crafting_recipe/ncrcombathelmetmk2
-	name = "reinforced NCR combat helmet"
-	result = /obj/item/clothing/head/helmet/f13/combat/mk2/ncr
+	name = "Shred armor for armor plates"
+	result = /obj/item/stack/crafting/armor_plate/ten
 	blacklist = list(/obj/item/clothing/head/helmet/f13/combat)
-	reqs = list(/obj/item/clothing/head/helmet/f13/combat/mk2 = 1,
-				/obj/item/toy/crayon/spraycan)
+	reqs = list(/obj/item/clothing/head/helmet/f13/combat/mk2 = 1,)
 	time = 30
 	category = CAT_CLOTHING
 	subcategory = CAT_ARMOR
 	always_availible = FALSE
 
 /datum/crafting_recipe/legioncombatarmor
-	name = "Legion Combat Armor"
-	result = /obj/item/clothing/suit/armor/f13/combat/legion
+	name = "Shred armor for armor plates"
+	result = /obj/item/stack/crafting/armor_plate/five
 	blacklist = list(/obj/item/clothing/suit/armor/f13/combat/mk2)
-	reqs = list(/obj/item/clothing/suit/armor/f13/combat = 1,
-				/obj/item/toy/crayon/spraycan)
+	reqs = list(/obj/item/clothing/suit/armor/f13/combat = 1,)
 	time = 30
 	category = CAT_CLOTHING
 	subcategory = CAT_ARMOR
 	always_availible = FALSE
 
 /datum/crafting_recipe/legioncombathelmet
-	name = "Legion Combat Helmet"
-	result = /obj/item/clothing/head/helmet/f13/combat/legion
+	name = "Shred armor for armor plates"
+	result = /obj/item/stack/crafting/armor_plate/five
 	blacklist = list(/obj/item/clothing/head/helmet/f13/combat/mk2)
-	reqs = list(/obj/item/clothing/head/helmet/f13/combat = 1,
-				/obj/item/toy/crayon/spraycan)
+	reqs = list(/obj/item/clothing/head/helmet/f13/combat = 1,)
 	time = 30
 	category = CAT_CLOTHING
 	subcategory = CAT_ARMOR
 	always_availible = FALSE
 
 /datum/crafting_recipe/legioncombatarmormk2
-	name = "Legion Combat Armor, reinforced"
-	result = /obj/item/clothing/suit/armor/f13/combat/mk2/legion
+	name = "Shred armor for armor plates"
+	result = /obj/item/stack/crafting/armor_plate/ten
 	blacklist = list(/obj/item/clothing/suit/armor/f13/combat)
-	reqs = list(/obj/item/clothing/suit/armor/f13/combat/mk2 = 1,
-				/obj/item/toy/crayon/spraycan)
+	reqs = list(/obj/item/clothing/suit/armor/f13/combat/mk2 = 1,)
 	time = 30
 	category = CAT_CLOTHING
 	subcategory = CAT_ARMOR
 	always_availible = FALSE
 
 /datum/crafting_recipe/legioncombathelmetmk2
-	name = "Legion Combat Helmet, reinforced"
-	result = /obj/item/clothing/head/helmet/f13/combat/mk2/legion
+	name = "Shred armor for armor plates"
+	result = /obj/item/stack/crafting/armor_plate/ten
 	blacklist = list(/obj/item/clothing/head/helmet/f13/combat)
-	reqs = list(/obj/item/clothing/head/helmet/f13/combat/mk2 = 1,
-				/obj/item/toy/crayon/spraycan)
+	reqs = list(/obj/item/clothing/head/helmet/f13/combat/mk2 = 1,)
 	time = 30
 	category = CAT_CLOTHING
 	subcategory = CAT_ARMOR
