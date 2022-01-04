@@ -274,7 +274,6 @@
 	desc = "(VI) It's a set of standard legion armor strengthened using numerous parts taken from a suit of power armor, still retaining great mobility with added protection."
 	icon_state = "legion_palacent"
 	item_state = "legion_palacent"
-	slowdown = 0.4
 	armor = list("tier" = 6, "energy" = 35, "bomb" = 39, "bio" = 60, "rad" = 20, "fire" = 80, "acid" = 0)
 
 /obj/item/clothing/suit/armor/f13/legion/rangercent
@@ -475,6 +474,10 @@
 	item_state = "duster_recon"
 	armor = list("tier" = 5, "energy" = 20, "bomb" = 25, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0)
 
+/obj/item/clothing/suit/armor/f13/rangerrecon/Initialize()
+	. = ..()
+	AddComponent(/datum/component/armor_plate)
+
 /obj/item/clothing/suit/armor/f13/rangerrig
 	name = "chest gear harness"
 	desc = "(V) A handmade tactical rig. The actual rig is made of a black, fiberous cloth, being attached to a dusty desert-colored belt. A flask and two ammo pouches hang from the belt."
@@ -489,6 +492,10 @@
 	item_state = "cowboyrang"
 	armor = list("tier" = 5, "energy" = 20, "bomb" = 25, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0)
 
+/obj/item/clothing/suit/armor/f13/trailranger/Initialize()
+	. = ..()
+	AddComponent(/datum/component/armor_plate)
+
 /obj/item/clothing/suit/armor/f13/modif_r_vest
 	name = "subdued ranger vest"
 	desc = "(V) A quaint little jacket and scarf worn by NCR trail rangers. This one has the leather bleached and the scarf dyed black."
@@ -502,6 +509,10 @@
 	icon_state = "ncr_patrol"
 	item_state = "ncr_patrol"
 	armor = list("tier" = 5, "energy" = 45, "bomb" = 55, "bio" = 60, "rad" = 15, "fire" = 60, "acid" = 30)
+
+/obj/item/clothing/suit/armor/f13/combat/ncr_patrol/Initialize()
+	. = ..()
+	AddComponent(/datum/component/armor_plate)
 
 /obj/item/clothing/suit/armor/f13/combat/ncr_patrol/mutant
 	name = "mutant ranger armor"
