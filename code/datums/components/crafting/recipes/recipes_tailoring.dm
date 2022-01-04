@@ -133,7 +133,7 @@
 
 /datum/crafting_recipe/ncrsalvagedarmorconversion
 	name = "Salvaged NCR Power Armor"
-	result = /obj/item/stack/crafting/armor_plate/twenty
+	result = /obj/item/clothing/suit/armor/f13/power_armor/ncr
 	reqs = list(/obj/item/clothing/suit/armor/f13/power_armor/t45b = 1,
 				/obj/item/toy/crayon/spraycan)
 	time = 30
