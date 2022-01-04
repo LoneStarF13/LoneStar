@@ -103,7 +103,7 @@ Head Paladin
 	supervisors = "the elder"
 	selection_color = "#7f8c8d"
 
-	exp_requirements = 1500
+	exp_requirements = 4800
 
 	loadout_options = list(
 	/datum/outfit/loadout/sentstand, //Tribeam laser
@@ -209,7 +209,7 @@ Head Scribe
 	supervisors = "the elder"
 	selection_color = "#7f8c8d"
 
-	exp_requirements = 1500
+	exp_requirements = 3000
 
 	loadout_options = list(
 	/datum/outfit/loadout/hsstand,
@@ -277,7 +277,7 @@ Head Knight
 	supervisors = "the elder"
 	selection_color = "#7f8c8d"
 
-	exp_requirements = 1500
+	exp_requirements = 3000
 
 	loadout_options = list(
 	/datum/outfit/loadout/capstand, //Wattz 2k
@@ -358,7 +358,7 @@ Star Paladin
 	supervisors = "the Head Paladin"
 	selection_color = "#95a5a6"
 
-	exp_requirements = 750
+	exp_requirements = 2400 //Not used right now anyways. Slot disabled.
 	exp_type = EXP_TYPE_BROTHERHOOD
 
 	loadout_options = list(
@@ -454,7 +454,7 @@ Paladin
 	enforces = "The Brotherhood of Steel Expects: Obeying the Chain That - Binds your direct superior. Collection and safeguarding of technology from the wasteland. Experimentation and research."
 	supervisors = "the Senior Paladin and Head Paladin"
 	selection_color = "#95a5a6"
-	exp_requirements = 450
+	exp_requirements = 2400
 
 	loadout_options = list(
 	/datum/outfit/loadout/paladina, //R91
@@ -565,7 +565,7 @@ Senior Scribe
 	supervisors = "the Head Scribe"
 	selection_color = "#95a5a6"
 
-	exp_requirements = 600
+	exp_requirements = 1800
 
 	outfit = /datum/outfit/job/bos/f13seniorscribe
 
@@ -626,7 +626,7 @@ Scribe
 	supervisors = "the Senior Scribe and Head Scribe"
 	selection_color = "#95a5a6"
 
-	exp_requirements = 300
+	exp_requirements = 600
 
 	loadout_options = list(
 	/datum/outfit/loadout/scribea,
@@ -703,7 +703,7 @@ Senior Knight
 	enforces = "The Brotherhood of Steel Expects: Obeying the Chain That - Binds your direct superior. Collection and safeguarding of technology from the wasteland. Experimentation and research."
 	supervisors = "the Head Knight"
 	selection_color = "#95a5a6"
-	exp_requirements = 600
+	exp_requirements = 1800
 
 	loadout_options = list(
 	/datum/outfit/loadout/sknighta, //AER9
@@ -794,7 +794,7 @@ Knight
 	supervisors = "the Senior Knight, and Head Knight"
 	selection_color = "#95a5a6"
 
-	exp_requirements = 300
+	exp_requirements = 600
 
 	loadout_options = list(
 	/datum/outfit/loadout/knighta, //AER9
