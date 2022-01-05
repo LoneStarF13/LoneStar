@@ -324,7 +324,7 @@ Weapons		Service Rifle, Rockwell, 9mm pistol, all good.
 	suit_store = /obj/item/gun/ballistic/automatic/assault_carbine
 	head = /obj/item/clothing/head/f13/ncr
 	backpack_contents = list(
-		/obj/item/ammo_box/magazine/m5mm = 2,
+		/obj/item/ammo_box/magazine/m5mm = 1,
 		/obj/item/storage/box/ration/menu_two = 1,
 		/obj/item/melee/onehanded/knife/bowie = 1,
 		/obj/item/gun/ballistic/automatic/pistol/ninemil = 1,
@@ -910,7 +910,7 @@ Weapons		Service Rifle, Rockwell, 9mm pistol, all good.
 	suit = /obj/item/clothing/suit/armor/f13/ncrarmor/mantle
 	suit_store = /obj/item/gun/ballistic/automatic/service/r82
 	backpack_contents = list(
-		/obj/item/ammo_box/magazine/m556/rifle/assault = 2,
+		/obj/item/ammo_box/magazine/m556/rifle = 2,
 		/obj/item/storage/box/ration/menu_one = 1,
 		)
 
