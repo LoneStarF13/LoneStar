@@ -174,7 +174,7 @@
 
 /datum/crafting_recipe/ncrcombatarmormk2
 	name = "Shred combat armor mk2 for armor plates"
-	result = /obj/item/stack/crafting/armor_plate/ten
+	result = /obj/item/stack/crafting/armor_plate/eight
 	blacklist = list(/obj/item/clothing/suit/armor/f13/combat)
 	reqs = list(/obj/item/clothing/suit/armor/f13/combat/mk2 = 1,)
 	time = 30
@@ -184,7 +184,7 @@
 
 /datum/crafting_recipe/ncrcombathelmetmk2
 	name = "Shred comabt helmet mk2 for armor plates"
-	result = /obj/item/stack/crafting/armor_plate/ten
+	result = /obj/item/stack/crafting/armor_plate/eight
 	blacklist = list(/obj/item/clothing/head/helmet/f13/combat)
 	reqs = list(/obj/item/clothing/head/helmet/f13/combat/mk2 = 1,)
 	time = 30
@@ -214,7 +214,7 @@
 
 /datum/crafting_recipe/legioncombatarmormk2
 	name = "Shred combat armor mk2 for armor plates"
-	result = /obj/item/stack/crafting/armor_plate/ten
+	result = /obj/item/stack/crafting/armor_plate/eight
 	blacklist = list(/obj/item/clothing/suit/armor/f13/combat)
 	reqs = list(/obj/item/clothing/suit/armor/f13/combat/mk2 = 1,)
 	time = 30
@@ -224,7 +224,7 @@
 
 /datum/crafting_recipe/legioncombathelmetmk2
 	name = "Shred combat helmet mk2 for armor plates"
-	result = /obj/item/stack/crafting/armor_plate/ten
+	result = /obj/item/stack/crafting/armor_plate/eight
 	blacklist = list(/obj/item/clothing/head/helmet/f13/combat)
 	reqs = list(/obj/item/clothing/head/helmet/f13/combat/mk2 = 1,)
 	time = 30

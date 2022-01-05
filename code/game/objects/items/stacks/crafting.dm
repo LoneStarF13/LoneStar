@@ -17,6 +17,9 @@
 /obj/item/stack/crafting/armor_plate/five
 	amount = 5
 
+/obj/item/stack/crafting/armor_plate/eight
+	amount = 8
+
 /obj/item/stack/crafting/armor_plate/ten
 	amount = 10
 
