@@ -329,7 +329,7 @@ Mayor
 	head = /obj/item/clothing/head/helmet/alt
 	neck = /obj/item/storage/belt/holster/legholster
 	l_hand = /obj/item/gun/ballistic/automatic/marksman/policerifle
-	shoes = /obj/item/clothing/shoes/f13/military
+	shoes = /obj/item/clothing/shoes/jackboots
 	backpack_contents = list(
 		/obj/item/ammo_box/magazine/m556/rifle = 2,
 		/obj/item/gun/ballistic/automatic/pistol/mk23=1,
