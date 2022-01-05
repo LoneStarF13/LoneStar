@@ -394,7 +394,7 @@
 	name = "storm drum"
 	desc = "Rusty, dinged up and stuck on semi-auto, but somehow still functional. Commonly used by the White Legs tribe."
 	mag_type = /obj/item/ammo_box/magazine/tommygunm45/stick
-	semi-auto = TRUE
+	semi_auto = TRUE
 	fire_delay = 5
 	spread = 15
 
