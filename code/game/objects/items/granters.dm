@@ -819,6 +819,14 @@
 	remarks = list("Never make dreams...", "Don't pick from an empty list...", "Runtimes are not good for cardio...", "Report an issue to a nearby technician, and expect to be told to post it to their terminal...", "Probably don't adjust the default safety settings.", "Clean up any messes left in the pod before the next use.")
 	crafting_recipe_types = list(/datum/crafting_recipe/set_vrboard/den)
 
+/obj/item/book/granter/trait/tagger
+	name = "Picket Fences"
+	desc = "A guide to home decor! The American Dream might be dead and the white picket fences might be caked in rads, but at least you can read about it!"
+	oneuse = TRUE
+	granted_trait = TRAIT_TAGGER
+	traitname = "tagger"
+	remarks = list("Just two tins of paint is enough for your whole house!", "Move your sofa to the left three paces, and you've discovered Feng Shui! Please report to the nearest police station.", "Your neighbours got a new BBQ and is hosting one at the weekend! Here's what you do...")
+
 /obj/item/book/granter/trait/chemistry
 	name = "Big Book of Science"
 	desc = "This heavy textbook can teach basic chemistry, but saw more use as a blunt weapon shortly after the Collapse."
@@ -897,8 +905,6 @@
 	traitname = "gunslinging"
 	remarks = list("Engravings offer no tactical advantage whatsoever!", "I love to reload during battle.", "There's nothing like the feeling of slamming a long silver bullet into a well greased chamber.", "It doesn't feel right to shoot an unarmed man, but you get over it.", "He was pretty good, but I was better. At least, so I thought.", "The moment any truth is passed on, it starts turning into fiction. The problem is, fiction inspires people more than facts.")
 
-
-/*
 /obj/item/book/granter/trait/iron_fist
 	name = "Brawler's Guide to Fisticuffs"
 	desc = "An advanced manual on fistfighting. It has pictures, too!"
@@ -906,7 +912,6 @@
 	granted_trait = TRAIT_IRONFIST
 	traitname = "punching"
 	remarks = list("Keep your fists up...", "Don't clench your thumb in your fist, or you might break it...", "Turn into your punch, and put your body weight behind it...", "Footwork is everything, make sure to step into your punches...", "Aim for their jaw for an easy K-O...")
-*/
 
 /obj/item/book/granter/trait/medical
 	name = "Medical Booklet"
@@ -981,14 +986,14 @@
 /obj/item/book/granter/trait/selection/Initialize()
 	. = ..()
 	ADD_TRAIT(src, TRAIT_NODROP, TRAIT_GENERIC)
-	
-	
+
+
 /obj/item/book/granter/trait/selection/tribal
 		name = "Book of Ancient Knowledge"
 		desc = "A compendium of knowledge passed down from the elders. It looks to be in poor condition."
-		
+
 /obj/item/book/granter/trait/selection/tribal/attack_self(mob/user)
-	var/list/choices = list("Tribal Healing","Scrapping the Old World","Grognak the Barbarian","Skinning the Gecko","Inner Strength. Outer Resillience") 
+	var/list/choices = list("Tribal Healing","Scrapping the Old World","Grognak the Barbarian","Skinning the Gecko","Inner Strength. Outer Resillience")
 	if(granted_trait == null)
 		var/choice = input("Choose a trait:") in choices
 		switch(choice)
@@ -1004,13 +1009,13 @@
 				granted_trait = TRAIT_BIG_LEAGUES
 				traitname = "big leagues"
 			if("Skinning the Gecko")
-				granted_trait = TRAIT_TRAPPER	
+				granted_trait = TRAIT_TRAPPER
 				traitname = "trapper"
 			if("Inner Strength. Outer Resillience")
-				granted_trait = TRAIT_LIFEGIVER	
+				granted_trait = TRAIT_LIFEGIVER
 				traitname = "lifegiver"
 		return ..()
-	
+
 /obj/item/book/granter/trait/selection/tribal/Initialize()
 	. = ..()
 	ADD_TRAIT(src, TRAIT_NODROP, TRAIT_GENERIC)
