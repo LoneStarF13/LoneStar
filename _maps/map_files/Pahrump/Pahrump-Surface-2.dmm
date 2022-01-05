@@ -26251,7 +26251,12 @@
 "kZV" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/fluff/broken_flooring,
-    },
+/obj/structure/ladder/unbreakable{
+	desc = "A sturdy ladder that leads down deep into the earth... don't fall.";
+	height = 2;
+	id = "digsite";
+	name = "ladder to the depths"
+	},
 /turf/open/floor/plasteel/elevatorshaft,
 /area/f13/building)
 "lae" = (
