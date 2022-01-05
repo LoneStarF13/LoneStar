@@ -696,8 +696,8 @@ Senior Knight
 /datum/job/bos/f13seniorknight
 	title = "Senior Knight"
 	flag = F13SENIORKNIGHT
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 2
+	spawn_positions = 2
 	description = "You report directly to the Head Knight. You are the Brotherhood Senior Knight. Having served the Knight Caste for some time now, you are versatile and experienced in both basic combat and repairs, and also a primary maintainer of the Bunker's facilities. As your seniormost Knight, you may be assigned initiates or Junior Knights to mentor."
 	forbids = "The Brotherhood of Steel Forbids: Unethical human experimentation. Violence beyond what is needed to accomplish Brotherhood goals, and cruel torture or experiments on the minds or bodies of prisoners."
 	enforces = "The Brotherhood of Steel Expects: Obeying the Chain That - Binds your direct superior. Collection and safeguarding of technology from the wasteland. Experimentation and research."
@@ -709,6 +709,7 @@ Senior Knight
 	/datum/outfit/loadout/sknighta, //AER9
 	/datum/outfit/loadout/sknightb, //Browning Auto-5
 	/datum/outfit/loadout/sknightc, //R93 PDW
+	/datum/outfit/loadout/sknightd, //Ripper, BPF
 	)
 
 	outfit = /datum/outfit/job/bos/f13seniorknight
@@ -778,7 +779,13 @@ Senior Knight
 		/obj/item/stock_parts/cell/ammo/ec=2,
 		)
 
-
+/datum/outfit/loadout/sknightd
+	name = "Cavalry"
+	backpack_contents = list(
+		/obj/item/clothing/accessory/bos/knight=1,
+		/obj/item/melee/powered/ripper/prewar,
+		/obj/item/shield/riot/bullet_proof,
+		)
 /*
 Knight
 */
@@ -786,8 +793,8 @@ Knight
 /datum/job/bos/f13knight
 	title = "Knight"
 	flag = F13KNIGHT
-	total_positions = 3
-	spawn_positions = 3
+	total_positions = 4
+	spawn_positions = 4
 	description = " You are the Brotherhood Knight, the veritable lifeblood of your organization. You are a versatile and adaptably trained person: from your primary duties of weapon & armor repair to basic combat, survival and stealth skills, the only thing you lack is proper experience. You are also in charge of Initiates."
 	forbids = "TheBrotherhood of Steel Forbids: Unethical human experimentation. Violence beyond what is needed to accomplish Brotherhood goals, and cruel torture or experiments on the minds or bodies of prisoners."
 	enforces = "The Brotherhood of Steel Expects: Obeying the Chain That - Binds your direct superior. Collection and safeguarding of technology from the wasteland. Experimentation and research."
@@ -799,8 +806,10 @@ Knight
 	loadout_options = list(
 	/datum/outfit/loadout/knighta, //AER9
 	/datum/outfit/loadout/knightb, //R82
-	/datum/outfit/loadout/knightc,
-	/datum/outfit/loadout/knightd
+	/datum/outfit/loadout/knightc, //AER9S
+	/datum/outfit/loadout/knightd, //R82 J
+	/datum/outfit/loadout/knighte, //Ripper J
+	/datum/outfit/loadout/knightf, //Ripper S
 	)
 
 	outfit = /datum/outfit/job/bos/f13knight
@@ -862,8 +871,17 @@ Knight
 		/obj/item/gun/energy/laser/pistol=1,
 		/obj/item/stock_parts/cell/ammo/ec=2,
 		)
-
+		
 /datum/outfit/loadout/knightc
+	name = "Junior Knight-Cavalry"
+	backpack_contents = list(
+		/obj/item/clothing/accessory/bos/juniorknight=1,
+		/obj/item/melee/powered/ripper/prewar,
+		/obj/item/shield/riot/bullet_proof,
+		)
+
+
+/datum/outfit/loadout/knightd
 	name = "Footknight"
 	backpack_contents = list(
 		/obj/item/clothing/accessory/bos/knight=1,
@@ -873,7 +891,7 @@ Knight
 		/obj/item/ammo_box/magazine/m45exp = 2,
 		)
 
-/datum/outfit/loadout/knightd
+/datum/outfit/loadout/knightde
 	name = "Knight-Defender"
 	backpack_contents = list(
 		/obj/item/clothing/accessory/bos/knight=1,
@@ -881,6 +899,14 @@ Knight
 		/obj/item/ammo_box/magazine/m556/rifle=2,
 		/obj/item/gun/energy/laser/pistol=1,
 		/obj/item/stock_parts/cell/ammo/ec=2,
+		)
+
+/datum/outfit/loadout/knightf
+	name = "Knight-Cavalry"
+	backpack_contents = list(
+		/obj/item/clothing/accessory/bos/knight=1,
+		/obj/item/melee/powered/ripper/prewar,
+		/obj/item/shield/riot/bullet_proof,
 		)
 /*
 Initiate
