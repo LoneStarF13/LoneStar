@@ -308,7 +308,7 @@ Mayor
 	name = "Oasis PD"
 	uniform = /obj/item/clothing/under/f13/police/officer
 	suit = /obj/item/clothing/suit/armor/bulletproof
-	head = /obj/item/clothing/head/f13/police/officer
+	head = /obj/item/clothing/head/f13/town/officer
 	neck = /obj/item/storage/belt/holster/legholster
 	r_hand = /obj/item/gun/ballistic/shotgun/police
 	shoes = /obj/item/clothing/shoes/jackboots
@@ -324,7 +324,7 @@ Mayor
 	name = "S.W.A.T. Officer"
 	uniform = /obj/item/clothing/under/f13/police/swat
 	suit = /obj/item/clothing/suit/armor/bulletproof
-	head = /obj/item/clothing/head/helmet
+	head = /obj/item/clothing/head/helmet/alt
 	neck = /obj/item/storage/belt/holster/legholster
 	l_hand = /obj/item/gun/ballistic/automatic/marksman/policerifle
 	shoes = /obj/item/clothing/shoes/f13/military

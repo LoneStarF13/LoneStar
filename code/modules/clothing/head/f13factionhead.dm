@@ -799,9 +799,26 @@
 
 /obj/item/clothing/head/f13/town/deputy
 	name = "deputy hat"
-	desc = "(V) A black cowboy hat."
+	desc = "(IV) A black cowboy hat."
 	icon_state = "deputyhat"
-	armor = list("tier" = 5, "energy" = 40, "bomb" = 25, "bio" = 40, "rad" = 35, "fire" = 80, "acid" = 0)
+	armor = list("tier" = 4, "energy" = 40, "bomb" = 25, "bio" = 40, "rad" = 35, "fire" = 80, "acid" = 0)
+
+/obj/item/clothing/head/f13/town/deputy/Initialize()
+	. = ..()
+	AddComponent(/datum/component/armor_plate)
+
+/obj/item/clothing/head/f13/town/officer
+	name = "oasis officer's cap"
+	desc = "(IV) A simple dark navy peaked cap, worn by police."
+	icon = 'icons/fallout/clothing/hats.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
+	icon_state = "police_officer"
+	item_state = "police_officer"
+	armor = list("tier" = 4, "energy" = 10, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 10, "acid" = 0)
+
+/obj/item/clothing/head/f13/town/officer/Initialize()
+	. = ..()
+	AddComponent(/datum/component/armor_plate)
 
 /obj/item/clothing/head/f13/town/sheriff
 	name = "sheriff hat"
@@ -809,14 +826,22 @@
 	icon_state = "sheriffhat"
 	armor = list("tier" = 6, "energy" = 40, "bomb" = 25, "bio" = 40, "rad" = 40, "fire" = 80, "acid" = 0)
 
+/obj/item/clothing/head/f13/town/sheriff/Initialize()
+	. = ..()
+	AddComponent(/datum/component/armor_plate)
+
 /obj/item/clothing/head/f13/town/chief
 	name = "OPD Chief's hat"
-	desc = "(V) A blue hat with a silver badge."
+	desc = "(V*) A blue hat with a silver badge."
 	icon = 'icons/fallout/clothing/hats.dmi'
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
 	icon_state = "police_chief"
 	item_state = "police_chief"
 	armor = list("tier" = 5, "linebullet" = 30, "energy" = 40, "bomb" = 25, "bio" = 40, "rad" = 40, "fire" = 80, "acid" = 0)
+
+/obj/item/clothing/head/f13/town/chief/Initialize()
+	. = ..()
+	AddComponent(/datum/component/armor_plate)
 
 /obj/item/clothing/head/f13/det_hat_alt
 	name = "detective's fedora"
