@@ -16150,15 +16150,6 @@
 	icon_state = "rampdowntop"
 	},
 /area/f13/building)
-"gTs" = (
-/obj/structure/table/reinforced,
-/obj/structure/barricade/bars{
-	max_integrity = 800;
-	name = "strong metal bars";
-	obj_integrity = 800
-	},
-/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
-/area/f13/ncr)
 "gTD" = (
 /obj/structure/window/fulltile/house{
 	icon_state = "housewindowbroken"
@@ -16716,6 +16707,7 @@
 /obj/item/flashlight{
 	pixel_y = 8
 	},
+/obj/machinery/cell_charger,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
 	name = "metal plating"
 	},
@@ -24292,6 +24284,7 @@
 /obj/effect/decal/fakelattice{
 	pixel_x = -17
 	},
+/obj/effect/spawner/lootdrop/f13/weapon/gun/ballistic/mid,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
 	name = "metal plating"
 	},
@@ -25222,7 +25215,7 @@
 	icon_state = "flag_ncr";
 	name = "NCR banner"
 	},
-/turf/closed/wall/r_wall/rust,
+/turf/closed/wall/f13/store/constructed,
 /area/f13/ncr)
 "kzB" = (
 /obj/effect/spawner/lootdrop/trash,
@@ -25581,14 +25574,6 @@
 /obj/effect/decal/cleanable/glass,
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
-"kHM" = (
-/obj/structure/table/reinforced,
-/obj/machinery/button{
-	id = "NCRmory";
-	name = "NCR armory shutters"
-	},
-/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
-/area/f13/ncr)
 "kHU" = (
 /obj/structure/sink/well,
 /turf/open/indestructible/ground/outside/dirt{
@@ -30792,10 +30777,6 @@
 	icon_state = "dirtcorner"
 	},
 /area/f13/raiders)
-"mVM" = (
-/obj/machinery/photocopier,
-/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
-/area/f13/ncr)
 "mVR" = (
 /obj/structure/reagent_dispensers/compostbin,
 /turf/open/floor/f13/wood,
@@ -31307,15 +31288,6 @@
 	icon_state = "whitegreenrustychess"
 	},
 /area/f13/city)
-"ngH" = (
-/obj/structure/simple_door/metal/barred,
-/obj/machinery/door/poddoor/shutters/preopen,
-/obj/machinery/door/poddoor/shutters/preopen{
-	id = "NCRmory";
-	name = "NCR armory shutters"
-	},
-/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
-/area/f13/ncr)
 "ngL" = (
 /obj/structure/table,
 /obj/effect/spawner/lootdrop/f13/medical/wasteland/meds,
@@ -36745,6 +36717,14 @@
 /obj/structure/chair,
 /turf/open/floor/f13/wood,
 /area/f13/building)
+"pHq" = (
+/obj/structure/table/reinforced,
+/obj/machinery/button{
+	id = "NCRmory";
+	name = "NCR armory shutters"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
+/area/f13/ncr)
 "pHx" = (
 /obj/item/wrench,
 /obj/effect/decal/cleanable/dirt,
@@ -41309,6 +41289,15 @@
 	icon_state = "whitedirtysolid"
 	},
 /area/f13/building)
+"rKE" = (
+/obj/structure/table/reinforced,
+/obj/structure/barricade/bars{
+	max_integrity = 800;
+	name = "strong metal bars";
+	obj_integrity = 800
+	},
+/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
+/area/f13/ncr)
 "rKF" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/railing{
@@ -43074,7 +43063,7 @@
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
 	},
-/turf/closed/wall/r_wall,
+/turf/closed/wall/r_wall/rust,
 /area/f13/ncr)
 "sBk" = (
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -48980,6 +48969,15 @@
 /obj/effect/spawner/lootdrop/f13/foodspawner,
 /turf/open/floor/f13/wood,
 /area/f13/village)
+"vdo" = (
+/obj/structure/simple_door/metal/barred,
+/obj/machinery/door/poddoor/shutters/preopen,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "NCRmory";
+	name = "NCR armory shutters"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
+/area/f13/ncr)
 "vdu" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt{
@@ -54698,6 +54696,10 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/white,
 /area/f13/village)
+"xHF" = (
+/obj/machinery/photocopier,
+/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
+/area/f13/ncr)
 "xHH" = (
 /obj/structure/simple_door/metal/store,
 /obj/structure/barricade/wooden/planks/pregame,
@@ -56294,12 +56296,12 @@ wvV
 wvV
 wvV
 wvV
-aAI
+wvV
 kzu
-aAI
-aAI
-aAI
-aAI
+wvV
+wvV
+wvV
+wvV
 mGC
 emz
 emz
@@ -57058,10 +57060,10 @@ ktB
 wvV
 cio
 cio
-wjR
+aAI
 arU
 fju
-wjR
+aAI
 cio
 cio
 wvV
@@ -57829,10 +57831,10 @@ ktB
 wvV
 cio
 cio
-wjR
+aAI
 arU
 fow
-wjR
+aAI
 cio
 cio
 wvV
@@ -58600,7 +58602,7 @@ ktB
 wvV
 cio
 cio
-wjR
+aAI
 arU
 fow
 sBf
@@ -66335,8 +66337,8 @@ ygv
 wqO
 iul
 xGv
-gTs
-kHM
+rKE
+pHq
 iul
 wHB
 rdo
@@ -66592,7 +66594,7 @@ vHu
 wqO
 xGv
 iul
-gTs
+rKE
 xGv
 xGv
 kOq
@@ -66849,7 +66851,7 @@ xGv
 tyU
 xGv
 iul
-ngH
+vdo
 xGv
 xGv
 hYp
@@ -67107,7 +67109,7 @@ wvV
 xGv
 xGv
 wvV
-mVM
+xHF
 xXo
 rJz
 nZH
