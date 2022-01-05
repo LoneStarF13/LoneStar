@@ -218,7 +218,7 @@ Mayor
 	r_hand = /obj/item/gun/energy/laser/aer9
 	belt = /obj/item/gun/ballistic/automatic/pistol/sig/commissioner
 	backpack_contents = list(
-		/obj/item/stock_parts/cell/ammo/mfc = 2,
+		/obj/item/stock_parts/cell/ammo/mfc = 1,
 		/obj/item/ammo_box/magazine/m9mm = 3,
 		)
 
