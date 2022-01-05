@@ -392,7 +392,7 @@
 	resistance_flags = LAVA_PROOF | FIRE_PROOF
 
 
-/obj/item/clothing/head/f13/legion/servant
+/obj/item/clothing/head/f13/servant
 	name = "servant headwear"
 	desc = "A simple uncoloured linen cloth wrapped around the head, the mark of a servant slave trained in household work."
 	icon = 'icons/fallout/clothing/hats.dmi'
@@ -402,11 +402,7 @@
 	flags_inv = HIDEEARS|HIDEFACE
 	flags_cover = null
 
-/obj/item/clothing/suit/armor/f13/legion/servant/Initialize()
-	. = ..()
-	null(/datum/component/armor_plate)
-
-/obj/item/clothing/head/f13/legion/auxilia
+/obj/item/clothing/head/f13/auxilia
 	name = "auxilia headwear"
 	desc = "A soft red cap with a black band, used by female Auxilia outside camp."
 	icon = 'icons/fallout/clothing/hats.dmi'
@@ -415,10 +411,6 @@
 	item_state = "legion-aux"
 	flags_inv = HIDEEARS|HIDEFACE
 	flags_cover = null
-
-/obj/item/clothing/suit/armor/f13/legion/auxilia/Initialize()
-	. = ..()
-	null(/datum/component/armor_plate)
 
 /obj/item/clothing/head/helmet/f13/combat/legion
 	name = "Legion combat helmet"
