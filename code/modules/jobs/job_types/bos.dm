@@ -110,7 +110,6 @@ Head Paladin
 	/datum/outfit/loadout/sentvet, //xl70e3
 	/datum/outfit/loadout/sentheavy, //Gauss + Glock
 	/datum/outfit/loadout/sentgat, // Gatling
-	/datum/outfit/loadout/sentmini // Minigun
 	)
 
 	outfit = /datum/outfit/job/bos/f13sentinel
@@ -182,15 +181,6 @@ Head Paladin
 	name = "Gatling Head Paladin"
 	backpack_contents = list(
 		/obj/item/minigunpack=1,
-	)
-
-/datum/outfit/loadout/sentmini
-	name = "Minigun Head Paladin"
-	backpack_contents = list(
-		/obj/item/minigunpackbal5mm=1,
-		/obj/item/ammo_box/magazine/cz53=1,
-		/obj/item/gun/energy/laser/pistol=1,
-		/obj/item/stock_parts/cell/ammo/ec=2,
 	)
 
 
