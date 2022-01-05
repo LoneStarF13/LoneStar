@@ -655,7 +655,7 @@ obj/item/twohanded/sledgehammer/supersledge/ComponentInitialize()
 		playsound(src, 'sound/weapons/genhit1.ogg', 100, 1)
 	return(BRUTELOSS)
 
-//Steel Saw		Keywords: Damage 14/40, Wound Bonus, Tool saw-off
+//Steel Saw		Keywords: Damage 14/40, Fast, Wound Bonus, Tool saw-off
 /obj/item/twohanded/chainsaw/steelsaw
 	name = "steel saw"
 	desc = "A long, heavy circular saw with reinforced blades, designed for cutting through I-beams."
@@ -670,6 +670,7 @@ obj/item/twohanded/sledgehammer/supersledge/ComponentInitialize()
 	on_item_state = "steelsaw_on"
 	off_item_state = "steelsaw"
 	wound_bonus = 15
+	attack_speed = CLICK_CD_MELEE * 0.9
 
 //Auto Axe 		Keywords: Damage 14/60, AP 0.5, Wound Bonus
 /obj/item/twohanded/chainsaw/autoaxe
