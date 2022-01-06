@@ -227,6 +227,7 @@
 
 /datum/crafting_recipe/weakrocket
 	name = "Low-yield HE rocket"
+	category = CAT_EXPLOSIVE
 	result = /obj/item/ammo_casing/caseless/rocket
 	reqs = list(
 		/obj/item/rocketshell = 1,
