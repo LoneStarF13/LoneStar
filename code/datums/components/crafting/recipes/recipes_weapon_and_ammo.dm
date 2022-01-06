@@ -137,6 +137,44 @@
 	category = CAT_WEAPONRY
 	subcategory = CAT_AMMO
 
+/datum/crafting_recipe/chainsaw
+	name = "Chainsaw"
+	result = /obj/item/twohanded/chainsaw
+	reqs = list(/obj/item/circular_saw = 1,
+				/obj/item/stack/cable_coil = 3,
+				/obj/item/stack/sheet/plasteel = 5)
+	tools = list(TOOL_WELDER)
+	time = 50
+	category = CAT_WEAPONRY
+	subcategory = CAT_MELEE
+	always_available = FALSE
+
+/datum/crafting_recipe/steelsaw
+	name = "Steel Saw"
+	result = /obj/item/twohanded/chainsaw/steelsaw
+	reqs = list(/obj/item/circular_saw = 1,
+				/obj/item/stack/cable_coil = 5,
+				/obj/item/stack/sheet/plasteel = 5,
+				/obj/item/stack/crafting/goodparts = 3)
+	tools = list(TOOL_WELDER, TOOL_AWORKBENCH)
+	time = 60
+	category = CAT_WEAPONRY
+	subcategory = CAT_MELEE
+	always_available = FALSE
+
+/datum/crafting_recipe/autoaxe
+	name = "Auto Axe"
+	result = /obj/item/twohanded/chainsaw/autoaxe
+	reqs = list(/obj/item/twohanded/chainsaw/steelsaw = 1,
+				/obj/item/stack/sheet/mineral/titanium = 1,
+				/obj/item/stack/crafting/goodparts = 3,
+				/obj/structure/wreck/trash/engine)
+	tools = list(TOOL_WELDER)
+	time = 60
+	category = CAT_WEAPONRY
+	subcategory = CAT_MELEE
+	always_available = FALSE
+
 /////////////////////////
 ///POWER CELL RECYCLING//
 /////////////////////////

@@ -623,7 +623,7 @@ Raider
 	uniform = /obj/item/clothing/under/f13/densuit
 	suit = /obj/item/clothing/suit/armor/vest
 	gloves =  /obj/item/clothing/gloves/color/white
-	head = /obj/item/clothing/head/fedora 
+	head = /obj/item/clothing/head/fedora
 	mask =  /obj/item/clothing/mask/bandana/durathread
 	backpack_contents = list(
 		/obj/item/gun/ballistic/shotgun/police = 1,
@@ -1378,10 +1378,11 @@ datum/job/wasteland/f13dendoctor
 
 	loadout_options = list(
 	/datum/outfit/loadout/brawler,
-	/datum/outfit/loadout/bowman,
 	/datum/outfit/loadout/spearman,
-	/datum/outfit/loadout/gatherer,
-	/datum/outfit/loadout/wayfarer,)
+	/datum/outfit/loadout/shaman,
+	/datum/outfit/loadout/wayfarerwarrior,
+	/datum/outfit/loadout/wayfarerarcher,
+	/datum/outfit/loadout/wayfarershaman)
 
 /datum/outfit/job/wasteland/f13tribal/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()
@@ -1412,7 +1413,7 @@ datum/job/wasteland/f13dendoctor
 
 
 /datum/outfit/loadout/brawler
-	name = "Brawler"
+	name = "Tribal Brawler"
 	suit = /obj/item/clothing/suit/armor/f13/tribal
 	head = /obj/item/clothing/head/helmet/f13/deathskull
 	backpack_contents = list(
@@ -1421,8 +1422,45 @@ datum/job/wasteland/f13dendoctor
 		/obj/item/reagent_containers/pill/patch/healpoultice = 2,
 		/obj/item/stack/medical/gauze = 1,
 		)
-/datum/outfit/loadout/bowman
-	name = "Archer"
+
+/datum/outfit/loadout/spearman
+	name = "Tribal Spearman"
+	suit = /obj/item/clothing/suit/armored/light/tribalraider
+	head = /obj/item/clothing/head/helmet/f13/fiend
+	mask = /obj/item/clothing/mask/facewrap
+	neck = /obj/item/clothing/neck/mantle/gray
+	backpack_contents = list(
+		/obj/item/twohanded/spear = 1,
+		/obj/item/reagent_containers/pill/patch/bitterdrink = 2
+		)
+
+/datum/outfit/loadout/shaman
+	name = "Tribal Shaman"
+	suit = /obj/item/clothing/suit/hooded/cloak/desert
+	backpack_contents = list(
+		/obj/item/storage/bag/plants=1,
+		/obj/item/cultivator=1,
+		/obj/item/reagent_containers/glass/bucket/wood=1,
+		/obj/item/twohanded/sledgehammer/warmace = 1,
+		/obj/item/melee/onehanded/knife/ritualdagger = 1,
+		/obj/item/stack/medical/gauze/improvised = 1,
+		/obj/item/reagent_containers/pill/patch/healingpowder = 1,
+		/obj/item/book/granter/trait/lowsurgery = 1
+	)
+
+//Wayfarer Loadouts
+/datum/outfit/loadout/wayfarerwarrior
+	name = "Wayfarer Warrior"
+	suit = /obj/item/clothing/suit/armor/f13/lightcloak
+	backpack_contents = list(
+		/obj/item/clothing/under/f13/wayfarer = 1,
+		/obj/item/clothing/head/helmet/f13/wayfarer/hunter = 1,
+		/obj/item/twohanded/spear/bonespear = 1,
+		/obj/item/reagent_containers/pill/patch/bitterdrink = 1,
+	)
+
+/datum/outfit/loadout/wayfarerarcher
+	name = "Wayfarer Archer"
 	suit = /obj/item/clothing/suit/armor/f13/kit
 	head = /obj/item/clothing/head/helmet/f13/wayfarer/antler
 	neck = /obj/item/clothing/neck/mantle/brown
@@ -1434,56 +1472,29 @@ datum/job/wasteland/f13dendoctor
 		/obj/item/melee/onehanded/club/warclub = 1,
 		)
 
-/datum/outfit/loadout/spearman
-	name = "Spearman"
-	suit = /obj/item/clothing/suit/armored/light/tribalraider
-	head = /obj/item/clothing/head/helmet/f13/fiend
-	mask = /obj/item/clothing/mask/facewrap
-	neck = /obj/item/clothing/neck/mantle/gray
-	backpack_contents = list(
-		/obj/item/twohanded/spear = 1,
-		/obj/item/reagent_containers/pill/patch/bitterdrink = 2
-		)
-
-/datum/outfit/loadout/gatherer
-	name = "Gatherer"
-	suit = /obj/item/clothing/suit/hooded/cloak/desert
+/datum/outfit/loadout/wayfarershaman
+	name = "Wayfarer Shaman"
+	suit = /obj/item/clothing/suit/armor/f13/lightcloak
 	backpack_contents = list(
 		/obj/item/storage/bag/plants=1,
 		/obj/item/cultivator=1,
 		/obj/item/reagent_containers/glass/bucket/wood=1,
-		/obj/item/twohanded/sledgehammer/warmace = 1,
+		/obj/item/warpaint_bowl=1,
 		/obj/item/melee/onehanded/knife/ritualdagger = 1,
 		/obj/item/stack/medical/gauze/improvised = 1,
-		/obj/item/reagent_containers/pill/patch/healingpowder = 1
-	)
-
-/datum/outfit/loadout/wayfarer
-	name = "Wayfarer"
-	suit = /obj/item/clothing/suit/armor/f13/lightcloak
-	backpack_contents = list(
-		/obj/item/clothing/under/f13/wayfarer = 1,
-		/obj/item/clothing/head/helmet/f13/wayfarer/hunter = 1,
-		/obj/item/twohanded/spear/bonespear = 1,
-		/obj/item/reagent_containers/pill/patch/bitterdrink = 1,
+		/obj/item/reagent_containers/pill/patch/healingpowder = 1,
+		/obj/item/book/granter/trait/lowsurgery = 1
 	)
 
 /datum/outfit/job/wasteland/f13tribal/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()
 	if(visualsOnly)
 		return
-	ADD_TRAIT(H, TRAIT_TRIBAL, src)
 	ADD_TRAIT(H, TRAIT_GENERIC, src)
-	ADD_TRAIT(H, TRAIT_MACHINE_SPIRITS, src)
-	ADD_TRAIT(H, TRAIT_TECHNOPHOBE, src)
 	ADD_TRAIT(H, TRAIT_HARD_YARDS, src)
 	H.grant_language(/datum/language/tribal)
 	var/list/recipes = list(
 		/datum/crafting_recipe/punji_sticks,
-		/datum/crafting_recipe/tribal_combat_armor,
-		/datum/crafting_recipe/tribal_combat_armor_helmet,
-		/datum/crafting_recipe/tribal_pa,
-		/datum/crafting_recipe/tribal_pa_helmet,
 		/datum/crafting_recipe/tribalwar/chitinarmor,
 		/datum/crafting_recipe/tribalwar/deathclawspear,
 		/datum/crafting_recipe/tribalwar/lightcloak,

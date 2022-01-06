@@ -621,6 +621,27 @@
 	remarks = list("Always keep your gun well lubricated...", "Keep your barrel free of grime...", "Perfect fitment is the key to a good firearm...", "Maintain a proper trigger pull length...", "Keep your sights zeroed to proper range...")
 	//crafting_recipe_types = list(/datum/crafting_recipe/flux, /datum/crafting_recipe/lenses, /datum/crafting_recipe/conductors, /datum/crafting_recipe/receiver, /datum/crafting_recipe/assembly, /datum/crafting_recipe/alloys)
 
+/obj/item/book/granter/crafting_recipe/scav_one
+	name = "SCAV! Issue 1"
+	desc = "A popular post-war comic series detailing the trials and tribulations of scavengers and their tools."
+	oneuse = TRUE
+	remarks = list("And it was here that I stabbed a man over a desk fan...", "The paint was chipping, but that didn't matter when he lay dead...", "A tank here, a pipe there...", "A bit of duct tape wrapped around everything...", "My flamethrower spat fire! Wait, where are my eyebrows...")
+	crafting_recipe_types = list(/datum/crafting_recipe/chainsaw, /datum/crafting_recipe/tools/forged/entrenching_tool)
+
+/obj/item/book/granter/crafting_recipe/scav_two
+	name = "SCAV! Issue 2"
+	desc = "A popular post-war comic series detailing the trials and tribulations of scavengers and their tools."
+	oneuse = TRUE
+	remarks = list("And it was here that I stabbed a man over a desk fan...", "The paint was chipping, but that didn't matter when he lay dead...", "A tank here, a pipe there...", "A bit of duct tape wrapped around everything...", "My flamethrower spat fire! Wait, where are my eyebrows...")
+	crafting_recipe_types = list(/datum/crafting_recipe/steelsaw)
+
+/obj/item/book/granter/crafting_recipe/scav_three
+	name = "SCAV! Issue 3"
+	desc = "A popular post-war comic series detailing the trials and tribulations of scavengers and their tools."
+	oneuse = TRUE
+	remarks = list("And it was here that I stabbed a man over a desk fan...", "The paint was chipping, but that didn't matter when he lay dead...", "A tank here, a pipe there...", "A bit of duct tape wrapped around everything...", "My flamethrower spat fire! Wait, where are my eyebrows...")
+	crafting_recipe_types = list(/datum/crafting_recipe/autoaxe)
+
 // New Blueprints, yay! -Superballs
 /obj/item/book/granter/crafting_recipe/blueprint
 	name = "blueprint"
@@ -994,27 +1015,34 @@
 		desc = "A compendium of knowledge passed down from the elders. It looks to be in poor condition."
 
 /obj/item/book/granter/trait/selection/tribal/attack_self(mob/user)
-	var/list/choices = list("Tribal Healing","Scrapping the Old World","Grognak the Barbarian","Skinning the Gecko","Inner Strength. Outer Resillience")
+	var/list/choices = list("White Legs", "Tribal Healing","Rustwalkers","Dead Horses","Sorrows","Eighties","Wayfarers")
 	if(granted_trait == null)
 		var/choice = input("Choose a trait:") in choices
 		switch(choice)
 			if(null)
 				return 0
+			if("White Legs")
+				granted_trait = list(TRAIT_TRIBAL, TRAIT_GUNSMITH_ONE, TRAIT_GUNSMITH_TWO)
+				traitname = "White Legs"
 			if("Tribal Healing")
 				granted_trait = TRAIT_SURGERY_LOW
 				traitname = "minor surgery"
-			if("Scrapping the Old World")
+			if("Rustwalkers")
 				granted_trait = TRAIT_TECHNOPHREAK
-				traitname = "craftsmanship"
-			if("Grognak the Barbarian")
-				granted_trait = TRAIT_BIG_LEAGUES
-				traitname = "big leagues"
-			if("Skinning the Gecko")
-				granted_trait = TRAIT_TRAPPER
-				traitname = "trapper"
-			if("Inner Strength. Outer Resillience")
-				granted_trait = TRAIT_LIFEGIVER
-				traitname = "lifegiver"
+				traitname = "Rustwalkers"
+				crafting_recipe_types = list(/datum/crafting_recipe/autoaxe, /datum/crafting_recipe/steelsaw, /datum/crafting_recipe/tools/forged/entrenching_tool)
+			if("Dead Horses")
+				granted_trait = list(TRAIT_BIG_LEAGUES, TRAIT_IRONFIST, TRAIT_TRIBAL)
+				traitname = "Dead Horses"
+			if("Sorrows")
+				granted_trait = list(TRAIT_TRAPPER, TRAIT_TRIBAL)
+				traitname = "Sorrows"
+			if("Eighties")
+				granted_trait = list(TRAIT_FREERUNNING, TRAIT_LIGHT_STEP)
+				traitname = "Eighties"
+			if("Wayfarers")
+				granted_trait = list(TRAIT_TECHNOPHOBE, TRAIT_TRIBAL, TRAIT_MACHINE_SPIRITS)
+				traitname = "Wayfarer"
 		return ..()
 
 /obj/item/book/granter/trait/selection/tribal/Initialize()
@@ -1050,3 +1078,7 @@
 	name = "Sorrows traditions"
 	crafting_recipe_types = list(/datum/crafting_recipe/tribalwar/sorrows/armour, /datum/crafting_recipe/tribalwar/sorrows/garb, /datum/crafting_recipe/tribalwar/sorrows/femalegarb,
 								/datum/crafting_recipe/tribalwar/sorrows/yaoguaigauntlet)
+
+/obj/item/book/granter/crafting_recipe/tribal/wayfarer
+	name = "Wayfarer traditions"
+	crafting_recipe_types = list(/datum/crafting_recipe/tribal_pa,/datum/crafting_recipe/tribal_pa_helmet, /datum/crafting_recipe/tribal_combat_armor, /datum/crafting_recipe/tribal_combat_armor_helmet)
