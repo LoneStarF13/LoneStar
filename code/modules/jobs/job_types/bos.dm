@@ -783,8 +783,8 @@ Senior Knight
 	name = "Cavalry"
 	backpack_contents = list(
 		/obj/item/clothing/accessory/bos/knight=1,
-		/obj/item/melee/powered/ripper/prewar,
-		/obj/item/shield/riot/bullet_proof,
+		/obj/item/melee/powered/ripper/prewar=1,
+		/obj/item/shield/riot/bullet_proof=1,
 		)
 /*
 Knight
@@ -876,8 +876,8 @@ Knight
 	name = "Junior Knight-Cavalry"
 	backpack_contents = list(
 		/obj/item/clothing/accessory/bos/juniorknight=1,
-		/obj/item/melee/powered/ripper/prewar,
-		/obj/item/shield/riot/bullet_proof,
+		/obj/item/melee/powered/ripper/prewar=1,
+		/obj/item/shield/riot/bullet_proof=1,
 		)
 
 
@@ -905,8 +905,8 @@ Knight
 	name = "Knight-Cavalry"
 	backpack_contents = list(
 		/obj/item/clothing/accessory/bos/knight=1,
-		/obj/item/melee/powered/ripper/prewar,
-		/obj/item/shield/riot/bullet_proof,
+		/obj/item/melee/powered/ripper/prewar=1,
+		/obj/item/shield/riot/bullet_proof=1,
 		)
 /*
 Initiate
