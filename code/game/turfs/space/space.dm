@@ -5,7 +5,7 @@
 	intact = 0
 	density = 1
 	opacity = 1
-	/*lonestar edit. don't need space. so dont initialize it.
+/*lonestar edit. don't need space. so dont initialize it.
 	initial_temperature = TCMB
 	thermal_conductivity = 0
 	heat_capacity = 700000
@@ -20,7 +20,7 @@
 	light_power = 0.25
 	dynamic_lighting = DYNAMIC_LIGHTING_DISABLED
 	bullet_bounce_sound = null
-	*/
+*/
 /turf/open/space/basic/New()	//Do not convert to Initialize
 	//This is used to optimize the map loader
 	return
@@ -28,7 +28,7 @@
 /turf/open/space/examine() //nothing, nowhere
 	return
 
-	/*
+/*
 /turf/open/space/Initialize()
 	..()
 	return
@@ -352,4 +352,4 @@
 				return FALSE
 		return TRUE
 	return FALSE
-	*/
+*/
