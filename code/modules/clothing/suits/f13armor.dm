@@ -1025,19 +1025,19 @@ obj/item/clothing/suit/armor/f13/exile/cust0m
 	icon_state = "ncr_tribal_armor"
 	item_state = "ncr_tribal_armor"
 
-/obj/item/clothing/suit/f13/tribal/light/rustwalker
+/obj/item/clothing/suit/f13/tribal/light/rustwalkers
 	name = "Rustwalkers light armor"
 	desc = "(III) A duster made from some combination of leather and cloth, probably torn out of an old car. The shoulders appear to have had parts of an engine either strapped or stitched onto them. Commonly worn by members of the Rustwalkers tribe."
 	icon_state = "rustwalkers_armour_light"
 	item_state = "rustwalkers_armour_light"
 
-/obj/item/clothing/suit/f13/tribal/rustwalker
+/obj/item/clothing/suit/f13/tribal/rustwalkers
 	name = "Rustwalkers armor"
 	desc = "(IV) A chestplate, pauldron and vambrace that bear a distinct resemblance to a coolant tank, engine valves and an exhaust. Commonly worn by members of the Rustwalkers tribe"
 	icon_state = "rustwalkers_armour"
 	item_state = "rustwalkers_armour"
 
-/obj/item/clothing/suit/f13/tribal/heavy/rustwalker
+/obj/item/clothing/suit/f13/tribal/heavy/rustwalkers
 	name = "Rustwalkers heavy armor"
 	desc = "(V) A car seat leather duster, a timing belt bandolier, and armour plating made from various parts of a car, it surely would weigh the wearer down. Commonly worn by members of the Rustwalkers tribe."
 	icon_state = "rustwalkers_armour_heavy"

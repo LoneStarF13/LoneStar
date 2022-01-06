@@ -1026,6 +1026,27 @@
 	desc = "A book of traditions passed down through generations within the tribe."
 	crafting_recipe_types = list(/datum/crafting_recipe/warmace, /datum/crafting_recipe/tribalwar/bone_bow, /datum/crafting_recipe/tribalwar/pipe_bow)
 
-/*obj/item/book/granter/crafting_recipe/tribal
+/obj/item/book/granter/crafting_recipe/tribal/whitelegs
 	name = "White Legs traditions"
-	crafting_recipe_types = list(/datum/crafting_recipe/tribalwar/whitelegs)*/
+	crafting_recipe_types = list(/datum/crafting_recipe/tribalwar/whitelegs/lightarmour, /datum/crafting_recipe/tribalwar/whitelegs/armour, /datum/crafting_recipe/tribalwar/whitelegs/garb,
+								/datum/crafting_recipe/tribalwar/whitelegs/femalegarb, /datum/crafting_recipe/tribalwar/whitelegs/heavyarmour)
+
+/obj/item/book/granter/crafting_recipe/tribal/deadhorses
+	name = "Dead Horses traditions"
+	crafting_recipe_types = list(/datum/crafting_recipe/tribalwar/deadhorses/lightarmour, /datum/crafting_recipe/tribalwar/deadhorses/armour, /datum/crafting_recipe/tribalwar/deadhorses/garb,
+								/datum/crafting_recipe/tribalwar/deadhorses/femalegarb, /datum/crafting_recipe/tribalwar/deadhorses/heavyarmour)
+
+/obj/item/book/granter/crafting_recipe/tribal/rustwalkers
+	name = "Rustwalkers traditions"
+	crafting_recipe_types = list(/datum/crafting_recipe/tribalwar/rustwalkers/lightarmour, /datum/crafting_recipe/tribalwar/rustwalkers/armour, /datum/crafting_recipe/tribalwar/rustwalkers/garb,
+								/datum/crafting_recipe/tribalwar/rustwalkers/femalegarb, /datum/crafting_recipe/tribalwar/rustwalkers/heavyarmour)
+
+/obj/item/book/granter/crafting_recipe/tribal/eighties
+	name = "Eighties traditions"
+	crafting_recipe_types = list(/datum/crafting_recipe/tribalwar/eighties/lightarmour, /datum/crafting_recipe/tribalwar/eighties/armour, /datum/crafting_recipe/tribalwar/eighties/garb,
+								/datum/crafting_recipe/tribalwar/eighties/femalegarb, /datum/crafting_recipe/tribalwar/eighties/heavyarmour)
+
+/obj/item/book/granter/crafting_recipe/tribal/sorrows
+	name = "Sorrows traditions"
+	crafting_recipe_types = list(/datum/crafting_recipe/tribalwar/sorrows/armour, /datum/crafting_recipe/tribalwar/sorrows/garb, /datum/crafting_recipe/tribalwar/sorrows/femalegarb,
+								/datum/crafting_recipe/tribalwar/sorrows/yaoguaigauntlet)
