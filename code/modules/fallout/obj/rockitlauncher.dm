@@ -205,8 +205,8 @@ Possible solution: Only add the minimum weight class of a stack (which is basica
 /obj/item/rockitlauncher_pack/proc/eject_contents()
 	for(var/obj/item/I in loadedItems) //Item To Discharge
 		loadedItems -= I
-		loadedWeightClass -= I.w_class
 		I.forceMove(get_turf(src))
+	loadedWeightClass = 0
 
 /////////////////////////////
 // Rock-It-Launcher Nozzle //
