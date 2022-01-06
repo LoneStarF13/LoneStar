@@ -40,7 +40,6 @@ Mayor
 		),
 		/datum/matchmaking_pref/rival = list(
 			/datum/job/oasis,
-			/datum/job/wasteland/f13mobboss,
 		),
 	)
 
@@ -100,7 +99,6 @@ Mayor
 		),
 		/datum/matchmaking_pref/rival = list(
 			/datum/job/oasis,
-			/datum/job/wasteland/f13enforcer,
 		),
 	)
 
@@ -175,7 +173,6 @@ Mayor
 		),
 		/datum/matchmaking_pref/rival = list(
 			/datum/job/oasis,
-			/datum/job/wasteland/f13mobboss,
 		),
 	)
 
@@ -318,7 +315,7 @@ Mayor
 	head = /obj/item/clothing/head/helmet
 	neck = /obj/item/storage/belt/holster/legholster
 	l_hand = /obj/item/gun/ballistic/automatic/marksman/policerifle
-	shoes = /datum/gear/shoes/military
+	shoes = /obj/item/clothing/shoes/f13/military
 	backpack_contents = list(
 		/obj/item/ammo_box/magazine/m556/rifle = 2,
 		/obj/item/gun/ballistic/automatic/pistol/mk23=1,
@@ -735,7 +732,6 @@ Mayor
 		/datum/matchmaking_pref/rival = list(
 			/datum/job/wasteland/f13wastelander,
 			/datum/job/oasis/f13detective,
-			/datum/job/wasteland/f13mobboss,
 		),
 		/datum/matchmaking_pref/mentor = list(
 			/datum/job/wasteland/f13wastelander,

@@ -459,10 +459,8 @@ Paladin
 	loadout_options = list(
 	/datum/outfit/loadout/paladina, //R91
 	/datum/outfit/loadout/paladinb, //AER9
-	/datum/outfit/loadout/paladinc, //Minigun
-	/datum/outfit/loadout/paladind,
-	/datum/outfit/loadout/paladine,
-	/datum/outfit/loadout/paladinf
+	/datum/outfit/loadout/paladinc,
+	/datum/outfit/loadout/paladind
 	)
 
 	outfit = /datum/outfit/job/bos/f13paladin
@@ -531,16 +529,8 @@ Paladin
 		/obj/item/clothing/accessory/bos/juniorpaladin=1
 		)
 
-/datum/outfit/loadout/paladinc
-	name = "Vanguard Junior Paladin"
-	backpack_contents = list(
-		/obj/item/minigunpackbal5mm = 1,
-		/obj/item/gun/energy/laser/pistol=1,
-		/obj/item/stock_parts/cell/ammo/ec=2,
-		/obj/item/clothing/accessory/bos/juniorpaladin = 1,
-	)
 
-/datum/outfit/loadout/paladind
+/datum/outfit/loadout/paladinc
 	name = "Firesupport Paladin"
 	backpack_contents = list(
 		/obj/item/gun/ballistic/automatic/assault_rifle=1,
@@ -550,22 +540,13 @@ Paladin
 		/obj/item/clothing/accessory/bos/paladin=1
 		)
 
-/datum/outfit/loadout/paladine
+/datum/outfit/loadout/paladind
 	name = "Frontline Paladin"
 	backpack_contents = list(
 		/obj/item/gun/energy/laser/aer9=1,
 		/obj/item/stock_parts/cell/ammo/mfc=2,
 		/obj/item/gun/ballistic/automatic/pistol/mk23=1,
 		/obj/item/ammo_box/magazine/m45exp=2,
-		/obj/item/clothing/accessory/bos/paladin=1
-		)
-
-/datum/outfit/loadout/paladinf
-	name = "Vanguard Paladin"
-	backpack_contents = list(
-		/obj/item/minigunpackbal5mm=1,
-		/obj/item/gun/energy/laser/pistol=1,
-		/obj/item/stock_parts/cell/ammo/ec=2,
 		/obj/item/clothing/accessory/bos/paladin=1
 		)
 
@@ -992,8 +973,8 @@ Off-Duty
 /datum/job/bos/f13offdutybos
 	title = "BoS Off-Duty"
 	flag = F13OFFDUTYBOS
-	total_positions = 3
-	spawn_positions = 3
+	total_positions = 5
+	spawn_positions = 5
 	description = "While off-duty, you are relieved of both your duties and your authority. You are not required to participate in any routine duties of the bunker, and you may spend your time doing whatever you please, within reason. However, you may not leave the bunker, and you may not get in the way of on-duty personnel. Do not pull rank or give orders. Should the bunker be attacked, you are expected NOT to participate in the fighting, and must instead head to the lower levels for safety (i.e. despawn yourself at the matrix point)."
 	forbids = "The Brotherhood of Steel Forbids: Unethical human experimentation. Violence beyond what is needed to accomplish Brotherhood goals, and cruel torture or experiments on the minds or bodies of prisoners."
 	enforces = "The Brotherhood of Steel Expects: Obeying the Chain That - Binds your direct superior. Collection and safeguarding of technology from the wasteland. Experimentation and research."
