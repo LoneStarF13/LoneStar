@@ -17,10 +17,9 @@
 	var/static/datum/gas_mixture/immutable/space/space_gas
 	plane = PLANE_SPACE
 	layer = SPACE_LAYER
-	//light_power = 0.25
+	light_power = 0.25
 	dynamic_lighting = DYNAMIC_LIGHTING_DISABLED
 	bullet_bounce_sound = null
-	density = 1
 	*/
 /turf/open/space/basic/New()	//Do not convert to Initialize
 	//This is used to optimize the map loader
