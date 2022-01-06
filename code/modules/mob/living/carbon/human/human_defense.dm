@@ -338,12 +338,12 @@
 		if(EXPLODE_LIGHT)
 			brute_loss = 30
 			if(bomb_armor)
-				brute_loss = 15*(2 - round(bomb_armor*0.01, 0.05))
+				brute_loss = 11*(2 - round(bomb_armor*0.01, 0.05))
 			damage_clothes(max(50 - bomb_armor, 0), BRUTE, "bomb")
 			if (!istype(ears, /obj/item/clothing/ears/earmuffs))
 				adjustEarDamage(15,60)
 			Knockdown((100 - (bomb_armor * 3)) / 4)		//30ish bomb armor prevents knockdown entirely
-			adjustStaminaLoss(brute_loss)
+			adjustStaminaLoss(brute_loss / 3)
 
 	take_overall_damage(brute_loss,burn_loss)
 

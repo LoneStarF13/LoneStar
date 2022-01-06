@@ -90,6 +90,12 @@
 	desc = "A crafting blueprint for a weapon design."
 	icon_state = "blueprint1"
 
+/obj/item/advanced_crafting_components
+	name = "crafting blueprint"
+	icon = 'icons/fallout/objects/crafting.dmi'
+	icon_state = "blueprint_empty"
+	w_class = WEIGHT_CLASS_TINY
+
 //plasma
 /obj/item/advanced_crafting_components/flux
 	name = "Flux capacitator"
