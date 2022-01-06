@@ -1015,7 +1015,7 @@
 		desc = "A compendium of knowledge passed down from the elders. It looks to be in poor condition."
 
 /obj/item/book/granter/trait/selection/tribal/attack_self(mob/user)
-	var/list/choices = list("White Legs", "Tribal Healing","Rustwalkers","Dead Horses","Sorrows","Eighties","Wayfarers")
+	var/list/choices = list("White Legs","Rustwalkers","Dead Horses","Sorrows","Eighties","Wayfarers","Other")
 	if(granted_trait == null)
 		var/choice = input("Choose a trait:") in choices
 		switch(choice)
@@ -1024,8 +1024,8 @@
 			if("White Legs")
 				granted_trait = list(TRAIT_TRIBAL, TRAIT_GUNSMITH_ONE, TRAIT_GUNSMITH_TWO)
 				traitname = "White Legs"
-			if("Tribal Healing")
-				granted_trait = TRAIT_SURGERY_LOW
+			if("Other")
+				granted_trait = list(TRAIT_TRIBAL, TRAIT_SURGERY_LOW)
 				traitname = "minor surgery"
 			if("Rustwalkers")
 				granted_trait = TRAIT_TECHNOPHREAK
