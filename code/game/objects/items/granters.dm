@@ -987,6 +987,7 @@
 	. = ..()
 	ADD_TRAIT(src, TRAIT_NODROP, TRAIT_GENERIC)
 
+//TRIBAL BOOKS
 
 /obj/item/book/granter/trait/selection/tribal
 		name = "Book of Ancient Knowledge"
@@ -1019,3 +1020,9 @@
 /obj/item/book/granter/trait/selection/tribal/Initialize()
 	. = ..()
 	ADD_TRAIT(src, TRAIT_NODROP, TRAIT_GENERIC)
+
+/obj/item/book/granter/crafting_recipe/tribal
+	name = "Tribal traditions"
+	desc = "A book of traditions passed down through generations within the tribe."
+	crafting_recipe_types = list(/datum/crafting_recipe/warmace, /datum/crafting_recipe/voodoo, /datum/crafting_recipe/coyotechew,
+								/datum/crafting_recipe/tribalwar/bone_bow, /datum/crafting_recipe/tribalwar/pipe_bow)

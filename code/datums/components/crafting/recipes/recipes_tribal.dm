@@ -30,11 +30,20 @@
 //WEAPONS//
 
 /datum/crafting_recipe/tribalwar/blowgun
-	name = "String Wooden Bow"
+	name = "Blowgun"
 	result = /obj/item/gun/syringe/blowgun
 	time = 50
 	reqs = list(/obj/item/stack/sheet/mineral/bamboo = 10)
 	always_availible = FALSE
+
+/datum/crafting_recipe/tribalwar/bow
+	name = "String Wooden Bow"
+	result = /obj/item/gun/ballistic/bow
+	time = 65
+	reqs = list(/obj/item/stack/sheet/mineral/wood = 5,
+				/obj/item/weaponcrafting/string = 1,
+				/obj/item/melee/onehanded/knife
+				)
 
 /datum/crafting_recipe/tribalwar/bone_bow
 	name = "Bone Bow"
@@ -42,14 +51,28 @@
 	time = 120 // 80+120 = 200
 	always_availible = FALSE
 	reqs = list(/obj/item/stack/sheet/bone = 8,
-				/obj/item/stack/sheet/sinew = 4)
+				/obj/item/stack/sheet/sinew = 4
+				)
+
+/datum/crafting_recipe/tribalwar/pipe_bow
+	name = "Pipe Bow"
+	result = /obj/item/gun/ballistic/bow/pipe
+	time = 80
+	always_available = FALSE
+	reqs = list(/obj/item/stack/crafting/metalparts = 2,
+				/obj/item/crafting/duct_tape = 1,
+				/obj/item/stack/rods = 1,
+				/obj/item/weaponcrafting/string = 1
+				)
+	tools = list(TOOL_WORKBENCH)
 
 /datum/crafting_recipe/tribalwar/training_machete
 	name = "Training Machete"
 	result = /obj/item/melee/onehanded/machete/training
 	time = 50
 	reqs = list(/obj/item/stack/sheet/mineral/wood = 5,
-				/obj/item/stack/sheet/cloth = 2)
+				/obj/item/stack/sheet/cloth = 2
+				)
 	tools = list(TOOL_WORKBENCH)
 
 //CLOTHING AND TOOLS
@@ -90,6 +113,7 @@
 	result = /obj/structure/headpike
 	category = CAT_PRIMAL
 	subcategory = CAT_TRIBAL
+
 /datum/crafting_recipe/headpikebone
 	name = "Spike Head (Bone Spear)"
 	time = 65
@@ -171,8 +195,7 @@
 				/obj/item/reagent_containers/glass/mortar = 1)
 	category = CAT_TRIBAL
 	always_availible = FALSE
-	
-/*
+
 /datum/crafting_recipe/warmace
 	name = "Carve Wooden Warmace"
 	result = /obj/item/twohanded/sledgehammer/warmace
@@ -182,6 +205,8 @@
 	tools = list(TOOL_WORKBENCH)
 	category = CAT_PRIMAL
 	subcategory = CAT_TRIBAL_WEAPONS
+	always_availible = FALSE
+
 /datum/crafting_recipe/voodoo
 	name = "Voodoo"
 	result = /obj/item/reagent_containers/pill/patch/voodoo
@@ -192,6 +217,8 @@
 	tools = list(TOOL_WORKBENCH)
 	category = CAT_PRIMAL
 	subcategory = CAT_TRIBAL
+	always_availible = FALSE
+
 /datum/crafting_recipe/coyotechew
 	name = "Coyote Tobacco Chew"
 	result = /obj/item/reagent_containers/pill/patch/coyotechew
@@ -200,4 +227,4 @@
 	tools = list(TOOL_WORKBENCH)
 	category = CAT_PRIMAL
 	subcategory = CAT_TRIBAL
-*/
+	always_availible = FALSE
