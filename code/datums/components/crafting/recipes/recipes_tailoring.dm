@@ -139,7 +139,7 @@
 	time = 30
 	category = CAT_CLOTHING
 	subcategory = CAT_ARMOR
-	always_availible = FALSE
+	always_available = FALSE
 
 /datum/crafting_recipe/ncrsalvagedhelmetconversion
 	name = "NCR salvaged T-45b helmet"
@@ -149,7 +149,7 @@
 	time = 20
 	category = CAT_CLOTHING
 	subcategory = CAT_ARMOR
-	always_availible = FALSE
+	always_available = FALSE
 
 
 /datum/crafting_recipe/ncrcombatarmor
@@ -161,7 +161,7 @@
 	time = 30
 	category = CAT_CLOTHING
 	subcategory = CAT_ARMOR
-	always_availible = FALSE
+	always_available = FALSE
 
 /datum/crafting_recipe/ncrcombathelmet
 	name = "NCR combat helmet"
@@ -172,7 +172,7 @@
 	time = 30
 	category = CAT_CLOTHING
 	subcategory = CAT_ARMOR
-	always_availible = FALSE
+	always_available = FALSE
 
 /datum/crafting_recipe/ncrcombatarmormk2
 	name = "reinforced NCR combat armor"
@@ -183,7 +183,7 @@
 	time = 30
 	category = CAT_CLOTHING
 	subcategory = CAT_ARMOR
-	always_availible = FALSE
+	always_available = FALSE
 
 /datum/crafting_recipe/ncrcombathelmetmk2
 	name = "reinforced NCR combat helmet"
@@ -194,7 +194,7 @@
 	time = 30
 	category = CAT_CLOTHING
 	subcategory = CAT_ARMOR
-	always_availible = FALSE
+	always_available = FALSE
 
 /datum/crafting_recipe/legioncombatarmor
 	name = "Legion Combat Armor"
@@ -205,7 +205,7 @@
 	time = 30
 	category = CAT_CLOTHING
 	subcategory = CAT_ARMOR
-	always_availible = FALSE
+	always_available = FALSE
 
 /datum/crafting_recipe/legioncombathelmet
 	name = "Legion Combat Helmet"
@@ -216,7 +216,7 @@
 	time = 30
 	category = CAT_CLOTHING
 	subcategory = CAT_ARMOR
-	always_availible = FALSE
+	always_available = FALSE
 
 /datum/crafting_recipe/legioncombatarmormk2
 	name = "Legion Combat Armor, reinforced"
@@ -227,7 +227,7 @@
 	time = 30
 	category = CAT_CLOTHING
 	subcategory = CAT_ARMOR
-	always_availible = FALSE
+	always_available = FALSE
 
 /datum/crafting_recipe/legioncombathelmetmk2
 	name = "Legion Combat Helmet, reinforced"
@@ -238,7 +238,7 @@
 	time = 30
 	category = CAT_CLOTHING
 	subcategory = CAT_ARMOR
-	always_availible = FALSE
+	always_available = FALSE
 
 /datum/crafting_recipe/legionsalvaged
 	name = "Legion Salvaged Power Armor"
@@ -248,7 +248,7 @@
 	time = 30
 	category = CAT_CLOTHING
 	subcategory = CAT_ARMOR
-	always_availible = FALSE
+	always_available = FALSE
 
 /datum/crafting_recipe/legionsalvagedhelmet
 	name = "Legion Salvaged Power Armor Helmet"
@@ -258,7 +258,7 @@
 	time = 30
 	category = CAT_CLOTHING
 	subcategory = CAT_ARMOR
-	always_availible = FALSE
+	always_available = FALSE
 
 /datum/crafting_recipe/legionsalvaged_ncr
 	name = "Legion Salvaged Power Armor"
@@ -268,7 +268,7 @@
 	time = 30
 	category = CAT_CLOTHING
 	subcategory = CAT_ARMOR
-	always_availible = FALSE
+	always_available = FALSE
 
 /datum/crafting_recipe/legionsalvaged_salvaged
 	name = "Legion Salvaged Power Armor"
@@ -278,7 +278,7 @@
 	time = 30
 	category = CAT_CLOTHING
 	subcategory = CAT_ARMOR
-	always_availible = FALSE
+	always_available = FALSE
 
 /datum/crafting_recipe/legionriot_broken
 	name = "Legion Riot Armor"
@@ -288,7 +288,7 @@
 	time = 30
 	category = CAT_CLOTHING
 	subcategory = CAT_ARMOR
-	always_availible = FALSE
+	always_available = FALSE
 
 /datum/crafting_recipe/legionriothelmet_broken
 	name = "Legion Riot Helmet"
@@ -298,7 +298,7 @@
 	time = 30
 	category = CAT_CLOTHING
 	subcategory = CAT_ARMOR
-	always_availible = FALSE
+	always_available = FALSE
 
 /datum/crafting_recipe/legionriot_ncr
 	name = "Legion Riot Armor"
@@ -308,7 +308,7 @@
 	time = 30
 	category = CAT_CLOTHING
 	subcategory = CAT_ARMOR
-	always_availible = FALSE
+	always_available = FALSE
 
 /datum/crafting_recipe/legionriothelmet_ncr
 	name = "Legion Riot Helmet"
@@ -318,7 +318,7 @@
 	time = 30
 	category = CAT_CLOTHING
 	subcategory = CAT_ARMOR
-	always_availible = FALSE
+	always_available = FALSE
 
 /datum/crafting_recipe/boscombatarmor
 	name = "knight armor"
@@ -329,7 +329,7 @@
 	time = 30
 	category = CAT_CLOTHING
 	subcategory = CAT_ARMOR
-	always_availible = FALSE
+	always_available = FALSE
 
 /datum/crafting_recipe/boscombathelmet
 	name = "knight helmet"
@@ -340,7 +340,7 @@
 	time = 30
 	category = CAT_CLOTHING
 	subcategory = CAT_ARMOR
-	always_availible = FALSE
+	always_available = FALSE
 
 /datum/crafting_recipe/boscombatarmormk2
 	name = "reinforced knight armor"
@@ -351,7 +351,7 @@
 	time = 30
 	category = CAT_CLOTHING
 	subcategory = CAT_ARMOR
-	always_availible = FALSE
+	always_available = FALSE
 
 /datum/crafting_recipe/boscombathelmetmk2
 	name = "reinforced knight helmet"
@@ -362,7 +362,7 @@
 	time = 30
 	category = CAT_CLOTHING
 	subcategory = CAT_ARMOR
-	always_availible = FALSE
+	always_available = FALSE
 
 /datum/crafting_recipe/durathread_vest
 	name = "Makeshift Durathread Armour"
@@ -372,7 +372,7 @@
 	time = 50
 	category = CAT_CLOTHING
 	subcategory = CAT_ARMOR
-	always_availible = FALSE
+	always_available = FALSE
 
 ///////////
 //HELMETS//
@@ -455,7 +455,7 @@
 	time = 30
 	category = CAT_CLOTHING
 	subcategory = CAT_ARMOR
-	always_availible = FALSE
+	always_available = FALSE
 
 /datum/crafting_recipe/riderw
 	name = "Rider Helmet, Reinforced"
@@ -550,7 +550,7 @@
 	time = 15
 	category = CAT_CLOTHING
 	subcategory = CAT_WASTELAND
-	always_availible = FALSE
+	always_available = FALSE
 
 /datum/crafting_recipe/tailor/legionuniform
 	name = "Legion Uniform"
@@ -560,7 +560,7 @@
 	time = 15
 	category = CAT_CLOTHING
 	subcategory = CAT_WASTELAND
-	always_availible = FALSE
+	always_available = FALSE
 
 /datum/crafting_recipe/settler
 	name = "Settler outfit"

@@ -17,7 +17,7 @@
 	time = 20
 	reqs = list(/obj/item/stack/sheet/bone = 2,
 				/obj/item/stack/sheet/animalhide/deathclaw = 1) //changed from goliath to deathclaw
-	always_availible = FALSE
+	always_available = FALSE
 
 /datum/crafting_recipe/tribalwar/bracers
 	name = "Bone Bracers"
@@ -25,7 +25,7 @@
 	time = 20
 	reqs = list(/obj/item/stack/sheet/bone = 2,
 				/obj/item/stack/sheet/sinew = 1)
-	always_availible = FALSE
+	always_available = FALSE
 
 //WEAPONS//
 
@@ -34,7 +34,7 @@
 	result = /obj/item/gun/syringe/blowgun
 	time = 50
 	reqs = list(/obj/item/stack/sheet/mineral/bamboo = 10)
-	always_availible = FALSE
+	always_available = FALSE
 
 /datum/crafting_recipe/tribalwar/bow
 	name = "String Wooden Bow"
@@ -49,7 +49,7 @@
 	name = "Bone Bow"
 	result = /obj/item/gun/ballistic/bow/ashen
 	time = 120 // 80+120 = 200
-	always_availible = FALSE
+	always_available = FALSE
 	reqs = list(/obj/item/stack/sheet/bone = 8,
 				/obj/item/stack/sheet/sinew = 4
 				)
@@ -92,7 +92,7 @@
 	time = 20
 	reqs = list(/obj/item/stack/sheet/bone = 2,
 				/obj/item/stack/sheet/sinew = 1)
-	always_availible = FALSE
+	always_available = FALSE
 
 /datum/crafting_recipe/tribal/bonebag
 	name = "Tribal Satchel"
@@ -100,7 +100,7 @@
 	time = 30
 	reqs = list(/obj/item/stack/sheet/bone = 3,
 				/obj/item/stack/sheet/sinew = 2)
-	always_availible = FALSE
+	always_available = FALSE
 
 /*
 /datum/crafting_recipe/headpike
@@ -194,7 +194,7 @@
 				/obj/item/pestle = 1,
 				/obj/item/reagent_containers/glass/mortar = 1)
 	category = CAT_TRIBAL
-	always_availible = FALSE
+	always_available = FALSE
 
 /datum/crafting_recipe/warmace
 	name = "Carve Wooden Warmace"
@@ -204,10 +204,10 @@
 				/obj/item/stack/sheet/cloth = 3)
 	tools = list(TOOL_WORKBENCH)
 	category = CAT_PRIMAL
-	subcategory = CAT_TRIBAL_WEAPONS
-	always_availible = FALSE
+	subcategory = CAT_TRIBAL
+	always_available = FALSE
 
-/datum/crafting_recipe/voodoo
+/*datum/crafting_recipe/voodoo
 	name = "Voodoo"
 	result = /obj/item/reagent_containers/pill/patch/voodoo
 	time = 20
@@ -217,7 +217,7 @@
 	tools = list(TOOL_WORKBENCH)
 	category = CAT_PRIMAL
 	subcategory = CAT_TRIBAL
-	always_availible = FALSE
+	always_available = FALSE
 
 /datum/crafting_recipe/coyotechew
 	name = "Coyote Tobacco Chew"
@@ -227,4 +227,25 @@
 	tools = list(TOOL_WORKBENCH)
 	category = CAT_PRIMAL
 	subcategory = CAT_TRIBAL
-	always_availible = FALSE
+	always_available = FALSE
+*/
+
+//White Legs
+/datum/crafting_recipe/tribalwar/whitelegs
+	always_available = FALSE
+
+/datum/crafting_recipe/tribalwar/whitelegs/lightarmour
+	name = "White Legs Light Armour"
+	result = /obj/item/clothing/suit/f13/tribal/light/whitelegs
+	time = 30
+	reqs = list(/obj/item/stack/sheet/animalhide/gecko = 2,
+				/obj/item/stack/sheet/leather = 2,
+				/obj/item/stack/crafting/metalparts = 4)
+
+/datum/crafting_recipe/tribalwar/whitelegs/armour
+	name = "White Legs Armour"
+	result = /obj/item/clothing/suit/f13/tribal/whitelegs
+	time = 60
+	reqs = list(/obj/item/stack/sheet/animalhide/gecko = 3,
+				/obj/item/stack/sheet/leather = 2,
+				/obj/item/stack/crafting/goodparts = 5)

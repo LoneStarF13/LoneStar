@@ -89,7 +89,7 @@
 	category = CAT_CRAFTING
 	subcategory = CAT_SCAVENGING
 	time = 15
-	always_availible = FALSE
+	always_available = FALSE
 
 /datum/crafting_recipe/set_vrboard/bos
 	name = "Modify VR Sleeper Board (BoS)"
@@ -236,7 +236,7 @@
 	time = 150
 	subcategory = CAT_MISCELLANEOUS
 	category = CAT_MISC
-	always_availible = FALSE	// Disabled until learned
+	always_available = FALSE	// Disabled until learned
 */
 
 ///////////////////
@@ -310,7 +310,7 @@
 	time = 5
 	subcategory = CAT_TOOL
 	category = CAT_MISC
-	always_availible = FALSE
+	always_available = FALSE
 
 /datum/crafting_recipe/heretic/codex
 	name = "Codex Cicatrix"
@@ -323,8 +323,8 @@
 	time = 150
 	subcategory = CAT_MISCELLANEOUS
 	category = CAT_MISC
-	always_availible = FALSE
-	always_availible = FALSE
+	always_available = FALSE
+	always_available = FALSE
 
 /datum/crafting_recipe/plunger
 	name = "Plunger"

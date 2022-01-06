@@ -1024,5 +1024,8 @@
 /obj/item/book/granter/crafting_recipe/tribal
 	name = "Tribal traditions"
 	desc = "A book of traditions passed down through generations within the tribe."
-	crafting_recipe_types = list(/datum/crafting_recipe/warmace, /datum/crafting_recipe/voodoo, /datum/crafting_recipe/coyotechew,
-								/datum/crafting_recipe/tribalwar/bone_bow, /datum/crafting_recipe/tribalwar/pipe_bow)
+	crafting_recipe_types = list(/datum/crafting_recipe/warmace, /datum/crafting_recipe/tribalwar/bone_bow, /datum/crafting_recipe/tribalwar/pipe_bow)
+
+/*obj/item/book/granter/crafting_recipe/tribal
+	name = "White Legs traditions"
+	crafting_recipe_types = list(/datum/crafting_recipe/tribalwar/whitelegs)*/
