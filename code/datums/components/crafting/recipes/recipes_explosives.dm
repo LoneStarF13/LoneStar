@@ -212,6 +212,7 @@
 /datum/crafting_recipe/rocket_base
 	name = "Empty rocket shell"
 	result = /obj/item/rocketshell
+	category = CAT_EXPLOSIVE
 	reqs = list(
 				/obj/item/stack/sheet/metal = 10,
 				/obj/item/stack/crafting/metalparts = 8,
@@ -240,6 +241,7 @@
 
 /datum/crafting_recipe/strongrocket
 	name = "High-yield HE rocket"
+	category = CAT_EXPLOSIVE
 	result = /obj/item/ammo_casing/caseless/rocket/big
 	reqs = list(
 		/obj/item/rocketshell = 1,
@@ -254,6 +256,7 @@
 
 /datum/crafting_recipe/incendiaryrocket
 	name = "Incendiary rocket"
+	category = CAT_EXPLOSIVE
 	result = /obj/item/ammo_casing/caseless/rocket/incendiary
 	reqs = list(
 		/obj/item/rocketshell = 1,
