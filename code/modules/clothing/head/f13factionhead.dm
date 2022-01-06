@@ -620,10 +620,10 @@
 
 /obj/item/clothing/head/f13/ranger
 	name = "NCR ranger campaign hat"
-	desc = "(V) An NCR ranger hat, standard issue amongst all but the most elite rangers."
+	desc = "(IV) An NCR ranger hat, standard issue amongst all but the most elite rangers."
 	icon_state = "rangerhat"
 	item_state = "rangerhat"
-	armor = list("tier" = 5, "energy" = 40, "bomb" = 25, "bio" = 40, "rad" = 40, "fire" = 80, "acid" = 0)
+	armor = list("tier" = 4, "energy" = 40, "bomb" = 25, "bio" = 40, "rad" = 40, "fire" = 80, "acid" = 0)
 
 /obj/item/clothing/head/helmet/f13/ranger/Initialize()
 	. = ..()
@@ -631,11 +631,12 @@
 
 /obj/item/clothing/head/helmet/f13/combat/ncr_patrol
 	name = "NCR patrol helmet"
-	desc = "(V) A combat helmet hand-manufactured in the NCR and issued to patrol rangers."
+	desc = "(IV) A combat helmet hand-manufactured in the NCR and issued to patrol rangers."
 	icon_state = "ncr_patrol_helmet"
 	item_state = "ncr_patrol_helmet"
 	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEHAIR|HIDEFACIALHAIR|HIDEFACE
 	flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH
+	armor = list("tier" = 4, "energy" = 40, "bomb" = 25, "bio" = 40, "rad" = 40, "fire" = 80, "acid" = 0)
 
 /obj/item/clothing/head/helmet/f13/combat/ncr_patrol/Initialize()
 	. = ..()
