@@ -12068,14 +12068,11 @@
 	},
 /area/f13/wasteland)
 "fie" = (
-/obj/machinery/mineral/wasteland_vendor/khanchem{
-	density = 0;
-	layer = 3.7;
-	pixel_x = 2;
-	pixel_y = 25
+/obj/structure/flora/tree/cactus,
+/turf/open/indestructible/ground/outside/dirt{
+	icon_state = "dirt"
 	},
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/raiders)
+/area/f13/wasteland)
 "fil" = (
 /obj/effect/landmark/start/f13/orator,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
@@ -28448,16 +28445,8 @@
 /obj/structure/chair/bench{
 	pixel_x = 1
 	},
-/obj/structure/fence/wooden{
-	climbable = 0;
-	density = 0;
-	dir = 1;
-	layer = 3.6;
-	pixel_x = -13;
-	pixel_y = 1
-	},
 /turf/open/indestructible/ground/outside/dirt,
-/area/f13/raiders)
+/area/f13/wasteland)
 "lTs" = (
 /obj/item/stack/ore/iron,
 /turf/open/indestructible/ground/outside/desert{
@@ -29445,12 +29434,12 @@
 	},
 /obj/structure/barricade/tentclothedge{
 	dir = 1;
-	layer = 3.6;
+	layer = 6;
 	pixel_y = -3
 	},
 /obj/structure/fence/corner/wooden{
 	dir = 1;
-	layer = 3.7;
+	layer = 6.1;
 	pixel_x = -13
 	},
 /turf/open/indestructible/ground/outside/dirt{
@@ -32009,16 +31998,13 @@
 	},
 /obj/structure/barricade/tentclothedge{
 	dir = 1;
-	layer = 3.6;
+	layer = 6;
 	pixel_y = -3
-	},
-/obj/structure/barricade/tentclothcorner{
-	dir = 1
 	},
 /obj/structure/fence/wooden{
 	climbable = 0;
 	dir = 4;
-	layer = 3.7;
+	layer = 6.1;
 	pixel_x = -13
 	},
 /turf/open/indestructible/ground/outside/dirt,
@@ -32389,27 +32375,11 @@
 /obj/structure/wreck/bus/rusted/segmented5{
 	layer = 3.2
 	},
-/obj/structure/barricade/tentclothedge{
-	dir = 1;
-	layer = 3.6;
-	pixel_y = -3
-	},
-/obj/structure/fence/corner/wooden{
-	dir = 4;
-	layer = 3.7;
-	pixel_x = 13
-	},
-/obj/structure/fence/wooden{
-	climbable = 0;
-	dir = 4;
-	layer = 3.7;
-	pixel_x = -17
-	},
 /turf/open/indestructible/ground/outside/dirt{
 	dir = 10;
 	icon_state = "dirt"
 	},
-/area/f13/raiders)
+/area/f13/wasteland)
 "nDg" = (
 /obj/effect/decal/marking{
 	icon_state = "doubleverticaltop"
@@ -33051,18 +33021,18 @@
 	},
 /obj/structure/barricade/tentclothedge{
 	dir = 1;
-	layer = 3.5;
+	layer = 6;
 	pixel_y = -3
 	},
 /obj/structure/fence/corner/wooden{
 	dir = 4;
-	layer = 3.7;
+	layer = 6.1;
 	pixel_x = 13
 	},
 /obj/structure/fence/wooden{
 	climbable = 0;
 	dir = 4;
-	layer = 3.7;
+	layer = 6.1;
 	pixel_x = -17
 	},
 /turf/open/indestructible/ground/outside/dirt,
@@ -35139,13 +35109,6 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vault1,
 /area/f13/building)
-"oOh" = (
-/obj/structure/flora/tree/cactus,
-/turf/open/indestructible/ground/outside/dirt{
-	dir = 6;
-	icon_state = "dirt"
-	},
-/area/f13/wasteland)
 "oOi" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/rack,
@@ -37313,6 +37276,9 @@
 	layer = 3.6;
 	pixel_x = 13;
 	pixel_y = 1
+	},
+/obj/structure/chair/booth{
+	dir = 8
 	},
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/raiders)
@@ -39535,18 +39501,8 @@
 /obj/structure/wreck/bus/rusted/segmented4{
 	layer = 3.2
 	},
-/obj/structure/barricade/tentclothedge{
-	dir = 1;
-	layer = 3.6;
-	pixel_y = -3
-	},
-/obj/structure/fence/corner/wooden{
-	dir = 1;
-	layer = 3.7;
-	pixel_x = -13
-	},
 /turf/open/indestructible/ground/outside/dirt,
-/area/f13/raiders)
+/area/f13/wasteland)
 "qON" = (
 /obj/structure/table/wood,
 /obj/structure/barricade/bars,
@@ -39847,24 +39803,25 @@
 /obj/structure/wreck/bus/rusted/segmented3{
 	layer = 3.2
 	},
-/obj/structure/fence/wooden{
-	climbable = 0;
-	dir = 4;
-	layer = 3.8
+/obj/machinery/mineral/wasteland_vendor/khanchem{
+	layer = 3.7;
+	pixel_x = 4;
+	pixel_y = 11
 	},
-/obj/structure/barricade/tentclothedge{
-	dir = 1;
-	layer = 3.6;
-	pixel_y = -3
+/obj/structure/decoration/rag{
+	icon_state = "skin";
+	layer = 3.9;
+	pixel_x = 2;
+	pixel_y = 13
 	},
-/obj/structure/fence/wooden{
-	climbable = 0;
-	dir = 4;
-	layer = 3.8;
-	pixel_x = 1
+/obj/structure/decoration/rag{
+	icon_state = "skulls";
+	layer = 3.9;
+	pixel_x = 3;
+	pixel_y = 12
 	},
 /turf/open/indestructible/ground/outside/dirt,
-/area/f13/raiders)
+/area/f13/wasteland)
 "qTY" = (
 /obj/structure/flora/tree/cactus,
 /turf/open/indestructible/ground/outside/desert,
@@ -42656,16 +42613,8 @@
 /obj/machinery/grill{
 	pixel_y = 4
 	},
-/obj/structure/fence/wooden{
-	climbable = 0;
-	density = 0;
-	dir = 1;
-	layer = 3.6;
-	pixel_x = 13;
-	pixel_y = 1
-	},
 /turf/open/indestructible/ground/outside/dirt,
-/area/f13/raiders)
+/area/f13/wasteland)
 "soh" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
@@ -64634,7 +64583,7 @@ gcK
 iSi
 fyf
 yem
-tBN
+fie
 mvv
 bpD
 iVQ
@@ -64891,7 +64840,7 @@ ktB
 ktB
 fyf
 qOV
-oOh
+daU
 mvv
 bpD
 fyf
@@ -65919,7 +65868,7 @@ fyf
 wAj
 gRf
 qTP
-fie
+mvv
 mvv
 doX
 uKq
