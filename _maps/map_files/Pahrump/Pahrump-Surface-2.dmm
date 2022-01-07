@@ -1434,7 +1434,9 @@
 /area/f13/building)
 "aDS" = (
 /obj/structure/tires/two,
-/obj/structure/wreck/bus/rusted/segmented11,
+/obj/structure/wreck/bus/rusted/segmented11{
+	layer = 3.2
+	},
 /turf/open/indestructible/ground/outside/dirt{
 	icon_state = "dirt"
 	},
@@ -16108,7 +16110,9 @@
 /area/f13/wasteland)
 "gRf" = (
 /obj/structure/tires/two,
-/obj/structure/wreck/bus/rusted/segmented10,
+/obj/structure/wreck/bus/rusted/segmented10{
+	layer = 3.2
+	},
 /turf/open/indestructible/ground/outside/dirt{
 	icon_state = "dirt"
 	},
@@ -17320,7 +17324,9 @@
 	},
 /area/f13/tunnel)
 "hot" = (
-/obj/structure/wreck/bus/rusted/segmented20,
+/obj/structure/wreck/bus/rusted/segmented20{
+	layer = 3.2
+	},
 /turf/open/indestructible/ground/outside/dirt{
 	dir = 1;
 	icon_state = "dirtcorner"
@@ -25401,6 +25407,9 @@
 /area/f13/building)
 "kCH" = (
 /obj/structure/tires/two,
+/obj/structure/wreck/bus/rusted/segmented9{
+	layer = 3.2
+	},
 /turf/open/indestructible/ground/outside/dirt{
 	icon_state = "dirt"
 	},
@@ -27162,6 +27171,9 @@
 /area/f13/village)
 "lpL" = (
 /obj/structure/tires/two,
+/obj/structure/wreck/bus/rusted/segmented12{
+	layer = 3.2
+	},
 /turf/open/indestructible/ground/outside/dirt{
 	dir = 8;
 	icon_state = "dirtcorner"
@@ -27882,7 +27894,9 @@
 /turf/open/floor/wood/wood_large,
 /area/f13/building)
 "lID" = (
-/obj/structure/wreck/bus/rusted/segmented18,
+/obj/structure/wreck/bus/rusted/segmented18{
+	layer = 3.2
+	},
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
 "lIP" = (
@@ -29401,6 +29415,9 @@
 /obj/structure/wreck/bus/rusted{
 	layer = 3.5
 	},
+/obj/structure/wreck/bus/rusted/segmented{
+	layer = 3.2
+	},
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
 "mnG" = (
@@ -30674,6 +30691,9 @@
 /area/f13/wasteland)
 "mSC" = (
 /obj/structure/tires/two,
+/obj/structure/wreck/bus/rusted/segmented8{
+	layer = 3.2
+	},
 /turf/open/indestructible/ground/outside/dirt{
 	icon_state = "dirtcorner"
 	},
@@ -31946,6 +31966,9 @@
 "ntv" = (
 /obj/structure/tires/two,
 /obj/structure/tires/five,
+/obj/structure/wreck/bus/rusted/segmented1{
+	layer = 3.2
+	},
 /turf/open/indestructible/ground/outside/dirt{
 	dir = 4;
 	icon_state = "dirt"
@@ -32314,7 +32337,9 @@
 /area/f13/legion)
 "nDe" = (
 /obj/structure/tires/two,
-/obj/structure/wreck/bus/rusted/segmented5,
+/obj/structure/wreck/bus/rusted/segmented5{
+	layer = 3.2
+	},
 /turf/open/indestructible/ground/outside/dirt{
 	dir = 8;
 	icon_state = "dirt"
@@ -32956,6 +32981,9 @@
 /area/f13/city)
 "nRx" = (
 /obj/structure/tires/two,
+/obj/structure/wreck/bus/rusted/segmented2{
+	layer = 3.2
+	},
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/wasteland)
 "nRz" = (
@@ -37510,6 +37538,12 @@
 	},
 /turf/open/floor/f13/wood,
 /area/f13/building)
+"pXw" = (
+/obj/structure/wreck/bus/rusted/segmented15{
+	layer = 3.2
+	},
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/wasteland)
 "pXx" = (
 /obj/structure/table,
 /obj/machinery/recharger,
@@ -39257,6 +39291,12 @@
 	icon_state = "verticalleftborderright2"
 	},
 /area/f13/wasteland)
+"qMd" = (
+/obj/structure/wreck/bus/rusted/segmented14{
+	layer = 3.2
+	},
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/wasteland)
 "qMi" = (
 /turf/open/floor/f13/wood{
 	icon_state = "housewood4-broken"
@@ -39423,6 +39463,12 @@
 	icon_state = "floorrusty"
 	},
 /area/f13/building)
+"qOz" = (
+/obj/structure/wreck/bus/rusted/segmented4{
+	layer = 3.2
+	},
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/wasteland)
 "qON" = (
 /obj/structure/table/wood,
 /obj/structure/barricade/bars,
@@ -40273,7 +40319,9 @@
 	},
 /area/f13/wasteland)
 "rgx" = (
-/obj/structure/wreck/bus/rusted/segmented19,
+/obj/structure/wreck/bus/rusted/segmented19{
+	layer = 3.2
+	},
 /turf/open/indestructible/ground/outside/dirt{
 	dir = 4;
 	icon_state = "dirtcorner"
@@ -40572,6 +40620,13 @@
 	id = "emergency_home";
 	name = "BoxStation emergency evac bay";
 	width = 25
+	},
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/wasteland)
+"roL" = (
+/obj/structure/destructible/tribal_torch/lit,
+/obj/structure/wreck/bus/rusted/segmented6{
+	layer = 3.2
 	},
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
@@ -44016,6 +44071,12 @@
 	icon_state = "outerbordercorner"
 	},
 /area/f13/wasteland)
+"sVH" = (
+/obj/structure/wreck/bus/rusted/segmented13{
+	layer = 3.2
+	},
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/wasteland)
 "sVO" = (
 /obj/structure/fence/corner{
 	dir = 8
@@ -44448,6 +44509,12 @@
 /obj/effect/decal/cleanable/cobweb,
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/ncr)
+"tfI" = (
+/obj/structure/wreck/bus/rusted/segmented16{
+	layer = 3.2
+	},
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/wasteland)
 "tfL" = (
 /obj/effect/decal/marking{
 	icon_state = "doubleverticaltop"
@@ -52114,7 +52181,9 @@
 /turf/open/floor/plasteel/f13/vault_floor/white/whitesolid,
 /area/f13/building)
 "wAj" = (
-/obj/structure/wreck/bus/rusted/segmented17,
+/obj/structure/wreck/bus/rusted/segmented17{
+	layer = 3.2
+	},
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
 "wAx" = (
@@ -54602,6 +54671,13 @@
 "xDb" = (
 /obj/effect/decal/remains/human,
 /obj/item/clothing/head/helmet/police,
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/wasteland)
+"xDj" = (
+/obj/structure/tires/two,
+/obj/structure/wreck/bus/rusted/segmented7{
+	layer = 3.2
+	},
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
 "xDv" = (
@@ -64204,7 +64280,7 @@ gcK
 gcK
 gcK
 ktB
-gcK
+ktB
 gcK
 gcK
 ktB
@@ -64461,8 +64537,8 @@ gcK
 ktB
 gcK
 gcK
-gcK
-gcK
+fyf
+ktB
 gcK
 iSi
 fyf
@@ -64717,9 +64793,9 @@ gcK
 gcK
 gcK
 gcK
-fyf
+eKM
 vAe
-ktB
+fyf
 ktB
 ktB
 fyf
@@ -64978,8 +65054,8 @@ uey
 fyf
 fyf
 fyf
-fyf
-ptP
+qMd
+xDj
 mnC
 ciP
 mvv
@@ -65235,7 +65311,7 @@ fyf
 uey
 fyf
 fyf
-fyf
+pXw
 mSC
 ntv
 pJQ
@@ -65492,7 +65568,7 @@ mVv
 uey
 fyf
 fyf
-fyf
+tfI
 kCH
 nRx
 pPF
@@ -65748,7 +65824,7 @@ hTs
 hLm
 cWG
 wDc
-eKM
+fyf
 wAj
 gRf
 qTP
@@ -66008,7 +66084,7 @@ bpD
 fyf
 lID
 aDS
-mvv
+qOz
 hxO
 mvv
 mvv
@@ -66521,8 +66597,8 @@ fyf
 fyf
 nlO
 hot
-fyf
-vAe
+sVH
+roL
 tBN
 mvv
 aBH
