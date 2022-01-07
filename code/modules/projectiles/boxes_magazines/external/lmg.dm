@@ -48,6 +48,7 @@
 /obj/item/ammo_box/magazine/lmg/empty
 	start_empty = 1
 
+<<<<<<< HEAD
 /obj/item/ammo_box/magazine/cz53
 	name = "ammo box (5mm)"
 	icon_state = "cz53"
@@ -59,6 +60,8 @@
 /obj/item/ammo_box/magazine/cz53/empty
 	start_empty = 1
 
+=======
+>>>>>>> parent of 8ce7979856 (Non Backpack Minigun (M1919 Template))
 /obj/item/ammo_box/magazine/mg34
 	name = "ammo box (7.62)"
 	icon_state = "r80"
