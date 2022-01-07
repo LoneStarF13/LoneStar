@@ -103,7 +103,7 @@
 	extra_penetration = -0.21
 	extra_damage = -9
 	fire_sound = 'sound/f13weapons/assaultrifle_fire.ogg'
-	mag_type = /obj/item/ammo_box/magazine/internal/minigunbal5mm
+	mag_type = /obj/item/ammo_box/magazine/cz53
 	casing_ejector = TRUE
 	item_flags = SLOWS_WHILE_IN_HAND
 	var/obj/item/minigunpackbal5mm/ammo_pack
