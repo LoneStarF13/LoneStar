@@ -1,95 +1,3 @@
-/obj/item/minigunpackbal
-	name = "Minigun ammo belt"
-	desc = "The massive ammo belt for the minigun."
-	icon = 'icons/obj/guns/minigun.dmi'
-	icon_state = "balholstered"
-	item_state = "backpack"
-	lefthand_file = 'icons/mob/inhands/equipment/backpack_lefthand.dmi'
-	righthand_file = 'icons/mob/inhands/equipment/backpack_righthand.dmi'
-	slot_flags = ITEM_SLOT_BACK
-	w_class = WEIGHT_CLASS_HUGE
-	var/obj/item/gun/ballistic/minigunbal/gun
-	var/armed = 0 //whether the gun is attached, 0 is attached, 1 is the gun is wielded.
-	var/overheat = 0
-	var/overheat_max = 30
-	var/heat_diffusion = 3.5 //How much heat is lost per tick
-
-/obj/item/minigunpackbal/Initialize()
-	. = ..()
-	gun = new(src)
-	START_PROCESSING(SSobj, src)
-
-/obj/item/minigunpackbal/Destroy()
-	STOP_PROCESSING(SSobj, src)
-	return ..()
-
-/obj/item/minigunpackbal/process()
-	overheat = max(0, overheat - heat_diffusion)
-
-//ATTACK HAND IGNORING PARENT RETURN VALUE
-/obj/item/minigunpackbal/attack_hand(mob/living/carbon/user)
-	if(src.loc == user)
-		if(!armed)
-			if(user.get_item_by_slot(SLOT_BACK) == src)
-				armed = 1
-				if(!user.put_in_hands(gun))
-					armed = 0
-					to_chat(user, "<span class='warning'>You need a free hand to hold the gun!</span>")
-					return
-				update_icon()
-				user.update_inv_back()
-		else
-			to_chat(user, "<span class='warning'>You are already holding the gun!</span>")
-	else
-		..()
-
-/obj/item/minigunpackbal/attackby(obj/item/W, mob/user, params)
-	if(W == gun) //Don't need armed check, because if you have the gun assume its armed.
-		user.dropItemToGround(gun, TRUE)
-	else
-		..()
-
-/obj/item/minigunpackbal/dropped(mob/user)
-	. = ..()
-	if(armed)
-		user.dropItemToGround(gun, TRUE)
-
-/obj/item/minigunpackbal/MouseDrop(atom/over_object)
-	. = ..()
-	if(armed)
-		return
-	if(iscarbon(usr))
-		var/mob/M = usr
-
-		if(!over_object)
-			return
-
-		if(!M.incapacitated())
-
-			if(istype(over_object, /obj/screen/inventory/hand))
-				var/obj/screen/inventory/hand/H = over_object
-				M.putItemFromInventoryInHandIfPossible(src, H.held_index)
-
-
-/obj/item/minigunpackbal/update_icon()
-	if(armed)
-		icon_state = "balnotholstered"
-	else
-		icon_state = "balholstered"
-
-/obj/item/minigunpackbal/proc/attach_gun(mob/user)
-	if(!gun)
-		gun = new(src)
-	gun.forceMove(src)
-	armed = 0
-	if(user)
-		to_chat(user, "<span class='notice'>You attach the [gun.name] to the [name].</span>")
-	else
-		src.visible_message("<span class='warning'>The [gun.name] snaps back onto the [name]!</span>")
-	update_icon()
-	user.update_inv_back()
-
-
 /obj/item/gun/ballistic/minigunbal
 	name = "minigun"
 	desc = "A minigun."
@@ -149,8 +57,8 @@
 	ammo_pack.attach_gun(user)
 
 /obj/item/minigunpackbal5mm
-	name = "Minigun ammo belt"
-	desc = "The massive ammo belt for the minigun."
+	name = "CZ53 personal minigun ammo belt"
+	desc = "The massive ammo belt for the CZ53 personal minigun."
 	icon = 'icons/obj/guns/minigun.dmi'
 	icon_state = "balholstered"
 	item_state = "backpack"
@@ -160,9 +68,6 @@
 	w_class = WEIGHT_CLASS_HUGE
 	var/obj/item/gun/ballistic/minigunbal5mm/gun
 	var/armed = 0 //whether the gun is attached, 0 is attached, 1 is the gun is wielded.
-	var/overheat = 0
-	var/overheat_max = 30
-	var/heat_diffusion = 3.5 //How much heat is lost per tick
 
 /obj/item/minigunpackbal5mm/Initialize()
 	. = ..()
@@ -172,9 +77,6 @@
 /obj/item/minigunpackbal5mm/Destroy()
 	STOP_PROCESSING(SSobj, src)
 	return ..()
-
-/obj/item/minigunpackbal5mm/process()
-	overheat = max(0, overheat - heat_diffusion)
 
 //ATTACK HAND IGNORING PARENT RETURN VALUE
 /obj/item/minigunpackbal5mm/attack_hand(mob/living/carbon/user)
@@ -241,8 +143,8 @@
 
 
 /obj/item/gun/ballistic/minigunbal5mm
-	name = "minigun"
-	desc = "A minigun."
+	name = "CZ53 personal minigun"
+	desc = "Boasting an extreme rate of fire, the Rockwell CZ53 personal minigun is the perfect weapon for suppressing fire."
 	icon = 'icons/obj/guns/minigun.dmi'
 	icon_state = "minigunbal_spin"
 	item_state = "minigun"
@@ -252,7 +154,8 @@
 	w_class = WEIGHT_CLASS_HUGE
 	burst_size = 5
 	burst_shot_delay = 1
-	fire_delay = 5
+	fire_delay = 1
+	ranged_attack_speed = CLICK_CD_RAPID
 	spread = 10
 	weapon_weight = WEAPON_HEAVY
 	extra_penetration = -0.21
