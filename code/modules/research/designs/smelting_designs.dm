@@ -71,7 +71,7 @@
 	departmental_flags = DEPARTMENTAL_FLAG_CARGO | DEPARTMENTAL_FLAG_SCIENCE | DEPARTMENTAL_FLAG_ENGINEERING
 
 /datum/design/prewaralloy
-	name = "Pre-war alloy (Lead + Iron + Plasma)"
+	name = "Pre-war alloy (Lead + Titanium + Plasma)"
 	id = "prewaralloy"
 	build_type = SMELTER | PROTOLATHE
 	materials = list(/datum/material/plasma = MINERAL_MATERIAL_AMOUNT * 0.5, /datum/material/titanium = MINERAL_MATERIAL_AMOUNT * 0.5, /datum/material/lead = MINERAL_MATERIAL_AMOUNT * 0.5)
