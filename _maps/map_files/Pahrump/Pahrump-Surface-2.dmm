@@ -1275,11 +1275,14 @@
 	icon_state = "housewood2"
 	},
 /area/f13/village)
+<<<<<<< HEAD
 "aAI" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/ash,
 /turf/open/floor/f13/wood,
 /area/f13/raiders)
+=======
+>>>>>>> test
 "aAK" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 9
@@ -1491,8 +1494,11 @@
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/wasteland)
 "aFG" = (
-/obj/structure/lattice/catwalk,
-/turf/open/floor/plasteel/elevatorshaft,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/reagent_dispensers/barrel/dangerous,
+/turf/open/floor/f13{
+	icon_state = "bluerustysolid"
+	},
 /area/f13/building)
 "aFK" = (
 /obj/structure/ladder/unbreakable{
@@ -1768,6 +1774,7 @@
 /obj/item/bedsheet/captain,
 /turf/open/floor/carpet/royalblack,
 /area/f13/ncr)
+<<<<<<< HEAD
 "aMl" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/bed/dogbed,
@@ -1781,6 +1788,8 @@
 	},
 /turf/open/floor/f13/wood,
 /area/f13/raiders)
+=======
+>>>>>>> test
 "aMn" = (
 /obj/effect/decal/cleanable/oil{
 	icon_state = "floor5"
@@ -9744,14 +9753,9 @@
 	},
 /area/f13/city)
 "enn" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/fluff/paper/stack,
-/obj/machinery/light/small{
-	dir = 8;
-	light_color = "#d8b1b1"
-	},
-/turf/open/floor/plasteel/elevatorshaft,
-/area/f13/building)
+/obj/item/storage/trash_stack,
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/wasteland)
 "enp" = (
 /obj/structure/window/reinforced/tinted{
 	dir = 4
@@ -13790,10 +13794,13 @@
 	},
 /turf/open/indestructible/ground/outside/sidewalk,
 /area/f13/wasteland)
+<<<<<<< HEAD
 "fTx" = (
 /obj/effect/decal/cleanable/vomit,
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
+=======
+>>>>>>> test
 "fTy" = (
 /obj/machinery/computer/slot_machine,
 /obj/effect/decal/cleanable/dirt,
@@ -16598,6 +16605,12 @@
 /obj/item/ammo_box/m44,
 /obj/item/ammo_box/m44,
 /obj/item/ammo_box/m44,
+/obj/item/ammo_box/shotgun/buck,
+/obj/item/ammo_box/shotgun/buck,
+/obj/item/ammo_box/shotgun/buck,
+/obj/item/ammo_box/shotgun/rubber,
+/obj/item/ammo_box/shotgun/rubber,
+/obj/item/ammo_box/shotgun/rubber,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/building)
 "hcr" = (
@@ -18484,6 +18497,7 @@
 /obj/effect/decal/cleanable/glass,
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
+<<<<<<< HEAD
 "hLm" = (
 /obj/structure/decoration/rag{
 	icon_state = "skin"
@@ -18499,6 +18513,8 @@
 	icon_state = "dirt"
 	},
 /area/f13/raiders)
+=======
+>>>>>>> test
 "hLs" = (
 /obj/structure/curtain{
 	color = "#845f58";
@@ -19120,12 +19136,6 @@
 /obj/effect/decal/cleanable/ash,
 /turf/open/floor/plasteel/f13/vault_floor/dark,
 /area/f13/brotherhood/surface)
-"hYl" = (
-/obj/structure/lattice/catwalk,
-/obj/machinery/light/fo13colored/Pink,
-/obj/item/coin/twoheaded,
-/turf/open/floor/plasteel/elevatorshaft,
-/area/f13/building)
 "hYp" = (
 /obj/effect/turf_decal/stripes/white/box,
 /obj/item/gun/ballistic/automatic/service,
@@ -26079,10 +26089,7 @@
 /area/f13/building)
 "kTh" = (
 /obj/structure/table/wood,
-/obj/item/storage/fancy/cigarettes/cigpack_robust{
-	desc = "Smoked by the real cowboys.";
-	name = "\improper Marlboro packet"
-	},
+/obj/machinery/cell_charger,
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "kTm" = (
@@ -26109,6 +26116,12 @@
 	pixel_x = -12;
 	pixel_y = 3;
 	termtag = "Security"
+	},
+/obj/item/storage/fancy/cigarettes/cigpack_robust{
+	desc = "Smoked by the real cowboys.";
+	name = "\improper Marlboro packet";
+	pixel_x = 5;
+	pixel_y = 4
 	},
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
@@ -26463,17 +26476,6 @@
 	},
 /turf/open/floor/wood/f13/oak,
 /area/f13/bar)
-"kZV" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/fluff/broken_flooring,
-/obj/structure/ladder/unbreakable{
-	desc = "A sturdy ladder that leads down deep into the earth... don't fall.";
-	height = 2;
-	id = "digsite";
-	name = "ladder to the depths"
-	},
-/turf/open/floor/plasteel/elevatorshaft,
-/area/f13/building)
 "lae" = (
 /turf/open/indestructible/ground/outside/sidewalk{
 	dir = 1;
@@ -37716,6 +37718,7 @@
 /obj/effect/decal/waste{
 	icon_state = "goo5"
 	},
+/obj/structure/reagent_dispensers/barrel/dangerous,
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/f13/building)
 "qal" = (
@@ -44515,11 +44518,6 @@
 /obj/effect/turf_decal/stripes/white/box,
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/ncr)
-"tea" = (
-/obj/structure/barricade/wooden/strong,
-/obj/structure/barricade/wooden/planks/pregame,
-/turf/open/floor/plasteel/f13/vault_floor/plating,
-/area/f13/building)
 "tec" = (
 /obj/structure/chair/wood{
 	dir = 8
@@ -44541,7 +44539,7 @@
 	},
 /area/f13/building)
 "tfz" = (
-/obj/effect/decal/cleanable/cobweb,
+/obj/machinery/radioterminal/ncr,
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/ncr)
 "tfI" = (
@@ -88348,7 +88346,7 @@ fyf
 fyf
 fyf
 fyf
-fyf
+pis
 fyf
 fyf
 tBN
@@ -88604,12 +88602,12 @@ sGp
 sGp
 sGp
 sGp
-sGp
-sGp
-sGp
-sGp
-sGp
-sGp
+fyf
+fyf
+fyf
+qOV
+daU
+pSC
 jPh
 mvv
 aBH
@@ -88861,12 +88859,12 @@ grk
 gts
 gts
 sGp
-tOL
-tOL
-tOL
-tOL
+fyf
+fyf
+fyf
+tBN
+mvv
 enn
-sGp
 mvv
 aBH
 lmn
@@ -89118,12 +89116,12 @@ ybq
 gts
 gts
 sGp
-tOL
-tOL
-tOL
-tOL
-hYl
-sGp
+fyf
+fyf
+pis
+tBN
+mvv
+mvv
 mvv
 bpD
 fyf
@@ -89375,12 +89373,12 @@ xxO
 vMR
 qMp
 sGp
-tOL
-tOL
-tOL
-tOL
-aFG
-sGp
+fyf
+fyf
+fyf
+tBN
+mvv
+mvv
 mvv
 bpD
 fyf
@@ -89632,12 +89630,12 @@ iZK
 cYK
 ttP
 sGp
-aFG
-aFG
-aFG
-aFG
-kZV
-sGp
+fyf
+fyf
+fyf
+tBN
+mvv
+mvv
 aBH
 hCg
 fyf
@@ -89889,7 +89887,7 @@ hfl
 vMR
 lax
 sGp
-tea
+sGp
 sGp
 sGp
 sGp
@@ -90149,7 +90147,7 @@ sGp
 qai
 mrQ
 wFW
-kRe
+aFG
 kRe
 sGp
 bpD
