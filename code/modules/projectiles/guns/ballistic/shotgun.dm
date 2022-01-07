@@ -191,6 +191,7 @@
 	desc = "A pre-war shotgun with large magazine and folding stock, made from steel and polymers. Flashlight attachment rail."
 	icon_state = "shotgunpolice"
 	item_state = "shotgunpolice"
+	icon_prefix = "shotgunpolice"
 	mag_type = /obj/item/ammo_box/magazine/internal/shot/police
 	sawn_desc = "Portable but with a poor recoil managment."
 	w_class = WEIGHT_CLASS_NORMAL
