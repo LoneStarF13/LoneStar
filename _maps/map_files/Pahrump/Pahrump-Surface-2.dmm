@@ -5040,10 +5040,16 @@
 /obj/structure/chair/booth{
 	dir = 4
 	},
-/turf/open/indestructible/ground/outside/dirt{
-	icon_state = "dirt"
+/obj/structure/fence/wooden{
+	climbable = 0;
+	density = 0;
+	dir = 1;
+	layer = 3.6;
+	pixel_x = -13;
+	pixel_y = 1
 	},
-/area/f13/wasteland)
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/raiders)
 "cjb" = (
 /obj/structure/fence/handrail{
 	density = 0;
@@ -28429,6 +28435,20 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/brotherhood/surface)
+"lTm" = (
+/obj/structure/chair/bench{
+	pixel_x = 1
+	},
+/obj/structure/fence/wooden{
+	climbable = 0;
+	density = 0;
+	dir = 1;
+	layer = 3.6;
+	pixel_x = -13;
+	pixel_y = 1
+	},
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/raiders)
 "lTs" = (
 /obj/item/stack/ore/iron,
 /turf/open/indestructible/ground/outside/desert{
@@ -29414,8 +29434,21 @@
 /obj/structure/wreck/bus/rusted{
 	layer = 3.5
 	},
-/turf/open/indestructible/ground/outside/desert,
-/area/f13/wasteland)
+/obj/structure/barricade/tentclothedge{
+	dir = 1;
+	layer = 3.6;
+	pixel_y = -3
+	},
+/obj/structure/fence/corner/wooden{
+	dir = 1;
+	layer = 3.6;
+	pixel_x = -13
+	},
+/turf/open/indestructible/ground/outside/dirt{
+	dir = 6;
+	icon_state = "dirt"
+	},
+/area/f13/raiders)
 "mnG" = (
 /obj/structure/junk/small/bed2,
 /obj/structure/bed/mattress{
@@ -30691,7 +30724,7 @@
 	layer = 3.2
 	},
 /turf/open/indestructible/ground/outside/dirt{
-	icon_state = "dirtcorner"
+	icon_state = "dirt"
 	},
 /area/f13/wasteland)
 "mSD" = (
@@ -31965,11 +31998,22 @@
 /obj/structure/wreck/bus/rusted/segmented1{
 	layer = 3.2
 	},
-/turf/open/indestructible/ground/outside/dirt{
-	dir = 4;
-	icon_state = "dirt"
+/obj/structure/barricade/tentclothedge{
+	dir = 1;
+	layer = 3.6;
+	pixel_y = -3
 	},
-/area/f13/wasteland)
+/obj/structure/barricade/tentclothcorner{
+	dir = 1
+	},
+/obj/structure/fence/wooden{
+	climbable = 0;
+	dir = 4;
+	layer = 3.6;
+	pixel_x = -13
+	},
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/raiders)
 "ntz" = (
 /obj/structure/simple_door/interior,
 /obj/structure/barricade/wooden/planks/pregame,
@@ -32336,11 +32380,27 @@
 /obj/structure/wreck/bus/rusted/segmented5{
 	layer = 3.2
 	},
+/obj/structure/barricade/tentclothedge{
+	dir = 1;
+	layer = 3.6;
+	pixel_y = -3
+	},
+/obj/structure/fence/corner/wooden{
+	dir = 4;
+	layer = 3.6;
+	pixel_x = 13
+	},
+/obj/structure/fence/wooden{
+	climbable = 0;
+	dir = 4;
+	layer = 3.6;
+	pixel_x = -17
+	},
 /turf/open/indestructible/ground/outside/dirt{
-	dir = 8;
+	dir = 10;
 	icon_state = "dirt"
 	},
-/area/f13/wasteland)
+/area/f13/raiders)
 "nDg" = (
 /obj/effect/decal/marking{
 	icon_state = "doubleverticaltop"
@@ -32980,8 +33040,24 @@
 /obj/structure/wreck/bus/rusted/segmented2{
 	layer = 3.2
 	},
+/obj/structure/barricade/tentclothedge{
+	dir = 1;
+	layer = 3.5;
+	pixel_y = -3
+	},
+/obj/structure/fence/corner/wooden{
+	dir = 4;
+	layer = 3.6;
+	pixel_x = 13
+	},
+/obj/structure/fence/wooden{
+	climbable = 0;
+	dir = 4;
+	layer = 3.6;
+	pixel_x = -17
+	},
 /turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
+/area/f13/raiders)
 "nRz" = (
 /obj/structure/fence/wooden{
 	dir = 4;
@@ -35056,8 +35132,8 @@
 /area/f13/building)
 "oOh" = (
 /obj/structure/flora/tree/cactus,
-/obj/structure/destructible/tribal_torch/lit,
 /turf/open/indestructible/ground/outside/dirt{
+	dir = 6;
 	icon_state = "dirt"
 	},
 /area/f13/wasteland)
@@ -36930,11 +37006,8 @@
 	pixel_x = 4;
 	pixel_y = 5
 	},
-/turf/open/indestructible/ground/outside/dirt{
-	dir = 6;
-	icon_state = "dirt"
-	},
-/area/f13/wasteland)
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/raiders)
 "pJT" = (
 /obj/structure/bonfire,
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -37224,8 +37297,16 @@
 /obj/structure/chair/booth{
 	dir = 8
 	},
+/obj/structure/fence/wooden{
+	climbable = 0;
+	density = 0;
+	dir = 1;
+	layer = 3.6;
+	pixel_x = 13;
+	pixel_y = 1
+	},
 /turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
+/area/f13/raiders)
 "pPG" = (
 /obj/structure/window/fulltile/house{
 	dir = 2;
@@ -39445,8 +39526,24 @@
 /obj/structure/wreck/bus/rusted/segmented4{
 	layer = 3.2
 	},
+/obj/structure/barricade/tentclothedge{
+	dir = 1;
+	layer = 3.6;
+	pixel_y = -3
+	},
+/obj/structure/fence/corner/wooden{
+	dir = 1;
+	layer = 3.6;
+	pixel_x = -13
+	},
+/obj/structure/fence/wooden{
+	climbable = 0;
+	dir = 4;
+	layer = 3.6;
+	pixel_x = 18
+	},
 /turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
+/area/f13/raiders)
 "qON" = (
 /obj/structure/table/wood,
 /obj/structure/barricade/bars,
@@ -40604,7 +40701,10 @@
 /obj/structure/wreck/bus/rusted/segmented6{
 	layer = 3.2
 	},
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/indestructible/ground/outside/dirt{
+	dir = 8;
+	icon_state = "dirtcorner"
+	},
 /area/f13/wasteland)
 "rpa" = (
 /obj/effect/decal/cleanable/dirt{
@@ -42552,13 +42652,18 @@
 /area/f13/building)
 "snS" = (
 /obj/machinery/grill{
-	pixel_y = -7
+	pixel_y = 4
 	},
-/turf/open/indestructible/ground/outside/dirt{
-	dir = 10;
-	icon_state = "dirt"
+/obj/structure/fence/wooden{
+	climbable = 0;
+	density = 0;
+	dir = 1;
+	layer = 3.6;
+	pixel_x = 13;
+	pixel_y = 1
 	},
-/area/f13/wasteland)
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/raiders)
 "soh" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
@@ -54652,7 +54757,9 @@
 /obj/structure/wreck/bus/rusted/segmented7{
 	layer = 3.2
 	},
-/turf/open/indestructible/ground/outside/desert,
+/turf/open/indestructible/ground/outside/dirt{
+	icon_state = "dirtcorner"
+	},
 /area/f13/wasteland)
 "xDv" = (
 /obj/machinery/light/small{
@@ -55836,6 +55943,14 @@
 /obj/effect/spawner/lootdrop/trash,
 /turf/open/indestructible/ground/outside/road{
 	icon_state = "horizontaltopborderbottom2left"
+	},
+/area/f13/wasteland)
+"yem" = (
+/obj/structure/cargocrate{
+	layer = 3.5
+	},
+/turf/open/indestructible/ground/outside/desert{
+	icon_state = "wasteland33"
 	},
 /area/f13/wasteland)
 "yes" = (
@@ -64516,7 +64631,7 @@ ktB
 gcK
 iSi
 fyf
-wET
+yem
 tBN
 mvv
 bpD
@@ -64773,7 +64888,7 @@ fyf
 ktB
 ktB
 fyf
-fyf
+qOV
 oOh
 mvv
 bpD
@@ -65033,7 +65148,7 @@ xDj
 mnC
 ciP
 mvv
-bpD
+mLN
 tka
 wOK
 sZJ
@@ -66059,7 +66174,7 @@ fyf
 lID
 aDS
 qOz
-hxO
+lTm
 mvv
 mvv
 mvv
@@ -66573,7 +66688,7 @@ nlO
 hot
 sVH
 roL
-tBN
+xGH
 mvv
 aBH
 mfD
