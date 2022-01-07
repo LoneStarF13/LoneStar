@@ -70,7 +70,7 @@
 	category = list("Stock Parts")
 	departmental_flags = DEPARTMENTAL_FLAG_CARGO | DEPARTMENTAL_FLAG_SCIENCE | DEPARTMENTAL_FLAG_ENGINEERING
 
-/datum/design/plastitaniumglass_alloy
+/datum/design/prewaralloy
 	name = "Pre-war alloy (Lead + Iron + Plasma)"
 	id = "prewaralloy"
 	build_type = SMELTER | PROTOLATHE
