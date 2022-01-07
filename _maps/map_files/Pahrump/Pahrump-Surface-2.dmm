@@ -29432,15 +29432,16 @@
 /obj/structure/wreck/bus/rusted{
 	layer = 3.5
 	},
-/obj/structure/barricade/tentclothedge{
-	dir = 1;
-	layer = 6;
-	pixel_y = -3
-	},
 /obj/structure/fence/corner/wooden{
 	dir = 1;
 	layer = 6.1;
 	pixel_x = -13
+	},
+/obj/structure/barricade/wooden/strong{
+	icon = 'icons/fallout/turfs/walls/tents.dmi';
+	icon_state = "cloth_edge";
+	layer = 6;
+	pixel_y = -3
 	},
 /turf/open/indestructible/ground/outside/dirt{
 	dir = 6;
@@ -31996,16 +31997,17 @@
 /obj/structure/wreck/bus/rusted/segmented1{
 	layer = 3.2
 	},
-/obj/structure/barricade/tentclothedge{
-	dir = 1;
-	layer = 6;
-	pixel_y = -3
-	},
 /obj/structure/fence/wooden{
 	climbable = 0;
 	dir = 4;
 	layer = 6.1;
 	pixel_x = -13
+	},
+/obj/structure/barricade/wooden/strong{
+	icon = 'icons/fallout/turfs/walls/tents.dmi';
+	icon_state = "cloth_edge";
+	layer = 6;
+	pixel_y = -3
 	},
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/raiders)
@@ -33019,11 +33021,6 @@
 /obj/structure/wreck/bus/rusted/segmented2{
 	layer = 3.2
 	},
-/obj/structure/barricade/tentclothedge{
-	dir = 1;
-	layer = 6;
-	pixel_y = -3
-	},
 /obj/structure/fence/corner/wooden{
 	dir = 4;
 	layer = 6.1;
@@ -33034,6 +33031,12 @@
 	dir = 4;
 	layer = 6.1;
 	pixel_x = -17
+	},
+/obj/structure/barricade/wooden/strong{
+	icon = 'icons/fallout/turfs/walls/tents.dmi';
+	icon_state = "cloth_edge";
+	layer = 6;
+	pixel_y = -3
 	},
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/raiders)
