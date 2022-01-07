@@ -660,7 +660,6 @@ Weapons		Service Rifle, Rockwell, 9mm pistol, all good.
 	head = /obj/item/clothing/head/helmet/f13/power_armor/ncr_t45b
 	neck = /obj/item/storage/belt/holster/legholster
 	suit = /obj/item/clothing/suit/armor/f13/power_armor/ncr
-	suit_store = /obj/item/gun/ballistic/automatic/r84
 	backpack_contents = list(
 		/obj/item/gun/ballistic/automatic/pistol/ninemil = 1,
 		/obj/item/storage/survivalkit_aid = 1,
