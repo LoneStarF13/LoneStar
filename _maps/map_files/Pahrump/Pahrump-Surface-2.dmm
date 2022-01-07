@@ -1432,6 +1432,13 @@
 	},
 /turf/open/floor/f13/wood,
 /area/f13/building)
+"aDS" = (
+/obj/structure/tires/two,
+/obj/structure/wreck/bus/rusted/segmented11,
+/turf/open/indestructible/ground/outside/dirt{
+	icon_state = "dirt"
+	},
+/area/f13/wasteland)
 "aDX" = (
 /obj/structure/table,
 /obj/structure/bedsheetbin/towel,
@@ -16099,6 +16106,13 @@
 	icon_state = "verticalleftborderleft0"
 	},
 /area/f13/wasteland)
+"gRf" = (
+/obj/structure/tires/two,
+/obj/structure/wreck/bus/rusted/segmented10,
+/turf/open/indestructible/ground/outside/dirt{
+	icon_state = "dirt"
+	},
+/area/f13/wasteland)
 "gRk" = (
 /obj/structure/barricade/sandbags,
 /turf/open/indestructible/ground/outside/road{
@@ -17305,6 +17319,13 @@
 	icon_state = "horizontalbottomborderbottom0"
 	},
 /area/f13/tunnel)
+"hot" = (
+/obj/structure/wreck/bus/rusted/segmented20,
+/turf/open/indestructible/ground/outside/dirt{
+	dir = 1;
+	icon_state = "dirtcorner"
+	},
+/area/f13/wasteland)
 "hoy" = (
 /obj/item/flag/legion,
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -27860,6 +27881,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/wood_large,
 /area/f13/building)
+"lID" = (
+/obj/structure/wreck/bus/rusted/segmented18,
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/wasteland)
 "lIP" = (
 /obj/structure/chair/sofa/corp/right{
 	dir = 1
@@ -28206,6 +28231,15 @@
 	},
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "verticalleftborderleft2bottom"
+	},
+/area/f13/wasteland)
+"lQo" = (
+/obj/structure/wreck/car/bike{
+	pixel_x = -6;
+	pixel_y = -6
+	},
+/turf/open/indestructible/ground/outside/desert{
+	icon_state = "wasteland33"
 	},
 /area/f13/wasteland)
 "lQp" = (
@@ -30640,7 +30674,6 @@
 /area/f13/wasteland)
 "mSC" = (
 /obj/structure/tires/two,
-/obj/structure/wreck/bus/rusted/segmented8,
 /turf/open/indestructible/ground/outside/dirt{
 	icon_state = "dirtcorner"
 	},
@@ -32281,6 +32314,7 @@
 /area/f13/legion)
 "nDe" = (
 /obj/structure/tires/two,
+/obj/structure/wreck/bus/rusted/segmented5,
 /turf/open/indestructible/ground/outside/dirt{
 	dir = 8;
 	icon_state = "dirt"
@@ -39703,6 +39737,9 @@
 	pixel_x = 5;
 	pixel_y = 10
 	},
+/obj/structure/wreck/bus/rusted/segmented3{
+	layer = 3.2
+	},
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/wasteland)
 "qTY" = (
@@ -40233,6 +40270,13 @@
 /obj/structure/campfire/barrel,
 /turf/open/indestructible/ground/outside/road{
 	icon_state = "horizontalinnermain1"
+	},
+/area/f13/wasteland)
+"rgx" = (
+/obj/structure/wreck/bus/rusted/segmented19,
+/turf/open/indestructible/ground/outside/dirt{
+	dir = 4;
+	icon_state = "dirtcorner"
 	},
 /area/f13/wasteland)
 "rgS" = (
@@ -52069,6 +52113,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/white/whitesolid,
 /area/f13/building)
+"wAj" = (
+/obj/structure/wreck/bus/rusted/segmented17,
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/wasteland)
 "wAx" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/poddoor/shutters{
@@ -65701,8 +65749,8 @@ hLm
 cWG
 wDc
 eKM
-fyf
-kCH
+wAj
+gRf
 qTP
 mvv
 mvv
@@ -65958,8 +66006,8 @@ mwt
 mvv
 bpD
 fyf
-fyf
-kCH
+lID
+aDS
 mvv
 hxO
 mvv
@@ -66215,7 +66263,7 @@ kZp
 mfD
 hCg
 qOV
-wDc
+rgx
 lpL
 nDe
 snS
@@ -66472,7 +66520,7 @@ lHr
 fyf
 fyf
 nlO
-hCg
+hot
 fyf
 vAe
 tBN
@@ -69308,7 +69356,7 @@ vDe
 xKi
 bKy
 fyf
-hAC
+lQo
 fyf
 fyf
 nlO
