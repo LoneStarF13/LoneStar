@@ -236,7 +236,7 @@
 	dynamic_hair_suffix = ""
 	dynamic_fhair_suffix = ""
 
-/obj/item/clothing/head/f13/legion/Initialize()
+/obj/item/clothing/head/helmet/f13/legion/Initialize()
 	. = ..()
 	AddComponent(/datum/component/armor_plate)
 
