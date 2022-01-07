@@ -230,7 +230,11 @@ Great Khan
 
 	loadout_options = list(
 		/datum/outfit/loadout/enforcer,
+<<<<<<< HEAD
 		/datum/outfit/loadout/khanskirmisher,
+=======
+		/datum/outfit/loadout/skirmisher,
+>>>>>>> master
 		)
 	matchmaking_allowed = list(
 		/datum/matchmaking_pref/friend = list(
@@ -296,12 +300,21 @@ Great Khan
 		/obj/item/ammo_box/shotgun/bean=1, \
 		/obj/item/restraints/legcuffs/bola/tactical=1)
 
+<<<<<<< HEAD
 /datum/outfit/loadout/khanskirmisher
 	name = "Skirmisher"
 	r_hand = /obj/item/gun/ballistic/automatic/smg/mini_uzi
 	gloves = /obj/item/melee/unarmed/brass/spiked
 	backpack_contents = list(/obj/item/ammo_box/magazine/uzim9mm=3)
 
+=======
+/datum/outfit/loadout/skirmisher
+	name = "Skirmisher"
+	r_hand = obj/item/gun/ballistic/automatic/smg/mini_uzi
+	gloves = /obj/item/melee/unarmed/brass/spiked
+	backpack_contents = list(
+		/obj/item/ammo_box/magazine/uzi9mm=3)
+>>>>>>> master
 
 /*
 Raider

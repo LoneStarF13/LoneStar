@@ -267,11 +267,19 @@
 						item_state = "followersflag"
 						faction = FACTION_FOLLOWERS
 					if("Great Khans")
+<<<<<<< HEAD
 						name = "Great Khans flag"
 						desc = "A flag worn and weathered from a long cherished history. A decorated smiling skull smiles mockingly upon those who challenge it."
 						icon_state = "khanflag"
 						item_state = "khanflag"
 						faction = "Great Khans"
+=======
+					    name = "Great Khans flag"
+	                    desc = "A flag worn and weathered from a long cherished history. A decorated smiling skull smiles mockingly upon those who challenge it."
+	                    icon_state = "khanflag"
+	                    item_state = "khanflag"
+	                    faction = "Great Khans"
+>>>>>>> master
 				update_icon()
 	else
 		attack_hand(user)
