@@ -266,10 +266,9 @@
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/caves)
 "ajO" = (
-/obj/structure/table,
-/obj/item/storage/box/bodybags,
+/obj/machinery/mineral/wasteland_vendor/followerterminal,
 /turf/open/floor/f13{
-	icon_state = "bluerustysolid"
+	icon_state = "floorrusty"
 	},
 /area/f13/followers)
 "ajQ" = (
@@ -1218,12 +1217,6 @@
 	smooth = 1
 	},
 /area/f13/brotherhood/operating)
-"aMc" = (
-/obj/machinery/mineral/wasteland_vendor/followerterminal,
-/turf/open/floor/f13{
-	icon_state = "floorrusty"
-	},
-/area/f13/followers)
 "aNc" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable{
@@ -1583,6 +1576,7 @@
 /turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
 /area/f13/brotherhood/reactor)
 "aZR" = (
+/obj/machinery/light/small,
 /turf/open/floor/f13{
 	icon_state = "darkrusty"
 	},
@@ -14076,12 +14070,11 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/bunker)
 "iAu" = (
-/obj/machinery/door/airlock/medical{
-	name = "Cremation";
-	req_one_access_txt = "124"
+/obj/machinery/button/crematorium{
+	pixel_y = 19
 	},
 /turf/open/floor/f13{
-	icon_state = "floorrusty"
+	icon_state = "bluerustysolid"
 	},
 /area/f13/followers)
 "iAx" = (
@@ -16693,9 +16686,7 @@
 /turf/open/floor/carpet/black,
 /area/f13/brotherhood/archives)
 "kzL" = (
-/obj/machinery/button/crematorium{
-	pixel_y = 19
-	},
+/obj/structure/bodycontainer/crematorium,
 /turf/open/floor/f13{
 	icon_state = "bluerustysolid"
 	},
@@ -23753,6 +23744,15 @@
 	icon_state = "housewood4-broken"
 	},
 /area/f13/den)
+"pIn" = (
+/obj/machinery/door/airlock/medical{
+	name = "Cremation";
+	req_one_access_txt = "124"
+	},
+/turf/open/floor/f13{
+	icon_state = "floorrusty"
+	},
+/area/f13/followers)
 "pIp" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt{
@@ -28805,7 +28805,8 @@
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
 "trA" = (
-/obj/structure/bodycontainer/crematorium,
+/obj/structure/table,
+/obj/item/storage/box/bodybags,
 /turf/open/floor/f13{
 	icon_state = "bluerustysolid"
 	},
@@ -30761,7 +30762,6 @@
 /turf/open/floor/wood,
 /area/f13/brotherhood/rnd)
 "uQl" = (
-/obj/machinery/light/small,
 /turf/open/floor/f13{
 	icon_state = "darkrusty"
 	},
@@ -34329,6 +34329,9 @@
 /obj/structure/nest/deathclaw,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/bunker)
+"xBA" = (
+/turf/closed/wall/f13/supermart,
+/area/f13/caves)
 "xBY" = (
 /obj/structure/spider/cocoon,
 /obj/effect/decal/cleanable/dirt,
@@ -73104,7 +73107,7 @@ ylz
 jqR
 liH
 rMC
-aMc
+ajO
 jYZ
 ylz
 mUk
@@ -79275,10 +79278,10 @@ jtz
 jYZ
 jYZ
 ylz
-ylz
-iAu
-ylz
-ylz
+qbU
+jYZ
+jYZ
+tqB
 ylz
 uoO
 uoO
@@ -79532,11 +79535,11 @@ ylz
 jYZ
 jYZ
 ylz
-ajO
-vjQ
-aZR
-shY
-uoO
+ylz
+pIn
+ylz
+ylz
+xBA
 uoO
 uoO
 uoO
@@ -79792,7 +79795,7 @@ ylz
 trA
 vjQ
 uQl
-ylz
+shY
 uoO
 uoO
 uoO
@@ -80303,9 +80306,9 @@ uoO
 uoO
 uoO
 ylz
-ylz
-ylz
-ylz
+iAu
+vjQ
+uQl
 ylz
 uoO
 uoO
@@ -80559,11 +80562,11 @@ uoO
 uoO
 uoO
 uoO
-uoO
-uoO
-uoO
-uoO
-uoO
+ylz
+ylz
+ylz
+ylz
+ylz
 uoO
 uoO
 aoj
