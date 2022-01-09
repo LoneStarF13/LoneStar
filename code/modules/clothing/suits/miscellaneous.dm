@@ -107,10 +107,11 @@
 	item_state = "vickyred"
 
 /obj/item/clothing/suit/overalls
-	name = "coveralls"
+	name = "overalls"
 	desc = "(I) A set of denim overalls."
 	icon_state = "overalls"
 	item_state = "overalls"
+	allowed = list(/obj/item/hatchet, /obj/item/scythe, /obj/item/cultivator, /obj/item/shovel)
 
 /obj/item/clothing/suit/syndicatefake
 	name = "black and red space suit replica"

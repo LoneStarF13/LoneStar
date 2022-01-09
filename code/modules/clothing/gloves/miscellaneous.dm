@@ -147,8 +147,8 @@
 	return NO_AUTO_CLICKDELAY_HANDLING | ATTACK_IGNORE_ACTION
 
 /obj/item/clothing/gloves/botanic_leather
-	name = "botanist's leather gloves"
-	desc = "These leather gloves protect against thorns, barbs, prickles, spikes and other harmful objects of floral origin.  They're also quite warm."
+	name = "farmers gloves"
+	desc = "These thick leather gloves protect against thorns, barbs, prickles, spikes and other harmful objects of floral origin.  They're also quite warm."
 	icon_state = "leather"
 	item_state = "ggloves"
 	permeability_coefficient = 0.9
