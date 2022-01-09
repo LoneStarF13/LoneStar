@@ -354,6 +354,10 @@ for further reading, please see: https://github.com/tgstation/tgstation/pull/301
 	custom_materials = list(/datum/material/iron=500, /datum/material/glass=500)
 	resistance_flags = FIRE_PROOF
 
+/obj/item/throwing_star/pickup(mob/living/user)
+	. = ..()
+	throwingweapondraw(src, user)
+
 /obj/item/throwing_star/stamina
 	name = "shock throwing star"
 	desc = "An aerodynamic disc designed to cause excruciating pain when stuck inside fleeing targets, hopefully without causing fatal harm."
