@@ -476,7 +476,6 @@
 	new /obj/item/restraints/handcuffs(src)
 	new /obj/item/melee/classic_baton(src)
 	new /obj/item/melee/onehanded/knife/hunting(src)
-	new /obj/item/ammo_box/magazine/m9mmds(src)
 	update_icon()
 
 /obj/item/storage/belt/durathread
@@ -727,6 +726,7 @@
 		/obj/item/ammo_box/c45rev,
 		/obj/item/gun/energy/laser/solar,
 		/obj/item/gun/energy/laser/pistol,
+		/obj/item/gun/energy/laser/complianceregulator,
 		/obj/item/gun/energy/laser/plasma/pistol,
 		/obj/item/gun/energy/laser/plasma/glock,
 		/obj/item/gun/energy/laser/plasma/glock/extended,
