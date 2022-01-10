@@ -2160,6 +2160,7 @@
 "bqF" = (
 /obj/structure/guncase,
 /obj/item/gun/energy/laser/wattz,
+/obj/item/gun/energy/laser/complianceregulator,
 /turf/open/floor/f13{
 	icon_state = "bluerustysolid"
 	},
@@ -6053,6 +6054,7 @@
 /obj/structure/guncase,
 /obj/item/gun/ballistic/revolver/widowmaker,
 /obj/item/gun/energy/laser/wattz,
+/obj/item/gun/energy/laser/complianceregulator,
 /turf/open/floor/f13{
 	icon_state = "bluerustysolid"
 	},
@@ -19194,6 +19196,7 @@
 /obj/item/twohanded/spear,
 /obj/item/twohanded/sledgehammer,
 /obj/item/stock_parts/cell/ammo/ec,
+/obj/item/stock_parts/cell/ammo/ec,
 /turf/open/floor/f13{
 	icon_state = "bluerustysolid"
 	},
@@ -19965,7 +19968,11 @@
 /area/f13/brotherhood/mining)
 "nce" = (
 /obj/structure/table,
-/obj/item/flashlight/lamp,
+/obj/item/flashlight/lamp{
+	pixel_x = 2;
+	pixel_y = 12
+	},
+/obj/machinery/recharger,
 /turf/open/floor/f13{
 	icon_state = "bluerustysolid"
 	},
