@@ -302,7 +302,7 @@
 	time = 30
 	category = CAT_CLOTHING
 	subcategory = CAT_ARMOR
-	always_availible = FALSE
+	always_available = FALSE
 
 /datum/crafting_recipe/ncrsalvaged
 	name = "Shred power armor for armor plates"
@@ -311,7 +311,7 @@
 	time = 30
 	category = CAT_CLOTHING
 	subcategory = CAT_ARMOR
-	always_availible = FALSE
+	always_available = FALSE
 
 /datum/crafting_recipe/ncrsalvagedhelmet
 	name = "Shred power armor helmet for armor plates"
@@ -320,7 +320,7 @@
 	time = 30
 	category = CAT_CLOTHING
 	subcategory = CAT_ARMOR
-	always_availible = FALSE
+	always_available = FALSE
 
 /datum/crafting_recipe/ncrsalvaged_salvaged
 	name = "Shred salvaged power armor for armor plates"
@@ -329,7 +329,7 @@
 	time = 30
 	category = CAT_CLOTHING
 	subcategory = CAT_ARMOR
-	always_availible = FALSE
+	always_available = FALSE
 
 /datum/crafting_recipe/ncrriot_broken
 	name = "Shred riot armor for armor plates"
@@ -338,7 +338,7 @@
 	time = 30
 	category = CAT_CLOTHING
 	subcategory = CAT_ARMOR
-	always_availible = FALSE
+	always_available = FALSE
 
 /datum/crafting_recipe/ncrriothelmet_broken
 	name = "Shred riot helmet for armor plates"
