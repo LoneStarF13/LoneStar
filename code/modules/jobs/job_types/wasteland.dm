@@ -1402,7 +1402,13 @@ datum/job/wasteland/f13dendoctor
 	/datum/outfit/loadout/deadhorsesranged,
 	/datum/outfit/loadout/deadhorsesshaman,
 	/datum/outfit/loadout/sorrowshunter,
-	/datum/outfit/loadout/sorrowsshaman
+	/datum/outfit/loadout/sorrowsshaman,
+	/datum/outfit/loadout/eightiesmelee,
+	/datum/outfit/loadout/eightiesranged,
+	/datum/outfit/loadout/eightiesshaman,
+	/datum/outfit/loadout/rustwalkersscipher,
+	/datum/outfit/loadout/rustwalkersscrapper,
+	/datum/outfit/loadout/rustwalkersshaman
 	)
 
 /datum/outfit/job/wasteland/f13tribal/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
@@ -1598,7 +1604,7 @@ datum/job/wasteland/f13dendoctor
 		/obj/item/reagent_containers/pill/patch/healingpowder = 2
 	)
 
-/datum/outfit/loadout/eightiessshaman
+/datum/outfit/loadout/eightiesshaman
 	name = "Eighties Lay-Mechanic"
 	suit = /obj/item/clothing/suit/f13/tribal/light/eighties
 	backpack_contents = list(
@@ -1649,6 +1655,45 @@ datum/job/wasteland/f13dendoctor
 		/obj/item/book/granter/crafting_recipe/tribal/wayfarer = 1,
 		/obj/item/book/granter/trait/lowsurgery = 1
 	)
+
+//Rustwalkers
+/datum/outfit/loadout/rustwalkersscipher
+	name = "Rustwalkers Scipher"
+	suit = /obj/item/clothing/suit/f13/tribal/rustwalkers
+	backpack_contents = list(
+		/obj/item/clothing/under/f13/rustwalkers = 1,
+		/obj/item/clothing/under/f13/female/rustwalkers = 1,
+		/obj/item/gun/ballistic/automatic/autopipe = 1,
+		/obj/item/ammo_box/magazine/autopipe = 2,
+		/obj/item/reagent_containers/pill/patch/healingpowder = 2,
+		/obj/item/circular_saw = 1
+	)
+
+/datum/outfit/loadout/rustwalkersscrapper
+	name = "Rustwalkers Scrapper"
+	suit = /obj/item/clothing/suit/f13/tribal/light/rustwalkers
+	backpack_contents = list(
+		/obj/item/clothing/under/f13/rustwalkers = 1,
+		/obj/item/clothing/under/f13/female/rustwalkers = 1,
+		/obj/item/gun/ballistic/revolver/hobo/pepperbox = 1,
+		/obj/item/ammo_box/c10mm = 1,
+		/obj/item/circular_saw = 1,
+		/obj/item/storage/belt/utility/full = 1,
+		/obj/item/reagent_containers/pill/patch/healpoultice = 1,
+	)
+
+/datum/outfit/loadout/rustwalkersshaman
+	name = "Rustwalkers Brain-Jack"
+	backpack_contents = list(
+		/obj/item/clothing/under/f13/rustwalkers = 1,
+		/obj/item/clothing/under/f13/female/rustwalkers = 1,
+		/obj/item/gun/ballistic/revolver/hobo/knucklegun = 1,
+		/obj/item/ammo_box/c38box/improvised = 2,
+		/obj/item/circular_saw = 1,
+		/obj/item/reagent_containers/pill/patch/healpoultice = 2,
+		/obj/item/storage/belt/utility/full = 1,
+		/obj/item/book/granter/crafting_recipe/tribal/rustwalkers = 1
+)
 
 /datum/outfit/job/wasteland/f13tribal/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()

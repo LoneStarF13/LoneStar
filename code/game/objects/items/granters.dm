@@ -1030,7 +1030,7 @@
 			if("Rustwalkers")
 				granted_trait = TRAIT_TECHNOPHREAK
 				traitname = "Rustwalkers"
-				crafting_recipe_types = list(/datum/crafting_recipe/autoaxe, /datum/crafting_recipe/steelsaw, /datum/crafting_recipe/tools/forged/entrenching_tool)
+				crafting_recipe_types = list(/datum/crafting_recipe/autoaxe, /datum/crafting_recipe/steelsaw, /datum/crafting_recipe/tools/forged/entrenching_tool, /datum/crafting_recipe/chainsaw)
 			if("Dead Horses")
 				granted_trait = list(TRAIT_BIG_LEAGUES, TRAIT_IRONFIST, TRAIT_TRIBAL)
 				traitname = "Dead Horses"
