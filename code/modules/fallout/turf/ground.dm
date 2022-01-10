@@ -81,9 +81,9 @@
 	name = "savannah"
 	icon_state = "savannahcenter"
 	desc = "Some savannah."
-	slowdown = 1
 	flags_1 = CAN_HAVE_NATURE | ADJACENCIES_OVERLAY
 	footstep = FOOTSTEP_SAND
+	slowdown = 0.1
 	barefootstep = FOOTSTEP_SAND
 	clawfootstep = FOOTSTEP_SAND
 
@@ -122,13 +122,13 @@
 //	step_sounds = list("human" = "dirtfootsteps")
 //	allowed_plants = list(/obj/item/seeds/poppy/broc, /obj/item/seeds/xander, /obj/item/seeds/mutfruit,
 //	/obj/item/seeds/feracactus, /obj/item/seeds/corn,/obj/item/seeds/shroom, /obj/item/seeds/agave)
-	slowdown = 1
 	flags_1 = CAN_HAVE_NATURE | ADJACENCIES_OVERLAY
 	footstep = FOOTSTEP_SAND
 	barefootstep = FOOTSTEP_SAND
 	clawfootstep = FOOTSTEP_SAND
 	var/dug = FALSE				//FALSE = has not yet been dug, TRUE = has already been dug
 	var/pit_sand = 1
+	slowdown = 0.1
 	var/storedindex = 0			//amount of stored items
 	var/mob/living/gravebody	//is there a body in the pit?
 	var/obj/structure/closet/crate/coffin/gravecoffin //or maybe a coffin?
@@ -144,11 +144,10 @@
 						/obj/effect/spawner/lootdrop/f13/weapon/gun/ballistic/low = 3
 						)
 
-//For sculpting with more precision, the random picking does not work very well. Slowdown 0.5 instead of 1. No random armor or gunpowder or titanium. Use directions for control. - Pebbles
+//For sculpting with more precision, the random picking does not work very well. No random armor or gunpowder or titanium. Use directions for control. - Pebbles
 /turf/open/indestructible/ground/outside/desert/sonora
 	icon = 'icons/fallout/turfs/wasteland.dmi'
 	icon_state = "desertsmooth"
-	slowdown = 0.5
 	list/loots = list(
 						/obj/item/stack/crafting/metalparts/five = 30,
 						)
@@ -158,15 +157,12 @@
 
 /turf/open/indestructible/ground/outside/desert/sonora/coarse
 	icon_state = "desertcoarse"
-	slowdown = 0.6
 
 /turf/open/indestructible/ground/outside/desert/sonora/coarse2
 	icon_state = "desertcoarse2"
-	slowdown = 0.6
 
 /turf/open/indestructible/ground/outside/desert/sonora/rough
 	icon_state = "desertrough"
-	slowdown = 1
 
 /turf/open/indestructible/ground/outside/desert/Initialize()
 	. = ..()
@@ -202,6 +198,7 @@
 	layer = ABOVE_OPEN_TURF_LAYER
 	anchored = TRUE
 	resistance_flags = INDESTRUCTIBLE
+	slowdown = 0.1
 
 // Two edge smootheners for the new desert turf
 /obj/effect/overlay/desert/sonora/edge
@@ -254,8 +251,8 @@
 //	step_sounds = list("human" = "dirtfootsteps")
 //	allowed_plants = list(/obj/item/seeds/poppy/broc, /obj/item/seeds/xander, /obj/item/seeds/mutfruit,
 //	/obj/item/seeds/potato, /obj/item/seeds/carrot, /obj/item/seeds/pumpkin, /obj/item/seeds/corn, /obj/item/seeds/agave)
-	slowdown = 0.3
 	flags_1 = CAN_HAVE_NATURE
+	slowdown = 0.2
 	footstep = FOOTSTEP_SAND
 	barefootstep = FOOTSTEP_SAND
 	clawfootstep = FOOTSTEP_SAND
@@ -446,8 +443,8 @@
 //	step_sounds = list("human" = "dirtfootsteps")
 //	allowed_plants = list(/obj/item/seeds/poppy/broc, /obj/item/seeds/xander, /obj/item/seeds/mutfruit,
 //	/obj/item/seeds/potato, /obj/item/seeds/carrot, /obj/item/seeds/pumpkin, /obj/item/seeds/corn, /obj/item/seeds/agave)
-	slowdown = 0.2
 	flags_1 = CAN_HAVE_NATURE
+	slowdown = 0.1
 
 /turf/open/indestructible/ground/inside/subway
 	name = "subway tunnel"
