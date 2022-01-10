@@ -1539,6 +1539,7 @@ datum/job/wasteland/f13dendoctor
 		/obj/item/reagent_containers/pill/patch/healingpowder = 2,
 		/obj/item/book/granter/crafting_recipe/tribal/deadhorses = 1
 	)
+
 //Sorrows
 /datum/outfit/loadout/sorrowshunter
 	name = "Sorrows Hunter-Guardian"
@@ -1549,9 +1550,9 @@ datum/job/wasteland/f13dendoctor
 		/obj/item/melee/onehanded/knife/survival = 1,
 		/obj/item/melee/unarmed/yaoguaigauntlet = 1,
 		/obj/item/reagent_containers/pill/patch/healpoultice = 2,
-		/obj/item/book/granter/crafting_recipe/tribal/deadhorses = 1,
 		/obj/item/gun/ballistic/bow = 1,
 		/obj/item/storage/belt/tribe_quiver = 1,
+		/obj/item/book/granter/crafting_recipe/tribal/sorrows = 1
 	)
 
 /datum/outfit/loadout/sorrowsshaman
@@ -1567,11 +1568,48 @@ datum/job/wasteland/f13dendoctor
 		/obj/item/warpaint_bowl = 1,
 		/obj/item/toy/crayon/spraycan = 2,
 		/obj/item/book/granter/trait/tagger = 1,
-		/obj/item/book/granter/crafting_recipe/tribal/deadhorses = 1
+		/obj/item/book/granter/crafting_recipe/tribal/sorrows = 1
 	)
 
 //Eighties
+/datum/outfit/loadout/eightiesmelee
+	name = "Eighties Path-Maker"
+	suit = /obj/item/clothing/suit/f13/tribal/eighties
+	backpack_contents = list(
+		/obj/item/clothing/under/f13/eighties = 1,
+		/obj/item/clothing/under/f13/female/eighties = 1,
+		/obj/item/gun/ballistic/shotgun/trench = 1,
+		/obj/item/ammo_box/shotgun/buck = 2,
+		/obj/item/reagent_containers/pill/patch/healingpowder = 2,
+		/obj/item/reagent_containers/pill/patch/turbo = 2,
+		/obj/item/reagent_containers/pill/patch/jet = 2
+	)
 
+/datum/outfit/loadout/eightiesranged
+	name = "Eighties Road-Warrior"
+	suit = /obj/item/clothing/suit/f13/tribal/heavy/eighties
+	backpack_contents = list(
+		/obj/item/clothing/under/f13/eighties = 1,
+		/obj/item/clothing/under/f13/female/eighties = 1,
+		/obj/item/gun/ballistic/revolver/single_shotgun = 1,
+		/obj/item/ammo_box/shotgun/buck = 1,
+		/obj/item/gun/ballistic/automatic/smg/greasegun/worn = 1,
+		/obj/item/ammo_box/magazine/greasegun = 2,
+		/obj/item/reagent_containers/pill/patch/healingpowder = 2
+	)
+
+/datum/outfit/loadout/eightiessshaman
+	name = "Eighties Lay-Mechanic"
+	suit = /obj/item/clothing/suit/f13/tribal/light/eighties
+	backpack_contents = list(
+		/obj/item/clothing/under/f13/eighties = 1,
+		/obj/item/clothing/under/f13/female/eighties = 1,
+		/obj/item/gun/ballistic/revolver/single_shotgun = 1,
+		/obj/item/ammo_box/shotgun/slug = 1,
+		/obj/item/reagent_containers/pill/patch/healingpowder = 2,
+		/obj/item/storage/belt/utility/full = 1,
+		/obj/item/book/granter/crafting_recipe/tribal/eighties = 1
+	)
 
 //Wayfarers
 /datum/outfit/loadout/wayfarermelee
