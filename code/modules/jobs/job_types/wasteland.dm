@@ -1392,8 +1392,8 @@ datum/job/wasteland/f13dendoctor
 	/datum/outfit/loadout/brawler,
 	/datum/outfit/loadout/spearman,
 	/datum/outfit/loadout/shaman,
-	/datum/outfit/loadout/wayfarerwarrior,
-	/datum/outfit/loadout/wayfarerarcher,
+	/datum/outfit/loadout/wayfarermelee,
+	/datum/outfit/loadout/wayfarerranged,
 	/datum/outfit/loadout/wayfarershaman,
 	/datum/outfit/loadout/whitelegsmelee,
 	/datum/outfit/loadout/whitelegsranged,
@@ -1514,7 +1514,7 @@ datum/job/wasteland/f13dendoctor
 		/obj/item/clothing/under/f13/female/deadhorses = 1,
 		/obj/item/melee/onehanded/club/warclub = 1,
 		/obj/item/storage/backpack/spearquiver = 1,
-		/obj/item/reagent_containers/pill/patch/healpowder = 2
+		/obj/item/reagent_containers/pill/patch/healingpowder = 2
 	)
 
 /datum/outfit/loadout/deadhorsesranged
@@ -1569,6 +1569,9 @@ datum/job/wasteland/f13dendoctor
 		/obj/item/book/granter/trait/tagger = 1,
 		/obj/item/book/granter/crafting_recipe/tribal/deadhorses = 1
 	)
+
+//Eighties
+
 
 //Wayfarers
 /datum/outfit/loadout/wayfarermelee
