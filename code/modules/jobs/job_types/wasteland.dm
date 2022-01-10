@@ -1394,7 +1394,16 @@ datum/job/wasteland/f13dendoctor
 	/datum/outfit/loadout/shaman,
 	/datum/outfit/loadout/wayfarerwarrior,
 	/datum/outfit/loadout/wayfarerarcher,
-	/datum/outfit/loadout/wayfarershaman)
+	/datum/outfit/loadout/wayfarershaman,
+	/datum/outfit/loadout/whitelegsmelee,
+	/datum/outfit/loadout/whitelegsranged,
+	/datum/outfit/loadout/whitelegsshaman,
+	/datum/outfit/loadout/deadhorsesmelee,
+	/datum/outfit/loadout/deadhorsesranged,
+	/datum/outfit/loadout/deadhorsesshaman,
+	/datum/outfit/loadout/sorrowshunter,
+	/datum/outfit/loadout/sorrowsshaman
+	)
 
 /datum/outfit/job/wasteland/f13tribal/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()
@@ -1423,7 +1432,7 @@ datum/job/wasteland/f13dendoctor
 		/obj/item/flashlight/lantern = 1,
 		)
 
-
+//Generic Tribals
 /datum/outfit/loadout/brawler
 	name = "Tribal Brawler"
 	suit = /obj/item/clothing/suit/armor/f13/tribal
@@ -1457,11 +1466,112 @@ datum/job/wasteland/f13dendoctor
 		/obj/item/melee/onehanded/knife/ritualdagger = 1,
 		/obj/item/stack/medical/gauze/improvised = 1,
 		/obj/item/reagent_containers/pill/patch/healingpowder = 1,
+		/obj/item/book/granter/crafting_recipe/tribal = 1,
 		/obj/item/book/granter/trait/lowsurgery = 1
 	)
 
-//Wayfarer Loadouts
-/datum/outfit/loadout/wayfarerwarrior
+//White Legs
+/datum/outfit/loadout/whitelegsmelee
+	name = "White Legs Bone-Breaker"
+	suit = /obj/item/clothing/suit/f13/tribal/light/whitelegs
+	backpack_contents = list(
+		/obj/item/clothing/under/f13/whitelegs = 1,
+		/obj/item/clothing/under/f13/female/whitelegs = 1,
+		/obj/item/melee/unarmed/maceglove = 1,
+		/obj/item/gun/ballistic/automatic/pistol/ninemil = 1,
+		/obj/item/reagent_containers/pill/patch/healpoultice = 1,
+		/obj/item/book/granter/trait/iron_fist = 1
+	)
+
+/datum/outfit/loadout/whitelegsranged
+	name = "White Legs Storm-Drummer"
+	suit = /obj/item/clothing/suit/f13/tribal/whitelegs
+	backpack_contents = list(
+		/obj/item/clothing/under/f13/whitelegs = 1,
+		/obj/item/clothing/under/f13/female/whitelegs = 1,
+		/obj/item/gun/ballistic/automatic/smg/tommygun/whitelegs = 1,
+		/obj/item/gun/ballistic/automatic/pistol/ninemil = 1,
+		/obj/item/reagent_containers/pill/patch/healpoultice = 1,
+		/obj/item/ammo_box/magazine/tommygunm45/stick = 2
+	)
+
+/datum/outfit/loadout/whitelegsshaman
+	name = "White Legs Arm-Makers"
+	backpack_contents = list(
+		/obj/item/clothing/under/f13/whitelegs = 1,
+		/obj/item/clothing/under/f13/female/whitelegs = 1,
+		/obj/item/twohanded/fireaxe = 1,
+		/obj/item/gun/ballistic/automatic/pistol/ninemil = 1,
+		/obj/item/book/granter/crafting_recipe/tribal/whitelegs = 1
+	)
+
+//Dead Horses
+/datum/outfit/loadout/deadhorsesmelee
+	name = "Dead Horses Stalker"
+	suit = /obj/item/clothing/suit/f13/tribal/deadhorses
+	backpack_contents = list(
+		/obj/item/clothing/under/f13/deadhorses = 1,
+		/obj/item/clothing/under/f13/female/deadhorses = 1,
+		/obj/item/melee/onehanded/club/warclub = 1,
+		/obj/item/storage/backpack/spearquiver = 1,
+		/obj/item/reagent_containers/pill/patch/healpowder = 2
+	)
+
+/datum/outfit/loadout/deadhorsesranged
+	name = "Dead Horses Disciple"
+	suit = /obj/item/clothing/suit/f13/tribal/heavy/deadhorses
+	backpack_contents = list(
+		/obj/item/clothing/under/f13/deadhorses = 1,
+		/obj/item/clothing/under/f13/female/deadhorses = 1,
+		/obj/item/gun/ballistic/automatic/pistol/m1911=1,
+		/obj/item/ammo_box/magazine/m45 = 2,
+		/obj/item/reagent_containers/pill/patch/healpoultice =2
+	)
+
+/datum/outfit/loadout/deadhorsesshaman
+	name = "Dead Horses Shaman"
+	backpack_contents = list(
+		/obj/item/clothing/under/f13/deadhorses = 1,
+		/obj/item/clothing/under/f13/female/deadhorses = 1,
+		/obj/item/storage/bag/plants=1,
+		/obj/item/cultivator=1,
+		/obj/item/reagent_containers/glass/bucket/wood=1,
+		/obj/item/reagent_containers/pill/patch/healingpowder = 2,
+		/obj/item/book/granter/crafting_recipe/tribal/deadhorses = 1
+	)
+//Sorrows
+/datum/outfit/loadout/sorrowshunter
+	name = "Sorrows Hunter-Guardian"
+	suit = /obj/item/clothing/suit/f13/tribal/light/sorrows
+	backpack_contents = list(
+		/obj/item/clothing/under/f13/sorrows = 1,
+		/obj/item/clothing/under/f13/female/sorrows = 1,
+		/obj/item/melee/onehanded/knife/survival = 1,
+		/obj/item/melee/unarmed/yaoguaigauntlet = 1,
+		/obj/item/reagent_containers/pill/patch/healpoultice = 2,
+		/obj/item/book/granter/crafting_recipe/tribal/deadhorses = 1,
+		/obj/item/gun/ballistic/bow = 1,
+		/obj/item/storage/belt/tribe_quiver = 1,
+	)
+
+/datum/outfit/loadout/sorrowsshaman
+	name = "Sorrows Ink-Shaman"
+	backpack_contents = list(
+		/obj/item/clothing/under/f13/sorrows = 1,
+		/obj/item/clothing/under/f13/female/sorrows = 1,
+		/obj/item/storage/bag/plants = 1,
+		/obj/item/cultivator = 1,
+		/obj/item/reagent_containers/glass/bucket/wood = 1,
+		/obj/item/reagent_containers/pill/patch/healingpowder = 2,
+		/obj/item/melee/unarmed/yaoguaigauntlet = 1,
+		/obj/item/warpaint_bowl = 1,
+		/obj/item/toy/crayon/spraycan = 2,
+		/obj/item/book/granter/trait/tagger = 1,
+		/obj/item/book/granter/crafting_recipe/tribal/deadhorses = 1
+	)
+
+//Wayfarers
+/datum/outfit/loadout/wayfarermelee
 	name = "Wayfarer Warrior"
 	suit = /obj/item/clothing/suit/armor/f13/lightcloak
 	backpack_contents = list(
@@ -1471,7 +1581,7 @@ datum/job/wasteland/f13dendoctor
 		/obj/item/reagent_containers/pill/patch/bitterdrink = 1,
 	)
 
-/datum/outfit/loadout/wayfarerarcher
+/datum/outfit/loadout/wayfarerranged
 	name = "Wayfarer Archer"
 	suit = /obj/item/clothing/suit/armor/f13/kit
 	head = /obj/item/clothing/head/helmet/f13/wayfarer/antler
@@ -1495,6 +1605,7 @@ datum/job/wasteland/f13dendoctor
 		/obj/item/melee/onehanded/knife/ritualdagger = 1,
 		/obj/item/stack/medical/gauze/improvised = 1,
 		/obj/item/reagent_containers/pill/patch/healingpowder = 1,
+		/obj/item/book/granter/crafting_recipe/tribal/wayfarer = 1,
 		/obj/item/book/granter/trait/lowsurgery = 1
 	)
 

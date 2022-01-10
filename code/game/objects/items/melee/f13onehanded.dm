@@ -724,7 +724,7 @@ obj/item/melee/onehanded/knife/switchblade
 	attack_verb = list("slashed", "sliced", "torn", "ripped", "diced", "cut")
 	hitsound = 'sound/weapons/bladeslice.ogg'
 
-//Yao Guai Gauntlet	Keywords: Damage 30
+//Yao Guai Gauntlet	Keywords: Damage 30, Fast, Stacks Bleed
 /obj/item/melee/unarmed/yaoguaigauntlet
 	name = "yao guai gauntlet"
 	desc = "The severed hand of a yao guai, the hide cured, the muscles and bone removed, and given a harness to turn it into a deadly gauntlet. Usually seen around the hands of the Sorrows tribe."
