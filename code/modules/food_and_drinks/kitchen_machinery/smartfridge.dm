@@ -235,13 +235,16 @@
 // ----------------------------
 /obj/machinery/smartfridge/drying_rack
 	name = "drying rack"
-	desc = "A wooden case atop a large electric hot-plate, used to dry plant products, food and hide."
+	desc = "A sandstone oven with racks above for hanging produce, used to dry plant products, food and hide."
 	icon = 'icons/fallout/farming/farming_structures.dmi'
 	icon_state = "drying_rack"
 	use_power = IDLE_POWER_USE
 	idle_power_usage = 15
 	active_power_usage = 600
 	visible_contents = FALSE
+	proj_pass_rate = 30
+	pass_flags = LETPASSTHROW
+	pass_flags_self = PASSTABLE | LETPASSTHROW
 	var/drying = FALSE
 
 /obj/machinery/smartfridge/drying_rack/Initialize()
@@ -636,6 +639,10 @@
 	icon = 'icons/fallout/farming/farming_structures.dmi'
 	icon_state = "seedbin"
 	max_n_of_items = 400
+	proj_pass_rate = 70
+	pass_flags = LETPASSTHROW
+	pass_flags_self = PASSTABLE | LETPASSTHROW
+	var/climbable = TRUE
 
 /obj/machinery/smartfridge/bottlerack/seedbin/accept_check(obj/item/O)
 	if(istype(O, /obj/item/seeds))
@@ -661,6 +668,10 @@
 	icon = 'icons/fallout/farming/farming_structures.dmi'
 	icon_state = "grownbin"
 	max_n_of_items = 1000
+	proj_pass_rate = 70
+	pass_flags = LETPASSTHROW
+	pass_flags_self = PASSTABLE | LETPASSTHROW
+	var/climbable = TRUE
 
 /obj/machinery/smartfridge/bottlerack/grownbin/accept_check(obj/item/O)
 	if(istype(O, /obj/item/reagent_containers/food/snacks/grown))

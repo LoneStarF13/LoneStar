@@ -18,6 +18,10 @@
 	anchored = FALSE
 	pressure_resistance = 2 * ONE_ATMOSPHERE
 	max_integrity = 300
+	proj_pass_rate = 70
+	pass_flags = LETPASSTHROW
+	pass_flags_self = PASSTABLE | LETPASSTHROW
+	climbable = TRUE
 	var/open = FALSE
 	var/speed_multiplier = 4 //How fast it distills. Defaults to 100% (1.0). Lower is better.
 
@@ -96,6 +100,9 @@
 	icon_state = "loom"
 	density = TRUE
 	anchored = TRUE
+	proj_pass_rate = 90
+	pass_flags = LETPASSTHROW
+	pass_flags_self = PASSTABLE | LETPASSTHROW
 
 /obj/structure/loom/attackby(obj/item/I, mob/user)
 	if(weave(I, user))
@@ -139,6 +146,11 @@
 	icon_state = "compostbin"
 	anchored = TRUE
 	reagent_id = /datum/reagent/compost
+	proj_pass_rate = 50
+	obj_integrity = 150
+	pass_flags = LETPASSTHROW
+	pass_flags_self = PASSTABLE | LETPASSTHROW
+	climbable = TRUE
 	var/seed_default_value = 4
 	var/seed_to_compost_scale = 0.08 // Meaning average (50 potency) foods will give 4 compost
 	var/produce_default_value = 10
@@ -221,8 +233,11 @@
 	desc = "A crude grinding machine repurposed from kitchen appliances. Plants go in, seeds come out."
 	icon = 'icons/fallout/farming/farming_structures.dmi'
 	icon_state = "sextractor_manual"
-	density = TRUE
+	density = FALSE
 	anchored = TRUE
+	proj_pass_rate = 95
+	pass_flags = LETPASSTHROW
+	pass_flags_self = PASSTABLE | LETPASSTHROW
 
 /obj/structure/legion_extractor/proc/seedify(obj/item/O, t_max, obj/structure/legion_extractor/extractor, mob/living/user)
 	var/t_amount = 0
