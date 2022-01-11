@@ -149,7 +149,10 @@
 // Gardener belt. Hold farming stuff thats small, also flasks (think hip flasks, not bottles as such)
 /obj/item/storage/belt/utility/gardener
 	name = "gardeners toolbelt"
-	desc = "Leather belt with straps for various smaller farming equipment, bags and flasks."
+	desc = "Leather belt with straps for various smaller farming equipment, bags and hip flasks."
+	icon = 'icons/fallout/clothing/belts.dmi'
+	icon_state = "gardener"
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/belt.dmi'
 
 /obj/item/storage/belt/utility/gardener/ComponentInitialize()
 	. = ..()

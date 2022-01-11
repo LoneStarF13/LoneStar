@@ -61,9 +61,10 @@
 	. = ..()
 	AddComponent(/datum/component/armor_plate)
 
+// Edited desc to help the player figure out it got pockets, the "gimmick" it has.
 /obj/item/clothing/suit/armor/f13/raider/badlands
 	name = "badlands raider armor"
-	desc = "(III*) A leather top with a bandolier over it and a straps that cover the arms."
+	desc = "(III*) A leather top with a bandolier over it and a leather straps. Can store some ammo or other things."
 	icon_state = "badlands"
 	item_state = "badlands"
 	armor = list("tier" = 3, "linebullet" = -10, "linelaser" = -10, "energy" = 35, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 25, "acid" = 25)
