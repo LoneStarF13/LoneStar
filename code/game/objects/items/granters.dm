@@ -918,7 +918,6 @@
 	traitname = "trekking"
 	remarks = list("Tribes and gangs often hide the best loot in the back room.", "Radiation is best avoided entirely, but it helps to carry spare rad-x.", "Whether ancient or recent, landmines are still a threat, and readers should look out for them.", "Injuries and open bleeding make it harder to travel, always carry spare medical supplies.", "Most animals are simple-minded, and can be led into easy lines of fire.")
 
-
 /obj/item/book/granter/trait/explosives
 	name = "Industrial Society and Its Future"
 	desc = "This lengthy manifesto happens to contain a variety of valuable knowledge on how to craft explosives of all kinds."
@@ -1043,38 +1042,27 @@
 			if(null)
 				return 0
 			if("White Legs")
-				var/trait_list = list(TRAIT_TRIBAL, TRAIT_GUNSMITH_ONE, TRAIT_GUNSMITH_TWO)
-				for(var/i in trait_list)
-					granted_trait = (i)
+				granted_trait = TRAIT_TRIBAL
 				traitname = "White Legs"
+				crafting_recipe_types = list(/datum/crafting_recipe/ninemil, /datum/crafting_recipe/huntingrifle, /datum/crafting_recipe/n99, /datum/crafting_recipe/huntingrifle, /datum/crafting_recipe/m1911, /datum/crafting_recipe/varmintrifle, /datum/crafting_recipe/colt6520)
 			if("Other")
-				var/trait_list = list(TRAIT_TRIBAL, TRAIT_SURGERY_LOW)
-				for(var/i in trait_list)
-					granted_trait = (i)
-				traitname = "minor surgery"
+				granted_trait = TRAIT_TRIBAL
+				traitname = "Other"
 			if("Rustwalkers")
 				granted_trait = TRAIT_TECHNOPHREAK
 				traitname = "Rustwalkers"
 				crafting_recipe_types = list(/datum/crafting_recipe/autoaxe, /datum/crafting_recipe/steelsaw, /datum/crafting_recipe/tools/forged/entrenching_tool, /datum/crafting_recipe/chainsaw)
 			if("Dead Horses")
-				var/trait_list = list(TRAIT_BIG_LEAGUES, TRAIT_IRONFIST, TRAIT_TRIBAL)
-				for(var/i in trait_list)
-					granted_trait = (i)
+				granted_trait = TRAIT_IRONFIST
 				traitname = "Dead Horses"
 			if("Sorrows")
-				var/trait_list = list(TRAIT_TRAPPER, TRAIT_TRIBAL)
-				for(var/i in trait_list)
-					granted_trait = (i)
+				granted_trait = TRAIT_TRAPPER
 				traitname = "Sorrows"
-			if("Eighties")
-				var/trait_list = list(TRAIT_FREERUNNING, TRAIT_LIGHT_STEP)
-				for(var/i in trait_list)
-					granted_trait = (i)
+			if("Eighties")				
+				granted_trait = TRAIT_FREERUNNING
 				traitname = "Eighties"
 			if("Wayfarers")
-				var/trait_list = list(TRAIT_TECHNOPHOBE, TRAIT_TRIBAL, TRAIT_MACHINE_SPIRITS)
-				for(var/i in trait_list)
-					granted_trait = (i)
+				granted_trait = TRAIT_MACHINE_SPIRITS
 				traitname = "Wayfarer"
 		return ..()
 

@@ -1514,7 +1514,8 @@ datum/job/wasteland/f13dendoctor
 		/obj/item/clothing/under/f13/female/whitelegs = 1,
 		/obj/item/twohanded/fireaxe = 1,
 		/obj/item/gun/ballistic/automatic/pistol/ninemil = 1,
-		/obj/item/book/granter/crafting_recipe/tribal/whitelegs = 1
+		/obj/item/book/granter/crafting_recipe/tribal/whitelegs = 1,
+		/obj/item/book/granter/trait/lowsurgery = 1
 	)
 
 //Dead Horses
@@ -1549,7 +1550,8 @@ datum/job/wasteland/f13dendoctor
 		/obj/item/cultivator=1,
 		/obj/item/reagent_containers/glass/bucket/wood=1,
 		/obj/item/reagent_containers/pill/patch/healingpowder = 2,
-		/obj/item/book/granter/crafting_recipe/tribal/deadhorses = 1
+		/obj/item/book/granter/crafting_recipe/tribal/deadhorses = 1,
+		/obj/item/book/granter/trait/lowsurgery = 1
 	)
 
 //Sorrows
@@ -1564,7 +1566,8 @@ datum/job/wasteland/f13dendoctor
 		/obj/item/reagent_containers/pill/patch/healpoultice = 2,
 		/obj/item/gun/ballistic/bow = 1,
 		/obj/item/storage/belt/tribe_quiver = 1,
-		/obj/item/book/granter/crafting_recipe/tribal/sorrows = 1
+		/obj/item/book/granter/crafting_recipe/tribal/sorrows = 1,
+		/obj/item/book/granter/trait/lowsurgery = 1
 	)
 
 /datum/outfit/loadout/sorrowsshaman
@@ -1580,7 +1583,8 @@ datum/job/wasteland/f13dendoctor
 		/obj/item/warpaint_bowl = 1,
 		/obj/item/toy/crayon/spraycan = 2,
 		/obj/item/book/granter/trait/tagger = 1,
-		/obj/item/book/granter/crafting_recipe/tribal/sorrows = 1
+		/obj/item/book/granter/crafting_recipe/tribal/sorrows = 1,
+		/obj/item/book/granter/trait/lowsurgery = 1
 	)
 
 //Eighties
@@ -1620,7 +1624,8 @@ datum/job/wasteland/f13dendoctor
 		/obj/item/ammo_box/shotgun/slug = 1,
 		/obj/item/reagent_containers/pill/patch/healingpowder = 2,
 		/obj/item/storage/belt/utility/full = 1,
-		/obj/item/book/granter/crafting_recipe/tribal/eighties = 1
+		/obj/item/book/granter/crafting_recipe/tribal/eighties = 1,
+		/obj/item/book/granter/trait/lowsurgery = 1
 	)
 
 //Wayfarers
@@ -1698,6 +1703,7 @@ datum/job/wasteland/f13dendoctor
 		/obj/item/circular_saw = 1,
 		/obj/item/reagent_containers/pill/patch/healpoultice = 2,
 		/obj/item/storage/belt/utility/full = 1,
+		/obj/item/book/granter/trait/lowsurgery = 1,
 		/obj/item/book/granter/crafting_recipe/tribal/rustwalkers = 1
 )
 
