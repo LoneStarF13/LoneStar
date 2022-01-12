@@ -672,7 +672,7 @@ obj/item/twohanded/sledgehammer/supersledge/ComponentInitialize()
 	wound_bonus = 15
 	attack_speed = CLICK_CD_MELEE * 0.9
 
-//Auto Axe 		Keywords: Damage 14/60, AP 0.5, Wound Bonus
+//Auto Axe 		Keywords: Damage 14/40, AP 0.5, Wound Bonus
 /obj/item/twohanded/chainsaw/autoaxe
 	name = "auto axe"
 	desc = "A reinforced and heavier steel saw, upgraded using the parts of a car engine."
@@ -680,9 +680,9 @@ obj/item/twohanded/sledgehammer/supersledge/ComponentInitialize()
 	item_state = "autoaxe"
 	icon_prefix = "autoaxe"
 	force = 6
-	force_on = 60
+	force_on = 40
 	force_off = 14
-	armour_penetration = 0.5
+	armour_penetration = 0.3
 	on_icon_state = "autoaxe_on"
 	off_icon_state = "autoaxe"
 	on_item_state = "autoaxe_on"
