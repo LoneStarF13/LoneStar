@@ -266,7 +266,7 @@
 /area/f13/underground/cave)
 "arV" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/nest/ghoul,
+/mob/living/simple_animal/hostile/ghoul,
 /turf/open/floor/carpet/green,
 /area/f13/underground/cave)
 "asI" = (
@@ -343,6 +343,11 @@
 	icon_state = "darkdirty"
 	},
 /area/f13/bunker)
+"auw" = (
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/ghoul/reaver,
+/turf/open/floor/carpet/green,
+/area/f13/underground/cave)
 "avl" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/sign/departments/examroom,
@@ -1118,6 +1123,11 @@
 /obj/structure/debris/v3,
 /turf/closed/indestructible/rock,
 /area/f13/underground/cave)
+"bmS" = (
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/supermutant/meleemutant,
+/turf/open/floor/carpet/green,
+/area/f13/underground/cave)
 "bnB" = (
 /obj/machinery/power/terminal,
 /obj/structure/cable{
@@ -1259,6 +1269,13 @@
 	icon_state = "darkdirty"
 	},
 /area/f13/bunker)
+"byW" = (
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/supermutant/rangedmutant,
+/turf/open/floor/f13/wood{
+	icon_state = "housewood2"
+	},
+/area/f13/underground/cave)
 "byY" = (
 /turf/open/floor/plasteel/yellow/side,
 /area/f13/vault)
@@ -1269,12 +1286,7 @@
 /area/f13/vault)
 "bzd" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/nest/supermutant{
-	desc = "A cloning pod system's exit node. This one appears to have several specimen in the storage below.";
-	icon = 'icons/obj/machines/cloning.dmi';
-	icon_state = "pod_0";
-	name = "occupied cloning pod"
-	},
+/mob/living/simple_animal/hostile/supermutant/nightkin/rangedmutant,
 /turf/open/floor/carpet/green,
 /area/f13/underground/cave)
 "bzn" = (
@@ -1500,14 +1512,10 @@
 /area/f13/bunker)
 "bJV" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/nest/supermutant{
-	desc = "A cloning pod system's exit node. This one appears to have several specimen in the storage below.";
-	icon = 'icons/obj/machines/cloning.dmi';
-	icon_state = "pod_0";
-	name = "occupied cloning pod";
-	radius = 30
+/mob/living/simple_animal/hostile/ghoul/reaver,
+/turf/open/floor/f13/wood{
+	icon_state = "housewood2"
 	},
-/turf/open/floor/carpet/green,
 /area/f13/underground/cave)
 "bKe" = (
 /obj/machinery/door/airlock/grunge/abandoned,
@@ -1751,6 +1759,7 @@
 "bZV" = (
 /obj/structure/rack,
 /obj/effect/spawner/lootdrop/f13/armor/tier4,
+/obj/effect/spawner/lootdrop/f13/weapon/melee/tier4,
 /turf/open/floor/pod/dark,
 /area/f13/underground/cave)
 "bZY" = (
@@ -1987,12 +1996,7 @@
 	},
 /area/f13/bunker)
 "cnO" = (
-/obj/structure/nest/supermutant{
-	desc = "A cloning pod system's exit node. This one appears to have several specimen in the storage below.";
-	icon = 'icons/obj/machines/cloning.dmi';
-	icon_state = "pod_0";
-	name = "occupied cloning pod"
-	},
+/mob/living/simple_animal/hostile/ghoul/reaver,
 /turf/open/floor/carpet/green,
 /area/f13/underground/cave)
 "cpp" = (
@@ -2853,6 +2857,14 @@
 	icon_state = "housewood2-broken"
 	},
 /area/f13/bunker)
+"dtW" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/floor,
+/mob/living/simple_animal/hostile/supermutant,
+/turf/open/floor/f13/wood{
+	icon_state = "housewood2"
+	},
+/area/f13/underground/cave)
 "duR" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/item/flashlight/lantern{
@@ -3571,6 +3583,13 @@
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/engine,
 /area/f13/vault)
+"eiQ" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/mob/living/simple_animal/hostile/supermutant/nightkin/rangedmutant,
+/turf/open/floor/carpet/green,
+/area/f13/underground/cave)
 "ejj" = (
 /obj/machinery/button/door{
 	id = 1349;
@@ -4005,6 +4024,11 @@
 /obj/structure/closet/crate,
 /turf/open/floor/plasteel/f13/vault_floor/yellow/yellowchess/yellowchess2,
 /area/f13/vault)
+"eLs" = (
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/supermutant/rangedmutant,
+/turf/open/floor/carpet/green,
+/area/f13/underground/cave)
 "eLG" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/oil,
@@ -5124,6 +5148,13 @@
 /obj/item/clothing/glasses/hud/health/night,
 /turf/open/floor/mineral/plastitanium,
 /area/f13/bunker)
+"gac" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/mob/living/simple_animal/hostile/supermutant/rangedmutant,
+/turf/open/floor/carpet/green,
+/area/f13/underground/cave)
 "gaB" = (
 /obj/item/soap/deluxe,
 /obj/effect/decal/cleanable/dirt,
@@ -6844,6 +6875,12 @@
 	},
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/wasteland)
+"hYo" = (
+/mob/living/simple_animal/hostile/supermutant/rangedmutant,
+/turf/open/floor/f13/wood{
+	icon_state = "housewood4-broken"
+	},
+/area/f13/underground/cave)
 "hYq" = (
 /obj/structure/closet/fridge{
 	anchored = 1
@@ -9399,6 +9436,14 @@
 	icon_state = "darkdirtysolid"
 	},
 /area/f13/bunker)
+"liQ" = (
+/obj/structure/rack,
+/obj/item/clothing/under/syndicate/combat,
+/obj/item/clothing/gloves/combat,
+/obj/effect/spawner/lootdrop/f13/weapon/gun/energy/high,
+/obj/effect/spawner/lootdrop/f13/cash_ncr_med,
+/turf/open/floor/pod/dark,
+/area/f13/underground/cave)
 "ljR" = (
 /obj/item/toy/cards/singlecard,
 /turf/open/floor/carpet/green,
@@ -9598,6 +9643,15 @@
 /obj/item/clothing/head/hardhat/cakehat,
 /turf/open/floor/plasteel/floorgrime,
 /area/f13/vault)
+"lyW" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/mob/living/simple_animal/hostile/supermutant/nightkin/rangedmutant,
+/turf/open/floor/f13/wood{
+	icon_state = "housewood4-broken"
+	},
+/area/f13/underground/cave)
 "lze" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/broken{
@@ -9635,6 +9689,13 @@
 	icon_state = "stagestairs"
 	},
 /area/f13/bunker)
+"lBO" = (
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/supermutant/meleemutant,
+/turf/open/floor/f13/wood{
+	icon_state = "housewood4-broken"
+	},
+/area/f13/underground/cave)
 "lCY" = (
 /obj/structure/table,
 /obj/effect/decal/cleanable/dirt,
@@ -10653,6 +10714,7 @@
 /obj/structure/rack,
 /obj/item/clothing/under/syndicate/combat,
 /obj/item/clothing/gloves/combat,
+/obj/effect/spawner/lootdrop/f13/cash_ncr_med,
 /turf/open/floor/pod/dark,
 /area/f13/underground/cave)
 "mJM" = (
@@ -10881,6 +10943,12 @@
 /obj/machinery/light,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/bunker)
+"mUJ" = (
+/mob/living/simple_animal/hostile/supermutant,
+/turf/open/floor/f13/wood{
+	icon_state = "housewood2"
+	},
+/area/f13/underground/cave)
 "mWs" = (
 /obj/structure/table/reinforced,
 /obj/machinery/microwave,
@@ -12365,6 +12433,12 @@
 	icon_state = "redrustyfull"
 	},
 /area/f13/bunker)
+"oOP" = (
+/mob/living/simple_animal/hostile/supermutant/rangedmutant,
+/turf/open/floor/f13/wood{
+	icon_state = "housewood2"
+	},
+/area/f13/underground/cave)
 "oPI" = (
 /obj/structure/closet/wardrobe,
 /turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
@@ -12398,6 +12472,7 @@
 "oSM" = (
 /obj/item/ammo_casing/shotgun/buckshot,
 /obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/supermutant/rangedmutant,
 /turf/open/floor/carpet/green,
 /area/f13/underground/cave)
 "oTe" = (
@@ -14181,6 +14256,12 @@
 	icon_state = "yellowsiding"
 	},
 /area/f13/bunker)
+"qTW" = (
+/mob/living/simple_animal/hostile/supermutant/meleemutant,
+/turf/open/floor/f13/wood{
+	icon_state = "housewood2"
+	},
+/area/f13/underground/cave)
 "qTX" = (
 /obj/structure/nest/assaultron{
 	max_mobs = 3
@@ -14285,6 +14366,12 @@
 /obj/machinery/computer/crew,
 /turf/open/floor/plasteel/dark,
 /area/f13/vault)
+"qXr" = (
+/obj/item/ammo_casing/a762,
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/supermutant/nightkin/rangedmutant,
+/turf/open/floor/carpet/green,
+/area/f13/underground/cave)
 "qXt" = (
 /obj/structure/frame/machine,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
@@ -14516,6 +14603,13 @@
 "rjJ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/nest/ghoul,
+/turf/open/floor/f13/wood{
+	icon_state = "housewood2"
+	},
+/area/f13/underground/cave)
+"rkm" = (
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/supermutant/meleemutant,
 /turf/open/floor/f13/wood{
 	icon_state = "housewood2"
 	},
@@ -14807,6 +14901,14 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
 /area/f13/vault)
+"rzk" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light{
+	dir = 1
+	},
+/mob/living/simple_animal/hostile/supermutant/rangedmutant,
+/turf/open/floor/carpet/green,
+/area/f13/underground/cave)
 "rzp" = (
 /obj/structure/chair/stool/bar{
 	desc = "The place you sit when all hope is lost.";
@@ -15536,6 +15638,12 @@
 /obj/machinery/door/airlock/freezer,
 /turf/open/floor/plasteel/cafeteria,
 /area/f13/vault)
+"swr" = (
+/obj/item/ammo_casing/a762,
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/ghoul/glowing,
+/turf/open/floor/carpet/green,
+/area/f13/underground/cave)
 "swN" = (
 /obj/structure/ladder/unbreakable{
 	height = 1;
@@ -15949,6 +16057,7 @@
 "tbh" = (
 /obj/item/ammo_box/magazine/m762/empty,
 /obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/supermutant/rangedmutant,
 /turf/open/floor/f13/wood{
 	icon_state = "housewood2"
 	},
@@ -16081,6 +16190,13 @@
 	dir = 8
 	},
 /turf/open/floor/carpet/green,
+/area/f13/underground/cave)
+"tlq" = (
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/ghoul,
+/turf/open/floor/f13/wood{
+	icon_state = "housewood2"
+	},
 /area/f13/underground/cave)
 "tlA" = (
 /obj/structure/stone_tile/center,
@@ -16344,6 +16460,12 @@
 /obj/item/reagent_containers/food/drinks/soda_cans,
 /turf/open/floor/wood,
 /area/f13/vault)
+"tBM" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/generic,
+/mob/living/simple_animal/hostile/ghoul,
+/turf/open/floor/carpet/green,
+/area/f13/underground/cave)
 "tCl" = (
 /obj/item/twohanded/required/kirbyplants/photosynthetic,
 /obj/machinery/light/small{
@@ -17118,6 +17240,13 @@
 	icon_state = "darkdirty"
 	},
 /area/f13/bunker)
+"uCG" = (
+/obj/structure/rack,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/spawner/lootdrop/f13/weapon/gun/ballistic/mid,
+/obj/effect/spawner/lootdrop/f13/cash_ncr_med,
+/turf/open/floor/pod/dark,
+/area/f13/underground/cave)
 "uCR" = (
 /obj/machinery/vending/coffee,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
@@ -17453,6 +17582,7 @@
 /obj/item/clothing/under/syndicate/combat,
 /obj/item/clothing/gloves/combat,
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/spawner/lootdrop/f13/weapon/gun/energy/mid,
 /turf/open/floor/pod/dark,
 /area/f13/underground/cave)
 "uXf" = (
@@ -17935,6 +18065,7 @@
 /obj/effect/decal/cleanable/robot_debris/old{
 	icon_state = "gib4"
 	},
+/mob/living/simple_animal/hostile/supermutant/rangedmutant,
 /turf/open/floor/carpet/green,
 /area/f13/underground/cave)
 "vwT" = (
@@ -18261,6 +18392,13 @@
 	},
 /turf/open/floor/wood,
 /area/f13/vault)
+"vTm" = (
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/supermutant,
+/turf/open/floor/f13/wood{
+	icon_state = "housewood2"
+	},
+/area/f13/underground/cave)
 "vTu" = (
 /obj/machinery/computer/security{
 	dir = 4;
@@ -19099,6 +19237,10 @@
 	icon_state = "housewood2"
 	},
 /area/f13/underground/cave)
+"wRk" = (
+/mob/living/simple_animal/hostile/supermutant/meleemutant,
+/turf/open/floor/carpet/green,
+/area/f13/underground/cave)
 "wRm" = (
 /obj/effect/decal/cleanable/oil{
 	icon_state = "floor2"
@@ -19296,6 +19438,12 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/blue/white,
 /area/f13/vault)
+"xfV" = (
+/mob/living/simple_animal/hostile/ghoul/reaver,
+/turf/open/floor/f13/wood{
+	icon_state = "housewood2"
+	},
+/area/f13/underground/cave)
 "xgd" = (
 /obj/structure/simple_door/wood,
 /obj/structure/barricade/wooden/planks,
@@ -20173,6 +20321,7 @@
 /obj/machinery/light{
 	dir = 1
 	},
+/mob/living/simple_animal/hostile/supermutant/meleemutant,
 /turf/open/floor/f13/wood{
 	icon_state = "housewood2"
 	},
@@ -53601,7 +53750,7 @@ xmf
 pAb
 xmf
 xmf
-xmf
+bmS
 xmf
 nTS
 xmf
@@ -53623,11 +53772,11 @@ uIZ
 aRY
 aRY
 aRY
-uIZ
+oOP
 xyb
 xyb
 aRY
-xyb
+vTm
 pAb
 pAb
 rBT
@@ -53856,7 +54005,7 @@ xos
 cKj
 xmf
 xmf
-xmf
+eLs
 dgN
 xmf
 aRG
@@ -54115,7 +54264,7 @@ pAb
 xmf
 fmF
 xos
-xmf
+bmS
 xyb
 xyb
 xmf
@@ -54651,7 +54800,7 @@ xyb
 aRY
 aRY
 aRY
-xyb
+byW
 xyb
 pAb
 pAb
@@ -54915,7 +55064,7 @@ goH
 jRr
 xmf
 pAb
-pAb
+wRk
 pAb
 uIZ
 uIZ
@@ -55424,7 +55573,7 @@ tnc
 aRY
 hmv
 xmf
-taV
+eiQ
 pAb
 itU
 itU
@@ -55683,7 +55832,7 @@ ksS
 xmf
 xmf
 pAb
-xmf
+bzd
 itU
 uIZ
 pAb
@@ -55920,7 +56069,7 @@ nEO
 aRY
 hXR
 pAb
-bzd
+xmf
 nTS
 rPh
 aRY
@@ -55938,7 +56087,7 @@ jwH
 aRY
 eih
 pAb
-bzd
+xmf
 dKZ
 koy
 aRY
@@ -57454,9 +57603,9 @@ shT
 uIZ
 uVH
 smn
-neB
-xmf
-xmf
+tBM
+arV
+arV
 uIZ
 xyb
 aRY
@@ -57485,11 +57634,11 @@ aRY
 aRY
 aRY
 uIZ
-uIZ
+oOP
 xmf
 xmf
 pAb
-hmv
+hYo
 uIZ
 uIZ
 erm
@@ -57705,17 +57854,17 @@ heT
 aRY
 uIZ
 vSF
-xyb
+bJV
 xmf
 dgN
 pAb
 xmf
 xyb
-xmf
 arV
-xmf
+arV
+arV
 aRY
-xyb
+tlq
 uYC
 gwd
 aRY
@@ -57968,9 +58117,9 @@ prw
 eYg
 xmf
 uIZ
-pAb
-nTS
-xmf
+cnO
+swr
+auw
 opj
 dKZ
 xmf
@@ -57987,7 +58136,7 @@ heM
 jWN
 gRV
 iAC
-mIW
+liQ
 uSu
 uSu
 uSu
@@ -58262,7 +58411,7 @@ xmf
 xmf
 xyb
 nTS
-bJV
+xmf
 uJr
 qXI
 pAb
@@ -58481,7 +58630,7 @@ fmF
 cWk
 prw
 pAb
-vSF
+uIZ
 xmf
 urA
 xmf
@@ -58736,14 +58885,14 @@ uIZ
 xyb
 xmf
 tkL
-pAb
+cnO
 pAb
 uIZ
 xmf
 syC
 xmf
 aRY
-uIZ
+xfV
 uIZ
 hmv
 aRY
@@ -58755,7 +58904,7 @@ jVh
 nYi
 uSu
 bZV
-orx
+uCG
 wTV
 hpr
 orx
@@ -58991,7 +59140,7 @@ aRY
 aRY
 aRY
 smn
-rjJ
+xyb
 qUc
 gwd
 uIZ
@@ -59027,11 +59176,11 @@ aRY
 aRY
 aRY
 xyb
-xyb
+rkm
 pAb
 xmf
 xmf
-uIZ
+qTW
 uIZ
 apk
 sFE
@@ -60284,7 +60433,7 @@ xyb
 pAb
 xmf
 jRr
-uIZ
+mUJ
 uIZ
 aRY
 pAb
@@ -60539,14 +60688,14 @@ xmf
 pAb
 est
 xmf
-xmf
+bmS
 pAb
 xmf
 nEO
 aRY
-aNm
+rzk
 xmf
-cnO
+pAb
 bXr
 vhN
 aRY
@@ -60802,7 +60951,7 @@ xmf
 bfm
 wQY
 xmf
-nTS
+qXr
 xmf
 xmf
 ica
@@ -60829,7 +60978,7 @@ qxh
 xmf
 xmf
 pAb
-pAb
+wRk
 aRY
 xmf
 pAb
@@ -61052,7 +61201,7 @@ tge
 rzp
 xmf
 xyb
-aVL
+dtW
 dKZ
 pAb
 xmf
@@ -61060,7 +61209,7 @@ xmf
 itU
 itU
 xmf
-oDc
+gac
 pAb
 uIZ
 aRY
@@ -61591,7 +61740,7 @@ aRY
 aEI
 aRY
 uIZ
-bfg
+lBO
 erm
 uIZ
 pAb
@@ -61839,7 +61988,7 @@ aRY
 aRY
 xyb
 aRY
-rMw
+lyW
 xyb
 nuJ
 aRY
@@ -62621,7 +62770,7 @@ pbD
 xmf
 xmf
 nTS
-pAb
+wRk
 rHL
 gwd
 xyb
@@ -63369,7 +63518,7 @@ rzp
 vXl
 tge
 rBT
-xmf
+eLs
 pAb
 rzp
 tge
