@@ -106,9 +106,8 @@ Head Paladin
 	exp_requirements = 4800
 
 	loadout_options = list(
-	/datum/outfit/loadout/sentstand, //Tribeam laser
+	/datum/outfit/loadout/sentstand, //AER14
 	/datum/outfit/loadout/sentvet, //xl70e3
-	/datum/outfit/loadout/sentheavy, //Gauss + Glock
 	/datum/outfit/loadout/sentgat, // Gatling
 	/datum/outfit/loadout/sentmini // Minigun
 	)
@@ -157,7 +156,7 @@ Head Paladin
 
 /datum/outfit/loadout/sentstand
 	name = "Shock Head Paladin"
-	l_hand = /obj/item/gun/energy/laser/scatter
+	l_hand = /obj/item/gun/energy/laser/aer14
 	backpack_contents = list(
 		/obj/item/stock_parts/cell/ammo/mfc = 3,
 	)
@@ -167,15 +166,6 @@ Head Paladin
 	backpack_contents = list(
 		/obj/item/gun/ballistic/automatic/xl70e3 = 1,
 		/obj/item/ammo_box/magazine/m556/rifle/assault = 3,
-	)
-
-/datum/outfit/loadout/sentheavy
-	name = "Heavy Head Paladin"
-	backpack_contents = list(
-		/obj/item/gun/ballistic/automatic/m72 = 1,
-		/obj/item/ammo_box/magazine/m2mm = 3,
-		/obj/item/gun/energy/laser/plasma/glock = 1,
-		/obj/item/stock_parts/cell/ammo/ec = 2,
 	)
 
 /datum/outfit/loadout/sentgat
@@ -726,9 +716,7 @@ Senior Knight
 	exp_requirements = 1800
 
 	loadout_options = list(
-	/datum/outfit/loadout/sknighta, //AER9
-	/datum/outfit/loadout/sknightb, //Browning Auto-5
-	/datum/outfit/loadout/sknightc, //R93 PDW
+	/datum/outfit/loadout/sknighta, //AER12
 	/datum/outfit/loadout/sknightd, //Ripper, BPF
 	)
 
@@ -769,40 +757,20 @@ Senior Knight
 		/obj/item/reagent_containers/hypospray/medipen/stimpak=2,
 		/obj/item/book/granter/crafting_recipe/gunsmith_one=1,
 		/obj/item/book/granter/crafting_recipe/gunsmith_two=1
+		/obj/item/gun/ballistic/automatic/pistol/mk23=1,
+		/obj/item/ammo_box/magazine/m45exp=2,
 		)
 
 /datum/outfit/loadout/sknighta
 	name = "Footknight"
 	backpack_contents = list(
-		/obj/item/gun/energy/laser/aer9=1,
+		/obj/item/gun/energy/laser/aer12=1,
 		/obj/item/stock_parts/cell/ammo/mfc=2,
-		/obj/item/attachments/scope = 1,
-		/obj/item/gun/ballistic/automatic/pistol/mk23 = 1,
-		/obj/item/ammo_box/magazine/m45exp = 2,
-		)
-
-/datum/outfit/loadout/sknightb
-	name = "Knight-Defender"
-	backpack_contents = list(
-		/obj/item/gun/ballistic/shotgun/police=1,
-		/obj/item/ammo_box/shotgun/buck=2,
-		/obj/item/gun/energy/laser/pistol=1,
-		/obj/item/stock_parts/cell/ammo/ec=2,
-		)
-
-/datum/outfit/loadout/sknightc
-	name = "Recon"
-	backpack_contents = list(
-		/obj/item/gun/ballistic/automatic/r93=1,
-		/obj/item/ammo_box/magazine/m556/rifle=2,
-		/obj/item/gun/energy/laser/pistol=1,
-		/obj/item/stock_parts/cell/ammo/ec=2,
 		)
 
 /datum/outfit/loadout/sknightd
 	name = "Cavalry"
-	backpack_contents = list(
-		/obj/item/clothing/accessory/bos/knight=1,
+	backpack_contents = list(		
 		/obj/item/melee/powered/ripper/prewar=1,
 		/obj/item/shield/riot/bullet_proof=1,
 		)
