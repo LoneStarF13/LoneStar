@@ -325,22 +325,22 @@ Head Knight
 /datum/outfit/loadout/capstand
 	name = "Standard"
 	backpack_contents = list(
-		/obj/item/gun/energy/laser/wattz2k = 1,
+		/obj/item/gun/energy/laser/scatter = 1,
 		/obj/item/stock_parts/cell/ammo/mfc = 2,
 	)
 
 /datum/outfit/loadout/capsap
-	name = "Close Support"
+	name = "Shock Support"
 	backpack_contents = list(
-		/obj/item/gun/ballistic/automatic/service/alr = 1,
-		/obj/item/ammo_box/magazine/m556/rifle/assault = 2,
+		/obj/item/gun/ballistic/automatic/g11 = 1,
+		/obj/item/ammo_box/magazine/m473 = 2,
 	)
 
 /datum/outfit/loadout/capalt
 	name = "Warden-Defender"
 	backpack_contents = list(
-		/obj/item/gun/ballistic/shotgun/automatic/combat/neostead = 1,
-		/obj/item/ammo_box/shotgun/buck = 2,
+		/obj/item/gun/energy/laser/rcw = 1,
+		/obj/item/stock_parts/cell/ammo/ecp = 2,
 	)
 
 /*
@@ -523,7 +523,7 @@ Paladin
 /datum/outfit/loadout/paladinb
 	name = "Frontline Junior Paladin"
 	backpack_contents = list(
-		/obj/item/gun/energy/laser/aer9=1,
+		/obj/item/gun/energy/laser/aer12=1,
 		/obj/item/stock_parts/cell/ammo/mfc=2,
 		/obj/item/gun/ballistic/automatic/pistol/mk23=1,
 		/obj/item/ammo_box/magazine/m45exp=2,
@@ -553,7 +553,7 @@ Paladin
 /datum/outfit/loadout/paladine
 	name = "Frontline Paladin"
 	backpack_contents = list(
-		/obj/item/gun/energy/laser/aer9=1,
+		/obj/item/gun/energy/laser/aer12=1,
 		/obj/item/stock_parts/cell/ammo/mfc=2,
 		/obj/item/gun/ballistic/automatic/pistol/mk23=1,
 		/obj/item/ammo_box/magazine/m45exp=2,

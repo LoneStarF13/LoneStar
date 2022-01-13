@@ -1074,9 +1074,11 @@
 	mag_type = /obj/item/ammo_box/magazine/m473
 	fire_delay = 2.5
 	burst_shot_delay = 1.5
-	can_attachments = TRUE
+	spread = 4
+	recoil = 0.1
+	can_attachments = FALSE
 	can_automatic = TRUE
-	semi_auto = TRUE
+	semi_auto = FALSE
 	can_scope = FALSE
 	spread = 8
 	zoomable = TRUE
