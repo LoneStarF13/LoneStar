@@ -181,6 +181,7 @@
 	desc = "A no-nonsense revolver, more than likely made in some crude workshop in one of the more prosperous frontier towns."
 	icon_state = "357colt"
 	item_state = "357colt"
+	icon_prefix = "357mag"
 	mag_type = /obj/item/ammo_box/magazine/internal/cylinder/rev357
 	fire_delay = 6
 	spread = 0
@@ -221,6 +222,7 @@
 	desc = "Powerful handgun for those who want to travel the wasteland safely in style. Has a bit of a kick."
 	item_state = "model29"
 	icon_state = "m29"
+	icon_prefix = "m29"
 	mag_type = /obj/item/ammo_box/magazine/internal/cylinder/rev44
 	recoil = 0.1
 	can_scope = FALSE
@@ -292,6 +294,7 @@
 	desc = "I hadn't noticed, but there on his hip, was a short-barreled bad .44..."
 	item_state = "44colt"
 	icon_state = "44colt"
+	icon_prefix = "44colt"
 	mag_type = /obj/item/ammo_box/magazine/internal/cylinder/rev44
 	fire_delay = 6
 	extra_damage = 2
