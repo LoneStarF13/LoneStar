@@ -5888,8 +5888,11 @@
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/wasteland)
 "cBO" = (
-/obj/structure/chair/middle,
-/turf/open/floor/carpet/red,
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/obj/structure/closet/crate/bin,
+/turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "cBQ" = (
 /obj/structure/simple_door/house,
@@ -7758,10 +7761,10 @@
 	},
 /area/f13/ncr)
 "drw" = (
-/obj/structure/chair/middle{
-	dir = 1
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
 	},
-/turf/open/floor/carpet/red,
+/turf/closed/wall/f13/wood,
 /area/f13/building)
 "dsb" = (
 /obj/structure/table/wood/settler,
@@ -7895,13 +7898,10 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/building)
 "dve" = (
-/obj/structure/chair/right{
-	dir = 1
+/obj/structure/stairs/north{
+	color = "#A47449"
 	},
-/obj/effect/decal/cleanable/dirt{
-	color = "000000"
-	},
-/turf/open/floor/carpet/red,
+/turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "dvg" = (
 /obj/structure/tires/five,
@@ -9741,20 +9741,8 @@
 	},
 /area/f13/village)
 "ejT" = (
-/obj/effect/decal/fakelattice{
-	density = 1;
-	max_integrity = 5000
-	},
-/obj/structure/fluff/railing,
-/obj/structure/window/reinforced{
-	color = "#D2B48C";
-	dir = 1;
-	max_integrity = 200
-	},
-/obj/structure/curtain{
-	color = "#845f58"
-	},
-/turf/open/floor/plating/tunnel,
+/obj/structure/chair/booth,
+/turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "eku" = (
 /turf/open/floor/plasteel/f13/vault_floor/blue/side{
@@ -9928,12 +9916,10 @@
 /obj/machinery/light/small{
 	dir = 4
 	},
-/turf/open/floor/plasteel/stairs{
-	barefootstep = "woodbarefoot";
-	color = "#A47449";
-	footstep = "wood";
-	icon_state = "stairs-r"
+/obj/structure/stairs/north{
+	color = "#A47449"
 	},
+/turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "eof" = (
 /obj/effect/turf_decal/box/white,
@@ -11228,10 +11214,6 @@
 	icon_state = "bluedirtychess2"
 	},
 /area/f13/caves)
-"ePm" = (
-/obj/structure/chair/right,
-/turf/open/floor/carpet/red,
-/area/f13/building)
 "ePw" = (
 /turf/open/indestructible/ground/outside/road{
 	icon_state = "horizontaltopborderbottom0"
@@ -17694,13 +17676,6 @@
 /obj/structure/table/wood,
 /obj/item/storage/toolbox/mechanical/old,
 /turf/open/floor/f13,
-/area/f13/building)
-"hqv" = (
-/obj/structure/table/booth,
-/obj/machinery/light/small{
-	dir = 8
-	},
-/turf/open/floor/carpet/red,
 /area/f13/building)
 "hqw" = (
 /obj/effect/turf_decal/stripes/white/line{
@@ -38296,12 +38271,6 @@
 	icon_state = "horizontalbottomborderbottom0"
 	},
 /area/f13/wasteland)
-"qcd" = (
-/obj/structure/chair/left{
-	dir = 1
-	},
-/turf/open/floor/carpet/red,
-/area/f13/building)
 "qci" = (
 /obj/effect/decal/marking,
 /turf/open/indestructible/ground/outside/road,
@@ -54190,10 +54159,6 @@
 /obj/structure/debris/v4,
 /turf/closed/wall/r_wall/rust,
 /area/f13/caves)
-"xao" = (
-/obj/structure/chair/left,
-/turf/open/floor/carpet/red,
-/area/f13/building)
 "xay" = (
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
 	icon_state = "floorrustysolid"
@@ -88438,10 +88403,10 @@ ydO
 dWp
 mHj
 dCV
-dit
-dit
-dit
-dit
+ybx
+ybx
+ybx
+ybx
 dCV
 dCV
 uqa
@@ -89184,10 +89149,10 @@ uqa
 dCV
 ydw
 cvQ
-ePm
-hqv
-qcd
-ozq
+cDz
+cOM
+aRl
+cBO
 ejT
 eyf
 eLM
@@ -89441,11 +89406,11 @@ uqa
 dCV
 lHo
 eCK
-cBO
+cEb
 cHt
-drw
+aRl
 dVs
-ejT
+aRl
 eBJ
 aRl
 far
@@ -89698,11 +89663,11 @@ uqa
 dCV
 cWG
 eCK
-xao
-cEb
-dve
+cEH
+cPg
+aRl
 ozq
-ejT
+aRl
 ozq
 aRl
 ozq
@@ -89957,10 +89922,10 @@ mvv
 kEI
 eVJ
 cNO
+aRl
 ozq
-ozq
-ejT
-uzO
+aRl
+aRl
 aRl
 ozq
 fgG
@@ -90215,7 +90180,7 @@ kEI
 cDz
 cOM
 ozq
-aRl
+uqa
 gCh
 gCh
 cHk
@@ -90472,8 +90437,8 @@ eCK
 cEb
 cHt
 aRl
-nyv
-emC
+drw
+dve
 emC
 aRl
 ozq
@@ -90729,7 +90694,7 @@ gCh
 cEH
 cPg
 ozq
-ozq
+drw
 enM
 eBY
 aRl
