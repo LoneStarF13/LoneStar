@@ -113,6 +113,7 @@
 	desc = "A lever action rifle chambered in .357 Magnum. Smells vaguely of whiskey and cigarettes."
 	icon_state = "cowboyrepeater"
 	item_state = "cowboyrepeater"
+	icon_prefix = "cowboyrepeater"
 	mag_type = /obj/item/ammo_box/magazine/internal/shot/tube357
 	extra_damage = 5
 	fire_delay = 4.5
@@ -125,6 +126,7 @@
 	desc = "A lever action rifle chambered in .44 Magnum."
 	icon_state = "trailcarbine"
 	item_state = "trailcarbine"
+	icon_prefix = "trailcarbine"
 	mag_type = /obj/item/ammo_box/magazine/internal/shot/tube44
 	extra_damage = 5
 	fire_delay = 4.5
@@ -137,6 +139,7 @@
 	desc = "A short lever action rifle chambered in the heavy 45-70 round. Issued to NCR Veteran Rangers in the absence of heavier weaponry."
 	icon_state = "brushgun"
 	item_state = "brushgun"
+	icon_prefix = "brushgun"
 	mag_type = /obj/item/ammo_box/magazine/internal/shot/tube4570
 	extra_damage = 9
 	fire_delay = 4.5
@@ -156,6 +159,7 @@
 	desc = "A sturdy hunting rifle, chambered in .308. and in use before the war."
 	icon_state = "308"
 	item_state = "308"
+	icon_prefix = "308"
 	mag_type = /obj/item/ammo_box/magazine/internal/boltaction/hunting
 	sawn_desc = "A hunting rifle, crudely shortened with a saw. It's far from accurate, but the short barrel makes it quite portable."
 	fire_delay = 10
@@ -233,6 +237,7 @@
 	desc = "A rusty old Russian bolt action chambered in 7.62."
 	icon_state = "mosin"
 	item_state = "308"
+	icon_prefix = "308"
 	mag_type = /obj/item/ammo_box/magazine/internal/boltaction
 	extra_damage = 6
 	extra_speed = 600
