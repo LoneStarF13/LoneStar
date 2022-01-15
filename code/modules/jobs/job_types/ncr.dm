@@ -158,7 +158,7 @@ Weapons		Service Rifle, Rockwell, 9mm pistol, all good.
 	req_admin_notify = 1
 	display_order = JOB_DISPLAY_ORDER_CAPTAIN_NCR
 	outfit = /datum/outfit/job/ncr/f13captain
-	exp_requirements = 2000
+	exp_requirements = 1800
 
 	loadout_options = list(
 		/datum/outfit/loadout/elcapitan,	// Service Rifle
@@ -234,7 +234,7 @@ Weapons		Service Rifle, Rockwell, 9mm pistol, all good.
 	selection_color = "#fff5cc"
 	display_order = JOB_DISPLAY_ORDER_LIEUTENANT
 	outfit = /datum/outfit/job/ncr/f13lieutenant
-	exp_requirements = 1500
+	exp_requirements = 1400
 
 	matchmaking_allowed = list(
 		/datum/matchmaking_pref/friend = list(
@@ -446,7 +446,7 @@ Weapons		Service Rifle, Rockwell, 9mm pistol, all good.
 	display_order = JOB_DISPLAY_ORDER_VETRANGE
 	access = list(ACCESS_NCR, ACCESS_NCR_ARMORY, ACCESS_NCR_COMMAND)
 	outfit = /datum/outfit/job/ncr/f13vetranger
-	exp_requirements = 1500
+	exp_requirements = 1800
 
 	loadout_options = list( // ALL: Binoculars, Bowie knife
 		/datum/outfit/loadout/vrclassic, // AMR, Sequoia
