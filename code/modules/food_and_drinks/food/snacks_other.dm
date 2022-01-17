@@ -326,14 +326,14 @@
 	foodtype = GRAIN | MEAT
 
 /obj/item/reagent_containers/food/snacks/fuegoburrito
-	name = "fuego plasma burrito"
-	desc = "A super spicy burrito."
+	name = "fuego bean burrito"
+	desc = "A muy, muy spicy burrito filled with beans and ground meat."
 	icon_state = "fuegoburrito"
 	bonus_reagents = list(/datum/reagent/consumable/nutriment = 2, /datum/reagent/consumable/nutriment/vitamin = 3)
 	list_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/capsaicin = 5, /datum/reagent/consumable/nutriment/vitamin = 3)
 	filling_color = "#FF2000"
-	tastes = list("torilla" = 2, "meat" = 3, "hot peppers" = 1)
-	foodtype = GRAIN | MEAT
+	tastes = list("torilla" = 2, "meat" = 3, "hot peppers" = 1, "beans" = 2)
+	foodtype = GRAIN | MEAT | VEGETABLES
 
 /obj/item/reagent_containers/food/snacks/yakiimo
 	name = "yaki imo"
