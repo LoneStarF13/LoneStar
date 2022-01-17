@@ -61,9 +61,10 @@
 	. = ..()
 	AddComponent(/datum/component/armor_plate)
 
+// Edited desc to help the player figure out it got pockets, the "gimmick" it has.
 /obj/item/clothing/suit/armor/f13/raider/badlands
 	name = "badlands raider armor"
-	desc = "(III*) A leather top with a bandolier over it and a straps that cover the arms."
+	desc = "(III*) A leather top with a bandolier over it and a leather straps. Can store some ammo or other things."
 	icon_state = "badlands"
 	item_state = "badlands"
 	armor = list("tier" = 3, "linebullet" = -10, "linelaser" = -10, "energy" = 35, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 25, "acid" = 25)
@@ -312,7 +313,7 @@
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/suit_utility.dmi'
 	icon_state = "legion_slaveleather"
 	item_state = "legion_slaveleather"
-
+	allowed = list(/obj/item/hatchet, /obj/item/scythe, /obj/item/cultivator, /obj/item/shovel)
 
 /*
 /obj/item/clothing/suit/armor/f13/legion/vet/orator
@@ -666,6 +667,7 @@
 	desc = "(IV) The symbol of the greatest pushers."
 	icon_state = "khan_jacket"
 	item_state = "khan_jacket"
+	body_parts_covered = CHEST|GROIN|ARMS|LEGS|HANDS|FEET
 	armor = list("tier" = 4, "energy" = 20, "bomb" = 10, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0)
 
 /obj/item/clothing/suit/armor/khan_jacket/Initialize()
@@ -737,7 +739,7 @@
 
 /obj/item/clothing/suit/armor/f13/wayfarer/tribal_pa
 	name = "tribal full plate armor"
-	desc = "(VI) A set of power armor, now reborn in the paints of the Wayfarers, it serves its new owners as an idol to Kwer, as well as being a piece of heavy covering, with removed parts to allow for quick nimble speed, its hardly what it used to be long ago."
+	desc = "(VII) A set of power armor, now reborn in the paints of the Wayfarers, it serves its new owners as an idol to Kwer, as well as being a piece of heavy covering, with removed parts to allow for quick nimble speed, its hardly what it used to be long ago."
 	icon_state = "tribal_power_armor"
 	item_state = "tribal_power_armor"
 	armor = list("tier" = 7, "energy" = 50, "bomb" = 40, "bio" = 60, "rad" = 20, "fire" = 80, "acid" = 0)
