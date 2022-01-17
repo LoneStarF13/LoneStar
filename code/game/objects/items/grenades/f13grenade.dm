@@ -108,7 +108,7 @@
 
 /obj/item/grenade/f13/dynamite
 	name = "stick of dynamite"
-	desc = "you hold it down, I'll light the fuse!"
+	desc = "I'll hold it down, you light the fuse!"
 	icon = 'icons/fallout/objects/guns/explosives.dmi'
 	icon_state = "dynamite"
 	ex_dev = 0
