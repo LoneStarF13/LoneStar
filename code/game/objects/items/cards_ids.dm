@@ -995,9 +995,10 @@
 	icon_state = "ncrdogtagsergeant"
 
 /obj/item/card/id/dogtag/ncrrep
-	name = "representative's tags"
-	desc = "A special dog tag belonging to the NCR representative."
-	icon_state = "ncrdogtagofficer"
+	name = "representative's ID"
+	desc = "An silver encrusted Representative's ID in a plastic holder."
+    icon_state = "silver"
+	item_state = "silver"
 
 /obj/item/card/id/dogtag/ncrlieutenant
 	name = "lieutenant's tags"
