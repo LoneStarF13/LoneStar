@@ -1042,23 +1042,23 @@
 			if(null)
 				return 0
 			if("White Legs")
-				granted_trait = TRAIT_TRIBAL
+				granted_trait = TRAIT_IRONFIST
 				traitname = "White Legs"
 				crafting_recipe_types = list(/datum/crafting_recipe/ninemil, /datum/crafting_recipe/huntingrifle, /datum/crafting_recipe/n99, /datum/crafting_recipe/huntingrifle, /datum/crafting_recipe/m1911, /datum/crafting_recipe/varmintrifle, /datum/crafting_recipe/colt6520)
 			if("Other")
-				granted_trait = TRAIT_TRIBAL
+				granted_trait = TRAIT_TAGGER
 				traitname = "Other"
 			if("Rustwalkers")
 				granted_trait = TRAIT_TECHNOPHREAK
 				traitname = "Rustwalkers"
 				crafting_recipe_types = list(/datum/crafting_recipe/autoaxe, /datum/crafting_recipe/steelsaw, /datum/crafting_recipe/tools/forged/entrenching_tool, /datum/crafting_recipe/chainsaw)
 			if("Dead Horses")
-				granted_trait = TRAIT_IRONFIST
+				granted_trait = TRAIT_BIG_LEAGUES
 				traitname = "Dead Horses"
 			if("Sorrows")
 				granted_trait = TRAIT_TRAPPER
 				traitname = "Sorrows"
-			if("Eighties")				
+			if("Eighties")
 				granted_trait = TRAIT_FREERUNNING
 				traitname = "Eighties"
 			if("Wayfarers")
