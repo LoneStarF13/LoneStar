@@ -99,7 +99,7 @@
 #define CAT_SALAD	"Salads"
 #define CAT_SEAFOOD	"Seafood"
 #define CAT_SANDWICH	"Sandwiches"
-#define CAT_SOUP	"Soups"
+#define CAT_SOUP	"Soups & Stews"
 #define CAT_SPAGHETTI	"Spaghettis"
 #define CAT_ICE	"Frozen Foods"
 #define CAT_MEDICAL "Medical"

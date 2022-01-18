@@ -202,16 +202,16 @@
 	tastes = list("jelly" = 1, "mushroom" = 1)
 	foodtype = VEGETABLES | TOXIC
 
-/obj/item/reagent_containers/food/snacks/soup/stew
-	name = "stew"
-	desc = "A nice and warm stew. Healthy and strong."
+/obj/item/reagent_containers/food/snacks/soup/beefstew
+	name = "beef stew"
+	desc = "A nice and warm beef stew. Healthy and strong."
 	icon_state = "stew"
 	bonus_reagents = list(/datum/reagent/consumable/nutriment = 1, /datum/reagent/consumable/tomatojuice = 5, /datum/reagent/consumable/nutriment/vitamin = 5)
-	list_reagents = list(/datum/reagent/consumable/nutriment = 10, /datum/reagent/medicine/oculine = 5, /datum/reagent/consumable/tomatojuice = 5, /datum/reagent/consumable/nutriment/vitamin = 5)
+	list_reagents = list(/datum/reagent/consumable/nutriment = 10, /datum/reagent/medicine/oculine = 5, /datum/reagent/consumable/tato_juice = 5, /datum/reagent/consumable/nutriment/vitamin = 5)
 	bitesize = 7
 	volume = 100
-	tastes = list("tomato" = 1, "carrot" = 1)
-	foodtype = VEGETABLES
+	tastes = list("potato" = 1, "carrot" = 1, "meat" = 3)
+	foodtype = VEGETABLES | MEAT
 
 /obj/item/reagent_containers/food/snacks/soup/sweetpotato
 	name = "sweet potato soup"
