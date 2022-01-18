@@ -594,7 +594,7 @@ obj/item/twohanded/sledgehammer/supersledge/ComponentInitialize()
 	item_state = "chainsaw"
 	icon_prefix = "chainsaw"
 	w_class = WEIGHT_CLASS_BULKY
-	slot_flags = null
+	slot_flags = ITEM_SLOT_BACK
 	total_mass = TOTAL_MASS_MEDIEVAL_WEAPON
 	force = 7
 	wound_bonus = 25

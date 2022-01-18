@@ -1677,7 +1677,8 @@ datum/job/wasteland/f13dendoctor
 		/obj/item/gun/ballistic/automatic/autopipe = 1,
 		/obj/item/ammo_box/magazine/autopipe = 2,
 		/obj/item/reagent_containers/pill/patch/healingpowder = 2,
-		/obj/item/circular_saw = 1
+		/obj/item/circular_saw = 1,
+		/obj/item/book/granter/crafting_recipe/tribal/rustwalkers = 1
 	)
 
 /datum/outfit/loadout/rustwalkersscrapper
@@ -1694,7 +1695,7 @@ datum/job/wasteland/f13dendoctor
 	)
 
 /datum/outfit/loadout/rustwalkersshaman
-	name = "Rustwalkers Brain-Jack"
+	name = "Rustwalkers Mind-Jack"
 	backpack_contents = list(
 		/obj/item/clothing/under/f13/rustwalkers = 1,
 		/obj/item/clothing/under/f13/female/rustwalkers = 1,
@@ -1703,8 +1704,7 @@ datum/job/wasteland/f13dendoctor
 		/obj/item/circular_saw = 1,
 		/obj/item/reagent_containers/pill/patch/healpoultice = 2,
 		/obj/item/storage/belt/utility/full = 1,
-		/obj/item/book/granter/trait/lowsurgery = 1,
-		/obj/item/book/granter/crafting_recipe/tribal/rustwalkers = 1
+		/obj/item/book/granter/trait/lowsurgery = 1
 )
 
 /datum/outfit/job/wasteland/f13tribal/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
