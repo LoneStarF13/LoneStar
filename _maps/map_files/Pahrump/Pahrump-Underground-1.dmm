@@ -54,9 +54,8 @@
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
 /area/f13/caves)
 "acI" = (
-/obj/structure/table/wood,
-/obj/item/pda,
-/turf/open/floor/wood/wood_large,
+/obj/item/bodypart/r_leg,
+/turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
 "acL" = (
 /obj/effect/decal/cleanable/dirt,
@@ -3335,6 +3334,18 @@
 /obj/item/storage/fancy/donut_box,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/tunnel)
+"cbH" = (
+/obj/structure/closet/cabinet/anchored,
+/obj/item/clothing/under/f13/ranger,
+/obj/item/clothing/under/f13/ranger/blue,
+/obj/item/clothing/under/f13/ranger/modif_ranger,
+/obj/item/clothing/under/f13/ranger/patrol,
+/obj/item/clothing/under/f13/ranger/trail,
+/obj/item/clothing/under/f13/ranger/vet,
+/obj/item/clothing/under/f13/ranger/vet/foxflannel,
+/obj/item/encryptionkey/headset_ranger,
+/turf/open/floor/wood/wood_large,
+/area/f13/caves)
 "cbI" = (
 /obj/effect/decal/cleanable/blood{
 	icon_state = "gib2_flesh"
@@ -3976,15 +3987,8 @@
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/tunnel)
 "cwv" = (
-/obj/structure/decoration/vent,
-/obj/structure/curtain,
-/obj/machinery/shower{
-	dir = 1;
-	icon_state = "shower"
-	},
-/turf/open/floor/f13{
-	icon_state = "bluedirtychess2"
-	},
+/obj/effect/decal/cleanable/blood/gibs,
+/turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
 "cwN" = (
 /obj/structure/bed/mattress{
@@ -4424,8 +4428,8 @@
 /turf/open/indestructible/ground/outside/ruins,
 /area/f13/bunker)
 "cGx" = (
-/obj/machinery/light,
-/turf/open/floor/wood/wood_diagonal,
+/obj/effect/mob_spawn/human/corpse/legion,
+/turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
 "cGz" = (
 /obj/structure/barricade/wooden,
@@ -4913,11 +4917,8 @@
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
 /area/f13/tunnel)
 "cUx" = (
-/obj/structure/sign/plaques/golden,
-/turf/closed/wall/f13/store{
-	desc = "A pre-War wall made of solid concrete.";
-	name = "concrete wall"
-	},
+/obj/item/bodypart/l_arm,
+/turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
 "cVg" = (
 /obj/item/chair/wood,
@@ -6180,12 +6181,10 @@
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/caves)
 "dHk" = (
-/obj/structure/barricade/bars,
-/obj/effect/spawner/structure/window/reinforced,
-/obj/structure/curtain{
-	color = "#845f58"
+/turf/closed/wall/f13/store{
+	desc = "A pre-War wall made of solid concrete.";
+	name = "concrete wall"
 	},
-/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/caves)
 "dHv" = (
 /obj/structure/window/fulltile/house{
@@ -7818,6 +7817,47 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/f13/tcoms)
+"eCE" = (
+/obj/structure/table/wood/bar,
+/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass{
+	pixel_x = 9;
+	pixel_y = 19
+	},
+/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass{
+	pixel_x = 2;
+	pixel_y = 11
+	},
+/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass{
+	pixel_x = 9;
+	pixel_y = 11
+	},
+/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass{
+	pixel_x = 2;
+	pixel_y = 19
+	},
+/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass{
+	pixel_x = 2;
+	pixel_y = 3
+	},
+/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass{
+	pixel_x = 9;
+	pixel_y = 3
+	},
+/obj/item/reagent_containers/food/drinks/bottle/tequila{
+	pixel_x = -8;
+	pixel_y = 10
+	},
+/obj/item/reagent_containers/food/drinks/bottle/whiskey{
+	pixel_x = -8
+	},
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/wood/wood_diagonal,
+/area/f13/caves)
 "eCK" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -7889,10 +7929,11 @@
 	},
 /area/f13/bunker)
 "eEy" = (
-/obj/structure/bed,
-/obj/item/bedsheet/black,
-/obj/effect/landmark/start/f13/ncrranger,
-/turf/open/floor/wood/wood_diagonal,
+/obj/structure/sign/poster/ncr/democracy,
+/turf/closed/wall/f13/store{
+	desc = "A pre-War wall made of solid concrete.";
+	name = "concrete wall"
+	},
 /area/f13/caves)
 "eEL" = (
 /obj/structure/rack,
@@ -8440,10 +8481,8 @@
 /turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,
 /area/f13/brotherhood/reactor)
 "eXm" = (
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/open/floor/wood/wood_large,
+/obj/structure/headpike/bone,
+/turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
 "eXp" = (
 /obj/effect/decal/cleanable/blood/old{
@@ -11309,12 +11348,8 @@
 	},
 /area/f13/brotherhood/rnd)
 "gDB" = (
-/obj/structure/toilet{
-	pixel_y = 13
-	},
-/turf/open/floor/f13{
-	icon_state = "bluedirtychess2"
-	},
+/obj/effect/mob_spawn/human/corpse/ncr,
+/turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
 "gDU" = (
 /obj/effect/decal/cleanable/blood/tracks,
@@ -12052,6 +12087,9 @@
 	baseturfs = /turf/open/floor/plating/f13/outside/desert
 	},
 /area/f13/caves)
+"gVH" = (
+/turf/open/floor/wood/wood_large,
+/area/f13/caves)
 "gVL" = (
 /obj/effect/decal/cleanable/blood/tracks,
 /obj/effect/decal/cleanable/dirt{
@@ -12634,14 +12672,11 @@
 /turf/open/floor/plating,
 /area/f13/tcoms)
 "huY" = (
-/obj/structure/closet/crate{
-	anchored = 1;
-	can_be_unanchored = 1
+/mob/living/simple_animal/chicken/rabbit{
+	desc = "Three shalt be the number thou shalt count, and the number of the counting shall be three. Four shalt thou not count, nor either count thou two, excepting that thou then proceed to three. Five is right out.";
+	name = "Killer Rabbit"
 	},
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/open/floor/wood/wood_diagonal,
+/turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
 "hvr" = (
 /obj/structure/cable{
@@ -12989,12 +13024,10 @@
 	},
 /area/f13/bunker)
 "hLV" = (
-/obj/structure/ladder/unbreakable{
-	height = 1;
-	id = "ncrranger";
-	name = "Ranger bunks ladder"
+/obj/effect/decal/cleanable/blood/gibs{
+	icon_state = "gibup1"
 	},
-/turf/open/floor/wood/wood_diagonal,
+/turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
 "hMf" = (
 /obj/effect/decal/cleanable/dirt,
@@ -13226,10 +13259,12 @@
 /turf/open/floor/plasteel/f13/vault_floor/red,
 /area/f13/bunker)
 "hTy" = (
-/obj/structure/simple_door/metal,
-/turf/open/floor/f13{
-	icon_state = "bluedirtychess2"
+/obj/structure/ladder/unbreakable{
+	height = 1;
+	id = "ncrranger";
+	name = "Ranger bunks ladder"
 	},
+/turf/open/floor/wood/wood_diagonal,
 /area/f13/caves)
 "hUn" = (
 /obj/structure/table/reinforced,
@@ -14672,9 +14707,7 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/open/floor/f13{
-	icon_state = "bluedirtychess2"
-	},
+/turf/open/floor/wood/wood_diagonal,
 /area/f13/caves)
 "iYB" = (
 /obj/effect/mob_spawn/human/corpse/bs,
@@ -15407,15 +15440,14 @@
 	},
 /area/f13/bunker)
 "jAM" = (
-/obj/structure/decoration/vent,
-/obj/structure/curtain,
-/obj/machinery/shower{
-	pixel_y = 20
-	},
-/obj/item/soap/deluxe,
-/turf/open/floor/f13{
-	icon_state = "bluedirtychess2"
-	},
+/obj/structure/rack,
+/obj/item/storage/box/handcuffs,
+/obj/item/flashlight/seclite,
+/obj/item/flashlight/seclite,
+/obj/item/flashlight/seclite,
+/obj/item/flashlight/seclite,
+/obj/item/flashlight/seclite,
+/turf/open/floor/wood/wood_diagonal,
 /area/f13/caves)
 "jAZ" = (
 /obj/structure/chair/wood/modern,
@@ -17949,12 +17981,14 @@
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
 "lyR" = (
-/obj/machinery/door/unpowered/securedoor{
-	desc = "Door with a built-in lock. Can't be padlocked. The Black armor isn't the only perk Veterans get..";
-	name = "Veteran Ranger's Room";
-	req_access_txt = "121"
+/obj/structure/closet/crate{
+	anchored = 1;
+	can_be_unanchored = 1
 	},
-/turf/open/floor/wood/wood_large,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/wood/wood_diagonal,
 /area/f13/caves)
 "lzb" = (
 /obj/effect/decal/cleanable/dirt,
@@ -18213,11 +18247,10 @@
 	},
 /area/f13/followers)
 "lIv" = (
-/obj/structure/sign/poster/ncr/democracy,
-/turf/closed/wall/f13/store{
-	desc = "A pre-War wall made of solid concrete.";
-	name = "concrete wall"
-	},
+/obj/structure/bed,
+/obj/item/bedsheet/black,
+/obj/effect/landmark/start/f13/ncrranger,
+/turf/open/floor/wood/wood_diagonal,
 /area/f13/caves)
 "lIx" = (
 /obj/machinery/microwave/stove,
@@ -20335,6 +20368,13 @@
 	dir = 8
 	},
 /area/f13/tcoms)
+"ngq" = (
+/obj/structure/sign/plaques/golden,
+/turf/closed/wall/f13/store{
+	desc = "A pre-War wall made of solid concrete.";
+	name = "concrete wall"
+	},
+/area/f13/caves)
 "ngP" = (
 /obj/structure/decoration/smokeold,
 /turf/closed/wall/r_wall,
@@ -21560,12 +21600,11 @@
 /turf/open/floor/plating/tunnel,
 /area/f13/den)
 "nYo" = (
-/obj/structure/sign/warning{
-	name = "WARNING: In the event of an attack, personel are forbidden to shelter here."
+/obj/structure/toilet{
+	pixel_y = 13
 	},
-/turf/closed/wall/f13/store{
-	desc = "A pre-War wall made of solid concrete.";
-	name = "concrete wall"
+/turf/open/floor/f13{
+	icon_state = "bluedirtychess2"
 	},
 /area/f13/caves)
 "nYR" = (
@@ -21877,6 +21916,11 @@
 	icon_state = "tunnelchess"
 	},
 /area/f13/den)
+"ohK" = (
+/obj/structure/table/wood,
+/obj/item/pda,
+/turf/open/floor/wood/wood_large,
+/area/f13/caves)
 "ohO" = (
 /obj/structure/flora/rock/jungle{
 	density = 1
@@ -22005,12 +22049,7 @@
 	},
 /area/f13/clinic)
 "olq" = (
-/obj/structure/toilet{
-	dir = 1
-	},
-/turf/open/floor/f13{
-	icon_state = "bluedirtychess2"
-	},
+/turf/open/floor/wood/wood_diagonal,
 /area/f13/caves)
 "olt" = (
 /obj/structure/table/glass,
@@ -22161,6 +22200,14 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/f13/brotherhood/medical)
+"osu" = (
+/obj/structure/bed,
+/obj/item/bedsheet/hos{
+	desc = "This red and gold blanket has an aura of affluence.";
+	name = "fancy red bedsheet"
+	},
+/turf/open/floor/wood/wood_large,
+/area/f13/caves)
 "osv" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13{
@@ -22168,12 +22215,12 @@
 	},
 /area/f13/tunnel)
 "osw" = (
-/obj/machinery/door/unpowered/securedoor{
-	desc = "Door with a built-in lock. Can't be padlocked. You can smell the whisky and toughness from even outside the door.";
-	name = "Ranger's Office";
-	req_access_txt = "121"
+/obj/structure/barricade/bars,
+/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/curtain{
+	color = "#845f58"
 	},
-/turf/open/floor/wood/wood_diagonal,
+/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/caves)
 "osH" = (
 /obj/structure/handrail/g_central{
@@ -22626,9 +22673,9 @@
 /turf/open/floor/f13/wood,
 /area/f13/den)
 "oLt" = (
-/turf/closed/wall/f13/store{
-	desc = "A pre-War wall made of solid concrete.";
-	name = "concrete wall"
+/obj/structure/simple_door/metal,
+/turf/open/floor/f13{
+	icon_state = "bluedirtychess2"
 	},
 /area/f13/caves)
 "oLQ" = (
@@ -22690,12 +22737,15 @@
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/bunker)
 "oOs" = (
-/obj/structure/closet/crate{
-	anchored = 1;
-	can_be_unanchored = 1
+/obj/structure/decoration/vent,
+/obj/structure/curtain,
+/obj/machinery/shower{
+	pixel_y = 20
 	},
-/obj/machinery/light,
-/turf/open/floor/wood/wood_diagonal,
+/obj/item/soap/deluxe,
+/turf/open/floor/f13{
+	icon_state = "bluedirtychess2"
+	},
 /area/f13/caves)
 "oOE" = (
 /obj/effect/spawner/lootdrop/trash,
@@ -24421,6 +24471,14 @@
 /obj/structure/simple_door/metal/ventilation,
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/f13/brotherhood/medical)
+"qdr" = (
+/obj/structure/toilet{
+	dir = 1
+	},
+/turf/open/floor/f13{
+	icon_state = "bluedirtychess2"
+	},
+/area/f13/caves)
 "qdK" = (
 /obj/effect/decal/cleanable/shreds{
 	pixel_x = -6;
@@ -25732,7 +25790,13 @@
 	},
 /area/f13/bunker)
 "qSX" = (
-/turf/open/floor/wood/wood_diagonal,
+/obj/structure/sink{
+	dir = 8;
+	pixel_x = -12
+	},
+/turf/open/floor/f13{
+	icon_state = "bluedirtychess2"
+	},
 /area/f13/caves)
 "qTb" = (
 /obj/effect/spawner/lootdrop/f13/cash_random_low,
@@ -25993,45 +26057,12 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/bunker)
 "rby" = (
-/obj/structure/table/wood/bar,
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass{
-	pixel_x = 9;
-	pixel_y = 19
-	},
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass{
-	pixel_x = 2;
-	pixel_y = 11
-	},
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass{
-	pixel_x = 9;
-	pixel_y = 11
-	},
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass{
-	pixel_x = 2;
-	pixel_y = 19
-	},
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass{
-	pixel_x = 2;
-	pixel_y = 3
-	},
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass{
-	pixel_x = 9;
-	pixel_y = 3
-	},
-/obj/item/reagent_containers/food/drinks/bottle/tequila{
-	pixel_x = -8;
-	pixel_y = 10
-	},
-/obj/item/reagent_containers/food/drinks/bottle/whiskey{
-	pixel_x = -8
-	},
-/obj/effect/decal/cleanable/dirt{
-	color = "000000"
-	},
 /obj/machinery/light{
-	dir = 4
+	dir = 1
 	},
-/turf/open/floor/wood/wood_diagonal,
+/turf/open/floor/f13{
+	icon_state = "bluedirtychess2"
+	},
 /area/f13/caves)
 "rbE" = (
 /obj/machinery/telecomms/server/presets/command,
@@ -26123,6 +26154,12 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/brotherhood/chemistry)
+"rel" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/wood/wood_large,
+/area/f13/caves)
 "rex" = (
 /turf/closed/indestructible/rock,
 /area/f13/bunker)
@@ -26191,8 +26228,12 @@
 	},
 /area/f13/bunker)
 "rhV" = (
-/turf/open/floor/f13{
-	icon_state = "bluedirtychess2"
+/obj/structure/sign/warning{
+	name = "WARNING: In the event of an attack, personel are forbidden to shelter here."
+	},
+/turf/closed/wall/f13/store{
+	desc = "A pre-War wall made of solid concrete.";
+	name = "concrete wall"
 	},
 /area/f13/caves)
 "rja" = (
@@ -26293,11 +26334,10 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/bunker)
 "roM" = (
-/obj/structure/bed/dogbed,
-/mob/living/simple_animal/hostile/wolf/alpha{
-	desc = "The NCR Rangers have been known to employ K9 units from time to time.";
-	faction = list("neutral");
-	name = "Ranger Seth"
+/obj/machinery/door/unpowered/securedoor{
+	desc = "Door with a built-in lock. Can't be padlocked. You can smell the whisky and toughness from even outside the door.";
+	name = "Ranger's Office";
+	req_access_txt = "121"
 	},
 /turf/open/floor/wood/wood_diagonal,
 /area/f13/caves)
@@ -27017,10 +27057,13 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/brotherhood/medical)
 "rNL" = (
-/obj/machinery/light,
-/turf/open/floor/f13{
-	icon_state = "bluedirtychess2"
+/obj/structure/bed/dogbed,
+/mob/living/simple_animal/hostile/wolf/alpha{
+	desc = "The NCR Rangers have been known to employ K9 units from time to time.";
+	faction = list("neutral");
+	name = "Ranger Seth"
 	},
+/turf/open/floor/wood/wood_diagonal,
 /area/f13/caves)
 "rNO" = (
 /obj/effect/decal/cleanable/dirt,
@@ -27667,12 +27710,11 @@
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
 /area/f13/caves)
 "sok" = (
-/obj/structure/bed,
-/obj/item/bedsheet/hos{
-	desc = "This red and gold blanket has an aura of affluence.";
-	name = "fancy red bedsheet"
+/obj/structure/sign/poster/contraband/revolver,
+/turf/closed/wall/f13/store{
+	desc = "A pre-War wall made of solid concrete.";
+	name = "concrete wall"
 	},
-/turf/open/floor/wood/wood_large,
 /area/f13/caves)
 "sor" = (
 /obj/effect/spawner/lootdrop/trash,
@@ -28051,14 +28093,12 @@
 /turf/open/floor/plasteel,
 /area/f13/tcoms)
 "sHX" = (
-/obj/structure/rack,
-/obj/item/storage/box/handcuffs,
-/obj/item/flashlight/seclite,
-/obj/item/flashlight/seclite,
-/obj/item/flashlight/seclite,
-/obj/item/flashlight/seclite,
-/obj/item/flashlight/seclite,
-/turf/open/floor/wood/wood_diagonal,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/f13{
+	icon_state = "bluedirtychess2"
+	},
 /area/f13/caves)
 "sIa" = (
 /obj/structure/chair/booth{
@@ -29618,16 +29658,9 @@
 	},
 /area/f13/brotherhood/operating)
 "tTx" = (
-/obj/structure/closet/cabinet/anchored,
-/obj/item/clothing/under/f13/ranger,
-/obj/item/clothing/under/f13/ranger/blue,
-/obj/item/clothing/under/f13/ranger/modif_ranger,
-/obj/item/clothing/under/f13/ranger/patrol,
-/obj/item/clothing/under/f13/ranger/trail,
-/obj/item/clothing/under/f13/ranger/vet,
-/obj/item/clothing/under/f13/ranger/vet/foxflannel,
-/obj/item/encryptionkey/headset_ranger,
-/turf/open/floor/wood/wood_large,
+/turf/open/floor/f13{
+	icon_state = "bluedirtychess2"
+	},
 /area/f13/caves)
 "tTy" = (
 /obj/structure/flora/wasteplant/wild_fungus,
@@ -30480,12 +30513,8 @@
 /turf/open/floor/wood/f13/oak,
 /area/f13/den)
 "uDJ" = (
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/open/floor/f13{
-	icon_state = "bluedirtychess2"
-	},
+/obj/machinery/light,
+/turf/open/floor/wood/wood_diagonal,
 /area/f13/caves)
 "uDO" = (
 /obj/structure/table,
@@ -31028,7 +31057,12 @@
 	},
 /area/f13/clinic)
 "vcQ" = (
-/turf/open/floor/wood/wood_large,
+/obj/structure/closet/crate{
+	anchored = 1;
+	can_be_unanchored = 1
+	},
+/obj/machinery/light,
+/turf/open/floor/wood/wood_diagonal,
 /area/f13/caves)
 "vdE" = (
 /obj/structure/wreck/trash/machinepiletwo,
@@ -31277,10 +31311,15 @@
 /turf/open/floor/carpet/black,
 /area/f13/brotherhood/offices2nd)
 "vnX" = (
-/obj/machinery/light{
-	dir = 1
+/obj/structure/decoration/vent,
+/obj/structure/curtain,
+/obj/machinery/shower{
+	dir = 1;
+	icon_state = "shower"
 	},
-/turf/open/floor/wood/wood_diagonal,
+/turf/open/floor/f13{
+	icon_state = "bluedirtychess2"
+	},
 /area/f13/caves)
 "vnY" = (
 /obj/structure/rack,
@@ -31397,10 +31436,7 @@
 /turf/open/water,
 /area/f13/den)
 "vrY" = (
-/obj/structure/sink{
-	dir = 8;
-	pixel_x = -12
-	},
+/obj/machinery/light,
 /turf/open/floor/f13{
 	icon_state = "bluedirtychess2"
 	},
@@ -34953,11 +34989,12 @@
 	},
 /area/f13/caves)
 "ydd" = (
-/obj/structure/sign/poster/contraband/revolver,
-/turf/closed/wall/f13/store{
-	desc = "A pre-War wall made of solid concrete.";
-	name = "concrete wall"
+/obj/machinery/door/unpowered/securedoor{
+	desc = "Door with a built-in lock. Can't be padlocked. The Black armor isn't the only perk Veterans get..";
+	name = "Veteran Ranger's Room";
+	req_access_txt = "121"
 	},
+/turf/open/floor/wood/wood_large,
 /area/f13/caves)
 "yeg" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
@@ -35670,7 +35707,7 @@ eLE
 eLE
 uoO
 uoO
-uoO
+aoj
 uoO
 uoO
 uoO
@@ -35927,11 +35964,11 @@ eLE
 eLE
 uoO
 uoO
+aoj
 uoO
 uoO
 uoO
-uoO
-uoO
+aoj
 uoO
 uoO
 uoO
@@ -36185,8 +36222,8 @@ eLE
 uoO
 uoO
 uoO
-uoO
-uoO
+aoj
+aoj
 uoO
 uoO
 uoO
@@ -36440,8 +36477,8 @@ eLE
 (6,1,1) = {"
 eLE
 uoO
-uoO
-uoO
+aoj
+aoj
 uoO
 uoO
 uoO
@@ -36955,7 +36992,7 @@ eLE
 eLE
 uoO
 uoO
-uoO
+aoj
 uoO
 uoO
 uoO
@@ -37998,19 +38035,19 @@ uoO
 uoO
 uoO
 uoO
-eLE
-eLE
-eLE
-eLE
-eLE
-eLE
-eLE
-aoj
-aoj
-aoj
+uoO
+uoO
+uoO
 uoO
 uoO
 aoj
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
 aoj
 aoj
 aoj
@@ -38238,14 +38275,14 @@ eLE
 "}
 (13,1,1) = {"
 eLE
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
+eLE
+eLE
+eLE
+eLE
+eLE
+eLE
+eLE
+eLE
 uoO
 uoO
 uoO
@@ -38254,15 +38291,15 @@ aoj
 uoO
 uoO
 uoO
-eLE
-oLt
-oLt
-oLt
-oLt
-oLt
-oLt
-oLt
-eLE
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
 uoO
 uoO
 uoO
@@ -38495,15 +38532,15 @@ eLE
 "}
 (14,1,1) = {"
 eLE
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
+eLE
+dHk
+dHk
+dHk
+dHk
+dHk
+dHk
+dHk
+eLE
 uoO
 uoO
 uoO
@@ -38511,15 +38548,15 @@ aoj
 uoO
 uoO
 uoO
-eLE
-oLt
-gDB
-hTy
-uDJ
-hTy
-olq
-oLt
-eLE
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
 uoO
 uoO
 uoO
@@ -38752,32 +38789,32 @@ eLE
 "}
 (15,1,1) = {"
 eLE
-uoO
-uoO
-uoO
-uoO
-uoO
-aoj
-aoj
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-aoj
-uoO
-uoO
 eLE
+dHk
+nYo
 oLt
+sHX
 oLt
-oLt
-rhV
-oLt
-oLt
-oLt
+qdr
+dHk
 eLE
 uoO
+uoO
+uoO
+uoO
+aoj
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+aoj
 uoO
 uoO
 uoO
@@ -39009,34 +39046,34 @@ eLE
 "}
 (16,1,1) = {"
 eLE
-uoO
-uoO
-uoO
-uoO
-uoO
-aoj
-aoj
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-aoj
-uoO
-uoO
-uoO
 eLE
-oLt
-jAM
-rhV
-cwv
-oLt
+dHk
+dHk
+dHk
+tTx
+dHk
+dHk
+dHk
 eLE
 uoO
+aoj
+uoO
+uoO
+aoj
 uoO
 uoO
 uoO
+uoO
+uoO
+aoj
+aoj
+aoj
+uoO
+uoO
+aoj
+uoO
+uoO
+aoj
 uoO
 uoO
 uoO
@@ -39266,34 +39303,34 @@ eLE
 "}
 (17,1,1) = {"
 eLE
-uoO
-uoO
-uoO
-aoj
-aoj
-aoj
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-aoj
-uoO
-uoO
-uoO
-eLE
-oLt
-oLt
-rhV
-oLt
-oLt
+acI
+eXm
+dHk
+oOs
+tTx
+vnX
+dHk
 eLE
 uoO
 uoO
+aoj
 uoO
 uoO
+aoj
+uoO
+uoO
+uoO
+uoO
+uoO
+aoj
+aoj
+aoj
+uoO
+uoO
+uoO
+uoO
+uoO
+aoj
 uoO
 uoO
 uoO
@@ -39523,30 +39560,30 @@ eLE
 "}
 (18,1,1) = {"
 eLE
-uoO
-uoO
-uoO
-aoj
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
+cwv
+gDB
+dHk
+dHk
+tTx
+dHk
+dHk
 eLE
-oLt
-vrY
-rhV
-vrY
-oLt
-eLE
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
 uoO
 uoO
 uoO
@@ -39780,33 +39817,33 @@ eLE
 "}
 (19,1,1) = {"
 eLE
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-aoj
-aoj
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-aoj
+cGx
+huY
+dHk
+qSX
+tTx
+qSX
+dHk
 eLE
-oLt
-iYl
-rhV
-rNL
-oLt
-eLE
-eLE
+uoO
+uoO
 aoj
+uoO
+uoO
+uoO
+uoO
 aoj
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
 uoO
 uoO
 uoO
@@ -40037,32 +40074,32 @@ eLE
 "}
 (20,1,1) = {"
 eLE
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-aoj
-aoj
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-aoj
+cUx
+hLV
+dHk
+rby
+tTx
+vrY
+dHk
 eLE
-oLt
-oLt
-hTy
-oLt
-nYo
-oLt
-oLt
-eLE
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+aoj
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
 aoj
 uoO
 uoO
@@ -40294,35 +40331,35 @@ eLE
 "}
 (21,1,1) = {"
 eLE
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-aoj
-aoj
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-aoj
-aoj
-eLE
+dHk
+dHk
+dHk
+rhV
 oLt
-qSX
-qSX
-hLV
-qSX
-oLt
+dHk
 eLE
-eLE
-eLE
-eLE
+aoj
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+aoj
+aoj
+aoj
+aoj
+uoO
+aoj
+uoO
+uoO
+uoO
 uoO
 uoO
 aoj
@@ -40551,36 +40588,36 @@ eLE
 "}
 (22,1,1) = {"
 eLE
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-aoj
-aoj
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-aoj
-aoj
+dHk
+hTy
+olq
+olq
+olq
+dHk
 eLE
-oLt
-vnX
-qSX
-qSX
-cGx
-oLt
-oLt
-cUx
-oLt
-oLt
 eLE
+eLE
+eLE
+uoO
+uoO
+uoO
+aoj
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+aoj
+aoj
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
 uoO
 aoj
 aoj
@@ -40808,36 +40845,36 @@ eLE
 "}
 (23,1,1) = {"
 eLE
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-eLE
-oLt
-oLt
 dHk
-osw
+iYl
+olq
+olq
+uDJ
 dHk
-oLt
-eXm
-vcQ
-tTx
-oLt
+dHk
+ngq
+dHk
+dHk
 eLE
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+aoj
+aoj
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
 uoO
 aoj
 aoj
@@ -41065,11 +41102,27 @@ eLE
 "}
 (24,1,1) = {"
 eLE
+dHk
+dHk
+osw
+roM
+osw
+dHk
+rel
+gVH
+cbH
+dHk
+eLE
 uoO
 uoO
 uoO
 uoO
 uoO
+uoO
+uoO
+uoO
+uoO
+aoj
 aoj
 uoO
 uoO
@@ -41079,22 +41132,6 @@ uoO
 uoO
 uoO
 uoO
-uoO
-uoO
-uoO
-uoO
-eLE
-oLt
-sHX
-qSX
-qSX
-qSX
-lyR
-vcQ
-vcQ
-sok
-oLt
-eLE
 uoO
 uoO
 uoO
@@ -41322,36 +41359,36 @@ eLE
 "}
 (25,1,1) = {"
 eLE
-uoO
-uoO
-uoO
-uoO
-uoO
-aoj
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-aoj
-aoj
-uoO
+dHk
+jAM
+olq
+olq
+olq
+ydd
+gVH
+gVH
+osu
+dHk
 eLE
-oLt
-huY
-qSX
-qSX
-oOs
-oLt
-acI
-vcQ
-rby
-oLt
-eLE
+uoO
+uoO
+uoO
+uoO
+aoj
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+aoj
+uoO
+uoO
 uoO
 uoO
 uoO
@@ -41579,14 +41616,22 @@ eLE
 "}
 (26,1,1) = {"
 eLE
+dHk
+lyR
+olq
+olq
+vcQ
+dHk
+ohK
+gVH
+eCE
+dHk
+eLE
 uoO
 uoO
 uoO
 uoO
-uoO
-uoO
-uoO
-uoO
+aoj
 uoO
 uoO
 uoO
@@ -41595,20 +41640,12 @@ uoO
 uoO
 uoO
 aoj
-aoj
 uoO
-eLE
-lIv
-eEy
-qSX
-qSX
-eEy
-oLt
-oLt
-oLt
-oLt
-oLt
-eLE
+uoO
+uoO
+uoO
+uoO
+uoO
 aoj
 aoj
 uoO
@@ -41836,14 +41873,22 @@ eLE
 "}
 (27,1,1) = {"
 eLE
+eEy
+lIv
+olq
+olq
+lIv
+dHk
+dHk
+dHk
+dHk
+dHk
+eLE
 uoO
 uoO
 uoO
 uoO
-uoO
-uoO
-uoO
-uoO
+aoj
 uoO
 uoO
 uoO
@@ -41853,19 +41898,11 @@ uoO
 uoO
 aoj
 aoj
-uoO
-eLE
-oLt
-huY
-qSX
-qSX
-oOs
-oLt
-eLE
-eLE
-eLE
-eLE
 aoj
+uoO
+uoO
+uoO
+uoO
 aoj
 aoj
 uoO
@@ -42093,36 +42130,36 @@ eLE
 "}
 (28,1,1) = {"
 eLE
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-aoj
-aoj
-uoO
-uoO
-aoj
-aoj
-aoj
-uoO
-uoO
+dHk
+lyR
+olq
+olq
+vcQ
+dHk
 eLE
-oLt
-eEy
-qSX
-roM
-eEy
-oLt
+eLE
+eLE
 eLE
 aoj
+uoO
+uoO
 aoj
 aoj
 aoj
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
 aoj
 aoj
 uoO
@@ -42350,36 +42387,36 @@ eLE
 "}
 (29,1,1) = {"
 eLE
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-aoj
-aoj
-uoO
-uoO
-aoj
-aoj
-aoj
-uoO
-uoO
-eLE
-oLt
-oLt
-oLt
-ydd
-oLt
-oLt
+dHk
+lIv
+olq
+rNL
+lIv
+dHk
 eLE
 aoj
 aoj
 aoj
 aoj
+uoO
+uoO
+aoj
+aoj
+aoj
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
 aoj
 aoj
 uoO
@@ -42607,35 +42644,35 @@ eLE
 "}
 (30,1,1) = {"
 eLE
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
-aoj
-aoj
-uoO
-uoO
-aoj
-aoj
-aoj
-uoO
-uoO
-uoO
-eLE
-eLE
-eLE
-eLE
-eLE
+dHk
+dHk
+dHk
+sok
+dHk
+dHk
 eLE
 aoj
 aoj
 aoj
 aoj
+uoO
+uoO
+aoj
+aoj
+aoj
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
 uoO
 uoO
 uoO
@@ -42864,12 +42901,12 @@ eLE
 "}
 (31,1,1) = {"
 eLE
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
+eLE
+eLE
+eLE
+eLE
+eLE
+eLE
 uoO
 uoO
 uoO
