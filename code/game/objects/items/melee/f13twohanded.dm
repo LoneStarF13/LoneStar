@@ -671,6 +671,8 @@ obj/item/twohanded/sledgehammer/supersledge/ComponentInitialize()
 	off_item_state = "steelsaw"
 	wound_bonus = 15
 	attack_speed = CLICK_CD_MELEE * 0.9
+	description_on = "<span class ='warning'>You pull the cord, starting up the steel saw with a roar and letting the blades spin up.</span>"
+
 
 //Auto Axe 		Keywords: Damage 14/40, AP 0.5, Wound Bonus
 /obj/item/twohanded/chainsaw/autoaxe
@@ -689,6 +691,7 @@ obj/item/twohanded/sledgehammer/supersledge/ComponentInitialize()
 	off_item_state = "autoaxe"
 	wound_bonus = 10
 	tool_behaviour = null
+	description_on = "<span class ='warning'>You pull the cord, starting up the auto axe with a roar and letting the blades spin up.</span>"
 
 /*
 CODE ARCHIVE
