@@ -851,16 +851,16 @@ GLOBAL_LIST_INIT(loot_t1_money, list(
 
 GLOBAL_LIST_INIT(loot_t2_money, list(
 	/obj/item/stack/f13Cash/random/med,
-	/obj/item/stack/f13Cash/random/ncr/med,
+	/*/obj/item/stack/f13Cash/random/ncr/med,			LoneStar removal.
 	/obj/item/stack/f13Cash/random/denarius/med,
-	/obj/item/stack/f13Cash/random/aureus/med
+	/obj/item/stack/f13Cash/random/aureus/med*/
 ))
 
 GLOBAL_LIST_INIT(loot_t3_money, list(
-	/obj/item/stack/f13Cash/random/high,
-	/obj/item/stack/f13Cash/random/ncr/high,
+	/obj/item/stack/f13Cash/random/high
+	/*/obj/item/stack/f13Cash/random/ncr/high,			//LoneStar removal.
 	/obj/item/stack/f13Cash/random/denarius/high,
-	/obj/item/stack/f13Cash/random/aureus/high
+	/obj/item/stack/f13Cash/random/aureus/high*/
 ))
 
 GLOBAL_LIST_INIT(loot_skillbook, list(

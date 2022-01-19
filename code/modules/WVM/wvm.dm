@@ -947,9 +947,9 @@ GLOBAL_VAR_INIT(vendor_cash, 0)
 		playsound(src, 'sound/items/change_jaws.ogg', 60, 1)
 		to_chat(usr, "You put [inserted_value] bottle caps value to a vending machine.")
 		src.ui_interact(usr)
-	else if(istype(I, /obj/item/stack/f13Cash/ncr))
+	/*else if(istype(I, /obj/item/stack/f13Cash/ncr))
 		var/obj/item/stack/f13Cash/ncr/currency = I
-		var/inserted_value = FLOOR(currency.amount * 0.4, 1)
+		var/inserted_value = FLOOR(currency.amount * 0.4, 1)								// LoneStar removal.
 		stored_caps += inserted_value
 		I.use(currency.amount)
 		playsound(src, 'sound/items/change_jaws.ogg', 60, 1)
@@ -970,7 +970,7 @@ GLOBAL_VAR_INIT(vendor_cash, 0)
 		I.use(currency.amount)
 		playsound(src, 'sound/items/change_jaws.ogg', 60, 1)
 		to_chat(usr, "You put [inserted_value] bottle caps value to a vending machine.")
-		src.ui_interact(usr)
+		src.ui_interact(usr)*/
 	else
 		to_chat(usr, "Invalid currency!")
 		return

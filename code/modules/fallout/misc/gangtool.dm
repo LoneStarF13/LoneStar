@@ -1,9 +1,9 @@
 #define CASH_CAP_GANG 1
 
-/* exchange rates X * CAP*/
+/*/* exchange rates X * CAP*/										// LoneStar Removal.
 #define CASH_AUR_GANG 100 /* 100 caps to 1 AUR */
 #define CASH_DEN_GANG 4 /* 4 caps to 1 DEN */
-#define CASH_NCR_GANG 0.4 /* $100 to 40 caps */
+#define CASH_NCR_GANG 0.4 /* $100 to 40 caps */ */
 
 //Gangtool device
 /obj/item/device/gangtool
@@ -91,15 +91,15 @@
 
 /* Converting currency to the gang influence */
 /obj/item/device/gangtool/proc/add_caps(obj/item/I)
-	if(istype(I, /obj/item/stack/f13Cash/ncr))
+	/*if(istype(I, /obj/item/stack/f13Cash/ncr))
 		var/obj/item/stack/f13Cash/ncr/currency = I
-		var/inserted_value = currency.amount * CASH_NCR_GANG
+		var/inserted_value = currency.amount * CASH_NCR_GANG											// LoneStar removal.
 		gang.influence += inserted_value
 		I.use(currency.amount)
 		playsound(src, 'sound/items/change_jaws.ogg', 60, 1)
 		to_chat(usr, "You gain [inserted_value] gang influence by bribing underground suppliers.")
 		attack_self(usr)
-	else if(istype(I, /obj/item/stack/f13Cash/denarius))
+	else if(istype(I, /obj/item/stack/f13Cash/denarius))													
 		var/obj/item/stack/f13Cash/denarius/currency = I
 		var/inserted_value = currency.amount * CASH_DEN_GANG
 		gang.influence += inserted_value
@@ -114,8 +114,8 @@
 		I.use(currency.amount)
 		playsound(src, 'sound/items/change_jaws.ogg', 60, 1)
 		to_chat(usr, "You gain [inserted_value] gang influence by bribing underground suppliers.")
-		attack_self(usr)
-	else if(istype(I, /obj/item/stack/f13Cash))
+		attack_self(usr)*/
+	if(istype(I, /obj/item/stack/f13Cash))
 		var/obj/item/stack/f13Cash/currency = I
 		var/inserted_value = currency.amount * CASH_CAP_GANG
 		gang.influence += inserted_value
