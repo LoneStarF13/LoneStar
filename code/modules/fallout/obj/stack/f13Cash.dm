@@ -152,7 +152,7 @@
 	min_qty = BANKER_MIN / CASH_CAP
 	max_qty = BANKER_MAX / CASH_CAP
 
-/obj/item/stack/f13Cash/denarius
+/*/obj/item/stack/f13Cash/denarius
 	name = "Denarius"
 	latin = 1
 	singular_name = "Denari" // -us or -i
@@ -271,12 +271,13 @@
 /obj/item/stack/f13Cash/random/ncr/ncrpay_officer
 	min_qty = HIGH_MIN / CASH_NCR
 	max_qty = HIGH_MAX / CASH_NCR
+*/
 
 #undef maxCoinIcon
 #undef CASH_CAP
-#undef CASH_AUR
-#undef CASH_DEN
-#undef CASH_NCR
+//#undef CASH_AUR
+//#undef CASH_DEN
+//#undef CASH_NCR
 #undef LOW_MIN
 #undef LOW_MAX
 #undef MED_MIN
@@ -285,9 +286,9 @@
 #undef HIGH_MAX
 #undef BANKER_MIN
 #undef BANKER_MAX
-#undef TEMP3_MIN
+/*#undef TEMP3_MIN
 #undef TEMP3_MAX
 #undef TEMP_MIN
 #undef TEMP_MAX
 #undef TEMP2_MIN
-#undef TEMP2_MAX
+#undef TEMP2_MAX*/
