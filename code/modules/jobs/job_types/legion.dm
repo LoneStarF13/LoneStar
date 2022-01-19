@@ -133,7 +133,7 @@ Weapons		Lever shotgun, Grease gun, Repeater carbines, Revolvers, simple guns al
 	gloves = /obj/item/clothing/gloves/legion/legate
 	glasses = /obj/item/clothing/glasses/sunglasses/big
 	suit_store = /obj/item/gun/ballistic/automatic/pistol/pistol14
-	r_pocket = /obj/item/storage/bag/money/small/legion
+	r_pocket = /obj/item/storage/bag/money/small
 	l_pocket = /obj/item/flashlight/lantern
 	r_hand = /obj/item/melee/powerfist/f13/goliath
 	l_hand = /obj/item/tank/internals/oxygen
@@ -168,7 +168,7 @@ Weapons		Lever shotgun, Grease gun, Repeater carbines, Revolvers, simple guns al
 	gloves = null
 	shoes = /obj/item/clothing/shoes/roman
 	suit_store = /obj/item/gun/ballistic/revolver/colt6520
-	r_pocket = /obj/item/storage/bag/money/small/legofficers
+	r_pocket = /obj/item/storage/bag/money/small
 	l_pocket = /obj/item/flashlight/lantern
 	l_hand = /obj/item/melee/onehanded/machete/spatha
 	backpack_contents = list(
@@ -243,7 +243,7 @@ Weapons		Lever shotgun, Grease gun, Repeater carbines, Revolvers, simple guns al
 	box = /obj/item/storage/survivalkit_tribal/chief
 	backpack_contents = list(
 		/obj/item/restraints/legcuffs/bola = 1,
-		/obj/item/storage/bag/money/small/legion = 1,
+		/obj/item/storage/bag/money/small = 1,
 		)
 
 /datum/outfit/loadout/palacent
@@ -336,7 +336,7 @@ commented out pending rework*/
 		/obj/item/ammo_box/a357 = 1,
 		/obj/item/gun/ballistic/revolver/colt357 = 1,
 		/obj/item/restraints/handcuffs = 1,
-		/obj/item/storage/bag/money/small/legofficers = 1,
+		/obj/item/storage/bag/money/small = 1,
 		/obj/item/binoculars
 		)
 
@@ -413,7 +413,7 @@ commented out pending rework*/
 	box = /obj/item/storage/survivalkit_tribal/chief
 	backpack_contents = list(
 		/obj/item/melee/onehanded/machete/gladius = 1,
-		/obj/item/storage/bag/money/small/legofficers = 1,
+		/obj/item/storage/bag/money/small = 1,
 		/obj/item/grenade/smokebomb = 1,
 		/obj/item/binoculars,
 		)
@@ -484,7 +484,7 @@ commented out pending rework*/
 	backpack_contents = list(
 		/obj/item/reagent_containers/pill/patch/healingpowder = 1,
 		/obj/item/restraints/handcuffs = 1,
-		/obj/item/storage/bag/money/small/legofficers = 1,
+		/obj/item/storage/bag/money/small = 1,
 		)
 
 /datum/outfit/loadout/recdeclegion
@@ -562,7 +562,7 @@ commented out pending rework*/
 		/obj/item/reagent_containers/pill/patch/healingpowder = 1,
 		/obj/item/restraints/handcuffs = 1,
 		/obj/item/megaphone/cornu = 1,
-		/obj/item/storage/bag/money/small/legenlisted = 1,
+		/obj/item/storage/bag/money/small = 1,
 		)
 
 /datum/outfit/loadout/vexbear
@@ -631,7 +631,7 @@ commented out pending rework*/
 	backpack_contents = list(
 		/obj/item/ammo_box/c45/improvised = 1,
 		/obj/item/reagent_containers/pill/patch/healingpowder = 1,
-		/obj/item/storage/bag/money/small/legenlisted = 1,
+		/obj/item/storage/bag/money/small = 1,
 		/obj/item/melee/onehanded/machete = 1,
 		/obj/item/restraints/handcuffs = 1,
 		)
@@ -709,7 +709,7 @@ commented out pending rework*/
 	r_pocket = /obj/item/flashlight/lantern
 	backpack_contents = list(
 		/obj/item/reagent_containers/pill/patch/healingpowder = 1,
-		/obj/item/storage/bag/money/small/legenlisted = 1,
+		/obj/item/storage/bag/money/small = 1,
 		/obj/item/restraints/handcuffs = 1,
 		)
 
@@ -789,7 +789,7 @@ commented out pending rework*/
 	r_pocket = /obj/item/flashlight/lantern
 	l_pocket = /obj/item/restraints/handcuffs
 	backpack_contents = list(
-		/obj/item/storage/bag/money/small/legenlisted = 1,
+		/obj/item/storage/bag/money/small = 1,
 		/obj/item/reagent_containers/pill/patch/healingpowder = 1,
 		)
 
@@ -867,7 +867,7 @@ commented out pending rework*/
 	glasses = /obj/item/clothing/glasses/legiongoggles
 	r_pocket = /obj/item/flashlight/lantern
 	backpack_contents = list(
-		/obj/item/storage/bag/money/small/legenlisted = 1,
+		/obj/item/storage/bag/money/small = 1,
 		/obj/item/reagent_containers/pill/patch/healingpowder = 1,
 		)
 
@@ -923,7 +923,7 @@ commented out pending rework*/
 	l_pocket = /obj/item/flashlight/lantern
 	suit_store = /obj/item/gun/ballistic/revolver/caravan_shotgun
 	backpack_contents = list(
-		/obj/item/storage/bag/money/small/legenlisted = 1,
+		/obj/item/storage/bag/money/small = 1,
 		/obj/item/melee/onehanded/machete = 1,
 		/obj/item/ammo_box/shotgun/bean = 1,
 		/obj/item/melee/onehanded/slavewhip = 1,
@@ -963,7 +963,7 @@ commented out pending rework*/
 	shoes = /obj/item/clothing/shoes/f13/military/plated
 	r_pocket = /obj/item/flashlight/lantern
 	backpack_contents = list(
-		/obj/item/storage/bag/money/small/legenlisted = 1,
+		/obj/item/storage/bag/money/small = 1,
 		/obj/item/stack/sheet/metal/twenty = 2,
 		/obj/item/stack/sheet/mineral/wood/twenty = 1,
 		/obj/item/stack/sheet/leather/twenty = 1,
@@ -1053,7 +1053,7 @@ commented out pending rework*/
 		/obj/item/folder/red = 1,
 		/obj/item/paper/natural = 2,
 		/obj/item/pen/fountain = 1,
-		/obj/item/storage/bag/money/small/legion = 1,
+		/obj/item/storage/bag/money/small = 1,
 		/obj/item/taperecorder = 1,
 		/obj/item/clothing/under/f13/legauxilia = 1,
 		)
@@ -1064,7 +1064,7 @@ commented out pending rework*/
 	gloves = /obj/item/clothing/gloves/f13/crudemedical
 	belt = /obj/item/storage/belt/medical/legion
 	backpack_contents = list(
-		/obj/item/storage/bag/money/small/legenlisted = 1,
+		/obj/item/storage/bag/money/small = 1,
 		/obj/item/storage/firstaid/ancient = 1,
 		/obj/item/stack/sticky_tape/surgical = 1,
 		/obj/item/stack/medical/bone_gel = 1,

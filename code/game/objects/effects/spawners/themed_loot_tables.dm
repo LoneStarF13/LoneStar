@@ -15,7 +15,7 @@
 		/obj/effect/spawner/lootdrop/f13/resourcespawner = 2,
 		/obj/effect/spawner/lootdrop/bombparts = 1,
 		/obj/effect/spawner/lootdrop/weapons/hunting = 1,
-		/obj/effect/spawner/lootdrop/f13/cash_random_low = 1,
+//		/obj/effect/spawner/lootdrop/f13/cash_random_low = 1,
 		)
 
 /obj/effect/spawner/lootdrop/wastelootgood
@@ -31,7 +31,7 @@
 		/obj/effect/spawner/lootdrop/f13/alcoholspawner = 2,
 		/obj/effect/spawner/lootdrop/weapons/hunting = 2,
 		/obj/effect/spawner/lootdrop/weapons/selfdefence = 2,
-		/obj/effect/spawner/lootdrop/f13/cash_random_low = 2,
+//		/obj/effect/spawner/lootdrop/f13/cash_random_low = 2,
 		/obj/effect/spawner/lootdrop/toolsgood = 5,
 		)
 
@@ -46,14 +46,14 @@
 		/obj/effect/spawner/lootdrop/f13/alcoholspawner = 6,
 		/obj/effect/spawner/lootdrop/f13/medical/wasteland/meds/drug = 6,
 		/obj/effect/spawner/lootdrop/f13/deadrodent_or_brainwashdisk = 5,
-		/obj/effect/spawner/lootdrop/f13/cash_random_low = 5,
+//		/obj/effect/spawner/lootdrop/f13/cash_random_low = 5,
 		/obj/effect/spawner/lootdrop/toolsbasic = 4,
 		/obj/effect/spawner/lootdrop/weapons/waster = 4,
-		/obj/effect/spawner/lootdrop/f13/cash_random_med = 2,
+//		/obj/effect/spawner/lootdrop/f13/cash_random_med = 2,
 		/obj/effect/spawner/lootdrop/weapons/selfdefence = 2,
 		/obj/effect/spawner/lootdrop/f13/resourcespawner = 1,
 		/obj/effect/spawner/lootdrop/weapons/security = 1,
-		/obj/effect/spawner/lootdrop/f13/cash_random_high = 1,
+//		/obj/effect/spawner/lootdrop/f13/cash_random_high = 1,
 		)
 
 /obj/effect/spawner/lootdrop/securityloot
@@ -63,7 +63,7 @@
 		/obj/effect/spawner/lootdrop/f13/junkspawners = 24,
 		/obj/effect/spawner/lootdrop/weapons/security = 10,
 		/obj/effect/spawner/lootdrop/f13/deadrodent_or_brainwashdisk = 5,
-		/obj/effect/spawner/lootdrop/f13/cash_random_low = 5,
+//		/obj/effect/spawner/lootdrop/f13/cash_random_low = 5,
 		/obj/effect/spawner/lootdrop/toolsgood = 5,
 		/obj/effect/spawner/lootdrop/weapons/selfdefence = 5,
 		/obj/effect/spawner/lootdrop/f13/resourcespawner = 5,
@@ -80,7 +80,7 @@
 		/obj/effect/spawner/lootdrop/toolsgood = 10,
 		/obj/effect/spawner/lootdrop/f13/deadrodent_or_brainwashdisk = 7,
 		/obj/effect/spawner/lootdrop/f13/junkspawners = 5,
-		/obj/effect/spawner/lootdrop/f13/cash_random_low = 5,
+//		/obj/effect/spawner/lootdrop/f13/cash_random_low = 5,
 		/obj/effect/spawner/lootdrop/f13/resourcespawner = 5,
 		/obj/effect/spawner/lootdrop/f13/advcrafting = 5,
 		/obj/effect/spawner/lootdrop/f13/blueprintLow = 5,

@@ -63,11 +63,11 @@
 	var/list/paid_players = list()
 	var/list/pay = list(/obj/item/stack/f13Cash/random/med)
 
-/obj/item/storage/money_stack/ncr
+/*/obj/item/storage/money_stack/ncr
 	pay = list(/obj/item/stack/f13Cash/random/ncr/med)
 
 /obj/item/storage/money_stack/legion
-	pay = list(/obj/item/stack/f13Cash/random/denarius/med)
+	pay = list(/obj/item/stack/f13Cash/random/denarius/med)*/
 
 /obj/item/storage/money_stack/Initialize()
 	. = ..()

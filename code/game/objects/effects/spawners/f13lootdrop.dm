@@ -1782,8 +1782,8 @@
 				/obj/item/stack/crafting/goodparts/three = 2
 				)
 
-/obj/effect/spawner/lootdrop/f13/cash_random_low
-	name = "low value cash spawner"
+/*/obj/effect/spawner/lootdrop/f13/cash_random_low
+	name = "low value caps spawner"
 	lootcount = 1
 
 	loot = list(
@@ -1899,7 +1899,7 @@
 			/obj/item/stack/f13Cash/random/high = 10,
 			/obj/item/stack/f13Cash/random/ncr/med = 25,
 			/obj/item/stack/f13Cash/random/med = 5,
-			)
+			)*/
 
 /obj/effect/spawner/lootdrop/f13/deadrodent_or_brainwashdisk
 	name = "100% chance of deceased rodent"

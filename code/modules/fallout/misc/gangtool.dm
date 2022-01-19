@@ -38,9 +38,9 @@
 	dat +="<div class='statusDisplay'>"
 	dat += "<b>Currency conversion rates:</b><br>"
 	dat += "1 Bottle cap = [CASH_CAP_GANG] influence <br>"
-	dat += "1 NCR dollar = [CASH_NCR_GANG] influence <br>"
+	/*dat += "1 NCR dollar = [CASH_NCR_GANG] influence <br>"
 	dat += "1 Denarius = [CASH_DEN_GANG] influence <br>"
-	dat += "1 Aureus = [CASH_AUR_GANG] influence <br>"
+	dat += "1 Aureus = [CASH_AUR_GANG] influence <br>"*/
 	dat += "</div>"
 	dat += "<br>"
 

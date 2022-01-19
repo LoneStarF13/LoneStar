@@ -7,8 +7,8 @@ Gloves		Officers - Leather glovesl, fingerless leather gloves for sergeants. Bay
 Knives		Army -		Bayonet
 			Ranger -	Bowie knife
 Money		Commanding Officer (LT and CAP) - "small" money bag
-			Officers and Rangers - /obj/item/storage/bag/money/small/ncrofficers
-			Rest - /obj/item/storage/bag/money/small/ncrenlisted
+			Officers and Rangers - /obj/item/storage/bag/money/small
+			Rest - /obj/item/storage/bag/money/small
 Sidearm		Officers & a few specialists - 9mm pistol
 Weapons		Service Rifle, Rockwell, 9mm pistol, all good.
 			Don't use Greaseguns, Lever shotguns, Police shotguns, Berettas, Hunting knives
@@ -135,7 +135,7 @@ Weapons		Service Rifle, Rockwell, 9mm pistol, all good.
 	r_hand = /obj/item/melee/onehanded/club/ncrflag
 	backpack_contents = list(
 		/obj/item/ammo_box/magazine/m44 = 2,
-		/obj/item/storage/bag/money/small/ncrenlisted = 1,
+		/obj/item/storage/bag/money/small = 1,
 		/obj/item/storage/survivalkit_aid = 1,
 		)
 
@@ -263,7 +263,7 @@ Weapons		Service Rifle, Rockwell, 9mm pistol, all good.
 		/obj/item/melee/onehanded/knife/bayonet = 1, \
 		/obj/item/gun/ballistic/automatic/pistol/ninemil = 1, \
 		/obj/item/ammo_box/magazine/m9mm = 2, \
-		/obj/item/storage/bag/money/small/ncrofficers = 1,
+		/obj/item/storage/bag/money/small = 1,
 		/obj/item/ammo_box/magazine/m556/rifle/assault = 1,
 		)
 
@@ -316,7 +316,7 @@ Weapons		Service Rifle, Rockwell, 9mm pistol, all good.
 	neck = /obj/item/storage/belt/holster/legholster
 	backpack_contents = list(
 		/obj/item/storage/survivalkit_aid = 1,
-		/obj/item/storage/bag/money/small/ncrofficers = 1,
+		/obj/item/storage/bag/money/small = 1,
 		)
 
 /datum/outfit/loadout/sergeantrifleman
@@ -480,7 +480,7 @@ Weapons		Service Rifle, Rockwell, 9mm pistol, all good.
 	backpack_contents = list(
 		/obj/item/melee/onehanded/knife/bowie = 1,
 		/obj/item/storage/survivalkit_aid_adv = 1,
-		/obj/item/storage/bag/money/small/ncrofficers = 1,
+		/obj/item/storage/bag/money/small = 1,
 		)
 
 /datum/outfit/loadout/vrclassic
@@ -559,7 +559,7 @@ Weapons		Service Rifle, Rockwell, 9mm pistol, all good.
 	backpack_contents = list(
 		/obj/item/restraints/handcuffs = 1,
 		/obj/item/melee/onehanded/knife/bowie = 1,
-		/obj/item/storage/bag/money/small/ncrofficers = 1,
+		/obj/item/storage/bag/money/small = 1,
 		/obj/item/clothing/mask/gas/ranger = 1,
 		)
 
@@ -664,7 +664,7 @@ Weapons		Service Rifle, Rockwell, 9mm pistol, all good.
 		/obj/item/gun/ballistic/automatic/pistol/ninemil = 1,
 		/obj/item/storage/survivalkit_aid = 1,
 		/obj/item/ammo_box/magazine/m9mm = 2,
-		/obj/item/storage/bag/money/small/ncrenlisted = 1,
+		/obj/item/storage/bag/money/small = 1,
 		)
 
 /datum/outfit/loadout/shockht
@@ -737,7 +737,7 @@ Weapons		Service Rifle, Rockwell, 9mm pistol, all good.
 	backpack_contents = list(
 		/obj/item/shovel/trench = 1,
 		/obj/item/storage/survivalkit_aid = 1,
-		/obj/item/storage/bag/money/small/ncrenlisted = 1,
+		/obj/item/storage/bag/money/small = 1,
 		)
 
 /datum/outfit/loadout/combatengineerbuilder
@@ -806,7 +806,7 @@ Weapons		Service Rifle, Rockwell, 9mm pistol, all good.
 		/obj/item/gun/ballistic/automatic/pistol/m1911 = 1,
 		/obj/item/ammo_box/magazine/m45 = 3,
 		/obj/item/storage/survivalkit_aid = 1,
-		/obj/item/storage/bag/money/small/ncrenlisted = 1,
+		/obj/item/storage/bag/money/small = 1,
 		)
 
 /datum/outfit/job/ncr/f13mp/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
@@ -853,7 +853,7 @@ Weapons		Service Rifle, Rockwell, 9mm pistol, all good.
 		/obj/item/ammo_box/magazine/m10mm_adv/simple = 2,
 		/obj/item/melee/onehanded/knife/survival = 1,
 		/obj/item/storage/survivalkit_aid_adv = 1,
-		/obj/item/storage/bag/money/small/ncrenlisted = 1,
+		/obj/item/storage/bag/money/small = 1,
 		/obj/item/storage/firstaid/regular = 1,
 		)
 
@@ -904,7 +904,7 @@ Weapons		Service Rifle, Rockwell, 9mm pistol, all good.
 	accessory = /obj/item/clothing/accessory/ncr/CPL
 	backpack_contents = list(
 		/obj/item/melee/onehanded/knife/bayonet = 1,
-		/obj/item/storage/bag/money/small/ncrenlisted = 1,
+		/obj/item/storage/bag/money/small = 1,
 		/obj/item/storage/survivalkit_aid = 1,
 		)
 
@@ -969,7 +969,7 @@ Weapons		Service Rifle, Rockwell, 9mm pistol, all good.
 	suit = /obj/item/clothing/suit/armor/f13/ncrarmor
 	glasses	= null
 	backpack_contents = list(
-		/obj/item/storage/bag/money/small/ncrenlisted = 1,
+		/obj/item/storage/bag/money/small = 1,
 		)
 
 /datum/outfit/loadout/trooperrifleman
@@ -1041,7 +1041,7 @@ Weapons		Service Rifle, Rockwell, 9mm pistol, all good.
 		/obj/item/melee/classic_baton/telescopic = 1,
 		/obj/item/storage/survivalkit_aid = 1,
 		/obj/item/storage/survivalkit_aid_adv = 1,
-		/obj/item/storage/bag/money/small/ncrofficers = 1,
+		/obj/item/storage/bag/money/small = 1,
 		/obj/item/storage/firstaid/regular = 1,
 		)
 
@@ -1105,7 +1105,7 @@ Weapons		Service Rifle, Rockwell, 9mm pistol, all good.
 		/obj/item/grenade/plastic/c4 = 1,
 		/obj/item/melee/onehanded/knife/survival = 1,
 		/obj/item/storage/survivalkit_aid = 1,
-		/obj/item/storage/bag/money/small/ncrofficers = 1,
+		/obj/item/storage/bag/money/small = 1,
 		/obj/item/stack/sheet/metal/twenty = 2,
 		/obj/item/stack/sheet/glass/ten = 2,
 		/obj/item/book/granter/trait/explosives = 1
@@ -1161,7 +1161,7 @@ Weapons		Service Rifle, Rockwell, 9mm pistol, all good.
 		/obj/item/gun/ballistic/automatic/varmint = 1,
 		/obj/item/ammo_box/magazine/m556/rifle/small = 2,
 		/obj/item/shovel/trench = 1,
-		/obj/item/storage/bag/money/small/ncrenlisted = 1,
+		/obj/item/storage/bag/money/small = 1,
 		)
 
 // Technician	Salvaging
@@ -1178,7 +1178,7 @@ Weapons		Service Rifle, Rockwell, 9mm pistol, all good.
 		/obj/item/melee/onehanded/knife/survival = 1,
 		/obj/item/metaldetector = 1,
 		/obj/item/weldingtool/largetank = 1,
-		/obj/item/storage/bag/money/small/ncrenlisted = 1,
+		/obj/item/storage/bag/money/small = 1,
 		)
 
 // Corpsman		Chemistry, simple medical
@@ -1195,7 +1195,7 @@ Weapons		Service Rifle, Rockwell, 9mm pistol, all good.
 		/obj/item/storage/firstaid/regular = 1,
 		/obj/item/book/granter/trait/chemistry = 1,
 		/obj/item/book/granter/trait/lowsurgery = 1,
-		/obj/item/storage/bag/money/small/ncrenlisted = 1,
+		/obj/item/storage/bag/money/small = 1,
 		)
 
 // Off-duty		Snazzy jacket, saved up money for leave
@@ -1209,7 +1209,7 @@ Weapons		Service Rifle, Rockwell, 9mm pistol, all good.
 		/obj/item/melee/onehanded/knife/bayonet = 1,
 		/obj/item/reagent_containers/food/snacks/cheesyburrito = 2,
 		/obj/item/reagent_containers/food/drinks/bottle/f13nukacola = 1,
-		/obj/item/storage/bag/money/small/ncrofficers = 1,
+		/obj/item/storage/bag/money/small = 1,
 		)
 
 // NCR Citizen

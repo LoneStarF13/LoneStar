@@ -515,7 +515,7 @@
 /obj/item/locked_box/misc/money/legion
 	enable_loot_initialize = FALSE
 
-/obj/item/locked_box/misc/money/legion/low
+/*/obj/item/locked_box/misc/money/legion/low
 	lock_tier = 1
 	prizes = list(/obj/item/stack/f13Cash/random/denarius/low)
 	locked = FALSE
@@ -542,7 +542,7 @@
 
 /obj/item/locked_box/misc/money/ncr/high
 	lock_tier = 3
-	prizes = list(/obj/item/stack/f13Cash/random/ncr/high)
+	prizes = list(/obj/item/stack/f13Cash/random/ncr/high)*/
 
 /obj/item/locked_box/misc/skillbook
 	easy_naming = "book "
