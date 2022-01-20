@@ -431,8 +431,8 @@ commented out pending rework*/
 	suit_store = /obj/item/gun/ballistic/rifle/repeater/trail
 	backpack_contents = list(
 		/obj/item/ammo_box/tube/m44 = 2,
-		/obj/item/gun/ballistic/automatic/pistol/m1911/compact = 1,
-		/obj/item/ammo_box/magazine/m45 = 1,
+		/obj/item/gun/ballistic/revolver/colt357 = 1,
+		/obj/item/ammo_box/a357 = 1,
 		)
 
 
@@ -730,8 +730,8 @@ commented out pending rework*/
 	suit_store = /obj/item/gun/ballistic/rifle/repeater/trail
 	backpack_contents = list(
 		/obj/item/ammo_box/m44box = 1,
-		/obj/item/gun/ballistic/automatic/pistol/m1911/compact = 1,
-		/obj/item/ammo_box/magazine/m45 = 1,
+		/obj/item/gun/ballistic/revolver/colt357,
+		/obj/item/ammo_box/a357 = 1,
 		)
 
 /datum/outfit/loadout/vetberserker
@@ -799,10 +799,10 @@ commented out pending rework*/
 
 /datum/outfit/loadout/primelancer
 	name = "Frontliner"
-	suit_store = /obj/item/gun/ballistic/automatic/pistol/m1911/custom
+	suit_store = /obj/item/gun/ballistic/revolver/colt357
 	r_hand = /obj/item/shield/riot/legion
 	backpack_contents = list(
-		/obj/item/ammo_box/magazine/m45 = 3,
+		/obj/item/ammo_box/a357 = 3,
 		/obj/item/restraints/legcuffs/bola = 1,
 		/obj/item/book/granter/trait/trekking = 1,
 		)
