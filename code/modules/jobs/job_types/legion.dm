@@ -244,6 +244,7 @@ Weapons		Lever shotgun, Grease gun, Repeater carbines, Revolvers, simple guns al
 	backpack_contents = list(
 		/obj/item/restraints/legcuffs/bola = 1,
 		/obj/item/storage/bag/money/small/legion = 1,
+		/obj/item/warpaint_bowl,
 		)
 
 /datum/outfit/loadout/palacent
@@ -504,6 +505,7 @@ commented out pending rework*/
 		/obj/item/melee/onehanded/machete/forgedmachete = 1,
 		/obj/item/storage/backpack/spearquiver = 1,
 		/obj/item/melee/onehanded/knife/bayonet = 1,
+		/obj/item/warpaint_bowl,
 		)
 
 
@@ -563,6 +565,7 @@ commented out pending rework*/
 		/obj/item/restraints/handcuffs = 1,
 		/obj/item/megaphone/cornu = 1,
 		/obj/item/storage/bag/money/small/legenlisted = 1,
+		/obj/item/warpaint_bowl,
 		)
 
 /datum/outfit/loadout/vexbear
