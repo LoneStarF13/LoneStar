@@ -721,7 +721,7 @@ commented out pending rework*/
 	suit_store = /obj/item/gun/ballistic/revolver/m29
 	backpack_contents = list(
 		/obj/item/ammo_box/m44 = 3,
-		obj/item/shield/riot/bullet_proof = 1,
+		/obj/item/shield/riot/bullet_proof = 1,
 		/obj/item/stack/crafting/armor_plate = 3,
 		)
 
