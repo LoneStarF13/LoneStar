@@ -59,7 +59,7 @@
 	icon_state = "salmon"
 	meat_type = /obj/item/reagent_containers/food/snacks/fishmeat/salmon
 	secondary_drop = /obj/item/fishyegg/salmon
-
+/*
 /obj/item/fishy/eel
 	name = "electric eel"
 	desc = "When you're down by the sea and an eel bites your knee, that's a moray."
@@ -75,7 +75,7 @@
 	if(istype(target, /mob/living))
 		var/mob/living/livingTarget = target
 		livingTarget.electrocute_act(35, src, 1, flags = SHOCK_NOGLOVES|SHOCK_ILLUSION)
-
+*/
 /obj/item/fishy/lobster
 	name = "lobster"
 	desc = "Lobsters have a hard time learning the alphabet, being stuck at C."
