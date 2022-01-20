@@ -587,6 +587,7 @@
 	lootcount = 1
 
 	loot = list(
+				/obj/effect/spawner/bundle/f13/throwingknife3,
 				/obj/item/gavelhammer,
 				/obj/item/oar,
 				/obj/item/pickaxe,
@@ -603,7 +604,6 @@
 				/obj/item/melee/onehanded/knife/cosmicdirty,
 				/obj/item/melee/unarmed/brass,
 				/obj/item/melee/unarmed/brass/spike,
-				/obj/effect/spawner/bundle/f13/throwingknife3,
 				)
 
 /obj/effect/spawner/lootdrop/f13/weapon/melee/tier3 //TIER 3 MELEE WEAPON
@@ -611,6 +611,7 @@
 	lootcount = 1
 
 	loot = list(
+				/obj/effect/spawner/bundle/f13/throwingknife3,
 				/obj/item/weldingtool,
 				/obj/item/twohanded/spear,
 				/obj/item/twohanded/baseball,
@@ -621,7 +622,6 @@
 				/obj/item/shield/riot/buckler,
 				/obj/item/melee/unarmed/tigerclaw,
 				/obj/item/melee/unarmed/sappers,
-				/obj/effect/spawner/bundle/f13/throwingknife3
 				)
 
 /obj/effect/spawner/lootdrop/f13/weapon/melee/tier4 //TIER 4 MELEE WEAPON
