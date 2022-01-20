@@ -602,7 +602,7 @@
 				/obj/item/melee/onehanded/club,
 				/obj/item/melee/onehanded/knife/cosmicdirty,
 				/obj/item/melee/unarmed/brass,
-				/obj/item/melee/unarmed/brass/spike
+				/obj/item/melee/unarmed/brass/spike,
 				/obj/effect/spawner/bundle/f13/throwingknife3,
 				)
 
