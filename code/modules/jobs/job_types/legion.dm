@@ -430,8 +430,8 @@ commented out pending rework*/
 	suit_store = /obj/item/gun/ballistic/rifle/repeater/trail
 	backpack_contents = list(
 		/obj/item/ammo_box/tube/m44 = 2,
-		/obj/item/gun/ballistic/revolver/colt6520 = 1,
-		/obj/item/ammo_box/l10mm = 1,
+		/obj/item/gun/ballistic/automatic/pistol/m1911/compact = 1,
+		/obj/item/ammo_box/magazine/m45 = 1,
 		)
 
 
@@ -651,7 +651,6 @@ commented out pending rework*/
 	suit_store = /obj/item/gun/ballistic/automatic/marksman/sniper
 	backpack_contents = list(
 		/obj/item/ammo_box/magazine/w308 = 3,
-		/obj/item/melee/onehanded/machete = 1,
 		/obj/item/grenade/smokebomb = 1,
 		)
 
@@ -711,6 +710,7 @@ commented out pending rework*/
 		/obj/item/reagent_containers/pill/patch/healingpowder = 1,
 		/obj/item/storage/bag/money/small/legenlisted = 1,
 		/obj/item/restraints/handcuffs = 1,
+		/obj/item/melee/onehanded/machete/gladius = 1,
 		)
 
 /datum/outfit/loadout/vetshielder
@@ -718,17 +718,17 @@ commented out pending rework*/
 	suit_store = /obj/item/gun/ballistic/revolver/m29
 	backpack_contents = list(
 		/obj/item/ammo_box/m44 = 3,
-		/obj/item/melee/onehanded/machete/gladius = 1,
-		/obj/item/shield/riot/legion = 1,
-		/obj/item/stack/crafting/armor_plate = 1,
+		obj/item/shield/riot/bullet_proof = 1,
+		/obj/item/stack/crafting/armor_plate = 3,
 		)
 
 /datum/outfit/loadout/vetrifle
 	name = "Sharpshooter"
 	suit_store = /obj/item/gun/ballistic/rifle/repeater/trail
 	backpack_contents = list(
-		/obj/item/ammo_box/tube/m44 = 3,
-		/obj/item/melee/onehanded/machete/gladius = 1,
+		/obj/item/ammo_box/m44box = 1,
+		/obj/item/gun/ballistic/automatic/pistol/m1911/compact = 1,
+		/obj/item/ammo_box/magazine/m45 = 1,
 		)
 
 /datum/outfit/loadout/vetberserker
@@ -791,16 +791,16 @@ commented out pending rework*/
 	backpack_contents = list(
 		/obj/item/storage/bag/money/small/legenlisted = 1,
 		/obj/item/reagent_containers/pill/patch/healingpowder = 1,
+		/obj/item/melee/onehanded/machete/forgedmachete = 1,
 		)
 
 /datum/outfit/loadout/primelancer
 	name = "Frontliner"
-	suit_store = /obj/item/gun/ballistic/automatic/pistol/n99
+	suit_store = /obj/item/gun/ballistic/automatic/pistol/m1911/custom
 	r_hand = /obj/item/shield/riot/legion
 	backpack_contents = list(
-		/obj/item/ammo_box/magazine/m10mm_adv = 2,
+		/obj/item/ammo_box/magazine/m45 = 3,
 		/obj/item/restraints/legcuffs/bola = 1,
-		/obj/item/melee/onehanded/machete/forgedmachete = 1,
 		/obj/item/book/granter/trait/trekking = 1,
 		)
 
@@ -809,7 +809,6 @@ commented out pending rework*/
 	suit_store = /obj/item/gun/ballistic/rifle/repeater/cowboy
 	backpack_contents = list(
 		/obj/item/ammo_box/a357 = 3,
-		/obj/item/melee/onehanded/machete = 1,
 		/obj/item/grenade/homemade/firebomb = 1,
 		)
 
@@ -819,7 +818,6 @@ commented out pending rework*/
 	backpack_contents = list(
 		/obj/item/ammo_box/shotgun/buck = 1,
 		/obj/item/melee/onehanded/knife/bayonet = 1,
-		/obj/item/melee/onehanded/machete = 1,
 		/obj/item/storage/backpack/spearquiver = 1,
 		)
 
@@ -869,22 +867,23 @@ commented out pending rework*/
 	backpack_contents = list(
 		/obj/item/storage/bag/money/small/legenlisted = 1,
 		/obj/item/reagent_containers/pill/patch/healingpowder = 1,
+		/obj/item/melee/onehanded/machete = 1,
 		)
 
 /datum/outfit/loadout/recruittribal
-	name = "Tribal Recruit"
+	name = "Tribal"
 	suit_store = /obj/item/twohanded/fireaxe
 	backpack_contents = list(
 		/obj/item/restraints/legcuffs/bola = 1,
 		/obj/item/book/granter/trait/trekking = 1,
+		/obj/item/warpaint_bowl
 		)
 
 /datum/outfit/loadout/recruitlegion
-	name = "Legion Recruit"
+	name = "Recruit"
 	suit_store = /obj/item/gun/ballistic/revolver/colt357
 	backpack_contents = list(
 		/obj/item/ammo_box/a357 = 3,
-		/obj/item/melee/onehanded/machete = 1,
 		/obj/item/reagent_containers/food/drinks/bottle/molotov = 2,
 		/obj/item/reagent_containers/glass/bottle/napalm = 2,
 		/obj/item/lighter/greyscale = 1,
@@ -930,6 +929,7 @@ commented out pending rework*/
 		/obj/item/razor = 1,
 		/obj/item/restraints/legcuffs/bola = 1,
 		/obj/item/electropack/shockcollar/explosive = 1,
+		/obj/item/warpaint_bowl
 		)
 
 /datum/outfit/job/CaesarsLegion/Legionnaire/f13slavemaster/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
@@ -938,7 +938,6 @@ commented out pending rework*/
 		return
 	ADD_TRAIT(H, TRAIT_BIG_LEAGUES, src)
 	ADD_TRAIT(H, TRAIT_MARS_TEACH, src)
-
 
 // FORGE MASTER
 
@@ -1034,6 +1033,7 @@ commented out pending rework*/
 	r_pocket = /obj/item/flashlight/lantern
 	backpack_contents = list(
 		/obj/item/reagent_containers/pill/patch/healingpowder = 2,
+		/obj/item/warpaint_bowl
 		)
 
 /datum/outfit/job/CaesarsLegion/auxilia/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
@@ -1044,6 +1044,7 @@ commented out pending rework*/
 	ADD_TRAIT(H, TRAIT_MARS_TEACH, src)
 	ADD_TRAIT(H, TRAIT_TECHNOPHREAK, src)
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/tailor/legionuniform)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/warpaint)
 
 
 /datum/outfit/loadout/auxassist
