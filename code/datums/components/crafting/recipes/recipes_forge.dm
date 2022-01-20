@@ -183,7 +183,7 @@
 	
 /datum/crafting_recipe/melee/forged/throwing
 	name = "Throwing Knife"
-	result = /obj/item/melee/onehanded/knife/hunting
+	result = /obj/item/melee/onehanded/knife/throwing
 	time = 90
 	reqs = list(
 		/obj/item/stack/sheet/prewar = 3,
