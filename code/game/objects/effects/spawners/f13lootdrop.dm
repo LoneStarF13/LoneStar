@@ -558,6 +558,15 @@
 	name = "melee spawners - DO NOT USE THIS"
 	icon_state = "melee_loot"
 
+/obj/effect/spawner/bundle/f13/throwingknife3
+	name = "throwing knife spawner - 3"
+	items = list(
+				/obj/item/melee/onehanded/knife/throwing,
+				/obj/item/melee/onehanded/knife/throwing,
+				/obj/item/melee/onehanded/knife/throwing,
+				)
+	
+
 /obj/effect/spawner/lootdrop/f13/weapon/melee/tier1 //TIER 1 MELEE WEAPON
 	name = "tier 1 melee"
 	lootcount = 1
@@ -593,7 +602,8 @@
 				/obj/item/melee/onehanded/club,
 				/obj/item/melee/onehanded/knife/cosmicdirty,
 				/obj/item/melee/unarmed/brass,
-				/obj/item/melee/unarmed/brass/spiked
+				/obj/item/melee/unarmed/brass/spike
+				/obj/effect/spawner/bundle/f13/throwingknife3,
 				)
 
 /obj/effect/spawner/lootdrop/f13/weapon/melee/tier3 //TIER 3 MELEE WEAPON
@@ -610,7 +620,8 @@
 				/obj/item/melee/onehanded/machete/forgedmachete,
 				/obj/item/shield/riot/buckler,
 				/obj/item/melee/unarmed/tigerclaw,
-				/obj/item/melee/unarmed/sappers
+				/obj/item/melee/unarmed/sappers,
+				/obj/effect/spawner/bundle/f13/throwingknife3
 				)
 
 /obj/effect/spawner/lootdrop/f13/weapon/melee/tier4 //TIER 4 MELEE WEAPON
@@ -625,7 +636,8 @@
 				/obj/item/melee/unarmed/maceglove,
 				/obj/item/melee/unarmed/punchdagger,
 				/obj/item/twohanded/baseball/louisville,
-				/obj/item/shield/riot
+				/obj/item/shield/riotm,
+				/obj/effect/spawner/bundle/f13/throwingknife3
 				)
 
 /obj/effect/spawner/lootdrop/f13/weapon/melee/tier5 //TIER 5 MELEE WEAPON
