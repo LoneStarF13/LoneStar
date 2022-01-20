@@ -603,7 +603,7 @@
 				/obj/item/melee/onehanded/club,
 				/obj/item/melee/onehanded/knife/cosmicdirty,
 				/obj/item/melee/unarmed/brass,
-				/obj/item/melee/unarmed/brass/spike,
+				/obj/item/melee/unarmed/brass/spiked,
 				)
 
 /obj/effect/spawner/lootdrop/f13/weapon/melee/tier3 //TIER 3 MELEE WEAPON
@@ -636,7 +636,7 @@
 				/obj/item/melee/unarmed/maceglove,
 				/obj/item/melee/unarmed/punchdagger,
 				/obj/item/twohanded/baseball/louisville,
-				/obj/item/shield/riotm,
+				/obj/item/shield/riot,
 				/obj/effect/spawner/bundle/f13/throwingknife3
 				)
 
