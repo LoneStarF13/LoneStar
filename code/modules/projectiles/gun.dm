@@ -499,7 +499,7 @@ ATTACHMENTS
 	if (automatic == 0)
 		return busy_action || firing || ((last_fire + fire_delay) > world.time)
 	if (automatic == 1)
-		return busy_action
+		return busy_action || firing
 
 /obj/item/gun/proc/process_fire(atom/target, mob/living/user, message = TRUE, params = null, zone_override = "", bonus_spread = 0, stam_cost = 0)
 	add_fingerprint(user)
