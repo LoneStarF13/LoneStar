@@ -647,7 +647,6 @@ GLOBAL_LIST_INIT(ballmer_windows_me_msg, list("Yo man, what if, we like, uh, put
 		else
 			SEND_SIGNAL(src, COMSIG_CLEAR_MOOD_EVENT, "drunk")
 			clear_alert("drunk")
-			sound_environment_override = SOUND_ENVIRONMENT_NONE
 			drunkenness = max(drunkenness - 0.2, 0)
 
 //used in human and monkey handle_environment()
