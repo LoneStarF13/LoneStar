@@ -59,7 +59,7 @@
 		return
 	if(user.a_intent == INTENT_HARM)
 		return ..()
-		SStgui.update_uis(src)
+	SStgui.update_uis(src)
 
 	if(is_type_in_list(I, allowed_types) && is_operational())
 		if(!user.transferItemToLoc(I, src))
