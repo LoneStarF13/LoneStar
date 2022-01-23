@@ -98,6 +98,11 @@
 /obj/machinery/gear_painter/AllowDrop()
 	return FALSE
 
+/obj/machinery/gear_painter/handle_atom_del(atom/movable/AM)
+	if(AM == inserted)
+		inserted = null
+	return ..()
+
 /obj/machinery/gear_painter/AltClick(mob/user)
 	. = ..()
 	drop_item()
