@@ -1128,6 +1128,13 @@ Weapons		Service Rifle, Rockwell, 9mm pistol, all good.
 	display_order = JOB_DISPLAY_ORDER_REAR_ECHELON
 	outfit = /datum/outfit/job/ncr/f13rearechelon
 
+	loadout_options = list( // ALL: Very limited blueprints
+		/datum/outfit/loadout/rearlog, // Varmint rifle, Trench tool
+		/datum/outfit/loadout/reartech, // Hunting shotgun, Survival knife, Toolbelt, Metal detector, Salvaging
+		/datum/outfit/loadout/rearcorps, // 9mm sidearm, Survival knife, Chemistry
+		/datum/outfit/loadout/offduty, // 9mm sidearm, Bayonet
+		)
+
 
 /datum/outfit/job/ncr/f13rearechelon
 	name = "NCR Rear Echelon"
