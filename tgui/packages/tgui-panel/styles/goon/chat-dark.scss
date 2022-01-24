@@ -254,10 +254,8 @@ a.popt {
 
 /* ADD HERE FOR ITALIC */
 
-.italic,
-.italics,
-.emote {
-  
+.italic, .italics {
+  font-style: italic;
 }
 
 
@@ -339,7 +337,7 @@ em {
   font-weight: bold;
 }
 
-.say, .infoplain, .oocplain, .warningplain {
+.say, .emote, .infoplain, .oocplain, .warningplain {
 }
 
 .deadsay {
