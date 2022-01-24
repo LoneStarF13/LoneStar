@@ -1121,93 +1121,23 @@ Weapons		Service Rifle, Rockwell, 9mm pistol, all good.
 	flag = F13REARECHELON
 	total_positions = 4
 	spawn_positions = 4
-	description = "You are the support element sent to assist the Camp Miller garrison. You are essential specialized support staff to help sustain the base via supply or specialized skills. You are not allowed to leave base unless given an explicit order by the CO or the current acting CO."
-	supervisors = "Logistics/Medical officer first, regular chain of command after that."
+	description = "You are off duty. You have no authority. You are, for all intents and purposes, a civilian. Matrix if the base is raided. Don't help the NCR in combat or anything."
+	supervisors = "Literally everyone, not that they should give you any orders other than fucking off."
 	selection_color = "#fff5cc"
 	exp_type = EXP_TYPE_NCR
 	display_order = JOB_DISPLAY_ORDER_REAR_ECHELON
 	outfit = /datum/outfit/job/ncr/f13rearechelon
 
-	loadout_options = list( // ALL: Very limited blueprints
-		/datum/outfit/loadout/rearlog, // Varmint rifle, Trench tool
-		/datum/outfit/loadout/reartech, // Hunting shotgun, Survival knife, Toolbelt, Metal detector, Salvaging
-		/datum/outfit/loadout/rearcorps, // 9mm sidearm, Survival knife, Chemistry
-		/datum/outfit/loadout/offduty, // 9mm sidearm, Bayonet
-		)
 
 /datum/outfit/job/ncr/f13rearechelon
 	name = "NCR Rear Echelon"
 	jobtype	= /datum/job/ncr/f13rearechelon
 	id = /obj/item/card/id/dogtag/ncrtrooper
 	accessory =	/obj/item/clothing/accessory/ncr/TPR
-	head = /obj/item/clothing/head/f13/ncr_cap
-	suit = null
-	belt = null
-
-/datum/outfit/job/ncr/f13rearechelon/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
-	..()
-	if(visualsOnly)
-		return
-	H.mind.teach_crafting_recipe(/datum/crafting_recipe/tailor/ncruniform)
-	H.mind.teach_crafting_recipe(/datum/crafting_recipe/ncrsalvagedarmorconversion)
-	H.mind.teach_crafting_recipe(/datum/crafting_recipe/tools/forged/entrenching_tool)
-	H.mind.teach_crafting_recipe(/datum/crafting_recipe/servicerifle)
-	H.mind.teach_crafting_recipe(/datum/crafting_recipe/ncrsalvagedhelmetconversion)
-
-// Logistics soldier
-/datum/outfit/loadout/rearlog
-	name = "Logistics"
-	suit = /obj/item/clothing/suit/armor/f13/utilityvest
-	belt = /obj/item/storage/belt/military/NCR_Bandolier
-	backpack_contents = list(
-		/obj/item/gun/ballistic/automatic/varmint = 1,
-		/obj/item/ammo_box/magazine/m556/rifle/small = 2,
-		/obj/item/shovel/trench = 1,
-		/obj/item/storage/bag/money/small/ncrenlisted = 1,
-		)
-
-// Technician	Salvaging
-/datum/outfit/loadout/reartech
-	name = "Technician"
-	suit = /obj/item/clothing/suit/armor/f13/utilityvest
-	belt = /obj/item/storage/belt/utility/full
-	gloves = /obj/item/clothing/gloves/color/yellow
-	backpack_contents = list(
-		/obj/item/book/granter/trait/techno = 1,
-		/obj/item/clothing/suit/armor/f13/utilityvest = 1,
-		/obj/item/gun/ballistic/shotgun/hunting = 1,
-		/obj/item/ammo_box/shotgun/buck = 1,
-		/obj/item/melee/onehanded/knife/survival = 1,
-		/obj/item/metaldetector = 1,
-		/obj/item/weldingtool/largetank = 1,
-		/obj/item/storage/bag/money/small/ncrenlisted = 1,
-		)
-
-// Corpsman		Chemistry, simple medical
-/datum/outfit/loadout/rearcorps
-	name = "Corpsman"
-	suit = /obj/item/clothing/suit/armor/f13/utilityvest
-	belt = /obj/item/storage/belt/medical
-	gloves = /obj/item/clothing/gloves/f13/leather/fingerless
-	neck = /obj/item/storage/belt/holster/legholster
-	backpack_contents = list(
-		/obj/item/gun/ballistic/automatic/pistol/ninemil = 1,
-		/obj/item/ammo_box/magazine/m9mm = 2,
-		/obj/item/melee/onehanded/knife/survival = 1,
-		/obj/item/storage/firstaid/regular = 1,
-		/obj/item/book/granter/trait/chemistry = 1,
-		/obj/item/book/granter/trait/lowsurgery = 1,
-		/obj/item/storage/bag/money/small/ncrenlisted = 1,
-		)
-
-// Off-duty		Snazzy jacket, saved up money for leave
-/datum/outfit/loadout/offduty
-	name = "Off-Duty"
+	head = /obj/item/clothing/head/beret/ncr_codresscap 
 	suit = /obj/item/clothing/suit/armor/f13/ncrarmor/ncr_dressjack
-	belt = /obj/item/storage/belt/military/NCR_Bandolier
+	belt = /obj/item/storage/belt/military/assault/ncr
 	backpack_contents = list(
-		/obj/item/gun/ballistic/automatic/pistol/ninemil = 1,
-		/obj/item/ammo_box/magazine/m9mm = 2,
 		/obj/item/melee/onehanded/knife/bayonet = 1,
 		/obj/item/reagent_containers/food/snacks/cheesyburrito = 2,
 		/obj/item/reagent_containers/food/drinks/bottle/f13nukacola = 1,
