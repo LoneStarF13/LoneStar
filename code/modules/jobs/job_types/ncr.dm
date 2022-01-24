@@ -1135,7 +1135,6 @@ Weapons		Service Rifle, Rockwell, 9mm pistol, all good.
 		/datum/outfit/loadout/offduty, // 9mm sidearm, Bayonet
 		)
 
-
 /datum/outfit/job/ncr/f13rearechelon
 	name = "NCR Rear Echelon"
 	jobtype	= /datum/job/ncr/f13rearechelon
