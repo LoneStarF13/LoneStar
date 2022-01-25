@@ -497,13 +497,6 @@ It's fairly easy to fix if dealing with single letters but not so much with comp
 		else
 			colored_message = "<font color='[color]'>[message]</font>"
 
-	var/colored_message = message
-	if(color)
-		if(color[1] == "#")
-			colored_message = "<font color=[color]>[message]</font>"
-		else
-			colored_message = "<font color='[color]'>[message]</font>"
-
 	switch(message_type)
 		if(LOG_WHISPER)
 			colored_message = "(WHISPER) [colored_message]"
