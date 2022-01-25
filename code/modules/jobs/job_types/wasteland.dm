@@ -1423,6 +1423,7 @@ datum/job/wasteland/f13dendoctor
 	..()
 	if(visualsOnly)
 		return
+	ADD_TRAIT(H, TRAIT_TRIBAL, src)
 
 	H.social_faction = FACTION_WASTELAND
 	add_verb(H, /mob/living/proc/create_tribe)
