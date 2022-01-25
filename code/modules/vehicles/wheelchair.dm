@@ -10,7 +10,6 @@
 	canmove = TRUE
 	density = FALSE		//Thought I couldn't fix this one easily, phew
 	arms_required = 1
-	var/override_movespeed = FALSE
 
 /obj/vehicle/ridden/wheelchair/Initialize()
 	. = ..()
@@ -43,8 +42,7 @@
 			canmove = FALSE
 			addtimer(VARSET_CALLBACK(src, canmove, TRUE), 20)
 			return FALSE
-		if(!override_movespeed)
-			var/datum/component/riding/D = GetComponent(/datum/component/riding)
+		var/datum/component/riding/D = GetComponent(/datum/component/riding)
 		//1.5 (movespeed as of this change) multiplied by 6.7 gets ABOUT 10 (rounded), the old constant for the wheelchair that gets divided by how many arms they have
 		//if that made no sense this simply makes the wheelchair speed change along with movement speed delay
 		D.vehicle_move_delay = round((CONFIG_GET(number/movedelay/run_delay) * 4) / min(user.get_num_arms(), 2), world.tick_lag)
