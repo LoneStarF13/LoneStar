@@ -119,8 +119,6 @@ GLOBAL_LIST_INIT(freqtospan, list(
 	input = underline.Replace_char(input, "<u>$1</u>")
 	return input
 
-#undef ENCODE_HTML_EPHASIS
-
 /// Quirky citadel proc for our custom sayverbs to strip the verb out. Snowflakey as hell, say rewrite 3.0 when?
 /atom/movable/proc/quoteless_say_quote(input, list/spans = list(speech_span), message_mode)
 	if((input[1] == "!") && (length_char(input) > 1))
