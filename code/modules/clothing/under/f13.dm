@@ -13,31 +13,28 @@
 
 /obj/item/clothing/under/f13/enclave/science
 	name = "science officer uniform"
-	desc = "(I)Off-white military style uniform for scientists."
+	desc = "Off-white military style uniform for scientists."
 	icon_state = "uniform_enclave_science"
 	item_state = "uniform_enclave_science"
-	armor = list("tier" = 1, "bio" = 50, "rad" = 50, "fire" = 50, "acid" = 50)
+
 
 /obj/item/clothing/under/f13/enclave/peacekeeper
 	name = "peacekeeper uniform"
-	desc = "(II)Khaki standard issue uniform over a black turtleneck."
+	desc = "Khaki standard issue uniform over a black turtleneck."
 	icon_state = "uniform_enclave_peacekeeper"
 	item_state = "uniform_enclave_peacekeeper"
-	armor = list("tier" = 2)
 
 /obj/item/clothing/under/f13/enclave/officer
 	name = "officer uniform"
-	desc = "(II)Khaki officers uniform with gold trimming over a black turtleneck."
+	desc = "Khaki officers uniform with gold trimming over a black turtleneck."
 	icon_state = "uniform_enclave_officer"
 	item_state = "uniform_enclave_officer"
-	armor = list("tier" = 2)
-
+	
 /obj/item/clothing/under/f13/enclave/intel
 	name = "intel officer uniform"
-	desc = "(III)Dark pants and turtleneck with hidden kevlar layers, since intel officers often wear no proper armor."
+	desc = "Dark pants and turtleneck with hidden kevlar layers, since intel officers often wear no proper armor."
 	icon_state = "uniform_enclave_intel"
 	item_state = "uniform_enclave_intel"
-	armor = list("tier" = 3)
 
 //Vault
 
@@ -46,12 +43,16 @@
 	desc = "Fancy checkered yellow dress with small shoulder puffs."
 	icon_state = "dress50s"
 	item_state = "dress50s"
+	fitted = FEMALE_UNIFORM_TOP
+	can_adjust = FALSE
 
 /obj/item/clothing/under/f13/picnicdress50s
 	name = "50s style dress"
 	desc = "Cheery polkadot casual dress."
 	icon_state = "dresspicnic50s"
 	item_state = "dresspicnic50s"
+	fitted = FEMALE_UNIFORM_TOP
+	can_adjust = FALSE
 
 /obj/item/clothing/under/f13/vault
 	name = "vault jumpsuit"
@@ -335,12 +336,16 @@
 	desc = "Olive colored cloth with a red belt."
 	icon_state = "legcamp"
 	item_state = "brownjsuit"
+	fitted = FEMALE_UNIFORM_TOP
+	can_adjust = FALSE
 
 /obj/item/clothing/under/f13/campfollowerfemale
 	name = "camp follower female robe"
 	desc = "Olive colored cloth with a red sash."
 	icon_state = "legcamp_f"
 	item_state = "legcamp_f"
+	fitted = FEMALE_UNIFORM_TOP
+	can_adjust = FALSE
 
 /obj/item/clothing/under/f13/legskirt
 	name = "legionary fatigues"
@@ -352,6 +357,7 @@
 	lefthand_file = 'icons/mob/inhands/clothing_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/clothing_righthand.dmi'
 	alt_covers_chest = TRUE
+	fitted = FEMALE_UNIFORM_TOP
 	can_adjust = TRUE
 
 /obj/item/clothing/under/f13/legskirt/tac
@@ -360,6 +366,8 @@
 	icon_state = "tacskirt"
 	item_state = "tacskirt"
 	item_color = "tacskirt"
+	fitted = FEMALE_UNIFORM_TOP
+	can_adjust = TRUE
 
 /obj/item/clothing/under/f13/priestess
 	name = "priestess robes"
@@ -367,6 +375,8 @@
 	icon_state = "priestess"
 	item_state = "priestess"
 	item_color = "priestess"
+	fitted = FEMALE_UNIFORM_TOP
+	can_adjust = FALSE
 
 /obj/item/clothing/under/f13/pmarsrobe
 	name = "priestess of mars robe"
@@ -377,6 +387,8 @@
 	resistance_flags = LAVA_PROOF | FIRE_PROOF
 	body_parts_covered = CHEST|GROIN|ARMS|LEGS
 	flags_inv = HIDEGLOVES|HIDESHOES
+	fitted = FEMALE_UNIFORM_TOP
+	can_adjust = FALSE
 
 /obj/item/clothing/under/f13/legauxilia
 	name = "male auxilia robes"
@@ -386,6 +398,8 @@
 	item_color = "legskirt"
 	lefthand_file = 'icons/mob/inhands/clothing_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/clothing_righthand.dmi'
+	fitted = FEMALE_UNIFORM_TOP
+	can_adjust = FALSE
 
 /obj/item/clothing/under/f13/legauxiliaf
 	name = "female auxilia robes"
@@ -395,6 +409,8 @@
 	item_color = "legskirt"
 	lefthand_file = 'icons/mob/inhands/clothing_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/clothing_righthand.dmi'
+	fitted = FEMALE_UNIFORM_TOP
+	can_adjust = FALSE
 
 /obj/item/clothing/under/f13/legslave
 	name = "simple male slave clothing"
@@ -402,6 +418,8 @@
 	icon_state = "legslave"
 	item_state = "legslave"
 	item_color = "rag"
+	fitted = FEMALE_UNIFORM_TOP
+	can_adjust = FALSE
 
 /obj/item/clothing/under/f13/legslavef
 	name = "simple female slave clothing"
@@ -409,6 +427,8 @@
 	icon_state = "legslavef"
 	item_state = "legslavef"
 	item_color = "rag"
+	fitted = FEMALE_UNIFORM_TOP
+	can_adjust = FALSE
 
 
 //Roma Legion Legacy delete?
@@ -419,6 +439,8 @@
 	icon_state = "roma_legion"
 	item_state = "roma_legion"
 	item_color = "roma_legion"
+	fitted = FEMALE_UNIFORM_TOP
+	can_adjust = FALSE
 
 /obj/item/clothing/under/f13/romaskirt/auxilia
 	name = "roma auxilia fatigues"
@@ -430,6 +452,7 @@
 	lefthand_file = 'icons/mob/inhands/clothing_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/clothing_righthand.dmi'
 	alt_covers_chest = TRUE
+	fitted = FEMALE_UNIFORM_TOP
 	can_adjust = TRUE
 
 // Generic
@@ -531,38 +554,50 @@
 	desc = "Made by the famous pre-war fashion designer Marie Calluna, this dress was made to hug your every curve and show off some deep cleavage."
 	icon_state = "bandagedress"
 	item_state = "bandagedress"
+	fitted = FEMALE_UNIFORM_TOP
+	can_adjust = FALSE
 
 /obj/item/clothing/under/f13/classdress
 	name = "classy dress"
 	desc = "A dress that shows off all of your assets in the best ways, while remaining quite formal and tasteful."
 	icon_state = "societydress"
 	item_state = "societydress"
+	fitted = FEMALE_UNIFORM_TOP
+	can_adjust = FALSE
 
 /obj/item/clothing/under/f13/bluedress
 	name = "blue dress"
 	desc = "A cute, but plain, common pre-war dress."
 	icon_state = "blue_dress"
 	item_state = "blue_dress"
+	fitted = FEMALE_UNIFORM_TOP
+	can_adjust = FALSE
 
 /obj/item/clothing/under/f13/pinkdress
 	name = "pink dress"
 	desc = "A cute, but plain, common pre-war dress."
 	icon_state = "pink_dress"
 	item_state = "pink_dress"
+	fitted = FEMALE_UNIFORM_TOP
+	can_adjust = FALSE
 
 /obj/item/clothing/under/f13/greendress
 	name = "green dress"
 	desc = "A cute, but plain, common pre-war dress."
 	icon_state = "green_dress"
 	item_state = "green_dress"
+	fitted = FEMALE_UNIFORM_TOP
+	can_adjust = FALSE
 
 /obj/item/clothing/under/f13/blackdress
 	name = "black dress"
 	desc = "A dark and revealing dress that mixes formality and seduction."
 	icon_state = "blackdress"
 	item_state = "blackdress"
+	fitted = FEMALE_UNIFORM_TOP
+	can_adjust = FALSE
 
-/obj/item/clothing/under/f13/xenon
+/obj/item/clothing/under/f13/xenon	//Currently broken when worn
 	name = "flashy jumpsuit"
 	desc = "A jumpsuit that seems to come from another time."
 	icon_state = "xenon"
@@ -600,11 +635,46 @@
 
 /obj/item/clothing/under/f13/khan
 	name = "great khan uniform"
-	desc = "The uniform of the the Great Khans."
-	icon_state = "khan"
-	item_state = "khan"
-	item_color = "khan"
+	desc = "Clothing marking the wearer as one of the the Great Khans. Most common are denim pants, but jorts is a acceptable alternative."
+	icon = 'icons/fallout/clothing/khans.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/khaans.dmi'
+	icon_state = "khan_uniform"
+	item_state = "khan_uniform"
+	item_color = "khan_uniform"
 	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 10, "fire" = 10, "acid" = 40)
+	var/uniformtoggled = FALSE
+
+// Testing fixed toggle uniform so icon updates properly
+/obj/item/clothing/under/f13/khan/AltClick(mob/user)
+	. = ..()
+	if(!user.canUseTopic(src, BE_CLOSE, ismonkey(user)))
+		return
+	uniform_toggle(user)
+	return TRUE
+
+/obj/item/clothing/under/f13/khan/ui_action_click()
+	uniform_toggle()
+
+/obj/item/clothing/under/f13/khan/proc/uniform_toggle()
+	set src in usr
+
+	if(!can_use(usr))
+		return 0
+
+	to_chat(usr, "<span class='notice'>You adjust the [src].</span>")
+	if(src.uniformtoggled)
+		src.icon_state = "[initial(icon_state)]"
+		src.item_state = "[initial(icon_state)]"
+		src.uniformtoggled = FALSE
+	else if(!src.uniformtoggled)
+		src.icon_state = "[initial(icon_state)]_t"
+		src.item_state = "[initial(icon_state)]_t"
+		src.uniformtoggled = TRUE
+	usr.update_inv_w_uniform()
+	for(var/X in actions)
+		var/datum/action/A = X
+		A.UpdateButtonIcon()
+
 
 //WAYFARER TRIBAL
 /obj/item/clothing/under/f13/tribe
@@ -618,6 +688,8 @@
 	desc = "Well maintained robes adorned with fine leather and polished turquoise."
 	icon_state = "chiefrags"
 	item_state = "chiefrags"
+	fitted = FEMALE_UNIFORM_TOP
+	can_adjust = FALSE
 
 /obj/item/clothing/under/f13/tribe_Hhunter
 	name = "Razorclaw robes"
@@ -630,6 +702,8 @@
 	desc = "Carefully hand wozen cloth robes with heavy turqoise jewelry drapped over top."
 	icon_state = "shamanrags"
 	item_state = "shamanrags"
+	fitted = FEMALE_UNIFORM_TOP
+	can_adjust = FALSE
 
 /obj/item/clothing/under/f13/wayfarer
 	name = "loincloth"
@@ -637,6 +711,8 @@
 	icon_state = "gatherer"
 	item_state = "gatherer"
 	item_color = "gatherer"
+	body_parts_covered = GROIN
+	fitted = FEMALE_UNIFORM_TOP
 	can_adjust = TRUE
 
 /obj/item/clothing/under/f13/wayfarer/shamanblue
@@ -645,6 +721,7 @@
 	icon_state = "shamanblue"
 	item_state = "shamanblue"
 	item_color = "shamanblue"
+	fitted = FEMALE_UNIFORM_TOP
 	can_adjust = TRUE
 
 /obj/item/clothing/under/f13/wayfarer/shamanred
@@ -653,6 +730,7 @@
 	icon_state = "shamanred"
 	item_state = "shamanred"
 	item_color = "shamanred"
+	fitted = FEMALE_UNIFORM_TOP
 	can_adjust = TRUE
 
 /obj/item/clothing/under/f13/wayfarer/acolyte
@@ -661,6 +739,7 @@
 	icon_state = "acolyte"
 	item_state = "acolyte"
 	item_color = "acolyte"
+	fitted = FEMALE_UNIFORM_TOP
 	can_adjust = TRUE
 
 /obj/item/clothing/under/f13/wayfarer/hunter
@@ -669,6 +748,7 @@
 	icon_state = "hunter"
 	item_state = "hunter"
 	item_color = "hunter"
+	fitted = FEMALE_UNIFORM_TOP
 	can_adjust = TRUE
 
 //OUTLAW DESERTERS
@@ -701,6 +781,8 @@
 	icon_state = "clothing_tribalout"
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/uniform.dmi'
 	item_state = "clothing_tribalout"
+	body_parts_covered = GROIN
+	fitted = FEMALE_UNIFORM_TOP
 	can_adjust = TRUE
 
 /obj/item/clothing/under/f13/exile/enclave
@@ -732,6 +814,8 @@
 	icon_state = "promdress"
 	item_state = "promdress"
 	item_color = "promdress"
+	fitted = FEMALE_UNIFORM_TOP
+	can_adjust = FALSE
 
 //Dust Devils
 
@@ -1337,13 +1421,6 @@
 	icon_state = "caravan"
 	item_color = "caravan"
 
-/obj/item/clothing/under/pants/f13/khan
-	name = "Great Khan pants"
-	desc = "A cloth pants with leather armor pads attached on sides.<br>These are commonly worn by the Great Khans raiders."
-	icon_state = "khan"
-	item_color = "khan"
-	body_parts_covered = LEGS
-
 /obj/item/clothing/under/pants/f13/warboy //Mad Max 4 2015 babe!
 	name = "war boy pants"
 	desc = "A pair of dark brown pants, perfect for the one who grabs the sun, riding to Valhalla."
@@ -1463,6 +1540,8 @@
 	item_state = "atomfaithful"
 	item_color = "atomfaithful"
 	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 100, "fire" = 20, "acid" = 40)
+	fitted = FEMALE_UNIFORM_TOP
+	can_adjust = FALSE
 
 
 /obj/item/clothing/under/f13/atomwitchunder
@@ -1481,6 +1560,8 @@
 	item_state = "atombeliever"
 	item_color = "atombeliever"
 	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 100, "fire" = 20, "acid" = 40)
+	fitted = FEMALE_UNIFORM_TOP
+	can_adjust = FALSE
 
 
 /obj/item/clothing/under/f13/raiderharness

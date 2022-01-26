@@ -839,6 +839,13 @@
 	icon_state = "book"
 	remarks = list("Never make dreams...", "Don't pick from an empty list...", "Runtimes are not good for cardio...", "Report an issue to a nearby technician, and expect to be told to post it to their terminal...", "Probably don't adjust the default safety settings.", "Clean up any messes left in the pod before the next use.")
 	crafting_recipe_types = list(/datum/crafting_recipe/set_vrboard/den)
+	
+/obj/item/book/granter/crafting_recipe/ODF
+	name = "Weapons of Yuma and the Oasis Defense Force"
+	desc = "a book detailing weapons used in the region and by the local town, it has lithiographed pictures of hand-drawn schematics for each weapon type"
+	oneuse = TRUE
+	crafting_recipe_types = list(/datum/crafting_recipe/policepistol, /datum/crafting_recipe/policerifle, /datum/crafting_recipe/steelbib/heavy, /datum/crafting_recipe/armyhelmetheavy, /datum/crafting_recipe/huntingshotgun)
+	remarks = list("Looks like Oasis hand-crafts replicas from a pre-war police armory", "Some of these weapons are more than 200 years old....", "Duct tape really can hold it together!", "So that is how you laminate armor sheets together", "Looks like you can beat metal into just the right shape to replace the bits") 
 
 /obj/item/book/granter/trait/tagger
 	name = "Picket Fences"
@@ -862,7 +869,7 @@
 	desc = "A pulp fiction paperback detailing the adventures of a violent barbarian. Surprisingly, this was sold to children."
 	oneuse = TRUE
 	granted_trait = TRAIT_BIG_LEAGUES
-	traitname = "big_leagues"
+	traitname = "hitting things"
 	remarks = list("Grognak hit the Death Knight only once, but that was enough.", "Grognak is surprisingly agile, never committing too heavily on an attack, dancing between his enemies.", "Grognak isn't good at talking, but he knows it has its place. He has friends to talk for him.", "Other barbarians might change their weapons, but Grognak could never leave his beloved axe.")
 
 /obj/item/book/granter/trait/lowsurgery

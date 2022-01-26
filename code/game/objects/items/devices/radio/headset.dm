@@ -367,8 +367,9 @@ GLOBAL_LIST_INIT(channel_tokens, list(
 
 /obj/item/radio/headset/headset_khans
 	name = "khan radio headset"
-	desc = "This is used by the Khans.\nTo access the Khan channel, use :a."
-	icon_state = "syndie_headset"
+	desc = "This is used by the Khans.\nTo access the Khan channel, use :h."
+	icon_state = "syndie_headset" 
+	item_state = "headset_alt"
 	keyslot = new /obj/item/encryptionkey/headset_khans
 
 /obj/item/radio/headset/headset_khans/ComponentInitialize()

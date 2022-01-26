@@ -83,8 +83,9 @@
 
 /turf/open/indestructible/ground/outside/savannah
 	name = "savannah"
-	icon_state = "savannah"
 	desc = "Some savannah."
+	icon = 'icons/fallout/turfs/savannah.dmi'
+	icon_state = "savannahcenter"
 	slowdown = 0.4
 	flags_1 = CAN_HAVE_NATURE | ADJACENCIES_OVERLAY
 	footstep = FOOTSTEP_SAND
@@ -335,6 +336,18 @@
 	name = "\proper wood planks"
 	icon_state = "housewood1"
 	icon = 'icons/turf/floors.dmi'
+	//	step_sounds = list("human" = "woodfootsteps")
+
+/turf/open/indestructible/ground/outside/woodalt
+	name = "\proper wood planks"
+	icon_state = "wood"
+	icon = 'icons/turf/floors.dmi'
+	//	step_sounds = list("human" = "woodfootsteps")
+
+/turf/open/indestructible/ground/outside/roof
+	name = "roof"
+	icon_state = "floorrusty"
+	icon = 'icons/fallout/turfs/floors.dmi'
 	//	step_sounds = list("human" = "woodfootsteps")
 
 /turf/open/indestructible/ground/outside/water
