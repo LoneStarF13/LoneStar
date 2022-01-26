@@ -339,12 +339,16 @@
 	desc = "Olive colored cloth with a red belt."
 	icon_state = "legcamp"
 	item_state = "brownjsuit"
+	fitted = FEMALE_UNIFORM_TOP
+	can_adjust = FALSE
 
 /obj/item/clothing/under/f13/campfollowerfemale
 	name = "camp follower female robe"
 	desc = "Olive colored cloth with a red sash."
 	icon_state = "legcamp_f"
 	item_state = "legcamp_f"
+	fitted = FEMALE_UNIFORM_TOP
+	can_adjust = FALSE
 
 /obj/item/clothing/under/f13/legskirt
 	name = "legionary fatigues"
@@ -356,6 +360,7 @@
 	lefthand_file = 'icons/mob/inhands/clothing_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/clothing_righthand.dmi'
 	alt_covers_chest = TRUE
+	fitted = FEMALE_UNIFORM_TOP
 	can_adjust = TRUE
 
 /obj/item/clothing/under/f13/legskirt/tac
@@ -364,6 +369,8 @@
 	icon_state = "tacskirt"
 	item_state = "tacskirt"
 	item_color = "tacskirt"
+	fitted = FEMALE_UNIFORM_TOP
+	can_adjust = TRUE
 
 /obj/item/clothing/under/f13/priestess
 	name = "priestess robes"
@@ -371,6 +378,8 @@
 	icon_state = "priestess"
 	item_state = "priestess"
 	item_color = "priestess"
+	fitted = FEMALE_UNIFORM_TOP
+	can_adjust = FALSE
 
 /obj/item/clothing/under/f13/pmarsrobe
 	name = "priestess of mars robe"
@@ -381,6 +390,8 @@
 	resistance_flags = LAVA_PROOF | FIRE_PROOF
 	body_parts_covered = CHEST|GROIN|ARMS|LEGS
 	flags_inv = HIDEGLOVES|HIDESHOES
+	fitted = FEMALE_UNIFORM_TOP
+	can_adjust = FALSE
 
 /obj/item/clothing/under/f13/legauxilia
 	name = "male auxilia robes"
@@ -390,6 +401,8 @@
 	item_color = "legskirt"
 	lefthand_file = 'icons/mob/inhands/clothing_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/clothing_righthand.dmi'
+	fitted = FEMALE_UNIFORM_TOP
+	can_adjust = FALSE
 
 /obj/item/clothing/under/f13/legauxiliaf
 	name = "female auxilia robes"
@@ -399,6 +412,8 @@
 	item_color = "legskirt"
 	lefthand_file = 'icons/mob/inhands/clothing_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/clothing_righthand.dmi'
+	fitted = FEMALE_UNIFORM_TOP
+	can_adjust = FALSE
 
 /obj/item/clothing/under/f13/legslave
 	name = "simple male slave clothing"
@@ -406,6 +421,8 @@
 	icon_state = "legslave"
 	item_state = "legslave"
 	item_color = "rag"
+	fitted = FEMALE_UNIFORM_TOP
+	can_adjust = FALSE
 
 /obj/item/clothing/under/f13/legslavef
 	name = "simple female slave clothing"
@@ -413,6 +430,8 @@
 	icon_state = "legslavef"
 	item_state = "legslavef"
 	item_color = "rag"
+	fitted = FEMALE_UNIFORM_TOP
+	can_adjust = FALSE
 
 
 //Roma Legion Legacy delete?
@@ -423,6 +442,8 @@
 	icon_state = "roma_legion"
 	item_state = "roma_legion"
 	item_color = "roma_legion"
+	fitted = FEMALE_UNIFORM_TOP
+	can_adjust = FALSE
 
 /obj/item/clothing/under/f13/romaskirt/auxilia
 	name = "roma auxilia fatigues"
@@ -434,6 +455,7 @@
 	lefthand_file = 'icons/mob/inhands/clothing_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/clothing_righthand.dmi'
 	alt_covers_chest = TRUE
+	fitted = FEMALE_UNIFORM_TOP
 	can_adjust = TRUE
 
 // Generic
