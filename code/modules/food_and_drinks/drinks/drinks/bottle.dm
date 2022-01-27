@@ -40,7 +40,7 @@
 			headarmor = I.armor.melee
 
 	//Calculate the knockdown duration for the target.
-	var/armor_duration = (knockdown_duration - headarmor) + force
+	//var/armor_duration = (knockdown_duration - headarmor) + force
 
 	//Apply the damage!
 	target.apply_damage(force, BRUTE, affecting, armor_block)
