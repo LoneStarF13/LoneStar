@@ -2693,10 +2693,6 @@
 	icon_state = "whitegreenrustychess"
 	},
 /area/f13/city)
-"bgC" = (
-/obj/structure/reagent_dispensers/barrel/explosive,
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/caves)
 "bgI" = (
 /obj/structure/chair/stool{
 	dir = 1;
@@ -7267,12 +7263,6 @@
 	},
 /turf/open/floor/wood/wood_tiled,
 /area/f13/building)
-"dhY" = (
-/obj/structure/stairs/north,
-/turf/open/floor/f13{
-	icon_state = "bluerustysolid"
-	},
-/area/f13/followers)
 "did" = (
 /obj/structure/rack,
 /obj/effect/spawner/lootdrop/f13/foodspawner,
@@ -8445,6 +8435,10 @@
 	icon_state = "housewood3-broken"
 	},
 /area/f13/raiders)
+"dEm" = (
+/obj/machinery/microwave/stove,
+/turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
+/area/f13/followers)
 "dEt" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/nest/radroach{
@@ -15342,8 +15336,10 @@
 /turf/open/floor/f13/wood,
 /area/f13/building)
 "gsT" = (
-/obj/machinery/microwave/stove,
-/turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
+/obj/structure/stairs/north,
+/turf/open/floor/f13{
+	icon_state = "bluerustysolid"
+	},
 /area/f13/followers)
 "gsV" = (
 /obj/structure/window/spawner/west,
@@ -20207,6 +20203,10 @@
 	icon_state = "horizontaltopborderbottom2"
 	},
 /area/f13/wasteland)
+"int" = (
+/obj/structure/anvil,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/caves)
 "inz" = (
 /obj/item/flashlight/seclite,
 /obj/item/screwdriver,
@@ -20875,10 +20875,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13/wood,
-/area/f13/caves)
-"iEz" = (
-/obj/structure/anvil,
-/turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
 "iEO" = (
 /obj/effect/decal/cleanable/dirt,
@@ -25572,7 +25568,7 @@
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
 "kvF" = (
-/obj/structure/table,
+/obj/structure/stairs/south,
 /turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
 /area/f13/followers)
 "kvG" = (
@@ -29668,6 +29664,10 @@
 	icon_state = "horizontalbottombordertop0"
 	},
 /area/f13/wasteland)
+"mhq" = (
+/obj/structure/reagent_dispensers/barrel/explosive,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/caves)
 "mhs" = (
 /obj/structure/wreck/trash/two_barrels,
 /turf/open/indestructible/ground/outside/road{
@@ -37304,6 +37304,13 @@
 	icon_state = "floorrustysolid"
 	},
 /area/f13/building)
+"pDG" = (
+/obj/structure/fluff/railing{
+	density = 0;
+	dir = 8
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
+/area/f13/followers)
 "pDM" = (
 /obj/structure/table/wood/settler,
 /obj/item/reagent_containers/food/snacks/grown/potato,
@@ -88861,7 +88868,7 @@ iuz
 ybx
 ybx
 ybx
-gsT
+xAm
 kvF
 ybx
 ybx
@@ -89119,7 +89126,7 @@ kBg
 ybx
 fBm
 xAm
-xAm
+pDG
 mWH
 ybx
 dCV
@@ -89377,7 +89384,7 @@ lju
 xAm
 xAm
 xAm
-kvF
+dEm
 ybx
 dCV
 uqa
@@ -92711,7 +92718,7 @@ ydO
 mHj
 mHj
 ybx
-dhY
+gsT
 jMP
 kLO
 ybx
@@ -102566,8 +102573,8 @@ gcK
 gcK
 gcK
 wnA
-iEz
-bgC
+int
+mhq
 bfN
 fFZ
 pAm
