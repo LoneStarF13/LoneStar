@@ -162,7 +162,7 @@
 	sawn_desc = "A hunting rifle, crudely shortened with a saw. It's far from accurate, but the short barrel makes it quite portable."
 	fire_delay = 10
 	extra_damage = 35
-	extra_penetration = 0.05
+	extra_penetration = 0.20
 	extra_speed = 800
 	spread = 0
 	force = 18
@@ -188,7 +188,7 @@
 	desc = "A militarized hunting rifle rechambered to 7.62. This one has had the barrel floated with shims to increase accuracy."
 	mag_type = /obj/item/ammo_box/magazine/internal/boltaction/hunting/remington
 	fire_delay = 12
-	extra_damage = 38
+	extra_damage = 37
 	extra_speed = 800
 	force = 18
 
@@ -236,7 +236,7 @@
 	icon_state = "mosin"
 	item_state = "308"
 	mag_type = /obj/item/ammo_box/magazine/internal/boltaction
-	extra_damage = 36
+	extra_damage = 37
 	extra_speed = 600
 	fire_delay = 12
 	force = 18
@@ -258,7 +258,7 @@
 	icon_state = "enfield2"
 	item_state = "308"
 	mag_type = /obj/item/ammo_box/magazine/internal/boltaction
-	extra_damage = 30
+	extra_damage = 33
 	extra_speed = 500
 	fire_delay = 10
 	slowdown = 0.35
