@@ -2693,6 +2693,10 @@
 	icon_state = "whitegreenrustychess"
 	},
 /area/f13/city)
+"bgC" = (
+/obj/structure/reagent_dispensers/barrel/explosive,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/caves)
 "bgI" = (
 /obj/structure/chair/stool{
 	dir = 1;
@@ -7263,6 +7267,12 @@
 	},
 /turf/open/floor/wood/wood_tiled,
 /area/f13/building)
+"dhY" = (
+/obj/structure/stairs/north,
+/turf/open/floor/f13{
+	icon_state = "bluerustysolid"
+	},
+/area/f13/followers)
 "did" = (
 /obj/structure/rack,
 /obj/effect/spawner/lootdrop/f13/foodspawner,
@@ -8001,6 +8011,9 @@
 	pixel_y = 8
 	},
 /obj/structure/table,
+/obj/item/radio/intercom/retro{
+	pixel_x = -30
+	},
 /turf/open/floor/f13{
 	icon_state = "bluedirtychess2"
 	},
@@ -20862,6 +20875,10 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13/wood,
+/area/f13/caves)
+"iEz" = (
+/obj/structure/anvil,
+/turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
 "iEO" = (
 /obj/effect/decal/cleanable/dirt,
@@ -92693,8 +92710,8 @@ ydO
 ydO
 mHj
 mHj
-mvv
 ybx
+dhY
 jMP
 kLO
 ybx
@@ -92950,7 +92967,7 @@ ydO
 ydO
 ydO
 ydO
-mHj
+ybx
 ybx
 ybx
 ybx
@@ -102549,8 +102566,8 @@ gcK
 gcK
 gcK
 wnA
-bfN
-bfN
+iEz
+bgC
 bfN
 fFZ
 pAm
