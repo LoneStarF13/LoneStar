@@ -697,11 +697,6 @@
 	icon_state = "blueprint2"
 	crafting_recipe_types = list(/datum/crafting_recipe/plasmapistol)
 
-/obj/item/book/granter/crafting_recipe/blueprint/lightplasmapistol
-	name = "light plasma pistol blueprint"
-	icon_state = "blueprint2"
-	crafting_recipe_types = list(/datum/crafting_recipe/lightplasmapistol)
-
 /obj/item/book/granter/crafting_recipe/blueprint/uzi
 	name = "mini uzi blueprint"
 	icon_state = "blueprint2"
@@ -1070,7 +1065,7 @@
 			if("Sorrows")
 				granted_trait = TRAIT_TRAPPER
 				traitname = "Sorrows"
-			if("Eighties")
+			if("Eighties")				
 				granted_trait = TRAIT_FREERUNNING
 				traitname = "Eighties"
 			if("Wayfarers")
