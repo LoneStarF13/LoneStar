@@ -312,7 +312,7 @@
 	icon_state = "elcapitan"
 	item_state = "deagle"
 	mag_type = /obj/item/ammo_box/magazine/m14mm
-	extra_damage = 40
+	extra_damage = 46
 	extra_penetration = 0.2
 	fire_sound = 'sound/f13weapons/magnum_fire.ogg'
 
@@ -360,7 +360,7 @@
 	desc = "A Swiss SIG-Sauer 14mm handgun, this one is a finely tuned custom firearm from the Gunrunners."
 	icon_state = "lildev"
 	w_class = WEIGHT_CLASS_SMALL
-	extra_damage = 46
+	extra_damage = 50
 	fire_delay = 4
 
 
