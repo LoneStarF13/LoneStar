@@ -45,6 +45,17 @@
 	icon_state = "bluerustysolid"
 	},
 /area/f13/followers)
+"aW" = (
+/obj/machinery/door/airlock/medical/glass{
+	name = "Psychiatry";
+	req_one_access_txt = "124"
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "fpsych";
+	name = "Follower Pysch shutters"
+	},
+/turf/open/floor/wood/wood_large,
+/area/f13/followers)
 "bi" = (
 /obj/structure/chair/left{
 	dir = 4
@@ -78,9 +89,9 @@
 /obj/structure/chair/right,
 /turf/open/floor/carpet/red,
 /area/f13/building)
-"cc" = (
-/obj/structure/chair/sofa/left,
-/turf/open/floor/wood/wood_large,
+"bI" = (
+/obj/machinery/vending/wardrobe/chem_wardrobe,
+/turf/open/floor/carpet/blue,
 /area/f13/followers)
 "ck" = (
 /obj/structure/table/glass,
@@ -120,16 +131,8 @@
 	icon_state = "floorrusty"
 	},
 /area/f13/followers)
-"gf" = (
-/obj/structure/fluff/railing{
-	density = 0;
-	dir = 8
-	},
-/turf/open/floor/f13{
-	icon_state = "bluedirtychess2"
-	},
-/area/f13/followers)
-"gv" = (
+"fJ" = (
+/obj/machinery/light,
 /turf/open/floor/wood/wood_large,
 /area/f13/followers)
 "gH" = (
@@ -161,18 +164,6 @@
 "hs" = (
 /turf/open/indestructible/ground/outside/woodalt,
 /area/f13/building)
-"hv" = (
-/obj/structure/closet/cabinet,
-/obj/item/storage/briefcase,
-/turf/open/floor/wood/wood_large,
-/area/f13/followers)
-"hx" = (
-/obj/structure/table,
-/obj/machinery/light/small{
-	dir = 1
-	},
-/turf/open/floor/carpet/blue,
-/area/f13/followers)
 "hM" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
@@ -207,18 +198,17 @@
 	sunlight_state = 1
 	},
 /area/f13/wasteland)
-"ig" = (
-/obj/structure/chair/comfy/brown{
-	dir = 8
-	},
-/turf/open/floor/wood/wood_large,
-/area/f13/followers)
 "io" = (
 /obj/structure/chair/right{
 	dir = 4
 	},
 /turf/open/floor/carpet/red,
 /area/f13/building)
+"iy" = (
+/obj/machinery/vending/wardrobe/medi_wardrobe,
+/obj/machinery/light/small,
+/turf/open/floor/carpet/blue,
+/area/f13/followers)
 "iA" = (
 /obj/structure/barricade/bars,
 /obj/structure/window/fulltile/house{
@@ -241,7 +231,52 @@
 	icon_state = "oakfloor4-broken"
 	},
 /area/f13/building)
-"iQ" = (
+"iJ" = (
+/obj/structure/decoration/vent{
+	desc = "An exhaust ventilation system designed to keep the air safe via several stages of filtering. This one has soot and some ashes on the bars."
+	},
+/turf/closed/wall/f13/supermart,
+/area/f13/followers)
+"jl" = (
+/turf/open/indestructible/ground/outside/woodalt,
+/area/f13/clinic)
+"jI" = (
+/obj/structure/chair/comfy/shuttle,
+/obj/effect/landmark/start/f13/followersadministrator,
+/turf/open/floor/f13{
+	icon_state = "bluerustysolid"
+	},
+/area/f13/followers)
+"jY" = (
+/obj/structure/chair/sofa/right,
+/turf/open/floor/wood/wood_large,
+/area/f13/followers)
+"jZ" = (
+/obj/structure/chair/comfy/brown{
+	dir = 8
+	},
+/turf/open/floor/wood/wood_large,
+/area/f13/followers)
+"kC" = (
+/turf/closed/mineral/random/low_chance,
+/area/f13/caves)
+"kR" = (
+/obj/structure/simple_door/bunker{
+	name = "Restroom"
+	},
+/turf/open/indestructible/ground/outside/roof,
+/area/f13/followers)
+"lm" = (
+/turf/open/indestructible/ground/outside/roof,
+/area/f13/city)
+"ly" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/obj/machinery/light/small,
+/turf/open/floor/wood/f13/oak,
+/area/f13/building)
+"lE" = (
 /obj/structure/table/wood,
 /obj/item/flashlight/lamp/green{
 	pixel_x = -5;
@@ -259,55 +294,6 @@
 	},
 /turf/open/floor/wood/wood_large,
 /area/f13/followers)
-"iX" = (
-/obj/effect/landmark/start/f13/followersvolunteer,
-/turf/open/floor/carpet/blue,
-/area/f13/followers)
-"jl" = (
-/turf/open/indestructible/ground/outside/woodalt,
-/area/f13/clinic)
-"jm" = (
-/obj/structure/sign/poster/official/help_others,
-/turf/closed/wall/f13/supermart,
-/area/f13/followers)
-"jI" = (
-/obj/structure/chair/comfy/shuttle,
-/obj/effect/landmark/start/f13/followersadministrator,
-/turf/open/floor/f13{
-	icon_state = "bluerustysolid"
-	},
-/area/f13/followers)
-"jN" = (
-/obj/structure/chair/sofa/right,
-/turf/open/floor/carpet/blue,
-/area/f13/followers)
-"kC" = (
-/turf/closed/mineral/random/low_chance,
-/area/f13/caves)
-"kG" = (
-/obj/effect/landmark/start/f13/followersdoctor,
-/turf/open/floor/carpet/blue,
-/area/f13/followers)
-"kR" = (
-/obj/structure/simple_door/bunker{
-	name = "Restroom"
-	},
-/turf/open/indestructible/ground/outside/roof,
-/area/f13/followers)
-"lm" = (
-/turf/open/indestructible/ground/outside/roof,
-/area/f13/city)
-"lr" = (
-/obj/machinery/vending/wardrobe/science_wardrobe,
-/turf/open/floor/carpet/blue,
-/area/f13/followers)
-"ly" = (
-/obj/effect/decal/cleanable/dirt{
-	color = "000000"
-	},
-/obj/machinery/light/small,
-/turf/open/floor/wood/f13/oak,
-/area/f13/building)
 "lH" = (
 /turf/closed/mineral/random/low_chance,
 /area/f13/tunnel)
@@ -377,9 +363,6 @@
 	name = "grimy tile"
 	},
 /area/f13/building)
-"oe" = (
-/turf/closed/wall/f13/supermart,
-/area/f13/building)
 "oj" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
@@ -403,10 +386,6 @@
 	sunlight_state = 1
 	},
 /area/f13/building)
-"op" = (
-/obj/structure/chair/sofa/right,
-/turf/open/floor/wood/wood_large,
-/area/f13/followers)
 "oI" = (
 /obj/structure/table,
 /obj/item/radio/intercom/retro{
@@ -464,6 +443,19 @@
 	},
 /turf/open/floor/carpet/black,
 /area/f13/building)
+"ru" = (
+/obj/structure/filingcabinet{
+	pixel_x = 10
+	},
+/obj/structure/filingcabinet/chestdrawer{
+	pixel_x = -6
+	},
+/turf/open/floor/wood/wood_large,
+/area/f13/followers)
+"rI" = (
+/obj/item/kirbyplants/random,
+/turf/open/floor/wood/wood_large,
+/area/f13/followers)
 "rZ" = (
 /obj/structure/barricade/bars,
 /obj/structure/window/fulltile/house{
@@ -471,6 +463,15 @@
 	},
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
+"sa" = (
+/obj/structure/fluff/railing{
+	density = 0;
+	dir = 8
+	},
+/turf/open/floor/f13{
+	icon_state = "bluedirtychess2"
+	},
+/area/f13/followers)
 "sc" = (
 /obj/machinery/light{
 	dir = 1
@@ -527,9 +528,17 @@
 "ub" = (
 /turf/closed/wall/r_wall,
 /area/f13/ncr)
+"ug" = (
+/obj/structure/sign/poster/contraband/fun_police,
+/turf/closed/wall/f13/supermart,
+/area/f13/followers)
 "uI" = (
 /turf/open/floor/carpet/black,
 /area/f13/building)
+"uN" = (
+/obj/machinery/vending/wardrobe/science_wardrobe,
+/turf/open/floor/carpet/blue,
+/area/f13/followers)
 "uU" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
@@ -541,6 +550,9 @@
 "uW" = (
 /turf/closed/indestructible/rock,
 /area/f13/tunnel)
+"vl" = (
+/turf/open/floor/wood/wood_large,
+/area/f13/followers)
 "vG" = (
 /turf/open/indestructible/ground/outside/roof,
 /area/f13/ncr)
@@ -575,10 +587,6 @@
 	name = "easter egg"
 	},
 /turf/open/indestructible/ground/outside/roof,
-/area/f13/followers)
-"xp" = (
-/obj/item/kirbyplants/random,
-/turf/open/floor/wood/wood_large,
 /area/f13/followers)
 "xN" = (
 /obj/structure/chair/right{
@@ -638,11 +646,6 @@
 	sunlight_state = 1
 	},
 /area/f13/ncr)
-"Aq" = (
-/obj/machinery/vending/wardrobe/medi_wardrobe,
-/obj/machinery/light/small,
-/turf/open/floor/carpet/blue,
-/area/f13/followers)
 "AM" = (
 /turf/open/indestructible/ground/outside/woodalt,
 /area/f13/legion)
@@ -691,6 +694,11 @@
 	icon_state = "bluerustysolid"
 	},
 /area/f13/followers)
+"Cs" = (
+/obj/structure/closet/cabinet,
+/obj/item/storage/briefcase,
+/turf/open/floor/wood/wood_large,
+/area/f13/followers)
 "CC" = (
 /turf/open/indestructible/ground/outside/roof,
 /area/f13/brotherhood/surface)
@@ -705,16 +713,6 @@
 "CP" = (
 /turf/open/floor/f13{
 	icon_state = "bluerustysolid"
-	},
-/area/f13/followers)
-"Dl" = (
-/obj/machinery/light,
-/turf/open/floor/wood/wood_large,
-/area/f13/followers)
-"Dq" = (
-/obj/item/storage/money_stack,
-/turf/open/floor/f13{
-	icon_state = "bluedirtychess2"
 	},
 /area/f13/followers)
 "DB" = (
@@ -735,10 +733,6 @@
 "EZ" = (
 /turf/open/transparent/openspace,
 /area/f13/wasteland)
-"Fw" = (
-/obj/structure/sign/poster/contraband/fun_police,
-/turf/closed/wall/f13/supermart,
-/area/f13/followers)
 "FK" = (
 /obj/structure/simple_door/wood,
 /turf/open/floor/wood/f13/oak,
@@ -792,6 +786,10 @@
 /obj/structure/closet/crate/bin,
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
+"HT" = (
+/obj/effect/landmark/start/f13/followersdoctor,
+/turf/open/floor/carpet/blue,
+/area/f13/followers)
 "Iq" = (
 /obj/structure/chair/left{
 	dir = 8
@@ -810,8 +808,12 @@
 "Jd" = (
 /turf/closed/wall/f13/tentwall,
 /area/f13/ncr)
-"JT" = (
+"Jr" = (
 /obj/structure/chair/sofa/left,
+/turf/open/floor/wood/wood_large,
+/area/f13/followers)
+"Ju" = (
+/obj/effect/landmark/start/f13/followersvolunteer,
 /turf/open/floor/carpet/blue,
 /area/f13/followers)
 "JV" = (
@@ -841,16 +843,17 @@
 /obj/structure/chair/left,
 /turf/open/floor/carpet/red,
 /area/f13/building)
+"Lh" = (
+/obj/structure/table,
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/open/floor/carpet/blue,
+/area/f13/followers)
 "Li" = (
 /obj/structure/barricade/wooden,
 /turf/closed/wall/rust,
 /area/f13/building)
-"Lm" = (
-/obj/structure/decoration/vent{
-	desc = "An exhaust ventilation system designed to keep the air safe via several stages of filtering. This one has soot and some ashes on the bars."
-	},
-/turf/closed/wall/f13/supermart,
-/area/f13/followers)
 "Lp" = (
 /turf/open/indestructible/ground/outside/roof,
 /area/f13/village)
@@ -878,15 +881,6 @@
 	sunlight_state = 1
 	},
 /area/f13/building)
-"ML" = (
-/obj/structure/filingcabinet{
-	pixel_x = 10
-	},
-/obj/structure/filingcabinet/chestdrawer{
-	pixel_x = -6
-	},
-/turf/open/floor/wood/wood_large,
-/area/f13/followers)
 "MR" = (
 /turf/closed/wall/f13/supermart,
 /area/f13/followers)
@@ -894,9 +888,6 @@
 /obj/structure/table/booth,
 /turf/open/floor/carpet/red,
 /area/f13/building)
-"Ne" = (
-/turf/open/floor/carpet/blue,
-/area/f13/followers)
 "NP" = (
 /turf/closed/wall/f13/tentwall,
 /area/f13/raiders)
@@ -913,16 +904,9 @@
 /obj/structure/barricade/wooden,
 /turf/closed/wall/f13/wood,
 /area/f13/building)
-"Oy" = (
-/obj/machinery/door/airlock/medical/glass{
-	name = "Psychiatry";
-	req_one_access_txt = "124"
-	},
-/obj/machinery/door/poddoor/shutters/preopen{
-	id = "fpsych";
-	name = "Follower Pysch shutters"
-	},
-/turf/open/floor/wood/wood_large,
+"Og" = (
+/obj/structure/sign/poster/official/help_others,
+/turf/closed/wall/f13/supermart,
 /area/f13/followers)
 "OR" = (
 /turf/open/floor/f13{
@@ -993,6 +977,9 @@
 	icon_state = "bluerustysolid"
 	},
 /area/f13/followers)
+"RX" = (
+/turf/open/floor/carpet/blue,
+/area/f13/followers)
 "Sl" = (
 /turf/open/indestructible/ground/outside/woodalt,
 /area/f13/raiders)
@@ -1061,6 +1048,9 @@
 	pixel_x = 32
 	},
 /turf/open/floor/carpet/black,
+/area/f13/building)
+"UI" = (
+/turf/closed/wall/f13/supermart,
 /area/f13/building)
 "UK" = (
 /obj/structure/railing{
@@ -1140,6 +1130,10 @@
 	icon_state = "bluerustysolid"
 	},
 /area/f13/followers)
+"XC" = (
+/obj/structure/chair/sofa/left,
+/turf/open/floor/carpet/blue,
+/area/f13/followers)
 "XQ" = (
 /obj/structure/curtain{
 	color = "#845f58"
@@ -1151,12 +1145,22 @@
 	name = "metal plating"
 	},
 /area/f13/building)
+"XU" = (
+/obj/structure/chair/sofa/right,
+/turf/open/floor/carpet/blue,
+/area/f13/followers)
 "XX" = (
 /obj/item/radio/intercom/retro{
 	pixel_x = 29
 	},
 /turf/open/floor/f13{
 	icon_state = "bluerustysolid"
+	},
+/area/f13/followers)
+"Yg" = (
+/obj/item/storage/money_stack,
+/turf/open/floor/f13{
+	icon_state = "bluedirtychess2"
 	},
 /area/f13/followers)
 "Yx" = (
@@ -1170,10 +1174,6 @@
 /turf/open/floor/f13{
 	icon_state = "bluerustysolid"
 	},
-/area/f13/followers)
-"YL" = (
-/obj/machinery/vending/wardrobe/chem_wardrobe,
-/turf/open/floor/carpet/blue,
 /area/f13/followers)
 "YY" = (
 /obj/effect/decal/cleanable/dirt{
@@ -32700,9 +32700,9 @@ ad
 wY
 MR
 MR
-jm
-oe
-oe
+Og
+UI
+UI
 sD
 PL
 PL
@@ -32958,8 +32958,8 @@ MR
 MR
 mt
 OR
-YL
-oe
+bI
+UI
 ad
 PL
 PL
@@ -33213,10 +33213,10 @@ MR
 CI
 fu
 MR
-gf
+sa
 OR
-Aq
-oe
+iy
+UI
 ad
 PL
 PL
@@ -33470,10 +33470,10 @@ OU
 LJ
 LJ
 MR
-Dq
+Yg
 OR
-lr
-oe
+uN
+UI
 ad
 md
 md
@@ -33727,10 +33727,10 @@ MR
 TM
 Bh
 MR
-Ne
-Ne
-Ne
-oe
+RX
+RX
+RX
+UI
 ad
 md
 md
@@ -33984,10 +33984,10 @@ MR
 MR
 MR
 mG
-hx
-Ne
-Ne
-oe
+Lh
+RX
+RX
+UI
 ad
 md
 md
@@ -34241,10 +34241,10 @@ MR
 tV
 mK
 MR
-jN
-kG
-iX
-oe
+XU
+HT
+Ju
+UI
 ad
 md
 md
@@ -34498,9 +34498,9 @@ MR
 kR
 MR
 MR
-JT
-kG
-iX
+XC
+HT
+Ju
 MR
 ad
 md
@@ -35270,7 +35270,7 @@ MR
 MR
 MR
 MR
-Oy
+aW
 Qm
 MR
 ad
@@ -35526,9 +35526,9 @@ CP
 CP
 CP
 MR
-ML
-gv
-Dl
+ru
+vl
+vl
 MR
 ad
 md
@@ -35783,10 +35783,10 @@ Cr
 CP
 Yx
 MR
-op
-gv
-gv
-Lm
+jY
+vl
+fJ
+iJ
 ad
 md
 md
@@ -36040,9 +36040,9 @@ Xa
 YC
 Kl
 MR
-cc
-gv
-hv
+Jr
+vl
+Cs
 MR
 ad
 md
@@ -36297,9 +36297,9 @@ Xa
 CP
 Rr
 MR
-xp
-ig
-iQ
+rI
+jZ
+lE
 MR
 ad
 md
@@ -36555,7 +36555,7 @@ CP
 gH
 MR
 MR
-Fw
+ug
 MR
 MR
 ad
