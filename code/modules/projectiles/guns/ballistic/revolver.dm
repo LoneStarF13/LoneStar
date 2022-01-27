@@ -7,7 +7,7 @@
 	desc = "should not exist."
 	icon_state = "revolver"
 	mag_type = /obj/item/ammo_box/magazine/internal/cylinder
-	fire_delay = 5	
+	fire_delay = 4.5	
 	spread = 1
 	force = 12 // Pistol whip
 	casing_ejector = FALSE
@@ -148,9 +148,9 @@
 	name = "Colt 6520"
 	desc = "The Colt 6520 10mm double action revolver is a highly durable weapon developed by Colt Firearms prior to the Great War. It proved to be resistant to the desert-like conditions of the post-nuclear wasteland and is a fine example of workmanship and quality construction."
 	icon_state = "colt6520"
-	extra_damage = 20
+	extra_damage = 24
 	extra_penetration = 0.1
-	fire_delay = 4
+	fire_delay = 4.5
 	recoil = 0.05
 	mag_type = /obj/item/ammo_box/magazine/internal/cylinder/rev6520
 	fire_sound = 'sound/f13weapons/10mm_fire_02.ogg'
@@ -168,8 +168,8 @@
 	item_state = "45revolver"
 	icon_state = "45revolver"
 	mag_type = /obj/item/ammo_box/magazine/internal/cylinder/rev45
-	extra_damage = 32
-	fire_delay = 6
+	extra_damage = 36
+	fire_delay = 4.5
 	spread = 1
 	fire_sound = 'sound/f13weapons/45revolver.ogg'
 
@@ -187,7 +187,7 @@
 	item_state = "357colt"
 	mag_type = /obj/item/ammo_box/magazine/internal/cylinder/rev357
 	extra_damage = 36
-	fire_delay = 6
+	fire_delay = 4.5
 	spread = 0
 	fire_sound = 'sound/f13weapons/357magnum.ogg'
 
@@ -199,8 +199,8 @@
 	icon_state = "lucky37"
 	item_state = "lucky"
 	w_class = WEIGHT_CLASS_SMALL
-	extra_damage = 36
-	fire_delay = 4
+	extra_damage = 40
+	fire_delay = 3
 	block_chance = 20
 	
 //Police revolver					Keywords: .357, Double action, 6 rounds cylinder, Pocket Pistol 
@@ -227,7 +227,7 @@
 	item_state = "model29"
 	icon_state = "m29"
 	mag_type = /obj/item/ammo_box/magazine/internal/cylinder/rev44
-	extra_damage = 36
+	extra_damage = 38
 	extra_penetration = 0.1
 	recoil = 0.1
 	can_scope = FALSE
@@ -250,9 +250,9 @@
 	desc = "When you don't just need excessive force, but crave it. This .44 has a special hammer mechanism, allowing for measured powerful shots, or fanning for a flurry of inaccurate shots."
 	item_state = "m29peace"
 	icon_state = "m29peace"
-	extra_damage = 40
+	extra_damage = 45
 	extra_penetration = 0.1
-	fire_delay = 7
+	fire_delay = 5
 	burst_size = 1
 	actions_types = list(/datum/action/item_action/toggle_firemode)
 	can_scope = FALSE
@@ -276,9 +276,9 @@
 			select = 0
 			burst_size = 1
 			spread = 0
-			extra_damage = 40
+			extra_damage = 45
 			extra_penetration = 0.1
-			fire_delay = 7
+			fire_delay = 5
 			weapon_weight = WEAPON_LIGHT
 			to_chat(user, "<span class='notice'>You switch to single-shot fire.</span>")
 	update_icon()
@@ -290,7 +290,7 @@
 	desc = "A snubnose variant of the commonplace .44 magnum. An excellent holdout weapon for self defense."
 	icon_state = "m29_snub"
 	w_class = WEIGHT_CLASS_SMALL
-	extra_damage = 34
+	extra_damage = 36
 	spread = 3
 
 
@@ -301,8 +301,8 @@
 	item_state = "44colt"
 	icon_state = "44colt"
 	mag_type = /obj/item/ammo_box/magazine/internal/cylinder/rev44
-	fire_delay = 6
-	extra_damage = 36
+	fire_delay = 4.5
+	extra_damage = 40
 	spread = 0
 	fire_sound = 'sound/f13weapons/44revolver.ogg'
 
@@ -313,7 +313,7 @@
 	desc = "I hadn't noticed, but there on his hip, was a really spiffy looking iron..."
 	fire_delay = 4
 	extra_penetration = 0.1
-	extra_damage = 36
+	extra_damage = 40
 
 
 //////////////////////
@@ -360,7 +360,7 @@
 	can_scope = TRUE
 	scope_state = "revolver_scope"
 	extra_damage = 50
-	extra_penetration = 0.05 //its not brass hardcast
+	extra_penetration = 0.1
 	fire_delay = 5.5
 	scope_x_offset = 9
 	scope_y_offset = 20
@@ -379,9 +379,9 @@
 	item_state = "coltwalker"
 	icon_state = "peacemaker"
 	mag_type = /obj/item/ammo_box/magazine/internal/cylinder/rev45/gunslinger
-	extra_damage = 35
+	extra_damage = 38
 	extra_penetration = 0.15
-	fire_delay = 8 //This fires MUCH slower then the Sequoia or 357. You're rewarded with bouncing bullets
+	fire_delay = 4.5
 	fire_sound = 'sound/f13weapons/45revolver.ogg'
 	spread = 0 //Your reward for the slower fire rate is less spread anddd
 
@@ -392,8 +392,8 @@
 	desc = "A strange pistol firing rifle ammunition, possibly damaging the users wrist and with poor accuracy."
 	icon_state = "thatgun"
 	mag_type = /obj/item/ammo_box/magazine/internal/cylinder/thatgun
-	extra_damage = 30
-	extra_penetration = 0.1
+	extra_damage = 33
+	extra_penetration = 0.2
 	spread = 4
 	recoil = 0.5
 	fire_sound = 'sound/f13weapons/magnum_fire.ogg'
