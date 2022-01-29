@@ -178,7 +178,7 @@
 	item_state = "rockwell"
 	mag_type = /obj/item/ammo_box/magazine/uzim9mm
 	init_mag_type = /obj/item/ammo_box/magazine/uzim9mm/rockwell
-	burst_shot_delay = 3.25
+	burst_shot_delay = 2
 	recoil = 0.1
 	spread = 12
 	extra_damage = 18
@@ -202,16 +202,16 @@
 	fire_sound = 'sound/f13weapons/american180.ogg'
 
 
-//Greasegun				Keywords: .45 ACP, Automatic, 30 rounds
+//Greasegun				Keywords: 9mm, Automatic, 30 rounds
 /obj/item/gun/ballistic/automatic/smg/greasegun
-	name = "M3A1 Grease Gun"
-	desc = "An inexpensive submachine gun chambered in .45 ACP. Slow fire rate allows the operator to conserve ammunition in controllable bursts."
+	name = "Grease Gun"
+	desc = "An inexpensive submachine gun, downscaled and rechambered in 9mm. Very high rate of fire in bursts."
 	icon_state = "grease_gun"
 	item_state = "smg9mm"
 	mag_type = /obj/item/ammo_box/magazine/greasegun
 	spread = 8
-	extra_damage = 25
-	burst_shot_delay = 3.25 //Slow rate of fire
+	extra_damage = 19
+	burst_shot_delay = 1.75
 	can_attachments = TRUE
 	suppressor_state = "uzi_suppressor"
 	suppressor_x_offset = 26
@@ -247,7 +247,7 @@
 	desc = "What was once an inexpensive, but reliable submachine gun is now an inexpensive piece of shit. It's impressive this thing still fires at all."
 	can_attachments = FALSE
 	recoil = 0.3
-	extra_damage = 23
+	extra_damage = 17
 
 /obj/item/gun/ballistic/automatic/smg/greasegun/worn/burst_select()
 	var/mob/living/carbon/human/user = usr
@@ -333,7 +333,7 @@
 	item_state = "uzi"
 	mag_type = /obj/item/ammo_box/magazine/uzim9mm
 	fire_delay = 3
-	burst_shot_delay = 2.5
+	burst_shot_delay = 1
 	extra_damage = 18
 	can_suppress = TRUE
 	can_attachments = TRUE
@@ -394,7 +394,7 @@
 	init_mag_type = /obj/item/ammo_box/magazine/tommygunm45/stick
 	fire_sound = 'sound/weapons/gunshot_smg.ogg'
 	burst_size = 3
-	burst_shot_delay = 3.25
+	burst_shot_delay = 2.5
 	fire_delay = 5
 	extra_damage = 25
 	spread = 10
@@ -406,7 +406,7 @@
 	desc = "Rusty, dinged up and stuck on semi-auto, but somehow still functional. Commonly used by the White Legs tribe."
 	mag_type = /obj/item/ammo_box/magazine/tommygunm45/stick
 	semi_auto = TRUE
-	fire_delay = 5
+	fire_delay = 3
 	extra_damage = 25
 	spread = 15
 
@@ -459,7 +459,7 @@
 	fire_sound = 'sound/weapons/Gunshot_silenced.ogg'
 
 
-//Ppsh-41				Keywords: 9mm, Automatic, 71 rounds. Special modifiers: damage -4
+//Ppsh-41				Keywords: 9mm, Automatic, 71 rounds.
 /obj/item/gun/ballistic/automatic/smg/ppsh
 	name = "Ppsh-41"
 	desc = "An extremely fast firing, inaccurate submachine gun from World War 2. Low muzzle velocity. Uses 9mm rounds."
