@@ -124,7 +124,7 @@ datum/crafting_recipe/steelbib
 	
 datum/crafting_recipe/steelbib/heavy
 	name = "Heavy Steel Breastplate"
-	result = /obj/item/clothing/suit/armor/f13/metalarmor/steelbib
+	result = /obj/item/clothing/suit/armor/f13/metalarmor/steelbib/oasis
 	reqs = list(/obj/item/clothing/suit/armor/f13/metalarmor/steelbib = 1,
 				/obj/item/stack/crafting/goodparts = 1,
 				/obj/item/stack/sheet/prewar = 5)
@@ -157,7 +157,7 @@ datum/crafting_recipe/steelbib/heavy
 
 /datum/crafting_recipe/ncrsalvagedarmorconversion
 	name = "Salvaged NCR Power Armor"
-	result = /obj/item/clothing/suit/armor/f13/power_armor/ncr
+	result = /obj/item/clothing/suit/armor/f13/power_armor/t45b/ncr
 	reqs = list(/obj/item/clothing/suit/armor/f13/power_armor/t45b = 1,
 				/obj/item/toy/crayon/spraycan)
 	time = 30

@@ -52,7 +52,6 @@
 
 /turf/open/indestructible/ground/outside
 	sunlight_state = SUNLIGHT_SOURCE
-	slowdown = 0.2
 
 /turf/open/indestructible/ground/outside/Initialize()
 	. = ..()
@@ -84,9 +83,10 @@
 
 /turf/open/indestructible/ground/outside/savannah
 	name = "savannah"
-	icon_state = "savannah"
 	desc = "Some savannah."
-	slowdown = 1
+	icon = 'icons/fallout/turfs/savannah.dmi'
+	icon_state = "savannahcenter"
+	slowdown = 0.4
 	flags_1 = CAN_HAVE_NATURE | ADJACENCIES_OVERLAY
 	footstep = FOOTSTEP_SAND
 	barefootstep = FOOTSTEP_SAND
@@ -137,7 +137,7 @@
 //	step_sounds = list("human" = "dirtfootsteps")
 //	allowed_plants = list(/obj/item/seeds/poppy/broc, /obj/item/seeds/xander, /obj/item/seeds/mutfruit,
 //	/obj/item/seeds/feracactus, /obj/item/seeds/corn,/obj/item/seeds/shroom, /obj/item/seeds/agave)
-	slowdown = 1
+	slowdown = 0.4
 	flags_1 = CAN_HAVE_NATURE | ADJACENCIES_OVERLAY
 	footstep = FOOTSTEP_SAND
 	barefootstep = FOOTSTEP_SAND
@@ -163,7 +163,7 @@
 /turf/open/indestructible/ground/outside/desert/sonora
 	icon = 'icons/fallout/turfs/wasteland.dmi'
 	icon_state = "desertsmooth"
-	slowdown = 0.5
+	slowdown = 0.3
 	list/loots = list(
 						/obj/item/stack/crafting/metalparts/five = 30,
 						)
@@ -181,7 +181,7 @@
 
 /turf/open/indestructible/ground/outside/desert/sonora/rough
 	icon_state = "desertrough"
-	slowdown = 1
+	slowdown = 0.4
 
 /turf/open/indestructible/ground/outside/desert/Initialize()
 	. = ..()
@@ -336,6 +336,18 @@
 	name = "\proper wood planks"
 	icon_state = "housewood1"
 	icon = 'icons/turf/floors.dmi'
+	//	step_sounds = list("human" = "woodfootsteps")
+
+/turf/open/indestructible/ground/outside/woodalt
+	name = "\proper wood planks"
+	icon_state = "wood"
+	icon = 'icons/turf/floors.dmi'
+	//	step_sounds = list("human" = "woodfootsteps")
+
+/turf/open/indestructible/ground/outside/roof
+	name = "roof"
+	icon_state = "floorrusty"
+	icon = 'icons/fallout/turfs/floors.dmi'
 	//	step_sounds = list("human" = "woodfootsteps")
 
 /turf/open/indestructible/ground/outside/water
