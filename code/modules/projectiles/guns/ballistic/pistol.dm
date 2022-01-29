@@ -269,9 +269,10 @@
 	name = "Mk. 23"
 	desc = "A very tactical pistol chambered in .45 ACP with a built in laser sight and attachment point for a seclite."
 	icon_state = "mk23"
+	weapon_weight = WEAPON_LIGHT
 	mag_type = /obj/item/ammo_box/magazine/m45exp
 	fire_delay = 2.5
-	extra_damage = 37
+	extra_damage = 36
 	spread = 1
 	can_flashlight = TRUE
 	gunlight_state = "flight"
@@ -312,7 +313,7 @@
 	icon_state = "elcapitan"
 	item_state = "deagle"
 	mag_type = /obj/item/ammo_box/magazine/m14mm
-	extra_damage = 45
+	extra_damage = 46
 	extra_penetration = 0.2
 	fire_sound = 'sound/f13weapons/magnum_fire.ogg'
 
@@ -323,7 +324,7 @@
 	icon_state = "automag"
 	item_state = "deagle"
 	mag_type = /obj/item/ammo_box/magazine/automag
-	extra_damage = 41
+	extra_damage = 42
 	extra_speed = 300
 	fire_delay = 3.5
 	recoil = 0.2
