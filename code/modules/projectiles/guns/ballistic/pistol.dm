@@ -9,7 +9,7 @@
 
 
 /obj/item/gun/ballistic/automatic/pistol
-	slowdown = 0.1
+	slowdown = 0.05
 	name = "pistol template"
 	desc = "should not be here. Bugreport."
 	icon = 'icons/fallout/objects/guns/ballistic.dmi'
@@ -270,8 +270,8 @@
 	desc = "A very tactical pistol chambered in .45 ACP with a built in laser sight and attachment point for a seclite."
 	icon_state = "mk23"
 	mag_type = /obj/item/ammo_box/magazine/m45exp
-	fire_delay = 3.5
-	extra_damage = 34
+	fire_delay = 2.5
+	extra_damage = 37
 	spread = 1
 	can_flashlight = TRUE
 	gunlight_state = "flight"
@@ -297,7 +297,7 @@
 	item_state = "deagle"
 	mag_type = /obj/item/ammo_box/magazine/m44
 	force = 15
-	extra_damage = 35
+	extra_damage = 39
 	extra_penetration = 0.05
 	extra_speed = 300
 	recoil = 0.2
@@ -312,7 +312,7 @@
 	icon_state = "elcapitan"
 	item_state = "deagle"
 	mag_type = /obj/item/ammo_box/magazine/m14mm
-	extra_damage = 29
+	extra_damage = 45
 	extra_penetration = 0.2
 	fire_sound = 'sound/f13weapons/magnum_fire.ogg'
 
@@ -325,7 +325,7 @@
 	mag_type = /obj/item/ammo_box/magazine/automag
 	extra_damage = 41
 	extra_speed = 300
-	fire_delay = 3.7
+	fire_delay = 3.5
 	recoil = 0.2
 	can_suppress = FALSE
 	automatic_burst_overlay = FALSE
