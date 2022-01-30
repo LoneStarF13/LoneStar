@@ -178,7 +178,7 @@
 	item_state = "rockwell"
 	mag_type = /obj/item/ammo_box/magazine/uzim9mm
 	init_mag_type = /obj/item/ammo_box/magazine/uzim9mm/rockwell
-	burst_shot_delay = 2
+	burst_shot_delay = 2.75
 	recoil = 0.1
 	spread = 12
 	extra_damage = 18
@@ -211,7 +211,7 @@
 	mag_type = /obj/item/ammo_box/magazine/greasegun
 	spread = 8
 	extra_damage = 19
-	burst_shot_delay = 1.75
+	burst_shot_delay = 2.75
 	can_attachments = TRUE
 	suppressor_state = "uzi_suppressor"
 	suppressor_x_offset = 26
