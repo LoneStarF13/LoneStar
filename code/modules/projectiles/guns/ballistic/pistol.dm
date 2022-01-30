@@ -72,7 +72,6 @@
 	icon_state = "n99"
 	mag_type = /obj/item/ammo_box/magazine/m10mm_adv/simple
 	extra_damage = 22
-	extra_penetration = 0.1
 	fire_delay = 4
 	recoil = 0.05
 	can_attachments = TRUE
@@ -127,7 +126,7 @@
 	mag_type = /obj/item/ammo_box/magazine/m9mm
 	weapon_weight = WEAPON_LIGHT
 	extra_damage = 20
-	fire_delay = 3
+	fire_delay = 2.5
 	can_attachments = TRUE
 	suppressor_state = "pistol_suppressor"
 	suppressor_x_offset = 30
@@ -147,13 +146,13 @@
 //Sig Sauer P220						Keywords: 9mm, Semi-auto, 10 round magazine
 /obj/item/gun/ballistic/automatic/pistol/sig
 	name = "Sig P220"
-	desc = "The P220 Sig Sauer. A Swiss designed pistol that is compact and has a good rate of fire."
+	desc = "The P220 Sig Sauer. A Swiss designed pistol that is compact and has an average rate of fire for a pistol."
 	icon_state = "sig"
 	w_class = WEIGHT_CLASS_SMALL
 	weapon_weight = WEAPON_LIGHT
 	mag_type = /obj/item/ammo_box/magazine/m9mm
-	extra_damage = 20
-	fire_delay = 3
+	extra_damage = 19
+	fire_delay = 3.25
 	can_attachments = TRUE
 	suppressor_state = "pistol_suppressor"
 	suppressor_x_offset = 30
@@ -177,7 +176,7 @@
 	desc = "One of the more common 9mm pistols, the Beretta is popular due to its reliability, 15 round magazine and good looks."
 	icon_state = "beretta"
 	mag_type = /obj/item/ammo_box/magazine/m9mmds
-	fire_delay = 3
+	fire_delay = 3.5
 	extra_damage = 20
 	spread = 1
 	can_attachments = TRUE
@@ -313,7 +312,7 @@
 	item_state = "deagle"
 	mag_type = /obj/item/ammo_box/magazine/m14mm
 	extra_damage = 45
-	extra_penetration = 0.2
+	extra_penetration = 0.15
 	fire_sound = 'sound/f13weapons/magnum_fire.ogg'
 
 //Automag			Keywords: .44 Magnum, Semi-auto, Long barrel, 7 rounds, Heavy. Special modifiers: bullet speed +300
@@ -323,7 +322,7 @@
 	icon_state = "automag"
 	item_state = "deagle"
 	mag_type = /obj/item/ammo_box/magazine/automag
-	extra_damage = 42
+	extra_damage = 41
 	extra_speed = 300
 	recoil = 0.2
 	can_suppress = FALSE
@@ -339,7 +338,7 @@
 	mag_type = /obj/item/ammo_box/magazine/m14mm
 	force = 15
 	extra_damage = 44
-	extra_penetration = 0.2
+	extra_penetration = 0.1
 	fire_delay = 5
 	recoil = 0.25
 	can_suppress = FALSE
@@ -351,7 +350,7 @@
 	desc = "A Swiss SIG-Sauer 14mm handgun, this one is a compact model for concealed carry."
 	icon_state = "pistol14_compact"
 	w_class = WEIGHT_CLASS_SMALL
-	extra_damage = 40
+	extra_damage = 42
 	spread = 5
 
 //Little Devil							Keywords: UNIQUE, 14mm, Semi-auto, Short barrel, 7 Rounds, Heavy. Special modifiers: damage +4, penetration +0.05, spread -3
