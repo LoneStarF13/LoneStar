@@ -291,11 +291,13 @@
 						dropItemToGround(pocket_item)
 						if(!usr.can_hold_items() || !usr.put_in_hands(pocket_item))
 							pocket_item.forceMove(drop_location())
+						log_combat(usr, src, "pickpocketed of item: [pocket_item]")
 				else
 					if(place_item)
 						if(place_item.mob_can_equip(src, usr, pocket_id, FALSE, TRUE))
 							usr.temporarilyRemoveItemFromInventory(place_item, TRUE)
 							equip_to_slot(place_item, pocket_id, TRUE)
+							log_combat(usr, src, "placed item [place_item] onto")
 						//do nothing otherwise
 
 				// Update strip window
