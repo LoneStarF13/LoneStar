@@ -333,7 +333,7 @@
 	item_state = "uzi"
 	mag_type = /obj/item/ammo_box/magazine/uzim9mm
 	fire_delay = 3
-	burst_shot_delay = 1
+	burst_shot_delay = 2.5
 	extra_damage = 18
 	can_suppress = TRUE
 	can_attachments = TRUE
@@ -394,7 +394,7 @@
 	init_mag_type = /obj/item/ammo_box/magazine/tommygunm45/stick
 	fire_sound = 'sound/weapons/gunshot_smg.ogg'
 	burst_size = 3
-	burst_shot_delay = 2.5
+	burst_shot_delay = 3
 	fire_delay = 5
 	extra_damage = 25
 	spread = 10
