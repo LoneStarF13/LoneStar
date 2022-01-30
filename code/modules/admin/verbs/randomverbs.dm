@@ -598,6 +598,8 @@ Traitors and the like can also be revived with the previous role mostly intact.
 	set name = "Make Priority Announcement"
 
 	if(!check_rights(R_ADMIN))
+		message_admins("[ADMIN_TPMONTY(usr)] tried to use cmd_admin_make_priority_announcement() without admin perms.")
+		log_admin("INVALID ADMIN PROC ACCESS: [key_name(usr)] tried to use cmd_admin_make_priority_announcement() without admin perms.")
 		return
 
 	var/input = input(usr, "Enter a priority announcement. Ensure it makes sense IC.", "What?", "") as message|null
