@@ -22,6 +22,9 @@
 	icon_state = "wood"
 	},
 /area/f13/building)
+"aG" = (
+/turf/open/floor/wood/wood_large,
+/area/f13/followers)
 "aJ" = (
 /obj/structure/railing{
 	color = "#A47449";
@@ -32,6 +35,17 @@
 	sunlight_state = 1
 	},
 /area/f13/wasteland)
+"aW" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/f13{
+	icon_state = "bar"
+	},
+/area/f13/followers)
+"bd" = (
+/turf/closed/wall/f13/supermart,
+/area/f13/followers)
 "bi" = (
 /obj/structure/chair/left{
 	dir = 4
@@ -65,6 +79,15 @@
 /obj/structure/chair/right,
 /turf/open/floor/carpet/red,
 /area/f13/building)
+"ch" = (
+/obj/structure/sign/warning/nosmoking/circle,
+/turf/closed/wall/f13/supermart,
+/area/f13/followers)
+"cD" = (
+/turf/open/floor/f13{
+	icon_state = "bar"
+	},
+/area/f13/followers)
 "cS" = (
 /obj/structure/table/booth,
 /obj/effect/spawner/lootdrop/f13/alcoholspawner,
@@ -84,9 +107,58 @@
 	sunlight_state = 1
 	},
 /area/f13/building)
+"dl" = (
+/turf/closed/wall/f13/supermart,
+/area/f13/building)
+"dm" = (
+/obj/structure/table/glass,
+/obj/item/pen,
+/obj/item/pen,
+/obj/item/radio/headset/headset_followers,
+/obj/item/radio/headset/headset_followers,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/f13{
+	icon_state = "bluerustysolid"
+	},
+/area/f13/followers)
+"dR" = (
+/turf/closed/wall/f13/supermart,
+/area/f13/wasteland)
+"ec" = (
+/obj/structure/closet{
+	name = "implants locker"
+	},
+/obj/item/organ/cyberimp/chest/nutriment,
+/obj/item/organ/cyberimp/chest/nutriment,
+/obj/item/organ/cyberimp/chest/nutriment,
+/obj/item/organ/cyberimp/chest/nutriment/plus,
+/obj/item/organ/cyberimp/eyes/hud/medical,
+/obj/item/organ/cyberimp/eyes/hud/medical,
+/obj/item/organ/cyberimp/eyes/hud/medical,
+/obj/item/organ/cyberimp/eyes/hud/medical,
+/obj/item/organ/cyberimp/eyes/hud/medical,
+/obj/item/organ/cyberimp/eyes/hud/medical,
+/obj/item/organ/cyberimp/chest/nutriment/plus,
+/turf/open/floor/f13{
+	icon_state = "bluerustysolid"
+	},
+/area/f13/followers)
+"eQ" = (
+/obj/structure/chair/comfy/brown{
+	dir = 8
+	},
+/turf/open/floor/wood/wood_large,
+/area/f13/followers)
 "eU" = (
 /turf/closed/mineral/random/low_chance,
 /area/f13/bunker)
+"gm" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced/fulltile,
+/turf/open/floor/wood/wood_tiled,
+/area/f13/followers)
 "hd" = (
 /obj/structure/toilet{
 	dir = 4
@@ -105,6 +177,14 @@
 	},
 /turf/closed/wall/f13/wood,
 /area/f13/building)
+"hl" = (
+/obj/structure/bookcase/manuals,
+/obj/item/book/granter/trait/midsurgery,
+/obj/item/book/granter/trait/chemistry,
+/turf/open/floor/f13{
+	icon_state = "bluerustysolid"
+	},
+/area/f13/followers)
 "hs" = (
 /turf/open/indestructible/ground/outside/woodalt,
 /area/f13/building)
@@ -114,6 +194,24 @@
 	},
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
+"hP" = (
+/obj/structure/table/wood,
+/obj/item/flashlight/lamp/green{
+	pixel_x = -5;
+	pixel_y = 10
+	},
+/obj/item/paper_bin{
+	pixel_x = 7
+	},
+/obj/item/pen/fountain{
+	pixel_x = 7
+	},
+/obj/machinery/button/door{
+	id = "fpsych";
+	name = "shutter control"
+	},
+/turf/open/floor/wood/wood_large,
+/area/f13/followers)
 "hQ" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
@@ -135,6 +233,37 @@
 	sunlight_state = 1
 	},
 /area/f13/wasteland)
+"ib" = (
+/obj/structure/table,
+/obj/item/flashlight/lamp,
+/turf/open/floor/f13{
+	icon_state = "bluerustysolid"
+	},
+/area/f13/followers)
+"if" = (
+/obj/machinery/door/airlock/medical/glass{
+	name = "Psychiatry";
+	req_one_access_txt = "124"
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "fpsych";
+	name = "Follower Pysch shutters"
+	},
+/turf/open/floor/wood/wood_large,
+/area/f13/followers)
+"ig" = (
+/obj/machinery/door/airlock/medical{
+	name = "Administrator Office";
+	req_one_access_txt = "124"
+	},
+/obj/machinery/door/poddoor/shutters{
+	id = "fadmin";
+	name = "Administrator Office shutters"
+	},
+/turf/open/floor/f13{
+	icon_state = "bluerustysolid"
+	},
+/area/f13/followers)
 "io" = (
 /obj/structure/chair/right{
 	dir = 4
@@ -163,12 +292,37 @@
 	icon_state = "oakfloor4-broken"
 	},
 /area/f13/building)
+"iV" = (
+/obj/structure/chair/sofa/left,
+/turf/open/floor/carpet/blue,
+/area/f13/followers)
 "jl" = (
 /turf/open/indestructible/ground/outside/woodalt,
 /area/f13/clinic)
+"jm" = (
+/obj/item/bedsheet/cmo,
+/obj/structure/bed,
+/turf/open/floor/f13{
+	icon_state = "floorrusty"
+	},
+/area/f13/followers)
+"jL" = (
+/obj/machinery/vending/wardrobe/medi_wardrobe,
+/turf/open/floor/carpet/blue,
+/area/f13/followers)
+"kk" = (
+/turf/open/indestructible/ground/outside/roof,
+/area/f13/wasteland)
 "kC" = (
 /turf/closed/mineral/random/low_chance,
 /area/f13/caves)
+"ll" = (
+/obj/structure/chair/comfy/shuttle,
+/obj/effect/landmark/start/f13/followersadministrator,
+/turf/open/floor/f13{
+	icon_state = "bluerustysolid"
+	},
+/area/f13/followers)
 "lm" = (
 /turf/open/indestructible/ground/outside/roof,
 /area/f13/city)
@@ -202,6 +356,10 @@
 /obj/item/mop,
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
+"nw" = (
+/obj/machinery/vending/wardrobe/chem_wardrobe,
+/turf/open/floor/carpet/blue,
+/area/f13/followers)
 "nM" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
@@ -239,9 +397,24 @@
 	sunlight_state = 1
 	},
 /area/f13/building)
+"oC" = (
+/obj/structure/sign/poster/contraband/fun_police,
+/turf/closed/wall/f13/supermart,
+/area/f13/followers)
 "oJ" = (
 /turf/closed/mineral/random/low_chance,
 /area/f13/brotherhood/surface)
+"oN" = (
+/obj/structure/decoration/vent{
+	desc = "An exhaust ventilation system designed to keep the air safe via several stages of filtering. This one has soot and some ashes on the bars."
+	},
+/turf/closed/wall/f13/supermart,
+/area/f13/followers)
+"oR" = (
+/turf/open/floor/f13{
+	icon_state = "bluerustysolid"
+	},
+/area/f13/followers)
 "pb" = (
 /turf/open/indestructible/ground/outside/roof,
 /area/f13/legion)
@@ -251,12 +424,39 @@
 	},
 /turf/closed/wall/f13/wood,
 /area/f13/building)
+"pU" = (
+/obj/effect/landmark/start/f13/followersdoctor,
+/turf/open/floor/carpet/blue,
+/area/f13/followers)
 "qd" = (
 /turf/open/transparent/openspace{
 	name = "air";
 	sunlight_state = 1
 	},
 /area/f13/caves)
+"qi" = (
+/obj/structure/sign/poster/official/help_others,
+/turf/closed/wall/f13/supermart,
+/area/f13/followers)
+"qj" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/structure/table,
+/obj/item/reagent_containers/food/snacks/f13/fancylads,
+/turf/open/floor/f13{
+	icon_state = "bar"
+	},
+/area/f13/followers)
+"qX" = (
+/obj/structure/guncase,
+/obj/item/gun/energy/laser/wattz,
+/obj/item/gun/energy/laser/complianceregulator,
+/obj/item/gun/energy/laser/complianceregulator,
+/turf/open/floor/f13{
+	icon_state = "bluerustysolid"
+	},
+/area/f13/followers)
 "rf" = (
 /turf/open/transparent/openspace{
 	name = "air";
@@ -272,6 +472,9 @@
 	},
 /turf/open/floor/carpet/black,
 /area/f13/building)
+"rN" = (
+/turf/open/floor/carpet/blue,
+/area/f13/followers)
 "rZ" = (
 /obj/structure/barricade/bars,
 /obj/structure/window/fulltile/house{
@@ -288,6 +491,11 @@
 	},
 /turf/open/transparent/openspace,
 /area/f13/building)
+"tf" = (
+/obj/structure/closet/cabinet,
+/obj/item/storage/briefcase,
+/turf/open/floor/wood/wood_large,
+/area/f13/followers)
 "tg" = (
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
 	icon_state = "floorrustysolid"
@@ -309,6 +517,23 @@
 "ub" = (
 /turf/closed/wall/r_wall,
 /area/f13/ncr)
+"ue" = (
+/obj/structure/table/glass,
+/obj/item/clothing/suit/toggle/labcoat,
+/obj/item/pda,
+/obj/item/clothing/glasses/hud/health/f13,
+/turf/open/floor/f13{
+	icon_state = "bluerustysolid"
+	},
+/area/f13/followers)
+"uA" = (
+/obj/structure/chair/comfy{
+	dir = 4
+	},
+/turf/open/floor/f13{
+	icon_state = "bar"
+	},
+/area/f13/followers)
 "uI" = (
 /turf/open/floor/carpet/black,
 /area/f13/building)
@@ -323,6 +548,15 @@
 "uW" = (
 /turf/closed/indestructible/rock,
 /area/f13/tunnel)
+"vF" = (
+/obj/structure/filingcabinet{
+	pixel_x = 10
+	},
+/obj/structure/filingcabinet/chestdrawer{
+	pixel_x = -6
+	},
+/turf/open/floor/wood/wood_large,
+/area/f13/followers)
 "vG" = (
 /turf/open/indestructible/ground/outside/roof,
 /area/f13/ncr)
@@ -332,6 +566,11 @@
 	},
 /turf/open/floor/carpet/black,
 /area/f13/building)
+"xw" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced/tinted/fulltile,
+/turf/open/floor/wood/wood_large,
+/area/f13/followers)
 "xN" = (
 /obj/structure/chair/right{
 	dir = 1
@@ -375,6 +614,14 @@
 "zk" = (
 /turf/closed/indestructible/riveted,
 /area/f13/tcoms)
+"zx" = (
+/obj/structure/chair/comfy{
+	dir = 8
+	},
+/turf/open/floor/f13{
+	icon_state = "bar"
+	},
+/area/f13/followers)
 "zY" = (
 /turf/open/indestructible/ground/outside/woodalt,
 /area/f13/ncr)
@@ -393,6 +640,28 @@
 "AM" = (
 /turf/open/indestructible/ground/outside/woodalt,
 /area/f13/legion)
+"AR" = (
+/obj/structure/mirror{
+	pixel_y = 30
+	},
+/obj/structure/sink{
+	pixel_y = 15
+	},
+/turf/open/floor/f13{
+	icon_state = "greenrustychess"
+	},
+/area/f13/followers)
+"AU" = (
+/obj/structure/chair/sofa/left,
+/turf/open/floor/wood/wood_large,
+/area/f13/followers)
+"Bp" = (
+/obj/structure/table,
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/open/floor/carpet/blue,
+/area/f13/followers)
 "BH" = (
 /obj/structure/closet/crate/footlocker{
 	pixel_x = 8;
@@ -415,9 +684,31 @@
 "BY" = (
 /turf/closed/wall/f13/tentwall,
 /area/f13/building)
+"Cz" = (
+/obj/structure/chair/office/dark,
+/turf/open/floor/f13{
+	icon_state = "bluerustysolid"
+	},
+/area/f13/followers)
 "CC" = (
 /turf/open/indestructible/ground/outside/roof,
 /area/f13/brotherhood/surface)
+"CP" = (
+/obj/structure/chair/sofa/right,
+/turf/open/floor/wood/wood_large,
+/area/f13/followers)
+"CV" = (
+/obj/effect/landmark/start/f13/followersvolunteer,
+/turf/open/floor/carpet/blue,
+/area/f13/followers)
+"Do" = (
+/obj/item/kirbyplants/random,
+/turf/open/floor/wood/wood_large,
+/area/f13/followers)
+"Dw" = (
+/obj/machinery/light,
+/turf/open/floor/wood/wood_large,
+/area/f13/followers)
 "DB" = (
 /turf/closed/wall/f13/tentwall,
 /area/f13/village)
@@ -430,12 +721,28 @@
 "EK" = (
 /turf/open/floor/carpet/royalblack,
 /area/f13/building)
+"ER" = (
+/obj/structure/rack,
+/obj/item/twohanded/spear,
+/obj/item/twohanded/sledgehammer,
+/obj/item/stock_parts/cell/ammo/ec,
+/turf/open/floor/f13{
+	icon_state = "bluerustysolid"
+	},
+/area/f13/followers)
 "EX" = (
 /turf/open/indestructible/ground/outside/woodalt,
 /area/f13/village)
 "EZ" = (
 /turf/open/transparent/openspace,
 /area/f13/wasteland)
+"Fe" = (
+/obj/structure/table,
+/obj/machinery/computer/terminal,
+/turf/open/floor/f13{
+	icon_state = "bluerustysolid"
+	},
+/area/f13/followers)
 "FK" = (
 /obj/structure/simple_door/wood,
 /turf/open/floor/wood/f13/oak,
@@ -458,6 +765,12 @@
 	},
 /turf/open/floor/carpet/red,
 /area/f13/building)
+"Gd" = (
+/obj/machinery/light,
+/turf/open/floor/f13{
+	icon_state = "bluerustysolid"
+	},
+/area/f13/followers)
 "Gk" = (
 /obj/structure/simple_door/wood,
 /turf/open/floor/carpet/black,
@@ -472,6 +785,15 @@
 /obj/machinery/telecomms/relay/preset/telecomms,
 /turf/open/indestructible,
 /area/f13/tcoms)
+"Gs" = (
+/obj/machinery/mineral/wasteland_vendor/followerterminal,
+/turf/open/floor/f13{
+	icon_state = "bar"
+	},
+/area/f13/followers)
+"GA" = (
+/turf/closed/mineral/random/low_chance/underground,
+/area/f13/wasteland)
 "GG" = (
 /obj/structure/chair/wood/modern{
 	dir = 8;
@@ -489,12 +811,35 @@
 /obj/structure/closet/crate/bin,
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
+"Ia" = (
+/turf/open/floor/f13{
+	icon_state = "floorrusty"
+	},
+/area/f13/followers)
 "Iq" = (
 /obj/structure/chair/left{
 	dir = 8
 	},
 /turf/open/floor/carpet/red,
 /area/f13/building)
+"Iu" = (
+/obj/structure/table/glass,
+/obj/item/paper_bin,
+/obj/structure/sign/poster/prewar/poster74{
+	pixel_y = 32
+	},
+/turf/open/floor/f13{
+	icon_state = "bluerustysolid"
+	},
+/area/f13/followers)
+"IA" = (
+/obj/structure/simple_door/bunker{
+	name = "Restroom"
+	},
+/turf/open/floor/f13{
+	icon_state = "greenrustychess"
+	},
+/area/f13/followers)
 "IW" = (
 /obj/structure/sink{
 	pixel_y = 22
@@ -507,6 +852,20 @@
 "Jd" = (
 /turf/closed/wall/f13/tentwall,
 /area/f13/ncr)
+"Ko" = (
+/obj/structure/dresser,
+/turf/open/floor/f13{
+	icon_state = "floorrusty"
+	},
+/area/f13/wasteland)
+"Kr" = (
+/obj/structure/rack,
+/obj/effect/spawner/lootdrop/f13/ncr_k_ration,
+/obj/effect/spawner/lootdrop/f13/ncr_k_ration,
+/turf/open/floor/f13{
+	icon_state = "bluerustysolid"
+	},
+/area/f13/followers)
 "Ks" = (
 /turf/closed/wall/f13/wood,
 /area/f13/legion)
@@ -517,6 +876,12 @@
 /obj/structure/chair/left,
 /turf/open/floor/carpet/red,
 /area/f13/building)
+"KJ" = (
+/obj/effect/landmark/start/f13/followersguard,
+/turf/open/floor/f13{
+	icon_state = "bluerustysolid"
+	},
+/area/f13/followers)
 "Li" = (
 /obj/structure/barricade/wooden,
 /turf/closed/wall/rust,
@@ -524,6 +889,9 @@
 "Lp" = (
 /turf/open/indestructible/ground/outside/roof,
 /area/f13/village)
+"LA" = (
+/turf/open/space/basic,
+/area/f13/wasteland)
 "Mj" = (
 /turf/open/indestructible/ground/outside/woodalt,
 /area/f13/bar)
@@ -543,10 +911,30 @@
 	sunlight_state = 1
 	},
 /area/f13/building)
+"MO" = (
+/obj/item/storage/money_stack,
+/turf/open/floor/carpet/blue,
+/area/f13/followers)
+"MT" = (
+/turf/open/transparent/openspace{
+	name = "air";
+	sunlight_state = 1
+	},
+/area/f13/followers)
 "Nd" = (
 /obj/structure/table/booth,
 /turf/open/floor/carpet/red,
 /area/f13/building)
+"NO" = (
+/obj/structure/guncase,
+/obj/item/gun/ballistic/revolver/widowmaker,
+/obj/item/gun/energy/laser/wattz,
+/obj/item/gun/energy/laser/complianceregulator,
+/obj/item/gun/energy/laser/complianceregulator,
+/turf/open/floor/f13{
+	icon_state = "bluerustysolid"
+	},
+/area/f13/followers)
 "NP" = (
 /turf/closed/wall/f13/tentwall,
 /area/f13/raiders)
@@ -554,6 +942,11 @@
 /obj/structure/barricade/wooden,
 /turf/closed/wall/f13/wood,
 /area/f13/building)
+"Os" = (
+/turf/open/floor/f13{
+	icon_state = "floorrusty"
+	},
+/area/f13/wasteland)
 "Pl" = (
 /turf/open/indestructible/ground/outside/woodalt,
 /area/f13/city)
@@ -586,15 +979,59 @@
 "Qx" = (
 /turf/open/indestructible,
 /area/f13/tcoms)
+"QL" = (
+/obj/structure/chair/office/dark{
+	dir = 1
+	},
+/turf/open/floor/f13{
+	icon_state = "bluerustysolid"
+	},
+/area/f13/followers)
+"QZ" = (
+/obj/structure/chair/sofa/right,
+/turf/open/floor/carpet/blue,
+/area/f13/followers)
 "Rl" = (
 /turf/open/transparent/openspace{
 	name = "air";
 	sunlight_state = 1
 	},
 /area/f13/farm)
+"RB" = (
+/obj/item/kirbyplants/dead{
+	desc = "It doesn't look very healthy...";
+	name = "Dead potted plant"
+	},
+/turf/open/floor/f13{
+	icon_state = "bar"
+	},
+/area/f13/followers)
+"RF" = (
+/obj/structure/toilet{
+	dir = 4
+	},
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/open/floor/f13{
+	icon_state = "greenrustychess"
+	},
+/area/f13/followers)
 "Sl" = (
 /turf/open/indestructible/ground/outside/woodalt,
 /area/f13/raiders)
+"SA" = (
+/obj/structure/table/reinforced,
+/obj/machinery/button/door{
+	id = "fadmin";
+	name = "Door lockdown button";
+	pixel_x = -5
+	},
+/obj/machinery/light,
+/turf/open/floor/f13{
+	icon_state = "bluerustysolid"
+	},
+/area/f13/followers)
 "Tm" = (
 /turf/open/indestructible/ground/outside/wood{
 	icon = 'icons/fallout/turfs/floors.dmi';
@@ -608,6 +1045,17 @@
 "Ty" = (
 /turf/closed/mineral/random/low_chance,
 /area/f13/building)
+"TJ" = (
+/obj/structure/simple_door/bunker,
+/turf/open/floor/f13{
+	icon_state = "floorrusty"
+	},
+/area/f13/followers)
+"TO" = (
+/obj/machinery/vending/wardrobe/science_wardrobe,
+/obj/machinery/light/small,
+/turf/open/floor/carpet/blue,
+/area/f13/followers)
 "Ub" = (
 /obj/structure/table/booth,
 /obj/item/binoculars,
@@ -625,6 +1073,14 @@
 	sunlight_state = 1
 	},
 /area/f13/building)
+"Un" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/f13{
+	icon_state = "bar"
+	},
+/area/f13/followers)
 "Uy" = (
 /obj/structure/chair/middle,
 /turf/open/floor/carpet/red,
@@ -651,6 +1107,9 @@
 	sunlight_state = 1
 	},
 /area/f13/wasteland)
+"Vc" = (
+/turf/closed/wall/r_wall/rust,
+/area/f13/followers)
 "Ve" = (
 /obj/structure/table/booth,
 /obj/item/candle{
@@ -675,6 +1134,30 @@
 "Wx" = (
 /turf/open/indestructible/ground/outside/woodalt,
 /area/f13/wasteland)
+"Wz" = (
+/obj/structure/fluff/railing{
+	density = 0;
+	dir = 8
+	},
+/turf/open/floor/carpet/blue,
+/area/f13/followers)
+"XC" = (
+/obj/structure/table,
+/obj/item/gun/energy/laser/pistol,
+/obj/item/stock_parts/cell/ammo/ec,
+/turf/open/floor/f13{
+	icon_state = "floorrusty"
+	},
+/area/f13/followers)
+"XJ" = (
+/obj/machinery/door/airlock/medical{
+	name = "Guard's Room";
+	req_one_access_txt = "124"
+	},
+/turf/open/floor/f13{
+	icon_state = "floordirtysolid"
+	},
+/area/f13/followers)
 "XQ" = (
 /obj/structure/curtain{
 	color = "#845f58"
@@ -686,6 +1169,23 @@
 	name = "metal plating"
 	},
 /area/f13/building)
+"Yk" = (
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/open/floor/f13{
+	icon_state = "floorrusty"
+	},
+/area/f13/wasteland)
+"YE" = (
+/obj/structure/table/reinforced,
+/obj/machinery/computer/terminal{
+	dir = 8
+	},
+/turf/open/floor/f13{
+	icon_state = "bluerustysolid"
+	},
+/area/f13/followers)
 "YY" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
@@ -30659,9 +31159,9 @@ PL
 PL
 PL
 PL
-PL
-PL
-PL
+dR
+LA
+Ko
 PL
 PL
 PL
@@ -30916,9 +31416,9 @@ PL
 PL
 PL
 PL
-PL
-PL
-PL
+dR
+Yk
+Os
 PL
 PL
 PL
@@ -31173,9 +31673,9 @@ PL
 PL
 PL
 PL
-PL
-PL
-PL
+dR
+LA
+Os
 PL
 PL
 PL
@@ -31430,9 +31930,9 @@ PL
 PL
 PL
 PL
-PL
-PL
-PL
+dR
+dR
+dR
 PL
 PL
 PL
@@ -31687,9 +32187,9 @@ PL
 PL
 PL
 PL
-PL
-PL
-PL
+GA
+GA
+GA
 PL
 PL
 PL
@@ -32209,12 +32709,12 @@ PL
 PL
 ad
 tU
-tU
-tU
-tU
+bd
+bd
+bd
+dl
+dl
 ad
-ad
-sD
 PL
 PL
 PL
@@ -32456,22 +32956,22 @@ ol
 MG
 UK
 PL
-PL
-PL
+LA
+LA
+bd
+bd
+gm
+gm
+bd
+bd
+bd
+bd
+bd
+MT
 tU
 tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
+dl
 ad
-sD
 PL
 PL
 PL
@@ -32713,22 +33213,22 @@ ol
 Ve
 aJ
 PL
-PL
-PL
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
+LA
+LA
+bd
+Iu
+oR
+oR
+oR
+TJ
+Ia
+Ia
+bd
+Wz
+rN
+rN
+dl
 ad
-sD
 PL
 PL
 PL
@@ -32970,23 +33470,23 @@ ol
 GG
 aJ
 PL
-PL
-PL
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
+LA
+LA
+bd
+dm
+oR
+ll
+oR
+bd
+jm
+XC
+qi
+rN
+rN
+rN
+dl
 ad
 sD
-md
 md
 md
 md
@@ -33227,23 +33727,23 @@ ol
 MG
 aJ
 PL
-PL
-PL
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
+LA
+LA
+gm
+ue
+oR
+YE
+SA
+bd
+bd
+bd
+bd
+pU
+CV
+jL
+dl
 ad
 sD
-md
 md
 md
 md
@@ -33484,23 +33984,23 @@ ol
 Pv
 aJ
 PL
-PL
-PL
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
+LA
+LA
+bd
+ec
+oR
+QL
+oR
+bd
+RF
+bd
+Bp
+pU
+CV
+TO
+dl
 ad
 sD
-md
 md
 md
 md
@@ -33743,21 +34243,21 @@ aJ
 PL
 PL
 PL
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
+bd
+hl
+oR
+oR
+oR
+bd
+AR
+bd
+QZ
+rN
+rN
+nw
+dl
 ad
 sD
-md
 md
 md
 md
@@ -34000,21 +34500,21 @@ aJ
 PL
 PL
 PL
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
+bd
+bd
+bd
+ig
+bd
+bd
+IA
+bd
+iV
+rN
+rN
+MO
+dl
 ad
 sD
-md
 md
 md
 md
@@ -34257,21 +34757,21 @@ aJ
 PL
 PL
 PL
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
+bd
+RB
+cD
+cD
+cD
+aW
+cD
+cD
+cD
+cD
+cD
+cD
+dl
 ad
 sD
-md
 md
 md
 md
@@ -34514,21 +35014,21 @@ aJ
 PL
 PL
 PL
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
+bd
+cD
+cD
+cD
+cD
+cD
+cD
+cD
+cD
+cD
+cD
+Un
+dl
 ad
 sD
-md
 md
 md
 md
@@ -34771,21 +35271,21 @@ PL
 PL
 PL
 PL
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
+gm
+uA
+cD
+ch
+bd
+XJ
+bd
+bd
+bd
+if
+xw
+bd
+dl
 ad
-ad
-md
+sD
 md
 md
 md
@@ -35028,19 +35528,19 @@ PL
 PL
 PL
 PL
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
+gm
+qj
+cD
+bd
+KJ
+oR
+Kr
+bd
+vF
+aG
+tf
+bd
+Vc
 ad
 sD
 md
@@ -35285,19 +35785,19 @@ PL
 PL
 PL
 PL
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
+gm
+zx
+cD
+gm
+Fe
+QL
+Gd
+bd
+CP
+aG
+Dw
+bd
+Vc
 ad
 sD
 md
@@ -35542,19 +36042,19 @@ PL
 PL
 PL
 PL
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
+bd
+cD
+cD
+gm
+ib
+KJ
+Cz
+oN
+AU
+aG
+aG
+bd
+Vc
 ad
 sD
 md
@@ -35799,19 +36299,19 @@ PL
 PL
 PL
 PL
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
+bd
+cD
+cD
+bd
+ER
+oR
+qX
+bd
+Do
+eQ
+hP
+bd
+Vc
 ad
 sD
 md
@@ -36056,19 +36556,19 @@ PL
 PL
 PL
 PL
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
-tU
+bd
+Gs
+cD
+bd
+bd
+oR
+NO
+bd
+bd
+bd
+oC
+bd
+bd
 ad
 sD
 md
@@ -36313,19 +36813,19 @@ PL
 PL
 PL
 PL
-PL
-PL
-PL
+dR
+dR
+kk
+MT
+bd
+gm
+gm
+bd
 tU
 tU
 tU
 tU
-tU
-tU
-tU
-tU
-tU
-tU
+bd
 ad
 ad
 sD
@@ -36571,10 +37071,10 @@ PL
 PL
 PL
 PL
-PL
-PL
-tU
-tU
+dR
+dR
+bd
+bd
 tU
 tU
 hs

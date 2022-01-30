@@ -1235,6 +1235,10 @@
 	icon_state = "horizontalbottomborderbottom0"
 	},
 /area/f13/wasteland)
+"azB" = (
+/obj/structure/reagent_dispensers/barrel/explosive,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/caves)
 "azC" = (
 /obj/structure/fence{
 	dir = 4
@@ -4960,6 +4964,10 @@
 /obj/item/trash/f13/dog,
 /turf/open/floor/wood/f13/old/ruinedcornerendtl,
 /area/f13/building)
+"cev" = (
+/obj/structure/anvil,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/caves)
 "cey" = (
 /obj/structure/table/wood,
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier3,
@@ -15329,9 +15337,8 @@
 /turf/open/floor/f13/wood,
 /area/f13/building)
 "gsT" = (
-/obj/machinery/microwave/stove,
-/turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
-/area/f13/followers)
+/turf/closed/wall/f13/supermart,
+/area/f13/wasteland)
 "gsV" = (
 /obj/structure/window/spawner/west,
 /obj/structure/rack,
@@ -20570,6 +20577,10 @@
 	},
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/tunnel)
+"iwq" = (
+/obj/machinery/microwave/stove,
+/turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
+/area/f13/followers)
 "iwK" = (
 /obj/structure/rack,
 /obj/effect/spawner/lootdrop/f13/crafting,
@@ -25555,7 +25566,7 @@
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
 "kvF" = (
-/obj/structure/table,
+/obj/structure/stairs/south,
 /turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
 /area/f13/followers)
 "kvG" = (
@@ -41310,6 +41321,12 @@
 	},
 /turf/open/floor/carpet/red,
 /area/f13/building)
+"rnW" = (
+/obj/structure/stairs/north,
+/turf/open/floor/f13{
+	icon_state = "bluerustysolid"
+	},
+/area/f13/followers)
 "rof" = (
 /obj/machinery/light{
 	dir = 4
@@ -45033,6 +45050,13 @@
 	icon_state = "horizontalbottomborderbottom0"
 	},
 /area/f13/wasteland)
+"tai" = (
+/obj/structure/fluff/railing{
+	density = 0;
+	dir = 8
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
+/area/f13/followers)
 "taM" = (
 /obj/structure/table/wood/fancy/black,
 /obj/item/radio/intercom{
@@ -88844,7 +88868,7 @@ iuz
 ybx
 ybx
 ybx
-gsT
+xAm
 kvF
 ybx
 ybx
@@ -89102,7 +89126,7 @@ kBg
 ybx
 fBm
 xAm
-xAm
+tai
 mWH
 ybx
 dCV
@@ -89360,7 +89384,7 @@ lju
 xAm
 xAm
 xAm
-kvF
+iwq
 ybx
 dCV
 uqa
@@ -92693,8 +92717,8 @@ ydO
 ydO
 mHj
 mHj
-mvv
-ybx
+gsT
+rnW
 jMP
 kLO
 ybx
@@ -92950,7 +92974,7 @@ ydO
 ydO
 ydO
 ydO
-mHj
+gsT
 ybx
 ybx
 ybx
@@ -102549,8 +102573,8 @@ gcK
 gcK
 gcK
 wnA
-bfN
-bfN
+cev
+azB
 bfN
 fFZ
 pAm
