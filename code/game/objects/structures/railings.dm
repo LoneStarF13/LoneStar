@@ -43,6 +43,7 @@
 		to_chat(user, "<span class='warning'>You cut apart the railing.</span>")
 		I.play_tool_sound(src, 100)
 		deconstruct()
+		investigate_log("[src] was cut apart by [key_name(usr)]", INVESTIGATE_DESTROYED)
 		return TRUE
 
 /obj/structure/railing/deconstruct(disassembled)
@@ -52,6 +53,7 @@
 	if(!(flags_1 & NODECONSTRUCT_1))
 		var/obj/item/stack/rods/rod = new /obj/item/stack/rods(drop_location(), 3)
 		transfer_fingerprints_to(rod)
+		investigate_log("[src] was deconstructed by [key_name(usr)]", INVESTIGATE_DESTROYED)
 		qdel(src)
 ///Implements behaviour that makes it possible to unanchor the railing.
 /obj/structure/railing/wrench_act(mob/living/user, obj/item/I)
@@ -121,7 +123,7 @@
 /obj/structure/railing/wood/underlayer
 	layer = BELOW_MOB_LAYER
 
-/obj/structure/railing/wood/post 
+/obj/structure/railing/wood/post
 	icon_state = "post_wood"
 	density = FALSE
 

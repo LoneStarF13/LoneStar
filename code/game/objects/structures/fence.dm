@@ -90,11 +90,12 @@
 						visible_message("<span class='notice'>\The [user] removes \the [src].</span>")
 						to_chat(user, "<span class='info'>\The [src] is removed.</span>")
 						deconstruct(TRUE)
+						investigate_log("[src] was destroyed by [key_name(usr)]", INVESTIGATE_DESTROYED)
 						W.play_tool_sound(user, 20)
 
 				update_cut_status()
 
-		
+
 	if(istype(W, /obj/item/stack/rods))
 		var/obj/item/stack/rods/rods = W
 		switch(hole_size)
@@ -214,7 +215,7 @@
 	can_hold_padlock = TRUE
 	opening_time = 3
 	closing_time = 2
-	hard_open = 0	
+	hard_open = 0
 
 //Obsolete handrails, railing is better
 /obj/structure/fence/handrail_end

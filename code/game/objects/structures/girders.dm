@@ -316,6 +316,7 @@
 	if(!(flags_1 & NODECONSTRUCT_1))
 		var/remains = pick(/obj/item/stack/rods, /obj/item/stack/sheet/metal)
 		new remains(loc)
+		investigate_log("[src] was disassembled by [key_name(usr)]", INVESTIGATE_DESTROYED)
 	qdel(src)
 
 /obj/structure/girder/ratvar_act()

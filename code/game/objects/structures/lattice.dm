@@ -42,6 +42,7 @@
 	if(istype(C, /obj/item/wirecutters))
 		to_chat(user, "<span class='notice'>Slicing [name] joints ...</span>")
 		deconstruct()
+		investigate_log("[src] was wirecut by [key_name(usr)]", INVESTIGATE_DESTROYED)
 	else
 		var/turf/T = get_turf(src)
 		return T.attackby(C, user) //hand this off to the turf instead (for building plating, catwalks, etc)

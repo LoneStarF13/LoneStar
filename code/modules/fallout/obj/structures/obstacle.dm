@@ -74,12 +74,13 @@
 		if(I.use_tool(src, user, 40, volume=50))
 			playsound(src.loc, 'sound/items/deconstruct.ogg', 50, 1)
 			deconstruct(TRUE)
+			investigate_log("[src] was cut apart by [key_name(usr)]", INVESTIGATE_DESTROYED)
 			return TRUE
 
 	return ..()
 
 /obj/structure/obstacle/barbedwire/proc/shock(mob/user, prb) 	// war crime mode, if you can find an electrical generator
-	
+
 	if(!in_range(src, user))//To prevent TK and mech users from getting shocked
 		return FALSE
 	var/turf/T = get_turf(src)

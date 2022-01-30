@@ -31,6 +31,8 @@
 	GLOB.cameranet.updateVisibility(src)
 	if(smooth)
 		queue_smooth_neighbors(src)
+	add_hiddenprint(usr)
+	investigate_log("[src] was destroyed by [key_name(usr)] [src.fingerprintshidden]", INVESTIGATE_DESTROYED)
 	return ..()
 
 /obj/structure/on_attack_hand(mob/user, act_intent = user.a_intent, unarmed_attack_flags)

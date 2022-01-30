@@ -44,6 +44,7 @@
 	if(M.environment_smash & ENVIRONMENT_SMASH_RWALLS)
 		dismantle_wall(1)
 		playsound(src, 'sound/effects/meteorimpact.ogg', 100, 1)
+		investigate_log("[src] was destroyed by [key_name(usr)]", INVESTIGATE_DESTROYED)
 	else
 		playsound(src, 'sound/effects/bang.ogg', 50, 1)
 		to_chat(M, "<span class='warning'>This wall is far too strong for you to destroy.</span>")
@@ -58,6 +59,7 @@
 			I.play_tool_sound(src)
 			visible_message("<span class='warning'>[user] smashes through [src] with [I]!</span>", "<span class='italics'>You hear the grinding of metal.</span>")
 			dismantle_wall()
+			investigate_log("[src] was smashed by [key_name(usr)]", INVESTIGATE_DESTROYED)
 			return TRUE
 	return FALSE
 
@@ -202,6 +204,7 @@
 					update_icon()
 					to_chat(user, "<span class='notice'>You weld the support rods back together.</span>")
 				return 1
+	investigate_log("[src] was broken down by [key_name(usr)]", INVESTIGATE_DESTROYED)
 	return 0
 
 /turf/closed/wall/r_wall/update_icon()

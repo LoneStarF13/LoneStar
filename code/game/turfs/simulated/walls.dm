@@ -47,11 +47,15 @@
 /turf/closed/wall/proc/dismantle_wall(devastated=0, explode=0)
 	if(devastated)
 		devastate_wall()
+		add_hiddenprint(usr)
+		investigate_log("[src] was destroyed by [key_name(usr)]", INVESTIGATE_DESTROYED)
 	else
 		playsound(src, 'sound/items/welder.ogg', 100, 1)
 		var/newgirder = break_wall()
 		if(newgirder) //maybe we don't /want/ a girder!
 			transfer_fingerprints_to(newgirder)
+		add_fingerprint(usr)
+		investigate_log("[src] was destroyed by [key_name(usr)]", INVESTIGATE_DESTROYED)
 
 	for(var/obj/O in src.contents) //Eject contents!
 		if(istype(O, /obj/structure/sign/poster))
@@ -128,6 +132,8 @@
 	if((M.environment_smash & ENVIRONMENT_SMASH_WALLS) || (M.environment_smash & ENVIRONMENT_SMASH_RWALLS))
 		playsound(src, 'sound/effects/meteorimpact.ogg', 100, 1)
 		dismantle_wall(1)
+		add_hiddenprint(usr)
+		investigate_log("WALLS SMASH_WALLS: [src] was destroyed by [key_name(usr)] [src.fingerprintshidden]", INVESTIGATE_DESTROYED)
 		return
 
 /turf/closed/wall/attack_hulk(mob/living/carbon/user)
@@ -248,6 +254,7 @@
 			if(iswallturf(src))
 				to_chat(user, "<span class='notice'>You remove the outer plating.</span>")
 				dismantle_wall()
+				investigate_log("[src] was dismantled by [key_name(usr)]", INVESTIGATE_DESTROYED)
 			return TRUE
 
 	return FALSE
@@ -262,6 +269,7 @@
 			I.play_tool_sound(src)
 			visible_message("<span class='warning'>[user] smashes through [src] with [I]!</span>", "<span class='italics'>You hear the grinding of metal.</span>")
 			dismantle_wall()
+			investigate_log("[src] was jackhammered by [key_name(usr)]", INVESTIGATE_DESTROYED)
 			return TRUE
 	return FALSE
 
@@ -295,6 +303,7 @@
 
 /turf/closed/wall/acid_melt()
 	dismantle_wall(1)
+	investigate_log("[src] was destroyed by acid by [key_name(usr)]", INVESTIGATE_DESTROYED)
 
 /turf/closed/wall/rcd_vals(mob/user, obj/item/construction/rcd/the_rcd)
 	switch(the_rcd.mode)
@@ -307,6 +316,7 @@
 		if(RCD_DECONSTRUCT)
 			to_chat(user, "<span class='notice'>You deconstruct the wall.</span>")
 			ScrapeAway()
+			investigate_log("[src] was RCD deconned by [key_name(usr)]", INVESTIGATE_DESTROYED)
 			return TRUE
 	return FALSE
 

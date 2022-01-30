@@ -11,12 +11,16 @@
 	for(var/i in custom_materials)
 		var/datum/material/M = i
 		new M.sheet_type(src, FLOOR(custom_materials[M] / MINERAL_MATERIAL_AMOUNT, 1))
+		add_hiddenprint(usr)
+		investigate_log("MATERIAL_WALLS BREAK: [src] was destroyed by [key_name(usr)] [src.fingerprintshidden]", INVESTIGATE_DESTROYED)
 	return new girder_type(src)
 
 /turf/closed/wall/material/devastate_wall()
 	for(var/i in custom_materials)
 		var/datum/material/M = i
 		new M.sheet_type(src, FLOOR(custom_materials[M] / MINERAL_MATERIAL_AMOUNT, 1))
+		add_hiddenprint(usr)
+		investigate_log("MATERIAL_WALLS DEVASTATE: [src] was destroyed by [key_name(usr)] [src.fingerprintshidden]", INVESTIGATE_DESTROYED)
 
 /turf/closed/wall/material/mat_update_desc(mat)
 	desc = "A huge chunk of [mat] used to separate rooms."

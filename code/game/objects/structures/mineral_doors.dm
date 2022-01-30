@@ -139,6 +139,7 @@
 	else
 		new sheetType(T, max(sheetAmount - 2, 1))
 	qdel(src)
+	investigate_log("[src] was deconstructed by [key_name(usr)]", INVESTIGATE_DESTROYED)
 
 /obj/structure/mineral_door/iron
 	name = "iron door"

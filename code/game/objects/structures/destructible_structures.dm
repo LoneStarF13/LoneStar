@@ -16,4 +16,5 @@
 		if(break_sound)
 			playsound(src, break_sound, 50, 1)
 	qdel(src)
+	investigate_log("DESTRUCTIBLE_STRUCTURES: [src] was destroyed by [key_name(usr)]", INVESTIGATE_DESTROYED)
 	return 1

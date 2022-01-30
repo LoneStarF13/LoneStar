@@ -154,8 +154,11 @@
 		var/turf/B = new world.turf(src)
 		for(var/A in B.contents)
 			qdel(A)
+			investigate_log("TURF QDEL(A) [src] was destroyed by [key_name(usr)]", INVESTIGATE_DESTROYED)
 		for(var/I in B.vars)
 			B.vars[I] = null
+			investigate_log("TURF B.VARS [src] was destroyed by [key_name(usr)]", INVESTIGATE_DESTROYED)
+		investigate_log("TURF IF(FORCE) [src] was destroyed by [key_name(usr)]", INVESTIGATE_DESTROYED)
 		return
 	visibilityChanged()
 	QDEL_LIST(blueprint_data)

@@ -1137,4 +1137,4 @@ GLOBAL_VAR_INIT(embedpocalypse, FALSE) // if true, all items will be able to emb
 			played_sound = pick(equipsound)
 
 		playsound(src, played_sound, volume, 1)
-		
+
