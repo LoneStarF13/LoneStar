@@ -226,7 +226,7 @@
 			select += 1
 			burst_size = 2
 			spread = 8
-			fire_delay = 3
+			fire_delay = 3.25
 			recoil = 0.1
 			weapon_weight = WEAPON_HEAVY
 			to_chat(user, "<span class='notice'>You switch to automatic fire.</span>")
@@ -234,7 +234,7 @@
 		if(1)
 			select = 0
 			burst_size = 1
-			fire_delay = 3
+			fire_delay = 3.25
 			spread = 2
 			weapon_weight = WEAPON_MEDIUM
 			to_chat(user, "<span class='notice'>You switch to semi-auto.</span>")
@@ -256,7 +256,7 @@
 			select += 1
 			burst_size = 2
 			spread = 12.5
-			fire_delay = 3.5
+			fire_delay = 3.75
 			recoil = 0.3
 			weapon_weight = WEAPON_HEAVY
 			to_chat(user, "<span class='notice'>You switch to automatic fire.</span>")
@@ -264,7 +264,7 @@
 		if(1)
 			select = 0
 			burst_size = 1
-			fire_delay = 3.5
+			fire_delay = 3.75
 			spread = 2
 			weapon_weight = WEAPON_HEAVY
 			recoil = 0.2
@@ -285,7 +285,7 @@
 	extra_damage = 20
 	extra_penetration = 0.1
 	recoil = 0.05
-	fire_delay = 3.75
+	fire_delay = 3.25
 	can_attachments = TRUE
 	suppressor_state = "10mm_suppressor" //activate if sprited
 	suppressor_x_offset = 30
@@ -309,7 +309,7 @@
 			select += 1
 			burst_size = 2
 			spread = 9
-			fire_delay = 3.75
+			fire_delay = 3.25
 			recoil = 0.1
 			weapon_weight = WEAPON_HEAVY
 			to_chat(user, "<span class='notice'>You switch to automatic fire.</span>")
@@ -317,7 +317,7 @@
 		if(1)
 			select = 0
 			burst_size = 1
-			fire_delay = 3.5
+			fire_delay = 3.25
 			spread = 2
 			weapon_weight = WEAPON_MEDIUM
 			to_chat(user, "<span class='notice'>You switch to semi-auto.</span>")
@@ -384,8 +384,8 @@
 
 //Tommygun			Keywords: .45 ACP, Automatic, 30/50 rounds.
 /obj/item/gun/ballistic/automatic/smg/tommygun
-	name = "ancient Thompson SMG"
-	desc = "Rusty, dinged up, but somehow still functional."
+	name = "Thompson SMG"
+	desc = "A powerful submachinegun chambered in .45 ACP, this weapon fires at a blistering rate with a heavy pistol cartridge, and can accept very high capacity magazines, to boot."
 	icon_state = "tommygun"
 	item_state = "shotgun"
 	slowdown = 0.4
@@ -394,21 +394,22 @@
 	init_mag_type = /obj/item/ammo_box/magazine/tommygunm45/stick
 	fire_sound = 'sound/weapons/gunshot_smg.ogg'
 	burst_size = 3
-	burst_shot_delay = 3
-	fire_delay = 5
+	burst_shot_delay = 2.75
+	fire_delay = 3.75
 	extra_damage = 25
-	spread = 10
+	spread = 15
 	recoil = 0.5
 
 //White Legs Tommygun			Keywords: .45 ACP, Automatic, 30 rounds
 /obj/item/gun/ballistic/automatic/smg/tommygun/whitelegs
-	name = "storm drum"
-	desc = "Rusty, dinged up and stuck on semi-auto, but somehow still functional. Commonly used by the White Legs tribe."
+	name = "Storm Drum"
+	desc = "A recovered ancient Thompson from an armory far up North. Commonly used by raiders of the White Legs tribe."
 	mag_type = /obj/item/ammo_box/magazine/tommygunm45/stick
 	semi_auto = TRUE
-	fire_delay = 3
-	extra_damage = 25
-	spread = 15
+	fire_delay = 3.75
+	extra_damage = 23
+	burst_size = 2
+	spread = 10
 
 //P90				Keywords: 10mm, Automatic, 50 rounds. Special modifiers: damage +1
 /obj/item/gun/ballistic/automatic/smg/p90
@@ -488,7 +489,7 @@
 
 //M1 Carbine				Keywords: 10mm, Semi-auto, 12/24 rounds, Long barrel
 /obj/item/gun/ballistic/automatic/m1carbine
-	name = "m1 carbine"
+	name = "M1 carbine"
 	desc = "The M1 Carbine was mass produced during some old war, and at some point NCR found stockpiles and rechambered them to 10mm to make up for the fact their service rifle production can't keep up with demand."
 	icon_state = "m1carbine"
 	item_state = "rifle"
@@ -520,7 +521,7 @@
 
 //M1/n Carbine				Keywords: NCR, 10mm, Semi-auto, 12/24 rounds, Long barrel, Damage +1
 /obj/item/gun/ballistic/automatic/m1carbine/m1n
-	name = "m1/n carbine"
+	name = "M1/N carbine"
 	desc = "An M1 Carbine with markings identifying it as issued to the NCR Mojave Expedtionary Force. Looks beat up but functional."
 	can_automatic = FALSE
 	icon = 'icons/fallout/objects/guns/ballistic.dmi'
@@ -531,7 +532,7 @@
 
 //M1A1 Carbine				Keywords: 10mm, Semi-auto, 12/24 rounds, Long barrel, Folding stock.
 /obj/item/gun/ballistic/automatic/m1carbine/compact
-	name = "m1a1 carbine"
+	name = "M1A1 carbine"
 	desc = "The M1A1 carbine is an improvement of the original, with this particular model having a folding stock allowing for greater mobility. Chambered in 10mm."
 	icon_state = "m1a1carbine"
 	var/stock = FALSE
@@ -893,7 +894,7 @@
 	icon_state = "sniper_rifle"
 	item_state = "sniper_rifle"
 	mag_type = /obj/item/ammo_box/magazine/w308
-	fire_delay = 10
+	fire_delay = 8
 	burst_size = 1
 	extra_speed = 800
 	extra_penetration = 0.25
@@ -1066,7 +1067,7 @@
 	icon_prefix = "assault_carbine"
 	slot_flags = 0
 	mag_type = /obj/item/ammo_box/magazine/m5mm
-	fire_delay = 3.5
+	fire_delay = 3
 	burst_shot_delay = 2.0
 	extra_damage = 20
 	extra_penetration = 0.25
@@ -1091,7 +1092,7 @@
 	name = "worn assault carbine"
 	desc = "The U.S. army carbine version of the R91, made by Colt and issued to special forces. This one is beat-up and falling apart."
 	icon_state = "assault_carbine"
-	fire_delay = 3.25
+	fire_delay = 3.5
 	burst_shot_delay = 2.5
 	extra_penetration = 0.15
 	spread = 10
@@ -1108,7 +1109,6 @@
 	fire_delay = 3.5
 	mag_type = /obj/item/ammo_box/magazine/m762
 	spread = 12
-	fire_delay = 4
 	recoil = 0.25
 	actions_types = list(/datum/action/item_action/toggle_firemode)
 	fire_sound = 'sound/f13weapons/assaultrifle_fire.ogg'
@@ -1304,7 +1304,7 @@
 		if(1)
 			select = 0
 			burst_size = 4
-			spread = 14
+			spread = 18
 			extra_damage = 28
 			recoil = 1
 			to_chat(user, "<span class='notice'>You switch to full auto.</span>")
@@ -1328,7 +1328,7 @@
 	mag_type = /obj/item/ammo_box/magazine/m2mm
 	extra_damage = 55
 	burst_size = 1
-	fire_delay = 12
+	fire_delay = 10
 	zoomable = TRUE
 	zoom_amt = 10
 	zoom_out_amt = 13
