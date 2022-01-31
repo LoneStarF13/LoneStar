@@ -152,9 +152,9 @@
 							)
 							
 /datum/gear/suit/deputyvest
-		name = "OPD armor vest"
-		path = /obj/item/clothing/suit/armor/vest/oasis
-		subcategory = LOADOUT_SUBCATEGORY_SUIT_JOBS
+	name = "OPD armor vest"
+	path = /obj/item/clothing/suit/armor/vest/oasis
+	subcategory = LOADOUT_SUBCATEGORY_SUIT_JOBS
 	cost = 5
 	restricted_desc = "Oasis Police"
 	restricted_roles = list("Sheriff",
