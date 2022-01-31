@@ -230,7 +230,8 @@
 	is_automatic = TRUE
 	automatic = 1
 	autofire_shot_delay = 1.5
-	burst_shot_delay = 1.5 //rapid fire
+	spread = 18
+	burst_shot_delay = 1.5
 	extra_damage = 16
 	suppressed = 1
 	actions_types = null
@@ -250,6 +251,7 @@
 	is_automatic = TRUE
 	automatic = 1
 	autofire_shot_delay = 2.5
+	spread = 14
 	can_attachments = TRUE
 	suppressor_state = "uzi_suppressor"
 	suppressor_x_offset = 26
@@ -263,7 +265,7 @@
 		if(0)
 			select += 1
 			automatic = 1
-			spread = 8
+			spread = 14
 			fire_delay = 3.25
 			recoil = 0.1
 			weapon_weight = WEAPON_HEAVY
@@ -284,6 +286,7 @@
 	name = "beat up M3A1 Grease Gun"
 	desc = "What was once an inexpensive, but reliable submachine gun is now an inexpensive piece of shit. It's impressive this thing still fires at all."
 	can_attachments = FALSE
+	spread = 16.5
 	recoil = 0.3
 	extra_damage = 17
 
@@ -293,7 +296,7 @@
 		if(0)
 			select += 1
 			automatic = 1
-			spread = 12.5
+			spread = 16.5
 			fire_delay = 3.75
 			recoil = 0.3
 			weapon_weight = WEAPON_HEAVY
@@ -323,6 +326,7 @@
 	is_automatic = TRUE
 	automatic = 1
 	autofire_shot_delay = 2.25
+	spread = 12
 	extra_damage = 20
 	extra_penetration = 0.1
 	recoil = 0.05
@@ -349,7 +353,7 @@
 		if(0)
 			select += 1
 			automatic = 1
-			spread = 9
+			spread = 12
 			fire_delay = 3.25
 			recoil = 0.1
 			weapon_weight = WEAPON_HEAVY
@@ -378,6 +382,7 @@
 	is_automatic = TRUE
 	automatic = 1
 	autofire_shot_delay = 2
+	spread = 16
 	extra_damage = 18
 	can_suppress = TRUE
 	can_attachments = TRUE
@@ -393,7 +398,7 @@
 		if(0)
 			select += 1
 			automatic = 1
-			spread = 11
+			spread = 16
 			fire_delay = 3
 			recoil = 0.1
 			weapon_weight = WEAPON_HEAVY
@@ -421,6 +426,7 @@
 	is_automatic = TRUE
 	automatic = 1
 	autofire_shot_delay = 2.25
+	spread = 12
 	fire_delay = 3.5
 	extra_damage = 20
 	spread = 8
@@ -456,7 +462,7 @@
 	mag_type = /obj/item/ammo_box/magazine/tommygunm45/stick
 	fire_delay = 3.75
 	extra_damage = 23
-	spread = 10
+	spread = 19
 
 //P90				Keywords: 10mm, Automatic, 50 rounds. Special modifiers: damage +1
 /obj/item/gun/ballistic/automatic/smg/p90
@@ -468,9 +474,9 @@
 	mag_type = /obj/item/ammo_box/magazine/m10mm_p90
 	extra_damage = 22
 	extra_penetration = 0.15
-	burst_size = 3
+	burst_size = 1
 	fire_delay = 3
-	spread = 7
+	spread = 14
 	is_automatic = TRUE
 	automatic = 1
 	autofire_shot_delay = 2
@@ -487,6 +493,7 @@
 	name = "Worn FN P90c"
 	desc = "A FN P90 manufactured by Fabrique Nationale. This one is beat to hell but still works."
 	autofire_shot_delay = 2.25
+	spread = 16
 	extra_damage = 20
 
 
@@ -497,7 +504,7 @@
 	icon_state = "mp5"
 	item_state = "fnfal"
 	mag_type = /obj/item/ammo_box/magazine/uzim9mm
-	spread = 8
+	spread = 10
 	fire_delay = 3.5
 	is_automatic = TRUE
 	automatic = 1
@@ -1002,6 +1009,7 @@
 	is_automatic = TRUE
 	automatic = 1
 	autofire_shot_delay = 3
+	spread = 10
 	can_suppress = TRUE
 	suppressor_state = "rifle_suppressor"
 	suppressor_x_offset = 27
@@ -1016,7 +1024,7 @@
 	item_state = "fnfal"
 	mag_type = /obj/item/ammo_box/magazine/m556/rifle
 	fire_delay = 4
-	spread = 8
+	spread = 10
 	extra_damage = 23
 	recoil = 0.1
 	is_automatic = TRUE
@@ -1132,7 +1140,7 @@
 	burst_shot_delay = 1.5
 	extra_damage = 25
 	fire_delay = 3
-	spread = 4
+	spread = 8
 	recoil = 0.1
 	can_attachments = FALSE
 	zoomable = TRUE
@@ -1159,7 +1167,7 @@
 	autofire_shot_delay = 2.5
 	extra_damage = 20
 	extra_penetration = 0.25
-	spread = 6 //high-velocity
+	spread = 10 //high-velocity
 	can_attachments = TRUE
 	can_scope = TRUE
 	scope_state = "scope_short"
@@ -1183,7 +1191,7 @@
 	fire_delay = 3.5
 	burst_shot_delay = 2.5
 	extra_penetration = 0.15
-	spread = 10
+	spread = 14
 	extra_damage = 18
 
 //FN-FAL				Keywords: 7.62mm, Automatic, 10/20 round magazine
@@ -1250,6 +1258,7 @@
 	is_automatic = TRUE
 	automatic = 1
 	autofire_shot_delay = 3
+	spread = 8
 	can_attachments = FALSE
 	actions_types = null
 	fire_sound = 'sound/f13weapons/assaultrifle_fire.ogg'
@@ -1406,7 +1415,7 @@
 	autofire_shot_delay = 2.5
 	spawnwithmagazine = TRUE
 	extra_damage = 25
-	spread = 4
+	spread = 8
 	can_attachments = TRUE
 	zoomable = TRUE
 	zoom_amt = 10

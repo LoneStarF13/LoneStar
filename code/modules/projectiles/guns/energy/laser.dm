@@ -453,6 +453,7 @@
 	burst_size = 1
 	automatic = 1
 	autofire_shot_delay = 2
+	spread = 14
 	ammo_type = list(/obj/item/ammo_casing/energy/laser/rcw/hitscan)
 	cell_type = /obj/item/stock_parts/cell/ammo/ecp
 	equipsound = 'sound/f13weapons/equipsounds/RCWequip.ogg'
@@ -602,6 +603,7 @@
 	burst_shot_delay = 1
 	automatic = 1
 	autofire_shot_delay = 2.5
+	spread = 8
 	fire_delay = 1
 	weapon_weight = WEAPON_HEAVY
 	fire_sound = 'sound/weapons/laser.ogg'
