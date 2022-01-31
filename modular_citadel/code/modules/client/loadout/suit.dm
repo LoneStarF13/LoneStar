@@ -157,7 +157,7 @@
 		subcategory = LOADOUT_SUBCATEGORY_SUIT_JOBS
 	cost = 5
 	restricted_desc = "Oasis Police"
-		restricted_roles = list("Sheriff",
+	restricted_roles = list("Sheriff",
 								"Deputy",
 								"Detective",
 								)
