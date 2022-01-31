@@ -150,6 +150,18 @@
 							"Detective",
 							"Barkeep",
 							)
+							
+/datum/gear/suit/deputyvest
+		name = "OPD armor vest"
+		path = /obj/item/clothing/suit/armor/vest/oasis
+		subcategory = LOADOUT_SUBCATEGORY_SUIT_JOBS
+	cost = 5
+	restricted_desc = "Oasis Police"
+		restricted_roles = list("Sheriff",
+								"Deputy",
+								"Detective",
+								)
+							
 /datum/gear/suit/hazardvest
 	name = "Hazard Vest"
 	path = /obj/item/clothing/suit/hazardvest
