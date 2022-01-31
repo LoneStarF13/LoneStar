@@ -94,7 +94,9 @@
 	slowdown = 2
 	slot_flags = null
 	w_class = WEIGHT_CLASS_HUGE
-	burst_size = 5
+	burst_size = 1
+	automatic = 1
+	autofire_shot_delay = 2.25
 	burst_shot_delay = 1
 	fire_delay = 1
 	ranged_attack_speed = CLICK_CD_RAPID
