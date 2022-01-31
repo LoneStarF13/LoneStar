@@ -7,7 +7,7 @@
 /obj/item/reagent_containers/food/drinks/bottle
 	amount_per_transfer_from_this = 10
 	volume = 100
-	force = 15
+	force = 10
 	throwforce = 15
 	item_state = "broken_beer" //Generic held-item sprite until unique ones are made.
 	lefthand_file = 'icons/mob/inhands/misc/food_lefthand.dmi'
@@ -30,18 +30,18 @@
 
 	var/obj/item/bodypart/affecting = user.zone_selected //Find what the player is aiming at
 
-	var/headarmor = 0 // Target's head armor
+//	var/headarmor = 0   This broke somehow, can't stand constant error message from it.  Same with lines 36 to 40.
 	var/armor_block = min(90, target.run_armor_check(affecting, "melee", null, null,armour_penetration)) // For normal attack damage
 
 	//If they have a hat/helmet and the user is targeting their head.
-	if(affecting == BODY_ZONE_HEAD)
-		var/obj/item/I = target.get_item_by_slot(SLOT_HEAD)
-		if(I)
-			headarmor = I.armor.melee
+//	if(affecting == BODY_ZONE_HEAD)
+//		var/obj/item/I = target.get_item_by_slot(SLOT_HEAD)
+//		if(I)
+//			headarmor = I.armor.melee
 
 	//Calculate the knockdown duration for the target.
-	//var/armor_duration = (knockdown_duration - headarmor) + force
-
+	var/armor_duration = (knockdown_duration - headarmor) + force
+=======
 	//Apply the damage!
 	target.apply_damage(force, BRUTE, affecting, armor_block)
 
@@ -51,7 +51,7 @@
 		head_attack_message = " on the head"
 		//Knockdown the target for the duration that we calculated and divide it by 5.
 		//if(armor_duration)
-		//	target.DefaultCombatKnockdown(min(armor_duration, 200)) // What the fuck were tg coders thinking
+		//	target.DefaultCombatKnockdown(min(armor_duration, 200)) // What the fuck were tg coders thinking //it's a melee knockdown it's not that strong
 
 	//Display an attack message.
 	if(target != user)
@@ -395,7 +395,7 @@
 
 /obj/item/reagent_containers/food/drinks/bottle/trappist/empty
 	list_reagents = null
-	
+
 /obj/item/reagent_containers/food/drinks/bottle/rotgut
 	name = "Rotgut"
 	desc = "a bottle of noxious homebrewed alcohol, it has the name Rotgut etched on its side"
@@ -404,7 +404,7 @@
 	list_reagents = list(/datum/reagent/consumable/ethanol/rotgut = 100)
 
 /obj/item/reagent_containers/food/drinks/bottle/tequila/empty
-	list_reagents = null	
+	list_reagents = null
 
 //////////////////////////JUICES AND STUFF ///////////////////////
 

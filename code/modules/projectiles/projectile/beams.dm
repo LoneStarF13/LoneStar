@@ -306,6 +306,11 @@
 	muzzle_type = /obj/effect/projectile/muzzle/laser
 	impact_type = /obj/effect/projectile/impact/laser
 
+/obj/item/projectile/beam/laser/lasgun/hitscan/focused
+	name = "overcharged laser beam"
+	damage = 30
+	armour_penetration = 0.6
+
 /obj/item/projectile/beam/laser/gatling/hitscan //Gatling Laser
 	name = "laser beam"
 	damage = 12
@@ -422,7 +427,7 @@
 	name = "plasma bolt"
 	icon_state = "plasma_clot"
 	damage_type = BURN
-	damage = 55 //fucc you normies
+	damage = 45 //fucc you normies
 	armour_penetration = 0 //no AP, armor shouldnt have more than 20 resist against plasma unless its specialized
 	flag = "energy" //checks vs. energy protection
 	eyeblur = 0
@@ -433,7 +438,7 @@
 	name = "plasma bolt"
 	icon_state = "plasma_clot"
 	damage_type = BURN
-	damage = 40
+	damage = 35
 	flag = "energy" //checks vs. energy protection
 	eyeblur = 0
 	is_reflectable = TRUE
@@ -449,16 +454,16 @@
 	is_reflectable = FALSE
 
 /obj/item/projectile/f13plasma/pistol //Plasma pistol
-	damage = 42
+	damage = 33
 
 /obj/item/projectile/f13plasma/pistol/worn
-	damage = 32
+	damage = 31
 
 /obj/item/projectile/f13plasma/pistol/glock //Glock (streamlined plasma pistol)
 	damage = 38
 
 /obj/item/projectile/f13plasma/scatter //Multiplas, fires 3 shots, will melt you
-	damage = 24
+	damage = 25
 
 /obj/item/projectile/beam/laser/rcw //RCW
 	name = "rapidfire beam"
