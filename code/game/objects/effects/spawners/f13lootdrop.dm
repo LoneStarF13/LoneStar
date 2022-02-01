@@ -293,7 +293,8 @@
 				/obj/effect/spawner/bundle/f13/armor/metal,
 				/obj/item/clothing/suit/armor/f13/leatherarmor,
 				/obj/item/clothing/suit/armor/f13/leather_jacket/combat,
-				/obj/item/clothing/suit/armor/f13/leather_jacket/combat/coat
+				/obj/item/clothing/suit/armor/f13/leather_jacket/combat/coat,
+				/obj/item/clothing/suit/armor/vest,
 				)
 
 /obj/effect/spawner/bundle/f13/armor/knight
@@ -354,6 +355,7 @@
 				/obj/item/clothing/head/helmet/f13/combat/dark
 				)
 
+
 /obj/effect/spawner/bundle/f13/armor/sulphite
 	name = "sulphite raider armor spawner"
 	items = list(
@@ -382,6 +384,13 @@
 	items = list(
 				/obj/item/clothing/suit/armor/f13/leather_jacket/combat/riotpolice,
 				/obj/item/clothing/head/helmet/f13/rangerbroken
+				)
+				
+/obj/effect/spawner/bundle/f13/armor/vault
+	name = "vault armor spawner"
+	items = list(
+				/obj/item/clothing/suit/armor/vest/big,
+				/obj/item/clothing/head/helmet/riot/vaultsec,
 				)
 
 /obj/effect/spawner/bundle/f13/armor/combat/mk2
