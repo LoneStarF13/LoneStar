@@ -116,7 +116,7 @@
 	subcategory = LOADOUT_SUBCATEGORY_SUIT_JOBS
 	cost = 4
 	restricted_desc = "NCR"
-		restricted_roles = list("NCR Captain",
+	restricted_roles = list("NCR Captain",
 							"NCR Lieutenant",
 							"NCR Medical Officer",
 							"NCR Veteran Ranger",
