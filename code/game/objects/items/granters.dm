@@ -1047,7 +1047,7 @@
 		desc = "A compendium of knowledge passed down from the elders. It looks to be in poor condition."
 
 /obj/item/book/granter/trait/selection/tribal/attack_self(mob/user)
-	var/list/choices = list("White Legs","Rustwalkers","Dead Horses","Sorrows","Eighties","Wayfarers","Other")
+	var/list/choices = list("White Legs","Rustwalkers","Dead Horses","Sorrows","Eighties","Wayfarers")
 	if(granted_trait == null)
 		var/choice = input("Choose a trait:") in choices
 		switch(choice)
@@ -1057,9 +1057,6 @@
 				granted_trait = TRAIT_BIG_LEAGUES
 				traitname = "White Legs"
 				crafting_recipe_types = list(/datum/crafting_recipe/ninemil, /datum/crafting_recipe/huntingrifle, /datum/crafting_recipe/n99, /datum/crafting_recipe/huntingrifle, /datum/crafting_recipe/m1911, /datum/crafting_recipe/varmintrifle, /datum/crafting_recipe/colt6520)
-			if("Other")
-				granted_trait = TRAIT_LIFEGIVER
-				traitname = "Other"
 			if("Rustwalkers")
 				granted_trait = TRAIT_TECHNOPHREAK
 				traitname = "Rustwalkers"
