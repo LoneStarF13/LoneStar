@@ -109,6 +109,11 @@
 	path = /obj/item/clothing/suit/f13/autumn
 	subcategory = LOADOUT_SUBCATEGORY_SUIT_JACKETS
 	cost = 3
+	
+/datum/gear/suit/ncrcfjacket
+	name = "NCRCF jacket"
+	path = /obj/item/clothing/suit/armor/f13/ncrcfjacket
+	cost = 1
 
 /datum/gear/suit/NCRutilityvest
 	name = "Utility Vest"
