@@ -225,7 +225,7 @@
 	name = "tier 1 armor"
 	loot = list(
 				/obj/item/clothing/suit/armor/f13/leather_jacket,
-				/obj/item/clothing/suit/armor/f13/kit,
+				/obj/item/clothing/suit/armor/f13/leatherarmor,
 				/obj/effect/spawner/bundle/f13/armor/supafly,
 				/obj/effect/spawner/bundle/f13/armor/sadist,
 				/obj/effect/spawner/bundle/f13/armor/blastmaster,
@@ -291,10 +291,10 @@
 	loot = list(
 				/obj/effect/spawner/bundle/f13/armor/knight,
 				/obj/effect/spawner/bundle/f13/armor/metal,
-				/obj/item/clothing/suit/armor/f13/leatherarmor,
 				/obj/item/clothing/suit/armor/f13/leather_jacket/combat,
 				/obj/item/clothing/suit/armor/f13/leather_jacket/combat/coat,
 				/obj/item/clothing/suit/armor/vest,
+				/obj/item/clothing/suit/armor/vest/alt,
 				)
 
 /obj/effect/spawner/bundle/f13/armor/knight
@@ -1990,6 +1990,7 @@
 		/obj/item/book/granter/crafting_recipe/blueprint/thatgun,
 		/obj/item/book/granter/crafting_recipe/blueprint/uzi,
 		/obj/item/book/granter/crafting_recipe/blueprint/smg10mm,
+		/obj/item/book/granter/crafting_recipe/blueprint/aep7,
 		/obj/item/book/granter/crafting_recipe/blueprint/m1carbine,
 		/obj/item/book/granter/crafting_recipe/blueprint/scoutcarbine,
 		/obj/item/book/granter/crafting_recipe/blueprint/commando,
@@ -2007,7 +2008,6 @@
 		/obj/item/book/granter/crafting_recipe/blueprint/r84,
 		/obj/item/book/granter/crafting_recipe/blueprint/deagle,
 		/obj/item/book/granter/crafting_recipe/blueprint/marksman,
-		/obj/item/book/granter/crafting_recipe/blueprint/aep7,
 		/obj/item/book/granter/crafting_recipe/blueprint/plasmapistol,
 		/obj/item/book/granter/crafting_recipe/blueprint/brushgun,
 	)
