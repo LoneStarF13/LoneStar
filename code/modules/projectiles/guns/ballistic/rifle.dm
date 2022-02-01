@@ -139,9 +139,9 @@
 	icon_state = "brushgun"
 	item_state = "brushgun"
 	mag_type = /obj/item/ammo_box/magazine/internal/shot/tube4570
-	extra_damage = 47
-	extra_penetration = 0.15
-	fire_delay = 4.5
+	extra_damage = 50
+	extra_penetration = 0.05
+	fire_delay = 5
 	recoil = 0.1
 	fire_sound = 'sound/f13weapons/brushgunfire.ogg'
 
@@ -252,7 +252,7 @@
 	fire_sound = 'sound/f13weapons/boltfire.ogg'
 
 //Lee-Enfield,SMLE 						Keywords: 7.62, Bolt-action, 5 rounds internal, short barrel (-2 damage, -100 velocity, -2 melee, less slowdown), faster firing rate
-/obj/item/gun/ballistic/rifle/enfield		
+/obj/item/gun/ballistic/rifle/enfield
 	name = "Lee-Enfield rifle"
 	desc = "A british rifle sometimes known as the SMLE. It seems to have been re-chambered in .308."
 	icon_state = "enfield2"
