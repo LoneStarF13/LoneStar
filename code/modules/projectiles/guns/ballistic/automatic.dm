@@ -745,7 +745,24 @@
 	suppressor_x_offset = 31
 	suppressor_y_offset = 15
 	fire_sound = 'sound/f13weapons/marksman_rifle.ogg'
-
+	
+/obj/item/gun/ballistic/automatic/marksman/policerifle
+	name = "Police Rifle"
+	desc = "A pre-war Rifle that has been constantly repaired and rebuilt by the Oasis Police Department. Held together by duct tape and prayers, it somehow still shoots. This one has been re-chambered to 5.56"
+	icon = 'icons/fallout/objects/guns/ballistic.dmi'
+	lefthand_file = 'icons/fallout/onmob/weapons/guns_lefthand.dmi'
+	righthand_file = 'icons/fallout/onmob/weapons/guns_righthand.dmi'
+	icon_prefix = "assault_carbine"
+	icon_state = "rifle-police"
+	item_state = "assault_carbine"
+	init_mag_type = /obj/item/ammo_box/magazine/m556/rifle
+	extra_damage = 25
+	extra_penetration = 0.1
+	spread = 1.1
+	fire_delay = 4.5
+	can_suppress = FALSE
+	can_scope = TRUE
+	zoomable = FALSE
 
 //Colt Rangemaster				Keywords: 7.62mm, Semi-auto, 10/20 round magazine, 35dmg
 /obj/item/gun/ballistic/automatic/rangemaster
