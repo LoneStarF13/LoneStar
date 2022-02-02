@@ -592,7 +592,7 @@ GLOBAL_VAR_INIT(vendor_cash, 0)
 	desc = "a vending machine stocked with imported medical supplies. The pricing is to cover the cost of shipping and handling."
 	icon_state = "med_idle"
 	prize_list = list(
-		new /datum/data/wasteland_equipment("Soap",							/obj/item/soap/syndie,												50),
+		new /datum/data/wasteland_equipment("Soap",							/obj/item/soap/deluxe,												50),
 		new /datum/data/wasteland_equipment("Gas Mask",						/obj/item/clothing/mask/gas,										50),
 		new /datum/data/wasteland_equipment("Advanced Mop",					/obj/item/mop/advanced,												100),
 		new /datum/data/wasteland_equipment("Fixer",						/obj/item/storage/pill_bottle/chem_tin/fixer,						200),
@@ -604,7 +604,7 @@ GLOBAL_VAR_INIT(vendor_cash, 0)
 		new /datum/data/wasteland_equipment("Prosthethic Right Leg",		/obj/item/bodypart/r_leg/robot,										600),
 		new /datum/data/wasteland_equipment("Integrated Toolset Implant",	/obj/item/organ/cyberimp/arm/toolset,								700),
 		new /datum/data/wasteland_equipment("Defibrillator",				/obj/item/defibrillator,											1000),
-		new /datum/data/wasteland_equipment("Chest reviver Implant,			obj/item/organ/cyberimp/chest/reviver,								1500),
+		new /datum/data/wasteland_equipment("Chest reviver Implant,			/obj/item/organ/cyberimp/chest/reviver,								1500),
 		new /datum/data/wasteland_equipment("Upgraded Prosthethic Limbs",	/obj/item/storage/box/sparelimbs,									2000),
 		new /datum/data/wasteland_equipment("Cat",							/mob/living/simple_animal/pet/cat/Runtime,							10000),
 		)
