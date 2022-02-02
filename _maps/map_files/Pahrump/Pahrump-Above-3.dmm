@@ -56,7 +56,7 @@
 /obj/structure/table/reinforced,
 /obj/machinery/computer/terminal{
 	dir = 1;
-	doc_content_1 = "This is as always Manager Stevenson, today was a good day. More than usual folk came in here looking to open an account! Sounds like we might have an up soon! ";
+	doc_content_1 = "This is as always Manager Stevenson, today was a good day. More than usual folk came in here looking to open an account! Sounds like we might have an up soon!";
 	doc_title_1 = "October 23, 2077";
 	termtag = "Business"
 	},
@@ -176,8 +176,10 @@
 	},
 /area/f13/building)
 "dH" = (
-/obj/structure/sign/poster/prewar/corporate_espionage,
-/turf/closed/wall/f13/store,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/table/reinforced,
+/obj/item/stack/wrapping_paper,
+/turf/open/floor/plasteel/f13/vault_floor/dark,
 /area/f13/brotherhood/surface)
 "dP" = (
 /obj/structure/bookcase,
@@ -271,7 +273,7 @@
 	},
 /area/f13/building)
 "fW" = (
-/obj/structure/sign/poster/contraband/robust_softdrinks,
+/obj/structure/sign/poster/prewar/poster82,
 /turf/closed/wall/f13/store,
 /area/f13/brotherhood/surface)
 "gd" = (
@@ -1002,14 +1004,8 @@
 /turf/closed/indestructible/rock,
 /area/f13/tunnel)
 "vf" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/item/kirbyplants{
-	icon_state = "plant-25"
-	},
-/obj/structure/sign/poster/prewar/poster82{
-	pixel_y = -32
-	},
-/turf/open/floor/plasteel/f13/vault_floor/dark,
+/obj/structure/sign/poster/prewar/poster60,
+/turf/closed/wall/f13/store,
 /area/f13/brotherhood/surface)
 "vr" = (
 /obj/effect/decal/cleanable/dirt,
@@ -1184,6 +1180,18 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/neutral,
 /area/f13/brotherhood/surface)
+"xy" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/computer/terminal{
+	doc_content_1 = "I think the archivist is pervert! He's always coming up to me during break hours and saying stuff like: 'Can you scoot over' WHILE I'M SITTING DOWN IN AN EMPTY SOFA!";
+	doc_title_1 = "October 22, 2077";
+	pixel_y = 3;
+	termtag = "Business"
+	},
+/obj/structure/table,
+/obj/structure/window/spawner/north,
+/turf/open/floor/f13,
+/area/f13/brotherhood/surface)
 "xI" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table/wood/fancy/black,
@@ -1346,7 +1354,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table,
 /obj/machinery/computer/terminal{
-	doc_content_1 = "I think the boss isn't fit to manage the bank anymore.. he keeps making sloppy decisions and ignoring facts! I think I'll report him to HR Tomorrow."";
+	doc_content_1 = "I think the boss isn't fit to manage the bank anymore.. he keeps making sloppy decisions and ignoring facts! I think I'll report him to HR Tomorrow.";
 	doc_title_1 = "October 23, 2077";
 	pixel_y = 3;
 	termtag = "Business"
@@ -1617,17 +1625,8 @@
 /turf/open/floor/f13,
 /area/f13/brotherhood/surface)
 "Fz" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/sign/poster/prewar/poster81{
-	pixel_y = 32
-	},
-/obj/item/kirbyplants{
-	icon_state = "plant-25";
-	pixel_y = 14
-	},
-/turf/open/floor/plasteel/f13/vault_floor/yellow/side{
-	dir = 1
-	},
+/obj/structure/sign/poster/prewar/poster81,
+/turf/closed/wall/f13/store,
 /area/f13/brotherhood/surface)
 "FF" = (
 /obj/structure/chair/folding{
@@ -2199,9 +2198,8 @@
 	},
 /area/f13/brotherhood/surface)
 "PK" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/item/stack/wrapping_paper,
-/turf/open/floor/plasteel/f13/vault_floor/dark,
+/obj/structure/sign/poster/contraband/robust_softdrinks,
+/turf/closed/wall/f13/store,
 /area/f13/brotherhood/surface)
 "PL" = (
 /turf/open/transparent/openspace{
@@ -2731,53 +2729,6 @@
 	icon_state = "housewood2-broken"
 	},
 /area/f13/building)
-"xyk" = (
-/obj/structure/sign/poster/contraband/donut_corp,
-/turf/closed/wall/f13/store,
-/area/f13/brotherhood/surface)
-"xyk" = (
-/obj/effect/decal/cleanable/dirt{
-	color = "000000"
-	},
-/obj/structure/sign/painting/library{
-	persistence_id = "oasis_public";
-	pixel_x = 32
-	},
-/turf/open/floor/carpet/black,
-/area/f13/building)
-"Qt" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/vending/snack,
-/turf/open/floor/plasteel/grimy,
-/area/f13/brotherhood/surface)
-"Qt" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/table,
-/obj/machinery/computer/terminal{
-	doc_content_1 = "I think the archivist is pervert! He's always coming up to me during break hours and saying stuff like: 'Can you scoot over' WHILE I'M SITTING DOWN IN AN EMPTY SOFA!";
-	doc_title_1 = "October 23, 2077";
-	pixel_y = 3;
-	termtag = "Business"
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/window/spawner/north,
-/turf/open/floor/f13,
-/area/f13/brotherhood/surface)
-"Qt" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/table/reinforced,
-/obj/item/paper/pamphlet{
-	desc = "A trashy prewar comic book, it's open on a page that reads: Happy Late Birthday, Son!"";
-	name = "prewar comic book";
-	pixel_x = -5;
-	pixel_y = 6
-	},
-/obj/item/gun/ballistic/automatic/toy/pistol/unrestricted{
-	pixel_x = 5;
-	pixel_y = 6
-	},
-/turf/open/floor/plasteel/f13/vault_floor/dark,
-/area/f13/brotherhood/surface)
 
 (1,1,1) = {"
 Al
@@ -34703,10 +34654,10 @@ oJ
 oJ
 oJ
 oJ
-fW
 oJ
 oJ
 oJ
+PK
 oJ
 oJ
 oJ
@@ -34955,8 +34906,8 @@ oJ
 oJ
 oJ
 oJ
-TJ
 oJ
+vf
 Qt
 wT
 mb
@@ -35981,7 +35932,7 @@ gg
 hw
 yX
 QL
-vf
+Rs
 oJ
 xd
 ah
@@ -36491,13 +36442,13 @@ kC
 kC
 oJ
 gg
-PK
+iS
 Hf
 yX
 iS
 Rs
 oJ
-Fz
+xd
 Qt
 Qt
 Dv
@@ -36748,7 +36699,7 @@ kC
 kC
 oJ
 iS
-bk
+dH
 bk
 gg
 iS
@@ -36760,7 +36711,7 @@ pp
 Dv
 Qt
 Qt
-Qt
+xy
 yw
 Qt
 Qb
@@ -37521,8 +37472,8 @@ oJ
 oJ
 oJ
 oJ
-dH
 oJ
+fW
 oJ
 oJ
 Ra
@@ -40358,7 +40309,7 @@ kC
 oJ
 oJ
 oJ
-oJ
+Fz
 oJ
 oJ
 Lq
