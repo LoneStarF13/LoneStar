@@ -17240,6 +17240,13 @@
 	icon_state = "horizontalinnermain2"
 	},
 /area/f13/wasteland)
+"hga" = (
+/obj/structure/barricade/wooden,
+/turf/open/indestructible/ground/outside/dirt{
+	dir = 8;
+	icon_state = "dirt"
+	},
+/area/f13/wasteland)
 "hgc" = (
 /obj/structure/reagent_dispensers/water_cooler,
 /turf/open/floor/wood/f13/oak,
@@ -17802,6 +17809,12 @@
 /obj/item/storage/toolbox/mechanical/old,
 /turf/open/floor/f13,
 /area/f13/building)
+"hqt" = (
+/obj/structure/stairs/south{
+	color = "#A47449"
+	},
+/turf/open/floor/f13/wood,
+/area/f13/legion)
 "hqw" = (
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 4
@@ -35132,6 +35145,13 @@
 /obj/effect/decal/remains/human,
 /turf/open/floor/f13/wood,
 /area/f13/tunnel)
+"oAo" = (
+/turf/open/floor/plasteel/stairs{
+	barefootstep = "woodbarefoot";
+	color = "#A47449";
+	footstep = "wood"
+	},
+/area/f13/wasteland)
 "oAB" = (
 /obj/structure/barricade/bars,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
@@ -39939,6 +39959,12 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/legion)
+"qHe" = (
+/obj/structure/stairs/north{
+	color = "#A47449"
+	},
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/wasteland)
 "qHu" = (
 /obj/effect/decal/remains{
 	icon_state = "remains"
@@ -109334,7 +109360,7 @@ rwO
 xXm
 jgx
 xXm
-xXm
+hqt
 uNK
 jmv
 jhx
@@ -109591,7 +109617,7 @@ rwO
 xXm
 hom
 mIW
-xXm
+uNK
 uNK
 jmv
 xXm
@@ -114245,9 +114271,9 @@ mfD
 mfD
 uuc
 mfD
-mfD
-mfD
-mfD
+hga
+hga
+hga
 mfD
 gNG
 hom
@@ -114503,9 +114529,9 @@ hom
 hom
 hom
 hom
-hwC
-hwC
-hwC
+qHe
+oAo
+fyf
 hwC
 hom
 uvp

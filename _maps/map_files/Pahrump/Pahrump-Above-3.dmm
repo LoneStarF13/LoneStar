@@ -542,6 +542,14 @@
 	sunlight_state = 1
 	},
 /area/f13/wasteland)
+"ov" = (
+/obj/structure/table/wood,
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 4
+	},
+/obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier2,
+/turf/open/indestructible/ground/outside/woodalt,
+/area/f13/legion)
 "oE" = (
 /obj/structure/sign/poster/contraband/scum,
 /turf/closed/wall/f13/store,
@@ -731,6 +739,12 @@
 	icon_state = "neutralrustyfull"
 	},
 /area/f13/building)
+"uF" = (
+/turf/open/transparent/openspace{
+	name = "air";
+	sunlight_state = 1
+	},
+/area/f13/legion)
 "uI" = (
 /turf/open/floor/carpet/black,
 /area/f13/building)
@@ -901,6 +915,12 @@
 "zk" = (
 /turf/closed/indestructible/riveted,
 /area/f13/tcoms)
+"zs" = (
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 4
+	},
+/turf/open/indestructible/ground/outside/woodalt,
+/area/f13/legion)
 "zx" = (
 /obj/structure/table/wood,
 /obj/item/paper/crumpled/ruins,
@@ -988,6 +1008,10 @@
 	},
 /turf/open/floor/carpet,
 /area/f13/building)
+"BA" = (
+/obj/structure/barricade/wooden,
+/turf/closed/mineral/random/low_chance,
+/area/f13/caves)
 "BB" = (
 /obj/structure/railing{
 	color = "#A47449";
@@ -1225,6 +1249,12 @@
 	sunlight_state = 1
 	},
 /area/f13/wasteland)
+"Hi" = (
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 8
+	},
+/turf/open/indestructible/ground/outside/woodalt,
+/area/f13/legion)
 "Hk" = (
 /obj/machinery/light/small/broken{
 	dir = 1
@@ -1315,6 +1345,10 @@
 "Jd" = (
 /turf/closed/wall/f13/tentwall,
 /area/f13/ncr)
+"Jj" = (
+/obj/structure/barricade/wooden,
+/turf/open/indestructible/ground/outside/woodalt,
+/area/f13/legion)
 "Jl" = (
 /obj/structure/chair/office/dark,
 /turf/open/floor/f13/wood{
@@ -1365,6 +1399,12 @@
 /obj/structure/chair/left,
 /turf/open/floor/carpet/red,
 /area/f13/building)
+"Lb" = (
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 8
+	},
+/turf/open/indestructible/ground/outside/woodalt,
+/area/f13/wasteland)
 "Li" = (
 /obj/structure/barricade/wooden,
 /turf/closed/wall/rust,
@@ -1471,6 +1511,16 @@
 	icon_state = "neutralrustyfull"
 	},
 /area/f13/building)
+"NW" = (
+/obj/machinery/door/unpowered/securedoor{
+	autoclose = 1;
+	damage_deflection = 28;
+	max_integrity = 400;
+	obj_integrity = 400;
+	req_access_txt = "123"
+	},
+/turf/open/indestructible/ground/outside/woodalt,
+/area/f13/legion)
 "NX" = (
 /obj/structure/chair/wood/modern{
 	dir = 8;
@@ -1478,6 +1528,12 @@
 	},
 /turf/open/indestructible/ground/outside/roof,
 /area/f13/wasteland)
+"NY" = (
+/obj/structure/chair/wood{
+	dir = 1
+	},
+/turf/open/indestructible/ground/outside/woodalt,
+/area/f13/legion)
 "Oc" = (
 /obj/machinery/vending/cola/space_up,
 /turf/open/floor/f13{
@@ -1515,6 +1571,11 @@
 	sunlight_state = 1
 	},
 /area/f13/wasteland)
+"PK" = (
+/obj/structure/table/wood,
+/obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier2,
+/turf/open/indestructible/ground/outside/woodalt,
+/area/f13/legion)
 "PL" = (
 /turf/open/transparent/openspace{
 	name = "air";
@@ -1585,6 +1646,15 @@
 /obj/structure/decoration/clock/old/active,
 /turf/closed/wall/f13/store,
 /area/f13/building)
+"RI" = (
+/obj/structure/barricade/sandbags,
+/turf/open/indestructible/ground/outside/woodalt,
+/area/f13/legion)
+"RP" = (
+/obj/structure/table/wood,
+/obj/item/binoculars,
+/turf/open/indestructible/ground/outside/woodalt,
+/area/f13/legion)
 "Sb" = (
 /obj/structure/simple_door/metal/store{
 	icon_state = "brokenstore";
@@ -53530,8 +53600,8 @@ PL
 PL
 PL
 Ks
-Ks
-Ks
+RI
+RI
 Ks
 Ks
 al
@@ -53786,13 +53856,13 @@ PL
 PL
 PL
 PL
+RI
+mc
+mc
+mc
+mc
+mc
 Ks
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
 Wx
 Wx
 Wx
@@ -54043,13 +54113,13 @@ PL
 PL
 PL
 PL
+RI
+mc
+mc
+Jj
+uF
+mc
 Ks
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
 Wx
 Wx
 Wx
@@ -54300,13 +54370,13 @@ PL
 PL
 PL
 PL
+RI
+mc
+mc
+Jj
 Ks
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
+Ks
+Ks
 Wx
 Wx
 Wx
@@ -54338,7 +54408,7 @@ PL
 PL
 PL
 PL
-kC
+BA
 Ks
 sN
 Vd
@@ -54557,13 +54627,13 @@ PL
 PL
 PL
 PL
+RI
+mc
+zs
+mc
+mc
+PK
 Ks
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
 Wx
 Wx
 Wx
@@ -54815,12 +54885,12 @@ PL
 PL
 PL
 Ks
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
+Ks
+Ks
+NW
+Ks
+Ks
+Ks
 Wx
 Wx
 Wx
@@ -55071,12 +55141,12 @@ PL
 PL
 PL
 PL
-Ks
-Ks
-Ks
-Ks
-Ks
-Ks
+Wx
+Wx
+Lb
+Wx
+Wx
+Wx
 Wx
 Wx
 Wx
@@ -55333,7 +55403,7 @@ PL
 PL
 PL
 PL
-Ks
+Wx
 Wx
 Wx
 Wx
@@ -55366,7 +55436,7 @@ PL
 PL
 PL
 PL
-kC
+BA
 Ks
 Ks
 Ks
@@ -55590,7 +55660,7 @@ PL
 PL
 PL
 PL
-Ks
+Wx
 PL
 PL
 PL
@@ -59468,11 +59538,11 @@ PL
 PL
 PL
 PL
-Wx
-Wx
-Wx
-Wx
-Wx
+Ks
+Ks
+NW
+Ks
+Ks
 kC
 kC
 kC
@@ -59725,11 +59795,11 @@ PL
 PL
 PL
 PL
-Wx
-Wx
-Wx
-Wx
-Wx
+Ks
+RP
+mc
+Hi
+mc
 kC
 kC
 kC
@@ -59982,11 +60052,11 @@ PL
 PL
 PL
 PL
-Wx
-Wx
-Wx
-Wx
-Wx
+RI
+mc
+mc
+mc
+md
 kC
 kC
 kC
@@ -60239,11 +60309,11 @@ PL
 PL
 PL
 PL
-Wx
-Wx
-Wx
-Wx
-Wx
+RI
+NY
+mc
+md
+kC
 kC
 kC
 kC
@@ -60496,11 +60566,11 @@ PL
 PL
 PL
 PL
-Wx
-Wx
-Wx
-Wx
-Wx
+RI
+NY
+mc
+BA
+kC
 kC
 kC
 kC
@@ -60753,11 +60823,11 @@ PL
 PL
 PL
 PL
-Wx
-Wx
-Wx
-Wx
-Wx
+Ks
+Ks
+mc
+kC
+kC
 kC
 kC
 kC
@@ -61011,10 +61081,10 @@ PL
 PL
 PL
 PL
-Wx
-Wx
-Wx
-Wx
+Ks
+mc
+kC
+kC
 kC
 kC
 kC
@@ -61268,10 +61338,10 @@ PL
 PL
 PL
 PL
-Wx
-Wx
-Wx
-Wx
+Ks
+mc
+mc
+BA
 kC
 kC
 kC
@@ -61525,10 +61595,10 @@ PL
 PL
 PL
 PL
-Wx
-Wx
-Wx
-Wx
+Ks
+PK
+ov
+kC
 kC
 kC
 kC
@@ -61782,10 +61852,10 @@ PL
 PL
 PL
 Wx
-Wx
-Wx
-Wx
-Wx
+Ks
+Ks
+Ks
+kC
 kC
 kC
 kC
