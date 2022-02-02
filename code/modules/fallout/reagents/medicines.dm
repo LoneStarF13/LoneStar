@@ -108,7 +108,6 @@ datum/reagent/medicine/super_stimpak/on_mob_life(mob/living/M)
 	if(!M.reagents.has_reagent(/datum/reagent/medicine/healing_powder/poultice) && !M.reagents.has_reagent(/datum/reagent/medicine/stimpak) && !M.reagents.has_reagent(/datum/reagent/medicine/healing_powder)) // We don't want these healing items to stack, so we only apply the healing if these chems aren't found. We only check for the less powerful chems, so the least powerful one always heals.
 		M.adjustBruteLoss(-8*REAGENTS_EFFECT_MULTIPLIER)
 		M.adjustFireLoss(-8*REAGENTS_EFFECT_MULTIPLIER)
-		//M.adjustToxLoss(-2*REAGENTS_EFFECT_MULTIPLIER)
 		M.AdjustStun(-10*REAGENTS_EFFECT_MULTIPLIER, 0)
 		M.AdjustKnockdown(-10*REAGENTS_EFFECT_MULTIPLIER, 0)
 		M.adjustStaminaLoss(-4*REAGENTS_EFFECT_MULTIPLIER)
