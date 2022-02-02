@@ -57,7 +57,8 @@
 /obj/machinery/computer/terminal{
 	dir = 1;
 	doc_content_1 = "This is as always Manager Stevenson, today was a good day. More than usual folk came in here looking to open an account! Sounds like we might have an up soon! ";
-	doc_title_1 = "October 23, 2077"
+	doc_title_1 = "October 23, 2077";
+	termtag = "Business"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/dark,
 /area/f13/brotherhood/surface)
@@ -235,7 +236,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/fluff/paper/stack{
-	desc = "A stack of various papers, all saying you really shouldnt see this. The name Dr. Possum is signed at the bottom.";
+	desc = "A stack of various papers, illegible scribbles scattered across each page.";
 	dir = 1
 	},
 /turf/open/floor/plasteel/f13/vault_floor/red,
@@ -292,6 +293,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/window/spawner/north,
 /obj/structure/window/spawner/west,
+/obj/item/clothing/accessory/pocketprotector/full,
 /obj/item/paper/crumpled/bloody/fluff/stations/lavaland/library/warning{
 	info = "<b>If someone finds this... then the Police didn't bring us to the Vault in-time.. thank god our jobs prioritise us in-case of a nuclear att-....</b>"
 	},
@@ -553,7 +555,7 @@
 	desc = "A stack of various papers, illegible scribbles scattered across each page.";
 	dir = 8
 	},
-/obj/machinery/light/broken{
+/obj/machinery/light/fo13colored/Red{
 	pixel_x = 16
 	},
 /turf/open/floor/plasteel/f13/vault_floor/red,
@@ -602,7 +604,7 @@
 /area/f13/legion)
 "mQ" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/light/broken{
+/obj/machinery/light/fo13colored/Red{
 	dir = 8
 	},
 /turf/open/floor/f13,
@@ -731,6 +733,11 @@
 	pixel_x = -12;
 	pixel_y = -1
 	},
+/obj/item/megaphone/command{
+	name = "Police Megaphone";
+	pixel_x = 4;
+	pixel_y = -3
+	},
 /turf/open/floor/f13,
 /area/f13/brotherhood/surface)
 "pM" = (
@@ -751,7 +758,8 @@
 	dir = 4;
 	pixel_x = 2
 	},
-/obj/machinery/light/broken,
+/obj/machinery/light/built,
+/obj/effect/decal/cleanable/glass,
 /turf/open/floor/plasteel/f13/vault_floor/purple/side{
 	dir = 4
 	},
@@ -945,8 +953,11 @@
 /area/f13/ncr)
 "ue" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/bookcase/random,
-/turf/open/floor/plasteel/f13/vault_floor/dark,
+/obj/machinery/light/floor,
+/turf/open/floor/plasteel/f13/vault_floor/dark{
+	icon_state = "darkrusty";
+	name = "grimy tile"
+	},
 /area/f13/brotherhood/surface)
 "uh" = (
 /obj/structure/filingcabinet{
@@ -998,7 +1009,6 @@
 /obj/structure/sign/poster/prewar/poster82{
 	pixel_y = -32
 	},
-/obj/machinery/light/broken,
 /turf/open/floor/plasteel/f13/vault_floor/dark,
 /area/f13/brotherhood/surface)
 "vr" = (
@@ -1016,14 +1026,8 @@
 /area/f13/brotherhood/surface)
 "vA" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/light/broken{
-	dir = 1;
-	pixel_x = 16
-	},
-/turf/open/floor/plasteel/f13/vault_floor/dark{
-	icon_state = "darkrusty";
-	name = "grimy tile"
-	},
+/obj/machinery/light/floor,
+/turf/open/floor/plasteel/f13/vault_floor/dark,
 /area/f13/brotherhood/surface)
 "vG" = (
 /turf/open/indestructible/ground/outside/roof,
@@ -1272,9 +1276,6 @@
 	dir = 1
 	},
 /obj/machinery/vending/coffee,
-/obj/machinery/light/broken{
-	dir = 4
-	},
 /turf/open/floor/plasteel/grimy,
 /area/f13/brotherhood/surface)
 "zY" = (
@@ -1471,7 +1472,8 @@
 	},
 /obj/structure/window/spawner/west,
 /obj/item/storage/pill_bottle/neurine{
-	name = "bottle of pills"
+	name = "bottle of pills";
+	pixel_x = 8
 	},
 /turf/open/floor/f13,
 /area/f13/brotherhood/surface)
@@ -1482,7 +1484,9 @@
 	pixel_y = -5
 	},
 /obj/effect/decal/remains/human,
-/obj/item/flashlight/seclite,
+/obj/item/flashlight/seclite{
+	light_on = 1
+	},
 /turf/open/floor/f13,
 /area/f13/brotherhood/surface)
 "CC" = (
@@ -1533,6 +1537,10 @@
 /turf/closed/wall/f13/tentwall,
 /area/f13/village)
 "DC" = (
+/obj/structure/fluff/paper/stack{
+	desc = "A stack of various papers, illegible scribbles scattered across each page.";
+	dir = 9
+	},
 /obj/structure/filingcabinet{
 	density = 0;
 	pixel_x = -9;
@@ -1546,10 +1554,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/fluff/paper/corner{
 	dir = 8
-	},
-/obj/structure/fluff/paper/stack{
-	desc = "A stack of various papers, illegible scribbles scattered across each page.";
-	dir = 9
 	},
 /turf/open/floor/plasteel/f13/vault_floor/red,
 /area/f13/brotherhood/surface)
@@ -1932,7 +1936,7 @@
 /area/f13/building)
 "JG" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/light/broken{
+/obj/machinery/light/fo13colored/Red{
 	dir = 1
 	},
 /turf/open/floor/plasteel/f13/vault_floor/neutral,
@@ -1940,7 +1944,7 @@
 "JQ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/chair/office,
-/obj/machinery/light/broken{
+/obj/machinery/light/fo13colored/Red{
 	dir = 4
 	},
 /turf/open/floor/f13,
@@ -1949,7 +1953,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table,
 /obj/machinery/computer/terminal{
-	doc_content_1 = "What the hell? Why did the power go down? The building opposite of us also is blacked out.. must be some region wide shut-down..";
+	doc_content_1 = "What the hell? Why did the power go down? The building opposite of us also is blacked out.. must be some region wide shut-down or something, the back-up generator should hit soon.";
 	doc_title_1 = "October 23, 2077";
 	pixel_y = 3;
 	termtag = "Business"
@@ -2018,7 +2022,9 @@
 	pixel_x = 1;
 	pixel_y = -5
 	},
-/obj/item/flashlight/seclite,
+/obj/item/flashlight/seclite{
+	light_on = 1
+	},
 /turf/open/floor/f13,
 /area/f13/brotherhood/surface)
 "LU" = (
@@ -2058,6 +2064,9 @@
 "Md" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/vending/cigarette,
+/obj/machinery/light/fo13colored/Red{
+	dir = 4
+	},
 /turf/open/floor/plasteel/grimy,
 /area/f13/brotherhood/surface)
 "Mj" = (
@@ -2108,10 +2117,10 @@
 /area/f13/building)
 "Nj" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/chair/office{
-	dir = 1
-	},
 /obj/item/paper/crumpled,
+/obj/structure/chair/office{
+	dir = 4
+	},
 /turf/open/floor/f13,
 /area/f13/brotherhood/surface)
 "No" = (
@@ -2152,12 +2161,12 @@
 /area/f13/building)
 "Oj" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/light/broken{
-	dir = 1;
-	pixel_x = 16
+/obj/machinery/light/fo13colored/Red{
+	dir = 4;
+	pixel_y = -16
 	},
-/turf/open/floor/plasteel/f13/vault_floor/dark{
-	icon_state = "darkdirty"
+/turf/open/floor/plasteel/f13/vault_floor/red/side{
+	dir = 4
 	},
 /area/f13/brotherhood/surface)
 "OH" = (
@@ -2182,7 +2191,7 @@
 /area/f13/building)
 "PJ" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/light/broken{
+/obj/machinery/light/fo13colored/Red{
 	dir = 1
 	},
 /turf/open/floor/plasteel/f13/vault_floor/red/side{
@@ -2298,7 +2307,6 @@
 /obj/item/kirbyplants{
 	icon_state = "plant-25"
 	},
-/obj/machinery/light/broken,
 /turf/open/floor/plasteel/f13/vault_floor/dark,
 /area/f13/brotherhood/surface)
 "Rw" = (
@@ -2321,18 +2329,18 @@
 	},
 /area/f13/brotherhood/surface)
 "RN" = (
-/obj/structure/filingcabinet{
-	density = 0;
-	pixel_x = -4;
-	pixel_y = 21
-	},
-/obj/effect/decal/cleanable/dirt,
 /obj/structure/fluff/paper/stack{
 	desc = "A stack of various papers, illegible scribbles scattered across each page.";
 	dir = 8;
 	pixel_x = 6;
 	pixel_y = -4
 	},
+/obj/structure/filingcabinet{
+	density = 0;
+	pixel_x = -4;
+	pixel_y = 21
+	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/red,
 /area/f13/brotherhood/surface)
 "Sb" = (
@@ -2391,12 +2399,16 @@
 /turf/open/floor/carpet/royalblack,
 /area/f13/brotherhood/surface)
 "Tc" = (
+/obj/structure/table,
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/bookcase/random,
-/turf/open/floor/plasteel/f13/vault_floor/dark{
-	icon_state = "darkrusty";
-	name = "grimy tile"
+/obj/item/paper_bin{
+	pixel_y = 9
 	},
+/obj/item/pen{
+	pixel_y = 9
+	},
+/obj/item/laser_pointer/red,
+/turf/open/floor/f13,
 /area/f13/brotherhood/surface)
 "Tm" = (
 /turf/open/indestructible/ground/outside/wood{
@@ -2532,13 +2544,10 @@
 /area/f13/wasteland)
 "UO" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/light/broken{
-	dir = 4;
-	pixel_y = -16
+/obj/structure/chair/sofa/corp/left{
+	dir = 1
 	},
-/turf/open/floor/plasteel/f13/vault_floor/red/side{
-	dir = 4
-	},
+/turf/open/floor/plasteel/grimy,
 /area/f13/brotherhood/surface)
 "UR" = (
 /obj/structure/closet/crate/bin,
@@ -2753,13 +2762,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/window/spawner/north,
 /turf/open/floor/f13,
-/area/f13/brotherhood/surface)
-"ZX" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/chair/sofa/corp/left{
-	dir = 1
-	},
-/turf/open/floor/plasteel/grimy,
 /area/f13/brotherhood/surface)
 "ZX" = (
 /obj/effect/decal/cleanable/dirt,
@@ -34953,14 +34955,14 @@ oJ
 oJ
 oJ
 oJ
-oJ
 TJ
+oJ
 Qt
 wT
 mb
 mQ
 Xq
-mb
+Tc
 mQ
 WZ
 mb
@@ -35460,11 +35462,11 @@ kC
 kC
 kC
 oJ
-gg
+ue
 gg
 QL
 gg
-iS
+vA
 gg
 FQ
 XG
@@ -35717,7 +35719,7 @@ kC
 kC
 kC
 oJ
-Oj
+QL
 hb
 BK
 gg
@@ -36488,7 +36490,7 @@ kC
 kC
 kC
 oJ
-vA
+gg
 PK
 Hf
 yX
@@ -37002,11 +37004,11 @@ kC
 kC
 kC
 oJ
-gg
+ue
 QL
 QL
 iS
-iS
+vA
 gg
 nf
 XG
@@ -37263,8 +37265,8 @@ SW
 iS
 iS
 gg
-ue
-Tc
+iS
+gg
 oJ
 xt
 Qt
@@ -37524,8 +37526,8 @@ oJ
 oJ
 oJ
 Ra
+Oj
 CC
-UO
 CC
 LD
 Qt
@@ -39333,7 +39335,7 @@ Qt
 IY
 IY
 zC
-Dy
+UO
 Dy
 PL
 PL
