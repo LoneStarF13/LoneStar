@@ -604,7 +604,7 @@ GLOBAL_VAR_INIT(vendor_cash, 0)
 		new /datum/data/wasteland_equipment("Prosthethic Right Leg",		/obj/item/bodypart/r_leg/robot,										600),
 		new /datum/data/wasteland_equipment("Integrated Toolset Implant",	/obj/item/organ/cyberimp/arm/toolset,								700),
 		new /datum/data/wasteland_equipment("Defibrillator",				/obj/item/defibrillator,											1000),
-		new /datum/data/wasteland_equipment("Chest reviver Implant,			/obj/item/organ/cyberimp/chest/reviver,								1500),
+		new /datum/data/wasteland_equipment("Chest reviver Implant",			/obj/item/organ/cyberimp/chest/reviver,								1500),
 		new /datum/data/wasteland_equipment("Upgraded Prosthethic Limbs",	/obj/item/storage/box/sparelimbs,									2000),
 		new /datum/data/wasteland_equipment("Cat",							/mob/living/simple_animal/pet/cat/Runtime,							10000),
 		)
@@ -625,7 +625,7 @@ GLOBAL_VAR_INIT(vendor_cash, 0)
 		new /datum/data/wasteland_equipment("Prosthethic Right Leg",		/obj/item/bodypart/r_leg/robot,										600),
 		new /datum/data/wasteland_equipment("Integrated Toolset Implant",	/obj/item/organ/cyberimp/arm/toolset,								700),
 		new /datum/data/wasteland_equipment("Defibrillator",				/obj/item/defibrillator,											1000),
-		new /datum/data/wasteland_equipment("Chest reviver Implant,			/obj/item/organ/cyberimp/chest/reviver,								1500),
+		new /datum/data/wasteland_equipment("Chest reviver Implant",			/obj/item/organ/cyberimp/chest/reviver,								1500),
 		new /datum/data/wasteland_equipment("Upgraded Prosthethic Limbs",	/obj/item/storage/box/sparelimbs,									2000),
 		new /datum/data/wasteland_equipment("Cat",							/mob/living/simple_animal/pet/cat/Runtime,							10000),
 		)
