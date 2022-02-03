@@ -79,6 +79,10 @@
 	if(!checking.zPassIn(AM, UP, get_turf(src)))
 		return
 	var/turf/target = get_step_multiz(get_turf(src), (dir|UP))
+	var/obj/target2 = get_step_multiz(get_turf(src), (dir|UP)
+	if(iswallturf(target))
+		to_chat(AM, "<span class='warning'>Something blocked your climb.</span>")
+		return
 	if(istype(target) && !target.can_zFall(AM, null, get_step_multiz(target, DOWN)))			//Don't throw them into a tile that will just dump them back down.
 		if(isliving(AM))
 			var/mob/living/L = AM
@@ -143,3 +147,49 @@
 		if(S.dir == dir)
 			return FALSE
 	return TRUE
+
+
+/*--------------------------------------------------------------------------------------------------
+
+Ladder
+
+---------------------------------------------------------------------------------------------------*/
+
+/obj/structure/stairs/deployable_ladder
+	name = "wooden ladder"
+	icon = 'icons/obj/ladder.dmi'
+	icon_state = "deploy"
+	max_integrity = 50
+	layer = 4
+	anchored = TRUE
+
+/obj/structure/stairs/deployable_ladder/update_icon_state()
+	return
+	
+/obj/structure/stairs/deployable_ladder/north
+	dir = NORTH
+	pixel_x = -16
+	pixel_y = -5
+
+/obj/structure/stairs/deployable_ladder/south
+	dir = SOUTH
+	pixel_x = -16
+	pixel_y = -27
+
+/obj/structure/stairs/deployable_ladder/east
+	dir = EAST
+	pixel_y = -16
+	pixel_x = -5
+
+/obj/structure/stairs/deployable_ladder/west
+	dir = WEST
+	pixel_x = -27
+	pixel_y = -16
+
+/obj/structure/stairs/deployable_ladder/Uncross(atom/movable/AM, turf/newloc)
+	if(!newloc || !AM)
+		return ..()
+	if(!isobserver(AM) && isTerminator() && (get_dir(src, newloc) == dir) && do_after(AM, 25, target = src))
+		stair_ascend(AM)
+		return FALSE
+	return ..()
