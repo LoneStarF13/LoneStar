@@ -497,7 +497,7 @@
 	burst_size = 1
 	fire_delay = 5
 	spread = 2
-	extra_damage = 24
+	extra_damage = 20
 	extra_penetration = 0.1
 	slowdown = 0.4
 	automatic_burst_overlay = FALSE
@@ -527,7 +527,7 @@
 	icon = 'icons/fallout/objects/guns/ballistic.dmi'
 	icon_state = "ncr-m1carbine"
 	item_state = "rifle"
-	extra_damage = 25
+	extra_damage = 21
 
 
 //M1A1 Carbine				Keywords: 10mm, Semi-auto, 12/24 rounds, Long barrel, Folding stock.
@@ -594,12 +594,14 @@
 	icon_state = "varmint"
 	item_state = "varmintrifle"
 	force = 23
+	slowdown = 0.3
 	mag_type = /obj/item/ammo_box/magazine/m556/rifle
 	init_mag_type = /obj/item/ammo_box/magazine/m556/rifle/small
-	fire_delay = 6
+	fire_delay = 3.5
 	burst_size = 1
 	spread = 0
-	extra_damage = 25
+	extra_damage = 20
+	extra_speed = 500
 	can_bayonet = FALSE
 	semi_auto = TRUE
 	automatic_burst_overlay = FALSE
@@ -666,7 +668,8 @@
 	item_state = "servicerifle"
 	icon_prefix = "servicerifle"
 	mag_type = /obj/item/ammo_box/magazine/m556/rifle
-	fire_delay = 4
+	slowdown = 0.45
+	fire_delay = 3.5
 	burst_size = 1
 	spread = 1
 	extra_damage = 25
@@ -707,14 +710,34 @@
 	icon_state = "scout_carbine"
 	fire_delay = 4
 	spread = 1.1
-	slowdown = 0.5
-	extra_damage = 27
+	slowdown = 0.4
+	extra_damage = 25
 	can_scope = TRUE
 	scope_state = "scope_short"
 	scope_x_offset = 4
 	scope_y_offset = 15
 	suppressor_x_offset = 26
 	suppressor_y_offset = 28
+
+
+//Police rifle			Keywords: OASIS, 5.56mm, Semi-auto, 20 (10-50) round magazine
+/obj/item/gun/ballistic/automatic/marksman/policerifle
+	name = "Police Rifle"
+	desc = "A pre-war Rifle that has been constantly repaired and rebuilt by the Oasis Police Department. Held together by duct tape and prayers, it somehow still shoots."
+	icon = 'icons/fallout/objects/guns/ballistic.dmi'
+	lefthand_file = 'icons/fallout/onmob/weapons/guns_lefthand.dmi'
+	righthand_file = 'icons/fallout/onmob/weapons/guns_righthand.dmi'
+	icon_prefix = "assault_carbine"
+	icon_state = "rifle-police"
+	item_state = "assault_carbine"
+	init_mag_type = /obj/item/ammo_box/magazine/m556/rifle
+	extra_damage = 25
+	extra_penetration = 0.1
+	spread = 1.1
+	fire_delay = 4
+	can_suppress = FALSE
+	can_scope = TRUE
+	zoomable = FALSE
 
 
 //Marksman carbine			Keywords: 5.56mm, Semi-auto, 20 (10-50) round magazine, Small scope
