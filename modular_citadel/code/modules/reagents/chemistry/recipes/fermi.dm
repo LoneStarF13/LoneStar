@@ -100,6 +100,7 @@
 	my_atom.reagents.clear_reagents() //just in case
 	return
 
+/* Disabled for F13
 /datum/chemical_reaction/fermi/eigenstate
 	name = "Eigenstasium"
 	id = /datum/reagent/fermi/eigenstate
@@ -131,6 +132,7 @@
 	if(location)
 		E.location_created = location
 		E.data["location_created"] = location
+*/
 
 
 //serum
