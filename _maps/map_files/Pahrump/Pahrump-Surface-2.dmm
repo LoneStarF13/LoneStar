@@ -619,7 +619,10 @@
 	},
 /area/f13/wasteland)
 "alE" = (
+/obj/effect/decal/cleanable/dirt,
 /obj/structure/table/reinforced,
+/obj/item/paper_bin,
+/obj/item/pen/fountain,
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/ncr)
 "alI" = (
@@ -4277,10 +4280,10 @@
 	},
 /area/f13/farm)
 "bNn" = (
-/obj/effect/decal/cleanable/dirt,
 /obj/structure/table/reinforced,
-/obj/item/paper_bin,
-/obj/item/pen/fountain,
+/obj/machinery/computer/terminal{
+	dir = 4
+	},
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/ncr)
 "bNt" = (
@@ -17123,6 +17126,12 @@
 /obj/structure/sign/poster/official/safety_report{
 	pixel_y = 32
 	},
+/obj/item/stock_parts/cell/high/plus{
+	pixel_y = 8
+	},
+/obj/item/stock_parts/cell/high/plus{
+	pixel_y = 8
+	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
 	name = "metal plating"
 	},
@@ -21840,6 +21849,20 @@
 /obj/effect/decal/fakelattice{
 	pixel_y = -17
 	},
+/obj/item/electropack/shockcollar/explosive,
+/obj/item/electropack/shockcollar{
+	name = "Community Service Collar"
+	},
+/obj/item/electropack/shockcollar{
+	name = "Community Service Collar"
+	},
+/obj/item/electropack/shockcollar{
+	name = "Community Service Collar"
+	},
+/obj/item/key/collar,
+/obj/item/key/collar,
+/obj/item/key/collar,
+/obj/item/key/bcollar,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/building)
 "iRE" = (
@@ -26337,9 +26360,18 @@
 /area/f13/ncr)
 "kIa" = (
 /obj/structure/rack,
-/obj/item/clothing/head/helmet/armyhelmet,
-/obj/item/clothing/head/helmet/armyhelmet,
-/obj/item/clothing/head/helmet/armyhelmet,
+/obj/item/storage/box/teargas,
+/obj/item/storage/box/flashbangs,
+/obj/item/shield/riot/bullet_proof,
+/obj/item/shield/riot/bullet_proof,
+/obj/structure/sign/warning{
+	desc = "In-case of a riot, grab this equipment and contain it immedietely.";
+	pixel_y = 33
+	},
+/obj/item/clothing/mask/gas/glass,
+/obj/item/clothing/mask/gas/glass,
+/obj/item/clothing/mask/gas/glass,
+/obj/item/clothing/mask/gas/glass,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/building)
 "kIf" = (
@@ -31171,13 +31203,6 @@
 	},
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
-"mJh" = (
-/obj/structure/toilet{
-	dir = 8;
-	pixel_x = 1
-	},
-/turf/open/floor/plasteel/f13/vault_floor,
-/area/f13/building)
 "mJz" = (
 /obj/effect/overlay/junk/toilet{
 	dir = 8
@@ -33538,13 +33563,6 @@
 /obj/machinery/light,
 /turf/open/floor/wood/wood_large,
 /area/f13/ncr)
-"nJH" = (
-/obj/structure/sink{
-	dir = 4;
-	pixel_x = 12
-	},
-/turf/open/floor/plasteel/f13/vault_floor,
-/area/f13/building)
 "nJK" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -85806,7 +85824,7 @@ xYI
 khy
 wZI
 mHy
-mHy
+nxG
 dCV
 uqa
 sBk
@@ -86062,8 +86080,8 @@ lcm
 xYI
 meY
 xdM
-mJh
-nJH
+mHy
+nHl
 dCV
 uqa
 hIr
