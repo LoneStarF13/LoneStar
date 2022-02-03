@@ -21,15 +21,12 @@
 
 /obj/structure/stairs/south
 	dir = SOUTH
-	icon_state = "stairs_s"
 
 /obj/structure/stairs/east
 	dir = EAST
-	icon_state = "stairs_e"
 
 /obj/structure/stairs/west
 	dir = WEST
-	icon_state = "stairs_w"
 
 /obj/structure/stairs/Initialize(mapload)
 	if(force_open_above)
