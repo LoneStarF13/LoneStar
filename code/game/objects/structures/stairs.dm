@@ -79,9 +79,8 @@
 	if(!checking.zPassIn(AM, UP, get_turf(src)))
 		return
 	var/turf/target = get_step_multiz(get_turf(src), (dir|UP))
-//	var/obj/target2 = get_step_multiz(get_turf(src), (dir|UP)
 	if(iswallturf(target))
-		to_chat(AM, "<span class='warning'>Something blocked your climb.</span>")
+		to_chat(AM, "<span class='warning'>[target] blocked your climb.</span>")
 		return
 	if(istype(target) && !target.can_zFall(AM, null, get_step_multiz(target, DOWN)))			//Don't throw them into a tile that will just dump them back down.
 		if(isliving(AM))
@@ -193,3 +192,17 @@ Ladder
 		stair_ascend(AM)
 		return FALSE
 	return ..()
+
+/obj/structure/stairs/deployable_ladder/on_attack_hand(mob/user, act_intent = user.a_intent, unarmed_attack_flags)
+	. = ..()
+	user.visible_message("<span class='notice'>[user] starts to dismantle the [src]...</span>", "<span class='notice'>You start to dismantle [src]...</span>")
+	if(do_after(user, 50, target = src))
+		new /obj/item/deployable_ladder(src.loc)
+		user.visible_message("<span class='notice'>[user] finished dismantling the [src]...</span>", "<span class='notice'>You finished dismantling the [src]...</span>")
+		qdel(src)
+		return
+
+
+
+		
+
