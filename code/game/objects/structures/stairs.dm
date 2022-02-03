@@ -79,7 +79,7 @@
 	if(!checking.zPassIn(AM, UP, get_turf(src)))
 		return
 	var/turf/target = get_step_multiz(get_turf(src), (dir|UP))
-	var/obj/target2 = get_step_multiz(get_turf(src), (dir|UP)
+//	var/obj/target2 = get_step_multiz(get_turf(src), (dir|UP)
 	if(iswallturf(target))
 		to_chat(AM, "<span class='warning'>Something blocked your climb.</span>")
 		return
