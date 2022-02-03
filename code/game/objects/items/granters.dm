@@ -1073,6 +1073,9 @@
 			if("Basic Surgery")
 				granted_trait = TRAIT_SURGERY_LOW
 				traitname = "basic surgery"
+			if("Desert Affinity")
+				granted_trait = TRAIT_HARD_YARDS
+				traitname = "trekking"
 		return ..()
 
 /obj/item/book/granter/trait/selection/tribal/Initialize()
