@@ -1047,7 +1047,7 @@
 		desc = "A compendium of knowledge passed down from the elders. It looks to be in poor condition."
 
 /obj/item/book/granter/trait/selection/tribal/attack_self(mob/user)
-	var/list/choices = list("Hit Them With Sticks","Technophilia","Pugilist","Padded Feet","Veteran Table Climber")
+	var/list/choices = list("Hit Them With Sticks","Technophilia","Pugilist","Padded Feet","Veteran Table Climber","Basic Surgery")
 	if(granted_trait == null)
 		var/choice = input("Choose a trait:") in choices
 		switch(choice)
@@ -1069,7 +1069,10 @@
 				traitname = "treading carefully"
 			if("Veteran Table Climber")
 				granted_trait = TRAIT_FREERUNNING
-				traitname = ".... climbing tables?"
+				traitname = "....climbing tables"
+			if("Basic Surgery")
+				granted_trait = TRAIT_SURGERY_LOW
+				traitname = "basic surgery"
 		return ..()
 
 /obj/item/book/granter/trait/selection/tribal/Initialize()
