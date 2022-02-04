@@ -48,7 +48,7 @@
 	icon_state = "vest_armor"
 	item_state = "vest_armor"
 	armor = list("melee" = 50, "bullet" = 50, "laser" = 25, energy = "20", "bomb" = 50, "bio" = 0, "rad" = 0, "fire" = 50, "acid" = 50, "wound" = 30)
-	slowdown = 0.14
+	slowdown = 0.18
 
 /obj/item/clothing/suit/armor/vest/trench
 	name = "followers trenchcoat"
