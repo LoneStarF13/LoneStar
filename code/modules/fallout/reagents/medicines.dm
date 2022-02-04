@@ -239,6 +239,7 @@ datum/reagent/medicine/super_stimpak/on_mob_life(mob/living/M)
 	var/heal_factor_perk = -5 //Multiplier if you have the right perk.
 
 /datum/reagent/medicine/bitter_drink/on_mob_life(mob/living/carbon/M)
+	M.blur_eyes(5)
 	var/is_tribal = FALSE
 	if(HAS_TRAIT(M, TRAIT_TRIBAL))
 		is_tribal = TRUE
@@ -251,7 +252,6 @@ datum/reagent/medicine/super_stimpak/on_mob_life(mob/living/M)
 		M.adjustToxLoss(heal_rate)
 		M.hallucination = max(M.hallucination, is_tribal ? 0 : 5)
 		. = TRUE
-		M.blur_eyes(5)
 	..()
 
 /datum/reagent/medicine/bitter_drink/overdose_process(mob/living/M)
