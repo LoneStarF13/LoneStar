@@ -360,6 +360,7 @@
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/suit_utility.dmi'
 	armor = list("melee" = 20, "bullet" = 20, "laser" = 10, "energy" = 5, "bomb" = 10, "bio" = 10, "rad" = 20, "fire" = 30, "acid" = 0)
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets
+	slowdown = 0.02
 
 /obj/item/clothing/suit/armor/f13/ncrarmor
 	name = "NCR patrol vest"
