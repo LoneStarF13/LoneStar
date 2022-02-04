@@ -113,7 +113,7 @@ datum/reagent/medicine/super_stimpak/on_mob_life(mob/living/M)
 		M.adjustStaminaLoss(-4*REAGENTS_EFFECT_MULTIPLIER)
 		. = TRUE
 	if(M.nutrition <= NUTRITION_LEVEL_STARVING)
-		M.adjustToxLoss(4*REAGENTS_EFFECT_MULTIPLIER, 0)
+		M.adjustToxLoss(3*REAGENTS_EFFECT_MULTIPLIER, 0)
 		M.adjust_nutrition(-7)
 		M.overeatduration = 0
 	..()
@@ -251,6 +251,7 @@ datum/reagent/medicine/super_stimpak/on_mob_life(mob/living/M)
 		M.adjustToxLoss(heal_rate)
 		M.hallucination = max(M.hallucination, is_tribal ? 0 : 5)
 		. = TRUE
+		M.blur_eyes(5)
 	..()
 
 /datum/reagent/medicine/bitter_drink/overdose_process(mob/living/M)
@@ -306,12 +307,16 @@ datum/reagent/medicine/super_stimpak/on_mob_life(mob/living/M)
 // HEALING POULTICE REAGENT
 
 /datum/reagent/medicine/healing_powder/poultice
-	name = "ealing poultice"
+	name = "Healing poultice"
 	description = "Restores limb condition and heals rapidly."
 	color = "#C8A5DC"
 	overdose_threshold = 20
 	heal_factor = -2
 	heal_factor_perk = -4
+
+/datum/reagent/medicine/healing_powder/poultice/on_mob_life(mob/living/carbon/M)
+	M.blur_eyes(10)
+	..()
 
 // ---------------------------
 // RAD-X REAGENT
