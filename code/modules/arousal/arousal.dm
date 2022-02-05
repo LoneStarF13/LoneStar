@@ -223,7 +223,7 @@
 		return
 
 	//Ok, now we check what they want to do.
-    var/choice = input(src, "Select sexual activity", "Sexual activity:") as null|anything in list("Climax with partner")
+	var/choice = input(src, "Select sexual activity", "Sexual activity:") as null|anything in list("Climax with partner")
 	if(!choice)
 		return
 
