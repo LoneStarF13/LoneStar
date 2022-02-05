@@ -223,7 +223,7 @@
 		return
 
 	//Ok, now we check what they want to do.
-	var/choice = input(src, "Select sexual activity", "Sexual activity:") as null|anything in list("Climax alone","Climax with partner", "Fill container")
+    var/choice = input(src, "Select sexual activity", "Sexual activity:") as null|anything in list("Climax with partner")
 	if(!choice)
 		return
 
@@ -240,12 +240,6 @@
 					if(spillage && in_range(src, partner))
 						mob_climax_partner(picked_organ, partner, spillage == "Yes" ? TRUE : FALSE)
 		if("Fill container")
-			return
+			return	
 
 	mb_cd_timer = world.time + mb_cd_length
-
-/*/mob/living/carbon/human/verb/climax_verb()			// LoneStar removal.
-	set category = "IC"
-	set name = "Climax"
-	set desc = "Lets you choose a couple ways to ejaculate."
-	mob_climax()*/
