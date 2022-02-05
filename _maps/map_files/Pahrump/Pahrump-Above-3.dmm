@@ -57,6 +57,23 @@
 	icon_state = "housewood2"
 	},
 /area/f13/building)
+"aZ" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/yellow/side{
+	dir = 1
+	},
+/area/f13/brotherhood/surface)
+"bg" = (
+/obj/structure/table,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/window/spawner/north,
+/obj/structure/window/spawner/west,
+/obj/item/folder/syndicate/red{
+	desc = "A folder stamped \"List of Clients - Property of The Yuma Bank.\"";
+	name = "folder- 'List of Clients'"
+	},
+/turf/open/floor/f13,
+/area/f13/brotherhood/surface)
 "bi" = (
 /obj/structure/chair/left{
 	dir = 4
@@ -90,6 +107,94 @@
 /obj/structure/chair/right,
 /turf/open/floor/carpet/red,
 /area/f13/building)
+"bD" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/table,
+/obj/machinery/computer/terminal{
+	doc_content_1 = "I asked the boss if I could get the day off today, but since the boss somehow thinks this day is going to 'Turn this Bank in the right direction' he told me to stay! What an absolute asshole.";
+	doc_title_1 = "Off-Day";
+	pixel_y = 3;
+	termtag = "Business"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/window/spawner/north,
+/turf/open/floor/f13,
+/area/f13/brotherhood/surface)
+"bO" = (
+/obj/structure/fluff/paper/stack{
+	desc = "A stack of various papers, illegible scribbles scattered across each page.";
+	dir = 8;
+	pixel_x = 6;
+	pixel_y = -4
+	},
+/obj/structure/filingcabinet{
+	density = 0;
+	pixel_x = -4;
+	pixel_y = 21
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/red,
+/area/f13/brotherhood/surface)
+"bW" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/fo13colored/Red{
+	dir = 4;
+	pixel_y = -16
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red/side{
+	dir = 4
+	},
+/area/f13/brotherhood/surface)
+"bX" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/table/reinforced,
+/obj/item/paper_bin{
+	pixel_y = 9
+	},
+/obj/item/pen/fountain/captain{
+	name = "Manager's fountain pen";
+	pixel_y = 9
+	},
+/turf/open/floor/plasteel/f13/vault_floor/dark{
+	icon_state = "darkdirty"
+	},
+/area/f13/brotherhood/surface)
+"ce" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/sign/poster/prewar/corporate_espionage{
+	pixel_y = 32
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red/side{
+	dir = 1
+	},
+/area/f13/brotherhood/surface)
+"cf" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/table/reinforced,
+/obj/item/export/bottle/whiskey{
+	desc = "A sealed bottle of alcohol, with a little note attached to it: Happy Anniversary, Dear.";
+	pixel_x = -7;
+	pixel_y = 8
+	},
+/obj/item/clothing/accessory/necklace{
+	desc = "A necklace with a little note attached to it: Happy Anniversary, Dear.";
+	pixel_x = 7;
+	pixel_y = 5
+	},
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/f13/brotherhood/surface)
+"cj" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/table/reinforced,
+/obj/structure/fluff/paper/stack{
+	desc = "A stack of various papers, illegible scribbles scattered across each page.";
+	dir = 4
+	},
+/turf/open/floor/plasteel/f13/vault_floor/dark{
+	icon_state = "darkrusty";
+	name = "grimy tile"
+	},
+/area/f13/brotherhood/surface)
 "cl" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13/wood{
@@ -124,6 +229,22 @@
 	icon_state = "neutralrustyfull"
 	},
 /area/f13/building)
+"cL" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/table/reinforced,
+/obj/item/flashlight/lamp/green{
+	pixel_x = -5;
+	pixel_y = 10
+	},
+/obj/item/newspaper{
+	pixel_x = 6;
+	pixel_y = 6
+	},
+/obj/item/reagent_containers/food/drinks/coffee{
+	pixel_x = -6
+	},
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/f13/brotherhood/surface)
 "cS" = (
 /obj/structure/table/booth,
 /obj/effect/spawner/lootdrop/f13/alcoholspawner,
@@ -132,6 +253,24 @@
 	sunlight_state = 1
 	},
 /area/f13/wasteland)
+"cT" = (
+/obj/item/mop,
+/obj/structure/mopbucket,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/neutral,
+/area/f13/brotherhood/surface)
+"da" = (
+/obj/structure/table,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/paper_bin{
+	pixel_y = 9
+	},
+/obj/item/pen{
+	pixel_y = 9
+	},
+/obj/structure/window/spawner/west,
+/turf/open/floor/f13,
+/area/f13/brotherhood/surface)
 "dc" = (
 /obj/structure/table/booth,
 /obj/item/candle{
@@ -152,12 +291,25 @@
 	icon_state = "darkrusty"
 	},
 /area/f13/building)
+"dJ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/window{
+	dir = 1
+	},
+/obj/structure/closet/crate/bin/trashbin,
+/turf/open/floor/plasteel/grimy,
+/area/f13/brotherhood/surface)
 "dP" = (
 /obj/structure/bookcase,
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
 	},
 /area/f13/building)
+"dQ" = (
+/obj/structure/simple_door/metal/store,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/neutral,
+/area/f13/brotherhood/surface)
 "dS" = (
 /obj/effect/decal/remains/human,
 /turf/open/floor/f13{
@@ -181,6 +333,15 @@
 /obj/effect/spawner/lootdrop/trash,
 /turf/open/indestructible/ground/outside/woodalt,
 /area/f13/building)
+"eA" = (
+/obj/structure/table,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/window/spawner/north,
+/obj/item/paper/crumpled/bloody/ruins/thederelict/unfinished{
+	info = "Why's the [ILLEGIBLE] Here?? They're screaming something about [ILLEGIBLE]... No.. this can't be.."
+	},
+/turf/open/floor/f13,
+/area/f13/brotherhood/surface)
 "eS" = (
 /obj/structure/table,
 /obj/effect/decal/cleanable/dirt,
@@ -192,6 +353,17 @@
 "eU" = (
 /turf/closed/mineral/random/low_chance,
 /area/f13/wasteland)
+"fe" = (
+/obj/structure/filingcabinet/medical{
+	pixel_x = -10
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/fluff/paper/stack{
+	desc = "A stack of various papers, illegible scribbles scattered across each page.";
+	dir = 1
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red,
+/area/f13/brotherhood/surface)
 "fz" = (
 /obj/structure/table,
 /obj/effect/spawner/lootdrop/trash,
@@ -223,6 +395,29 @@
 	sunlight_state = 1
 	},
 /area/f13/building)
+"gi" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/remains/human,
+/obj/structure/chair/office{
+	dir = 1
+	},
+/turf/open/floor/f13,
+/area/f13/brotherhood/surface)
+"gJ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/chair/office,
+/obj/machinery/light/fo13colored/Red{
+	dir = 4
+	},
+/turf/open/floor/f13,
+/area/f13/brotherhood/surface)
+"gS" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/chair/sofa/corp{
+	dir = 1
+	},
+/turf/open/floor/plasteel/grimy,
+/area/f13/brotherhood/surface)
 "gW" = (
 /obj/structure/destructible/tribal_torch/wall/lit{
 	dir = 8
@@ -339,6 +534,19 @@
 	},
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
+"iD" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/table,
+/obj/machinery/computer/terminal{
+	doc_content_1 = "Hey Doctor Lewis, I still have the headaches even after the medicine you prescribed about it, do you think I can come for a check-up today?";
+	doc_title_1 = "Hey, Doc";
+	pixel_y = 3;
+	termtag = "Business"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/window/spawner/north,
+/turf/open/floor/f13,
+/area/f13/brotherhood/surface)
 "iF" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
@@ -371,6 +579,13 @@
 	icon_state = "floorrusty"
 	},
 /area/f13/building)
+"iW" = (
+/obj/structure/curtain{
+	color = "#363636"
+	},
+/obj/effect/decal/cleanable/glass,
+/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
+/area/f13/brotherhood/surface)
 "jj" = (
 /obj/structure/table/wood/fancy/black,
 /obj/structure/displaycase/trophy{
@@ -396,6 +611,44 @@
 /obj/structure/barricade/wooden,
 /turf/open/indestructible/ground/outside/woodalt,
 /area/f13/building)
+"jn" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/table,
+/obj/machinery/computer/terminal{
+	doc_content_1 = "What the hell? Why did the power go down? The building opposite of us also is blacked out.. must be some region wide shut-down or something, the back-up generator should hit soon.";
+	doc_title_1 = "October 23, 2077";
+	pixel_y = 3;
+	termtag = "Business"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/window/spawner/north,
+/turf/open/floor/f13,
+/area/f13/brotherhood/surface)
+"jt" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/red/corner{
+	dir = 4
+	},
+/area/f13/brotherhood/surface)
+"jB" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/clothing/head/f13/police/trooper{
+	pixel_x = 1;
+	pixel_y = -5
+	},
+/obj/effect/decal/remains/human,
+/obj/item/flashlight/seclite{
+	light_on = 1
+	},
+/turf/open/floor/f13,
+/area/f13/brotherhood/surface)
+"jK" = (
+/obj/structure/sign/plaques/golden/captain{
+	desc = "To be Efficient is not an action or a way of life, but a mental state. Only those with the force of Will strong enough to act during a crisis, are truly Efficient. Stay Efficient, Robert.";
+	name = "The Most Efficient Bank Manager Award."
+	},
+/turf/closed/wall/f13/store,
+/area/f13/brotherhood/surface)
 "jS" = (
 /obj/machinery/door/unpowered/securedoor{
 	autoclose = 1;
@@ -420,9 +673,34 @@
 "jZ" = (
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/building)
+"kp" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/table/wood,
+/obj/item/flashlight/lamp/green{
+	pixel_x = -5;
+	pixel_y = 10
+	},
+/obj/item/storage/fancy/cigarettes/cigars/havana,
+/obj/item/cigbutt/cigarbutt{
+	pixel_x = -4;
+	pixel_y = -2
+	},
+/obj/item/lighter/gold{
+	pixel_x = 7;
+	pixel_y = 7
+	},
+/turf/open/floor/plasteel/grimy,
+/area/f13/brotherhood/surface)
 "kC" = (
 /turf/closed/mineral/random/low_chance,
 /area/f13/caves)
+"kE" = (
+/obj/structure/filingcabinet{
+	pixel_x = 10
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/red,
+/area/f13/brotherhood/surface)
 "kO" = (
 /obj/structure/sign/poster/prewar/poster72,
 /turf/closed/wall/f13/store,
@@ -459,6 +737,19 @@
 /obj/structure/barricade/wooden,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
+"mw" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/table,
+/obj/machinery/computer/terminal{
+	doc_content_1 = "Sarah, I asked for todays newspaper and you bring me yesterdays, come on, wake up! Now bring me todays newspaper chop chop!";
+	doc_title_1 = "Sarah, wake UP!";
+	pixel_y = 3;
+	termtag = "Business"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/window/spawner/north,
+/turf/open/floor/f13,
+/area/f13/brotherhood/surface)
 "mI" = (
 /turf/closed/wall/f13/wood/house,
 /area/f13/building)
@@ -471,11 +762,51 @@
 "nb" = (
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
+"nf" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/remains/human,
+/turf/open/floor/f13,
+/area/f13/brotherhood/surface)
+"ng" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/remains/human{
+	pixel_x = -13;
+	pixel_y = -4
+	},
+/obj/item/clothing/head/f13/army/officer{
+	pixel_x = -12;
+	pixel_y = -1
+	},
+/obj/item/megaphone/command{
+	name = "Police Megaphone";
+	pixel_x = 4;
+	pixel_y = -3
+	},
+/turf/open/floor/f13,
+/area/f13/brotherhood/surface)
+"nm" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/remains/human,
+/obj/item/lighter,
+/turf/open/floor/plasteel/f13/vault_floor/red,
+/area/f13/brotherhood/surface)
 "ns" = (
 /obj/structure/janitorialcart,
 /obj/item/mop,
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
+"nA" = (
+/obj/structure/window/fulltile/house{
+	icon_state = "storewindowhorizontal"
+	},
+/obj/structure/barricade/bars{
+	max_integrity = 800;
+	name = "strong metal bars";
+	obj_integrity = 800
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
+/area/f13/brotherhood/surface)
 "nE" = (
 /obj/structure/railing{
 	color = "#A47449";
@@ -503,6 +834,20 @@
 	icon_state = "neutralrustyfull"
 	},
 /area/f13/building)
+"nS" = (
+/obj/structure/filingcabinet{
+	layer = 3.3;
+	pixel_x = 5;
+	pixel_y = 6
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/fluff/paper/stack{
+	desc = "A stack of various papers, illegible scribbles scattered across each page.";
+	pixel_x = 6;
+	pixel_y = -4
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red,
+/area/f13/brotherhood/surface)
 "nV" = (
 /obj/structure/simple_door/wood,
 /turf/open/floor/plasteel/f13/vault_floor/dark{
@@ -519,6 +864,16 @@
 	icon_state = "floorrusty"
 	},
 /area/f13/building)
+"oi" = (
+/obj/structure/window/fulltile/house{
+	dir = 2;
+	icon_state = "storewindowright"
+	},
+/obj/structure/curtain{
+	color = "#363636"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
+/area/f13/brotherhood/surface)
 "oj" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
@@ -557,6 +912,12 @@
 "oJ" = (
 /turf/open/floor/carpet,
 /area/f13/building)
+"oK" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/red/side{
+	dir = 4
+	},
+/area/f13/brotherhood/surface)
 "oX" = (
 /obj/structure/table/wood,
 /obj/effect/decal/cleanable/dirt,
@@ -581,6 +942,51 @@
 	},
 /turf/closed/wall/f13/wood,
 /area/f13/building)
+"py" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/computer/terminal{
+	doc_content_1 = "I think the archivist is pervert! He's always coming up to me during break hours and saying stuff like: 'Can you scoot over' WHILE I'M SITTING DOWN IN AN EMPTY SOFA!";
+	doc_title_1 = "October 22, 2077";
+	pixel_y = 3;
+	termtag = "Business"
+	},
+/obj/structure/table,
+/obj/structure/window/spawner/north,
+/turf/open/floor/f13,
+/area/f13/brotherhood/surface)
+"pA" = (
+/obj/structure/simple_door/metal/dirtystore,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/red,
+/area/f13/brotherhood/surface)
+"pD" = (
+/obj/structure/table,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/window/spawner/north,
+/obj/structure/window/spawner/west,
+/obj/item/reagent_containers/food/snacks/breadslice/spidermeat{
+	desc = "A slice of meatloaf left out for a while after a nuclear blast, it's probably not safe to eat.";
+	name = "green.. bread slice?";
+	pixel_x = -1;
+	pixel_y = -2
+	},
+/obj/item/reagent_containers/glass/beaker/waterbottle/empty{
+	pixel_x = 7;
+	pixel_y = 7
+	},
+/turf/open/floor/f13,
+/area/f13/brotherhood/surface)
+"pO" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/fluff/paper/stack{
+	desc = "A stack of various papers, illegible scribbles scattered across each page.";
+	dir = 8
+	},
+/obj/machinery/light/fo13colored/Red{
+	pixel_x = 16
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red,
+/area/f13/brotherhood/surface)
 "pP" = (
 /obj/structure/simple_door/room,
 /turf/open/indestructible/ground/outside/woodalt,
@@ -596,12 +1002,48 @@
 	icon_state = "hydrofloor"
 	},
 /area/f13/building)
+"qr" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/generic,
+/turf/open/floor/f13,
+/area/f13/brotherhood/surface)
 "qt" = (
 /obj/structure/table/wood,
 /turf/open/floor/f13/wood{
 	icon_state = "housewood2"
 	},
 /area/f13/building)
+"qx" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/f13/brotherhood/surface)
+"qA" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/table,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/computer/terminal{
+	doc_content_1 = "I decided today to go over the clients that have an account with our bank and I noticed something off... there's a name 'John Doe' that's been coming here everyday to transfer funds into one of his other accounts.. that isn't on US Soil.. I think I just found a Chinese Spy!";
+	doc_title_1 = "Client Transactions are Off..";
+	pixel_y = 3;
+	termtag = "Business"
+	},
+/obj/structure/window/spawner/north,
+/turf/open/floor/f13,
+/area/f13/brotherhood/surface)
+"qR" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/window{
+	dir = 4;
+	pixel_x = 2
+	},
+/turf/open/floor/plasteel/f13/vault_floor/purple/side{
+	dir = 4
+	},
+/area/f13/brotherhood/surface)
+"qV" = (
+/obj/structure/sign/poster/prewar/poster60,
+/turf/closed/wall/f13/store,
+/area/f13/brotherhood/surface)
 "rf" = (
 /obj/structure/bed/wooden{
 	pixel_y = 14
@@ -628,6 +1070,12 @@
 	icon_state = "neutralrustyfull"
 	},
 /area/f13/building)
+"rK" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/remains/human,
+/obj/item/gun/ballistic/automatic/pistol/type17,
+/turf/open/floor/plasteel/f13/vault_floor/neutral,
+/area/f13/brotherhood/surface)
 "rZ" = (
 /obj/structure/barricade/bars,
 /obj/structure/window/fulltile/house{
@@ -635,6 +1083,20 @@
 	},
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
+"sf" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/dark{
+	icon_state = "darkdirty"
+	},
+/area/f13/brotherhood/surface)
+"sw" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/kirbyplants{
+	icon_state = "plant-25";
+	pixel_y = 14
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red/corner,
+/area/f13/brotherhood/surface)
 "sz" = (
 /obj/structure/table,
 /obj/machinery/computer/terminal{
@@ -667,6 +1129,22 @@
 /obj/structure/bed/old,
 /turf/open/floor/f13/wood,
 /area/f13/legion)
+"sQ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/table/wood/fancy/black,
+/obj/structure/window/reinforced/spawner,
+/obj/structure/window/reinforced/spawner/east,
+/obj/structure/window/reinforced/spawner/north,
+/obj/structure/window/reinforced/spawner/west,
+/obj/item/statuebust{
+	anchored = 1;
+	can_be_unanchored = 1;
+	density = 1;
+	desc = "A priceless ancient marble bust of some rando. Who the hell even is this guy?";
+	pixel_y = 8
+	},
+/turf/open/floor/carpet/royalblack,
+/area/f13/brotherhood/surface)
 "tg" = (
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
 	icon_state = "floorrustysolid"
@@ -704,6 +1182,19 @@
 	icon_state = "darkrusty"
 	},
 /area/f13/building)
+"tL" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/table,
+/obj/machinery/computer/terminal{
+	doc_content_1 = "I hear a lot of shouting downstairs and footsteps... everyone up here's tense.. Miller went down to check and came running back up and told us to 'Pack our things' now a bunch of State Troopers cam-";
+	doc_title_1 = "October 23, 2077";
+	pixel_y = 3;
+	termtag = "Business"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/window/spawner/north,
+/turf/open/floor/f13,
+/area/f13/brotherhood/surface)
 "tM" = (
 /obj/structure/table,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
@@ -732,6 +1223,10 @@
 "ub" = (
 /turf/closed/wall/r_wall,
 /area/f13/ncr)
+"ul" = (
+/obj/structure/sign/poster/contraband/robust_softdrinks,
+/turf/closed/wall/f13/store,
+/area/f13/brotherhood/surface)
 "us" = (
 /obj/structure/chair,
 /obj/effect/decal/cleanable/dirt,
@@ -748,6 +1243,22 @@
 "uI" = (
 /turf/open/floor/carpet/black,
 /area/f13/building)
+"uM" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/chair/comfy/shuttle{
+	desc = "A comfortable, secure seat. It has a futuristic vouge feel.";
+	name = "prewar lounge chair"
+	},
+/obj/item/storage/photo_album{
+	desc = "This is a photo album, that has a bunch of pictures of a family in it, most are destroyed though.";
+	name = "pre-war photo album";
+	pixel_y = -7
+	},
+/obj/effect/decal/remains/human,
+/turf/open/floor/plasteel/f13/vault_floor/dark{
+	icon_state = "darkdirty"
+	},
+/area/f13/brotherhood/surface)
 "uU" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
@@ -765,6 +1276,15 @@
 /obj/structure/barricade/sandbags,
 /turf/open/indestructible/ground/outside/roof,
 /area/f13/wasteland)
+"vX" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/fo13colored/Red{
+	dir = 1
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red/side{
+	dir = 1
+	},
+/area/f13/brotherhood/surface)
 "vY" = (
 /obj/structure/table,
 /obj/machinery/computer/terminal{
@@ -783,6 +1303,15 @@
 	icon_state = "neutralrustyfull"
 	},
 /area/f13/building)
+"we" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/purple/corner,
+/area/f13/brotherhood/surface)
+"wk" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/paper/crumpled,
+/turf/open/floor/f13,
+/area/f13/brotherhood/surface)
 "wp" = (
 /obj/machinery/light{
 	dir = 8
@@ -799,6 +1328,19 @@
 "wA" = (
 /turf/open/floor/f13/wood,
 /area/f13/legion)
+"wD" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/table,
+/obj/machinery/computer/terminal{
+	doc_content_1 = "I think the boss isn't fit to manage the bank anymore.. he keeps making sloppy decisions and ignoring facts! I think I'll report him to HR Tomorrow.";
+	doc_title_1 = "October 23, 2077";
+	pixel_y = 3;
+	termtag = "Business"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/window/spawner/north,
+/turf/open/floor/f13,
+/area/f13/brotherhood/surface)
 "wE" = (
 /obj/structure/chair/wood/modern{
 	dir = 4;
@@ -812,6 +1354,19 @@
 	},
 /turf/open/floor/carpet/black,
 /area/f13/building)
+"wK" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/yellow/corner{
+	dir = 1
+	},
+/area/f13/brotherhood/surface)
+"wL" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/crate/bin/trashbin,
+/turf/open/floor/plasteel/f13/vault_floor/yellow/corner{
+	dir = 4
+	},
+/area/f13/brotherhood/surface)
 "wY" = (
 /obj/structure/table,
 /obj/machinery/computer/terminal{
@@ -855,6 +1410,13 @@
 	icon_state = "darkrusty"
 	},
 /area/f13/building)
+"yb" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/dark{
+	icon_state = "darkrusty";
+	name = "grimy tile"
+	},
+/area/f13/brotherhood/surface)
 "yd" = (
 /turf/open/transparent/openspace,
 /area/f13/building)
@@ -865,6 +1427,9 @@
 	},
 /turf/open/floor/f13/wood,
 /area/f13/legion)
+"yi" = (
+/turf/open/transparent/openspace,
+/area/f13/brotherhood/surface)
 "yj" = (
 /obj/structure/lattice/catwalk,
 /obj/machinery/button/door{
@@ -896,6 +1461,19 @@
 	},
 /turf/open/floor/carpet/black,
 /area/f13/building)
+"ys" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/table,
+/obj/machinery/computer/terminal{
+	doc_content_1 = "Once again, the boss is ignoring my complaints about the janitor.. I'm SURE He's a Chinese spy.. but the boss is ignoring me.. saying that 'He's worked here longer than you' BULLSHIT, He's CHINESE AND I'LL PROVE IT!!";
+	doc_title_1 = "Janitor Problem";
+	pixel_y = 3;
+	termtag = "Business"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/window/spawner/north,
+/turf/open/floor/f13,
+/area/f13/brotherhood/surface)
 "yI" = (
 /obj/structure/table/booth,
 /obj/item/candle{
@@ -915,6 +1493,22 @@
 "zk" = (
 /turf/closed/indestructible/riveted,
 /area/f13/tcoms)
+"zr" = (
+/obj/structure/table,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/paper_bin{
+	pixel_y = 9
+	},
+/obj/item/pen{
+	pixel_y = 9
+	},
+/obj/structure/window/spawner/west,
+/obj/item/storage/pill_bottle/neurine{
+	name = "bottle of pills";
+	pixel_x = 8
+	},
+/turf/open/floor/f13,
+/area/f13/brotherhood/surface)
 "zs" = (
 /obj/structure/destructible/tribal_torch/wall/lit{
 	dir = 4
@@ -926,6 +1520,20 @@
 /obj/item/paper/crumpled/ruins,
 /turf/open/indestructible/ground/outside/woodalt,
 /area/f13/building)
+"zN" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/chair/sofa/corp/left{
+	dir = 4
+	},
+/turf/open/floor/plasteel/grimy,
+/area/f13/brotherhood/surface)
+"zS" = (
+/obj/item/reagent_containers/spray/cleaner,
+/obj/structure/table,
+/obj/item/reagent_containers/spray/cleaner,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/neutral,
+/area/f13/brotherhood/surface)
 "zY" = (
 /obj/effect/overlay/junk/curtain{
 	layer = 4
@@ -935,6 +1543,19 @@
 	},
 /turf/open/indestructible/ground/outside/woodalt,
 /area/f13/building)
+"zZ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/table,
+/obj/machinery/computer/terminal{
+	doc_content_1 = "I've decided to retire, finally, this Banker job is boring god damn it, I want to live life to the fullest! The papers should be ready tomorrow, I said to the Manager that I'll work one more day before retiring.";
+	doc_title_1 = "October 22, 2077";
+	pixel_y = 3;
+	termtag = "Business"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/window/spawner/north,
+/turf/open/floor/f13,
+/area/f13/brotherhood/surface)
 "Ab" = (
 /obj/effect/spawner/lootdrop/trash,
 /turf/open/indestructible/ground/outside/woodalt,
@@ -973,6 +1594,27 @@
 	icon_state = "darkrusty"
 	},
 /area/f13/building)
+"Ar" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/ash{
+	pixel_x = 5;
+	pixel_y = 7
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red,
+/area/f13/brotherhood/surface)
+"AJ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/table,
+/obj/item/toy/cards/deck{
+	pixel_x = 4;
+	pixel_y = 2
+	},
+/obj/item/cigbutt/cigarbutt{
+	pixel_x = -4;
+	pixel_y = 4
+	},
+/turf/open/floor/f13,
+/area/f13/brotherhood/surface)
 "AK" = (
 /obj/structure/table,
 /obj/item/clothing/mask/cigarette/cigar{
@@ -1001,6 +1643,17 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/carpet/black,
 /area/f13/legion)
+"Bq" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/remains/human,
+/obj/structure/window{
+	dir = 4;
+	pixel_x = 2
+	},
+/turf/open/floor/plasteel/f13/vault_floor/purple/side{
+	dir = 4
+	},
+/area/f13/brotherhood/surface)
 "Br" = (
 /obj/structure/railing{
 	color = "#A47449";
@@ -1008,6 +1661,18 @@
 	},
 /turf/open/floor/carpet,
 /area/f13/building)
+"Bt" = (
+/obj/structure/window/fulltile/house{
+	dir = 2;
+	icon_state = "storewindowright"
+	},
+/obj/structure/barricade/bars{
+	max_integrity = 800;
+	name = "strong metal bars";
+	obj_integrity = 800
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
+/area/f13/brotherhood/surface)
 "BA" = (
 /obj/structure/barricade/wooden,
 /turf/closed/mineral/random/low_chance,
@@ -1078,6 +1743,16 @@
 	icon_state = "housewood4-broken"
 	},
 /area/f13/building)
+"CJ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/chair/office{
+	dir = 1
+	},
+/obj/structure/sign/poster/contraband/space_cola{
+	pixel_y = -32
+	},
+/turf/open/floor/f13,
+/area/f13/brotherhood/surface)
 "CQ" = (
 /obj/structure/window/fulltile/house{
 	dir = 2;
@@ -1101,6 +1776,16 @@
 	sunlight_state = 1
 	},
 /area/f13/building)
+"Ds" = (
+/obj/structure/window/fulltile/house{
+	dir = 2;
+	icon_state = "storewindowleft"
+	},
+/obj/structure/curtain{
+	color = "#363636"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
+/area/f13/brotherhood/surface)
 "DB" = (
 /obj/structure/table/wood,
 /obj/effect/overlay/junk/mirror{
@@ -1139,21 +1824,78 @@
 	icon_state = "neutralrustyfull"
 	},
 /area/f13/building)
+"DX" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/floor,
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/f13/brotherhood/surface)
+"Eb" = (
+/obj/structure/sign/poster/prewar/poster63,
+/turf/closed/wall/f13/store,
+/area/f13/brotherhood/surface)
+"EC" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/table,
+/obj/machinery/computer/terminal{
+	doc_content_1 = "Hey Honey, I'm at work, but I overheard from Johnson that there's a new romantic comedy movie that just came out, do you wanna go grab a ticket while the kids are still at school?";
+	doc_title_1 = "New Movie coming out today!";
+	pixel_y = 3;
+	termtag = "Business"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/window/spawner/north,
+/turf/open/floor/f13,
+/area/f13/brotherhood/surface)
 "ED" = (
 /obj/structure/chair/middle{
 	dir = 1
 	},
 /turf/open/floor/carpet/red,
 /area/f13/building)
+"EG" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/barricade/sandbags,
+/turf/open/floor/f13,
+/area/f13/brotherhood/surface)
 "EK" = (
 /turf/open/floor/carpet/royalblack,
 /area/f13/building)
+"EW" = (
+/turf/closed/wall/f13/store,
+/area/f13/brotherhood/surface)
 "EX" = (
 /turf/open/indestructible/ground/outside/woodalt,
 /area/f13/building)
 "EZ" = (
 /turf/open/transparent/openspace,
 /area/f13/wasteland)
+"Fv" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/kirbyplants{
+	icon_state = "plant-25"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/f13/brotherhood/surface)
+"FA" = (
+/obj/structure/table,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/window/spawner/north,
+/obj/structure/window/spawner/west,
+/obj/item/clothing/accessory/pocketprotector/full,
+/obj/item/paper/crumpled/bloody/fluff/stations/lavaland/library/warning{
+	info = "<b>If someone finds this... then the Police didn't bring us to the Vault in-time.. thank god our jobs prioritise us in-case of a nuclear att-....</b>"
+	},
+/turf/open/floor/f13,
+/area/f13/brotherhood/surface)
+"FF" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/ash/large,
+/obj/effect/decal/cleanable/ash{
+	pixel_x = -11;
+	pixel_y = -7
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red,
+/area/f13/brotherhood/surface)
 "FK" = (
 /obj/structure/simple_door/wood,
 /turf/open/floor/wood/f13/oak,
@@ -1208,6 +1950,11 @@
 	sunlight_state = 1
 	},
 /area/f13/building)
+"Gd" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/vending/nukacolavend,
+/turf/open/floor/plasteel/grimy,
+/area/f13/brotherhood/surface)
 "Gf" = (
 /obj/structure/railing{
 	color = "#A47449";
@@ -1291,6 +2038,15 @@
 	},
 /turf/closed/wall/f13/store,
 /area/f13/building)
+"Hx" = (
+/obj/structure/sign/poster/prewar/poster82,
+/turf/closed/wall/f13/store,
+/area/f13/brotherhood/surface)
+"HD" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/crate/bin/trashbin,
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/f13/brotherhood/surface)
 "HG" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
@@ -1312,6 +2068,54 @@
 	sunlight_state = 1
 	},
 /area/f13/building)
+"HI" = (
+/obj/structure/filingcabinet/employment{
+	pixel_x = 4;
+	pixel_y = 21
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/fluff/paper/corner,
+/turf/open/floor/plasteel/f13/vault_floor/red,
+/area/f13/brotherhood/surface)
+"HO" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/purple/side,
+/area/f13/brotherhood/surface)
+"HS" = (
+/obj/structure/decoration/clock/old,
+/turf/closed/wall/f13/store,
+/area/f13/brotherhood/surface)
+"HW" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/generic,
+/obj/item/paper/crumpled,
+/turf/open/floor/f13,
+/area/f13/brotherhood/surface)
+"HY" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/paper/crumpled/ruins{
+	info = "Glory to the People's Republic of China, Comrade Jiang!  Your task is to meet-up with the Listening Outpost we have installed in the Yuma Region, at October 23, 2077, the two comrades will be ready for you! Glory to China!";
+	name = "Paper Scrap"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/neutral,
+/area/f13/brotherhood/surface)
+"Ig" = (
+/obj/structure/table,
+/obj/item/caution{
+	pixel_y = 7
+	},
+/obj/item/caution{
+	pixel_y = 7
+	},
+/obj/item/caution{
+	pixel_y = 7
+	},
+/obj/item/caution{
+	pixel_y = 7
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/neutral,
+/area/f13/brotherhood/surface)
 "Ip" = (
 /obj/structure/chair/office/dark{
 	dir = 1
@@ -1326,6 +2130,11 @@
 	},
 /turf/open/floor/carpet/red,
 /area/f13/building)
+"IJ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/simple_door/metal/dirtystore,
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/f13/brotherhood/surface)
 "IT" = (
 /obj/structure/simple_door/wood,
 /obj/effect/decal/cleanable/dirt,
@@ -1342,9 +2151,41 @@
 	name = "grimy tile"
 	},
 /area/f13/building)
+"Jb" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/table,
+/obj/machinery/computer/terminal{
+	doc_content_1 = "Boss told me to bring out the Earnings folder and make sure it's right, I've told him it's right but he asked me to re-do them all again... there goes my weekend.";
+	doc_title_1 = "Finance Day..";
+	pixel_y = 3;
+	termtag = "Business"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/window/spawner/north,
+/turf/open/floor/f13,
+/area/f13/brotherhood/surface)
 "Jd" = (
 /turf/closed/wall/f13/tentwall,
 /area/f13/ncr)
+"Jg" = (
+/obj/structure/table,
+/obj/item/crafting/abraxo{
+	pixel_y = 8
+	},
+/obj/item/crafting/abraxo{
+	pixel_y = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/neutral,
+/area/f13/brotherhood/surface)
+"Jh" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/window{
+	dir = 1
+	},
+/obj/machinery/vending/coffee,
+/turf/open/floor/plasteel/grimy,
+/area/f13/brotherhood/surface)
 "Jj" = (
 /obj/structure/barricade/wooden,
 /turf/open/indestructible/ground/outside/woodalt,
@@ -1383,12 +2224,45 @@
 	icon_state = "darkrusty"
 	},
 /area/f13/building)
+"Jw" = (
+/obj/structure/window/fulltile/house{
+	dir = 2;
+	icon_state = "storewindowleft"
+	},
+/obj/structure/barricade/bars{
+	max_integrity = 800;
+	name = "strong metal bars";
+	obj_integrity = 800
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
+/area/f13/brotherhood/surface)
 "Jx" = (
 /obj/machinery/vending/cigarette,
 /turf/open/floor/f13{
 	icon_state = "neutralrustyfull"
 	},
 /area/f13/building)
+"Ke" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/window{
+	dir = 1
+	},
+/obj/item/kirbyplants{
+	icon_state = "plant-25";
+	pixel_y = 10
+	},
+/turf/open/floor/plasteel/grimy,
+/area/f13/brotherhood/surface)
+"Kp" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/kirbyplants{
+	icon_state = "plant-25";
+	pixel_y = 14
+	},
+/turf/open/floor/plasteel/f13/vault_floor/yellow/side{
+	dir = 1
+	},
+/area/f13/brotherhood/surface)
 "Ks" = (
 /turf/closed/wall/f13/wood,
 /area/f13/legion)
@@ -1399,6 +2273,16 @@
 /obj/structure/chair/left,
 /turf/open/floor/carpet/red,
 /area/f13/building)
+"KN" = (
+/obj/structure/table,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/window/spawner/north,
+/obj/item/kirbyplants{
+	icon_state = "plant-25";
+	pixel_y = 14
+	},
+/turf/open/floor/f13,
+/area/f13/brotherhood/surface)
 "Lb" = (
 /obj/structure/destructible/tribal_torch/wall/lit{
 	dir = 8
@@ -1451,6 +2335,15 @@
 	icon_state = "neutralrustyfull"
 	},
 /area/f13/building)
+"Mi" = (
+/obj/structure/decoration/smokeold{
+	pixel_y = 32
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/red/corner{
+	dir = 1
+	},
+/area/f13/brotherhood/surface)
 "Mj" = (
 /obj/structure/railing{
 	color = "#A47449"
@@ -1466,6 +2359,21 @@
 	},
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
+"MD" = (
+/obj/structure/table,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/paper_bin{
+	pixel_y = 9
+	},
+/obj/item/pen{
+	pixel_y = 9
+	},
+/turf/open/floor/f13,
+/area/f13/brotherhood/surface)
+"MF" = (
+/obj/structure/sign/poster/prewar/poster81,
+/turf/closed/wall/f13/store,
+/area/f13/brotherhood/surface)
 "MG" = (
 /obj/structure/chair/wood/modern{
 	dir = 4;
@@ -1488,11 +2396,74 @@
 /obj/structure/table/booth,
 /turf/open/floor/carpet/red,
 /area/f13/building)
+"Nj" = (
+/obj/structure/fluff/paper/stack{
+	desc = "A stack of various papers, illegible scribbles scattered across each page.";
+	dir = 9
+	},
+/obj/structure/filingcabinet{
+	density = 0;
+	pixel_x = -9;
+	pixel_y = 21
+	},
+/obj/structure/filingcabinet{
+	density = 0;
+	pixel_x = 10;
+	pixel_y = 23
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/fluff/paper/corner{
+	dir = 8
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red,
+/area/f13/brotherhood/surface)
+"Nr" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/chair/office{
+	dir = 1
+	},
+/turf/open/floor/plasteel/f13/vault_floor/dark{
+	icon_state = "darkrusty";
+	name = "grimy tile"
+	},
+/area/f13/brotherhood/surface)
+"Ns" = (
+/obj/structure/table,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/window/spawner/north,
+/obj/structure/window/spawner/west,
+/obj/item/folder/yellow{
+	pixel_x = 4
+	},
+/obj/item/folder/yellow{
+	pixel_x = 4
+	},
+/obj/item/folder/yellow{
+	pixel_x = 4
+	},
+/turf/open/floor/f13,
+/area/f13/brotherhood/surface)
 "ND" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/carpet/black,
 /area/f13/legion)
+"NE" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/floor,
+/turf/open/floor/plasteel/f13/vault_floor/dark{
+	icon_state = "darkrusty";
+	name = "grimy tile"
+	},
+/area/f13/brotherhood/surface)
+"NO" = (
+/obj/structure/table,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/window/spawner/north,
+/obj/structure/window/spawner/west,
+/obj/item/phone,
+/turf/open/floor/f13,
+/area/f13/brotherhood/surface)
 "NP" = (
 /obj/structure/simple_door/room,
 /obj/structure/barricade/wooden{
@@ -1500,6 +2471,10 @@
 	},
 /turf/open/indestructible/ground/outside/woodalt,
 /area/f13/building)
+"NQ" = (
+/obj/structure/sign/poster/prewar/vault_tec,
+/turf/closed/wall/f13/store,
+/area/f13/brotherhood/surface)
 "NU" = (
 /obj/structure/table,
 /obj/machinery/computer/terminal{
@@ -1540,6 +2515,13 @@
 	icon_state = "neutralrustyfull"
 	},
 /area/f13/building)
+"Oe" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/chair/office{
+	dir = 1
+	},
+/turf/open/floor/f13,
+/area/f13/brotherhood/surface)
 "Of" = (
 /obj/structure/barricade/wooden,
 /turf/closed/wall/f13/wood,
@@ -1548,6 +2530,39 @@
 /obj/structure/simple_door/wood,
 /turf/open/floor/f13/wood,
 /area/f13/legion)
+"Oq" = (
+/obj/structure/table,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/window/spawner/north,
+/obj/structure/window/spawner/west,
+/obj/item/newspaper{
+	pixel_x = 6;
+	pixel_y = 6
+	},
+/obj/item/reagent_containers/food/drinks/coffee{
+	pixel_x = -6
+	},
+/turf/open/floor/f13,
+/area/f13/brotherhood/surface)
+"Ov" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/chair/office{
+	dir = 1
+	},
+/turf/open/floor/plasteel/f13/vault_floor/purple/side,
+/area/f13/brotherhood/surface)
+"OE" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/window{
+	dir = 4;
+	pixel_x = 2
+	},
+/obj/machinery/light/built,
+/obj/effect/decal/cleanable/glass,
+/turf/open/floor/plasteel/f13/vault_floor/purple/side{
+	dir = 4
+	},
+/area/f13/brotherhood/surface)
 "OH" = (
 /obj/machinery/light{
 	dir = 8;
@@ -1555,6 +2570,12 @@
 	},
 /turf/open/transparent/openspace,
 /area/f13/building)
+"Pd" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/neutral/corner{
+	dir = 4
+	},
+/area/f13/brotherhood/surface)
 "Pl" = (
 /obj/structure/barricade/wooden{
 	layer = 3.5
@@ -1571,6 +2592,17 @@
 	sunlight_state = 1
 	},
 /area/f13/wasteland)
+"Pz" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/table/reinforced,
+/obj/machinery/computer/terminal{
+	dir = 1;
+	doc_content_1 = "This is as always Manager Stevenson, today was a good day. More than usual folk came in here looking to open an account! Sounds like we might have an up soon!";
+	doc_title_1 = "October 23, 2077";
+	termtag = "Business"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/f13/brotherhood/surface)
 "PK" = (
 /obj/structure/table/wood,
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier2,
@@ -1582,6 +2614,13 @@
 	sunlight_state = 1
 	},
 /area/f13/wasteland)
+"PW" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/chair/sofa/corp/corner{
+	dir = 1
+	},
+/turf/open/floor/plasteel/grimy,
+/area/f13/brotherhood/surface)
 "Qe" = (
 /obj/structure/filingcabinet{
 	density = 0;
@@ -1615,9 +2654,28 @@
 	},
 /turf/open/floor/carpet/black,
 /area/f13/building)
+"Qv" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/chair/office{
+	dir = 4
+	},
+/obj/effect/decal/remains/human,
+/turf/open/floor/f13,
+/area/f13/brotherhood/surface)
 "Qx" = (
 /turf/open/indestructible,
 /area/f13/tcoms)
+"QV" = (
+/obj/structure/table,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/window/spawner/north,
+/obj/structure/window/spawner/west,
+/obj/item/storage/briefcase,
+/obj/structure/fluff/paper/stack{
+	desc = "A stack of various papers, illegible scribbles scattered across each page."
+	},
+/turf/open/floor/f13,
+/area/f13/brotherhood/surface)
 "Rg" = (
 /turf/open/transparent/openspace{
 	name = "air";
@@ -1668,6 +2726,18 @@
 /obj/item/folder,
 /turf/open/indestructible/ground/outside/woodalt,
 /area/f13/building)
+"Sr" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/fo13colored/Red{
+	dir = 1
+	},
+/turf/open/floor/plasteel/f13/vault_floor/neutral,
+/area/f13/brotherhood/surface)
+"St" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/remains/human,
+/turf/open/floor/plasteel/grimy,
+/area/f13/brotherhood/surface)
 "Su" = (
 /obj/effect/overlay/junk/sink{
 	pixel_y = 15
@@ -1692,6 +2762,12 @@
 	icon_state = "neutralrustyfull"
 	},
 /area/f13/building)
+"SB" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/table/reinforced,
+/obj/item/stack/wrapping_paper,
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/f13/brotherhood/surface)
 "SL" = (
 /obj/structure/chair{
 	dir = 4
@@ -1700,6 +2776,23 @@
 	icon_state = "darkrusty"
 	},
 /area/f13/building)
+"SO" = (
+/obj/structure/table,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/window/spawner/north,
+/obj/item/folder/syndicate/blue{
+	desc = "A folder stamped \"Financial Earnins - Property of The Yuma Bank.\"";
+	name = "folder- 'Financial Earnings'"
+	},
+/turf/open/floor/f13,
+/area/f13/brotherhood/surface)
+"SS" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/chair/sofa/corp{
+	dir = 4
+	},
+/turf/open/floor/plasteel/grimy,
+/area/f13/brotherhood/surface)
 "SV" = (
 /obj/effect/overlay/junk/toilet{
 	dir = 8
@@ -1708,6 +2801,11 @@
 	icon_state = "hydrofloor"
 	},
 /area/f13/building)
+"Tj" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/reagent_dispensers/water_cooler,
+/turf/open/floor/f13,
+/area/f13/brotherhood/surface)
 "Tm" = (
 /turf/open/indestructible/ground/outside/wood{
 	icon = 'icons/fallout/turfs/floors.dmi';
@@ -1715,6 +2813,24 @@
 	name = "roof"
 	},
 /area/f13/wasteland)
+"Tn" = (
+/obj/structure/table,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/window/spawner/north,
+/obj/structure/window/spawner/west,
+/obj/item/reagent_containers/food/snacks/badrecipe{
+	desc = "Whatever this food was before the war is now burnt to a crisp."
+	},
+/obj/item/reagent_containers/food/drinks/bottle/f13nukacola{
+	pixel_x = 4;
+	pixel_y = 6
+	},
+/turf/open/floor/f13,
+/area/f13/brotherhood/surface)
+"Tq" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/f13,
+/area/f13/brotherhood/surface)
 "Tr" = (
 /obj/item/kirbyplants/random,
 /turf/open/floor/f13{
@@ -1726,6 +2842,11 @@
 /obj/item/folder/red,
 /turf/open/indestructible/ground/outside/woodalt,
 /area/f13/building)
+"Tu" = (
+/obj/machinery/photocopier,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/red,
+/area/f13/brotherhood/surface)
 "Ty" = (
 /obj/machinery/light/small/broken{
 	dir = 8
@@ -1754,6 +2875,20 @@
 	sunlight_state = 1
 	},
 /area/f13/wasteland)
+"Uh" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/red/side{
+	dir = 1
+	},
+/area/f13/brotherhood/surface)
+"Up" = (
+/obj/item/storage/bag/trash,
+/obj/item/storage/bag/trash,
+/obj/item/storage/bag/trash,
+/obj/structure/closet/crate/trashcart,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/neutral,
+/area/f13/brotherhood/surface)
 "Uy" = (
 /obj/structure/chair/middle,
 /turf/open/floor/carpet/red,
@@ -1839,6 +2974,21 @@
 /obj/machinery/light/small,
 /turf/open/floor/carpet/black,
 /area/f13/building)
+"Vu" = (
+/obj/structure/chair/folding{
+	dir = 4
+	},
+/obj/structure/chair/folding{
+	dir = 4;
+	pixel_y = 4
+	},
+/obj/structure/chair/folding{
+	dir = 4;
+	pixel_y = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/neutral,
+/area/f13/brotherhood/surface)
 "Vw" = (
 /obj/structure/table/booth,
 /obj/machinery/light/small{
@@ -1856,6 +3006,13 @@
 	icon_state = "neutralrustyfull"
 	},
 /area/f13/building)
+"VD" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/chair/sofa/corp/left{
+	dir = 1
+	},
+/turf/open/floor/plasteel/grimy,
+/area/f13/brotherhood/surface)
 "VJ" = (
 /obj/structure/table,
 /obj/machinery/computer/terminal{
@@ -1867,6 +3024,23 @@
 	icon_state = "neutralrustyfull"
 	},
 /area/f13/building)
+"VL" = (
+/obj/structure/table,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/window/spawner/north,
+/obj/structure/window/spawner/west,
+/obj/item/folder/documents{
+	desc = "A folder stamped \"Client Deposits - Property of The Yuma Bank. Unauthorized distribution is punishable by jail time.\"";
+	name = "folder- 'Client Deposits'"
+	},
+/obj/item/stamp/denied{
+	pixel_x = -4
+	},
+/obj/item/stamp{
+	pixel_x = 4
+	},
+/turf/open/floor/f13,
+/area/f13/brotherhood/surface)
 "Wp" = (
 /obj/structure/table,
 /obj/item/paper_bin,
@@ -1876,6 +3050,18 @@
 	icon_state = "neutralrustyfull"
 	},
 /area/f13/building)
+"Wq" = (
+/obj/structure/table,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/paper_bin{
+	pixel_y = 9
+	},
+/obj/item/pen{
+	pixel_y = 9
+	},
+/obj/item/laser_pointer/red,
+/turf/open/floor/f13,
+/area/f13/brotherhood/surface)
 "Ws" = (
 /obj/structure/filingcabinet{
 	layer = 3.3;
@@ -1891,6 +3077,12 @@
 	icon_state = "neutralrustyfull"
 	},
 /area/f13/building)
+"Wt" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/neutral/corner{
+	dir = 1
+	},
+/area/f13/brotherhood/surface)
 "Ww" = (
 /obj/machinery/light{
 	dir = 1
@@ -1927,6 +3119,14 @@
 	sunlight_state = 1
 	},
 /area/f13/building)
+"XH" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/vending/cigarette,
+/obj/machinery/light/fo13colored/Red{
+	dir = 4
+	},
+/turf/open/floor/plasteel/grimy,
+/area/f13/brotherhood/surface)
 "XQ" = (
 /obj/structure/curtain{
 	color = "#845f58"
@@ -1991,6 +3191,65 @@
 	},
 /turf/open/floor/carpet/black,
 /area/f13/building)
+"Zb" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/paper/crumpled,
+/obj/structure/chair/office{
+	dir = 4
+	},
+/turf/open/floor/f13,
+/area/f13/brotherhood/surface)
+"Zc" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/table/reinforced,
+/obj/item/stamp/ce{
+	name = "golden rubber stamp";
+	pixel_x = -4
+	},
+/obj/item/stamp/captain{
+	name = "Manager's rubber stamp";
+	pixel_x = 4
+	},
+/turf/open/floor/plasteel/f13/vault_floor/dark{
+	icon_state = "darkrusty";
+	name = "grimy tile"
+	},
+/area/f13/brotherhood/surface)
+"Zi" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/window/reinforced/spawner/west,
+/obj/structure/window/reinforced/spawner/east,
+/obj/structure/window/reinforced/spawner,
+/obj/structure/statue/gold/rd{
+	name = "Statue of the Bank Manager"
+	},
+/obj/structure/window/reinforced/spawner/north,
+/turf/open/floor/carpet/royalblack,
+/area/f13/brotherhood/surface)
+"ZK" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/fo13colored/Red{
+	dir = 8
+	},
+/turf/open/floor/f13,
+/area/f13/brotherhood/surface)
+"ZL" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/grimy,
+/area/f13/brotherhood/surface)
+"ZP" = (
+/obj/structure/filingcabinet{
+	density = 0;
+	pixel_x = -4;
+	pixel_y = 21
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/fluff/paper,
+/obj/effect/decal/cleanable/ash{
+	pixel_x = 5
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red,
+/area/f13/brotherhood/surface)
 "ZQ" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/chair/wood,
@@ -1999,6 +3258,18 @@
 	sunlight_state = 1
 	},
 /area/f13/wasteland)
+"ZV" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/remains/human,
+/obj/item/clothing/head/f13/police/trooper{
+	pixel_x = 1;
+	pixel_y = -5
+	},
+/obj/item/flashlight/seclite{
+	light_on = 1
+	},
+/turf/open/floor/f13,
+/area/f13/brotherhood/surface)
 
 (1,1,1) = {"
 Al
@@ -33915,22 +35186,22 @@ kC
 kC
 kC
 kC
-lH
 kC
 kC
 kC
 kC
 kC
-kC
-kC
-kC
-kC
-kC
-CC
-CC
-CC
-CC
-CC
+EW
+EW
+EW
+EW
+EW
+EW
+EW
+ul
+EW
+EW
+EW
 PL
 PL
 PL
@@ -34168,26 +35439,26 @@ lH
 lH
 kC
 kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-CC
-CC
-CC
-CC
-CC
-CC
+EW
+EW
+EW
+NQ
+EW
+EW
+EW
+EW
+EW
+qV
+Tq
+SO
+MD
+ZK
+eA
+Wq
+ZK
+KN
+MD
+EW
 PL
 PL
 PL
@@ -34425,26 +35696,26 @@ kC
 kC
 kC
 kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-CC
-CC
-CC
-CC
-CC
-CC
+EW
+sQ
+sf
+yb
+yb
+yb
+HD
+EW
+wL
+ZK
+Tq
+Jb
+Oe
+Tq
+ys
+Oe
+nf
+wD
+Zb
+EW
 PL
 PL
 PL
@@ -34682,26 +35953,26 @@ kC
 kC
 kC
 kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-lH
-kC
-kC
-kC
-kC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
+EW
+NE
+yb
+sf
+yb
+DX
+yb
+Ds
+aZ
+Tq
+Tq
+Tq
+Tq
+ZV
+Tq
+Tq
+qr
+Tq
+Tq
+Jw
 PL
 PL
 PL
@@ -34939,26 +36210,26 @@ kC
 kC
 kC
 kC
-kC
-kC
-kC
-kC
-kC
-lH
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
+EW
+sf
+Zc
+bX
+yb
+qx
+yb
+oi
+aZ
+Tq
+Tq
+Tn
+da
+Tq
+VL
+da
+Tq
+bg
+da
+nA
 PL
 PL
 PL
@@ -35196,26 +36467,26 @@ kC
 kC
 kC
 kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
+EW
+sf
+yb
+cL
+Nr
+sf
+Fv
+EW
+Kp
+qr
+Tq
+bD
+Oe
+Tq
+zZ
+Oe
+wk
+qA
+Oe
+nA
 PL
 PL
 PL
@@ -35453,26 +36724,26 @@ kC
 kC
 kC
 kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-lH
-kC
-kC
-kC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
+jK
+yb
+uM
+Pz
+yb
+yb
+qx
+IJ
+ZV
+Tq
+Tq
+Tq
+wk
+Tq
+nf
+Tq
+Tq
+Tq
+nf
+nA
 PL
 PL
 PL
@@ -35710,26 +36981,26 @@ kC
 kC
 kC
 lH
-lH
-lH
-kC
-kC
-kC
-kC
-kC
-kC
-lH
-kC
-kC
-kC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
+EW
+yb
+qx
+cf
+Nr
+qx
+Fv
+EW
+Kp
+Tq
+Tq
+EG
+Tq
+Tq
+QV
+da
+Tq
+pD
+da
+nA
 PL
 PL
 PL
@@ -35967,26 +37238,26 @@ kC
 kC
 kC
 lH
-lH
-lH
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
+EW
+qx
+SB
+cj
+yb
+qx
+sf
+iW
+aZ
+Tq
+ng
+EG
+Tq
+Tq
+py
+Oe
+Tq
+EC
+gi
+nA
 PL
 PL
 PL
@@ -36224,26 +37495,26 @@ kC
 kC
 kC
 kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
+EW
+NE
+sf
+sf
+qx
+DX
+yb
+oi
+aZ
+EG
+EG
+EG
+Tq
+Tq
+jB
+Tq
+Tq
+Tq
+qr
+nA
 PL
 PL
 PL
@@ -36481,26 +37752,26 @@ kC
 kC
 kC
 kC
-kC
-lH
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
+EW
+Zi
+qx
+qx
+yb
+qx
+yb
+EW
+wK
+Tq
+yi
+yi
+ZV
+Tq
+FA
+da
+Tq
+Oq
+da
+nA
 PL
 PL
 PL
@@ -36738,26 +38009,26 @@ kC
 kC
 kC
 kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
+EW
+EW
+EW
+EW
+EW
+Hx
+EW
+EW
+sw
+bW
+oK
+oK
+jt
+Tq
+tL
+Oe
+Tq
+mw
+Oe
+nA
 PL
 PL
 PL
@@ -37002,19 +38273,19 @@ kC
 kC
 kC
 kC
-kC
-kC
-kC
-kC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
+EW
+EW
+EW
+EW
+EW
+ce
+Tq
+Tq
+Tq
+HW
+Tq
+nf
+Bt
 PL
 PL
 PL
@@ -37259,19 +38530,19 @@ kC
 kC
 kC
 kC
-kC
-kC
-kC
-kC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
+EW
+HI
+bO
+fe
+EW
+Uh
+Tq
+Ns
+da
+Tq
+NO
+zr
+EW
 PL
 PL
 PL
@@ -37512,24 +38783,24 @@ kC
 kC
 kC
 kC
-lH
 kC
 kC
 kC
-lH
 kC
-kC
-kC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
+EW
+ZP
+FF
+Ar
+pA
+Tq
+Tq
+jn
+Oe
+Tq
+iD
+CJ
+EW
+EW
 PL
 PL
 PL
@@ -37773,20 +39044,20 @@ kC
 kC
 kC
 kC
-kC
-kC
-kC
-kC
-kC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
+EW
+Nj
+nm
+pO
+EW
+Uh
+nf
+Tq
+we
+qR
+Bq
+qR
+OE
+EW
 PL
 PL
 PL
@@ -38025,25 +39296,25 @@ kC
 kC
 kC
 kC
-lH
-lH
 kC
 kC
 kC
 kC
 kC
-kC
-kC
-kC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
+EW
+nS
+Tu
+kE
+EW
+vX
+Tq
+Tq
+HO
+dJ
+zN
+SS
+PW
+Jw
 PL
 PL
 PL
@@ -38287,20 +39558,20 @@ kC
 kC
 kC
 kC
-kC
-kC
-kC
-kC
-kC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
+EW
+EW
+EW
+EW
+EW
+Mi
+Tq
+qr
+nf
+ZL
+ZL
+ZL
+gS
+nA
 PL
 PL
 PL
@@ -38544,20 +39815,20 @@ kC
 kC
 kC
 kC
-kC
-kC
-kC
-kC
-kC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
+EW
+Up
+cT
+Vu
+EW
+Pd
+Tq
+Tq
+Tq
+ZL
+ZL
+St
+VD
+nA
 PL
 PL
 PL
@@ -38801,20 +40072,20 @@ kC
 kC
 kC
 kC
-kC
-kC
-kC
-kC
-kC
-kC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
+EW
+Sr
+HY
+rK
+dQ
+qr
+Tq
+Tq
+Tq
+ZL
+ZL
+ZL
+kp
+nA
 PL
 PL
 PL
@@ -39058,20 +40329,20 @@ kC
 kC
 kC
 kC
-kC
-kC
-kC
-kC
-kC
-kC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
+EW
+zS
+Ig
+Jg
+EW
+Wt
+Tq
+Qv
+HO
+Ke
+ZL
+ZL
+ZL
+Bt
 PL
 PL
 PL
@@ -39315,20 +40586,20 @@ kC
 kC
 kC
 kC
-kC
-kC
-kC
-kC
-kC
-kC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
+EW
+EW
+EW
+EW
+EW
+Tj
+gJ
+AJ
+Ov
+Jh
+Gd
+Gd
+XH
+EW
 PL
 PL
 PL
@@ -39576,16 +40847,16 @@ kC
 kC
 kC
 kC
-kC
-kC
-kC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
+EW
+EW
+EW
+MF
+EW
+EW
+HS
+Eb
+EW
+EW
 PL
 PL
 PL
