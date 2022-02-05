@@ -228,7 +228,6 @@
 		return
 
 	switch(choice)
-			return
 		if("Climax with partner")
 			//We need no hands, we can be restrained and so on, so let's pick an organ
 			var/obj/item/organ/genital/picked_organ = pick_climax_genitals()
