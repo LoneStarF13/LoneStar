@@ -584,7 +584,7 @@ commented out pending rework*/
 	suit_store = /obj/item/gun/ballistic/automatic/smg/smg10mm
 	backpack_contents = list(
 		/obj/item/ammo_box/magazine/m10mm_adv/ext = 2,
-		/obj/item/melee/onehanded/machete/gladius = 1,
+		/obj/item/melee/onehanded/machete/spatha = 1,
 		)
 
 /datum/outfit/loadout/vexgunslinger
@@ -594,7 +594,7 @@ commented out pending rework*/
 	backpack_contents = list(
 		/obj/item/gun/ballistic/revolver/revolver45/gunslinger = 1,
 		/obj/item/ammo_box/a45lcbox = 2,
-		/obj/item/melee/onehanded/machete/gladius = 1,
+		/obj/item/melee/onehanded/machete/spatha = 1,
 		)
 
 
