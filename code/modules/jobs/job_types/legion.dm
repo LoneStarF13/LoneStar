@@ -587,6 +587,17 @@ commented out pending rework*/
 		/obj/item/melee/onehanded/machete/gladius = 1,
 		)
 
+/datum/outfit/loadout/vexgunslinger
+	name = "Gunslinger Vex`"
+	head = /obj/item/clothing/head/helmet/f13/legion/vet/vexil
+	suit_store = /obj/item/gun/ballistic/revolver/revolver45/gunslinger
+	backpack_contents = list(
+		/obj/item/gun/ballistic/revolver/revolver45/gunslinger = 1,
+		/obj/item/ammo_box/a45lcbox = 2,
+		/obj/item/melee/onehanded/machete/gladius = 1,
+		/obj/item/book/granter/trait/gunslinger = 1,
+		)
+
 
 //EXPLORER
 
