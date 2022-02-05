@@ -588,7 +588,7 @@ commented out pending rework*/
 		)
 
 /datum/outfit/loadout/vexgunslinger
-	name = "Gunslinger Vex`"
+	name = "Gunslinger Vex"
 	head = /obj/item/clothing/head/helmet/f13/legion/vet/vexil
 	suit_store = /obj/item/gun/ballistic/revolver/revolver45/gunslinger
 	backpack_contents = list(
