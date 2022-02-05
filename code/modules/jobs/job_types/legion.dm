@@ -589,7 +589,7 @@ commented out pending rework*/
 
 /datum/outfit/loadout/vexgunslinger
 	name = "Gunslinger Vex"
-	head = /obj/item/clothing/head/helmet/f13/legion/vet/vexil
+	head = /obj/item/clothing/head/helmet/f13/legion/vet/nightvexil
 	suit_store = /obj/item/gun/ballistic/revolver/revolver45/gunslinger
 	backpack_contents = list(
 		/obj/item/gun/ballistic/revolver/revolver45/gunslinger = 1,
