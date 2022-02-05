@@ -228,7 +228,6 @@
 		return
 
 	switch(choice)
-		if("Climax alone")
 			return
 		if("Climax with partner")
 			//We need no hands, we can be restrained and so on, so let's pick an organ
