@@ -595,7 +595,6 @@ commented out pending rework*/
 		/obj/item/gun/ballistic/revolver/revolver45/gunslinger = 1,
 		/obj/item/ammo_box/a45lcbox = 2,
 		/obj/item/melee/onehanded/machete/gladius = 1,
-		/obj/item/book/granter/trait/gunslinger = 1,
 		)
 
 
