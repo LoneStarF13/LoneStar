@@ -227,19 +227,4 @@
 	if(!choice)
 		return
 
-	switch(choice)
-		if("Climax alone")
-			return
-		if("Climax with partner")
-			//We need no hands, we can be restrained and so on, so let's pick an organ
-			var/obj/item/organ/genital/picked_organ = pick_climax_genitals()
-			if(picked_organ)
-				var/mob/living/partner = pick_partner() //Get someone
-				if(partner)
-					var/spillage = input(src, "Would your fluids spill outside?", "Choose overflowing option", "Yes") as null|anything in list("Yes", "No")
-					if(spillage && in_range(src, partner))
-						mob_climax_partner(picked_organ, partner, spillage == "Yes" ? TRUE : FALSE)
-		if("Fill container")
-			return	
-
 	mb_cd_timer = world.time + mb_cd_length
