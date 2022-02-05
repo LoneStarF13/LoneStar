@@ -171,23 +171,6 @@
 	else if(!silent)
 		to_chat(src, "<span class='warning'>You cannot do this without an appropriate container.</span>")
 
-/mob/living/carbon/human/proc/available_rosie_palms(silent = FALSE, list/whitelist_typepaths = list(/obj/item/dildo))
-	if(restrained(TRUE)) //TRUE ignores grabs
-		if(!silent)
-			to_chat(src, "<span class='warning'>You can't do that while restrained!</span>")
-		return FALSE
-	if(!get_num_arms() || !get_empty_held_indexes())
-		if(whitelist_typepaths)
-			if(!islist(whitelist_typepaths))
-				whitelist_typepaths = list(whitelist_typepaths)
-			for(var/path in whitelist_typepaths)
-				if(is_holding_item_of_type(path))
-					return TRUE
-		if(!silent)
-			to_chat(src, "<span class='warning'>You need at least one free arm.</span>")
-		return FALSE
-	return TRUE
-
 //Here's the main proc itself
 /mob/living/carbon/human/proc/mob_climax(forced_climax=FALSE) //Forced is instead of the other proc, makes you cum if you have the tools for it, ignoring restraints
 	if(mb_cd_timer > world.time)
@@ -246,11 +229,7 @@
 
 	switch(choice)
 		if("Climax alone")
-			if(!available_rosie_palms())
-				return
-			var/obj/item/organ/genital/picked_organ = pick_climax_genitals()
-			if(picked_organ && available_rosie_palms(TRUE))
-				mob_climax_outside(picked_organ)
+			return
 		if("Climax with partner")
 			//We need no hands, we can be restrained and so on, so let's pick an organ
 			var/obj/item/organ/genital/picked_organ = pick_climax_genitals()
@@ -261,17 +240,7 @@
 					if(spillage && in_range(src, partner))
 						mob_climax_partner(picked_organ, partner, spillage == "Yes" ? TRUE : FALSE)
 		if("Fill container")
-			//We'll need hands and no restraints.
-			if(!available_rosie_palms(FALSE, /obj/item/reagent_containers))
-				return
-			//We got hands, let's pick an organ
-			var/obj/item/organ/genital/picked_organ
-			picked_organ = pick_climax_genitals() //Gotta be climaxable, not just masturbation, to fill with fluids.
-			if(picked_organ)
-				//Good, got an organ, time to pick a container
-				var/obj/item/reagent_containers/fluid_container = pick_climax_container()
-				if(fluid_container && available_rosie_palms(TRUE, /obj/item/reagent_containers))
-					mob_fill_container(picked_organ, fluid_container)
+			return
 
 	mb_cd_timer = world.time + mb_cd_length
 
