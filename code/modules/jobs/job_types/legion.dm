@@ -916,8 +916,6 @@ commented out pending rework*/
 	id = /obj/item/card/id/dogtag/legimmune
 	mask = /obj/item/clothing/mask/bandana/legion/camp
 	uniform = /obj/item/clothing/under/f13/legskirt
-	suit = null
-	head = null
 	glasses = /obj/item/clothing/glasses/sunglasses
 	shoes = /obj/item/clothing/shoes/f13/military/leather
 	r_pocket = null
