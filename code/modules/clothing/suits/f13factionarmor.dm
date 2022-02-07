@@ -362,10 +362,10 @@
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets/utility
 	slowdown = 0.02
 	
-	/datum/component/storage/concrete/pockets/utility
+/datum/component/storage/concrete/pockets/utility
 	max_items = 4
 	
-	/obj/item/clothing/suit/armor/f13/utilityvest/Initialize()
+/obj/item/clothing/suit/armor/f13/utilityvest/Initialize()
 	. = ..()
 	AddComponent(/datum/component/armor_plate)
 
