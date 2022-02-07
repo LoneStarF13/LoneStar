@@ -918,7 +918,6 @@ commented out pending rework*/
 	uniform = /obj/item/clothing/under/f13/legskirt
 	glasses = /obj/item/clothing/glasses/sunglasses
 	shoes = /obj/item/clothing/shoes/f13/military/leather
-	r_pocket = null
 	l_pocket = /obj/item/flashlight/lantern
 	suit_store = /obj/item/gun/ballistic/revolver/caravan_shotgun
 	backpack_contents = list(
