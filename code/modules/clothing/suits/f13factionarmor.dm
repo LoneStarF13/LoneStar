@@ -358,9 +358,16 @@
 	item_state = "vest_utility"
 	icon = 'icons/fallout/clothing/suits_utility.dmi'
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/suit_utility.dmi'
-	armor = list("melee" = 20, "bullet" = 20, "laser" = 10, "energy" = 5, "bomb" = 10, "bio" = 10, "rad" = 20, "fire" = 30, "acid" = 0)
-	pocket_storage_component_path = /datum/component/storage/concrete/pockets
+	armor = list("melee" = 20, "bullet" = 20, "laser" = 25, "energy" = 15, "bomb" = 15, "bio" = 10, "rad" = 20, "fire" = 30, "acid" = 0)
+	pocket_storage_component_path = /datum/component/storage/concrete/pockets/utility
 	slowdown = 0.02
+	
+	/datum/component/storage/concrete/pockets/utility
+	max_items = 4
+	
+	/obj/item/clothing/suit/armor/f13/utilityvest/Initialize()
+	. = ..()
+	AddComponent(/datum/component/armor_plate)
 
 /obj/item/clothing/suit/armor/f13/ncrarmor
 	name = "NCR patrol vest"
