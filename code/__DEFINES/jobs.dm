@@ -92,9 +92,9 @@
 #define F13VETLEGIONARY	(1<<10)
 #define F13LEGIONARY	(1<<11)
 #define F13RECRUITLEG	(1<<12)
-#define F13AUXILIA		(1<<13)
+#define F13AUXILIA	(1<<13)
 #define F13LEGIONSLAVE	(1<<14)
-#define F13IMMUNE		(1<<15)
+#define F13IMMUNE	(1<<15)
 #define F13CAMPFOLLOWER (1<<16)
 
 #define BOS				(1<<5)
