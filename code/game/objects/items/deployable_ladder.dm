@@ -10,6 +10,7 @@
 
 
 /obj/item/deployable_ladder/proc/deploy_ladder(mob/user, atom/location)
+	user.visible_message("<span class='notice'>[user] starts to build the [src]...</span>", "<span class='notice'>You start to build [src]...</span>")
 	if(user.dir == EAST)
 		new /obj/structure/stairs/deployable_ladder/east(location)
 		qdel(src)

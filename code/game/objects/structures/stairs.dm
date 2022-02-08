@@ -166,6 +166,33 @@ Ladder
 
 /obj/structure/stairs/deployable_ladder/update_icon_state()
 	return
+
+/obj/structure/stairs/deployable_ladder/proc/ladder_ascend(atom/movable/AM)
+	var/turf/checking = get_step_multiz(get_turf(src), UP)
+	if(!istype(checking))
+		return
+	if(!checking.zPassIn(AM, UP, get_turf(src)))
+		return
+	var/turf/target = get_step_multiz(get_turf(src), (dir|UP))
+	var/obj/structure/target_2 = locate() in target
+	if(iswallturf(target) || ismineralturf(target))
+		to_chat(AM, "<span class='warning'>[target] blocked your climb.</span>")
+		return
+	if(target_2)
+		to_chat(AM, "<span class='warning'>[target_2] blocked your climb.</span>")
+		return
+	if(istype(target) && !target.can_zFall(AM, null, get_step_multiz(target, DOWN) && do_after(AM, 70, target = src)))			//Don't throw them into a tile that will just dump them back down.
+		if(AM.dir != src.dir)
+			return
+		if(isliving(AM))
+			var/mob/living/L = AM
+			var/pulling = L.pulling
+			if(pulling)
+				L.pulling.forceMove(target)
+			L.forceMove(target)
+			L.start_pulling(pulling)
+		else
+			AM.forceMove(target)
 	
 /obj/structure/stairs/deployable_ladder/north
 	dir = NORTH
@@ -190,8 +217,8 @@ Ladder
 /obj/structure/stairs/deployable_ladder/Uncross(atom/movable/AM, turf/newloc)
 	if(!newloc || !AM)
 		return ..()
-	if(!isobserver(AM) && isTerminator() && (get_dir(src, newloc) == dir) && do_after(AM, 25, target = src))
-		stair_ascend(AM)
+	if(!isobserver(AM) && isTerminator() && (get_dir(src, newloc) == dir))
+		ladder_ascend(AM)
 		return FALSE
 	return ..()
 
