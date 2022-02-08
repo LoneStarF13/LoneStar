@@ -902,7 +902,7 @@ commented out pending rework*/
 /datum/job/CaesarsLegion/Legionnaire/f13immune
 	title = "Legion Immune"
 	flag = F13IMMUNE
-	total_positions = 4
+	total_positions = 5
 	spawn_positions = 1
 	description = " An Immune is a legionnaire temporarily assigned to keeping the camp in order, according to their tasking on any given week."
 	supervisors = "the Centurion."
