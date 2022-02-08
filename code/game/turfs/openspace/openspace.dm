@@ -78,10 +78,42 @@ Prevents players on higher Zs from seeing into buildings they arent meant to.
 /turf/open/transparent/openspace/proc/CanBuildHere()
 	return can_build_on
 
+/turf/open/transparent/openspace/on_attack_hand(mob/user, act_intent = user.a_intent, unarmed_attack_flags)
+	var/turf/target = get_step_multiz(get_turf(src), DOWN)
+	var/obj/structure/stairs/deployable_ladder/targetladder = locate() in target
+	user.visible_message("<span class='notice'>[user] starts to dismantle the [targetladder]...</span>", "<span class='notice'>You start to dismantle [targetladder]...</span>")
+	if(do_after(user, 50, target = src) && (targetladder))
+		new /obj/item/deployable_ladder(user.loc)
+		user.visible_message("<span class='notice'>[user] finished dismantling the [targetladder]...</span>", "<span class='notice'>You finished dismantling the [targetladder]...</span>")
+		qdel(targetladder)
+		return
+	else
+		return
+
+		
+	
+
 /turf/open/transparent/openspace/attackby(obj/item/C, mob/user, params)
 	..()
 	if(!CanBuildHere())
 		return
+	if(istype(C, /obj/item/deployable_ladder))
+		var/turf/target = get_step_multiz(get_turf(src), DOWN)
+		var/obj/structure/target_2 = locate() in target
+		user.visible_message("<span class='notice'>[user] starts to build the [C]...</span>", "<span class='notice'>You start to build [C]...</span>")
+		if(do_after(user, 50, target = src) && !(target_2))
+			if(user.dir == EAST)
+				new /obj/structure/stairs/deployable_ladder/west(target)
+				qdel(C)
+			if(user.dir == WEST)
+				new /obj/structure/stairs/deployable_ladder/east(target)
+				qdel(C)
+			if(user.dir == NORTH)
+				new /obj/structure/stairs/deployable_ladder/south(target)
+				qdel(C)
+			if(user.dir == SOUTH)
+				new /obj/structure/stairs/deployable_ladder/north(target)
+				qdel(C)
 	if(istype(C, /obj/item/stack/rods))
 		var/obj/item/stack/rods/R = C
 		var/obj/structure/lattice/L = locate(/obj/structure/lattice, src)
