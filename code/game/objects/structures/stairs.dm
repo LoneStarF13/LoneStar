@@ -79,8 +79,12 @@
 	if(!checking.zPassIn(AM, UP, get_turf(src)))
 		return
 	var/turf/target = get_step_multiz(get_turf(src), (dir|UP))
+	var/obj/structure/target_2 = locate() in target
 	if(iswallturf(target) || ismineralturf(target))
 		to_chat(AM, "<span class='warning'>[target] blocked your climb.</span>")
+		return
+	if(target_2)
+		to_chat(AM, "<span class='warning'>[target_2] blocked your climb.</span>")
 		return
 	if(istype(target) && !target.can_zFall(AM, null, get_step_multiz(target, DOWN)))			//Don't throw them into a tile that will just dump them back down.
 		if(isliving(AM))
@@ -156,7 +160,7 @@ Ladder
 	name = "wooden ladder"
 	icon = 'icons/obj/ladder.dmi'
 	icon_state = "deploy"
-	max_integrity = 50
+	max_integrity = 25
 	layer = 4
 	anchored = TRUE
 
