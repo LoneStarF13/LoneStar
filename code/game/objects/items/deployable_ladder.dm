@@ -1,16 +1,17 @@
 // Deployable ladder object, allows you to place and move stairs.
 
 /obj/item/deployable_ladder
-	name = "wooden ladder"
+	name = "collapsed wooden ladder"
 	desc = "A deployable wooden ladder, used to climb over walls."
-	item_state = "wood_tableparts"
-	icon_state = "wood_tableparts"
-	slot_flags = ITEM_SLOT_BACK
+	lefthand_file = 'icons/mob/inhands/items_lefthand.dmi'
+	righthand_file = 'icons/mob/inhands/items_righthand.dmi'
+	item_state = "deploy"
+	icon_state = "deploy"
 	w_class = WEIGHT_CLASS_HUGE
 
 
 /obj/item/deployable_ladder/proc/deploy_ladder(mob/user, atom/location)
-	user.visible_message("<span class='notice'>[user] starts to build the [src]...</span>", "<span class='notice'>You start to build [src]...</span>")
+	user.visible_message("<span class='notice'>[user] starts to extend the [src]...</span>", "<span class='notice'>You start to extend [src]...</span>")
 	if(user.dir == EAST)
 		new /obj/structure/stairs/deployable_ladder/east(location)
 		qdel(src)

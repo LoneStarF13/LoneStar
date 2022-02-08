@@ -100,7 +100,7 @@ Prevents players on higher Zs from seeing into buildings they arent meant to.
 	if(istype(C, /obj/item/deployable_ladder))
 		var/turf/target = get_step_multiz(get_turf(src), DOWN)
 		var/obj/structure/target_2 = locate() in target
-		user.visible_message("<span class='notice'>[user] starts to build the [C]...</span>", "<span class='notice'>You start to build [C]...</span>")
+		user.visible_message("<span class='notice'>[user] starts to extend the [C]...</span>", "<span class='notice'>You start to extend [C]...</span>")
 		if(do_after(user, 50, target = src) && !(target_2))
 			if(user.dir == EAST)
 				new /obj/structure/stairs/deployable_ladder/west(target)
