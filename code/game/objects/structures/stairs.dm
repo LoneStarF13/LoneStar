@@ -184,6 +184,9 @@ Ladder
 	if(istype(target) && !target.can_zFall(AM, null, get_step_multiz(target, DOWN) && do_after(AM, 70, target = src)))			//Don't throw them into a tile that will just dump them back down.
 		if(AM.dir != src.dir)
 			return
+		if(prob(20) || (obj_integrity <= 20))
+			audible_message("<span class='hear'>The [src] creaks under the weight of a climber.</span>")
+			playsound(src && target, 'sound/f13items/laddercreak.ogg', 50, 1)
 		if(isliving(AM))
 			var/mob/living/L = AM
 			var/pulling = L.pulling
