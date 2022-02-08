@@ -21,7 +21,7 @@
 	..()
 
 /datum/reagent/medicine/stimpak/on_mob_life(mob/living/carbon/M)
-	M.adjust_nutrition(-4)
+	M.adjust_nutrition(-3)
 	if(M.health < 0)					//Functions as epinephrine.
 		M.adjustToxLoss(-0.5*REAGENTS_EFFECT_MULTIPLIER, 0)
 		M.adjustBruteLoss(-0.5*REAGENTS_EFFECT_MULTIPLIER, 0)
@@ -88,7 +88,7 @@
 	addiction_threshold = 16
 
 datum/reagent/medicine/super_stimpak/on_mob_life(mob/living/M)
-	M.adjust_nutrition(-5)
+	M.adjust_nutrition(-4)
 	if(M.health < 0)					//Functions as epinephrine.
 		M.adjustToxLoss(-0.5*REAGENTS_EFFECT_MULTIPLIER, 0)
 		M.adjustBruteLoss(-0.5*REAGENTS_EFFECT_MULTIPLIER, 0)
