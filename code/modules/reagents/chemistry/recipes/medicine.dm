@@ -88,8 +88,8 @@ datum/chemical_reaction/rezadone
 	name = "Synthtissue"
 	id = /datum/reagent/synthtissue
 	results = list(/datum/reagent/synthtissue = 5)
-	required_reagents = list(/datum/reagent/medicine/synthflesh = 1)
-	required_catalysts = list(/datum/reagent/consumable/sugar = 0.1)
+	//required_reagents = list(/datum/reagent/medicine/synthflesh = 1)			// LoneStar removal
+	//required_catalysts = list(/datum/reagent/consumable/sugar = 0.1)
 	//FermiChem vars:
 	OptimalTempMin 		= 305		// Lower area of bell curve for determining heat based rate reactions
 	OptimalTempMax 		= 315 		// Upper end for above
