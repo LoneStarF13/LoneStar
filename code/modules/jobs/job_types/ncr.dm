@@ -664,7 +664,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 		/datum/outfit/loadout/shockht,	// Minigun
 		/datum/outfit/loadout/supportht, // R84
 		/datum/outfit/loadout/flamerht, // Flamethrower
-		/datum/outfit/loadout/supersledgeht // Super Sledge
+		/datum/outfit/loadout/closequartersht // Riot Shotgun
 		)
 
 /datum/outfit/job/ncr/f13heavytrooper	// 9mm sidearm, Bayonet, Heavy armor
@@ -707,10 +707,12 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 		/obj/item/melee/onehanded/knife/bowie = 1,
 		)
 
-/datum/outfit/loadout/supersledgeht
-	name = "Melee Heavy Trooper"
+/datum/outfit/loadout/closequartersht
+	name = "Close Quarters Heavy Trooper"
 	backpack_contents = list(
-		/obj/item/twohanded/sledgehammer/supersledge = 1,
+		/obj/item/gun/ballistic/automatic/shotgun/riot = 1,
+		/obj/item/ammo_box/shotgun/buck = 2,
+		/obj/item/ammo_box/shotgun/slug = 1,
 		)
 
 
@@ -961,9 +963,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	head = /obj/item/clothing/head/f13/ncr
 	suit_store = /obj/item/gun/ballistic/automatic/smg/smg10mm
 	backpack_contents = list(
-		/obj/item/gun/ballistic/automatic/pistol/pistol14/compact = 1,
-		/obj/item/ammo_box/magazine/m14mm = 2,
-		/obj/item/ammo_box/magazine/m10mm_adv/ext = 3,
+		/obj/item/ammo_box/magazine/m10mm_adv/ext = 2,
 		/obj/item/storage/box/ration/menu_one = 1,
 		/obj/item/book/granter/trait/trekking = 1,
 		)
