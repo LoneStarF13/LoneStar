@@ -86,7 +86,7 @@
 	icon_state = "light_plates"
 	item_state = "armorkit"
 	armor = list("melee" = 33, "bullet" = 33, "laser" = 40, "energy" = 15, "bomb" = 20, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0)
-	slowdown = 0.1
+	slowdown = 0.08
 
 /obj/item/clothing/suit/armor/f13/leatherarmor
 	name = "leather armor"
