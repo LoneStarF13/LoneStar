@@ -21,6 +21,7 @@
 	..()
 
 /datum/reagent/medicine/stimpak/on_mob_life(mob/living/carbon/M)
+	M.adjust_nutrition(-2)
 	if(M.health < 0)					//Functions as epinephrine.
 		M.adjustToxLoss(-0.5*REAGENTS_EFFECT_MULTIPLIER, 0)
 		M.adjustBruteLoss(-0.5*REAGENTS_EFFECT_MULTIPLIER, 0)
@@ -41,11 +42,13 @@
 	if(!M.reagents.has_reagent(/datum/reagent/medicine/healing_powder)) // We don't want these healing items to stack, so we only apply the healing if these chems aren't found.We only check for the less powerful chems, so the least powerful one always heals.
 		M.adjustBruteLoss(-4*REAGENTS_EFFECT_MULTIPLIER)
 		M.adjustFireLoss(-4*REAGENTS_EFFECT_MULTIPLIER)
-		M.adjustToxLoss(-1*REAGENTS_EFFECT_MULTIPLIER)
 		M.AdjustStun(-5*REAGENTS_EFFECT_MULTIPLIER, 0)
 		M.AdjustKnockdown(-5*REAGENTS_EFFECT_MULTIPLIER, 0)
 		M.adjustStaminaLoss(-2*REAGENTS_EFFECT_MULTIPLIER)
 		. = TRUE
+	if(M.nutrition <= NUTRITION_LEVEL_STARVING - 50)
+		M.adjustToxLoss(2*REAGENTS_EFFECT_MULTIPLIER, 0)
+		M.overeatduration = 0
 	..()
 
 /datum/reagent/medicine/stimpak/overdose_process(mob/living/M)
@@ -64,7 +67,7 @@
 	description = "Rapidly heals damage when injected. A poor man's stimpak."
 	reagent_state = LIQUID
 	color = "#FFA500"
-	
+
 /datum/reagent/medicine/stimpakimitation/on_mob_life(mob/living/carbon/M)
 	if(M.getBruteLoss() == 0 && M.getFireLoss() == 0)
 		metabolization_rate = 1000 * REAGENTS_METABOLISM //instant metabolise if it won't help you, prevents prehealing before combat
@@ -85,6 +88,7 @@
 	addiction_threshold = 16
 
 datum/reagent/medicine/super_stimpak/on_mob_life(mob/living/M)
+	M.adjust_nutrition(-3)
 	if(M.health < 0)					//Functions as epinephrine.
 		M.adjustToxLoss(-0.5*REAGENTS_EFFECT_MULTIPLIER, 0)
 		M.adjustBruteLoss(-0.5*REAGENTS_EFFECT_MULTIPLIER, 0)
@@ -105,11 +109,13 @@ datum/reagent/medicine/super_stimpak/on_mob_life(mob/living/M)
 	if(!M.reagents.has_reagent(/datum/reagent/medicine/healing_powder/poultice) && !M.reagents.has_reagent(/datum/reagent/medicine/stimpak) && !M.reagents.has_reagent(/datum/reagent/medicine/healing_powder)) // We don't want these healing items to stack, so we only apply the healing if these chems aren't found. We only check for the less powerful chems, so the least powerful one always heals.
 		M.adjustBruteLoss(-8*REAGENTS_EFFECT_MULTIPLIER)
 		M.adjustFireLoss(-8*REAGENTS_EFFECT_MULTIPLIER)
-		M.adjustToxLoss(-2*REAGENTS_EFFECT_MULTIPLIER)
 		M.AdjustStun(-10*REAGENTS_EFFECT_MULTIPLIER, 0)
 		M.AdjustKnockdown(-10*REAGENTS_EFFECT_MULTIPLIER, 0)
 		M.adjustStaminaLoss(-4*REAGENTS_EFFECT_MULTIPLIER)
 		. = TRUE
+	if(M.nutrition <= NUTRITION_LEVEL_STARVING - 50)
+		M.adjustToxLoss(3*REAGENTS_EFFECT_MULTIPLIER, 0)
+		M.overeatduration = 0
 	..()
 
 /datum/reagent/medicine/super_stimpak/overdose_process(mob/living/M)
@@ -117,7 +123,7 @@ datum/reagent/medicine/super_stimpak/on_mob_life(mob/living/M)
 	M.adjustOxyLoss(12*REAGENTS_EFFECT_MULTIPLIER)
 	..()
 	. = TRUE
-	
+
 // ---------------------------
 // LONGPORK STEW REAGENT
 
@@ -158,7 +164,7 @@ datum/reagent/medicine/super_stimpak/on_mob_life(mob/living/M)
 	reagent_state = SOLID
 	color =  "#7f7add"
 	taste_description = "heaven."
-	metabolization_rate = 0.7 * REAGENTS_METABOLISM 
+	metabolization_rate = 0.7 * REAGENTS_METABOLISM
 	overdose_threshold = 30 //hard to OD on, besides if you use too much it kills you when it wears off
 
 /datum/reagent/medicine/berserker_powder/on_mob_life(mob/living/carbon/M)
@@ -233,6 +239,7 @@ datum/reagent/medicine/super_stimpak/on_mob_life(mob/living/M)
 	var/heal_factor_perk = -5 //Multiplier if you have the right perk.
 
 /datum/reagent/medicine/bitter_drink/on_mob_life(mob/living/carbon/M)
+	M.set_blurriness(7)
 	var/is_tribal = FALSE
 	if(HAS_TRAIT(M, TRAIT_TRIBAL))
 		is_tribal = TRUE
@@ -300,12 +307,16 @@ datum/reagent/medicine/super_stimpak/on_mob_life(mob/living/M)
 // HEALING POULTICE REAGENT
 
 /datum/reagent/medicine/healing_powder/poultice
-	name = "ealing poultice"
+	name = "Healing poultice"
 	description = "Restores limb condition and heals rapidly."
 	color = "#C8A5DC"
 	overdose_threshold = 20
 	heal_factor = -2
 	heal_factor_perk = -4
+
+/datum/reagent/medicine/healing_powder/poultice/on_mob_life(mob/living/carbon/M)
+	M.set_blurriness(5)
+	..()
 
 // ---------------------------
 // RAD-X REAGENT
@@ -363,14 +374,14 @@ datum/reagent/medicine/super_stimpak/on_mob_life(mob/living/M)
 	..()
 	if(isliving(M))
 		to_chat(M, "<span class='notice'>You feel tougher, able to shrug off pain more easily.</span>")
-		M.maxHealth += 100
-		M.health += 100
+		M.maxHealth += 70
+		M.health += 70
 
 /datum/reagent/medicine/medx/on_mob_delete(mob/living/carbon/human/M)
 	if(isliving(M))
 		to_chat(M, "<span class='notice'>You feel as vulnerable to pain as a normal person.</span>")
-		M.maxHealth -= 100
-		M.health -= 100
+		M.maxHealth -= 70
+		M.health -= 70
 	switch(current_cycle)
 		if(1 to 40)
 			M.confused += 10
@@ -402,7 +413,7 @@ datum/reagent/medicine/super_stimpak/on_mob_life(mob/living/M)
 			M.set_heartattack(TRUE)
 			M.visible_message("<span class='userdanger'>[M] clutches at their chest as if their heart stopped!</span>")
 			to_chat(M, "<span class='danger'>Your vision goes black and your heart stops beating as the amount of drugs in your system shut down your organs one by one. Say hello to Elvis in the afterlife. </span>")
-			
+
 	..()
 
 /datum/reagent/medicine/medx/on_mob_life(mob/living/carbon/M)

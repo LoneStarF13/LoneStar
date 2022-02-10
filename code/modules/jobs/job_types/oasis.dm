@@ -66,14 +66,12 @@ Mayor
 	satchel = /obj/item/storage/backpack/satchel/explorer
 	l_pocket = /obj/item/storage/bag/money/small/settler
 	r_pocket = /obj/item/flashlight/seclite
-	belt = /obj/item/gun/ballistic/automatic/wt550
 	shoes = 		/obj/item/clothing/shoes/f13/tan
 	uniform = /obj/item/clothing/under/f13/gentlesuit
 	head = /obj/item/clothing/head/f13/town/big
 	backpack_contents = list( 
 		/obj/item/storage/box/citizenship_permits = 1, \
 		/obj/item/pen/fountain/captain = 1,
-		/obj/item/ammo_box/magazine/m473/small = 2,
 		)
 		
 
@@ -385,12 +383,12 @@ Mayor
 	suit = /obj/item/clothing/suit/armor/bulletproof
 	head = /obj/item/clothing/head/helmet/alt
 	neck = /obj/item/storage/belt/holster/legholster
-	l_hand = /obj/item/gun/ballistic/automatic/marksman/policerifle
+	l_hand = /obj/item/gun/ballistic/automatic/assault_carbine/policerifle
 	shoes = /obj/item/clothing/shoes/jackboots
 	backpack_contents = list(
-		/obj/item/ammo_box/magazine/m556/rifle = 2,
-		/obj/item/gun/ballistic/automatic/pistol/mk23=1,
 		/obj/item/ammo_box/magazine/m45exp=2,
+		/obj/item/gun/ballistic/automatic/pistol/mk23=1,
+		/obj/item/ammo_box/magazine/m5mm=1,
 		/obj/item/flashlight/seclite = 1,
 		)
 
@@ -800,8 +798,8 @@ Mayor
 /datum/job/oasis/f13detective
 	title = "Detective"
 	flag = F13DETECTIVE
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 0
+	spawn_positions = 0
 	description = "As a Detective you are a private eye who assists clients to gather evidence, conduct surveillance, find missing people, and verify information. As a private investigator you are not responsible for peacekeeping the valley, but for finding answers. Your life is already over, make the ending mean something."
 	supervisors = "paying clients"
 	selection_color = "#dcba97"

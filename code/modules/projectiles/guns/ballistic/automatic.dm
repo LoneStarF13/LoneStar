@@ -558,7 +558,7 @@
 	burst_size = 1
 	fire_delay = 5
 	spread = 2
-	extra_damage = 24
+	extra_damage = 20
 	extra_penetration = 0.1
 	slowdown = 0.4
 	automatic_burst_overlay = FALSE
@@ -588,7 +588,7 @@
 	icon = 'icons/fallout/objects/guns/ballistic.dmi'
 	icon_state = "ncr-m1carbine"
 	item_state = "rifle"
-	extra_damage = 25
+	extra_damage = 21
 
 
 //M1A1 Carbine				Keywords: 10mm, Semi-auto, 12/24 rounds, Long barrel, Folding stock.
@@ -639,9 +639,9 @@
 	weapon_weight = WEAPON_MEDIUM
 	spread = 0 //low-recoil + forward grip
 	fire_delay = 3
-	
-	
-	
+
+
+
 
 ////////////////////
 //SEMI-AUTO RIFLES//
@@ -655,12 +655,14 @@
 	icon_state = "varmint"
 	item_state = "varmintrifle"
 	force = 23
+	slowdown = 0.3
 	mag_type = /obj/item/ammo_box/magazine/m556/rifle
 	init_mag_type = /obj/item/ammo_box/magazine/m556/rifle/small
-	fire_delay = 6
+	fire_delay = 3.5
 	burst_size = 1
 	spread = 0
-	extra_damage = 25
+	extra_damage = 20
+	extra_speed = 500
 	can_bayonet = FALSE
 	semi_auto = TRUE
 	automatic_burst_overlay = FALSE
@@ -727,7 +729,8 @@
 	item_state = "servicerifle"
 	icon_prefix = "servicerifle"
 	mag_type = /obj/item/ammo_box/magazine/m556/rifle
-	fire_delay = 4
+	slowdown = 0.45
+	fire_delay = 3
 	burst_size = 1
 	spread = 1
 	extra_damage = 25
@@ -768,8 +771,8 @@
 	icon_state = "scout_carbine"
 	fire_delay = 4
 	spread = 1.1
-	slowdown = 0.5
-	extra_damage = 27
+	slowdown = 0.4
+	extra_damage = 25
 	can_scope = TRUE
 	scope_state = "scope_short"
 	scope_x_offset = 4
@@ -792,7 +795,7 @@
 	extra_damage = 25
 	extra_penetration = 0.1
 	spread = 1.1
-	fire_delay = 4.5
+	fire_delay = 4
 	can_suppress = FALSE
 	can_scope = TRUE
 	zoomable = FALSE
@@ -826,7 +829,24 @@
 	suppressor_x_offset = 31
 	suppressor_y_offset = 15
 	fire_sound = 'sound/f13weapons/marksman_rifle.ogg'
-
+	
+/obj/item/gun/ballistic/automatic/marksman/policerifle
+	name = "Police Rifle"
+	desc = "A pre-war Rifle that has been constantly repaired and rebuilt by the Oasis Police Department. Held together by duct tape and prayers, it somehow still shoots. This one has been re-chambered to 5.56"
+	icon = 'icons/fallout/objects/guns/ballistic.dmi'
+	lefthand_file = 'icons/fallout/onmob/weapons/guns_lefthand.dmi'
+	righthand_file = 'icons/fallout/onmob/weapons/guns_righthand.dmi'
+	icon_prefix = "assault_carbine"
+	icon_state = "rifle-police"
+	item_state = "assault_carbine"
+	init_mag_type = /obj/item/ammo_box/magazine/m556/rifle
+	extra_damage = 25
+	extra_penetration = 0.1
+	spread = 1.1
+	fire_delay = 4.5
+	can_suppress = FALSE
+	can_scope = TRUE
+	zoomable = FALSE
 
 //Colt Rangemaster				Keywords: 7.62mm, Semi-auto, 10/20 round magazine, 35dmg
 /obj/item/gun/ballistic/automatic/rangemaster
@@ -964,7 +984,7 @@
 	fire_sound = 'sound/f13weapons/hunting_rifle.ogg'
 
 
-//DKS 501 sniper rifle				Keywords: .308, Semi-auto, 7 round magazine, Scoped, Extra speed +500, Fire delay +1, 45dmg 
+//DKS 501 sniper rifle				Keywords: .308, Semi-auto, 7 round magazine, Scoped, Extra speed +500, Fire delay +1, 45dmg
 /obj/item/gun/ballistic/automatic/marksman/sniper
 	name = "sniper rifle"
 	desc = "A DKS 501, chambered in .308 Winchester.  With a light polymer body, it's suited for long treks through the desert."
@@ -1151,7 +1171,7 @@
 	fire_sound = 'sound/f13weapons/bozar_fire.ogg'
 
 
-//Assault Carbine				Keywords: 5mm, Automatic, 30 round magazine, Flashlight, 19dmg/0.15AP
+//Assault Carbine				Keywords: 5mm, Automatic, 30 round magazine, Flashlight, 20dmg/0.25AP
 /obj/item/gun/ballistic/automatic/assault_carbine
 	name = "assault carbine"
 	desc = "The U.S. army carbine version of the R91, made by Colt and issued to special forces."
@@ -1183,6 +1203,21 @@
 	flight_y_offset = 21
 	actions_types = list(/datum/action/item_action/toggle_firemode)
 	fire_sound = 'sound/f13weapons/assault_carbine.ogg'
+
+	//Police rifle			Keywords: OASIS, 5mm, Semi-auto, 30 round magazine
+/obj/item/gun/ballistic/automatic/assault_carbine/policerifle
+	name = "Police Rifle"
+	desc = "A pre-war Rifle that has been constantly repaired and rebuilt by the Oasis Police Department. Held together by duct tape and prayers, it somehow still shoots."
+	icon = 'icons/fallout/objects/guns/ballistic.dmi'
+	lefthand_file = 'icons/fallout/onmob/weapons/guns_lefthand.dmi'
+	righthand_file = 'icons/fallout/onmob/weapons/guns_righthand.dmi'
+	icon_state = "rifle-police"
+	extra_damage = 22
+	spread = 1.1
+	fire_delay = 3.5
+	can_scope = TRUE
+	can_automatic = FALSE
+	semi_auto = TRUE
 	
 /obj/item/gun/ballistic/automatic/assault_carbine/worn	
 	name = "worn assault carbine"

@@ -205,7 +205,7 @@
 	desc = "Legion Recruits carry very basic protection, repurposed old sports gear with bits of leather and other tribal style armor that the wearer has managed to scrounge up."
 	icon_state = "legion_recruit"
 	item_state = "legion_recruit"
-	armor = list("melee" = 30, "bullet" = 25, "laser" = 15, "energy" = 10, "bomb" = 20, "bio" = 20, "rad" = 20, "fire" = 25, "acid" = 0)
+	armor = list("melee" = 30, "bullet" = 25, "laser" = 20, "energy" = 10, "bomb" = 20, "bio" = 20, "rad" = 20, "fire" = 25, "acid" = 0)
 	slowdown = 0.04
 
 /obj/item/clothing/suit/armor/f13/legion/prime
@@ -213,7 +213,7 @@
 	desc = "Legion Primes have survived some skirmishes, and when promoted often recieve a set of armor, padded leather modeled on ancient baseball catcher uniforms and various plates of metal or boiled leather."
 	icon_state = "legion_prime"
 	item_state = "legion_prime"
-	armor = list("melee" = 30, "bullet" = 30, "laser" = 15, "energy" = 10, "bomb" = 20, "bio" = 20, "rad" = 20, "fire" = 25, "acid" = 0)
+	armor = list("melee" = 30, "bullet" = 33, "laser" = 20, "energy" = 10, "bomb" = 20, "bio" = 20, "rad" = 20, "fire" = 25, "acid" = 0)
 
 /obj/item/clothing/suit/armor/f13/legion/vet/orator
 	icon_state = "legion_orator"
@@ -232,7 +232,7 @@
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/armor_medium.dmi'
 	icon_state = "legion_veteran"
 	item_state = "legion_veteran"
-	armor = list("melee" = 35, "bullet" = 35, "laser" = 17, "energy" = 15, "bomb" = 30, "bio" = 5, "rad" = 5, "fire" = 35, "acid" = 0)
+	armor = list("melee" = 35, "bullet" = 37, "laser" = 25, "energy" = 15, "bomb" = 30, "bio" = 5, "rad" = 5, "fire" = 35, "acid" = 0)
 	slowdown = 0.05
 
 /obj/item/clothing/suit/armor/f13/legion/heavy
@@ -269,7 +269,7 @@
 	desc = "Explorer armor reinforced with metal plates and chainmail."
 	icon_state = "legion-venator"
 	item_state = "legion-venator"
-	armor = list("melee" = 35, "bullet" = 35, "laser" = 15, "energy" = 10, "bomb" = 20, "bio" = 20, "rad" = 20, "fire" = 25, "acid" = 0)
+	armor = list("melee" = 35, "bullet" = 35, "laser" = 15, "energy" = 20, "bomb" = 20, "bio" = 20, "rad" = 20, "fire" = 25, "acid" = 0)
 
 /obj/item/clothing/suit/armor/f13/legion/centurion
 	name = "legion centurion armor"
@@ -278,7 +278,7 @@
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/armor_heavy.dmi'
 	icon_state = "legion_centurion"
 	item_state = "legion_centurion"
-	armor = list("melee" = 55, "bullet" = 55, "laser" = 20, "energy" = 10, "bomb" = 20, "bio" = 20, "rad" = 20, "fire" = 25, "acid" = 0, "wound" = 55)
+	armor = list("melee" = 55, "bullet" = 55, "laser" = 20, "energy" = 20, "bomb" = 20, "bio" = 20, "rad" = 20, "fire" = 25, "acid" = 0, "wound" = 55)
 	slowdown = 0.1
 
 /obj/item/clothing/suit/armor/f13/legion/palacent
@@ -288,7 +288,7 @@
 	desc = "A Centurion able to defeat a Brotherhood Paladin gets the honorific title 'Paladin-Slayer', and adds bits of the looted armor to his own."
 	icon_state = "legion_palacent"
 	item_state = "legion_palacent"
-	armor = list("melee" = 50, "bullet" = 50, "laser" = 50, "energy" = 10, "bomb" = 20, "bio" = 20, "rad" = 20, "fire" = 25, "acid" = 0)
+	armor = list("melee" = 50, "bullet" = 50, "laser" = 50, "energy" = 20, "bomb" = 20, "bio" = 20, "rad" = 20, "fire" = 25, "acid" = 0)
 	slowdown = 0.25
 
 
@@ -336,6 +336,7 @@
 	icon_state = "legion_slaveleather"
 	item_state = "legion_slaveleather"
 	allowed = list(/obj/item/hatchet, /obj/item/scythe, /obj/item/cultivator, /obj/item/shovel)
+	armor = list("melee" = 20, "bullet" = 5, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 20, "fire" = 20, "acid" = 0)
 
 /*
 /obj/item/clothing/suit/armor/f13/legion/vet/orator
@@ -358,8 +359,16 @@
 	item_state = "vest_utility"
 	icon = 'icons/fallout/clothing/suits_utility.dmi'
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/suit_utility.dmi'
-	armor = list("melee" = 20, "bullet" = 20, "laser" = 10, "energy" = 5, "bomb" = 10, "bio" = 10, "rad" = 20, "fire" = 30, "acid" = 0)
-	pocket_storage_component_path = /datum/component/storage/concrete/pockets
+	armor = list("melee" = 20, "bullet" = 20, "laser" = 20, "energy" = 10, "bomb" = 15, "bio" = 10, "rad" = 20, "fire" = 30, "acid" = 0)
+	pocket_storage_component_path = /datum/component/storage/concrete/pockets/utility
+	slowdown = 0.02
+	
+/datum/component/storage/concrete/pockets/utility
+	max_items = 4
+	
+/obj/item/clothing/suit/armor/f13/utilityvest/Initialize()
+	. = ..()
+	AddComponent(/datum/component/armor_plate)
 
 /obj/item/clothing/suit/armor/f13/ncrarmor
 	name = "NCR patrol vest"
@@ -698,11 +707,22 @@
 	icon_state = "towntrench_medium"
 	armor = list("melee" = 40, "bullet" = 40, "laser" = 35,  "energy" = 35, "bomb" = 30, "bio" = 40, "rad" = 40, "fire" = 50, "acid" = 10, "wound" = 50)
 	slowdown = 0.06 //combat armor but less slowdown
-
+	
 /obj/item/clothing/suit/armor/f13/town/deputy/Initialize()
 	. = ..()
 	AddComponent(/datum/component/armor_plate)
+
+/obj/item/clothing/suit/armor/vest/oasis
+	name = "OPD vest"
+	desc = "A slim armored vest with a rigid exterior that provides decent protection against most types of damage. This one has pockets sewn into the front and OPD stitched on the back."
+	pocket_storage_component_path = /datum/component/storage/concrete/pockets
+	armor = list("melee" = 38, "bullet" = 38, "laser" = 38,  "energy" = 30, "bomb" = 40, "bio" = 40, "rad" = 40, "fire" = 50, "acid" = 10, "wound" = 50)
+	slowdown = 0.06
 	
+/obj/item/clothing/suit/armor/vest/oasis/Initialize()
+	. = ..()
+	AddComponent(/datum/component/armor_plate)		
+
 /obj/item/clothing/suit/armor/f13/metalarmor/steelbib/oasis
 	name = "heavy steel breastplate"
 	desc = "a steel breastplate, inspired by a pre-war design. Looks like oasis citiznes added an additional layer of metal on the front face."

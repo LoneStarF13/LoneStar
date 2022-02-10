@@ -97,7 +97,7 @@
 	desc = "should not exist"
 	can_scope = TRUE
 	scope_state = "scope_long"
-	fire_delay = 4.5
+	fire_delay = 5
 	scope_x_offset = 5
 	scope_y_offset = 13
 	pump_sound = 'sound/f13weapons/cowboyrepeaterreload.ogg'
@@ -114,8 +114,7 @@
 	icon_state = "cowboyrepeater"
 	item_state = "cowboyrepeater"
 	mag_type = /obj/item/ammo_box/magazine/internal/shot/tube357
-	extra_damage = 38
-	fire_delay = 4
+	extra_damage = 35
 	fire_sound = 'sound/f13weapons/cowboyrepeaterfire.ogg'
 
 
@@ -126,9 +125,7 @@
 	icon_state = "trailcarbine"
 	item_state = "trailcarbine"
 	mag_type = /obj/item/ammo_box/magazine/internal/shot/tube44
-	extra_damage = 42
-	extra_penetration = 0.1
-	fire_delay = 4
+	extra_damage = 40
 	fire_sound = 'sound/f13weapons/44mag.ogg'
 
 
@@ -139,12 +136,11 @@
 	icon_state = "brushgun"
 	item_state = "brushgun"
 	mag_type = /obj/item/ammo_box/magazine/internal/shot/tube4570
-	extra_damage = 47
-	extra_penetration = 0.15
-	fire_delay = 4.5
-	recoil = 0.1
+	extra_damage = 50
+	extra_penetration = 0.05
+	fire_delay = 5.1
+	recoil = 0.15
 	fire_sound = 'sound/f13weapons/brushgunfire.ogg'
-
 
 
 ////////////////////////
@@ -252,7 +248,7 @@
 	fire_sound = 'sound/f13weapons/boltfire.ogg'
 
 //Lee-Enfield,SMLE 						Keywords: 7.62, Bolt-action, 5 rounds internal, short barrel (-2 damage, -100 velocity, -2 melee, less slowdown), faster firing rate
-/obj/item/gun/ballistic/rifle/enfield		
+/obj/item/gun/ballistic/rifle/enfield
 	name = "Lee-Enfield rifle"
 	desc = "A british rifle sometimes known as the SMLE. It seems to have been re-chambered in .308."
 	icon_state = "enfield2"

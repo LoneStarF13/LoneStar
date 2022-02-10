@@ -50,6 +50,23 @@
 	REMOVE_TRAIT(H, TRAIT_TRIBAL, "Former Tribal")
 
 
+/datum/quirk/tribespeak
+	name = "Tribal Language Comprehension"
+	desc = "You're somehow capable of understanding and speaking the common tribal languages in the area."
+	value = 1
+	gain_text = "<span class='notice'>You remember the old ways of your tribe..</span>"
+	lose_text = "<span class='notice'>You've forgotten the ways of your ancestors..</span>"
+
+
+/datum/quirk/tribespeak/add()
+	var/mob/living/carbon/human/H = quirk_holder
+	H.grant_language(/datum/language/tribal)
+
+/datum/quirk/tribespeak/remove()
+	var/mob/living/carbon/human/H = quirk_holder
+	H.remove_language(/datum/language/tribal)
+
+
 /datum/quirk/apathetic
 	name = "Apathetic"
 	desc = "You just don't care as much as other people. That's nice to have in a place like this, I guess."
@@ -237,13 +254,13 @@
 	if(quirk_holder)
 		quirk_holder.blood_ratio = 1
 
-/datum/quirk/machine_spirits
-	name = "Spirit Blessed"
-	desc = "You respect the teachings of the Machine Spirits."
-	value = 3
+/datum/quirk/tribal_tech
+	name = "Primitive Tech"
+	desc = "You're able to use primitive technology."
+	value = 2
 	mob_trait = TRAIT_MACHINE_SPIRITS
-	gain_text = "<span class='notice'>You have recieved the blessing of the Machine Spirits.</span>"
-	lose_text = "<span class='danger'>You've lost the  blessing of the Machine Spirits.</span>"
+	gain_text = "<span class='notice'>You are now able to use primitive technology.</span>"
+	lose_text = "<span class='danger'>You are no longer able to use primitive technology.</span>"
 	locked = TRUE
 
 /datum/quirk/night_vision
