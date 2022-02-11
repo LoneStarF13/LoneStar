@@ -145,8 +145,6 @@
 					/obj/item/circuitboard/computer/arcade/battle,
 					/obj/item/circuitboard/computer/arcade/orion_trail,
 					/obj/item/circuitboard/computer/arcade/orion_trail,
-					/obj/item/circuitboard/computer/arcade/minesweeper,
-					/obj/item/circuitboard/computer/arcade/minesweeper,
 					/obj/item/circuitboard/computer/slot_machine,
 					/obj/item/circuitboard/computer/slot_machine,
 					/obj/item/circuitboard/computer/slot_machine,
@@ -394,6 +392,26 @@
 	contains = list(/obj/item/stack/tile/noslip/thirty,
 					/obj/item/stack/tile/noslip/thirty)
 	crate_name = "high-traction floor tiles crate"
+
+//////////////////////////////////////////////////////////////////////////////
+//////////////////////////////// Lewd Supplies ///////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
+
+/datum/supply_pack/misc/lewd
+	name = "Lewd Crate" // OwO
+	desc = "Pssst, want to have a good time with your sluts? Well I got what you want! Maid clothing, dildos, collars and more!"
+	cost = 5250
+	contraband = TRUE
+	contains = list(/obj/item/dildo/custom,
+					/obj/item/dildo/custom,
+					/obj/item/clothing/under/costume/maid,
+					/obj/item/clothing/under/costume/maid,
+					/obj/item/electropack/shockcollar,
+					/obj/item/electropack/shockcollar,
+					/obj/item/restraints/handcuffs/fake/kinky,
+					/obj/item/restraints/handcuffs/fake/kinky)
+	crate_name = "lewd kit"
+	crate_type = /obj/structure/closet/crate
 
 ///Special supply crate that generates random syndicate gear up to a determined TC value
 
