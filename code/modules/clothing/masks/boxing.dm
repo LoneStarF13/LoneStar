@@ -85,10 +85,3 @@
 	flags_inv = HIDEFACE|HIDEHAIR|HIDEFACIALHAIR
 	visor_flags_inv = HIDEFACE|HIDEFACIALHAIR
 	w_class = WEIGHT_CLASS_SMALL
-
-/obj/item/clothing/mask/russian_balaclava/attack_self(mob/user)
-	adjustmask(user)
-
-/obj/item/clothing/mask/russian_balaclava/breath
-	name = "breathaclava"
-	clothing_flags = ALLOWINTERNALS
