@@ -81,5 +81,5 @@
 
 /datum/gear/backpack/cigarettes/cigars/havana
 	name = "Havanian cigar case"
-	path = /obj/item/clothing/mask/cigarette/cigar/havana
+	path = /obj/item/storage/fancy/cigarettes/cigars/havana
 	cost = 2
