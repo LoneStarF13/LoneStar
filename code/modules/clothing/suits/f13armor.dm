@@ -113,8 +113,8 @@
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/armor_medium.dmi'
 	icon_state = "metal_chestplate"
 	item_state = "metal_chestplate"
-	armor = list("melee" = 40, "bullet" = 40, "laser" = 50, "energy" = 15, "bomb" = 45, "bio" = 30, "rad" = 15, "fire" = 60, "acid" = 0, "wound" = 45)
-	slowdown = 0.25
+	armor = list("melee" = 40, "bullet" = 45, "laser" = 50, "energy" = 15, "bomb" = 45, "bio" = 30, "rad" = 15, "fire" = 60, "acid" = 0, "wound" = 45)
+	slowdown = 0.22
 	strip_delay = 10
 
 /obj/item/clothing/suit/armor/f13/metalarmor/laserproof
@@ -124,8 +124,8 @@
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/armor_medium.dmi'
 	icon_state = "armor_enclave_peacekeeper"
 	item_state = "armor_enclave_peacekeeper"
-	armor = list("melee" = 38, "bullet" = 38, "laser" = 60, "energy" = 25, "bomb" = 45, "bio" = 30, "rad" = 15, "fire" = 60, "acid" = 0, "wound" = 45)
-	slowdown = 0.24
+	armor = list("melee" = 38, "bullet" = 42, "laser" = 60, "energy" = 25, "bomb" = 45, "bio" = 30, "rad" = 15, "fire" = 60, "acid" = 0, "wound" = 45)
+	slowdown = 0.2
 	strip_delay = 10
 
 /obj/item/clothing/suit/armor/fluff/metalarmor/Initialize()
@@ -139,11 +139,11 @@
 
 /obj/item/clothing/suit/armor/f13/metalarmor/reinforced
 	name = "reinforced metal armor"
-	desc = "A set of polished plates formed together to provide effective protection."
+	desc = "A set of well-fitted plates formed together to provide effective protection."
 	icon_state = "metal_chestplate2"
 	item_state = "metal_chestplate2"
-	armor = list("melee" = 43, "bullet" = 43, "laser" = 55, "energy" = 15, "bomb" = 45, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0, "wound" = 50)
-	slowdown = 0.27
+	armor = list("melee" = 45, "bullet" = 50, "laser" = 55, "energy" = 15, "bomb" = 45, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0, "wound" = 50)
+	slowdown = 0.25
 	strip_delay = 10
 
 /obj/item/clothing/suit/armor/f13/metalarmor/steelbib
