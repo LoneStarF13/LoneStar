@@ -1182,6 +1182,23 @@
 	actions_types = list(/datum/action/item_action/toggle_firemode)
 	fire_sound = 'sound/f13weapons/assaultrifle_fire.ogg'
 
+/obj/item/gun/ballistic/automatic/bar
+	name = "Colt R80 Automatic Rifle (debug)"
+	desc = "An ancient machine gun manufactured that was out of date even before the great war that issued to police and federal agents. It is based on the Browning Automatic Rifle. (This is not meant to be seen yet.)"
+	icon = 'icons/fallout/objects/guns/bar.dmi'
+	slot_flags = ITEM_SLOT_BACK
+	icon_state = "BAR"
+	item_state = "BAR"
+	icon_prefix = "BAR"
+	force = 24 //club
+	burst_size = 1
+	burst_shot_delay = 2
+	slowdown = 1.25 //really goddamn big
+	extra_damage = 28
+	spread = 12
+	recoil = 0.3
+	actions_types = list(/datum/action/item_action/toggle_firemode)
+	fire_sound = 'sound/f13weapons/assaultrifle_fire.ogg'
 
 //H&K G11				Keywords: 4.73mm, Automatic, 50 round magazine
 /obj/item/gun/ballistic/automatic/g11
