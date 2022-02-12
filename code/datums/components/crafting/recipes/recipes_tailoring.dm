@@ -617,7 +617,7 @@ datum/crafting_recipe/steelbib/heavy
 
 /datum/crafting_recipe/combat_armor
 	name = "replace ballistic plates in combat armor with laser-proof plates"
-	result = /obj/item/clothing/suit/armor/f13/combat
+	result = /obj/item/clothing/suit/armor/f13/combat/laserproof
 	reqs = list(/obj/item/stack/sheet/mineral/titanium = 5,
 				/obj/item/clothing/suit/armor/f13/combat = 1,
 				/obj/item/stack/crafting/goodparts = 2)
