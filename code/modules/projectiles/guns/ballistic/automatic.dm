@@ -1183,8 +1183,8 @@
 	fire_sound = 'sound/f13weapons/assaultrifle_fire.ogg'
 
 /obj/item/gun/ballistic/automatic/bar
-	name = "Colt R80 Automatic Rifle (debug)"
-	desc = "An ancient machine gun manufactured that was out of date even before the great war that issued to police and federal agents. It is based on the Browning Automatic Rifle. (This is not meant to be seen yet.)"
+	name = "automatic rifle (debug)"
+	desc = "An ancient machine gun that looks like outdated even by pre-war standards. It has Colt etched on one-side and Sierra Madre on the other. It is alarmingly heavy for a rifle.(Debug)"
 	icon = 'icons/fallout/objects/guns/bar.dmi'
 	slot_flags = ITEM_SLOT_BACK
 	icon_state = "BAR"
