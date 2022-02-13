@@ -506,7 +506,7 @@
 	STR.max_items = 7
 
 
-/obj/item/storage/belt/military/followers/PopulateContents()
+/obj/item/storage/belt/military/army/military/followers/PopulateContents()
 	new /obj/item/reagent_containers/spray/pepper(src)
 	new /obj/item/restraints/handcuffs(src)
 	new /obj/item/melee/classic_baton(src)
@@ -869,8 +869,8 @@
 /obj/item/storage/belt/sabre
 	name = "sabre sheath"
 	desc = "An ornate sheath designed to hold an officer's blade."
-	icon_state = "sheath"
-	item_state = "sheath"
+	icon_state = "utilitybelt"
+	item_state = "utility"
 	w_class = WEIGHT_CLASS_BULKY
 	content_overlays = TRUE
 	onmob_overlays = TRUE

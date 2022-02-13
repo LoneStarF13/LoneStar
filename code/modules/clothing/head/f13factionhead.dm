@@ -302,6 +302,11 @@
 	icon_state = "legion-vex-alt"
 	item_state = "legion-vex-alt"
 
+/obj/item/clothing/head/helmet/f13/legion/vet/nightvexil
+	name = "legion nightstalker vexillarius helmet"
+	desc = "This helmet is decorated with the pelt of a nightstalker."
+	icon_state = "legion-vex-night"
+	item_state = "legion-vex-night"
 
 /obj/item/clothing/head/helmet/f13/legion/venator
 	name = "legion venator hood"
@@ -1012,6 +1017,9 @@
 /obj/item/clothing/head/helmet/riot/vaultsec
 	name = "security helmet"
 	desc = "A standard issue vault security helmet, pretty robust."
+	armor = list("melee" = 50, "bullet" = 50, "laser" = 25, energy = "25", "bomb" = 50, "bio" = 0, "rad" = 0, "fire" = 50, "acid" = 50, "wound" = 50)
+	slowdown = 0.01
+
 
 /obj/item/clothing/head/helmet/riot/vaultsec/vc
 	name = "vtcc riot helmet"
