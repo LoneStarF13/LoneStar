@@ -782,6 +782,7 @@ commented out pending rework*/
 	if(visualsOnly)
 		return
 	ADD_TRAIT(H, TRAIT_BIG_LEAGUES, src)
+	ADD_TRAIT(H, TRAIT_HARD_YARDS, src)
 
 /datum/outfit/job/CaesarsLegion/Legionnaire/f13legionary
 	name = "Prime Legionnaire"
@@ -807,7 +808,6 @@ commented out pending rework*/
 	backpack_contents = list(
 		/obj/item/ammo_box/a357 = 3,
 		/obj/item/restraints/legcuffs/bola = 1,
-		/obj/item/book/granter/trait/trekking = 1,
 		)
 
 /datum/outfit/loadout/primerifle
