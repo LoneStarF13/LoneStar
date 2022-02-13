@@ -334,7 +334,7 @@
 	floor_tile = /obj/item/stack/tile/carpet/royalblue
 	canSmoothWith = list(/turf/open/floor/carpet/royalblue, /turf/open/floor/carpet/royalblue/airless)
 	
-/turf/open/floor/carpet/vault)
+/turf/open/floor/carpet/vault
 	icon = 'icons/turf/floors/carpet_vault.dmi'
 	canSmoothWith = list(/turf/open/floor/carpet/vault)
 
