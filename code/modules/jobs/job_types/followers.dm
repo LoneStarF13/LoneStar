@@ -142,8 +142,8 @@ Practitioner
 	flag = F13PRACTITIONER
 	department_flag = FOLLOWERS
 	faction = "Followers"
-	total_positions = 3
-	spawn_positions = 3
+	total_positions = 2
+	spawn_positions = 2
 	supervisors = "Followers having no strict command structure, don't report to anyone- though they will look to the Administrator for guidance."
 	description ="You are a Followers Doctor. As a Followers Doctor it is your responsibility to maintain working order in the hospital and to manage its staff and to treat patients who come in regardless of whether or not they can afford care. Some Doctors are known for leaving the hospital to look for injured or those who need help who may not come to a health facility, however it is key that those who do travel around to give aid keep in touch with the rest of staff and if there are no other able physicans or chemist that they stay to offer the best aid possible."
 	forbids = "Causing harm to others except in times of self-defense."
@@ -254,8 +254,8 @@ Follower Volunteer
 	flag = F13FOLLOWERVOLUNTEER
 	department_flag = FOLLOWERS
 	faction = "Followers"
-	total_positions = 3
-	spawn_positions = 3
+	total_positions = 2
+	spawn_positions = 2
 	supervisors = "Followers having no strict command structure, don't report to anyone- though they will look to the Administrator for guidance and the other Doctors as well."
 	description = "You are a Follower Volunteer. As a Volunteer, you make sure they get connected to the right people to find treatment, assist in the functions of the hospital, learn from senior Followers, and utilize first aid to the best of your capacity when Doctors are not present."
 	forbids = "Causing harm to others except in times of self-defense."
@@ -344,8 +344,8 @@ Follower Volunteer
 	flag = F13FOLLOWERGUARD
 	department_flag = FOLLOWERS
 	faction = "Followers"
-	total_positions = 2
-	spawn_positions = 2
+	total_positions = 3
+	spawn_positions = 3
 	supervisors = "Followers having no strict command structure, don't report to anyone- though they will look to the Administrator for guidance and the other Doctors as well."
 	description = "You are a Follower Guard. As a Guard for the Followers of Apocalypse, you are responsible for the safety and the maintenance of order in the hospital and among your peers. Your reason for being here is to make sure the other staff can provide education and medical services to those in need, furthering research in non-military matters, as well as helping their communities get access to basic necessities. "
 	forbids = "Causing harm to others except in times of self-defense or in defense of other followers."
@@ -355,10 +355,19 @@ Follower Volunteer
 	outfit = /datum/outfit/job/followers/f13followerguard
 
 	loadout_options = list(/datum/outfit/loadout/guard_ranged,
-	/datum/outfit/loadout/guard_close
+	/datum/outfit/loadout/guard_close,
+	/datum/outfit/loadout/guard_energy
 	)
+
 	access = list(ACCESS_FOLLOWER, ACCESS_MILITARY)
 	minimal_access = list(ACCESS_FOLLOWER, ACCESS_MILITARY)
+
+/datum/outfit/job/followers/f13followerguard/pre_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
+	..()
+	if(visualsOnly)
+		return
+	ADD_TRAIT(H, TRAIT_TECHNOPHREAK, src)
+	ADD_TRAIT(H, TRAIT_GENERIC, src)
 
 /datum/outfit/job/followers/f13followerguard
 	name =	"Followers Guard"
@@ -366,32 +375,43 @@ Follower Volunteer
 	belt =	/obj/item/storage/belt/military/army/military/followers
 	id =	/obj/item/card/id/silver
 	uniform =	/obj/item/clothing/under/f13/bodyguard
-	suit =	/obj/item/clothing/suit/armor/vest/big
+	suit =	/obj/item/clothing/suit/armor/bulletproof
 	head =	/obj/item/clothing/head/helmet/riot/vaultsec
 	glasses =	/obj/item/clothing/glasses/sunglasses
-	shoes =	/obj/item/clothing/shoes/combat
+	shoes =	/obj/item/clothing/shoes/jackboots
 	neck =	/obj/item/storage/belt/holster
 	backpack =	/obj/item/storage/backpack/explorer
 	satchel =	/obj/item/storage/backpack/satchel/explorer
 	backpack_contents = list(
-		/obj/item/gun/energy/laser/complianceregulator = 1,
+		/obj/item/melee/onehanded/knife/bowie = 1,
 		/obj/item/flashlight/seclite = 1,
-		/obj/item/storage/firstaid/ancient = 1,
-		/obj/item/stock_parts/cell/ammo/ec = 2,
+		/obj/item/storage/survivalkit_aid_adv = 1,
 	)
 
 /datum/outfit/loadout/guard_ranged
 	name = "Followers Ranged Guard"
-	suit_store = /obj/item/gun/ballistic/rifle/repeater/cowboy
+	suit_store = /obj/item/gun/ballistic/automatic/assault_carbine/worn
 	backpack_contents = list(
-		/obj/item/ammo_box/tube/a357 = 2,
+		/obj/item/ammo_box/magazine/m5mm = 1,
+		/obj/item/gun/energy/laser/complianceregulator = 1,
+		/obj/item/stock_parts/cell/ammo/ec = 1,
 	)
 
 /datum/outfit/loadout/guard_close
 	name = "Followers Close Protection Guard"
-	suit_store = /obj/item/gun/ballistic/shotgun/hunting
+	suit_store = /obj/item/gun/ballistic/shotgun/police
 	backpack_contents = list(
 		/obj/item/ammo_box/shotgun/bean = 1,
-		/obj/item/ammo_box/shotgun/buck = 1,
+		/obj/item/ammo_box/shotgun/buck = 2,
 		/obj/item/ammo_box/shotgun/slug = 1,
+		/obj/item/gun/energy/laser/complianceregulator = 1,
+		/obj/item/stock_parts/cell/ammo/ec = 1,
+	)
+
+/datum/outfit/loadout/guard_energy
+	name = "Followers Energy Guard"
+	suit_store = /obj/item/gun/ballistic/shotgun/police
+	backpack_contents = list(
+		/obj/item/gun/energy/laser/pistol=2,
+		/obj/item/stock_parts/cell/ammo/ec=2,
 	)
