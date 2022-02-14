@@ -552,15 +552,13 @@ Mayor
 /datum/outfit/job/den/f13dendoc
 	name = "Doctor"
 	jobtype = /datum/job/oasis/f13dendoc
-	chemwhiz = TRUE
 	uniform = /obj/item/clothing/under/f13/medic
-	glasses = /obj/item/clothing/glasses/hud/health
 	ears = /obj/item/radio/headset/headset_town
 	neck = /obj/item/clothing/neck/stethoscope
 	suit = /obj/item/clothing/suit/toggle/labcoat
-	backpack = /obj/item/storage/backpack/medic
-	satchel = /obj/item/storage/backpack/satchel/med
-	shoes = /obj/item/clothing/shoes/sneakers/white
+	backpack = /obj/item/storage/backpack/satchel/explorer
+	satchel = /obj/item/storage/backpack/satchel/explorer
+	shoes = /obj/item/clothing/shoes/jackboots
 	id = /obj/item/card/id/dendoctor
 	l_pocket = /obj/item/storage/bag/money/small/settler
 	r_pocket = /obj/item/flashlight/flare
@@ -573,6 +571,8 @@ Mayor
 	..()
 	if(visualsOnly)
 		return
+	ADD_TRAIT(H, TRAIT_CHEMWHIZ, src)
+	ADD_TRAIT(H, TRAIT_MEDICALEXPERT, src)
 	ADD_TRAIT(H, TRAIT_SURGERY_HIGH, src)
 /*--------------------------------------------------------------*/
 
