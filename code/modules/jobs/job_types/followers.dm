@@ -359,15 +359,15 @@ Follower Volunteer
 	/datum/outfit/loadout/guard_energy
 	)
 
+	access = list(ACCESS_FOLLOWER, ACCESS_MILITARY)
+	minimal_access = list(ACCESS_FOLLOWER, ACCESS_MILITARY)
+
 /datum/outfit/job/followers/f13followerguard/pre_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()
 	if(visualsOnly)
 		return
 	ADD_TRAIT(H, TRAIT_TECHNOPHREAK, src)
 	ADD_TRAIT(H, TRAIT_GENERIC, src)
-
-	access = list(ACCESS_FOLLOWER, ACCESS_MILITARY)
-	minimal_access = list(ACCESS_FOLLOWER, ACCESS_MILITARY)
 
 /datum/outfit/job/followers/f13followerguard
 	name =	"Followers Guard"
