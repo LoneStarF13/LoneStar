@@ -101,7 +101,7 @@
 
 /datum/crafting_recipe/metalarmor/polish
 	name = "Polished Metal Armor"
-	result = /obj/item/clothing/suit/armor/f13/metalarmor/laseproof
+	result = /obj/item/clothing/suit/armor/f13/metalarmor/laserproof
 	reqs = list(/obj/item/clothing/suit/armor/f13/metalarmor,
 				/obj/item/crafting/abraxo,
 				)
