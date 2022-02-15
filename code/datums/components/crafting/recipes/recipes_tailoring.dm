@@ -99,6 +99,17 @@
 	category = CAT_CLOTHING
 	subcategory = CAT_ARMOR
 
+/datum/crafting_recipe/metalarmor/polish
+	name = "Polished Metal Armor"
+	result = /obj/item/clothing/suit/armor/f13/metalarmor/laseproof
+	reqs = list(/obj/item/clothing/suit/armor/f13/metalarmor,
+				/obj/item/crafting/abraxo,
+				)
+	tools = list(TOOL_WORKBENCH)
+	time = 60
+	category = CAT_CLOTHING
+	subcategory = CAT_ARMOR		
+	
 /datum/crafting_recipe/metalarmormk2
 	name = "Metal Armor, reinforced"
 	result = /obj/item/clothing/suit/armor/f13/metalarmor/reinforced
