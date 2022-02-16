@@ -1776,4 +1776,7 @@
 	icon_state = "bone_dancer"
 	item_state = "bone_dancer"
 	item_color = "bone_dancer"
-
+	var/sleeves_adjusted = 0
+	alt_covers_chest = TRUE
+	fitted = FEMALE_UNIFORM_TOP
+	can_adjust = TRUE

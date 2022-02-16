@@ -1422,7 +1422,8 @@ datum/job/wasteland/f13dendoctor
 	/datum/outfit/loadout/eightiesshaman,
 	/datum/outfit/loadout/rustwalkersscipher,
 	/datum/outfit/loadout/rustwalkersscrapper,
-	/datum/outfit/loadout/rustwalkersshaman
+	/datum/outfit/loadout/rustwalkersshaman,
+	/datum/outfit/loadout/bonedancerexile
 	)
 
 /datum/outfit/job/wasteland/f13tribal/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
@@ -1711,7 +1712,7 @@ datum/job/wasteland/f13dendoctor
 
 	)
 //Bone Dancer
-/datum/outfit/loadout/rustwalkersshaman
+/datum/outfit/loadout/bonedancerexile
 	name = "Bone Dancer Exile"
 	backpack_contents = list(
 		/obj/item/clothing/under/f13/bone = 1,
