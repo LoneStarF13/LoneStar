@@ -1208,7 +1208,7 @@ obj/item/clothing/suit/armor/f13/exile/cust0m
 
 /obj/item/clothing/suit/f13/tribal/bone
 	name = "Reinforced Bone armor"
-	desc = "A tribal armor plate, crafted from animal bone."
+	desc = "A tribal armor plate, reinforced with leather and a few metal parts."
 	icon_state = "bone_dancer_armor"
 	item_state = "bone_dancer_armor"
 	blood_overlay_type = "armor"
@@ -1219,7 +1219,7 @@ obj/item/clothing/suit/armor/f13/exile/cust0m
 
 /obj/item/clothing/suit/f13/tribal/heavy/bone
 	name = "Heavy Bone armor"
-	desc = "A tribal armor plate, crafted from animal bone."
+	desc = "A tribal full armor plate, crafted from animal bone, metal and leather. Usually worn by the Bone Dancers"
 	icon_state = "bone_dancer_armor_heavy"
 	item_state = "bone_dancer_armor_heavy"
 	blood_overlay_type = "armor"

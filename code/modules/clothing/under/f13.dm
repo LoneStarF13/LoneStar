@@ -1772,7 +1772,7 @@
 
 /obj/item/clothing/under/f13/bone
 	name = "Bone Dancer outfit outfit"
-	desc = "A simple pair of blue shorts with a length of the fabric extending down each leg. Commonly worn by members of the Sorrows tribe."
+	desc = "A full body skin tight overalls, seemingly of brown color. Commonly worn by members of the Bone Dancers tribe."
 	icon_state = "bone_dancer"
 	item_state = "bone_dancer"
 	item_color = "bone_dancer"
