@@ -1771,7 +1771,7 @@
 	item_color = "sorrows_under_f"
 
 /obj/item/clothing/under/f13/bone
-	name = "Bone Dancer outfit outfit"
+	name = "Bone Dancer outfit"
 	desc = "A full body skin tight overalls, seemingly of brown color. Commonly worn by members of the Bone Dancers tribe."
 	icon_state = "bone_dancer"
 	item_state = "bone_dancer"
