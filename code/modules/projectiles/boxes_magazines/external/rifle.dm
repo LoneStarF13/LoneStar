@@ -75,14 +75,38 @@
 	start_empty = 1
 
 /obj/item/ammo_box/magazine/m5mm
-	name = "Assault Rifle Magazine (5mm)"
-	icon_state = "r30"
+	name = "rifle magazine (5mm)"
+	icon_state = "r20"
 	caliber = "m5mm"
 	ammo_type = /obj/item/ammo_casing/m5mm
-	max_ammo = 30
+	max_ammo = 20
 	multiple_sprites = 2
 
 /obj/item/ammo_box/magazine/m5mm/empty
+	start_empty = 1
+
+/obj/item/ammo_box/magazine/m5mm/small
+	name = "small rifle magazine (5mm)"
+	icon_state = "r10"
+	max_ammo = 10
+
+/obj/item/ammo_box/magazine/m5mm/small/empty
+	start_empty = 1
+
+/obj/item/ammo_box/magazine/m5mm/assault
+	name = "rifle magazine (5mm)"
+	icon_state = "r30"
+	max_ammo = 30
+
+/obj/item/ammo_box/magazine/m5mm/assault/empty
+	start_empty = 1
+
+/obj/item/ammo_box/magazine/m5mm/extended
+	name = "extended rifle magazine (5mm)"
+	icon_state = "r50"
+	max_ammo = 50
+
+/obj/item/ammo_box/magazine/m5mm/extended/empty
 	start_empty = 1
 
 /obj/item/ammo_box/magazine/garand308

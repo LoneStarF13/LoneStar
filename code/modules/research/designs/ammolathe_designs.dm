@@ -83,6 +83,13 @@
 	build_path = /obj/item/ammo_box/magazine/m556/rifle/empty
 	category = list("initial", "Simple Magazines")
 
+/datum/design/ammolathe/rifle5mm
+	name = "empty 20rd rifle magazine (5mm)"
+	id = "rifle5mm"
+	materials = list(/datum/material/iron = 4000)
+	build_path = /obj/item/ammo_box/magazine/m5mm
+	category = list("initial", "Simple Magazines")
+
 /datum/design/ammolathe/m9mmds
 	name = "empty doublestack magazine (9mm)"
 	id = "m9mmds"
@@ -526,7 +533,7 @@
 	name = "empty 30rd rifle magazine (5mm)"
 	id = "rifleassault5mm"
 	materials = list(/datum/material/iron = 8000)
-	build_path = /obj/item/ammo_box/magazine/m5mm/empty
+	build_path = /obj/item/ammo_box/magazine/m5mm/assault/empty
 	category = list("initial", "Advanced Magazines")
 
 /datum/design/ammolathe/cz535mm
