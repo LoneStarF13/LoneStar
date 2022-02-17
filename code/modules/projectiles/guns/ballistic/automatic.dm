@@ -1229,9 +1229,9 @@
 	lefthand_file = 'icons/fallout/onmob/weapons/guns_lefthand.dmi'
 	righthand_file = 'icons/fallout/onmob/weapons/guns_righthand.dmi'
 	icon_state = "rifle-police"
-	extra_damage = 22
-	autofire_shot_delay = 3.5
-	spread = 11
+	extra_damage = 22 //longer barrel
+	autofire_shot_delay = 3.5 //not a real auto-gun
+	spread = 8 //longer barrel
 	can_scope = TRUE
 	
 /obj/item/gun/ballistic/automatic/assault_carbine/worn	
