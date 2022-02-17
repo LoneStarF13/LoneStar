@@ -14377,6 +14377,7 @@
 /obj/item/stack/medical/suture/medicated,
 /obj/item/stack/medical/mesh/advanced,
 /obj/item/stack/medical/mesh/advanced,
+/obj/item/storage/pill_bottle/neurine,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
 	name = "metal plating"
 	},
@@ -16165,6 +16166,10 @@
 /obj/item/reagent_containers/spray/cleaner{
 	pixel_x = -9
 	},
+/obj/item/storage/firstaid/ancient,
+/obj/item/storage/firstaid/ancient,
+/obj/item/storage/firstaid/emergency,
+/obj/item/storage/firstaid/emergency,
 /turf/open/floor/wood/f13/oak,
 /area/f13/clinic)
 "gJY" = (
@@ -20515,6 +20520,7 @@
 /obj/item/book/granter/crafting_recipe/gunsmith_one,
 /obj/item/book/granter/crafting_recipe/gunsmith_two,
 /obj/machinery/autolathe/ammo,
+/obj/item/book/granter/crafting_recipe/gunsmith_three,
 /turf/open/floor/f13/wood,
 /area/f13/followers)
 "iuB" = (
@@ -20970,6 +20976,7 @@
 /area/f13/village)
 "iFl" = (
 /obj/machinery/workbench/advanced,
+/obj/item/storage/part_replacer,
 /turf/open/floor/f13/wood,
 /area/f13/followers)
 "iFn" = (
@@ -21020,6 +21027,11 @@
 /obj/item/paper_bin,
 /obj/item/pen,
 /obj/structure/barricade/bars,
+/obj/structure/railing,
+/obj/machinery/door/poddoor/shutters{
+	id = "followershutters";
+	name = "follower shutters"
+	},
 /turf/open/floor/f13/wood,
 /area/f13/followers)
 "iGM" = (
@@ -21041,6 +21053,10 @@
 /obj/structure/simple_door/tentflap_cloth,
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/building)
+"iHc" = (
+/obj/machinery/vending/medical,
+/turf/open/floor/wood/f13/oak,
+/area/f13/clinic)
 "iHj" = (
 /obj/structure/chair{
 	dir = 8
@@ -21960,6 +21976,11 @@
 "iWY" = (
 /obj/structure/table/reinforced,
 /obj/structure/barricade/bars,
+/obj/structure/railing,
+/obj/machinery/door/poddoor/shutters{
+	id = "followershutters";
+	name = "follower shutters"
+	},
 /turf/open/floor/f13/wood,
 /area/f13/followers)
 "iXe" = (
@@ -23797,6 +23818,11 @@
 /obj/structure/rack/shelf_metal,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
+/obj/item/stack/sheet/metal/fifty,
+/obj/item/stack/sheet/metal/fifty,
+/obj/item/stack/sheet/glass/fifty,
+/obj/item/stack/ore/blackpowder/five,
+/obj/item/stack/ore/blackpowder/five,
 /turf/open/floor/f13/wood,
 /area/f13/followers)
 "jKX" = (
@@ -29840,6 +29866,15 @@
 	},
 /turf/open/floor/f13/wood,
 /area/f13/building)
+"mkI" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/button/door{
+	id = "followershutters";
+	name = "follower shutters";
+	pixel_y = 30
+	},
+/turf/open/floor/f13/wood,
+/area/f13/followers)
 "mkK" = (
 /obj/item/reagent_containers/glass/bucket{
 	desc = "It smells awful.";
@@ -42674,6 +42709,15 @@
 	icon_state = "plating"
 	},
 /area/f13/building)
+"rSk" = (
+/obj/structure/table/reinforced,
+/obj/structure/barricade/bars,
+/obj/machinery/door/poddoor/shutters{
+	id = "followershutters";
+	name = "follower shutters"
+	},
+/turf/open/floor/f13/wood,
+/area/f13/followers)
 "rSy" = (
 /obj/machinery/door/poddoor{
 	id = 42
@@ -89663,7 +89707,7 @@ ydO
 mHj
 kvy
 ybx
-xAm
+iHc
 xAm
 xAm
 dma
@@ -96643,7 +96687,7 @@ dMW
 gcK
 ktB
 wvT
-mBD
+mkI
 mBD
 vQe
 iGE
@@ -97160,7 +97204,7 @@ wvT
 cUG
 vQe
 mBD
-iWY
+rSk
 jwM
 vQe
 nWy
