@@ -1230,11 +1230,9 @@
 	righthand_file = 'icons/fallout/onmob/weapons/guns_righthand.dmi'
 	icon_state = "rifle-police"
 	extra_damage = 22
-	spread = 1.1
-	fire_delay = 3.5
+	autofire_shot_delay = 3.5
+	spread = 11
 	can_scope = TRUE
-	can_automatic = FALSE
-	semi_auto = TRUE
 	
 /obj/item/gun/ballistic/automatic/assault_carbine/worn	
 	name = "worn assault carbine"
@@ -1272,10 +1270,10 @@
 	icon_state = "BAR"
 	item_state = "BAR"
 	icon_prefix = "BAR"
+	automatic = 1
 	force = 24 //club
-	burst_size = 1
-	burst_shot_delay = 2
 	slowdown = 1.25 //really goddamn big
+	autofire_shot_delay = 2.75
 	extra_damage = 28
 	spread = 12
 	recoil = 0.3
