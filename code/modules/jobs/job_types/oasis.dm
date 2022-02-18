@@ -44,7 +44,7 @@ Mayor
 
 	loadout_options = list(
 			/datum/outfit/loadout/mayoral,
-			/datum/outfit/loadout/dictator,
+			/datum/outfit/loadout/general,
 			/datum/outfit/loadout/firstcitizen,
 			/datum/outfit/loadout/highroller,
 					)
@@ -69,20 +69,22 @@ Mayor
 	shoes = 		/obj/item/clothing/shoes/f13/tan
 	uniform = /obj/item/clothing/under/f13/gentlesuit
 	head = /obj/item/clothing/head/f13/town/big
-	backpack_contents = list( 
+	backpack_contents = list(
 		/obj/item/storage/box/citizenship_permits = 1, \
 		/obj/item/pen/fountain/captain = 1,
 		)
-		
 
 
-/datum/outfit/loadout/dictator
-	name = "Mayor for Life"
+
+/datum/outfit/loadout/general
+	name = "Commander in Chief"
 	backpack_contents = list(
-	/obj/item/clothing/under/f13/general/oasis = 1,
+	/obj/item/clothing/under/f13/army/general= 1,
 	/obj/item/clothing/head/f13/army/general = 1,
-	/obj/item/gun/ballistic/automatic/pistol/m1911/custom = 1,
-	/obj/item/ammo_box/magazine/m45 = 2,
+	/obj/item/clothing/suit/armor/f13/army/general = 1,
+	/obj/item/gun/energy/laser/pistol = 1,
+	/obj/item/stock_parts/cell/ammo/ec = 2,
+	/obj/item/storage/belt/holster/legholster = 1,
 	/obj/item/clothing/shoes/jackboots = 1,
 	/obj/item/clothing/mask/cigarette/pipe/cobpipe = 1,
 	)
@@ -97,7 +99,7 @@ Mayor
 		/obj/item/clothing/shoes/f13/cowboy = 1,
 		/obj/item/clothing/mask/cigarette/cigar = 1,
 		)
-	
+
 /datum/outfit/loadout/firstcitizen
 	name = "First Citizen"
 	backpack_contents = list(
