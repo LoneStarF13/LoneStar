@@ -1201,7 +1201,7 @@
 	burst_shot_delay = 2.0
 	is_automatic = TRUE
 	automatic = 1
-	autofire_shot_delay = 2.5
+	autofire_shot_delay = 2.2
 	extra_damage = 20
 	extra_penetration = 0.25
 	spread = 10 //high-velocity
@@ -1239,8 +1239,7 @@
 	desc = "The U.S. army carbine version of the R91, made by Colt and issued to special forces. This one is beat-up and falling apart."
 	icon_state = "assault_carbine"
 	fire_delay = 3.5
-	burst_shot_delay = 2.5
-	extra_penetration = 0.15
+	burst_shot_delay = 2.2
 	spread = 14
 	extra_damage = 18
 
