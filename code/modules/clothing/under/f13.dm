@@ -29,7 +29,7 @@
 	desc = "Khaki officers uniform with gold trimming over a black turtleneck."
 	icon_state = "uniform_enclave_officer"
 	item_state = "uniform_enclave_officer"
-	
+
 /obj/item/clothing/under/f13/enclave/intel
 	name = "intel officer uniform"
 	desc = "Dark pants and turtleneck with hidden kevlar layers, since intel officers often wear no proper armor."
@@ -869,7 +869,7 @@
 	item_state = "army_officer"
 
 /obj/item/clothing/under/f13/army/general
-	name = "US Army officer's combat uniform"
+	name = "US Army general's combat uniform"
 	desc = "Standard issue combat uniform for the Army, worn by general rank officers."
 	icon = 'icons/fallout/clothing/uniforms.dmi'
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/uniform.dmi'
@@ -1311,7 +1311,7 @@
 	item_state = "lb_suit"
 	item_color = "general"
 	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 20, "fire" = 40, "acid" = 40)
-	
+
 /obj/item/clothing/under/f13/general/oasis
 	name = "dictator's overcoat"
 	desc = "A grim looking overcoat - preferable standard for the ruler of oasis.<br>It's decorated with golden stars, each one adorned with a tree."
