@@ -1274,7 +1274,7 @@
 	slowdown = 1.25 //really goddamn big
 	autofire_shot_delay = 2.75
 	extra_damage = 28
-	spread = 12
+	spread = 10
 	recoil = 0.3
 	actions_types = list(/datum/action/item_action/toggle_firemode)
 	fire_sound = 'sound/f13weapons/assaultrifle_fire.ogg'
