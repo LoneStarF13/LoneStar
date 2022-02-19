@@ -2800,6 +2800,10 @@
 /obj/machinery/smartfridge/bottlerack/grownbin,
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/wasteland)
+"biU" = (
+/obj/structure/flora/ausbushes/lavendergrass,
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/wasteland)
 "bjg" = (
 /obj/structure/rack,
 /obj/effect/spawner/lootdrop/f13/crafting,
@@ -7276,6 +7280,10 @@
 	icon_state = "darkdirtysolid"
 	},
 /area/f13/caves)
+"dmo" = (
+/obj/effect/decal/riverbank,
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/wasteland)
 "dmF" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
@@ -7534,6 +7542,14 @@
 	pixel_y = 6
 	},
 /turf/open/floor/carpet/red,
+/area/f13/building)
+"drV" = (
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue/side{
+	dir = 1
+	},
 /area/f13/building)
 "dsb" = (
 /obj/structure/table/wood/settler,
@@ -8844,6 +8860,9 @@
 /obj/structure/dresser,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
+"dXT" = (
+/turf/open/floor/plasteel/f13/vault_floor/yellow/white/whiteyellowchess/whiteyellowchess2,
+/area/f13/building)
 "dXV" = (
 /obj/effect/decal/remains/human,
 /obj/item/clothing/head/f13/ncr/steelpot_bandolier{
@@ -11827,10 +11846,6 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
 	icon_state = "floorrustysolid"
 	},
-/area/f13/building)
-"fkW" = (
-/obj/structure/flora/grass/wasteland,
-/turf/closed/wall/f13/wood,
 /area/f13/building)
 "flw" = (
 /obj/machinery/light/small{
@@ -15841,12 +15856,6 @@
 	},
 /turf/open/floor/f13/wood,
 /area/f13/building)
-"gZq" = (
-/obj/structure/flora/ausbushes/sparsegrass{
-	pixel_y = 4
-	},
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
 "gZy" = (
 /obj/structure/chair/greyscale{
 	dir = 1
@@ -15992,6 +16001,13 @@
 	icon_state = "fence_wood"
 	},
 /turf/open/floor/wood/f13/oak,
+/area/f13/building)
+"hcc" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light,
+/turf/open/floor/plasteel/darkred/side{
+	dir = 1
+	},
 /area/f13/building)
 "hcp" = (
 /obj/structure/simple_door/wood,
@@ -16578,6 +16594,13 @@
 /obj/item/gavelhammer,
 /turf/open/floor/wood/f13/carpet,
 /area/f13/building)
+"hlP" = (
+/obj/structure/ladder/unbreakable{
+	height = 2;
+	id = "vaultladder"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/yellow/white/whiteyellowchess/whiteyellowchess2,
+/area/f13/building)
 "hlW" = (
 /obj/effect/decal/marking{
 	icon_state = "dottedverticalcorroded"
@@ -16844,6 +16867,10 @@
 	icon_state = "housewood3-broken"
 	},
 /area/f13/building)
+"hqU" = (
+/obj/structure/flora/ausbushes/fernybush,
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/wasteland)
 "hqX" = (
 /obj/structure/table/wood,
 /obj/item/storage/book/bible,
@@ -18312,10 +18339,6 @@
 /area/f13/tunnel)
 "hXb" = (
 /turf/open/floor/wood/f13/stage_r,
-/area/f13/wasteland)
-"hXe" = (
-/obj/effect/decal/riverbank,
-/turf/open/indestructible/ground/outside/dirt,
 /area/f13/wasteland)
 "hXi" = (
 /obj/structure/window/fulltile/store{
@@ -24128,6 +24151,16 @@
 	icon_state = "floorrusty"
 	},
 /area/f13/building)
+"ktf" = (
+/obj/structure/vaultdoor{
+	desc = "An old, thick bulkhead door. Or what's left of it, at least. The door itself has been ripped off the frame, and where it went is anyone's guess.";
+	icon_state = "empty";
+	name = "bank vault door";
+	pixel_x = -16;
+	pixel_y = -32
+	},
+/turf/open/floor/plasteel/f13/vault_floor/yellow/white/whiteyellowchess/whiteyellowchess2,
+/area/f13/building)
 "ktB" = (
 /turf/closed/indestructible/rock,
 /area/f13/caves)
@@ -24142,9 +24175,6 @@
 	dir = 1
 	},
 /turf/open/floor/wood/f13/oakbroken3,
-/area/f13/building)
-"kus" = (
-/turf/open/floor/plasteel/f13/vault_floor/yellow/white/whiteyellowchess/whiteyellowchess2,
 /area/f13/building)
 "kut" = (
 /obj/structure/destructible/tribal_torch/lit,
@@ -26255,10 +26285,6 @@
 	},
 /turf/open/floor/carpet/green,
 /area/f13/followers)
-"lrN" = (
-/obj/structure/flora/ausbushes/fernybush,
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
 "lrQ" = (
 /turf/open/indestructible/ground/outside/ruins{
 	icon_state = "rubbleslab"
@@ -28978,14 +29004,6 @@
 	icon_state = "innermaincornerouter"
 	},
 /area/f13/wasteland)
-"mEZ" = (
-/obj/structure/flora/ausbushes/sparsegrass{
-	pixel_y = 4
-	},
-/obj/structure/flora/ausbushes/fullgrass,
-/obj/structure/flora/ausbushes/fullgrass,
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
 "mFe" = (
 /obj/structure/simple_door/metal/store,
 /turf/open/floor/f13{
@@ -30582,12 +30600,6 @@
 	},
 /turf/closed/wall/rust,
 /area/f13/building)
-"nqv" = (
-/obj/effect/landmark/start/f13/settler,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
-	name = "metal plating"
-	},
-/area/f13/wasteland)
 "nqw" = (
 /obj/structure/window{
 	dir = 4;
@@ -33014,16 +33026,6 @@
 /obj/structure/chair/stool/retro/black,
 /turf/open/floor/f13/wood,
 /area/f13/building)
-"oxz" = (
-/obj/structure/table/glass,
-/obj/machinery/computer/terminal{
-	dir = 4;
-	doc_content_1 = "I'd like to report a crime happening at your house, Officer Mack. Your house is about to burn for the crimes you committed against the People's Republic of China! I hope your sleeping family wakes up in time.. GLORY TO CHINA.";
-	doc_title_1 = "Crime Report.";
-	name = "Library terminal"
-	},
-/turf/open/floor/carpet/green,
-/area/f13/followers)
 "oxA" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/computer/card/legion,
@@ -33240,12 +33242,6 @@
 /obj/item/bedsheet,
 /turf/open/floor/f13/wood,
 /area/f13/village)
-"oCL" = (
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/open/floor/plasteel/darkred/side,
-/area/f13/building)
 "oCN" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table,
@@ -33453,6 +33449,10 @@
 	icon_state = "outerpavement"
 	},
 /area/f13/wasteland)
+"oHL" = (
+/obj/structure/flora/ausbushes/brflowers,
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/wasteland)
 "oHT" = (
 /obj/structure/chair/wood{
 	dir = 8
@@ -33574,6 +33574,10 @@
 	icon_state = "horizontalbottomborderbottom3"
 	},
 /area/f13/wasteland)
+"oKB" = (
+/obj/structure/flora/grass/wasteland,
+/turf/closed/wall/f13/wood,
+/area/f13/building)
 "oKE" = (
 /obj/structure/junk/drawer{
 	icon_state = "junk_bench"
@@ -35818,6 +35822,16 @@
 	name = "metal plating"
 	},
 /area/f13/building)
+"pKG" = (
+/obj/structure/table/glass,
+/obj/machinery/computer/terminal{
+	dir = 4;
+	doc_content_1 = "I'd like to report a crime happening at your house, Officer Mack. Your house is about to burn for the crimes you committed against the People's Republic of China! I hope your sleeping family wakes up in time.. GLORY TO CHINA.";
+	doc_title_1 = "Crime Report.";
+	name = "Library terminal"
+	},
+/turf/open/floor/carpet/green,
+/area/f13/followers)
 "pKI" = (
 /obj/structure/pool/ladder{
 	dir = 1;
@@ -37523,13 +37537,6 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/neutral/white/side,
 /area/f13/building)
-"qAk" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/light,
-/turf/open/floor/plasteel/darkred/side{
-	dir = 1
-	},
-/area/f13/building)
 "qAr" = (
 /obj/item/trash/cheesie,
 /turf/open/floor/f13/wood,
@@ -37654,6 +37661,12 @@
 	icon_state = "yellowrustyfull"
 	},
 /area/f13/building)
+"qCF" = (
+/obj/effect/landmark/start/f13/settler,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
+/area/f13/wasteland)
 "qCI" = (
 /obj/effect/mine/stun,
 /turf/open/floor/plasteel/f13/vault_floor/blue/side{
@@ -38234,13 +38247,6 @@
 	icon_state = "verticalrightborderleft0"
 	},
 /area/f13/wasteland)
-"qNE" = (
-/obj/structure/ladder/unbreakable{
-	height = 2;
-	id = "vaultladder"
-	},
-/turf/open/floor/plasteel/f13/vault_floor/yellow/white/whiteyellowchess/whiteyellowchess2,
-/area/f13/building)
 "qNK" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/sign/poster/prewar/poster82{
@@ -40257,10 +40263,6 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/village)
-"rLd" = (
-/obj/structure/flora/ausbushes/brflowers,
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
 "rLP" = (
 /obj/structure/table/wood/settler,
 /obj/machinery/light/small{
@@ -43516,6 +43518,14 @@
 	icon_state = "bar"
 	},
 /area/f13/building)
+"tla" = (
+/obj/structure/flora/ausbushes/sparsegrass{
+	pixel_y = 4
+	},
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/fullgrass,
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/wasteland)
 "tle" = (
 /obj/effect/decal/marking{
 	icon_state = "dottedverticalcorroded"
@@ -43927,11 +43937,6 @@
 	dir = 5;
 	icon_state = "outerpavement"
 	},
-/area/f13/wasteland)
-"ttu" = (
-/obj/structure/flora/ausbushes/fullgrass,
-/obj/structure/flora/ausbushes/ppflowers,
-/turf/open/indestructible/ground/outside/dirt,
 /area/f13/wasteland)
 "ttA" = (
 /obj/structure/wreck/trash/machinepiletwo,
@@ -44379,16 +44384,6 @@
 	},
 /turf/open/floor/carpet/black,
 /area/f13/ncr)
-"tEB" = (
-/obj/structure/vaultdoor{
-	desc = "An old, thick bulkhead door. Or what's left of it, at least. The door itself has been ripped off the frame, and where it went is anyone's guess.";
-	icon_state = "empty";
-	name = "bank vault door";
-	pixel_x = -16;
-	pixel_y = -32
-	},
-/turf/open/floor/plasteel/f13/vault_floor/yellow/white/whiteyellowchess/whiteyellowchess2,
-/area/f13/building)
 "tES" = (
 /obj/structure/rack,
 /obj/item/clothing/mask/luchador,
@@ -44638,10 +44633,6 @@
 	icon_state = "floorrustysolid"
 	},
 /area/f13/caves)
-"tLO" = (
-/obj/structure/flora/ausbushes/lavendergrass,
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
 "tLP" = (
 /obj/structure/junk/drawer{
 	icon_state = "junk_bench"
@@ -44854,6 +44845,10 @@
 	},
 /turf/closed/wall/f13/wood,
 /area/f13/legion)
+"tPF" = (
+/obj/machinery/mineral/wasteland_trader,
+/turf/open/floor/f13/wood,
+/area/f13/building)
 "tPY" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/sign/poster/prewar/poster81{
@@ -48450,6 +48445,12 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/neutral/neutralchess/neutralchess2,
 /area/f13/building)
+"vrR" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/darkred/side,
+/area/f13/building)
 "vsm" = (
 /obj/structure/table/wood,
 /obj/item/crafting/abraxo,
@@ -49017,6 +49018,12 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/ncr)
+"vFc" = (
+/obj/structure/flora/ausbushes/sparsegrass{
+	pixel_y = 4
+	},
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/wasteland)
 "vFn" = (
 /obj/structure/rack,
 /obj/item/crafting/bulb,
@@ -49350,16 +49357,6 @@
 	icon_state = "verticalrightborderright0"
 	},
 /area/f13/ncr)
-"vMA" = (
-/obj/structure/barricade/bars,
-/obj/machinery/light/small{
-	dir = 4;
-	pixel_y = -32
-	},
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
-	name = "metal plating"
-	},
-/area/f13/building)
 "vMB" = (
 /obj/item/storage/trash_stack,
 /turf/open/floor/wood/f13/old{
@@ -51280,14 +51277,6 @@
 "wHc" = (
 /obj/structure/simple_door/metal/iron,
 /turf/open/floor/wood,
-/area/f13/building)
-"wHd" = (
-/obj/machinery/light/small{
-	dir = 1
-	},
-/turf/open/floor/plasteel/f13/vault_floor/blue/side{
-	dir = 1
-	},
 /area/f13/building)
 "wHf" = (
 /obj/structure/rack,
@@ -53373,6 +53362,11 @@
 	icon_state = "horizontaloutermain0"
 	},
 /area/f13/wasteland)
+"xyQ" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/ppflowers,
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/wasteland)
 "xzk" = (
 /obj/structure/cable,
 /turf/open/floor/plating,
@@ -54217,6 +54211,16 @@
 /obj/machinery/door/unpowered/securedoor,
 /turf/open/floor/f13/wood,
 /area/f13/followers)
+"xUQ" = (
+/obj/structure/barricade/bars,
+/obj/machinery/light/small{
+	dir = 4;
+	pixel_y = -32
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
+/area/f13/building)
 "xUW" = (
 /obj/effect/spawner/lootdrop/f13/blueprintHigh,
 /obj/structure/rack,
@@ -76950,13 +76954,13 @@ kEI
 dge
 kEI
 sYX
-oCL
+vrR
 giS
 rRe
 dAn
 giS
 rRe
-qAk
+hcc
 ifU
 dCV
 uqa
@@ -78235,7 +78239,7 @@ mHj
 ydO
 mHj
 khy
-tLO
+biU
 hTL
 mHj
 ydO
@@ -78245,7 +78249,7 @@ iLK
 khy
 jmO
 khy
-ttu
+xyQ
 khy
 dCV
 dCV
@@ -78503,7 +78507,7 @@ xYI
 khy
 khy
 xYI
-mEZ
+tla
 dCV
 jPM
 kgU
@@ -79013,7 +79017,7 @@ ydO
 mHj
 iLK
 khy
-hXe
+dmo
 iNG
 hdX
 jmO
@@ -79527,7 +79531,7 @@ ydO
 mHj
 khy
 med
-gZq
+vFc
 khy
 khy
 khy
@@ -80035,7 +80039,7 @@ iLK
 khy
 khy
 khy
-tLO
+biU
 mHj
 ydO
 mHj
@@ -80563,7 +80567,7 @@ hYE
 hGw
 uCT
 dCV
-wHd
+drV
 kTy
 jdN
 nqp
@@ -80814,7 +80818,7 @@ dit
 dit
 mHj
 ydO
-nqv
+qCF
 uqf
 hGw
 iTE
@@ -81066,9 +81070,9 @@ khy
 khy
 ihi
 dit
-qNE
-kus
-tEB
+hlP
+dXT
+ktf
 mHj
 ydO
 mHj
@@ -81323,9 +81327,9 @@ khy
 khy
 khy
 dit
-qNE
-kus
-kus
+hlP
+dXT
+dXT
 mHj
 ydO
 mHj
@@ -81578,7 +81582,7 @@ gts
 pPg
 khy
 khy
-tLO
+biU
 dit
 dit
 dit
@@ -82869,7 +82873,7 @@ khy
 khy
 khy
 khy
-tLO
+biU
 khy
 mHj
 ydO
@@ -83393,7 +83397,7 @@ dCV
 lcm
 lMI
 meY
-vMA
+xUQ
 mJh
 nJH
 dCV
@@ -83889,7 +83893,7 @@ khy
 khy
 khy
 dit
-rpu
+tPF
 rpu
 gZi
 rpu
@@ -84931,9 +84935,9 @@ mHj
 ydO
 mHj
 khy
-lrN
+hqU
 khy
-tLO
+biU
 khy
 mHj
 dCV
@@ -86465,7 +86469,7 @@ khy
 mHj
 mHj
 hgJ
-rLd
+oHL
 hgJ
 iOm
 hgJ
@@ -86473,12 +86477,12 @@ fWX
 hgJ
 iOm
 dWp
-rLd
+oHL
 hgJ
 mHj
 hgJ
 hgJ
-rLd
+oHL
 dCV
 geM
 gQv
@@ -87235,7 +87239,7 @@ tWd
 khy
 mHj
 mHj
-rLd
+oHL
 gsT
 ybx
 ybx
@@ -88009,7 +88013,7 @@ mHj
 hgJ
 woj
 iyd
-oxz
+pKG
 jlm
 dma
 ybx
@@ -88520,7 +88524,7 @@ eCK
 khy
 mHj
 mHj
-rLd
+oHL
 woj
 qaI
 ybx
@@ -89034,7 +89038,7 @@ uqa
 khy
 mHj
 mHj
-rLd
+oHL
 gJP
 iLI
 iXB
@@ -90062,7 +90066,7 @@ uqa
 khy
 mHj
 mHj
-rLd
+oHL
 gsT
 qaI
 ybx
@@ -91355,7 +91359,7 @@ uqa
 dCV
 uqa
 uqa
-fkW
+oKB
 uqa
 aBH
 mfD
