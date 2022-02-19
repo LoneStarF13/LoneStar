@@ -579,7 +579,7 @@ obj/effect/spawner/lootdrop/f13/medical/rnd
 		/obj/item/storage/box/emps = 5,
 		/obj/item/organ/cyberimp/arm/janitor = 5,
 		/obj/item/reagent_containers/glass/bottle/fentanyl = 5,
-		/obj/item/reagent_containers/glass/bottle/frostoil = 5
+		/obj/item/reagent_containers/glass/bottle/frostoil = 5,
 		/obj/item/book/granter/trait/midsurgery = 5,
 		/obj/item/reagent_containers/glass/bottle/FEV_solution = 1,
 		)
