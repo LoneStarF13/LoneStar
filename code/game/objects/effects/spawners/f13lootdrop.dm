@@ -569,7 +569,7 @@ obj/effect/spawner/lootdrop/f13/medical/rnd/mid
 	lootcount = 1
 	
 	loot = list(
-		/obj/item/screwdriver/power
+		/obj/item/screwdriver/power,
 		/obj/item/wrench/power,
 		/obj/item/storage/box/medicine/stimpaks/stimpaks5,
 		/obj/item/stack/sheet/prewar/twenty,
