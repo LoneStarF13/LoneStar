@@ -562,6 +562,28 @@
 				/obj/item/reagent_containers/hypospray/medipen/medx,
 				/obj/item/storage/pill_bottle/chem_tin/buffout
 				)
+				
+obj/effect/spawner/lootdrop/f13/medical/rnd
+	name = "dungeon science loot"	//to replace guns as treasure in guarded areas
+	lootcount = 1
+	
+	loot = list(
+		/obj/item/reagent_containers/glass/beaker/meta = 5,
+		/obj/item/stack/sheet/mineral/abductor = 5,
+		/obj/item/scalpel/advanced = 5,
+		/obj/effect/spawner/bundle/f13/needler = 5,
+		/obj/item/storage/box/medicine/stimpaks/stimpaks5 = 5,
+		/obj/item/clothing/glasses/night = 5,
+		/obj/item/circuitboard/machine/chem_dispenser/apothecary = 5,
+		/obj/item/storage/box/stockparts/deluxe = 5,
+		/obj/item/storage/box/emps = 5,
+		/obj/item/organ/cyberimp/arm/janitor = 5,
+		/obj/item/reagent_containers/glass/bottle/fentanyl = 5,
+		/obj/item/reagent_containers/glass/bottle/frostoil = 5
+		/obj/item/book/granter/trait/midsurgery = 5,
+		/obj/item/reagent_containers/glass/bottle/FEV_solution = 1,
+		)
+		
 /*	------------------------------------------------
 	--------------WEAPON SPAWNERS-------------------
 	------------------------------------------------ */
@@ -1950,26 +1972,11 @@
 				/obj/item/book/granter/trait/pa_wear = 1,
 				/obj/item/book/granter/trait/explosives = 10,
 				/obj/item/book/granter/trait/explosives_advanced = 1,
-				/obj/item/book/granter/trait/rifleman = 5,
+				/obj/item/book/granter/crafting_recipe/gunsmith_one = 29,
 				/obj/item/book/granter/crafting_recipe/gunsmith_two = 20,
 				/obj/item/book/granter/crafting_recipe/gunsmith_three = 10,
 				/obj/item/book/granter/crafting_recipe/gunsmith_four = 10
 				)
-
-/obj/effect/spawner/lootdrop/f13/traitbooks/low
-	name = "low trait book spawner"
-	lootcount = 1
-	loot = list(/obj/item/book/granter/trait/lowsurgery = 5,
-				/obj/item/book/granter/trait/chemistry = 1,
-				/obj/item/book/granter/trait/techno = 10,
-				/obj/item/book/granter/crafting_recipe/scav_one = 10,
-				/obj/item/book/granter/crafting_recipe/scav_two = 10,
-				/obj/item/book/granter/trait/explosives = 10,
-				/obj/item/book/granter/crafting_recipe/ODF = 10,
-				/obj/item/book/granter/action/drink_fling = 10,
-				/obj/item/book/granter/crafting_recipe/gunsmith_one = 10,
-				)
-
 
 /obj/effect/spawner/lootdrop/f13/blueprintLow
 	name = "gun comps spawner"
