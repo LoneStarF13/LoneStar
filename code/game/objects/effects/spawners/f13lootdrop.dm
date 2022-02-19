@@ -563,16 +563,32 @@
 				/obj/item/storage/pill_bottle/chem_tin/buffout
 				)
 				
-obj/effect/spawner/lootdrop/f13/medical/rnd
-	name = "dungeon science loot"	//to replace guns as treasure in guarded areas
+
+obj/effect/spawner/lootdrop/f13/medical/rnd/mid
+	name = "mid dungeon science loot"	//to replace guns as treasure in slightly protected areas
+	lootcount = 1
+	
+	loot = list(
+		/obj/item/screwdriver/power
+		/obj/item/wrench/power,
+		/obj/item/storage/box/medicine/stimpaks/stimpaks5,
+		/obj/item/stack/sheet/prewar/twenty,
+		/obj/item/stack/sheet/plastic/twenty,
+		/obj/item/defibrillator/primitive,
+		/obj/item/reagent_containers/syringe/bluespace,
+		)
+		
+
+obj/effect/spawner/lootdrop/f13/medical/rnd/good
+	name = "good dungeon science loot"	//to replace guns as treasure in heavily guarded areas
 	lootcount = 1
 	
 	loot = list(
 		/obj/item/reagent_containers/glass/beaker/meta = 5,
 		/obj/item/stack/sheet/mineral/abductor = 5,
 		/obj/item/scalpel/advanced = 5,
+		/obj/item/surgical_drapes/advanced = 5,
 		/obj/effect/spawner/bundle/f13/needler = 5,
-		/obj/item/storage/box/medicine/stimpaks/stimpaks5 = 5,
 		/obj/item/clothing/glasses/night = 5,
 		/obj/item/circuitboard/machine/chem_dispenser/apothecary = 5,
 		/obj/item/storage/box/stockparts/deluxe = 5,
