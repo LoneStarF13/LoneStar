@@ -5,26 +5,12 @@
 "al" = (
 /turf/closed/wall/f13/store,
 /area/f13/building)
-<<<<<<< Updated upstream
-"an" = (
-/obj/machinery/light/floor{
-	color = "#FF7F7F";
-	critical_machine = 1;
-	flicker_chance = 0;
-	light_color = "#FF7F7F";
-	nightshift_light_color = "#660000"
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/dark,
-/area/f13/brotherhood/surface)
-=======
 "ap" = (
 /obj/structure/table,
 /obj/item/paper_bin,
 /obj/item/storage/fancy/cigarettes/cigpack_robust,
 /turf/open/floor/carpet/royalblack,
-/area/f13/wasteland)
->>>>>>> Stashed changes
+/area/f13/building)
 "ar" = (
 /obj/structure/table,
 /obj/item/binoculars,
@@ -36,13 +22,6 @@
 "as" = (
 /turf/closed/mineral/random/low_chance,
 /area/f13/ncr)
-"aw" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/remains/human,
-/obj/item/lighter,
-/turf/open/floor/plasteel/f13/vault_floor/red,
-/area/f13/brotherhood/surface)
 "ay" = (
 /obj/structure/bed/wooden{
 	pixel_y = 14
@@ -58,18 +37,10 @@
 /obj/structure/noticeboard/captain{
 	desc = "The second Evidence Board shows a small amount of what looks to be crime scenes with corpses all connected to eachother.";
 	dir = 4;
-	icon_state = "nboard03";
 	name = "Evidence Board"
 	},
 /turf/closed/wall/f13/store,
 /area/f13/building)
-"aI" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/item/kirbyplants{
-	icon_state = "plant-25"
-	},
-/turf/open/floor/plasteel/f13/vault_floor/dark,
-/area/f13/brotherhood/surface)
 "aJ" = (
 /obj/structure/railing{
 	color = "#A47449";
@@ -86,40 +57,16 @@
 	icon_state = "housewood2"
 	},
 /area/f13/building)
-<<<<<<< Updated upstream
-"aN" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/table,
-/obj/machinery/computer/terminal{
-	doc_content_1 = "Sarah, I asked for todays newspaper and you bring me yesterdays, come on, wake up! Now bring me todays newspaper chop chop!";
-	doc_title_1 = "Sarah, wake UP!";
-	pixel_y = 3;
-	termtag = "Business"
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/window/spawner/north,
-/turf/open/floor/f13,
-/area/f13/brotherhood/surface)
-"aY" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/chair/office,
-/obj/machinery/light/fo13colored/Red{
-	dir = 4
-	},
-/turf/open/floor/f13,
-/area/f13/brotherhood/surface)
-=======
 "aU" = (
 /obj/effect/landmark/start/f13/followersadministrator,
 /turf/open/floor/carpet/blue,
-/area/f13/wasteland)
+/area/f13/followers)
 "bh" = (
 /obj/structure/table/snooker{
 	dir = 1
 	},
 /turf/open/floor/carpet/royalblack,
-/area/f13/wasteland)
->>>>>>> Stashed changes
+/area/f13/building)
 "bi" = (
 /obj/structure/chair/left{
 	dir = 4
@@ -134,7 +81,7 @@
 	doc_title_1 = "I'm sorry, Clint."
 	},
 /turf/open/floor/carpet/blue,
-/area/f13/wasteland)
+/area/f13/followers)
 "bo" = (
 /obj/structure/fluff/railing,
 /obj/structure/curtain{
@@ -143,68 +90,13 @@
 /obj/structure/window/fulltile/wood,
 /turf/open/floor/wood/f13,
 /area/f13/building)
-<<<<<<< Updated upstream
-"bu" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/closet/crate/bin/trashbin,
-/turf/open/floor/plasteel/f13/vault_floor/dark,
-/area/f13/brotherhood/surface)
-"bw" = (
-/obj/structure/table,
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/window/spawner/north,
-/obj/item/folder/syndicate/blue{
-	desc = "A folder stamped 'Financial Earnins' - Property of The Yuma Bank.";
-	name = "folder- 'Financial Earnings'"
-	},
-/turf/open/floor/f13,
-/area/f13/brotherhood/surface)
-=======
 "bq" = (
-/turf/open/floor/wood/f13,
-/area/f13/wasteland)
->>>>>>> Stashed changes
+/turf/closed/wall/mineral/concrete,
+/area/f13/building)
 "bA" = (
 /obj/structure/chair/right,
 /turf/open/floor/carpet/red,
 /area/f13/building)
-<<<<<<< Updated upstream
-"bE" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/window{
-	dir = 1
-	},
-/obj/item/kirbyplants{
-	icon_state = "plant-25";
-	pixel_y = 10
-	},
-/turf/open/floor/plasteel/grimy,
-/area/f13/brotherhood/surface)
-"bQ" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/table/reinforced,
-/obj/item/stamp/ce{
-	name = "golden rubber stamp";
-	pixel_x = -4
-	},
-/obj/item/stamp/captain{
-	name = "Manager's rubber stamp";
-	pixel_x = 4
-	},
-/turf/open/floor/plasteel/f13/vault_floor/dark{
-	icon_state = "darkrusty";
-	name = "grimy tile"
-	},
-/area/f13/brotherhood/surface)
-"bT" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/ash{
-	pixel_x = 5;
-	pixel_y = 7
-	},
-/turf/open/floor/plasteel/f13/vault_floor/red,
-/area/f13/brotherhood/surface)
-=======
 "bD" = (
 /obj/structure/rack/shelf_metal,
 /obj/item/advanced_crafting_components/alloys,
@@ -226,12 +118,15 @@
 /obj/item/advanced_crafting_components/conductors,
 /obj/item/advanced_crafting_components/conductors,
 /turf/open/floor/wood/f13,
-/area/f13/wasteland)
+/area/f13/building)
 "bX" = (
 /obj/structure/railing/handrail,
 /turf/open/floor/wood/f13/maple,
 /area/f13/wasteland)
->>>>>>> Stashed changes
+"cj" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/carpet/orange,
+/area/f13/followers)
 "cl" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13/wood{
@@ -244,33 +139,9 @@
 	icon_state = "neutralrustyfull"
 	},
 /area/f13/building)
-<<<<<<< Updated upstream
-"cz" = (
-/obj/structure/filingcabinet{
-	density = 0;
-	pixel_x = -4;
-	pixel_y = 21
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/fluff/paper,
-/obj/effect/decal/cleanable/ash{
-	pixel_x = 5
-	},
-/turf/open/floor/plasteel/f13/vault_floor/red,
-/area/f13/brotherhood/surface)
-"cC" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/window{
-	dir = 1
-	},
-/obj/structure/closet/crate/bin/trashbin,
-/turf/open/floor/plasteel/grimy,
-/area/f13/brotherhood/surface)
-=======
 "cv" = (
 /turf/open/floor/carpet/blue,
-/area/f13/wasteland)
->>>>>>> Stashed changes
+/area/f13/followers)
 "cE" = (
 /obj/structure/chair/wood{
 	dir = 8
@@ -293,17 +164,6 @@
 	icon_state = "neutralrustyfull"
 	},
 /area/f13/building)
-"cL" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/light/floor{
-	color = "#FF7F7F";
-	critical_machine = 1;
-	flicker_chance = 0;
-	light_color = "#FF7F7F";
-	nightshift_light_color = "#660000"
-	},
-/turf/open/floor/plasteel/f13/vault_floor/dark,
-/area/f13/brotherhood/surface)
 "cS" = (
 /obj/structure/table/booth,
 /obj/effect/spawner/lootdrop/f13/alcoholspawner,
@@ -323,44 +183,12 @@
 	sunlight_state = 1
 	},
 /area/f13/wasteland)
-<<<<<<< Updated upstream
-"de" = (
-/turf/open/transparent/openspace,
-/area/f13/brotherhood/surface)
-"dg" = (
-/obj/machinery/photocopier,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/red,
-/area/f13/brotherhood/surface)
-"dj" = (
-/obj/structure/window/fulltile/house{
-	dir = 2;
-	icon_state = "storewindowright"
-	},
-/obj/structure/curtain{
-	color = "#363636"
-	},
-/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
-/area/f13/brotherhood/surface)
-"dy" = (
-/obj/structure/table,
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/window/spawner/north,
-/obj/structure/window/spawner/west,
-/obj/item/folder/syndicate/red{
-	desc = "A folder stamped 'List of Clients' - Property of The Yuma Bank.";
-	name = "folder- 'List of Clients'"
-	},
-/turf/open/floor/f13,
-/area/f13/brotherhood/surface)
-=======
 "di" = (
 /obj/structure/dresser,
 /turf/open/floor/plasteel/f13/vault_floor/blue/side{
 	dir = 5
 	},
-/area/f13/wasteland)
->>>>>>> Stashed changes
+/area/f13/building)
 "dB" = (
 /obj/structure/chair{
 	dir = 4
@@ -399,65 +227,9 @@
 /obj/effect/spawner/lootdrop/trash,
 /turf/open/indestructible/ground/outside/woodalt,
 /area/f13/building)
-<<<<<<< Updated upstream
-"ea" = (
-/obj/structure/closet/crate/footlocker{
-	anchored = 1;
-	pixel_x = -9
-	},
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/open/floor/wood/wood_large,
-/area/f13/ncr)
-"er" = (
-/obj/structure/table,
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/window/spawner/north,
-/obj/item/paper/crumpled/bloody/ruins/thederelict/unfinished{
-	info = "Why's the [ILLEGIBLE] Here?? They're screaming something about [ILLEGIBLE]... No.. this can't be.."
-	},
-/turf/open/floor/f13,
-/area/f13/brotherhood/surface)
-"ew" = (
-/obj/structure/chair/folding{
-	dir = 4
-	},
-/obj/structure/chair/folding{
-	dir = 4;
-	pixel_y = 4
-	},
-/obj/structure/chair/folding{
-	dir = 4;
-	pixel_y = 8
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/neutral,
-/area/f13/brotherhood/surface)
-"eE" = (
-/obj/effect/decal/cleanable/dirt{
-	color = "000000"
-	},
-/obj/machinery/vending/cigarette,
-/turf/open/floor/wood/wood_large,
-/area/f13/ncr)
-"eF" = (
-/obj/machinery/door/unpowered/securedoor{
-	desc = "Door with a built-in lock. Can't be padlocked. You can smell the whisky and toughness from even outside the door.";
-	name = "Ranger's Quarters";
-	req_access_txt = "121"
-	},
-/turf/open/floor/wood/wood_large,
-/area/f13/ncr)
-"eO" = (
-/obj/structure/sign/poster/contraband/revolver,
-/turf/closed/wall/mineral/wood,
-/area/f13/ncr)
-=======
 "eH" = (
 /turf/closed/wall/f13/wood,
-/area/f13/wasteland)
->>>>>>> Stashed changes
+/area/f13/followers)
 "eS" = (
 /obj/structure/table,
 /obj/effect/decal/cleanable/dirt,
@@ -469,29 +241,6 @@
 "eU" = (
 /turf/closed/mineral/random/low_chance,
 /area/f13/wasteland)
-"fg" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/light/fo13colored/Red{
-	dir = 4;
-	pixel_y = -16
-	},
-/turf/open/floor/plasteel/f13/vault_floor/red/side{
-	dir = 4
-	},
-/area/f13/brotherhood/surface)
-"fo" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/table,
-/obj/machinery/computer/terminal{
-	doc_content_1 = "I've decided to retire, finally, this Banker job is boring god damn it, I want to live life to the fullest! The papers should be ready tomorrow, I said to the Manager that I'll work one more day before retiring.";
-	doc_title_1 = "October 22, 2077";
-	pixel_y = 3;
-	termtag = "Business"
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/window/spawner/north,
-/turf/open/floor/f13,
-/area/f13/brotherhood/surface)
 "fz" = (
 /obj/structure/table,
 /obj/effect/spawner/lootdrop/trash,
@@ -526,66 +275,15 @@
 "fT" = (
 /obj/machinery/autolathe,
 /turf/open/floor/wood/f13,
-/area/f13/wasteland)
+/area/f13/building)
 "fV" = (
 /turf/open/floor/f13/wood{
 	icon_state = "housewood4-broken"
 	},
 /area/f13/legion)
 "gb" = (
-<<<<<<< Updated upstream
-/obj/structure/table,
-/obj/item/binoculars,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
-	name = "metal plating";
-	sunlight_state = 1
-	},
+/turf/open/floor/wood/wood_tiled,
 /area/f13/building)
-"go" = (
-/obj/machinery/door/unpowered/securedoor{
-	desc = "Door with a built-in lock. Can't be padlocked. You can smell the whisky and toughness from even outside the door.";
-	name = "Ranger's Balcony";
-	req_access_txt = "121"
-	},
-/turf/open/floor/wood/wood_large,
-/area/f13/ncr)
-"gs" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/item/paper/crumpled,
-/obj/structure/chair/office{
-	dir = 4
-	},
-/turf/open/floor/f13,
-/area/f13/brotherhood/surface)
-"gt" = (
-/obj/structure/fluff/paper/stack{
-	desc = "A stack of various papers, illegible scribbles scattered across each page.";
-	dir = 8;
-	pixel_x = 6;
-	pixel_y = -4
-	},
-/obj/structure/filingcabinet{
-	density = 0;
-	pixel_x = -4;
-	pixel_y = 21
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/red,
-/area/f13/brotherhood/surface)
-"gK" = (
-/obj/structure/chair/sofa/corp{
-	dir = 8
-	},
-/obj/effect/turf_decal/trimline/yellow/line{
-	dir = 4;
-	pixel_x = 6
-	},
-/turf/open/floor/carpet/royalblack,
-/area/f13/ncr)
-=======
-/turf/closed/wall/f13/store,
-/area/f13/wasteland)
->>>>>>> Stashed changes
 "gW" = (
 /obj/structure/destructible/tribal_torch/wall/lit{
 	dir = 8
@@ -593,22 +291,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13/wood,
 /area/f13/legion)
-"hb" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/reagent_dispensers/water_cooler,
-/turf/open/floor/f13,
-/area/f13/brotherhood/surface)
-"hc" = (
-/obj/structure/table,
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/window/spawner/north,
-/obj/structure/window/spawner/west,
-/obj/item/clothing/accessory/pocketprotector/full,
-/obj/item/paper/crumpled/bloody/fluff/stations/lavaland/library/warning{
-	info = "<b>If someone finds this... then the Police didn't bring us to the Vault in-time.. thank god our jobs prioritise us in-case of a nuclear att-....</b>"
-	},
-/turf/open/floor/f13,
-/area/f13/brotherhood/surface)
 "hd" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -661,18 +343,19 @@
 /turf/open/floor/plasteel/f13/vault_floor/blue/side{
 	dir = 5
 	},
-/area/f13/wasteland)
+/area/f13/building)
 "hQ" = (
 /obj/structure/table,
 /obj/machinery/processor/chopping_block,
 /turf/open/floor/plasteel/blueyellow,
-/area/f13/wasteland)
+/area/f13/building)
 "hW" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/carpet/blue,
-/area/f13/wasteland)
+/area/f13/followers)
 "hZ" = (
 /obj/structure/railing{
 	color = "#A47449";
@@ -695,14 +378,9 @@
 	},
 /area/f13/building)
 "ii" = (
-/obj/structure/railing{
-	color = "#A47449"
-	},
-/turf/open/transparent/openspace{
-	name = "air";
-	sunlight_state = 1
-	},
-/area/f13/building)
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/wood/wood_tiled,
+/area/f13/followers)
 "ik" = (
 /obj/structure/table,
 /turf/open/indestructible/ground/outside/roof,
@@ -726,23 +404,6 @@
 /obj/structure/window/fulltile/wood,
 /turf/open/floor/wood/f13,
 /area/f13/building)
-"iJ" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/item/kirbyplants{
-	icon_state = "plant-25";
-	pixel_y = 14
-	},
-/turf/open/floor/plasteel/f13/vault_floor/yellow/side{
-	dir = 1
-	},
-/area/f13/brotherhood/surface)
-"iM" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/light/fo13colored/Red{
-	dir = 8
-	},
-/turf/open/floor/f13,
-/area/f13/brotherhood/surface)
 "iP" = (
 /obj/structure/table,
 /obj/machinery/computer/terminal{
@@ -754,14 +415,6 @@
 	icon_state = "neutralrustyfull"
 	},
 /area/f13/building)
-"iS" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/item/paper/crumpled/ruins{
-	info = "Glory to the People's Republic of China, Comrade Jiang!  Your task is to meet-up with the Listening Outpost we have installed in the Yuma Region, at October 23, 2077, the two comrades will be ready for you! Glory to China!";
-	name = "Paper Scrap"
-	},
-/turf/open/floor/plasteel/f13/vault_floor/neutral,
-/area/f13/brotherhood/surface)
 "iU" = (
 /obj/structure/window/fulltile/house{
 	dir = 2;
@@ -800,57 +453,10 @@
 /obj/structure/barricade/wooden,
 /turf/open/indestructible/ground/outside/woodalt,
 /area/f13/building)
-<<<<<<< Updated upstream
-"jr" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/light/fo13colored/Red{
-	dir = 1
-	},
-/turf/open/floor/plasteel/f13/vault_floor/red/side{
-	dir = 1
-	},
-/area/f13/brotherhood/surface)
-"ju" = (
-/obj/item/storage/bag/trash,
-/obj/item/storage/bag/trash,
-/obj/item/storage/bag/trash,
-/obj/structure/closet/crate/trashcart,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/neutral,
-/area/f13/brotherhood/surface)
-"jO" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/table/reinforced,
-/obj/item/stack/wrapping_paper,
-/turf/open/floor/plasteel/f13/vault_floor/dark,
-/area/f13/brotherhood/surface)
-"jQ" = (
-/obj/structure/fluff/paper/stack{
-	desc = "A stack of various papers, illegible scribbles scattered across each page.";
-	dir = 9
-	},
-/obj/structure/filingcabinet{
-	density = 0;
-	pixel_x = -9;
-	pixel_y = 21
-	},
-/obj/structure/filingcabinet{
-	density = 0;
-	pixel_x = 10;
-	pixel_y = 23
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/fluff/paper/corner{
-	dir = 8
-	},
-/turf/open/floor/plasteel/f13/vault_floor/red,
-/area/f13/brotherhood/surface)
-=======
 "jA" = (
 /obj/structure/simple_door/wood,
 /turf/open/floor/wood/f13,
 /area/f13/building)
->>>>>>> Stashed changes
 "jS" = (
 /obj/machinery/door/unpowered/securedoor{
 	damage_deflection = 28;
@@ -885,32 +491,6 @@
 	sunlight_state = 1
 	},
 /area/f13/building)
-<<<<<<< Updated upstream
-"kb" = (
-/obj/structure/window/fulltile/house{
-	icon_state = "storewindowhorizontal"
-	},
-/obj/structure/barricade/bars{
-	max_integrity = 800;
-	name = "strong metal bars";
-	obj_integrity = 800
-	},
-/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
-/area/f13/brotherhood/surface)
-"kc" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/table,
-/obj/machinery/computer/terminal{
-	doc_content_1 = "Hey Doctor Lewis, I still have the headaches even after the medicine you prescribed about it, do you think I can come for a check-up today?";
-	doc_title_1 = "Hey, Doc";
-	pixel_y = 3;
-	termtag = "Business"
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/window/spawner/north,
-/turf/open/floor/f13,
-/area/f13/brotherhood/surface)
-=======
 "ki" = (
 /obj/machinery/door/unpowered/securedoor{
 	req_one_access_txt = 62
@@ -919,8 +499,7 @@
 	name = "metal plating";
 	sunlight_state = 1
 	},
-/area/f13/wasteland)
->>>>>>> Stashed changes
+/area/f13/building)
 "kC" = (
 /turf/closed/mineral/random/low_chance,
 /area/f13/caves)
@@ -931,13 +510,13 @@
 "kT" = (
 /obj/effect/landmark/start/f13/sheriff,
 /turf/open/floor/carpet/royalblack,
-/area/f13/wasteland)
+/area/f13/building)
 "la" = (
 /obj/structure/chair/comfy{
 	dir = 4
 	},
 /turf/open/floor/carpet/royalblack,
-/area/f13/wasteland)
+/area/f13/building)
 "lc" = (
 /obj/structure/window/fulltile/house{
 	dir = 2;
@@ -947,24 +526,6 @@
 	icon_state = "floorrusty"
 	},
 /area/f13/building)
-<<<<<<< Updated upstream
-"lr" = (
-/obj/structure/sign/poster/prewar/poster60,
-/turf/closed/wall/f13/store,
-/area/f13/brotherhood/surface)
-"lt" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/table/reinforced,
-/obj/structure/fluff/paper/stack{
-	desc = "A stack of various papers, illegible scribbles scattered across each page.";
-	dir = 4
-	},
-/turf/open/floor/plasteel/f13/vault_floor/dark{
-	icon_state = "darkrusty";
-	name = "grimy tile"
-	},
-/area/f13/brotherhood/surface)
-=======
 "lf" = (
 /obj/structure/railing{
 	color = "#A47449";
@@ -981,14 +542,13 @@
 "lj" = (
 /obj/structure/sign/poster/official/do_not_question,
 /turf/closed/wall/rust,
-/area/f13/wasteland)
+/area/f13/building)
 "lq" = (
 /obj/effect/landmark/start/f13/deputy,
 /turf/open/floor/plasteel/f13/vault_floor/blue/side{
 	dir = 4
 	},
-/area/f13/wasteland)
->>>>>>> Stashed changes
+/area/f13/building)
 "ly" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
@@ -998,7 +558,7 @@
 /area/f13/building)
 "lF" = (
 /turf/open/floor/plasteel/f13/vault_floor/floor,
-/area/f13/wasteland)
+/area/f13/building)
 "lH" = (
 /turf/closed/mineral/random/high_chance,
 /area/f13/caves)
@@ -1015,69 +575,17 @@
 /obj/structure/barricade/wooden,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
-<<<<<<< Updated upstream
-"mg" = (
-/obj/structure/sign/poster/ncr/democracy,
-/turf/closed/wall/mineral/wood,
-/area/f13/ncr)
-"mh" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/red/side{
-	dir = 4
-	},
-/area/f13/brotherhood/surface)
-"mq" = (
-/obj/structure/table,
-/obj/item/caution{
-	pixel_y = 7
-	},
-/obj/item/caution{
-	pixel_y = 7
-	},
-/obj/item/caution{
-	pixel_y = 7
-	},
-/obj/item/caution{
-	pixel_y = 7
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/neutral,
-/area/f13/brotherhood/surface)
-"mu" = (
-/turf/closed/wall/f13/wood,
-/area/f13/ncr)
-"mE" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/chair/office{
-	dir = 1
-	},
-/obj/structure/sign/poster/contraband/space_cola{
-	pixel_y = -32
-	},
-/turf/open/floor/f13,
-/area/f13/brotherhood/surface)
-"mI" = (
-/turf/closed/wall/f13/wood/house,
-/area/f13/building)
-"mP" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/red/side{
-	dir = 1
-	},
-/area/f13/brotherhood/surface)
-=======
 "mk" = (
 /obj/structure/mopbucket,
 /obj/item/mop,
 /turf/open/floor/wood/wood_tiled,
-/area/f13/wasteland)
+/area/f13/followers)
 "mI" = (
 /turf/closed/wall/f13/wood/house,
 /area/f13/building)
 "mT" = (
 /turf/open/floor/carpet/orange,
-/area/f13/wasteland)
->>>>>>> Stashed changes
+/area/f13/followers)
 "mV" = (
 /obj/structure/chair,
 /turf/open/floor/f13{
@@ -1093,7 +601,7 @@
 /turf/open/floor/plasteel/f13/vault_floor/blue/side{
 	dir = 10
 	},
-/area/f13/wasteland)
+/area/f13/building)
 "nh" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -1105,13 +613,13 @@
 /obj/item/paper_bin,
 /obj/item/pen,
 /turf/open/floor/wood/wood_tiled,
-/area/f13/wasteland)
+/area/f13/followers)
 "nn" = (
 /obj/structure/chair{
 	dir = 8
 	},
 /turf/open/floor/carpet/royalblack,
-/area/f13/wasteland)
+/area/f13/building)
 "ns" = (
 /obj/structure/toilet{
 	dir = 8
@@ -1158,35 +666,6 @@
 	icon_state = "floorrusty"
 	},
 /area/f13/building)
-"oe" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/remains/human{
-	pixel_x = -13;
-	pixel_y = -4
-	},
-/obj/item/clothing/head/f13/army/officer{
-	pixel_x = -12;
-	pixel_y = -1
-	},
-/obj/item/megaphone/command{
-	name = "Police Megaphone";
-	pixel_x = 4;
-	pixel_y = -3
-	},
-/turf/open/floor/f13,
-/area/f13/brotherhood/surface)
-"og" = (
-/obj/item/kirbyplants/random,
-/obj/structure/destructible/tribal_torch/wall/lit{
-	dir = 1;
-	pixel_y = 12
-	},
-/turf/open/floor/wood/wood_large,
-/area/f13/ncr)
-"oi" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/purple/side,
-/area/f13/brotherhood/surface)
 "oj" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -1207,25 +686,12 @@
 	sunlight_state = 1
 	},
 /area/f13/wasteland)
-<<<<<<< Updated upstream
-"or" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/remains/human,
-/obj/item/clothing/head/f13/police/trooper{
-	pixel_x = 1;
-	pixel_y = -5
-	},
-/obj/item/flashlight/seclite,
-/turf/open/floor/f13,
-/area/f13/brotherhood/surface)
-=======
 "ot" = (
 /obj/structure/table,
 /obj/item/gun/energy/laser/pistol,
 /obj/item/stock_parts/cell/ammo/ec,
 /turf/open/floor/wood/wood_tiled,
-/area/f13/wasteland)
->>>>>>> Stashed changes
+/area/f13/followers)
 "ov" = (
 /obj/structure/table/wood,
 /obj/structure/destructible/tribal_torch/wall/lit{
@@ -1247,7 +713,7 @@
 /obj/item/book/granter/crafting_recipe/gunsmith_three,
 /obj/item/book/granter/crafting_recipe/gunsmith_two,
 /turf/open/floor/wood/f13,
-/area/f13/wasteland)
+/area/f13/building)
 "oO" = (
 /obj/structure/railing/handrail{
 	dir = 4
@@ -1260,7 +726,7 @@
 "oT" = (
 /obj/structure/table/wood/poker,
 /turf/open/floor/wood/wood_tiled,
-/area/f13/wasteland)
+/area/f13/building)
 "oX" = (
 /obj/structure/table/wood,
 /obj/effect/decal/cleanable/dirt,
@@ -1279,17 +745,10 @@
 	icon_state = "floorrusty"
 	},
 /area/f13/building)
-"pi" = (
-/obj/structure/sign/plaques/golden/captain{
-	desc = "To be Efficient is not an action or a way of life, but a mental state. Only those with the force of Will strong enough to act during a crisis, are truly Efficient. Stay Efficient, Robert.";
-	name = "The Most Efficient Bank Manager Award."
-	},
-/turf/closed/wall/f13/store,
-/area/f13/brotherhood/surface)
 "pl" = (
 /obj/structure/campfire/stove,
 /turf/open/floor/plasteel/blueyellow,
-/area/f13/wasteland)
+/area/f13/building)
 "pp" = (
 /obj/machinery/door/unpowered/securedoor{
 	req_one_access_txt = 62
@@ -1301,55 +760,10 @@
 	dir = 8
 	},
 /turf/open/floor/carpet/blue,
-/area/f13/wasteland)
+/area/f13/followers)
 "pH" = (
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/building)
-"pm" = (
-/obj/structure/table/wood/fancy/black,
-/obj/item/toy/cards/deck{
-	pixel_x = 4;
-	pixel_y = 2
-	},
-/turf/open/floor/carpet/royalblack,
-/area/f13/ncr)
-"py" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/window/reinforced/spawner/west,
-/obj/structure/window/reinforced/spawner/east,
-/obj/structure/window/reinforced/spawner,
-/obj/structure/statue/gold/rd{
-	name = "Statue of the Bank Manager"
-	},
-/obj/structure/window/reinforced/spawner/north,
-/turf/open/floor/carpet/royalblack,
-/area/f13/brotherhood/surface)
-"pC" = (
-/obj/structure/decoration/smokeold{
-	pixel_y = 32
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/red/corner{
-	dir = 1
-	},
-/area/f13/brotherhood/surface)
-"pG" = (
-/obj/structure/decoration/clock/old,
-/turf/closed/wall/f13/store,
-/area/f13/brotherhood/surface)
-"pO" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/table,
-/obj/machinery/computer/terminal{
-	doc_content_1 = "What the hell? Why did the power go down? The building opposite of us also is blacked out.. must be some region wide shut-down or something, the back-up generator should hit soon.";
-	doc_title_1 = "October 23, 2077";
-	pixel_y = 3;
-	termtag = "Business"
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/window/spawner/north,
-/turf/open/floor/f13,
-/area/f13/brotherhood/surface)
 "pP" = (
 /obj/structure/simple_door/room,
 /turf/open/indestructible/ground/outside/woodalt,
@@ -1376,76 +790,39 @@
 /obj/item/organ/cyberimp/chest/nutriment,
 /obj/item/organ/cyberimp/chest/nutriment,
 /turf/open/floor/wood/wood_tiled,
-/area/f13/wasteland)
+/area/f13/followers)
 "qg" = (
 /turf/open/floor/f13{
 	icon_state = "hydrofloor"
 	},
 /area/f13/building)
-"qs" = (
-/obj/structure/chair/sofa/corp/right,
-/obj/effect/turf_decal/trimline/yellow/line{
-	dir = 8;
-	pixel_x = -6
-	},
-/obj/effect/turf_decal/trimline/yellow/line{
-	dir = 1;
-	pixel_y = 6
-	},
-/obj/structure/sign/poster/contraband/rip_badger{
-	pixel_x = 14;
-	pixel_y = 31
-	},
-/turf/open/floor/carpet/royalblack,
-/area/f13/ncr)
 "qt" = (
 /obj/structure/table/wood,
 /turf/open/floor/f13/wood{
 	icon_state = "housewood2"
 	},
 /area/f13/building)
-<<<<<<< Updated upstream
-"qW" = (
-/obj/structure/sign/poster/prewar/poster63,
-/turf/closed/wall/f13/store,
-/area/f13/brotherhood/surface)
-=======
 "qw" = (
-/turf/closed/wall/r_wall/rust,
-/area/f13/wasteland)
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/carpet/blue,
+/area/f13/followers)
 "qK" = (
 /obj/structure/table/snooker{
 	dir = 9
 	},
 /turf/open/floor/carpet/royalblack,
-/area/f13/wasteland)
->>>>>>> Stashed changes
+/area/f13/building)
 "rf" = (
 /obj/structure/bed/wooden{
 	pixel_y = 14
 	},
 /turf/open/indestructible/ground/outside/woodalt,
 /area/f13/building)
-<<<<<<< Updated upstream
-"rk" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/generic,
-/obj/item/paper/crumpled,
-/turf/open/floor/f13,
-/area/f13/brotherhood/surface)
-"rp" = (
-/obj/structure/curtain{
-	color = "#363636"
-	},
-/obj/effect/decal/cleanable/glass,
-/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
-/area/f13/brotherhood/surface)
-=======
 "rm" = (
 /obj/structure/table/wood,
 /obj/machinery/cell_charger,
 /turf/open/floor/wood/f13,
-/area/f13/wasteland)
+/area/f13/building)
 "rq" = (
 /obj/structure/guncase,
 /obj/item/gun/energy/laser/complianceregulator,
@@ -1453,8 +830,7 @@
 /obj/item/gun/energy/laser/complianceregulator,
 /obj/item/gun/energy/laser/complianceregulator,
 /turf/open/floor/wood/wood_tiled,
-/area/f13/wasteland)
->>>>>>> Stashed changes
+/area/f13/followers)
 "rt" = (
 /obj/structure/closet/secure_closet/freezer/gulag_fridge,
 /obj/item/reagent_containers/food/condiment/flour,
@@ -1462,7 +838,7 @@
 /obj/item/reagent_containers/food/condiment/rice,
 /obj/item/reagent_containers/food/drinks/bottle/champagne/empty,
 /turf/open/floor/plasteel/blueyellow,
-/area/f13/wasteland)
+/area/f13/building)
 "rz" = (
 /obj/structure/table,
 /obj/machinery/computer/terminal{
@@ -1474,20 +850,6 @@
 	icon_state = "neutralrustyfull"
 	},
 /area/f13/building)
-<<<<<<< Updated upstream
-"rG" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/remains/human,
-/turf/open/floor/f13,
-/area/f13/brotherhood/surface)
-"rX" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/chair/office{
-	dir = 1
-	},
-/turf/open/floor/f13,
-/area/f13/brotherhood/surface)
-=======
 "rB" = (
 /obj/structure/rack/shelf_metal,
 /obj/item/stack/sheet/glass/fifty,
@@ -1500,44 +862,30 @@
 /obj/item/storage/toolbox/emergency,
 /obj/item/storage/belt/chameleon,
 /turf/open/floor/wood/wood_tiled,
-/area/f13/wasteland)
+/area/f13/followers)
 "rD" = (
 /obj/structure/window/fulltile/wood,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
 	name = "metal plating";
 	sunlight_state = 1
 	},
-/area/f13/wasteland)
+/area/f13/building)
 "rL" = (
 /obj/structure/table/snooker,
 /turf/open/floor/carpet/royalblack,
-/area/f13/wasteland)
->>>>>>> Stashed changes
+/area/f13/building)
 "rZ" = (
 /obj/structure/barricade/bars,
 /obj/structure/window/fulltile/wood,
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
-<<<<<<< Updated upstream
-"sg" = (
-/obj/structure/easel,
-/obj/item/canvas/nineteenXnineteen,
-/obj/item/toy/crayon/spraycan,
-/obj/structure/sign/painting/library{
-	persistence_id = "ranger_balcony";
-	pixel_y = 32
-	},
-/turf/open/floor/wood/wood_large,
-/area/f13/ncr)
-=======
 "sc" = (
 /obj/effect/landmark/start/f13/shopkeeper,
 /turf/open/floor/wood/f13,
-/area/f13/wasteland)
+/area/f13/building)
 "sx" = (
 /turf/open/floor/plasteel/f13/vault_floor/blue/side,
-/area/f13/wasteland)
->>>>>>> Stashed changes
+/area/f13/building)
 "sz" = (
 /obj/structure/table,
 /obj/machinery/computer/terminal{
@@ -1552,7 +900,7 @@
 "sA" = (
 /obj/structure/window/fulltile/wood,
 /turf/open/floor/wood,
-/area/f13/wasteland)
+/area/f13/building)
 "sD" = (
 /turf/closed/wall/f13/wood,
 /area/f13/building)
@@ -1568,52 +916,15 @@
 	},
 /turf/open/transparent/openspace,
 /area/f13/building)
-"sL" = (
-/obj/structure/bed,
-/obj/item/bedsheet/hos{
-	desc = "This red and gold blanket has an aura of affluence.";
-	name = "fancy red bedsheet"
-	},
-/obj/effect/landmark/start/f13/ncrveteranranger,
-/turf/open/floor/wood/wood_large,
-/area/f13/ncr)
 "sN" = (
 /obj/item/bedsheet/brown,
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/bed/old,
 /turf/open/floor/f13/wood,
 /area/f13/legion)
-"sS" = (
-/turf/open/transparent/openspace,
-/area/f13/ncr)
-"te" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/table,
-/obj/machinery/computer/terminal{
-	doc_content_1 = "I hear a lot of shouting downstairs and footsteps... everyone up here's tense.. Miller went down to check and came running back up and told us to 'Pack our things' now a bunch of State Troopers cam-";
-	doc_title_1 = "October 23, 2077";
-	pixel_y = 3;
-	termtag = "Business"
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/window/spawner/north,
-/turf/open/floor/f13,
-/area/f13/brotherhood/surface)
 "tg" = (
-<<<<<<< Updated upstream
-/turf/closed/wall/mineral/wood,
-/area/f13/ncr)
-"tl" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/dark{
-	icon_state = "darkrusty";
-	name = "grimy tile"
-	},
-/area/f13/brotherhood/surface)
-=======
 /turf/open/floor/plasteel/airless,
-/area/f13/wasteland)
->>>>>>> Stashed changes
+/area/f13/building)
 "tq" = (
 /obj/machinery/light{
 	dir = 8;
@@ -1628,7 +939,7 @@
 /turf/open/floor/plasteel/f13/vault_floor/blue/side{
 	dir = 6
 	},
-/area/f13/wasteland)
+/area/f13/building)
 "tv" = (
 /obj/structure/table,
 /obj/machinery/computer/terminal{
@@ -1654,12 +965,6 @@
 /area/f13/building)
 "tK" = (
 /obj/structure/railing{
-<<<<<<< Updated upstream
-	dir = 8
-	},
-/turf/open/floor/wood/wood_large,
-/area/f13/ncr)
-=======
 	color = "#A47449";
 	dir = 4
 	},
@@ -1668,7 +973,6 @@
 	sunlight_state = 1
 	},
 /area/f13/building)
->>>>>>> Stashed changes
 "tM" = (
 /obj/structure/table,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
@@ -1721,7 +1025,10 @@
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "uF" = (
-/turf/open/transparent/openspace,
+/turf/open/transparent/openspace{
+	name = "air";
+	sunlight_state = 1
+	},
 /area/f13/legion)
 "uI" = (
 /turf/open/floor/carpet/black,
@@ -1731,29 +1038,17 @@
 	icon_state = "floorrustysolid"
 	},
 /area/f13/wasteland)
-<<<<<<< Updated upstream
-"vp" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/window{
-	dir = 4;
-	pixel_x = 2
-	},
-/turf/open/floor/plasteel/f13/vault_floor/purple/side{
-	dir = 4
-	},
-/area/f13/brotherhood/surface)
-=======
 "vb" = (
 /obj/structure/table/wood,
 /turf/open/floor/carpet/orange,
-/area/f13/wasteland)
+/area/f13/followers)
 "vp" = (
 /obj/machinery/workbench/advanced,
 /obj/effect/spawner/lootdrop/f13/blueprintHigh,
 /obj/effect/spawner/lootdrop/f13/blueprintVHigh,
 /obj/effect/spawner/lootdrop/f13/blueprintVHigh,
 /turf/open/floor/wood/f13,
-/area/f13/wasteland)
+/area/f13/building)
 "vz" = (
 /obj/structure/table,
 /obj/machinery/computer/terminal{
@@ -1762,7 +1057,7 @@
 	doc_title_1 = "I'm sorry, Clint."
 	},
 /turf/open/floor/carpet/royalblack,
-/area/f13/wasteland)
+/area/f13/building)
 "vA" = (
 /obj/structure/table/glass,
 /obj/item/clothing/glasses/hud/health,
@@ -1771,25 +1066,11 @@
 /obj/item/pda,
 /obj/item/clothing/suit/toggle/labcoat,
 /turf/open/floor/wood/wood_tiled,
-/area/f13/wasteland)
->>>>>>> Stashed changes
+/area/f13/followers)
 "vB" = (
 /obj/structure/barricade/sandbags,
 /turf/open/indestructible/ground/outside/roof,
 /area/f13/wasteland)
-<<<<<<< Updated upstream
-"vJ" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/fluff/paper/stack{
-	desc = "A stack of various papers, illegible scribbles scattered across each page.";
-	dir = 8
-	},
-/obj/machinery/light/fo13colored/Red{
-	pixel_x = 16
-	},
-/turf/open/floor/plasteel/f13/vault_floor/red,
-/area/f13/brotherhood/surface)
-=======
 "vC" = (
 /obj/structure/railing{
 	color = "#A47449";
@@ -1800,7 +1081,6 @@
 	},
 /turf/closed/wall/rust,
 /area/f13/building)
->>>>>>> Stashed changes
 "vY" = (
 /obj/structure/table,
 /obj/machinery/computer/terminal{
@@ -1819,45 +1099,13 @@
 	icon_state = "neutralrustyfull"
 	},
 /area/f13/building)
-<<<<<<< Updated upstream
-"wd" = (
-/obj/structure/filingcabinet{
-	pixel_x = 10
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/red,
-/area/f13/brotherhood/surface)
-"wp" = (
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
-	name = "metal plating";
-	sunlight_state = 1
-	},
-/area/f13/building)
-"wq" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/table,
-/obj/item/toy/cards/deck{
-	pixel_x = 4;
-	pixel_y = 2
-	},
-/obj/item/cigbutt/cigarbutt{
-	pixel_x = -4;
-	pixel_y = 4
-	},
-/turf/open/floor/f13,
-/area/f13/brotherhood/surface)
-=======
 "wc" = (
 /obj/structure/safe,
 /turf/open/floor/wood/wood_tiled,
-/area/f13/wasteland)
+/area/f13/followers)
 "wp" = (
 /turf/open/floor/plasteel/blueyellow,
-/area/f13/wasteland)
->>>>>>> Stashed changes
+/area/f13/building)
 "ww" = (
 /obj/structure/dresser,
 /turf/open/floor/f13/wood,
@@ -1871,52 +1119,6 @@
 	},
 /turf/open/indestructible/ground/outside/roof,
 /area/f13/wasteland)
-<<<<<<< Updated upstream
-"wF" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/chair/office{
-	dir = 1
-	},
-/turf/open/floor/plasteel/f13/vault_floor/dark{
-	icon_state = "darkrusty";
-	name = "grimy tile"
-	},
-/area/f13/brotherhood/surface)
-"wH" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/table,
-/obj/machinery/computer/terminal{
-	doc_content_1 = "Hey Honey, I'm at work, but I overheard from Johnson that there's a new romantic comedy movie that just came out, do you wanna go grab a ticket while the kids are still at school?";
-	doc_title_1 = "New Movie coming out today!";
-	pixel_y = 3;
-	termtag = "Business"
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/window/spawner/north,
-/turf/open/floor/f13,
-/area/f13/brotherhood/surface)
-"wI" = (
-/obj/structure/bed/wooden{
-	pixel_y = 14
-	},
-/turf/open/floor/carpet/black,
-/area/f13/building)
-"wR" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/table/reinforced,
-/obj/item/paper_bin{
-	pixel_y = 9
-	},
-/obj/item/pen/fountain/captain{
-	name = "Manager's fountain pen";
-	pixel_y = 9
-	},
-/turf/open/floor/plasteel/f13/vault_floor/dark{
-	icon_state = "darkdirty"
-	},
-/area/f13/brotherhood/surface)
-=======
->>>>>>> Stashed changes
 "wY" = (
 /obj/structure/table,
 /obj/machinery/computer/terminal{
@@ -1946,41 +1148,10 @@
 	icon_state = "neutralrustyfull"
 	},
 /area/f13/building)
-<<<<<<< Updated upstream
-"xm" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/item/clothing/head/f13/police/trooper{
-	pixel_x = 1;
-	pixel_y = -5
-	},
-/obj/effect/decal/remains/human,
-/obj/item/flashlight/seclite,
-/turf/open/floor/f13,
-/area/f13/brotherhood/surface)
-"xp" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/chair/sofa/corp/corner{
-	dir = 1
-	},
-/turf/open/floor/plasteel/grimy,
-/area/f13/brotherhood/surface)
-"xw" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/table/reinforced,
-/obj/machinery/computer/terminal{
-	dir = 1;
-	doc_content_1 = "This is as always Manager Stevenson, today was a good day. More than usual folk came in here looking to open an account! Sounds like we might have an up soon!";
-	doc_title_1 = "October 23, 2077";
-	termtag = "Business"
-	},
-/turf/open/floor/plasteel/f13/vault_floor/dark,
-/area/f13/brotherhood/surface)
-=======
 "xn" = (
 /obj/structure/chair/f13chair2,
 /turf/open/floor/carpet/red,
-/area/f13/wasteland)
->>>>>>> Stashed changes
+/area/f13/followers)
 "xN" = (
 /obj/structure/chair/right{
 	dir = 1
@@ -1995,13 +1166,6 @@
 	icon_state = "darkrusty"
 	},
 /area/f13/building)
-"xW" = (
-/obj/machinery/light{
-	dir = 8
-	},
-/obj/structure/closet/crate/bin/trashbin,
-/turf/open/floor/wood/wood_large,
-/area/f13/ncr)
 "yd" = (
 /turf/open/transparent/openspace,
 /area/f13/building)
@@ -2013,9 +1177,11 @@
 /turf/open/floor/f13/wood,
 /area/f13/legion)
 "yh" = (
-/obj/structure/window/fulltile/wood,
-/turf/open/space/basic,
-/area/f13/wasteland)
+/turf/open/transparent/openspace{
+	name = "air";
+	sunlight_state = 1
+	},
+/area/f13/followers)
 "yj" = (
 /obj/structure/lattice/catwalk,
 /obj/machinery/button/door{
@@ -2046,22 +1212,12 @@
 	dir = 8;
 	pixel_x = 13
 	},
-<<<<<<< Updated upstream
-/turf/open/floor/carpet/black,
-/area/f13/building)
-"yA" = (
-/obj/structure/table/wood,
-/obj/item/pda,
-/turf/open/floor/wood/wood_large,
-/area/f13/ncr)
-=======
 /turf/open/floor/plasteel/blueyellow,
-/area/f13/wasteland)
+/area/f13/building)
 "yG" = (
 /obj/structure/sign/poster/prewar/poster61,
 /turf/closed/wall/rust,
-/area/f13/wasteland)
->>>>>>> Stashed changes
+/area/f13/building)
 "yI" = (
 /obj/structure/table/booth,
 /obj/item/candle{
@@ -2073,35 +1229,19 @@
 	sunlight_state = 1
 	},
 /area/f13/wasteland)
-"yP" = (
-/obj/structure/bed,
-/obj/item/bedsheet/black,
-/obj/effect/landmark/start/f13/ncrranger,
-/turf/open/floor/wood/wood_large,
-/area/f13/ncr)
-"yS" = (
-/obj/structure/destructible/tribal_torch/wall/lit{
-	dir = 4
-	},
-/turf/open/floor/wood/wood_large,
-/area/f13/ncr)
 "yW" = (
 /obj/structure/simple_door/house/clean,
 /turf/closed/wall/f13/store,
-/area/f13/wasteland)
+/area/f13/building)
 "yZ" = (
 /obj/structure/table/snooker{
 	dir = 6
 	},
 /turf/open/floor/carpet/royalblack,
-/area/f13/wasteland)
+/area/f13/building)
 "zk" = (
 /turf/closed/indestructible/riveted,
 /area/f13/tcoms)
-"zo" = (
-/obj/structure/sign/poster/contraband/robust_softdrinks,
-/turf/closed/wall/f13/store,
-/area/f13/brotherhood/surface)
 "zs" = (
 /obj/structure/destructible/tribal_torch/wall/lit{
 	dir = 4
@@ -2113,16 +1253,6 @@
 /obj/item/paper/crumpled/ruins,
 /turf/open/indestructible/ground/outside/woodalt,
 /area/f13/building)
-"zK" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/chair/sofa/corp/left{
-	dir = 4
-	},
-/turf/open/floor/plasteel/grimy,
-/area/f13/brotherhood/surface)
-"zN" = (
-/turf/open/floor/wood/wood_large,
-/area/f13/ncr)
 "zY" = (
 /obj/effect/overlay/junk/curtain{
 	layer = 4
@@ -2170,19 +1300,12 @@
 	icon_state = "darkrusty"
 	},
 /area/f13/building)
-<<<<<<< Updated upstream
-"AD" = (
-/obj/structure/sign/poster/prewar/poster81,
-/turf/closed/wall/f13/store,
-/area/f13/brotherhood/surface)
-=======
 "Ax" = (
 /obj/machinery/door/unpowered/securedoor{
 	req_one_access_txt = 62
 	},
 /turf/open/indestructible/ground/outside/roof,
-/area/f13/wasteland)
->>>>>>> Stashed changes
+/area/f13/building)
 "AK" = (
 /obj/structure/table,
 /obj/item/clothing/mask/cigarette/cigar{
@@ -2199,25 +1322,11 @@
 "AM" = (
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
-<<<<<<< Updated upstream
-"AT" = (
-/obj/structure/table,
-/obj/effect/decal/cleanable/dirt,
-/obj/item/paper_bin{
-	pixel_y = 9
-	},
-/obj/item/pen{
-	pixel_y = 9
-	},
-/turf/open/floor/f13,
-/area/f13/brotherhood/surface)
-=======
 "AR" = (
 /turf/open/floor/plasteel/f13/vault_floor/blue/side{
 	dir = 8
 	},
-/area/f13/wasteland)
->>>>>>> Stashed changes
+/area/f13/building)
 "AV" = (
 /obj/structure/chair/office{
 	dir = 4
@@ -2230,18 +1339,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/carpet/black,
 /area/f13/legion)
-"Bp" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/window{
-	dir = 4;
-	pixel_x = 2
-	},
-/obj/machinery/light/built,
-/obj/effect/decal/cleanable/glass,
-/turf/open/floor/plasteel/f13/vault_floor/purple/side{
-	dir = 4
-	},
-/area/f13/brotherhood/surface)
 "Br" = (
 /obj/structure/railing{
 	color = "#A47449";
@@ -2249,14 +1346,6 @@
 	},
 /turf/open/floor/carpet,
 /area/f13/building)
-"By" = (
-/obj/structure/table,
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/window/spawner/north,
-/obj/structure/window/spawner/west,
-/obj/item/phone,
-/turf/open/floor/f13,
-/area/f13/brotherhood/surface)
 "BA" = (
 /obj/structure/barricade/wooden,
 /turf/closed/mineral/random/low_chance,
@@ -2264,7 +1353,7 @@
 "BB" = (
 /obj/structure/chair/wood/wings,
 /turf/open/floor/plasteel/blueyellow,
-/area/f13/wasteland)
+/area/f13/building)
 "BH" = (
 /obj/structure/sink{
 	pixel_y = 22
@@ -2298,7 +1387,7 @@
 /obj/item/crafting/abraxo,
 /obj/item/crafting/sensor,
 /turf/open/floor/wood/f13,
-/area/f13/wasteland)
+/area/f13/building)
 "BS" = (
 /turf/open/floor/carpet/black,
 /area/f13/legion)
@@ -2312,12 +1401,6 @@
 	},
 /turf/open/floor/carpet/black,
 /area/f13/building)
-"BX" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/red/corner{
-	dir = 4
-	},
-/area/f13/brotherhood/surface)
 "BY" = (
 /turf/closed/wall/f13/tentwall,
 /area/f13/building)
@@ -2334,36 +1417,10 @@
 "Cj" = (
 /turf/open/indestructible/ground/outside/roof,
 /area/f13/caves)
-<<<<<<< Updated upstream
-"Cn" = (
-/obj/effect/turf_decal/trimline/yellow/line{
-	dir = 4;
-	pixel_x = 6
-	},
-/obj/effect/turf_decal/trimline/yellow/line{
-	pixel_y = -6
-	},
-/obj/structure/chair/sofa/corp/left{
-	dir = 8
-	},
-/turf/open/floor/carpet/royalblack,
-/area/f13/ncr)
-"CA" = (
-/obj/structure/table,
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/window/spawner/north,
-/obj/item/kirbyplants{
-	icon_state = "plant-25";
-	pixel_y = 14
-	},
-/turf/open/floor/f13,
-/area/f13/brotherhood/surface)
-=======
 "Cm" = (
 /obj/structure/closet/crate/bin/trash_fallout,
 /turf/open/floor/carpet/royalblack,
-/area/f13/wasteland)
->>>>>>> Stashed changes
+/area/f13/building)
 "CC" = (
 /turf/open/indestructible/ground/outside/roof,
 /area/f13/wasteland)
@@ -2372,24 +1429,6 @@
 	icon_state = "housewood4-broken"
 	},
 /area/f13/building)
-"CH" = (
-/obj/structure/window/fulltile/house{
-	dir = 2;
-	icon_state = "storewindowleft"
-	},
-/obj/structure/barricade/bars{
-	max_integrity = 800;
-	name = "strong metal bars";
-	obj_integrity = 800
-	},
-/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
-/area/f13/brotherhood/surface)
-"CI" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/neutral/corner{
-	dir = 1
-	},
-/area/f13/brotherhood/surface)
 "CQ" = (
 /obj/structure/window/fulltile/house{
 	dir = 2;
@@ -2403,42 +1442,15 @@
 	icon_state = "floorrusty"
 	},
 /area/f13/building)
-<<<<<<< Updated upstream
-"Dc" = (
-/obj/structure/table,
-/obj/effect/decal/cleanable/dirt,
-/obj/item/paper_bin{
-	pixel_y = 9
-	},
-/obj/item/pen{
-	pixel_y = 9
-	},
-/obj/structure/window/spawner/west,
-/obj/item/storage/pill_bottle/neurine{
-	name = "bottle of pills";
-	pixel_x = 8
-	},
-/turf/open/floor/f13,
-/area/f13/brotherhood/surface)
-"Dk" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/light/fo13colored/Red{
-	dir = 1
-	},
-/turf/open/floor/plasteel/f13/vault_floor/neutral,
-/area/f13/brotherhood/surface)
-"Dp" = (
-=======
 "CU" = (
 /turf/open/floor/plasteel/f13/vault_floor/blue/side{
 	dir = 10
 	},
-/area/f13/wasteland)
+/area/f13/building)
 "Dc" = (
 /obj/structure/railing{
 	color = "#A47449"
 	},
->>>>>>> Stashed changes
 /obj/structure/railing{
 	color = "#A47449";
 	dir = 4
@@ -2450,9 +1462,12 @@
 /area/f13/building)
 "Dp" = (
 /turf/open/floor/plasteel/barber,
-/area/f13/wasteland)
+/area/f13/building)
 "DB" = (
 /obj/structure/table/wood,
+/obj/effect/overlay/junk/mirror{
+	pixel_x = -32
+	},
 /turf/open/indestructible/ground/outside/woodalt,
 /area/f13/building)
 "DI" = (
@@ -2473,7 +1488,7 @@
 /obj/effect/spawner/lootdrop/f13/ncr_k_ration,
 /obj/effect/spawner/lootdrop/f13/ncr_k_ration,
 /turf/open/floor/wood/wood_tiled,
-/area/f13/wasteland)
+/area/f13/followers)
 "DS" = (
 /obj/structure/table,
 /obj/item/paper_bin,
@@ -2492,28 +1507,6 @@
 	icon_state = "neutralrustyfull"
 	},
 /area/f13/building)
-"Ei" = (
-/obj/structure/closet/crate/footlocker{
-	anchored = 1;
-	pixel_x = -9
-	},
-/obj/machinery/light/broken{
-	dir = 1
-	},
-/turf/open/floor/wood/wood_large,
-/area/f13/ncr)
-"El" = (
-/obj/structure/chair/comfy/plywood,
-/turf/open/floor/wood/wood_large,
-/area/f13/ncr)
-"EC" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/vending/cigarette,
-/obj/machinery/light/fo13colored/Red{
-	dir = 4
-	},
-/turf/open/floor/plasteel/grimy,
-/area/f13/brotherhood/surface)
 "ED" = (
 /obj/structure/chair/middle{
 	dir = 1
@@ -2524,51 +1517,23 @@
 /turf/open/floor/plasteel/f13/vault_floor/blue/side{
 	dir = 5
 	},
-/area/f13/wasteland)
+/area/f13/building)
 "EX" = (
 /turf/open/indestructible/ground/outside/woodalt,
 /area/f13/building)
 "EZ" = (
 /turf/open/transparent/openspace,
 /area/f13/wasteland)
-<<<<<<< Updated upstream
-"Fl" = (
-/obj/structure/table,
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/window/spawner/north,
-/obj/structure/window/spawner/west,
-/obj/item/folder/documents{
-	desc = "A folder stamped \"Client Deposits - Property of The Yuma Bank. Unauthorized distribution is punishable by jail time.\"";
-	name = "folder- 'Client Deposits'"
-	},
-/obj/item/stamp/denied{
-	pixel_x = -4
-	},
-/obj/item/stamp{
-	pixel_x = 4
-	},
-/turf/open/floor/f13,
-/area/f13/brotherhood/surface)
-"FK" = (
-/obj/structure/simple_door/wood,
-/turf/open/floor/wood/f13/oak,
-/area/f13/building)
-"FN" = (
-/obj/item/kirbyplants/random,
-/turf/open/floor/wood/wood_large,
-/area/f13/ncr)
-=======
 "Fx" = (
 /obj/structure/rack/shelf_metal,
 /obj/item/reagent_containers/glass/bucket,
 /obj/item/reagent_containers/glass/bucket,
 /turf/open/floor/wood/wood_tiled,
-/area/f13/wasteland)
+/area/f13/followers)
 "FK" = (
 /obj/structure/table/wood/fancy/royalblue,
 /turf/open/floor/plasteel/blueyellow,
-/area/f13/wasteland)
->>>>>>> Stashed changes
+/area/f13/building)
 "FR" = (
 /obj/structure/table,
 /obj/item/reagent_containers/food/snacks/grown/poppy/lily{
@@ -2595,28 +1560,6 @@
 	},
 /turf/open/indestructible/ground/outside/woodalt,
 /area/f13/building)
-"FX" = (
-/obj/structure/sign/poster/prewar/poster82,
-/turf/closed/wall/f13/store,
-/area/f13/brotherhood/surface)
-"FY" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/table/wood,
-/obj/item/flashlight/lamp/green{
-	pixel_x = -5;
-	pixel_y = 10
-	},
-/obj/item/storage/fancy/cigarettes/cigars/havana,
-/obj/item/cigbutt/cigarbutt{
-	pixel_x = -4;
-	pixel_y = -2
-	},
-/obj/item/lighter/gold{
-	pixel_x = 7;
-	pixel_y = 7
-	},
-/turf/open/floor/plasteel/grimy,
-/area/f13/brotherhood/surface)
 "FZ" = (
 /obj/structure/chair/right{
 	dir = 8
@@ -2631,43 +1574,11 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/blueyellow,
-/area/f13/wasteland)
+/area/f13/building)
 "Gf" = (
-<<<<<<< Updated upstream
-/obj/structure/railing{
-	color = "#A47449";
-	density = 0;
-	dir = 5;
-	pixel_x = 9;
-	pixel_y = 10
-	},
-/turf/closed/wall/rust,
-/area/f13/building)
-"Gh" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/remains/human,
-/obj/structure/window{
-	dir = 4;
-	pixel_x = 2
-	},
-/turf/open/floor/plasteel/f13/vault_floor/purple/side{
-	dir = 4
-	},
-/area/f13/brotherhood/surface)
-"Gi" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/vending/nukacolavend,
-/turf/open/floor/plasteel/grimy,
-/area/f13/brotherhood/surface)
-"Gk" = (
-/obj/structure/simple_door/wood,
-/turf/open/floor/carpet/black,
-/area/f13/building)
-=======
 /obj/structure/simple_door/house/clean,
 /turf/open/floor/plasteel/airless,
-/area/f13/wasteland)
->>>>>>> Stashed changes
+/area/f13/building)
 "Gl" = (
 /obj/structure/lattice/catwalk,
 /turf/open/transparent/openspace{
@@ -2682,7 +1593,7 @@
 "Gv" = (
 /obj/structure/chair/wood/modern,
 /turf/open/floor/carpet/orange,
-/area/f13/wasteland)
+/area/f13/followers)
 "GB" = (
 /obj/structure/table/wood,
 /turf/open/floor/f13/wood{
@@ -2698,15 +1609,6 @@
 	sunlight_state = 1
 	},
 /area/f13/wasteland)
-<<<<<<< Updated upstream
-"Hf" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/chair/office{
-	dir = 1
-	},
-/turf/open/floor/plasteel/f13/vault_floor/purple/side,
-/area/f13/brotherhood/surface)
-=======
 "GS" = (
 /turf/closed/wall/mineral/concrete,
 /area/f13/wasteland)
@@ -2721,8 +1623,7 @@
 "Hd" = (
 /obj/structure/sign/poster/official/foam_force_ad,
 /turf/closed/wall/rust,
-/area/f13/wasteland)
->>>>>>> Stashed changes
+/area/f13/building)
 "Hi" = (
 /obj/structure/destructible/tribal_torch/wall/lit{
 	dir = 8
@@ -2741,11 +1642,15 @@
 /obj/structure/noticeboard/captain{
 	desc = "The final Evidence Board shows a location of the Yuma Sewers circled many times in red, looks like the police found something there..";
 	dir = 4;
-	icon_state = "nboard02";
 	name = "Evidence Board"
 	},
 /turf/closed/wall/f13/store,
 /area/f13/building)
+"Ho" = (
+/obj/structure/table/wood,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/carpet/orange,
+/area/f13/followers)
 "Hp" = (
 /obj/structure/window/fulltile/house{
 	icon_state = "storewindowhorizontal"
@@ -2762,7 +1667,6 @@
 /obj/structure/noticeboard/captain{
 	desc = "The first Evidence Board has a bunch of different faces pinned on it, with one being at the top of them all.";
 	dir = 4;
-	icon_state = "nboard05";
 	name = "Evidence Board"
 	},
 /turf/closed/wall/f13/store,
@@ -2772,7 +1676,7 @@
 /turf/open/floor/plasteel/f13/vault_floor/blue/side{
 	dir = 9
 	},
-/area/f13/wasteland)
+/area/f13/building)
 "HG" = (
 /obj/structure/closet/crate/bin,
 /turf/open/floor/wood/f13,
@@ -2782,27 +1686,8 @@
 /obj/item/kirbyplants{
 	pixel_y = 14
 	},
-<<<<<<< Updated upstream
-/area/f13/building)
-"HJ" = (
-/obj/effect/decal/cleanable/dirt{
-	color = "000000"
-	},
-/obj/effect/turf_decal/trimline/yellow/line{
-	dir = 8;
-	pixel_x = -6
-	},
-/obj/structure/table/wood/fancy/black,
-/obj/item/storage/box/dice{
-	pixel_x = -4;
-	pixel_y = 9
-	},
-/turf/open/floor/carpet/royalblack,
-/area/f13/ncr)
-=======
 /turf/open/floor/plasteel/barber,
-/area/f13/wasteland)
->>>>>>> Stashed changes
+/area/f13/building)
 "Ip" = (
 /obj/structure/chair/office/dark{
 	dir = 1
@@ -2817,37 +1702,6 @@
 	},
 /turf/open/floor/carpet/red,
 /area/f13/building)
-"IB" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/yellow/side{
-	dir = 1
-	},
-/area/f13/brotherhood/surface)
-"ID" = (
-/obj/structure/table,
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/window/spawner/north,
-/obj/structure/window/spawner/west,
-/obj/item/storage/briefcase,
-/obj/structure/fluff/paper/stack{
-	desc = "A stack of various papers, illegible scribbles scattered across each page."
-	},
-/turf/open/floor/f13,
-/area/f13/brotherhood/surface)
-"IL" = (
-/obj/structure/table,
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/window/spawner/north,
-/obj/structure/window/spawner/west,
-/obj/item/newspaper{
-	pixel_x = 6;
-	pixel_y = 6
-	},
-/obj/item/reagent_containers/food/drinks/coffee{
-	pixel_x = -6
-	},
-/turf/open/floor/f13,
-/area/f13/brotherhood/surface)
 "IT" = (
 /obj/structure/simple_door/wood,
 /obj/effect/decal/cleanable/dirt,
@@ -2860,15 +1714,6 @@
 /obj/item/mop,
 /turf/open/floor/wood/f13,
 /area/f13/building)
-"IY" = (
-/obj/structure/filingcabinet/employment{
-	pixel_x = 4;
-	pixel_y = 21
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/fluff/paper/corner,
-/turf/open/floor/plasteel/f13/vault_floor/red,
-/area/f13/brotherhood/surface)
 "Jd" = (
 /turf/closed/wall/f13/tentwall,
 /area/f13/ncr)
@@ -2886,15 +1731,6 @@
 	icon_state = "housewood4-broken"
 	},
 /area/f13/building)
-"Jn" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/sign/poster/prewar/corporate_espionage{
-	pixel_y = 32
-	},
-/turf/open/floor/plasteel/f13/vault_floor/red/side{
-	dir = 1
-	},
-/area/f13/brotherhood/surface)
 "Jp" = (
 /obj/structure/chair/office/dark,
 /turf/open/floor/f13/wood{
@@ -2929,80 +1765,10 @@
 	icon_state = "neutralrustyfull"
 	},
 /area/f13/building)
-<<<<<<< Updated upstream
-"JB" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/chair/comfy/shuttle{
-	desc = "A comfortable, secure seat. It has a futuristic vouge feel.";
-	name = "prewar lounge chair"
-	},
-/obj/item/storage/photo_album{
-	desc = "This is a photo album, that has a bunch of pictures of a family in it, most are destroyed though.";
-	name = "pre-war photo album";
-	pixel_y = -7
-	},
-/obj/effect/decal/remains/human,
-/turf/open/floor/plasteel/f13/vault_floor/dark{
-	icon_state = "darkdirty"
-	},
-/area/f13/brotherhood/surface)
-"JF" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/remains/human,
-/obj/item/gun/ballistic/automatic/pistol/type17,
-/turf/open/floor/plasteel/f13/vault_floor/neutral,
-/area/f13/brotherhood/surface)
-"Kc" = (
-/obj/structure/table,
-/obj/effect/decal/cleanable/dirt,
-/obj/item/paper_bin{
-	pixel_y = 9
-	},
-/obj/item/pen{
-	pixel_y = 9
-	},
-/obj/structure/window/spawner/west,
-/turf/open/floor/f13,
-/area/f13/brotherhood/surface)
-"Kg" = (
-/obj/structure/sign/poster/prewar/vault_tec,
-/turf/closed/wall/f13/store,
-/area/f13/brotherhood/surface)
-"Ki" = (
-/obj/structure/filingcabinet/medical{
-	pixel_x = -10
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/fluff/paper/stack{
-	desc = "A stack of various papers, illegible scribbles scattered across each page.";
-	dir = 1
-	},
-/turf/open/floor/plasteel/f13/vault_floor/red,
-/area/f13/brotherhood/surface)
-"Kk" = (
-/obj/structure/table,
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/window/spawner/north,
-/obj/structure/window/spawner/west,
-/obj/item/reagent_containers/food/snacks/badrecipe{
-	desc = "Whatever this food was before the war is now burnt to a crisp."
-	},
-/obj/item/reagent_containers/food/drinks/bottle/f13nukacola{
-	pixel_x = 4;
-	pixel_y = 6
-	},
-/turf/open/floor/f13,
-/area/f13/brotherhood/surface)
-"Ko" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/generic,
-/turf/open/floor/f13,
-/area/f13/brotherhood/surface)
-=======
 "Jz" = (
 /obj/structure/sign/poster/official/report_crimes,
 /turf/closed/wall/rust,
-/area/f13/wasteland)
+/area/f13/building)
 "JD" = (
 /obj/structure/railing{
 	color = "#A47449";
@@ -3023,11 +1789,11 @@
 /turf/open/floor/plasteel/f13/vault_floor/blue/side{
 	dir = 6
 	},
-/area/f13/wasteland)
+/area/f13/building)
 "Kj" = (
 /obj/effect/landmark/start/f13/followersguard,
 /turf/open/floor/wood/wood_tiled,
-/area/f13/wasteland)
+/area/f13/followers)
 "Kr" = (
 /obj/structure/table,
 /obj/machinery/computer/terminal{
@@ -3036,8 +1802,7 @@
 	doc_title_1 = "I'm sorry, Clint."
 	},
 /turf/open/floor/carpet/red,
-/area/f13/wasteland)
->>>>>>> Stashed changes
+/area/f13/followers)
 "Ks" = (
 /turf/closed/wall/f13/wood,
 /area/f13/legion)
@@ -3048,54 +1813,27 @@
 /obj/structure/chair/left,
 /turf/open/floor/carpet/red,
 /area/f13/building)
-<<<<<<< Updated upstream
-"KC" = (
-/obj/structure/closet/crate/footlocker{
-	anchored = 1;
-	pixel_x = -9
-	},
-/obj/machinery/light,
-/turf/open/floor/wood/wood_large,
-/area/f13/ncr)
-"KQ" = (
-/obj/structure/table,
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/window/spawner/north,
-/obj/structure/window/spawner/west,
-/obj/item/folder/yellow{
-	pixel_x = 4
-	},
-/obj/item/folder/yellow{
-	pixel_x = 4
-	},
-/obj/item/folder/yellow{
-	pixel_x = 4
-	},
-/turf/open/floor/f13,
-/area/f13/brotherhood/surface)
-=======
 "KA" = (
 /obj/structure/window/fulltile/wood,
 /turf/open/floor/wood/wood_tiled,
-/area/f13/wasteland)
+/area/f13/followers)
 "KG" = (
 /obj/effect/landmark/start/f13/deputy,
 /turf/open/floor/plasteel/f13/vault_floor/blue/side{
 	dir = 8
 	},
-/area/f13/wasteland)
+/area/f13/building)
 "KM" = (
 /turf/open/floor/plasteel/f13/vault_floor/blue/side{
 	dir = 4
 	},
-/area/f13/wasteland)
+/area/f13/building)
 "KT" = (
 /obj/machinery/msgterminal/oasis,
 /turf/open/floor/plasteel/f13/vault_floor/blue/side{
 	dir = 9
 	},
-/area/f13/wasteland)
->>>>>>> Stashed changes
+/area/f13/building)
 "Lb" = (
 /obj/structure/destructible/tribal_torch/wall/lit{
 	dir = 8
@@ -3116,33 +1854,12 @@
 	icon_state = "housewood2"
 	},
 /area/f13/building)
-"Lu" = (
-/obj/machinery/door/unpowered/securedoor{
-	desc = "Door with a built-in lock. Can't be padlocked. The Black armor isn't the only perk Veterans get..";
-	name = "Veteran Ranger's Room";
-	req_access_txt = "121"
-	},
-/turf/open/floor/wood/wood_large,
-/area/f13/ncr)
 "Lv" = (
 /obj/machinery/door/airlock/wood/glass{
 	req_one_access_txt = "62"
 	},
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
-"Lw" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/remains/human,
-/obj/structure/chair/office{
-	dir = 1
-	},
-/turf/open/floor/f13,
-/area/f13/brotherhood/surface)
-"Lx" = (
-/obj/structure/simple_door/metal/dirtystore,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/red,
-/area/f13/brotherhood/surface)
 "Ly" = (
 /obj/structure/window/fulltile/house{
 	icon_state = "storewindowhorizontal"
@@ -3157,29 +1874,10 @@
 	},
 /turf/open/floor/f13/wood,
 /area/f13/legion)
-<<<<<<< Updated upstream
-"LH" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/table/wood/fancy/black,
-/obj/structure/window/reinforced/spawner,
-/obj/structure/window/reinforced/spawner/east,
-/obj/structure/window/reinforced/spawner/north,
-/obj/structure/window/reinforced/spawner/west,
-/obj/item/statuebust{
-	anchored = 1;
-	can_be_unanchored = 1;
-	density = 1;
-	desc = "A priceless ancient marble bust of some rando. Who the hell even is this guy?";
-	pixel_y = 8
-	},
-/turf/open/floor/carpet/royalblack,
-/area/f13/brotherhood/surface)
-=======
 "LI" = (
 /obj/effect/landmark/start/f13/enforcer,
 /turf/open/floor/carpet/royalblack,
-/area/f13/wasteland)
->>>>>>> Stashed changes
+/area/f13/building)
 "LJ" = (
 /obj/structure/destructible/tribal_torch/wall/lit,
 /turf/open/indestructible/ground/outside/woodalt,
@@ -3205,19 +1903,6 @@
 	icon_state = "neutralrustyfull"
 	},
 /area/f13/building)
-"Mc" = (
-/obj/structure/noticeboard{
-	desc = "A board for pinning important items upon.";
-	name = "display plate";
-	pixel_x = 32
-	},
-/obj/item/clothing/head/helmet/f13/ncr/rangercombat/mosshelmet{
-	anchored = 1;
-	pixel_x = 32;
-	pixel_y = -3
-	},
-/turf/open/floor/wood/wood_large,
-/area/f13/ncr)
 "Mj" = (
 /obj/structure/railing/handrail{
 	dir = 4
@@ -3239,26 +1924,6 @@
 	sunlight_state = 1
 	},
 /area/f13/building)
-"Mw" = (
-/obj/structure/table/wood,
-/obj/item/binoculars,
-/turf/open/floor/wood/wood_large,
-/area/f13/ncr)
-"MC" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/table/reinforced,
-/obj/item/export/bottle/whiskey{
-	desc = "A sealed bottle of alcohol, with a little note attached to it: Happy Anniversary, Dear.";
-	pixel_x = -7;
-	pixel_y = 8
-	},
-/obj/item/clothing/accessory/necklace{
-	desc = "A necklace with a little note attached to it: Happy Anniversary, Dear.";
-	pixel_x = 7;
-	pixel_y = 5
-	},
-/turf/open/floor/plasteel/f13/vault_floor/dark,
-/area/f13/brotherhood/surface)
 "MG" = (
 /obj/structure/chair/wood/modern{
 	dir = 4
@@ -3280,49 +1945,23 @@
 /obj/structure/table/booth,
 /turf/open/floor/carpet/red,
 /area/f13/building)
-<<<<<<< Updated upstream
-"Nj" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/table,
-/obj/machinery/computer/terminal{
-	doc_content_1 = "Once again, the boss is ignoring my complaints about the janitor.. I'm SURE He's a Chinese spy.. but the boss is ignoring me.. saying that 'He's worked here longer than you' BULLSHIT, He's CHINESE AND I'LL PROVE IT!!";
-	doc_title_1 = "Janitor Problem";
-	pixel_y = 3;
-	termtag = "Business"
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/window/spawner/north,
-/turf/open/floor/f13,
-/area/f13/brotherhood/surface)
-=======
 "Ni" = (
 /obj/structure/rack/shelf_metal,
 /obj/item/storage/box/gloves,
 /obj/item/storage/box/masks,
 /obj/item/reagent_containers/spray/cleaner,
 /turf/open/floor/wood/wood_tiled,
-/area/f13/wasteland)
->>>>>>> Stashed changes
+/area/f13/followers)
 "ND" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/carpet/black,
 /area/f13/legion)
-<<<<<<< Updated upstream
-"NI" = (
-/obj/effect/decal/cleanable/dirt{
-	color = "000000"
-	},
-/obj/item/kirbyplants/random,
-/turf/open/floor/wood/wood_large,
-/area/f13/ncr)
-=======
 "NJ" = (
 /obj/structure/table,
 /obj/item/flashlight/lamp/green,
 /turf/open/floor/carpet/red,
-/area/f13/wasteland)
->>>>>>> Stashed changes
+/area/f13/followers)
 "NP" = (
 /obj/structure/simple_door/room,
 /obj/structure/barricade/wooden{
@@ -3330,11 +1969,6 @@
 	},
 /turf/open/indestructible/ground/outside/woodalt,
 /area/f13/building)
-"NS" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/item/paper/crumpled,
-/turf/open/floor/f13,
-/area/f13/brotherhood/surface)
 "NU" = (
 /obj/structure/table,
 /obj/machinery/computer/terminal{
@@ -3367,19 +2001,6 @@
 	},
 /turf/open/indestructible/ground/outside/woodalt,
 /area/f13/legion)
-"NZ" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/remains/human,
-/turf/open/floor/plasteel/grimy,
-/area/f13/brotherhood/surface)
-"Oa" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/chair/office{
-	dir = 4
-	},
-/obj/effect/decal/remains/human,
-/turf/open/floor/f13,
-/area/f13/brotherhood/surface)
 "Oc" = (
 /obj/machinery/vending/cola/space_up,
 /turf/open/floor/f13{
@@ -3388,24 +2009,16 @@
 /area/f13/building)
 "Of" = (
 /turf/open/floor/wood/wood_tiled,
-/area/f13/wasteland)
+/area/f13/followers)
 "Oj" = (
 /obj/structure/simple_door/wood,
 /turf/open/floor/f13/wood,
 /area/f13/legion)
-<<<<<<< Updated upstream
-"OE" = (
-/obj/structure/simple_door/metal/store,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/neutral,
-/area/f13/brotherhood/surface)
-=======
 "OA" = (
 /turf/open/floor/plasteel/f13/vault_floor/blue/side{
 	dir = 1
 	},
-/area/f13/wasteland)
->>>>>>> Stashed changes
+/area/f13/building)
 "OH" = (
 /obj/machinery/light{
 	dir = 8;
@@ -3413,42 +2026,10 @@
 	},
 /turf/open/transparent/openspace,
 /area/f13/building)
-<<<<<<< Updated upstream
-"OP" = (
-/obj/structure/table,
-/obj/effect/decal/cleanable/dirt,
-/obj/item/paper_bin{
-	pixel_y = 9
-	},
-/obj/item/pen{
-	pixel_y = 9
-	},
-/obj/item/laser_pointer/red,
-/turf/open/floor/f13,
-/area/f13/brotherhood/surface)
-"OY" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/table,
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/computer/terminal{
-	doc_content_1 = "I decided today to go over the clients that have an account with our bank and I noticed something off... there's a name 'John Doe' that's been coming here everyday to transfer funds into one of his other accounts.. that isn't on US Soil.. I think I just found a Chinese Spy!";
-	doc_title_1 = "Client Transactions are Off..";
-	pixel_y = 3;
-	termtag = "Business"
-	},
-/obj/structure/window/spawner/north,
-/turf/open/floor/f13,
-/area/f13/brotherhood/surface)
-"Ph" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/grimy,
-/area/f13/brotherhood/surface)
-=======
 "Pj" = (
 /obj/structure/sign/poster/official/obey,
 /turf/closed/wall/rust,
-/area/f13/wasteland)
->>>>>>> Stashed changes
+/area/f13/building)
 "Pl" = (
 /obj/structure/barricade/wooden{
 	layer = 3.5
@@ -3476,14 +2057,6 @@
 	sunlight_state = 1
 	},
 /area/f13/wasteland)
-"PO" = (
-/turf/closed/wall/f13/store,
-/area/f13/brotherhood/surface)
-"PV" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/simple_door/metal/dirtystore,
-/turf/open/floor/plasteel/f13/vault_floor/dark,
-/area/f13/brotherhood/surface)
 "Qe" = (
 /obj/structure/filingcabinet{
 	density = 0;
@@ -3502,20 +2075,10 @@
 	icon_state = "neutralrustyfull"
 	},
 /area/f13/building)
-<<<<<<< Updated upstream
-"Qj" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/closet/crate/bin/trashbin,
-/turf/open/floor/plasteel/f13/vault_floor/yellow/corner{
-	dir = 4
-	},
-/area/f13/brotherhood/surface)
-=======
 "Qf" = (
 /obj/structure/dresser,
 /turf/open/floor/wood/wood_tiled,
-/area/f13/wasteland)
->>>>>>> Stashed changes
+/area/f13/followers)
 "Qn" = (
 /obj/structure/table,
 /obj/item/binoculars,
@@ -3526,7 +2089,7 @@
 	pixel_x = 18
 	},
 /turf/open/floor/carpet/orange,
-/area/f13/wasteland)
+/area/f13/followers)
 "Qs" = (
 /obj/structure/chair/bench{
 	pixel_x = -15;
@@ -3534,77 +2097,9 @@
 	},
 /turf/open/floor/carpet/black,
 /area/f13/building)
-"Qv" = (
-/obj/structure/chair/sofa/corp/corner,
-/obj/effect/turf_decal/trimline/yellow/line{
-	dir = 1;
-	pixel_y = 6
-	},
-/obj/effect/turf_decal/trimline/yellow/line{
-	dir = 4;
-	pixel_x = 6
-	},
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/open/floor/carpet/royalblack,
-/area/f13/ncr)
 "Qx" = (
 /turf/open/indestructible,
 /area/f13/tcoms)
-"QM" = (
-/obj/structure/closet/cabinet/anchored,
-/obj/item/clothing/under/f13/ranger,
-/obj/item/clothing/under/f13/ranger/blue,
-/obj/item/clothing/under/f13/ranger/modif_ranger,
-/obj/item/clothing/under/f13/ranger/patrol,
-/obj/item/clothing/under/f13/ranger/trail,
-/obj/item/clothing/under/f13/ranger/vet,
-/obj/item/clothing/under/f13/ranger/vet/foxflannel,
-/obj/item/clothing/head/f13/flatranger,
-/turf/open/floor/wood/wood_large,
-/area/f13/ncr)
-"Re" = (
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass{
-	pixel_x = 9;
-	pixel_y = 19
-	},
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass{
-	pixel_x = 2;
-	pixel_y = 11
-	},
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass{
-	pixel_x = 9;
-	pixel_y = 11
-	},
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass{
-	pixel_x = 2;
-	pixel_y = 19
-	},
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass{
-	pixel_x = 2;
-	pixel_y = 3
-	},
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass{
-	pixel_x = 9;
-	pixel_y = 3
-	},
-/obj/item/reagent_containers/food/drinks/bottle/tequila{
-	pixel_x = -8;
-	pixel_y = 10
-	},
-/obj/item/reagent_containers/food/drinks/bottle/whiskey{
-	pixel_x = -8
-	},
-/obj/effect/decal/cleanable/dirt{
-	color = "000000"
-	},
-/obj/effect/turf_decal/trimline/yellow/line{
-	pixel_y = -6
-	},
-/obj/structure/table/wood/fancy/black,
-/turf/open/floor/carpet/royalblack,
-/area/f13/ncr)
 "Rg" = (
 /turf/open/transparent/openspace{
 	name = "air";
@@ -3617,13 +2112,13 @@
 /obj/item/twohanded/sledgehammer,
 /obj/item/twohanded/spear,
 /turf/open/floor/wood/wood_tiled,
-/area/f13/wasteland)
+/area/f13/followers)
 "Rj" = (
 /obj/structure/table/snooker{
 	dir = 10
 	},
 /turf/open/floor/carpet/royalblack,
-/area/f13/wasteland)
+/area/f13/building)
 "Rl" = (
 /obj/structure/filingcabinet{
 	pixel_x = -10
@@ -3633,32 +2128,6 @@
 	},
 /turf/open/indestructible/ground/outside/woodalt,
 /area/f13/building)
-"Rr" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/f13,
-/area/f13/brotherhood/surface)
-"Rt" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/ash/large,
-/obj/effect/decal/cleanable/ash{
-	pixel_x = -11;
-	pixel_y = -7
-	},
-/turf/open/floor/plasteel/f13/vault_floor/red,
-/area/f13/brotherhood/surface)
-"Ru" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/table,
-/obj/machinery/computer/terminal{
-	doc_content_1 = "I asked the boss if I could get the day off today, but since the boss somehow thinks this day is going to 'Turn this Bank in the right direction' he told me to stay! What an absolute asshole.";
-	doc_title_1 = "Off-Day";
-	pixel_y = 3;
-	termtag = "Business"
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/window/spawner/north,
-/turf/open/floor/f13,
-/area/f13/brotherhood/surface)
 "Rw" = (
 /obj/structure/decoration/smokeold{
 	pixel_y = 32
@@ -3672,89 +2141,25 @@
 /obj/structure/decoration/clock/old/active,
 /turf/closed/wall/f13/store,
 /area/f13/building)
-"RC" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/dark{
-	icon_state = "darkdirty"
-	},
-/area/f13/brotherhood/surface)
-"RD" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/chair/sofa/corp{
-	dir = 1
-	},
-/turf/open/floor/plasteel/grimy,
-/area/f13/brotherhood/surface)
 "RF" = (
+/obj/effect/landmark/start/f13/followersguard,
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/window{
-	dir = 1
-	},
-/obj/machinery/vending/coffee,
-/turf/open/floor/plasteel/grimy,
-/area/f13/brotherhood/surface)
+/turf/open/floor/wood/wood_tiled,
+/area/f13/followers)
 "RI" = (
 /obj/structure/barricade/sandbags,
 /turf/open/indestructible/ground/outside/woodalt,
 /area/f13/legion)
-"RJ" = (
-/obj/item/trash/f13/dog{
-	pixel_x = -6;
-	pixel_y = 14
-	},
-/obj/item/reagent_containers/glass/bowl{
-	desc = "A dog bowl, used to feed dogs food.";
-	name = "Empty dog bowl";
-	pixel_y = -6
-	},
-/turf/open/floor/wood/wood_large,
-/area/f13/ncr)
-"RN" = (
-/obj/structure/window/fulltile/house{
-	dir = 2;
-	icon_state = "storewindowright"
-	},
-/obj/structure/barricade/bars{
-	max_integrity = 800;
-	name = "strong metal bars";
-	obj_integrity = 800
-	},
-/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
-/area/f13/brotherhood/surface)
 "RP" = (
 /obj/structure/table/wood,
 /obj/item/binoculars,
 /turf/open/indestructible/ground/outside/woodalt,
 /area/f13/legion)
-<<<<<<< Updated upstream
-"RR" = (
-/obj/structure/chair/sofa/corp,
-/obj/effect/turf_decal/trimline/yellow/line{
-	dir = 1;
-	pixel_y = 6
-	},
-/turf/open/floor/carpet/royalblack,
-/area/f13/ncr)
-"RT" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/table,
-/obj/machinery/computer/terminal{
-	doc_content_1 = "I think the boss isn't fit to manage the bank anymore.. he keeps making sloppy decisions and ignoring facts! I think I'll report him to HR Tomorrow.";
-	doc_title_1 = "October 23, 2077";
-	pixel_y = 3;
-	termtag = "Business"
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/window/spawner/north,
-/turf/open/floor/f13,
-/area/f13/brotherhood/surface)
-=======
 "RQ" = (
 /obj/structure/table,
 /obj/machinery/cell_charger,
 /turf/open/floor/carpet/royalblack,
-/area/f13/wasteland)
->>>>>>> Stashed changes
+/area/f13/building)
 "Sb" = (
 /obj/structure/simple_door/metal/store{
 	icon_state = "brokenstore";
@@ -3764,37 +2169,13 @@
 	icon_state = "housewood2"
 	},
 /area/f13/building)
-"Sh" = (
-/obj/structure/window/fulltile/house{
-	dir = 2;
-	icon_state = "storewindowleft"
-	},
-/obj/structure/curtain{
-	color = "#363636"
-	},
-/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
-/area/f13/brotherhood/surface)
 "Sl" = (
 /obj/item/folder,
 /turf/open/indestructible/ground/outside/woodalt,
 /area/f13/building)
-"So" = (
-/obj/structure/table,
-/obj/item/crafting/abraxo{
-	pixel_y = 8
-	},
-/obj/item/crafting/abraxo{
-	pixel_y = 8
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/neutral,
-/area/f13/brotherhood/surface)
 "Su" = (
 /obj/effect/overlay/junk/sink{
 	pixel_y = 15
-	},
-/obj/effect/overlay/junk/mirror{
-	pixel_y = 32
 	},
 /turf/open/floor/f13{
 	icon_state = "hydrofloor"
@@ -3824,22 +2205,6 @@
 	icon_state = "darkrusty"
 	},
 /area/f13/building)
-"SO" = (
-/obj/effect/turf_decal/trimline/yellow/line{
-	pixel_y = -6
-	},
-/obj/effect/turf_decal/trimline/yellow/line{
-	dir = 8;
-	pixel_x = -6
-	},
-/obj/structure/table/wood/fancy/black,
-/obj/item/toy/figure/detective{
-	desc = "A makeshift attempt to refurbish this doll and try to make it look like a Ranger.";
-	name = "Ranger Action Figure";
-	toysay = "Glory to the Republic!"
-	},
-/turf/open/floor/carpet/royalblack,
-/area/f13/ncr)
 "SV" = (
 /obj/effect/overlay/junk/toilet{
 	dir = 8
@@ -3848,16 +2213,6 @@
 	icon_state = "hydrofloor"
 	},
 /area/f13/building)
-"SX" = (
-/obj/machinery/light{
-	dir = 8
-	},
-/obj/structure/table/wood,
-/obj/item/stack/f13Cash/ncr{
-	amount = 500
-	},
-/turf/open/floor/wood/wood_large,
-/area/f13/ncr)
 "Tm" = (
 /turf/open/indestructible/ground/outside/wood{
 	icon = 'icons/fallout/turfs/floors.dmi';
@@ -3881,7 +2236,7 @@
 	req_one_access_txt = 124
 	},
 /turf/open/floor/wood/wood_tiled,
-/area/f13/wasteland)
+/area/f13/followers)
 "Ty" = (
 /obj/machinery/light/small/broken{
 	dir = 8
@@ -3893,27 +2248,15 @@
 	},
 /turf/open/indestructible/ground/outside/woodalt,
 /area/f13/building)
-<<<<<<< Updated upstream
-"TA" = (
-/obj/structure/sign/poster/ncr/loaded,
-/turf/closed/wall/mineral/wood,
-/area/f13/ncr)
-"TU" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/yellow/corner{
-	dir = 1
-	},
-/area/f13/brotherhood/surface)
-=======
 "TB" = (
 /obj/item/twohanded/required/kirbyplants/random,
 /turf/open/floor/plasteel/f13/vault_floor/blue/side{
 	dir = 9
 	},
-/area/f13/wasteland)
+/area/f13/building)
 "TD" = (
 /turf/open/floor/carpet/red,
-/area/f13/wasteland)
+/area/f13/followers)
 "TH" = (
 /turf/open/floor/plasteel/vault,
 /area/f13/wasteland)
@@ -3922,8 +2265,7 @@
 /obj/item/storage/box/lights/bulbs,
 /obj/item/storage/box/lights/tubes,
 /turf/open/floor/wood/wood_tiled,
-/area/f13/wasteland)
->>>>>>> Stashed changes
+/area/f13/followers)
 "Ub" = (
 /obj/structure/table/booth,
 /obj/item/binoculars,
@@ -3934,11 +2276,12 @@
 /area/f13/wasteland)
 "Uf" = (
 /turf/open/floor/carpet/royalblack,
-/area/f13/wasteland)
+/area/f13/building)
 "Uh" = (
 /obj/structure/table/wood/fancy/green,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/carpet/blue,
-/area/f13/wasteland)
+/area/f13/followers)
 "Uy" = (
 /obj/structure/chair/middle,
 /turf/open/floor/carpet/red,
@@ -3993,7 +2336,7 @@
 /turf/open/floor/plasteel/f13/vault_floor/blue/side{
 	dir = 6
 	},
-/area/f13/wasteland)
+/area/f13/building)
 "UT" = (
 /obj/structure/table,
 /obj/item/paper/fluff/stations/lavaland/orm_notice{
@@ -4006,13 +2349,13 @@
 "UX" = (
 /obj/item/kirbyplants/random,
 /turf/open/floor/wood/wood_tiled,
-/area/f13/wasteland)
+/area/f13/followers)
 "Vc" = (
 /obj/structure/table/snooker{
 	dir = 5
 	},
 /turf/open/floor/carpet/royalblack,
-/area/f13/wasteland)
+/area/f13/building)
 "Vd" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13/wood,
@@ -4027,21 +2370,10 @@
 	sunlight_state = 1
 	},
 /area/f13/wasteland)
-<<<<<<< Updated upstream
-"Vi" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/item/kirbyplants{
-	icon_state = "plant-25";
-	pixel_y = 14
-	},
-/turf/open/floor/plasteel/f13/vault_floor/red/corner,
-/area/f13/brotherhood/surface)
-=======
 "Vl" = (
 /obj/machinery/workbench/forge,
 /turf/open/floor/wood/f13,
-/area/f13/wasteland)
->>>>>>> Stashed changes
+/area/f13/building)
 "Vn" = (
 /obj/effect/overlay/junk/curtain{
 	layer = 4
@@ -4051,13 +2383,6 @@
 	},
 /turf/open/space/basic,
 /area/f13/building)
-"Vr" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/chair/sofa/corp/left{
-	dir = 1
-	},
-/turf/open/floor/plasteel/grimy,
-/area/f13/brotherhood/surface)
 "Vt" = (
 /turf/open/floor/wood/f13,
 /area/f13/building)
@@ -4089,35 +2414,12 @@
 	icon_state = "neutralrustyfull"
 	},
 /area/f13/building)
-<<<<<<< Updated upstream
-"VR" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/dark,
-/area/f13/brotherhood/surface)
-"VX" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/table/reinforced,
-/obj/item/flashlight/lamp/green{
-	pixel_x = -5;
-	pixel_y = 10
-	},
-/obj/item/newspaper{
-	pixel_x = 6;
-	pixel_y = 6
-	},
-/obj/item/reagent_containers/food/drinks/coffee{
-	pixel_x = -6
-	},
-/turf/open/floor/plasteel/f13/vault_floor/dark,
-/area/f13/brotherhood/surface)
-=======
 "VM" = (
 /obj/structure/table/wood/fancy/black,
 /obj/structure/table/wood/fancy,
 /obj/item/binoculars,
 /turf/open/floor/wood/f13/maple,
 /area/f13/wasteland)
->>>>>>> Stashed changes
 "Wp" = (
 /obj/structure/table,
 /obj/item/paper_bin,
@@ -4152,18 +2454,6 @@
 "Wx" = (
 /turf/open/indestructible/ground/outside/woodalt,
 /area/f13/wasteland)
-<<<<<<< Updated upstream
-"WI" = (
-/obj/structure/sign/plaques/golden,
-/turf/closed/wall/mineral/wood,
-/area/f13/ncr)
-"WN" = (
-/obj/item/mop,
-/obj/structure/mopbucket,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/neutral,
-/area/f13/brotherhood/surface)
-=======
 "WC" = (
 /obj/structure/rack/shelf_metal,
 /obj/item/circuitboard/machine/biogenerator,
@@ -4176,15 +2466,14 @@
 /obj/item/circuitboard/machine/mining_equipment_vendor,
 /obj/item/circuitboard/machine/seed_extractor,
 /turf/open/floor/wood/wood_tiled,
-/area/f13/wasteland)
+/area/f13/followers)
 "WM" = (
 /obj/structure/guncase,
 /obj/item/gun/energy/laser/wattz,
 /obj/item/gun/energy/laser/wattz,
 /obj/item/gun/ballistic/revolver/widowmaker,
 /turf/open/floor/wood/wood_tiled,
-/area/f13/wasteland)
->>>>>>> Stashed changes
+/area/f13/followers)
 "Xa" = (
 /obj/structure/chair/office/dark{
 	dir = 1
@@ -4205,20 +2494,6 @@
 	icon_state = "housewood2-broken"
 	},
 /area/f13/building)
-"Xf" = (
-/obj/structure/filingcabinet{
-	layer = 3.3;
-	pixel_x = 5;
-	pixel_y = 6
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/fluff/paper/stack{
-	desc = "A stack of various papers, illegible scribbles scattered across each page.";
-	pixel_x = 6;
-	pixel_y = -4
-	},
-/turf/open/floor/plasteel/f13/vault_floor/red,
-/area/f13/brotherhood/surface)
 "XF" = (
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
 	name = "metal plating";
@@ -4233,31 +2508,62 @@
 	name = "metal plating"
 	},
 /area/f13/building)
-<<<<<<< Updated upstream
-"XT" = (
-/obj/effect/decal/cleanable/dirt{
-	color = "000000"
+"Yf" = (
+/obj/structure/chair/wood/modern,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/carpet/orange,
+/area/f13/followers)
+"Yg" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/chair/wood,
+/turf/open/transparent/openspace{
+	name = "air";
+	sunlight_state = 1
 	},
-/turf/open/floor/wood/wood_large,
-/area/f13/ncr)
-"Yb" = (
+/area/f13/wasteland)
+"Ys" = (
+/obj/structure/sign/warning/nosmoking/circle,
+/turf/closed/wall/f13/wood,
+/area/f13/followers)
+"Yw" = (
 /obj/structure/railing{
+	color = "#A47449"
+	},
+/turf/open/transparent/openspace{
+	name = "air";
+	sunlight_state = 1
+	},
+/area/f13/wasteland)
+"YA" = (
+/obj/structure/window/fulltile/wood,
+/turf/open/space/basic,
+/area/f13/building)
+"YB" = (
+/turf/open/floor/f13/wood{
+	icon_state = "housewood2-broken"
+	},
+/area/f13/building)
+"YO" = (
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/open/floor/carpet,
+/area/f13/building)
+"YY" = (
+/obj/structure/railing/handrail{
 	dir = 8
 	},
-/obj/effect/decal/cleanable/dirt{
-	color = "000000"
-	},
-/turf/open/floor/wood/wood_large,
-/area/f13/ncr)
-=======
-"Yf" = (
-/obj/machinery/door/unpowered/securedoor{
-	req_one_access_txt = 62
-	},
-/turf/open/space/basic,
+/turf/open/floor/wood/f13/maple,
 /area/f13/wasteland)
->>>>>>> Stashed changes
-"Yg" = (
+"Zp" = (
+/obj/structure/sink/greyscale{
+	dir = 4;
+	pixel_x = 12
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/wood/wood_tiled,
+/area/f13/followers)
+"ZQ" = (
 /obj/structure/lattice/catwalk,
 /obj/machinery/button/door{
 	id = "interiorgate";
@@ -4276,159 +2582,6 @@
 	sunlight_state = 1
 	},
 /area/f13/wasteland)
-<<<<<<< Updated upstream
-"Yv" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/purple/corner,
-/area/f13/brotherhood/surface)
-"Yy" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/computer/terminal{
-	doc_content_1 = "I think the archivist is pervert! He's always coming up to me during break hours and saying stuff like: 'Can you scoot over' WHILE I'M SITTING DOWN IN AN EMPTY SOFA!";
-	doc_title_1 = "October 22, 2077";
-	pixel_y = 3;
-	termtag = "Business"
-	},
-/obj/structure/table,
-/obj/structure/window/spawner/north,
-/turf/open/floor/f13,
-/area/f13/brotherhood/surface)
-"YA" = (
-=======
-"Ys" = (
-/turf/closed/wall/rust,
-/area/f13/wasteland)
-"Yw" = (
->>>>>>> Stashed changes
-/obj/structure/railing{
-	color = "#A47449"
-	},
-/turf/open/transparent/openspace{
-	name = "air";
-	sunlight_state = 1
-	},
-/area/f13/wasteland)
-"YA" = (
-/obj/structure/table/wood/poker,
-/turf/open/floor/carpet/royalblack,
-/area/f13/wasteland)
-"YB" = (
-/turf/open/floor/f13/wood{
-	icon_state = "housewood2-broken"
-	},
-/area/f13/building)
-"YM" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/neutral/corner{
-	dir = 4
-	},
-/area/f13/brotherhood/surface)
-"YO" = (
-/obj/machinery/light/small{
-	dir = 1
-	},
-/turf/open/floor/carpet,
-/area/f13/building)
-"YP" = (
-/obj/item/reagent_containers/spray/cleaner,
-/obj/structure/table,
-/obj/item/reagent_containers/spray/cleaner,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/neutral,
-/area/f13/brotherhood/surface)
-"YS" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/light/floor{
-	color = "#FF7F7F";
-	critical_machine = 1;
-	flicker_chance = 0;
-	light_color = "#FF7F7F";
-	nightshift_light_color = "#660000"
-	},
-/turf/open/floor/plasteel/f13/vault_floor/dark{
-	icon_state = "darkrusty";
-	name = "grimy tile"
-	},
-/area/f13/brotherhood/surface)
-"YY" = (
-/obj/structure/railing/handrail{
-	dir = 8
-	},
-/turf/open/floor/wood/f13/maple,
-/area/f13/wasteland)
-"Zp" = (
-/obj/structure/sink/greyscale{
-	dir = 4;
-	pixel_x = 12
-	},
-<<<<<<< Updated upstream
-/turf/open/floor/carpet/black,
-/area/f13/building)
-"Zk" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/table,
-/obj/machinery/computer/terminal{
-	doc_content_1 = "Boss told me to bring out the Earnings folder and make sure it's right, I've told him it's right but he asked me to re-do them all again... there goes my weekend.";
-	doc_title_1 = "Finance Day..";
-	pixel_y = 3;
-	termtag = "Business"
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/window/spawner/north,
-/turf/open/floor/f13,
-/area/f13/brotherhood/surface)
-"ZB" = (
-/obj/structure/bed/dogbed,
-/mob/living/simple_animal/hostile/wolf/alpha{
-	desc = "The NCR Rangers have been known to employ K9 units from time to time.";
-	faction = list("neutral");
-	name = "Ranger Seth"
-	},
-/turf/open/floor/wood/wood_large,
-/area/f13/ncr)
-"ZM" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/barricade/sandbags,
-/turf/open/floor/f13,
-/area/f13/brotherhood/surface)
-=======
-/turf/open/floor/wood/wood_tiled,
-/area/f13/wasteland)
->>>>>>> Stashed changes
-"ZQ" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/chair/wood,
-/turf/open/transparent/openspace{
-	name = "air";
-	sunlight_state = 1
-	},
-/area/f13/wasteland)
-<<<<<<< Updated upstream
-"ZS" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/chair/sofa/corp{
-	dir = 4
-	},
-/turf/open/floor/plasteel/grimy,
-/area/f13/brotherhood/surface)
-"ZX" = (
-/obj/structure/table,
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/window/spawner/north,
-/obj/structure/window/spawner/west,
-/obj/item/reagent_containers/food/snacks/breadslice/spidermeat{
-	desc = "A slice of meatloaf left out for a while after a nuclear blast, it's probably not safe to eat.";
-	name = "green.. bread slice?";
-	pixel_x = -1;
-	pixel_y = -2
-	},
-/obj/item/reagent_containers/glass/beaker/waterbottle/empty{
-	pixel_x = 7;
-	pixel_y = 7
-	},
-/turf/open/floor/f13,
-/area/f13/brotherhood/surface)
-=======
 "ZX" = (
 /obj/structure/chair/wood/fancy{
 	pixel_x = 23
@@ -4439,8 +2592,7 @@
 /obj/structure/bed/wooden,
 /obj/item/bedsheet/captain,
 /turf/open/floor/wood/wood_tiled,
-/area/f13/wasteland)
->>>>>>> Stashed changes
+/area/f13/followers)
 
 (1,1,1) = {"
 Al
@@ -20185,7 +18337,7 @@ PL
 PL
 PL
 PL
-PL
+kC
 PL
 PL
 PL
@@ -20439,12 +18591,12 @@ PL
 PL
 PL
 PL
-tY
-tY
-tY
-tY
-tY
 PL
+PL
+kC
+kC
+kC
+kC
 PL
 PL
 PL
@@ -20688,20 +18840,20 @@ kC
 kC
 kC
 kC
+PL
+PL
 kC
 kC
 kC
 kC
 kC
 kC
+PL
 kC
 kC
-zN
-zN
-zN
-zN
-zN
-UK
+kC
+kC
+kC
 PL
 PL
 PL
@@ -20947,18 +19099,18 @@ kC
 kC
 kC
 kC
-tg
-tg
-tg
-WI
-tg
-tg
-og
-XT
-zN
-El
-zN
-aJ
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
 PL
 PL
 PL
@@ -21198,24 +19350,24 @@ kC
 kC
 kC
 kC
-tg
-tg
-tg
-tg
-eO
-tg
-tg
-SX
-NI
-XT
-zN
-mu
-sg
-XT
-zN
-Mw
-zN
-aJ
+lH
+lH
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
 PL
 PL
 PL
@@ -21455,24 +19607,24 @@ kC
 kC
 kC
 kC
-tg
-yP
-XT
-zN
-zN
-yP
-tg
-XT
-zN
-zN
-sL
-mu
-FN
-zN
-zN
-El
-zN
-aJ
+lH
+lH
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
 PL
 PL
 PL
@@ -21712,24 +19864,24 @@ kC
 kC
 kC
 kC
-tg
-Ei
-zN
-XT
-XT
-KC
-tg
-zN
-Mc
-XT
-yA
-mu
-XT
-zN
-XT
-yS
-zN
-aJ
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
 PL
 PL
 PL
@@ -21969,24 +20121,24 @@ kC
 kC
 kC
 kC
-tg
-ZB
-XT
-XT
-zN
-QM
-tg
-Lu
-mu
-mu
-mu
-tg
-go
-tg
-tg
-tg
 kC
-PL
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
 PL
 PL
 PL
@@ -22226,22 +20378,22 @@ kC
 kC
 kC
 kC
-mg
-RJ
-zN
-zN
-XT
-zN
-eF
-zN
-zN
-zN
-zN
-XT
-zN
-xW
-eE
-tg
+kC
+kC
+kC
+lH
+lH
+lH
+lH
+lH
+lH
+lH
+kC
+kC
+kC
+kC
+kC
+kC
 kC
 kC
 PL
@@ -22483,22 +20635,22 @@ kC
 kC
 kC
 kC
-tg
-yP
-XT
-XT
-zN
-yP
-tg
-qs
-HJ
-SO
-zN
-zN
-XT
-zN
-zN
-tg
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
 kC
 kC
 PL
@@ -22740,22 +20892,22 @@ kC
 kC
 kC
 kC
-tg
-ea
-zN
-XT
-XT
-KC
-tg
-RR
-pm
-Re
-zN
-zN
-zN
-sS
-sS
-tg
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
 kC
 PL
 PL
@@ -22997,22 +21149,22 @@ kC
 kC
 kC
 kC
-tg
-tg
-tg
-tg
-tg
-tg
-tg
-Qv
-gK
-Cn
-zN
-XT
-zN
-tK
-Yb
-tg
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
 kC
 PL
 PL
@@ -23260,16 +21412,16 @@ kC
 kC
 kC
 kC
-tg
-tg
-tg
-tg
-tg
-tg
-TA
-tg
-tg
-tg
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
 kC
 PL
 PL
@@ -24635,13 +22787,13 @@ ad
 ad
 ad
 ad
-ad
 sD
 sD
 sD
-sD
-sD
-sD
+PL
+PL
+PL
+PL
 PL
 PL
 PL
@@ -24891,14 +23043,14 @@ CC
 CC
 CC
 CC
-CC
-ad
-ad
-ad
 ad
 ad
 ad
 sD
+PL
+PL
+PL
+PL
 PL
 PL
 PL
@@ -25150,12 +23302,12 @@ CC
 CC
 CC
 CC
-CC
-CC
-CC
-CC
 ad
 sD
+sD
+PL
+PL
+PL
 PL
 PL
 PL
@@ -25383,12 +23535,12 @@ PL
 PL
 PL
 PL
-sD
-sD
-sD
-sD
-sD
-sD
+PL
+PL
+PL
+PL
+PL
+PL
 sD
 sD
 ad
@@ -25407,12 +23559,12 @@ CC
 CC
 CC
 CC
-CC
-CC
-CC
-CC
+ad
 ad
 sD
+PL
+PL
+PL
 PL
 PL
 PL
@@ -25637,21 +23789,18 @@ PL
 PL
 PL
 PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
 sD
-sD
-sD
-sD
 ad
 ad
-ad
-ad
-ad
-ad
-ad
-ad
-CC
-CC
-CC
 CC
 CC
 CC
@@ -25670,7 +23819,10 @@ CC
 CC
 ad
 sD
-sD
+PL
+PL
+PL
+PL
 PL
 PL
 PL
@@ -25894,20 +24046,17 @@ PL
 PL
 PL
 PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
 sD
 ad
-ad
-ad
-ad
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
 CC
 CC
 CC
@@ -25926,14 +24075,17 @@ CC
 CC
 CC
 ad
-ad
 sD
-sD
-sD
-sD
-sD
-sD
-sD
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
 PL
 PL
 CC
@@ -26151,6 +24303,15 @@ PL
 PL
 PL
 PL
+PL
+PL
+sD
+sD
+sD
+sD
+sD
+sD
+sD
 sD
 ad
 CC
@@ -26170,27 +24331,18 @@ CC
 CC
 CC
 CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-ad
-ad
-ad
-ad
-ad
-ad
 ad
 sD
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
 PL
 PL
 CC
@@ -26408,27 +24560,17 @@ PL
 PL
 PL
 PL
+PL
+PL
 sD
 ad
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
+ad
+ad
+ad
+ad
+ad
+ad
+ad
 CC
 CC
 CC
@@ -26448,6 +24590,16 @@ CC
 CC
 ad
 sD
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
 PL
 PL
 CC
@@ -26666,34 +24818,24 @@ PL
 PL
 PL
 sD
+sD
+sD
 ad
-CC
-CC
-gb
-gb
-gb
-gb
-gb
-gb
-gb
+al
+al
+al
+al
+al
+al
+al
 YY
 YY
 GS
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
+PL
+PL
+PL
+PL
+PL
 CC
 CC
 CC
@@ -26705,6 +24847,16 @@ CC
 CC
 ad
 sD
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
 PL
 PL
 PL
@@ -26924,15 +25076,15 @@ PL
 PL
 sD
 ad
-CC
-CC
-gb
+ad
+ad
+al
 hQ
 wp
 wp
 BB
 FK
-gb
+al
 Li
 Li
 bX
@@ -26940,17 +25092,7 @@ PL
 PL
 PL
 PL
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
+PL
 CC
 CC
 CC
@@ -26962,6 +25104,16 @@ CC
 CC
 ad
 sD
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
 PL
 PL
 PL
@@ -27183,13 +25335,13 @@ sD
 ad
 PL
 PL
-gb
+al
 pl
 wp
 wp
 wp
 Ga
-gb
+al
 nX
 VM
 bX
@@ -27197,17 +25349,7 @@ PL
 PL
 PL
 PL
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
+PL
 CC
 CC
 CC
@@ -27218,6 +25360,16 @@ CC
 CC
 CC
 ad
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
+sD
 sD
 PL
 PL
@@ -27440,13 +25592,13 @@ sD
 ad
 PL
 PL
-gb
+al
 rt
 wp
 yo
 wp
 wp
-gb
+al
 Li
 Li
 bX
@@ -27454,6 +25606,7 @@ PL
 PL
 PL
 PL
+PL
 CC
 CC
 CC
@@ -27463,17 +25616,16 @@ CC
 CC
 CC
 CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
 ad
 sD
 PL
@@ -27697,13 +25849,13 @@ sD
 ad
 PL
 PL
-gb
-gb
-gb
-gb
-gb
+al
+al
+al
+al
+al
 Gf
-gb
+al
 Li
 Li
 GS
@@ -27711,20 +25863,20 @@ PL
 PL
 PL
 PL
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
 CC
 CC
 CC
@@ -27952,15 +26104,15 @@ PL
 PL
 sD
 ad
-Rg
-Rg
-gb
 PL
 PL
-gb
+al
+Rg
+Rg
+al
 Dp
 Dp
-gb
+al
 Li
 Li
 bX
@@ -27968,20 +26120,20 @@ PL
 PL
 PL
 PL
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
 CC
 CC
 CC
@@ -28208,13 +26360,13 @@ PL
 PL
 PL
 sD
-sD
-Rg
-Rg
-gb
+ad
 PL
 PL
-gb
+al
+Rg
+Rg
+al
 Dp
 Dp
 Gf
@@ -28226,19 +26378,19 @@ PL
 PL
 PL
 PL
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
 CC
 CC
 CC
@@ -28464,17 +26616,17 @@ PL
 PL
 PL
 PL
-PL
-PL
 sD
 ad
-gb
+ad
+ad
+al
 tg
 tg
-gb
+al
 Dp
 Dp
-gb
+al
 Li
 Li
 bX
@@ -28485,17 +26637,17 @@ PL
 PL
 PL
 PL
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
 CC
 CC
 CC
@@ -28721,17 +26873,17 @@ PL
 PL
 PL
 PL
-PL
-PL
+sD
+sD
 sD
 ad
-gb
+al
 tg
 tg
 yW
 Dp
 Dp
-gb
+al
 Li
 Li
 GS
@@ -28746,6 +26898,13 @@ PL
 PL
 PL
 PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
 CC
 CC
 CC
@@ -28753,15 +26912,8 @@ CC
 CC
 CC
 CC
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
+CC
+CC
 ad
 sD
 PL
@@ -28985,10 +27137,10 @@ ad
 al
 al
 al
-gb
+al
 Dp
 HH
-gb
+al
 Li
 Li
 bX
@@ -29003,22 +27155,22 @@ PL
 PL
 PL
 PL
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-Ys
-Ys
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+Kv
+Kv
 Pj
-Ys
-Ys
-Ys
-PL
-PL
-PL
+Kv
+Kv
+Kv
+CC
+CC
+CC
 ad
 sD
 PL
@@ -29242,10 +27394,10 @@ sD
 ad
 ad
 ad
-gb
-gb
-gb
-gb
+al
+al
+al
+al
 Li
 GW
 bX
@@ -29260,22 +27412,22 @@ PL
 PL
 PL
 PL
-CC
-CC
-CC
-CC
-CC
-CC
-CC
+PL
+PL
+PL
+PL
+PL
+PL
+PL
 Hd
 Cm
 la
 kT
 CU
-Ys
-PL
-PL
-PL
+Kv
+CC
+CC
+CC
 ad
 sD
 PL
@@ -29495,9 +27647,9 @@ PL
 PL
 PL
 PL
-PL
-PL
-Rg
+sD
+sD
+sD
 ad
 ad
 ad
@@ -29517,22 +27669,22 @@ PL
 PL
 PL
 PL
-CC
-CC
-CC
-CC
-CC
-CC
-CC
+PL
+PL
+PL
+PL
+PL
+PL
+PL
 rD
 RQ
 vz
 ap
 sx
-Ys
-PL
-PL
-PL
+Kv
+CC
+CC
+CC
 ad
 sD
 PL
@@ -29754,9 +27906,9 @@ PL
 PL
 PL
 PL
-Rg
-Rg
-Rg
+sD
+sD
+sD
 ad
 Mj
 Mj
@@ -29774,22 +27926,22 @@ PL
 PL
 PL
 PL
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-Ys
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+Kv
 nn
 nn
 nn
 sx
-Ys
-Ys
-Ys
-Ys
+Kv
+Kv
+Kv
+Kv
 ad
 sD
 PL
@@ -30036,17 +28188,17 @@ PL
 PL
 PL
 PL
-CC
-CC
-Ys
+PL
+PL
+Kv
 KT
 KM
 KM
 ts
-Ys
-Ys
-PL
-PL
+Kv
+Kv
+Rg
+Rg
 ad
 sD
 PL
@@ -30272,38 +28424,38 @@ PL
 PL
 sD
 ad
-gb
-gb
-gb
-gb
-gb
-gb
-gb
-gb
-gb
+al
+al
+al
+al
+al
+al
+al
+al
+al
 PL
 PL
 PL
 PL
 PL
+al
+al
+al
+al
 PL
 PL
 PL
 PL
 PL
-PL
-PL
-CC
-CC
-Ys
-Ys
+Kv
+Kv
 ki
-Ys
-Ys
-Ys
-Ys
-PL
-PL
+Kv
+Kv
+Kv
+Kv
+Rg
+Rg
 ad
 sD
 PL
@@ -30529,34 +28681,34 @@ PL
 PL
 sD
 ad
+al
 gb
-Of
-Of
-Of
-Of
-Of
-PL
-PL
 gb
+gb
+gb
+gb
+Rg
+Rg
+al
 PL
 PL
 PL
 PL
 PL
+al
+al
+al
+al
 PL
 PL
 PL
 PL
 PL
-PL
-PL
-CC
-CC
-Ys
+Kv
 hL
 AR
 CU
-Ys
+Kv
 EP
 AR
 AR
@@ -30786,34 +28938,34 @@ PL
 PL
 sD
 ad
+al
 gb
-Of
-Of
-Of
-Of
-Of
-PL
-PL
 gb
+gb
+gb
+gb
+Rg
+Rg
+al
 PL
 PL
 PL
 PL
-Kv
+PL
+al
+al
+al
+al
 PL
 PL
 PL
-Kv
 PL
 PL
-PL
-CC
-CC
 Jz
 OA
 lF
 sx
-Ys
+Kv
 OA
 lF
 lF
@@ -31043,29 +29195,29 @@ PL
 PL
 sD
 ad
+al
 gb
-Of
 oT
 oT
-Of
-Of
 gb
 gb
-gb
-gb
-CC
+al
+al
+al
+al
+PL
+PL
+PL
+PL
+al
+al
+al
+al
 PL
 PL
 PL
 PL
 PL
-PL
-PL
-PL
-PL
-PL
-CC
-CC
 rD
 OA
 lF
@@ -31300,17 +29452,16 @@ PL
 PL
 sD
 ad
+al
 gb
-Of
 oT
 oT
-Of
-Uf
-Uf
-Uf
-Uf
 gb
-CC
+Uf
+Uf
+Uf
+Uf
+al
 PL
 PL
 PL
@@ -31323,11 +29474,12 @@ PL
 PL
 PL
 PL
-Ys
+PL
+Kv
 OA
 lF
 sx
-Ys
+Kv
 TB
 KM
 KM
@@ -31557,17 +29709,16 @@ PL
 PL
 sD
 ad
+al
 gb
-Of
-Of
-Of
-Of
+gb
+gb
+gb
 Uf
 yZ
 Vc
 Uf
-gb
-CC
+al
 PL
 PL
 PL
@@ -31580,15 +29731,16 @@ PL
 PL
 PL
 PL
-Ys
+PL
+Kv
 OA
 lF
 sx
-Ys
-Ys
-Ys
-Ys
-Ys
+Kv
+Kv
+Kv
+Kv
+Kv
 ad
 sD
 PL
@@ -31814,17 +29966,16 @@ PL
 PL
 sD
 ad
+al
+Uf
+Uf
+Uf
 gb
-Uf
-Uf
-Uf
-Of
 Uf
 rL
 bh
 Uf
-gb
-CC
+al
 PL
 PL
 PL
@@ -31837,7 +29988,8 @@ PL
 PL
 PL
 PL
-Ys
+PL
+Kv
 OA
 lF
 sx
@@ -32071,30 +30223,30 @@ PL
 PL
 sD
 ad
+al
+FT
+FT
+FT
 gb
-YA
-YA
-YA
-Of
 Uf
 Rj
 qK
 Uf
-gb
-CC
-PL
-PL
-Kv
-PL
-PL
-PL
-Kv
+al
 PL
 PL
 PL
 PL
 PL
-yh
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+YA
 OA
 lF
 sx
@@ -32328,17 +30480,16 @@ PL
 PL
 sD
 ad
-gb
+al
 Uf
 LI
 Uf
-Of
-Uf
-Uf
-Uf
-Uf
 gb
-CC
+Uf
+Uf
+Uf
+Uf
+al
 PL
 PL
 PL
@@ -32351,7 +30502,8 @@ PL
 PL
 PL
 PL
-Ys
+PL
+Kv
 TB
 KM
 US
@@ -32585,17 +30737,16 @@ PL
 PL
 sD
 ad
-gb
-gb
-gb
-gb
-gb
-gb
-gb
-gb
-gb
-gb
-CC
+al
+al
+al
+al
+al
+al
+al
+al
+al
+al
 PL
 PL
 PL
@@ -32608,19 +30759,20 @@ PL
 PL
 PL
 PL
-Ys
-Ys
-Ys
-Ys
-Ys
-Ys
-Yf
-Ys
-Ys
+PL
+Kv
+Kv
+Kv
+Kv
+Kv
+Kv
+pp
+Kv
+Kv
 ad
 sD
-eH
-eH
+sD
+sD
 PL
 Wx
 Wx
@@ -32848,21 +31000,21 @@ Kv
 Kv
 Kv
 Kv
-Kv
-Kv
-Kv
-Rg
-Rg
 PL
 PL
-GS
-GS
-GS
+PL
+PL
+PL
+PL
+PL
+bq
+bq
+bq
 sA
-GS
-GS
-GS
-GS
+bq
+bq
+bq
+bq
 PL
 PL
 PL
@@ -32876,8 +31028,8 @@ aJ
 PL
 ad
 ad
-qw
-eH
+ad
+sD
 PL
 Wx
 Wx
@@ -33112,29 +31264,29 @@ PL
 PL
 PL
 PL
-GS
+bq
 Vl
-bq
-bq
-bq
-PL
-PL
-GS
-PL
-PL
-PL
-PL
+Vt
+Vt
+Vt
 Rg
 Rg
-Rg
+bq
+PL
+PL
+PL
+PL
+PL
+PL
+PL
 Kv
 pp
 Kv
 Kv
 Kv
 Kv
-qw
-eH
+ad
+sD
 PL
 Wx
 Wx
@@ -33369,29 +31521,29 @@ PL
 PL
 PL
 PL
-GS
 bq
+Vt
 sc
-bq
-bq
-PL
-PL
-GS
-PL
-PL
-PL
-PL
-PL
+Vt
+Vt
 Rg
-ii
+Rg
+bq
+PL
+PL
+PL
+PL
+PL
+PL
+Yw
 tM
 EX
 Kv
 LV
 tK
 XF
-qw
-eH
+ad
+sD
 PL
 Wx
 Wx
@@ -33584,7 +31736,7 @@ mI
 qd
 EX
 EX
-yd
+Rg
 mI
 Ts
 mI
@@ -33626,29 +31778,29 @@ PL
 PL
 PL
 PL
-yh
+YA
 vp
-bq
+Vt
 bD
-GS
-GS
-GS
-GS
+bq
+bq
+bq
+bq
 PL
 PL
 PL
 PL
 PL
-Rg
-ii
+PL
+Yw
 tM
 EX
 MF
 XF
 XF
 XF
-qw
-eH
+ad
+sD
 PL
 PL
 Wx
@@ -33883,11 +32035,11 @@ PL
 PL
 PL
 PL
-GS
-fT
 bq
+fT
+Vt
 BK
-GS
+bq
 PL
 PL
 PL
@@ -33896,16 +32048,16 @@ PL
 PL
 PL
 PL
-Rg
-ii
+PL
+Yw
 ar
 EX
 jZ
 lf
 pH
 XF
-qw
-eH
+ad
+sD
 PL
 PL
 PL
@@ -34140,11 +32292,11 @@ PL
 PL
 PL
 PL
-GS
-rm
 bq
+rm
+Vt
 oK
-GS
+bq
 PL
 PL
 PL
@@ -34153,16 +32305,16 @@ PL
 PL
 PL
 PL
-Rg
-ii
+PL
+Yw
 tM
 EX
 JD
 Dc
 XF
 XF
-qw
-eH
+ad
+sD
 PL
 PL
 PL
@@ -34397,11 +32549,11 @@ PL
 PL
 PL
 PL
-GS
+bq
 sA
-GS
-GS
-GS
+bq
+bq
+bq
 PL
 PL
 PL
@@ -34410,16 +32562,16 @@ PL
 PL
 PL
 PL
-Rg
-ii
+PL
+Yw
 tM
 EX
 EX
 pH
 pH
 XF
-qw
-eH
+ad
+sD
 PL
 PL
 PL
@@ -34667,16 +32819,16 @@ PL
 PL
 PL
 PL
-Rg
-ii
+PL
+Yw
 vC
 tM
 tM
 XF
 tM
-qw
-qw
-eH
+ad
+ad
+sD
 PL
 PL
 PL
@@ -34930,9 +33082,9 @@ nE
 nE
 nE
 Gl
+Gl
+Gl
 vB
-PL
-PL
 PL
 PL
 PL
@@ -35186,10 +33338,10 @@ PL
 PL
 PL
 PL
-ZQ
+Gl
+Gl
+Yg
 vB
-PL
-PL
 PL
 PL
 PL
@@ -35443,10 +33595,10 @@ PL
 PL
 PL
 PL
-Yg
+Gl
+Gl
+ZQ
 vB
-PL
-PL
 PL
 PL
 PL
@@ -35695,15 +33847,15 @@ PL
 PL
 PL
 PL
-ad
-ad
-ad
-ad
-ad
-ad
-ad
 PL
 PL
+PL
+PL
+ad
+ad
+ad
+ad
+ad
 PL
 PL
 PL
@@ -35924,40 +34076,40 @@ PL
 PL
 PL
 PL
-sD
+PL
 ad
-ad
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-tY
-tY
-tY
-tY
-tY
-tY
-tY
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
 ad
 PL
 PL
 PL
 PL
-ad
+PL
+PL
+PL
+PL
+tY
+tY
+tY
+tY
+tY
+tY
+tY
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
 ad
 sD
 PL
@@ -36180,8 +34332,8 @@ PL
 PL
 PL
 PL
-PL
-sD
+ad
+ad
 ad
 PL
 PL
@@ -36204,7 +34356,7 @@ PL
 eH
 KA
 eH
-eH
+Ys
 eH
 eH
 KA
@@ -36357,22 +34509,22 @@ kC
 kC
 kC
 kC
+lH
 kC
 kC
 kC
 kC
 kC
-PO
-PO
-PO
-PO
-PO
-PO
-PO
-zo
-PO
-PO
-PO
+kC
+kC
+kC
+kC
+kC
+CC
+CC
+CC
+CC
+CC
 PL
 PL
 PL
@@ -36437,10 +34589,10 @@ PL
 PL
 PL
 PL
-PL
-sD
 ad
-PL
+EX
+EX
+EX
 sD
 sD
 sD
@@ -36461,7 +34613,7 @@ PL
 eH
 hW
 aU
-cv
+qw
 qe
 eH
 ot
@@ -36610,26 +34762,26 @@ lH
 lH
 kC
 kC
-PO
-PO
-PO
-Kg
-PO
-PO
-PO
-PO
-PO
-lr
-Rr
-bw
-AT
-iM
-er
-OP
-iM
-CA
-AT
-PO
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+CC
+CC
+CC
+CC
+CC
+CC
 PL
 PL
 PL
@@ -36694,10 +34846,10 @@ PL
 PL
 PL
 PL
-PL
-sD
 ad
-PL
+EX
+EX
+EX
 rZ
 bA
 Vw
@@ -36721,8 +34873,8 @@ Uh
 cv
 Of
 Tt
-Of
-Of
+ii
+ii
 eH
 PL
 PL
@@ -36867,26 +35019,26 @@ kC
 kC
 kC
 kC
-PO
-LH
-RC
-tl
-tl
-tl
-bu
-PO
-Qj
-iM
-Rr
-Zk
-rX
-Rr
-Nj
-rX
-rG
-RT
-gs
-PO
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+CC
+CC
+CC
+CC
+CC
+CC
 PL
 PL
 PL
@@ -36951,10 +35103,10 @@ PL
 PL
 PL
 PL
-PL
-sD
 ad
-PL
+EX
+EX
+EX
 rZ
 Uy
 Nd
@@ -36974,7 +35126,7 @@ aJ
 PL
 eH
 px
-cv
+qw
 cv
 vA
 eH
@@ -37124,26 +35276,26 @@ kC
 kC
 kC
 kC
-PO
-YS
-tl
-RC
-tl
-an
-tl
-Sh
-IB
-Rr
-Rr
-Rr
-Rr
-or
-Rr
-Rr
-Ko
-Rr
-Rr
-CH
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+lH
+kC
+kC
+kC
+kC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
 PL
 PL
 PL
@@ -37208,10 +35360,10 @@ PL
 PL
 PL
 PL
-PL
-sD
 ad
-PL
+EX
+EX
+EX
 rZ
 Kx
 Nd
@@ -37232,7 +35384,7 @@ PL
 eH
 UX
 Of
-Of
+ii
 nl
 eH
 Of
@@ -37381,26 +35533,26 @@ kC
 kC
 kC
 kC
-PO
-RC
-bQ
-wR
-tl
-VR
-tl
-dj
-IB
-Rr
-Rr
-Kk
-Kc
-Rr
-Fl
-Kc
-Rr
-dy
-Kc
-kb
+kC
+kC
+kC
+kC
+kC
+lH
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
 PL
 PL
 PL
@@ -37465,10 +35617,10 @@ PL
 PL
 PL
 PL
-PL
-sD
 ad
-PL
+EX
+EX
+EX
 sD
 Mu
 Vt
@@ -37495,7 +35647,7 @@ eH
 eH
 eH
 eH
-eH
+Ys
 eH
 KA
 eH
@@ -37638,26 +35790,26 @@ kC
 kC
 kC
 kC
-PO
-RC
-tl
-VX
-wF
-RC
-aI
-PO
-iJ
-Ko
-Rr
-Ru
-rX
-Rr
-fo
-rX
-NS
-OY
-rX
-kb
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
 PL
 PL
 PL
@@ -37722,10 +35874,10 @@ PL
 PL
 PL
 PL
-PL
-sD
 ad
-PL
+EX
+EX
+EX
 sD
 bi
 io
@@ -37746,13 +35898,13 @@ PL
 eH
 wc
 Of
-Of
+ii
 Of
 Of
 Of
 UX
 eH
-Of
+ii
 Kj
 xn
 Kr
@@ -37895,26 +36047,26 @@ kC
 kC
 kC
 kC
-pi
-tl
-JB
-xw
-tl
-tl
-VR
-PV
-or
-Rr
-Rr
-Rr
-NS
-Rr
-rG
-Rr
-Rr
-Rr
-rG
-kb
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+lH
+kC
+kC
+kC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
 PL
 PL
 PL
@@ -37979,10 +36131,10 @@ PL
 PL
 PL
 PL
-PL
-sD
 ad
-PL
+EX
+EX
+EX
 rZ
 Nd
 Nd
@@ -38152,26 +36304,26 @@ kC
 kC
 kC
 lH
-PO
-tl
-VR
-MC
-wF
-VR
-aI
-PO
-iJ
-Rr
-Rr
-ZM
-Rr
-Rr
-ID
-Kc
-Rr
-ZX
-Kc
-kb
+lH
+lH
+kC
+kC
+kC
+kC
+kC
+kC
+lH
+kC
+kC
+kC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
 PL
 PL
 PL
@@ -38236,10 +36388,10 @@ PL
 PL
 PL
 PL
-PL
-sD
 ad
-PL
+EX
+EX
+EX
 sD
 FZ
 Iq
@@ -38258,18 +36410,18 @@ GG
 aJ
 PL
 KA
-Of
+ii
 Gv
 vb
-Gv
+Yf
 vb
-mT
+cj
 mT
 eH
 Of
-Kj
+RF
 Of
-Of
+ii
 eH
 ad
 sD
@@ -38409,26 +36561,26 @@ kC
 kC
 kC
 lH
-PO
-VR
-jO
-lt
-tl
-VR
-RC
-rp
-IB
-Rr
-oe
-ZM
-Rr
-Rr
-Yy
-rX
-Rr
-wH
-Lw
-kb
+lH
+lH
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
 PL
 PL
 PL
@@ -38493,10 +36645,10 @@ PL
 PL
 PL
 PL
-PL
-sD
 ad
-PL
+EX
+EX
+EX
 sD
 sD
 sD
@@ -38529,7 +36681,7 @@ WM
 rq
 eH
 ad
-ad
+sD
 CC
 CC
 CC
@@ -38666,26 +36818,26 @@ kC
 kC
 kC
 kC
-PO
-YS
-RC
-RC
-VR
-cL
-tl
-dj
-IB
-ZM
-ZM
-ZM
-Rr
-Rr
-xm
-Rr
-Rr
-Rr
-Ko
-kb
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+kC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
 PL
 PL
 PL
@@ -38750,10 +36902,10 @@ PL
 PL
 PL
 PL
-PL
-sD
 ad
-PL
+EX
+EX
+EX
 sD
 BV
 uI
@@ -38785,9 +36937,9 @@ eH
 eH
 eH
 eH
-PL
 ad
 sD
+PL
 CC
 CC
 CC
@@ -38923,28 +37075,6 @@ kC
 kC
 kC
 kC
-<<<<<<< Updated upstream
-PO
-py
-VR
-VR
-tl
-VR
-tl
-PO
-TU
-Rr
-de
-de
-or
-Rr
-hc
-Kc
-Rr
-IL
-Kc
-kb
-=======
 kC
 lH
 kC
@@ -39029,10 +37159,10 @@ PL
 PL
 PL
 PL
-PL
-sD
 ad
-PL
+EX
+EX
+EX
 sD
 oj
 FT
@@ -39051,22 +37181,22 @@ sD
 PL
 PL
 eH
-Of
-Gv
+ii
+Yf
 vb
 Gv
-vb
+Ho
 mT
-mT
+cj
 eH
 rB
 Ni
 TU
 eH
-PL
-PL
+ad
 ad
 sD
+PL
 CC
 CC
 CC
@@ -39222,7 +37352,6 @@ CC
 CC
 CC
 CC
->>>>>>> Stashed changes
 PL
 PL
 PL
@@ -39273,9 +37402,6 @@ PL
 PL
 PL
 PL
-Wx
-Wx
-Wx
 PL
 PL
 PL
@@ -39288,26 +37414,13 @@ PL
 PL
 PL
 PL
-sD
+PL
+PL
 ad
-PL
+EX
+EX
+EX
 sD
-<<<<<<< Updated upstream
-oj
-EK
-EK
-yo
-Kv
-nV
-Kv
-sD
-sD
-Gk
-sD
-sD
-Gk
-sD
-=======
 BV
 FT
 FT
@@ -39322,7 +37435,6 @@ sD
 sD
 jA
 rZ
->>>>>>> Stashed changes
 PL
 PL
 KA
@@ -39335,286 +37447,13 @@ mT
 mT
 Tt
 Of
-Of
+ii
 mk
 eH
-PL
-PL
 ad
 sD
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-PL
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-kC
-kC
-Al
-"}
-(136,1,1) = {"
-Al
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-lH
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-lH
-lH
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-kC
-PO
-PO
-PO
-PO
-PO
-FX
-PO
-PO
-Vi
-fg
-mh
-mh
-BX
-Rr
-te
-rX
-Rr
-aN
-rX
-kb
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
 sD
-ad
 PL
-sD
-BV
-<<<<<<< Updated upstream
-FT
-FT
-uI
-FK
-nb
-nb
-nb
-nb
-nb
-nb
-nb
-nb
-rZ
-=======
-FT
-FT
-nM
-ul
-BH
-ns
-sD
-ay
-nh
-sD
-ay
-ly
-sD
->>>>>>> Stashed changes
-PL
-PL
-eH
-Of
-Of
-Of
-Of
-Of
-Of
-UX
-eH
-Fx
-Zp
-WC
-eH
-PL
-PL
-ad
-sD
 CC
 CC
 CC
@@ -39757,19 +37596,19 @@ kC
 kC
 kC
 kC
-PO
-PO
-PO
-PO
-PO
-Jn
-Rr
-Rr
-Rr
-rk
-Rr
-rG
-RN
+kC
+kC
+kC
+kC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
 PL
 PL
 PL
@@ -39834,61 +37673,44 @@ PL
 PL
 PL
 PL
-PL
-sD
 ad
-PL
+EX
+EX
+EX
 sD
-<<<<<<< Updated upstream
 BV
-EK
+FT
 FT
 nM
-Kv
+ul
 BH
 ns
-nb
+sD
 ay
-nb
-yW
-nb
+nh
+sD
+ay
 ly
-Kv
-=======
-Qs
-UD
-UD
-UD
 sD
-sD
-sD
-sD
-iA
-sD
-sD
-iA
-sD
-sD
->>>>>>> Stashed changes
 PL
 PL
 eH
-KA
+Of
+Of
+Of
+Of
+Of
+Of
+UX
 eH
+Fx
+Zp
+WC
 eH
-PL
-PL
-eH
-eH
-eH
-eH
-eH
-eH
-eH
-PL
-PL
 ad
 sD
+PL
+PL
 CC
 CC
 CC
@@ -40031,19 +37853,19 @@ kC
 kC
 kC
 kC
-PO
-IY
-gt
-Ki
-PO
-mP
-Rr
-KQ
-Kc
-Rr
-By
-Dc
-PO
+kC
+kC
+kC
+kC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
 PL
 PL
 PL
@@ -40108,79 +37930,44 @@ PL
 PL
 PL
 PL
-PL
-sD
 ad
-PL
-<<<<<<< Updated upstream
-Of
+EX
+EX
+EX
+sD
 Qs
 UD
-YY
-YY
-Of
-Kv
-Kv
-bp
-Kv
-rZ
-Kv
-rZ
-Kv
-Kv
-=======
+UD
+UD
 sD
 sD
 sD
 sD
+iA
 sD
 sD
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
->>>>>>> Stashed changes
-PL
-PL
+iA
+sD
+sD
+EX
+EX
 eH
-PL
-PL
+KA
 eH
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-<<<<<<< Updated upstream
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-=======
-ad
->>>>>>> Stashed changes
+Ys
+yh
+yh
+eH
+eH
+eH
+Ys
+eH
+eH
+eH
 ad
 sD
+PL
+PL
 CC
 CC
 CC
@@ -40319,24 +38106,24 @@ kC
 kC
 kC
 kC
+lH
 kC
 kC
 kC
+lH
 kC
-PO
-cz
-Rt
-bT
-Lx
-Rr
-Rr
-pO
-rX
-Rr
-kc
-mE
-PO
-PO
+kC
+kC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
 PL
 PL
 PL
@@ -40400,59 +38187,45 @@ PL
 PL
 PL
 PL
-PL
+ad
+EX
+EX
+EX
 sD
+sD
+sD
+sD
+sD
+sD
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+EX
+EX
+EX
+EX
+EX
+eH
+yh
+yh
+eH
 ad
-PL
-Of
-Of
-Kv
-Kv
-Kv
-Of
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-eH
-eH
-eH
-eH
-PL
-PL
-PL
-PL
-PL
-PL
-<<<<<<< Updated upstream
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
 ad
-=======
-Wx
-Wx
-Wx
->>>>>>> Stashed changes
+ad
+ad
+ad
+ad
 ad
 sD
+PL
+PL
+PL
 CC
 CC
 CC
@@ -40594,20 +38367,20 @@ kC
 kC
 kC
 kC
-PO
-jQ
-aw
-vJ
-PO
-mP
-rG
-Rr
-Yv
-vp
-Gh
-vp
-Bp
-PO
+kC
+kC
+kC
+kC
+kC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
 PL
 PL
 PL
@@ -40671,8 +38444,8 @@ PL
 PL
 PL
 PL
-PL
-sD
+ad
+ad
 ad
 PL
 PL
@@ -40690,26 +38463,26 @@ PL
 PL
 PL
 PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-CC
-CC
-CC
-CC
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
+EX
+EX
+EX
+EX
+EX
+eH
+eH
+eH
+eH
 ad
 sD
+sD
+sD
+sD
+sD
+sD
+sD
+PL
+PL
+PL
 PL
 PL
 PL
@@ -40846,25 +38619,25 @@ kC
 kC
 kC
 kC
+lH
+lH
 kC
 kC
 kC
 kC
 kC
-PO
-Xf
-dg
-wd
-PO
-jr
-Rr
-Rr
-oi
-cC
-zK
-ZS
-xp
-CH
+kC
+kC
+kC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
 PL
 PL
 PL
@@ -40942,31 +38715,31 @@ PL
 PL
 PL
 PL
-Wx
-Wx
-Wx
-Wx
-Wx
 PL
 PL
 PL
 PL
 PL
-PL
-PL
-PL
-PL
-PL
-PL
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
+EX
+EX
+EX
+EX
+EX
+ad
+ad
+ad
+ad
 ad
 sD
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
 PL
 aA
 aA
@@ -41108,20 +38881,20 @@ kC
 kC
 kC
 kC
-PO
-PO
-PO
-PO
-PO
-pC
-Rr
-Ko
-rG
-Ph
-Ph
-Ph
-RD
-kb
+kC
+kC
+kC
+kC
+kC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
 PL
 PL
 PL
@@ -41199,31 +38972,31 @@ PL
 PL
 PL
 PL
-Wx
-Wx
-Wx
-Wx
-Wx
 PL
 PL
 PL
 PL
 PL
-PL
-PL
-PL
-PL
-PL
-PL
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
+EX
+EX
+EX
+EX
+EX
+ad
 ad
 sD
+sD
+sD
+sD
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
 PL
 aA
 aA
@@ -41365,20 +39138,20 @@ kC
 kC
 kC
 kC
-PO
-ju
-WN
-ew
-PO
-YM
-Rr
-Rr
-Rr
-Ph
-Ph
-NZ
-Vr
-kb
+kC
+kC
+kC
+kC
+kC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
 PL
 PL
 PL
@@ -41456,31 +39229,31 @@ PL
 PL
 PL
 PL
-Wx
-Wx
-Wx
-Wx
-Wx
 PL
 PL
 PL
 PL
 PL
-PL
-PL
-PL
-PL
-PL
-PL
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
+EX
+EX
+EX
+EX
+EX
+ad
 ad
 sD
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
 PL
 aA
 aA
@@ -41622,20 +39395,20 @@ kC
 kC
 kC
 kC
-PO
-Dk
-iS
-JF
-OE
-Ko
-Rr
-Rr
-Rr
-Ph
-Ph
-Ph
-FY
-kb
+kC
+kC
+kC
+kC
+kC
+kC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
 PL
 PL
 PL
@@ -41713,31 +39486,31 @@ PL
 PL
 PL
 PL
-Wx
-Wx
-Wx
-Wx
-Wx
-PL
-Wx
-Wx
-Wx
-Wx
-Wx
 PL
 PL
 PL
 PL
 PL
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
+EX
+EX
+EX
+EX
+EX
 ad
 sD
+sD
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
 PL
 aA
 aA
@@ -41879,20 +39652,20 @@ kC
 kC
 kC
 kC
-PO
-YP
-mq
-So
-PO
-CI
-Rr
-Oa
-oi
-bE
-Ph
-Ph
-Ph
-RN
+kC
+kC
+kC
+kC
+kC
+kC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
 PL
 PL
 PL
@@ -41958,7 +39731,7 @@ PL
 PL
 PL
 sD
-sD
+ad
 ad
 PL
 PL
@@ -41970,31 +39743,31 @@ PL
 PL
 PL
 PL
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
 PL
 PL
 PL
 PL
 PL
-PL
-PL
-PL
-Wx
-Wx
-Wx
-Wx
+EX
+EX
+EX
+EX
+EX
 ad
 sD
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
 PL
 aA
 aA
@@ -42136,21 +39909,20 @@ kC
 kC
 kC
 kC
-PO
-PO
-PO
-PO
-PO
-hb
-aY
-wq
-Hf
-RF
-Gi
-Gi
-EC
-PO
-PL
+kC
+kC
+kC
+kC
+kC
+kC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
 PL
 PL
 PL
@@ -42216,6 +39988,7 @@ PL
 PL
 PL
 sD
+sD
 ad
 ad
 PL
@@ -42227,31 +40000,31 @@ PL
 PL
 PL
 PL
-Wx
-Wx
-Wx
-Wx
-Wx
-ad
-Wx
-Wx
-Wx
-Wx
-Wx
 PL
 PL
 PL
 PL
 PL
-PL
-PL
-PL
-Wx
-Wx
-Wx
-Wx
+EX
+EX
+EX
+EX
+EX
 ad
 sD
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
 PL
 aA
 aA
@@ -42397,16 +40170,16 @@ kC
 kC
 kC
 kC
-PO
-PO
-PO
-AD
-PO
-PO
-pG
-qW
-PO
-PO
+kC
+kC
+kC
+CC
+CC
+CC
+CC
+CC
+CC
+CC
 PL
 PL
 PL
@@ -42490,25 +40263,25 @@ ad
 ad
 ad
 ad
-Wx
-Wx
-Wx
-Wx
-Wx
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-Wx
-Wx
-Wx
-Wx
+ad
+ad
+ad
+ad
 ad
 sD
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
 PL
 PL
 PL
@@ -42746,27 +40519,27 @@ sD
 sD
 sD
 sD
-ad
-ad
-Wx
-Wx
-Wx
-Wx
-Wx
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
-ad
-ad
 sD
 sD
+sD
+sD
+sD
+sD
+sD
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
 PL
 PL
 PL
@@ -43003,13 +40776,6 @@ PL
 PL
 PL
 PL
-sD
-ad
-Wx
-Wx
-Wx
-Wx
-Wx
 PL
 PL
 PL
@@ -43017,13 +40783,20 @@ PL
 PL
 PL
 PL
-Wx
-Wx
-Wx
-Wx
-ad
-ad
-sD
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
 PL
 PL
 PL
@@ -43260,13 +41033,6 @@ PL
 PL
 PL
 PL
-sD
-ad
-ad
-Wx
-Wx
-Wx
-Wx
 PL
 PL
 PL
@@ -43274,13 +41040,20 @@ PL
 PL
 PL
 PL
-Wx
-Wx
-Wx
-Wx
-Wx
-ad
-sD
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
 PL
 PL
 PL
@@ -43517,13 +41290,6 @@ Wx
 Wx
 PL
 PL
-sD
-sD
-ad
-Wx
-Wx
-Wx
-Wx
 PL
 PL
 PL
@@ -43531,13 +41297,20 @@ PL
 PL
 PL
 PL
-Wx
-Wx
-Wx
-Wx
-Wx
-ad
-sD
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
 PL
 PL
 PL
@@ -43775,9 +41548,6 @@ Wx
 Wx
 PL
 PL
-sD
-ad
-Wx
 PL
 PL
 PL
@@ -43785,16 +41555,19 @@ PL
 PL
 PL
 PL
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-ad
-sD
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
 PL
 PL
 PL
@@ -44032,9 +41805,6 @@ Wx
 Wx
 PL
 PL
-sD
-ad
-ad
 PL
 PL
 PL
@@ -44042,16 +41812,19 @@ PL
 PL
 PL
 PL
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-ad
-sD
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
 PL
 PL
 PL
@@ -44290,8 +42063,6 @@ Wx
 Wx
 PL
 PL
-sD
-ad
 PL
 PL
 PL
@@ -44299,16 +42070,18 @@ PL
 PL
 PL
 PL
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-ad
-sD
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
 PL
 PL
 PL
@@ -44547,8 +42320,6 @@ Wx
 Wx
 PL
 PL
-sD
-ad
 PL
 PL
 PL
@@ -44556,16 +42327,18 @@ PL
 PL
 PL
 PL
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-ad
-sD
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
 PL
 PL
 PL
@@ -44804,25 +42577,25 @@ Wx
 Wx
 PL
 PL
-sD
-ad
-Wx
-Wx
-Wx
-Wx
 PL
 PL
 PL
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-ad
-ad
-ad
-sD
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
 PL
 PL
 PL
@@ -45061,25 +42834,25 @@ Wx
 Wx
 PL
 PL
-sD
-ad
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-ad
-ad
-sD
-sD
-sD
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
 PL
 PL
 PL
@@ -45318,23 +43091,23 @@ Wx
 Wx
 PL
 PL
-sD
-ad
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-ad
-ad
-ad
-sD
-sD
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
 PL
 PL
 PL
@@ -45575,22 +43348,22 @@ Wx
 Wx
 PL
 PL
-sD
-ad
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-ad
-ad
-sD
-sD
-sD
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
 PL
 PL
 PL
@@ -45832,20 +43605,20 @@ Wx
 Wx
 PL
 PL
-sD
-ad
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-ad
-sD
-sD
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
 PL
 PL
 PL
@@ -46089,19 +43862,19 @@ Wx
 Wx
 PL
 PL
-sD
-ad
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-ad
-sD
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
 PL
 PL
 PL
@@ -46346,19 +44119,19 @@ Wx
 Wx
 PL
 PL
-sD
-ad
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-ad
-sD
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
 PL
 PL
 PL
@@ -46603,19 +44376,19 @@ Wx
 Wx
 PL
 PL
-sD
-ad
-ad
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-ad
-ad
-sD
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
 PL
 PL
 PL
@@ -46860,19 +44633,19 @@ Wx
 Wx
 PL
 PL
-sD
-sD
-ad
-ad
-ad
-Wx
-Wx
-Wx
-Wx
-Wx
-ad
-sD
-sD
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
 PL
 PL
 PL
@@ -47118,17 +44891,17 @@ Wx
 PL
 PL
 PL
-sD
-sD
-sD
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-sD
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
 PL
 PL
 PL
@@ -47377,15 +45150,15 @@ PL
 PL
 PL
 PL
-sD
-sD
-sD
-sD
-sD
-sD
-sD
-sD
-sD
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
 PL
 PL
 PL
