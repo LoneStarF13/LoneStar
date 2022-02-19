@@ -6756,12 +6756,6 @@
 /obj/effect/spawner/lootdrop/f13/weapon/melee/random,
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/bunker)
-"eeu" = (
-/obj/structure/debris/v1{
-	pixel_y = -17
-	},
-/turf/closed/wall/rust,
-/area/f13/building)
 "eew" = (
 /obj/machinery/porta_turret/syndicate/vehicle_turret{
 	desc = "An improvised ballistic turret - it looks exceptionally shoddy, yet stil functional. Safe to assume it's a repaired security system from whatever this place once was";
@@ -8447,15 +8441,6 @@
 	},
 /turf/open/floor/plating/tunnel,
 /area/f13/brotherhood/rnd)
-"feY" = (
-/obj/structure/debris/v3{
-	pixel_x = -18;
-	pixel_y = -23
-	},
-/turf/open/floor/f13{
-	icon_state = "neutralrustyfull"
-	},
-/area/f13/building)
 "ffp" = (
 /obj/structure/table,
 /turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria{
@@ -15011,6 +14996,15 @@
 	icon_state = "yellowdirtyfull"
 	},
 /area/f13/bunker)
+"jzN" = (
+/obj/structure/debris/v3{
+	pixel_x = -18;
+	pixel_y = -23
+	},
+/turf/open/floor/f13{
+	icon_state = "neutralrustyfull"
+	},
+/area/f13/building)
 "jzO" = (
 /obj/structure/bookshelf,
 /turf/open/floor/f13/wood{
@@ -16524,15 +16518,6 @@
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ballistic/hobo,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
-"kKk" = (
-/obj/structure/debris/v3{
-	pixel_x = -18;
-	pixel_y = -22
-	},
-/turf/open/floor/f13{
-	icon_state = "neutralrustyfull"
-	},
-/area/f13/building)
 "kKs" = (
 /obj/structure/table/wood,
 /obj/item/kirbyplants/dead{
@@ -16757,12 +16742,6 @@
 "kUN" = (
 /turf/closed/wall/r_wall/rust,
 /area/f13/den)
-"kVl" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/f13{
-	icon_state = "neutralrustyfull"
-	},
-/area/f13/building)
 "kVP" = (
 /obj/structure/filingcabinet,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
@@ -19852,6 +19831,12 @@
 /obj/item/reagent_containers/glass/beaker/large,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/brotherhood/chemistry)
+"nkg" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/f13{
+	icon_state = "neutralrustyfull"
+	},
+/area/f13/building)
 "nkh" = (
 /obj/structure/table/glass,
 /obj/machinery/light/small{
@@ -24076,6 +24061,15 @@
 /obj/structure/chair/wood,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/brotherhood/offices1st)
+"qnv" = (
+/obj/structure/debris/v3{
+	pixel_x = -18;
+	pixel_y = -22
+	},
+/turf/open/floor/f13{
+	icon_state = "neutralrustyfull"
+	},
+/area/f13/building)
 "qnB" = (
 /obj/structure/glowshroom/single,
 /turf/open/indestructible/ground/inside/mountain,
@@ -28550,6 +28544,12 @@
 	},
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
+"tJE" = (
+/obj/structure/debris/v1{
+	pixel_y = -17
+	},
+/turf/closed/wall/rust,
+/area/f13/building)
 "tJI" = (
 /obj/structure/sink{
 	dir = 1;
@@ -65290,7 +65290,7 @@ xrW
 xSP
 eyK
 eyK
-kVl
+nkg
 xSP
 dXE
 dXE
@@ -65804,7 +65804,7 @@ xyu
 xyu
 xyu
 ylz
-kKk
+qnv
 yke
 dXE
 dXE
@@ -66061,7 +66061,7 @@ xyu
 qjS
 xyu
 xyu
-feY
+jzN
 yke
 dXE
 umD
@@ -66832,7 +66832,7 @@ wwV
 wwV
 wwV
 wwV
-eeu
+tJE
 yke
 dXE
 dXE
@@ -67089,7 +67089,7 @@ wwV
 wwV
 wwV
 wwV
-eeu
+tJE
 yke
 dXE
 dXE
@@ -67346,7 +67346,7 @@ wwV
 wwV
 wwV
 wwV
-eeu
+tJE
 yke
 dXE
 dXE
@@ -67603,7 +67603,7 @@ rCZ
 rCZ
 rCZ
 rCZ
-eeu
+tJE
 yke
 dXE
 dXE

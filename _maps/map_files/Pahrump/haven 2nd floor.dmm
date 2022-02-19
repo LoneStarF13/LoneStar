@@ -136,10 +136,6 @@
 	icon_state = "housewood2-broken"
 	},
 /area/f13/legion)
-"cr" = (
-/obj/machinery/light,
-/turf/open/floor/plasteel/f13/vault_floor/blue/side,
-/area/f13/building)
 "ct" = (
 /obj/machinery/vending/coffee,
 /turf/open/floor/f13{
@@ -464,6 +460,14 @@
 /obj/structure/simple_door/wood,
 /turf/open/floor/wood/f13,
 /area/f13/building)
+"jP" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue/side{
+	dir = 8
+	},
+/area/f13/building)
 "jS" = (
 /obj/machinery/door/unpowered/securedoor{
 	damage_deflection = 28;
@@ -592,14 +596,6 @@
 /area/f13/followers)
 "mI" = (
 /turf/closed/wall/f13/wood/house,
-/area/f13/building)
-"mP" = (
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/open/floor/plasteel/f13/vault_floor/blue/side{
-	dir = 8
-	},
 /area/f13/building)
 "mT" = (
 /turf/open/floor/carpet/orange,
@@ -1042,6 +1038,9 @@
 /obj/structure/simple_door/wood,
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
+"uy" = (
+/turf/closed/wall/mineral/concrete,
+/area/f13/building)
 "uF" = (
 /turf/open/transparent/openspace{
 	name = "air";
@@ -1054,6 +1053,25 @@
 "uW" = (
 /turf/open/floor/f13{
 	icon_state = "floorrustysolid"
+	},
+/area/f13/wasteland)
+"va" = (
+/obj/structure/lattice/catwalk,
+/obj/machinery/button/door{
+	id = "interiorgate";
+	name = "inner gate";
+	pixel_x = 32;
+	pixel_y = 6
+	},
+/obj/machinery/button/door{
+	id = "exteriorgate";
+	name = "outer gate";
+	pixel_x = 32;
+	pixel_y = -6
+	},
+/turf/open/transparent/openspace{
+	name = "air";
+	sunlight_state = 1
 	},
 /area/f13/wasteland)
 "vb" = (
@@ -1447,6 +1465,10 @@
 	icon_state = "housewood4-broken"
 	},
 /area/f13/building)
+"CH" = (
+/obj/machinery/light,
+/turf/open/floor/plasteel/f13/vault_floor/blue/side,
+/area/f13/building)
 "CQ" = (
 /obj/structure/window/fulltile/house{
 	dir = 2;
@@ -1478,25 +1500,6 @@
 	sunlight_state = 1
 	},
 /area/f13/building)
-"De" = (
-/obj/structure/lattice/catwalk,
-/obj/machinery/button/door{
-	id = "interiorgate";
-	name = "inner gate";
-	pixel_x = 32;
-	pixel_y = 6
-	},
-/obj/machinery/button/door{
-	id = "exteriorgate";
-	name = "outer gate";
-	pixel_x = 32;
-	pixel_y = -6
-	},
-/turf/open/transparent/openspace{
-	name = "air";
-	sunlight_state = 1
-	},
-/area/f13/wasteland)
 "Dp" = (
 /turf/open/floor/plasteel/barber,
 /area/f13/building)
@@ -1631,14 +1634,6 @@
 /obj/structure/chair/wood/modern,
 /turf/open/floor/carpet/orange,
 /area/f13/followers)
-"Gw" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/chair/wood,
-/turf/open/transparent/openspace{
-	name = "air";
-	sunlight_state = 1
-	},
-/area/f13/wasteland)
 "GB" = (
 /obj/structure/table/wood,
 /turf/open/floor/f13/wood{
@@ -1747,12 +1742,6 @@
 	},
 /turf/open/floor/carpet/red,
 /area/f13/building)
-"IB" = (
-/turf/open/transparent/openspace{
-	name = "air";
-	sunlight_state = 1
-	},
-/area/f13/followers)
 "IT" = (
 /obj/structure/simple_door/wood,
 /obj/effect/decal/cleanable/dirt,
@@ -1960,6 +1949,12 @@
 	},
 /turf/open/floor/wood/f13/maple,
 /area/f13/wasteland)
+"Mo" = (
+/turf/open/transparent/openspace{
+	name = "air";
+	sunlight_state = 1
+	},
+/area/f13/followers)
 "Mu" = (
 /obj/structure/sign/poster/contraband/space_cola{
 	pixel_y = 32
@@ -2151,9 +2146,6 @@
 "Qx" = (
 /turf/open/indestructible,
 /area/f13/tcoms)
-"QU" = (
-/turf/closed/wall/mineral/concrete,
-/area/f13/building)
 "Rg" = (
 /turf/open/transparent/openspace{
 	name = "air";
@@ -2473,6 +2465,14 @@
 /obj/structure/table/wood/fancy,
 /obj/item/binoculars,
 /turf/open/floor/wood/f13/maple,
+/area/f13/wasteland)
+"VN" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/chair/wood,
+/turf/open/transparent/openspace{
+	name = "air";
+	sunlight_state = 1
+	},
 /area/f13/wasteland)
 "Wp" = (
 /obj/structure/table,
@@ -28747,7 +28747,7 @@ AR
 CU
 Kv
 EP
-mP
+jP
 AR
 CU
 ad
@@ -29001,7 +29001,7 @@ PL
 Jz
 OA
 lF
-cr
+CH
 Kv
 OA
 lF
@@ -30029,7 +30029,7 @@ PL
 Kv
 OA
 lF
-cr
+CH
 lj
 di
 AR
@@ -30291,7 +30291,7 @@ ki
 OA
 lF
 lF
-cr
+CH
 ad
 sD
 PL
@@ -31044,14 +31044,14 @@ PL
 PL
 PL
 PL
-QU
-QU
-QU
+uy
+uy
+uy
 sA
-QU
-QU
-QU
-QU
+uy
+uy
+uy
+uy
 PL
 PL
 PL
@@ -31301,14 +31301,14 @@ PL
 PL
 PL
 PL
-QU
+uy
 Vl
 bq
 Vt
 Vt
 Rg
 Rg
-QU
+uy
 PL
 PL
 PL
@@ -31558,14 +31558,14 @@ PL
 PL
 PL
 PL
-QU
+uy
 Vt
 sc
 Vt
 Vt
 Rg
 Rg
-QU
+uy
 PL
 PL
 PL
@@ -31819,10 +31819,10 @@ YA
 vp
 Vt
 bD
-QU
-QU
-QU
-QU
+uy
+uy
+uy
+uy
 PL
 PL
 PL
@@ -32072,11 +32072,11 @@ PL
 PL
 PL
 PL
-QU
+uy
 fT
 Vt
 BK
-QU
+uy
 PL
 PL
 PL
@@ -32329,11 +32329,11 @@ PL
 PL
 PL
 PL
-QU
+uy
 rm
 Vt
 oK
-QU
+uy
 PL
 PL
 PL
@@ -32586,11 +32586,11 @@ PL
 PL
 PL
 PL
-QU
+uy
 sA
-QU
-QU
-QU
+uy
+uy
+uy
 PL
 PL
 PL
@@ -33377,7 +33377,7 @@ PL
 PL
 Gl
 Gl
-Gw
+VN
 vB
 PL
 PL
@@ -33634,7 +33634,7 @@ PL
 PL
 Gl
 Gl
-De
+va
 vB
 PL
 PL
@@ -37992,8 +37992,8 @@ eH
 KA
 eH
 Ys
-IB
-IB
+Mo
+Mo
 eH
 eH
 eH
@@ -38249,8 +38249,8 @@ EX
 EX
 EX
 eH
-IB
-IB
+Mo
+Mo
 eH
 ad
 ad
