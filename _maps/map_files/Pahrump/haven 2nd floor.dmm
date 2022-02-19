@@ -91,7 +91,10 @@
 /turf/open/floor/wood/f13,
 /area/f13/building)
 "bq" = (
-/turf/closed/wall/mineral/concrete,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/wood/f13,
 /area/f13/building)
 "bA" = (
 /obj/structure/chair/right,
@@ -133,6 +136,10 @@
 	icon_state = "housewood2-broken"
 	},
 /area/f13/legion)
+"cr" = (
+/obj/machinery/light,
+/turf/open/floor/plasteel/f13/vault_floor/blue/side,
+/area/f13/building)
 "ct" = (
 /obj/machinery/vending/coffee,
 /turf/open/floor/f13{
@@ -515,6 +522,9 @@
 /obj/structure/chair/comfy{
 	dir = 4
 	},
+/obj/machinery/light{
+	dir = 8
+	},
 /turf/open/floor/carpet/royalblack,
 /area/f13/building)
 "lc" = (
@@ -582,6 +592,14 @@
 /area/f13/followers)
 "mI" = (
 /turf/closed/wall/f13/wood/house,
+/area/f13/building)
+"mP" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue/side{
+	dir = 8
+	},
 /area/f13/building)
 "mT" = (
 /turf/open/floor/carpet/orange,
@@ -1177,11 +1195,11 @@
 /turf/open/floor/f13/wood,
 /area/f13/legion)
 "yh" = (
-/turf/open/transparent/openspace{
-	name = "air";
-	sunlight_state = 1
+/obj/machinery/light{
+	dir = 1
 	},
-/area/f13/followers)
+/turf/open/floor/carpet/royalblack,
+/area/f13/building)
 "yj" = (
 /obj/structure/lattice/catwalk,
 /obj/machinery/button/door{
@@ -1460,6 +1478,25 @@
 	sunlight_state = 1
 	},
 /area/f13/building)
+"De" = (
+/obj/structure/lattice/catwalk,
+/obj/machinery/button/door{
+	id = "interiorgate";
+	name = "inner gate";
+	pixel_x = 32;
+	pixel_y = 6
+	},
+/obj/machinery/button/door{
+	id = "exteriorgate";
+	name = "outer gate";
+	pixel_x = 32;
+	pixel_y = -6
+	},
+/turf/open/transparent/openspace{
+	name = "air";
+	sunlight_state = 1
+	},
+/area/f13/wasteland)
 "Dp" = (
 /turf/open/floor/plasteel/barber,
 /area/f13/building)
@@ -1594,6 +1631,14 @@
 /obj/structure/chair/wood/modern,
 /turf/open/floor/carpet/orange,
 /area/f13/followers)
+"Gw" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/chair/wood,
+/turf/open/transparent/openspace{
+	name = "air";
+	sunlight_state = 1
+	},
+/area/f13/wasteland)
 "GB" = (
 /obj/structure/table/wood,
 /turf/open/floor/f13/wood{
@@ -1702,6 +1747,12 @@
 	},
 /turf/open/floor/carpet/red,
 /area/f13/building)
+"IB" = (
+/turf/open/transparent/openspace{
+	name = "air";
+	sunlight_state = 1
+	},
+/area/f13/followers)
 "IT" = (
 /obj/structure/simple_door/wood,
 /obj/effect/decal/cleanable/dirt,
@@ -2100,6 +2151,9 @@
 "Qx" = (
 /turf/open/indestructible,
 /area/f13/tcoms)
+"QU" = (
+/turf/closed/wall/mineral/concrete,
+/area/f13/building)
 "Rg" = (
 /turf/open/transparent/openspace{
 	name = "air";
@@ -2514,13 +2568,11 @@
 /turf/open/floor/carpet/orange,
 /area/f13/followers)
 "Yg" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/chair/wood,
-/turf/open/transparent/openspace{
-	name = "air";
-	sunlight_state = 1
+/obj/machinery/light{
+	dir = 8
 	},
-/area/f13/wasteland)
+/turf/open/floor/wood/wood_tiled,
+/area/f13/building)
 "Ys" = (
 /obj/structure/sign/warning/nosmoking/circle,
 /turf/closed/wall/f13/wood,
@@ -2564,24 +2616,9 @@
 /turf/open/floor/wood/wood_tiled,
 /area/f13/followers)
 "ZQ" = (
-/obj/structure/lattice/catwalk,
-/obj/machinery/button/door{
-	id = "interiorgate";
-	name = "inner gate";
-	pixel_x = 32;
-	pixel_y = 6
-	},
-/obj/machinery/button/door{
-	id = "exteriorgate";
-	name = "outer gate";
-	pixel_x = 32;
-	pixel_y = -6
-	},
-/turf/open/transparent/openspace{
-	name = "air";
-	sunlight_state = 1
-	},
-/area/f13/wasteland)
+/obj/machinery/light,
+/turf/open/floor/carpet/royalblack,
+/area/f13/building)
 "ZX" = (
 /obj/structure/chair/wood/fancy{
 	pixel_x = 23
@@ -28683,7 +28720,7 @@ sD
 ad
 al
 gb
-gb
+Yg
 gb
 gb
 gb
@@ -28710,7 +28747,7 @@ AR
 CU
 Kv
 EP
-AR
+mP
 AR
 CU
 ad
@@ -28964,7 +29001,7 @@ PL
 Jz
 OA
 lF
-sx
+cr
 Kv
 OA
 lF
@@ -29967,14 +30004,14 @@ PL
 sD
 ad
 al
-Uf
+yh
 Uf
 Uf
 gb
 Uf
 rL
 bh
-Uf
+ZQ
 al
 PL
 PL
@@ -29992,7 +30029,7 @@ PL
 Kv
 OA
 lF
-sx
+cr
 lj
 di
 AR
@@ -30254,7 +30291,7 @@ ki
 OA
 lF
 lF
-sx
+cr
 ad
 sD
 PL
@@ -31007,14 +31044,14 @@ PL
 PL
 PL
 PL
-bq
-bq
-bq
+QU
+QU
+QU
 sA
-bq
-bq
-bq
-bq
+QU
+QU
+QU
+QU
 PL
 PL
 PL
@@ -31264,14 +31301,14 @@ PL
 PL
 PL
 PL
-bq
+QU
 Vl
-Vt
-Vt
-Vt
-Rg
-Rg
 bq
+Vt
+Vt
+Rg
+Rg
+QU
 PL
 PL
 PL
@@ -31521,14 +31558,14 @@ PL
 PL
 PL
 PL
-bq
+QU
 Vt
 sc
 Vt
 Vt
 Rg
 Rg
-bq
+QU
 PL
 PL
 PL
@@ -31782,10 +31819,10 @@ YA
 vp
 Vt
 bD
-bq
-bq
-bq
-bq
+QU
+QU
+QU
+QU
 PL
 PL
 PL
@@ -32035,11 +32072,11 @@ PL
 PL
 PL
 PL
-bq
+QU
 fT
 Vt
 BK
-bq
+QU
 PL
 PL
 PL
@@ -32292,11 +32329,11 @@ PL
 PL
 PL
 PL
-bq
+QU
 rm
 Vt
 oK
-bq
+QU
 PL
 PL
 PL
@@ -32549,11 +32586,11 @@ PL
 PL
 PL
 PL
-bq
+QU
 sA
-bq
-bq
-bq
+QU
+QU
+QU
 PL
 PL
 PL
@@ -33340,7 +33377,7 @@ PL
 PL
 Gl
 Gl
-Yg
+Gw
 vB
 PL
 PL
@@ -33597,7 +33634,7 @@ PL
 PL
 Gl
 Gl
-ZQ
+De
 vB
 PL
 PL
@@ -37955,8 +37992,8 @@ eH
 KA
 eH
 Ys
-yh
-yh
+IB
+IB
 eH
 eH
 eH
@@ -38212,8 +38249,8 @@ EX
 EX
 EX
 eH
-yh
-yh
+IB
+IB
 eH
 ad
 ad
