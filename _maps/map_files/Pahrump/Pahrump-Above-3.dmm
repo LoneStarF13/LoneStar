@@ -61,25 +61,6 @@
 /obj/effect/landmark/start/f13/followersadministrator,
 /turf/open/floor/carpet/blue,
 /area/f13/followers)
-"bg" = (
-/obj/structure/lattice/catwalk,
-/obj/machinery/button/door{
-	id = "interiorgate";
-	name = "inner gate";
-	pixel_x = 32;
-	pixel_y = 6
-	},
-/obj/machinery/button/door{
-	id = "exteriorgate";
-	name = "outer gate";
-	pixel_x = 32;
-	pixel_y = -6
-	},
-/turf/open/transparent/openspace{
-	name = "air";
-	sunlight_state = 1
-	},
-/area/f13/wasteland)
 "bh" = (
 /obj/structure/table/snooker{
 	dir = 1
@@ -155,6 +136,10 @@
 	icon_state = "housewood2-broken"
 	},
 /area/f13/legion)
+"cr" = (
+/obj/machinery/light,
+/turf/open/floor/carpet/royalblack,
+/area/f13/building)
 "ct" = (
 /obj/machinery/vending/coffee,
 /turf/open/floor/f13{
@@ -185,10 +170,6 @@
 /turf/open/floor/f13{
 	icon_state = "neutralrustyfull"
 	},
-/area/f13/building)
-"cL" = (
-/obj/machinery/light,
-/turf/open/floor/plasteel/f13/vault_floor/blue/side,
 /area/f13/building)
 "cS" = (
 /obj/structure/table/booth,
@@ -526,6 +507,25 @@
 	sunlight_state = 1
 	},
 /area/f13/building)
+"kl" = (
+/obj/structure/lattice/catwalk,
+/obj/machinery/button/door{
+	id = "interiorgate";
+	name = "inner gate";
+	pixel_x = 32;
+	pixel_y = 6
+	},
+/obj/machinery/button/door{
+	id = "exteriorgate";
+	name = "outer gate";
+	pixel_x = 32;
+	pixel_y = -6
+	},
+/turf/open/transparent/openspace{
+	name = "air";
+	sunlight_state = 1
+	},
+/area/f13/wasteland)
 "kC" = (
 /turf/closed/mineral/random/low_chance,
 /area/f13/caves)
@@ -668,6 +668,10 @@
 	sunlight_state = 1
 	},
 /area/f13/wasteland)
+"nK" = (
+/obj/machinery/light,
+/turf/open/floor/plasteel/f13/vault_floor/blue/side,
+/area/f13/building)
 "nL" = (
 /obj/structure/fireplace,
 /obj/effect/decal/cleanable/dirt,
@@ -761,12 +765,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13/wood,
 /area/f13/legion)
-"oZ" = (
-/turf/open/transparent/openspace{
-	name = "air";
-	sunlight_state = 1
-	},
-/area/f13/followers)
 "pb" = (
 /obj/structure/window/fulltile/house{
 	dir = 2;
@@ -1065,9 +1063,23 @@
 	sunlight_state = 1
 	},
 /area/f13/legion)
+"uG" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue/side{
+	dir = 8
+	},
+/area/f13/building)
 "uI" = (
 /turf/open/floor/carpet/black,
 /area/f13/building)
+"uM" = (
+/turf/open/transparent/openspace{
+	name = "air";
+	sunlight_state = 1
+	},
+/area/f13/followers)
 "uW" = (
 /turf/open/floor/f13{
 	icon_state = "floorrustysolid"
@@ -1212,10 +1224,8 @@
 /turf/open/floor/f13/wood,
 /area/f13/legion)
 "yh" = (
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/open/floor/carpet/royalblack,
+/obj/machinery/vending/games,
+/turf/open/floor/wood/wood_tiled,
 /area/f13/building)
 "yj" = (
 /obj/structure/lattice/catwalk,
@@ -1287,6 +1297,9 @@
 /obj/structure/table/wood,
 /obj/item/paper/crumpled/ruins,
 /turf/open/indestructible/ground/outside/woodalt,
+/area/f13/building)
+"zC" = (
+/turf/closed/wall/mineral/concrete,
 /area/f13/building)
 "zY" = (
 /obj/effect/overlay/junk/curtain{
@@ -1505,14 +1518,6 @@
 	},
 /turf/open/indestructible/ground/outside/woodalt,
 /area/f13/building)
-"DE" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/chair/wood,
-/turf/open/transparent/openspace{
-	name = "air";
-	sunlight_state = 1
-	},
-/area/f13/wasteland)
 "DI" = (
 /obj/structure/window/fulltile/house{
 	dir = 2;
@@ -1573,6 +1578,14 @@
 /obj/item/reagent_containers/glass/bucket,
 /turf/open/floor/wood/wood_tiled,
 /area/f13/followers)
+"FH" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/chair/wood,
+/turf/open/transparent/openspace{
+	name = "air";
+	sunlight_state = 1
+	},
+/area/f13/wasteland)
 "FK" = (
 /obj/structure/table/wood/fancy/royalblue,
 /turf/open/floor/plasteel/blueyellow,
@@ -1730,17 +1743,6 @@
 	pixel_y = 14
 	},
 /turf/open/floor/plasteel/barber,
-/area/f13/building)
-"HL" = (
-/turf/closed/wall/mineral/concrete,
-/area/f13/building)
-"HO" = (
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/open/floor/plasteel/f13/vault_floor/blue/side{
-	dir = 8
-	},
 /area/f13/building)
 "Ip" = (
 /obj/structure/chair/office/dark{
@@ -2474,6 +2476,11 @@
 /obj/item/binoculars,
 /turf/open/floor/wood/f13/maple,
 /area/f13/wasteland)
+"VS" = (
+/obj/structure/table/wood/poker,
+/obj/effect/holodeck_effect/cards,
+/turf/open/floor/carpet/royalblack,
+/area/f13/building)
 "Wp" = (
 /obj/structure/table,
 /obj/item/paper_bin,
@@ -2569,9 +2576,9 @@
 /area/f13/followers)
 "Yg" = (
 /obj/machinery/light{
-	dir = 8
+	dir = 1
 	},
-/turf/open/floor/wood/wood_tiled,
+/turf/open/floor/carpet/royalblack,
 /area/f13/building)
 "Ys" = (
 /obj/structure/sign/warning/nosmoking/circle,
@@ -2616,8 +2623,10 @@
 /turf/open/floor/wood/wood_tiled,
 /area/f13/followers)
 "ZQ" = (
-/obj/machinery/light,
-/turf/open/floor/carpet/royalblack,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/wood/wood_tiled,
 /area/f13/building)
 "ZX" = (
 /obj/structure/chair/wood/fancy{
@@ -28719,8 +28728,8 @@ PL
 sD
 ad
 al
-gb
-Yg
+yh
+ZQ
 gb
 gb
 gb
@@ -28747,7 +28756,7 @@ AR
 CU
 Kv
 EP
-HO
+uG
 AR
 CU
 ad
@@ -29001,7 +29010,7 @@ PL
 Jz
 OA
 lF
-cL
+nK
 Kv
 OA
 lF
@@ -30004,14 +30013,14 @@ PL
 sD
 ad
 al
-yh
+Yg
 Uf
 Uf
 gb
 Uf
 rL
 bh
-ZQ
+cr
 al
 PL
 PL
@@ -30029,7 +30038,7 @@ PL
 Kv
 OA
 lF
-cL
+nK
 lj
 di
 AR
@@ -30262,7 +30271,7 @@ sD
 ad
 al
 FT
-FT
+VS
 FT
 gb
 Uf
@@ -30291,7 +30300,7 @@ ki
 OA
 lF
 lF
-cL
+nK
 ad
 sD
 PL
@@ -31044,14 +31053,14 @@ PL
 PL
 PL
 PL
-HL
-HL
-HL
+zC
+zC
+zC
 sA
-HL
-HL
-HL
-HL
+zC
+zC
+zC
+zC
 PL
 PL
 PL
@@ -31301,14 +31310,14 @@ PL
 PL
 PL
 PL
-HL
+zC
 Vl
 bq
 Vt
 Vt
 Rg
 Rg
-HL
+zC
 PL
 PL
 PL
@@ -31558,14 +31567,14 @@ PL
 PL
 PL
 PL
-HL
+zC
 Vt
 sc
 Vt
 Vt
 Rg
 Rg
-HL
+zC
 PL
 PL
 PL
@@ -31819,10 +31828,10 @@ YA
 vp
 Vt
 bD
-HL
-HL
-HL
-HL
+zC
+zC
+zC
+zC
 PL
 PL
 PL
@@ -32072,11 +32081,11 @@ PL
 PL
 PL
 PL
-HL
+zC
 fT
 Vt
 BK
-HL
+zC
 PL
 PL
 PL
@@ -32329,11 +32338,11 @@ PL
 PL
 PL
 PL
-HL
+zC
 rm
 Vt
 oK
-HL
+zC
 PL
 PL
 PL
@@ -32586,11 +32595,11 @@ PL
 PL
 PL
 PL
-HL
+zC
 sA
-HL
-HL
-HL
+zC
+zC
+zC
 PL
 PL
 PL
@@ -33377,7 +33386,7 @@ PL
 PL
 Gl
 Gl
-DE
+FH
 vB
 PL
 PL
@@ -33634,7 +33643,7 @@ PL
 PL
 Gl
 Gl
-bg
+kl
 vB
 PL
 PL
@@ -37992,8 +38001,8 @@ eH
 KA
 eH
 Ys
-oZ
-oZ
+uM
+uM
 eH
 eH
 eH
@@ -38249,8 +38258,8 @@ EX
 EX
 EX
 eH
-oZ
-oZ
+uM
+uM
 eH
 ad
 ad
