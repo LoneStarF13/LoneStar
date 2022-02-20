@@ -852,6 +852,7 @@
 	crafting_recipe_types = list(/datum/crafting_recipe/policepistol, /datum/crafting_recipe/durathread_vest, /datum/crafting_recipe/policerifle, /datum/crafting_recipe/steelbib/heavy, /datum/crafting_recipe/armyhelmetheavy, /datum/crafting_recipe/huntingshotgun)
 	remarks = list("Looks like Oasis hand-crafts replicas from a pre-war police armory", "Some of these weapons are more than 200 years old....", "Duct tape really can hold it together!", "So that is how you laminate armor sheets together", "Looks like you can beat metal into just the right shape to replace the bits")
 
+
 /obj/item/book/granter/trait/tagger
 	name = "Picket Fences"
 	desc = "A guide to home decor! The American Dream might be dead and the white picket fences might be caked in rads, but at least you can read about it!"
@@ -1084,7 +1085,7 @@
 /obj/item/book/granter/crafting_recipe/tribal
 	name = "Tribal traditions"
 	desc = "A book of traditions passed down through generations within the tribe."
-	crafting_recipe_types = list(/datum/crafting_recipe/warmace, /datum/crafting_recipe/tribalwar/bone_bow, /datum/crafting_recipe/tribalwar/pipe_bow)
+	crafting_recipe_types = list(/datum/crafting_recipe/warmace)
 
 /obj/item/book/granter/crafting_recipe/tribal/whitelegs
 	name = "White Legs traditions"
