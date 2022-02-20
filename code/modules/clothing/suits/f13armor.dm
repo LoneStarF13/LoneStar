@@ -1067,10 +1067,6 @@ obj/item/clothing/suit/armor/f13/exile/cust0m
 	armor = list("melee" = 35, "bullet" = 25, "laser" = 35, "energy" = 15, "bomb" = 50, "bio" = 40, "rad" = 10, "fire" = 60, "acid" = 10, "wound" = 40)
 	slowdown = 0.05
 
-/obj/item/clothing/suit/f13/tribal/examine(mob/user)
-	. = ..()
-	. += "This armor provides [armor.bullet]%  bullet, [armor.laser]% laser, and [armor.melee]% melee resistance."
-
 /obj/item/clothing/suit/f13/tribal/light
 	name = "light tribal armor"
 	desc = "A set of armor made of a variety of tanned hides. It's not the best."
