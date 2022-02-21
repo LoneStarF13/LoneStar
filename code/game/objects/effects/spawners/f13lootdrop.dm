@@ -899,7 +899,7 @@
 	name = "9mm pistol and ammo spawner"
 	items = list(
 				/obj/item/gun/ballistic/automatic/pistol/ninemil,
-				/obj/item/ammo_box/magazine/m9mm
+				/obj/item/ammo_box/magazine/m9mmds
 				)
 
 /obj/effect/spawner/bundle/f13/colt6520
