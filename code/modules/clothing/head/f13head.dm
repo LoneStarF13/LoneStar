@@ -1028,7 +1028,7 @@
 /obj/item/clothing/head/helmet/skull/bone
 	name = "Reinforced skull helmet"
 	desc = "An intimidating tribal helmet reinforced with leather and cloth parts on the inside for more comfort, while styling it on the Bone dancers way."
-	flags_inv = HIDEMASK|HIDEEARS|HIDEFACE
+	flags_inv = HIDEEARS|HIDEFACE
 	flags_cover = HEADCOVERSEYES
 	armor = list("melee" = 30, "bullet" = 30, "laser" = 25, "energy" = 10, "bomb" = 15, "bio" = 60, "rad" = 15, "fire" = 60, "acid" = 30)
 	icon_state = "bone_dancer_helmet"
