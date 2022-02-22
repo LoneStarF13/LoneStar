@@ -7371,9 +7371,6 @@
 /obj/machinery/door/airlock/wood{
 	req_one_access_txt = 124
 	},
-/obj/machinery/door/poddoor/shutters{
-	id = followersshutters
-	},
 /turf/open/floor/wood/f13/oak,
 /area/f13/followers)
 "ewe" = (
@@ -14916,6 +14913,12 @@
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
 	},
+/area/f13/building)
+"jvq" = (
+/obj/structure/debris/v1{
+	pixel_y = -17
+	},
+/turf/closed/wall/rust,
 /area/f13/building)
 "jvG" = (
 /obj/effect/spawner/lootdrop/f13/armor/random,
@@ -22918,6 +22921,9 @@
 /obj/effect/spawner/lootdrop/f13/traitbooks,
 /turf/open/floor/plasteel/freezer,
 /area/f13/bunker)
+"pAq" = (
+/turf/closed/indestructible/f13/matrix,
+/area/f13/building)
 "pAr" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/bedsheet/pirate,
@@ -25223,9 +25229,6 @@
 /obj/machinery/space_heater,
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
 /area/f13/caves)
-"qZr" = (
-/turf/closed/indestructible/f13/matrix,
-/area/f13/building)
 "qZt" = (
 /obj/structure/closet/radiation,
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
@@ -27887,12 +27890,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/f13/inside,
 /area/f13/brotherhood/operating)
-"tmi" = (
-/obj/structure/debris/v1{
-	pixel_y = -17
-	},
-/turf/closed/wall/rust,
-/area/f13/building)
 "tms" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
@@ -33402,12 +33399,6 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/brotherhood/rnd)
-"xzT" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/f13{
-	icon_state = "neutralrustyfull"
-	},
-/area/f13/building)
 "xAf" = (
 /obj/structure/curtain{
 	color = "#5c131b";
@@ -33536,11 +33527,12 @@
 /turf/open/floor/wood/f13/oak,
 /area/f13/followers)
 "xDp" = (
-/obj/machinery/button{
-	id = followersshutters;
-	pixel_y = -5
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light{
+	dir = 1;
+	light_color = "#706891"
 	},
-/turf/closed/wall/rust,
+/turf/open/floor/wood/f13/oak,
 /area/f13/followers)
 "xEb" = (
 /obj/structure/table,
@@ -33583,10 +33575,7 @@
 /area/f13/caves)
 "xHq" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/light{
-	dir = 1;
-	light_color = "#706891"
-	},
+/obj/machinery/light,
 /turf/open/floor/wood/f13/oak,
 /area/f13/followers)
 "xHF" = (
@@ -34218,9 +34207,10 @@
 /area/f13/caves)
 "ylz" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/light,
-/turf/open/floor/wood/f13/oak,
-/area/f13/followers)
+/turf/open/floor/f13{
+	icon_state = "neutralrustyfull"
+	},
+/area/f13/building)
 "ylL" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/sink{
@@ -65282,7 +65272,7 @@ xrW
 xSP
 eyK
 eyK
-xzT
+ylz
 xSP
 dXE
 dXE
@@ -65796,7 +65786,7 @@ xyu
 xyu
 xyu
 xyu
-qZr
+pAq
 yke
 dXE
 dXE
@@ -66053,7 +66043,7 @@ xyu
 qjS
 xyu
 xyu
-qZr
+pAq
 yke
 dXE
 umD
@@ -66824,7 +66814,7 @@ wwV
 wwV
 wwV
 wwV
-tmi
+jvq
 yke
 dXE
 dXE
@@ -67081,7 +67071,7 @@ wwV
 wwV
 wwV
 wwV
-tmi
+jvq
 yke
 dXE
 dXE
@@ -67338,7 +67328,7 @@ wwV
 wwV
 wwV
 wwV
-tmi
+jvq
 yke
 dXE
 dXE
@@ -67595,7 +67585,7 @@ rCZ
 rCZ
 rCZ
 rCZ
-tmi
+jvq
 yke
 dXE
 dXE
@@ -72983,7 +72973,7 @@ xWQ
 pPc
 nFN
 lOu
-xDp
+xWQ
 wLJ
 wLJ
 wLJ
@@ -76839,9 +76829,9 @@ xNt
 cAI
 kbs
 xWQ
-xHq
+xDp
 wLJ
-ylz
+xHq
 llI
 aOc
 mXm
