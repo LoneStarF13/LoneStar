@@ -585,7 +585,7 @@ obj/effect/spawner/lootdrop/f13/medical/rnd/good
 	
 	loot = list(
 		/obj/item/reagent_containers/glass/beaker/meta = 5,
-		/obj/item/stack/sheet/mineral/abductor = 5,
+		/obj/item/stack/sheet/mineral/abductor/ten = 5,
 		/obj/item/scalpel/advanced = 5,
 		/obj/item/surgical_drapes/advanced = 5,
 		/obj/effect/spawner/bundle/f13/needler = 5,
