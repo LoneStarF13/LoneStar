@@ -82,6 +82,14 @@
 	},
 /turf/open/floor/carpet/blue,
 /area/f13/followers)
+"bn" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue/side{
+	dir = 8
+	},
+/area/f13/building)
 "bo" = (
 /obj/structure/fluff/railing,
 /obj/structure/curtain{
@@ -122,6 +130,12 @@
 /obj/item/advanced_crafting_components/conductors,
 /turf/open/floor/wood/f13,
 /area/f13/building)
+"bW" = (
+/turf/open/transparent/openspace{
+	name = "air";
+	sunlight_state = 1
+	},
+/area/f13/followers)
 "bX" = (
 /obj/structure/railing/handrail,
 /turf/open/floor/wood/f13/maple,
@@ -192,12 +206,6 @@
 	dir = 5
 	},
 /area/f13/building)
-"dx" = (
-/turf/open/transparent/openspace{
-	name = "air";
-	sunlight_state = 1
-	},
-/area/f13/followers)
 "dB" = (
 /obj/structure/chair{
 	dir = 4
@@ -466,10 +474,6 @@
 /obj/structure/simple_door/wood,
 /turf/open/floor/wood/f13,
 /area/f13/building)
-"jJ" = (
-/obj/machinery/light,
-/turf/open/floor/carpet/royalblack,
-/area/f13/building)
 "jS" = (
 /obj/machinery/door/unpowered/securedoor{
 	damage_deflection = 28;
@@ -596,6 +600,10 @@
 /obj/item/mop,
 /turf/open/floor/wood/wood_tiled,
 /area/f13/followers)
+"ms" = (
+/obj/machinery/light,
+/turf/open/floor/plasteel/f13/vault_floor/blue/side,
+/area/f13/building)
 "mI" = (
 /turf/closed/wall/f13/wood/house,
 /area/f13/building)
@@ -1254,9 +1262,6 @@
 "zk" = (
 /turf/closed/indestructible/riveted,
 /area/f13/tcoms)
-"zp" = (
-/turf/closed/wall/mineral/concrete,
-/area/f13/building)
 "zs" = (
 /obj/structure/destructible/tribal_torch/wall/lit{
 	dir = 4
@@ -1478,6 +1483,25 @@
 "Dp" = (
 /turf/open/floor/plasteel/barber,
 /area/f13/building)
+"Dy" = (
+/obj/structure/lattice/catwalk,
+/obj/machinery/button/door{
+	id = "interiorgate";
+	name = "inner gate";
+	pixel_x = 32;
+	pixel_y = 6
+	},
+/obj/machinery/button/door{
+	id = "exteriorgate";
+	name = "outer gate";
+	pixel_x = 32;
+	pixel_y = -6
+	},
+/turf/open/transparent/openspace{
+	name = "air";
+	sunlight_state = 1
+	},
+/area/f13/wasteland)
 "DB" = (
 /obj/structure/table/wood,
 /obj/effect/overlay/junk/mirror{
@@ -1528,14 +1552,6 @@
 	},
 /turf/open/floor/carpet/red,
 /area/f13/building)
-"EJ" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/chair/wood,
-/turf/open/transparent/openspace{
-	name = "air";
-	sunlight_state = 1
-	},
-/area/f13/wasteland)
 "EP" = (
 /turf/open/floor/plasteel/f13/vault_floor/blue/side{
 	dir = 5
@@ -1553,17 +1569,12 @@
 /obj/item/reagent_containers/glass/bucket,
 /turf/open/floor/wood/wood_tiled,
 /area/f13/followers)
+"Fy" = (
+/turf/closed/wall/mineral/concrete,
+/area/f13/building)
 "FK" = (
 /obj/structure/table/wood/fancy/royalblue,
 /turf/open/floor/plasteel/blueyellow,
-/area/f13/building)
-"FP" = (
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/open/floor/plasteel/f13/vault_floor/blue/side{
-	dir = 8
-	},
 /area/f13/building)
 "FR" = (
 /obj/structure/table,
@@ -1813,11 +1824,6 @@
 	name = "air";
 	sunlight_state = 1
 	},
-/area/f13/building)
-"Kb" = (
-/obj/structure/table/wood/poker,
-/obj/effect/holodeck_effect/cards,
-/turf/open/floor/carpet/royalblack,
 /area/f13/building)
 "Kf" = (
 /obj/structure/bed/wooden,
@@ -2164,6 +2170,14 @@
 	},
 /turf/open/indestructible/ground/outside/woodalt,
 /area/f13/building)
+"Rr" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/chair/wood,
+/turf/open/transparent/openspace{
+	name = "air";
+	sunlight_state = 1
+	},
+/area/f13/wasteland)
 "Rw" = (
 /obj/structure/decoration/smokeold{
 	pixel_y = 32
@@ -2233,6 +2247,11 @@
 	icon_state = "neutralrustyfull"
 	},
 /area/f13/building)
+"SC" = (
+/obj/structure/table/wood/poker,
+/obj/effect/holodeck_effect/cards,
+/turf/open/floor/carpet/royalblack,
+/area/f13/building)
 "SL" = (
 /obj/structure/chair{
 	dir = 4
@@ -2248,6 +2267,10 @@
 /turf/open/floor/f13{
 	icon_state = "hydrofloor"
 	},
+/area/f13/building)
+"Tk" = (
+/obj/machinery/light,
+/turf/open/floor/carpet/royalblack,
 /area/f13/building)
 "Tm" = (
 /turf/open/indestructible/ground/outside/wood{
@@ -2503,10 +2526,6 @@
 /obj/item/circuitboard/machine/seed_extractor,
 /turf/open/floor/wood/wood_tiled,
 /area/f13/followers)
-"WI" = (
-/obj/machinery/light,
-/turf/open/floor/plasteel/f13/vault_floor/blue/side,
-/area/f13/building)
 "WM" = (
 /obj/structure/guncase,
 /obj/item/gun/energy/laser/wattz,
@@ -2534,25 +2553,6 @@
 	icon_state = "housewood2-broken"
 	},
 /area/f13/building)
-"Xp" = (
-/obj/structure/lattice/catwalk,
-/obj/machinery/button/door{
-	id = "interiorgate";
-	name = "inner gate";
-	pixel_x = 32;
-	pixel_y = 6
-	},
-/obj/machinery/button/door{
-	id = "exteriorgate";
-	name = "outer gate";
-	pixel_x = 32;
-	pixel_y = -6
-	},
-/turf/open/transparent/openspace{
-	name = "air";
-	sunlight_state = 1
-	},
-/area/f13/wasteland)
 "XF" = (
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
 	name = "metal plating";
@@ -2611,17 +2611,17 @@
 	},
 /turf/open/floor/wood/f13/maple,
 /area/f13/wasteland)
-"YZ" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/safe,
-/turf/open/floor/wood/wood_tiled,
-/area/f13/followers)
 "Zp" = (
 /obj/structure/sink/greyscale{
 	dir = 4;
 	pixel_x = 12
 	},
 /obj/effect/decal/cleanable/dirt,
+/turf/open/floor/wood/wood_tiled,
+/area/f13/followers)
+"ZC" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/safe,
 /turf/open/floor/wood/wood_tiled,
 /area/f13/followers)
 "ZQ" = (
@@ -28758,7 +28758,7 @@ AR
 CU
 Kv
 EP
-FP
+bn
 AR
 CU
 ad
@@ -29012,7 +29012,7 @@ PL
 Jz
 OA
 lF
-WI
+ms
 Kv
 OA
 lF
@@ -30022,7 +30022,7 @@ gb
 Uf
 rL
 bh
-jJ
+Tk
 al
 PL
 PL
@@ -30040,7 +30040,7 @@ PL
 Kv
 OA
 lF
-WI
+ms
 lj
 di
 AR
@@ -30273,7 +30273,7 @@ sD
 ad
 al
 Yg
-Kb
+SC
 FT
 gb
 Uf
@@ -30302,7 +30302,7 @@ ki
 OA
 lF
 lF
-WI
+ms
 ad
 sD
 PL
@@ -31052,18 +31052,18 @@ PL
 PL
 PL
 PL
-PL
-PL
-PL
-zp
-zp
-zp
+CC
+CC
+CC
+Fy
+Fy
+Fy
 sA
-zp
-zp
-zp
-zp
-PL
+Fy
+Fy
+Fy
+Fy
+CC
 PL
 PL
 PL
@@ -31309,18 +31309,18 @@ PL
 PL
 PL
 PL
-PL
-PL
-PL
-zp
+CC
+CC
+CC
+Fy
 Vl
 bq
 Vt
 Vt
 Rg
 Rg
-zp
-PL
+Fy
+CC
 PL
 PL
 PL
@@ -31566,18 +31566,18 @@ PL
 PL
 PL
 PL
-PL
-PL
-PL
-zp
+CC
+CC
+CC
+Fy
 Vt
 sc
 Vt
 Vt
 Rg
 Rg
-zp
-PL
+Fy
+CC
 PL
 PL
 PL
@@ -31823,18 +31823,18 @@ PL
 PL
 PL
 PL
-PL
-PL
-PL
+CC
+CC
+CC
 YA
 vp
 Vt
 bD
-zp
-zp
-zp
-zp
-PL
+Fy
+Fy
+Fy
+Fy
+CC
 PL
 PL
 PL
@@ -32080,18 +32080,18 @@ PL
 PL
 PL
 PL
-PL
-PL
-PL
-zp
+CC
+CC
+CC
+Fy
 fT
 Vt
 BK
-zp
-PL
-PL
-PL
-PL
+Fy
+CC
+CC
+CC
+CC
 PL
 PL
 PL
@@ -32337,18 +32337,18 @@ PL
 PL
 PL
 PL
-PL
-PL
-PL
-zp
+CC
+CC
+CC
+Fy
 rm
 Vt
 oK
-zp
-PL
-PL
-PL
-PL
+Fy
+CC
+CC
+CC
+CC
 PL
 PL
 PL
@@ -32594,18 +32594,18 @@ PL
 PL
 PL
 PL
-PL
-PL
-PL
-zp
+CC
+CC
+CC
+Fy
 sA
-zp
-zp
-zp
-PL
-PL
-PL
-PL
+Fy
+Fy
+Fy
+CC
+CC
+CC
+CC
 PL
 PL
 PL
@@ -33388,7 +33388,7 @@ PL
 PL
 Gl
 Gl
-EJ
+Rr
 vB
 PL
 PL
@@ -33645,7 +33645,7 @@ PL
 PL
 Gl
 Gl
-Xp
+Dy
 vB
 PL
 PL
@@ -35952,7 +35952,7 @@ Of
 Of
 UX
 eH
-YZ
+ZC
 Kj
 xn
 Kr
@@ -38003,8 +38003,8 @@ eH
 KA
 eH
 Ys
-dx
-dx
+bW
+bW
 eH
 eH
 eH
@@ -38260,8 +38260,8 @@ EX
 EX
 EX
 eH
-dx
-dx
+bW
+bW
 eH
 ad
 ad
