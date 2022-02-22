@@ -9510,9 +9510,6 @@
 /obj/machinery/door/unpowered/securedoor{
 	req_one_access_txt = 124
 	},
-/obj/machinery/door/poddoor/shutters{
-	id = fpsych
-	},
 /turf/open/floor/f13{
 	icon_state = "bar"
 	},
@@ -22723,6 +22720,12 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/f13/oak,
 /area/f13/den)
+"pty" = (
+/obj/structure/debris/v1{
+	pixel_y = -17
+	},
+/turf/closed/wall/rust,
+/area/f13/building)
 "ptQ" = (
 /obj/structure/table,
 /obj/item/radio,
@@ -30411,12 +30414,6 @@
 	},
 /turf/open/floor/carpet/black,
 /area/f13/brotherhood/offices2nd)
-"vnG" = (
-/obj/structure/debris/v1{
-	pixel_y = -17
-	},
-/turf/closed/wall/rust,
-/area/f13/building)
 "vnJ" = (
 /obj/machinery/button/door{
 	id = "room53";
@@ -32667,10 +32664,6 @@
 	},
 /obj/item/pen/fountain{
 	pixel_x = 7
-	},
-/obj/machinery/button/door{
-	id = "fpsych";
-	name = "shutter control"
 	},
 /turf/open/floor/carpet/purple,
 /area/f13/followers)
@@ -66807,7 +66800,7 @@ tHZ
 tHZ
 tHZ
 tHZ
-vnG
+pty
 yke
 dXE
 dXE
@@ -67064,7 +67057,7 @@ tHZ
 tHZ
 tHZ
 tHZ
-vnG
+pty
 yke
 dXE
 dXE
@@ -67321,7 +67314,7 @@ tHZ
 tHZ
 tHZ
 tHZ
-vnG
+pty
 yke
 dXE
 dXE
@@ -67578,7 +67571,7 @@ pOo
 pOo
 pOo
 pOo
-vnG
+pty
 yke
 dXE
 dXE
