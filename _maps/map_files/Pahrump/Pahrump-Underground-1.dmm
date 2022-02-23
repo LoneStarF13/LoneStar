@@ -10254,12 +10254,13 @@
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/bunker)
 "ggG" = (
-/obj/machinery/light/small{
-	dir = 8;
-	light_color = "#d8b1b1"
+/obj/structure/rack/shelf_metal,
+/obj/item/storage/toolbox/drone,
+/obj/item/storage/belt/chameleon,
+/turf/open/floor/f13{
+	icon_state = "neutralrustyfull"
 	},
-/turf/closed/wall/r_wall/rust,
-/area/f13/den)
+/area/f13/building)
 "ggH" = (
 /obj/structure/nest/raider/ranged{
 	max_mobs = 2;
@@ -10545,12 +10546,9 @@
 /turf/open/floor/plasteel/f13/vault_floor/white,
 /area/f13/bunker)
 "gpa" = (
-/obj/structure/rack/shelf_metal,
-/obj/item/storage/toolbox/drone,
-/obj/item/storage/belt/chameleon,
-/turf/open/floor/f13{
-	icon_state = "neutralrustyfull"
-	},
+/obj/structure/bed,
+/obj/item/bedsheet/ce,
+/turf/open/floor/plasteel/f13/vault_floor/neutral/neutralchess,
 /area/f13/building)
 "gpz" = (
 /obj/effect/decal/waste{
@@ -12822,8 +12820,12 @@
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/tunnel)
 "hQC" = (
-/obj/structure/bed,
-/obj/item/bedsheet/ce,
+/obj/structure/table/wood,
+/obj/item/kirbyplants/dead{
+	desc = "It doesn't look very healthy...";
+	name = "Dead potted plant";
+	pixel_y = 13
+	},
 /turf/open/floor/plasteel/f13/vault_floor/neutral/neutralchess,
 /area/f13/building)
 "hQE" = (
@@ -15421,12 +15423,8 @@
 /turf/open/floor/plasteel/f13/vault_floor/yellow/white/whiteyellowchess/whiteyellowchess2,
 /area/f13/building)
 "jPw" = (
-/obj/structure/table/wood,
-/obj/item/kirbyplants/dead{
-	desc = "It doesn't look very healthy...";
-	name = "Dead potted plant";
-	pixel_y = 13
-	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/landmark/start/f13/settler,
 /turf/open/floor/plasteel/f13/vault_floor/neutral/neutralchess,
 /area/f13/building)
 "jPz" = (
@@ -16513,9 +16511,10 @@
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
 "kKs" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/landmark/start/f13/settler,
-/turf/open/floor/plasteel/f13/vault_floor/neutral/neutralchess,
+/obj/machinery/light/broken,
+/turf/open/floor/f13{
+	icon_state = "neutralrustyfull"
+	},
 /area/f13/building)
 "kKB" = (
 /obj/structure/table/reinforced,
@@ -16628,10 +16627,10 @@
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/den)
 "kQU" = (
-/obj/machinery/light/broken,
-/turf/open/floor/f13{
-	icon_state = "neutralrustyfull"
+/obj/machinery/light/small/broken{
+	dir = 8
 	},
+/turf/open/floor/plasteel/f13/vault_floor/neutral/neutralchess,
 /area/f13/building)
 "kRt" = (
 /obj/effect/decal/cleanable/dirt,
@@ -16868,10 +16867,10 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/brotherhood/operations)
 "ldz" = (
-/obj/machinery/light/small/broken{
-	dir = 8
+/obj/structure/debris/v1{
+	pixel_y = -17
 	},
-/turf/open/floor/plasteel/f13/vault_floor/neutral/neutralchess,
+/turf/closed/wall/vault,
 /area/f13/building)
 "ldA" = (
 /obj/effect/decal/cleanable/dirt,
@@ -18432,10 +18431,10 @@
 	},
 /area/f13/den)
 "msn" = (
-/obj/structure/debris/v1{
-	pixel_y = -17
+/obj/structure/debris/v1,
+/turf/open/floor/f13{
+	icon_state = "neutralrustyfull"
 	},
-/turf/closed/wall/vault,
 /area/f13/building)
 "mst" = (
 /obj/structure/rack,
@@ -19170,7 +19169,13 @@
 /turf/open/floor/carpet/purple,
 /area/f13/followers)
 "mUp" = (
-/obj/structure/debris/v1,
+/obj/structure/debris/v1{
+	pixel_x = -25;
+	pixel_y = -24
+	},
+/obj/structure/debris/v1{
+	pixel_y = -17
+	},
 /turf/open/floor/f13{
 	icon_state = "neutralrustyfull"
 	},
@@ -20042,16 +20047,12 @@
 /turf/open/floor/wood/f13/old,
 /area/f13/caves)
 "ntR" = (
+/obj/structure/debris/v1,
 /obj/structure/debris/v1{
-	pixel_x = -25;
-	pixel_y = -24
+	pixel_x = -6;
+	pixel_y = 21
 	},
-/obj/structure/debris/v1{
-	pixel_y = -17
-	},
-/turf/open/floor/f13{
-	icon_state = "neutralrustyfull"
-	},
+/turf/closed/wall/vault,
 /area/f13/building)
 "nuA" = (
 /obj/structure/lattice/catwalk,
@@ -20255,12 +20256,12 @@
 /turf/open/water,
 /area/f13/tunnel)
 "nDj" = (
-/obj/structure/debris/v1,
 /obj/structure/debris/v1{
-	pixel_x = -6;
-	pixel_y = 21
+	pixel_y = -17
 	},
-/turf/closed/wall/vault,
+/turf/open/floor/f13{
+	icon_state = "neutralrustyfull"
+	},
 /area/f13/building)
 "nEg" = (
 /obj/structure/chair/wood{
@@ -21053,13 +21054,12 @@
 /turf/closed/indestructible/f13vaultrusted,
 /area/f13/caves)
 "ocG" = (
-/obj/structure/debris/v1{
-	pixel_y = -17
+/obj/machinery/light/small{
+	dir = 4;
+	pixel_y = -15
 	},
-/turf/open/floor/f13{
-	icon_state = "neutralrustyfull"
-	},
-/area/f13/building)
+/turf/open/floor/carpet,
+/area/f13/followers)
 "ocJ" = (
 /obj/structure/wreck/trash/brokenvendor,
 /obj/effect/decal/cleanable/dirt,
@@ -21717,12 +21717,13 @@
 /turf/closed/wall/rust,
 /area/f13/den)
 "oBy" = (
-/obj/machinery/light/small{
-	dir = 4;
-	pixel_y = -15
+/obj/structure/debris/v1,
+/obj/structure/debris/v1{
+	pixel_x = -6;
+	pixel_y = 21
 	},
-/turf/open/floor/carpet,
-/area/f13/followers)
+/turf/closed/wall/rust,
+/area/f13/building)
 "oBB" = (
 /obj/item/trash/f13/borscht,
 /turf/open/indestructible/ground/inside/subway,
@@ -22195,11 +22196,10 @@
 /turf/open/floor/plasteel/dark/telecomms/mainframe,
 /area/f13/tcoms)
 "oSy" = (
-/obj/structure/debris/v1,
 /obj/structure/debris/v1{
-	pixel_x = -6;
-	pixel_y = 21
+	pixel_y = -17
 	},
+/obj/structure/debris/v1,
 /turf/closed/wall/rust,
 /area/f13/building)
 "oSA" = (
@@ -22720,12 +22720,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/f13/oak,
 /area/f13/den)
-"pty" = (
-/obj/structure/debris/v1{
-	pixel_y = -17
-	},
-/turf/closed/wall/rust,
-/area/f13/building)
 "ptQ" = (
 /obj/structure/table,
 /obj/item/radio,
@@ -23305,12 +23299,13 @@
 	},
 /area/f13/bunker)
 "pOo" = (
-/obj/structure/debris/v1{
-	pixel_y = -17
+/obj/machinery/light/small{
+	dir = 8;
+	light_color = "red";
+	pixel_y = 15
 	},
-/obj/structure/debris/v1,
-/turf/closed/wall/rust,
-/area/f13/building)
+/turf/open/floor/carpet,
+/area/f13/followers)
 "pOu" = (
 /obj/structure/noticeboard{
 	desc = "A large, rusted plaque with a newly crafted nameplate listing the many Star Knight's that walk these halls and may make use of this office.";
@@ -25972,11 +25967,10 @@
 "rCZ" = (
 /obj/machinery/light/small{
 	dir = 8;
-	light_color = "red";
-	pixel_y = 15
+	light_color = "red"
 	},
-/turf/open/floor/carpet,
-/area/f13/followers)
+/turf/open/floor/plasteel/f13/vault_floor/neutral/neutralchess,
+/area/f13/building)
 "rDk" = (
 /turf/closed/mineral/random/protective_area,
 /area/f13/caves)
@@ -26299,11 +26293,7 @@
 	},
 /area/f13/tunnel)
 "rPe" = (
-/obj/machinery/light/small{
-	dir = 8;
-	light_color = "red"
-	},
-/turf/open/floor/plasteel/f13/vault_floor/neutral/neutralchess,
+/turf/closed/wall/rust,
 /area/f13/building)
 "rPi" = (
 /obj/structure/simple_door/room,
@@ -28440,6 +28430,10 @@
 /turf/open/floor/carpet/black,
 /area/f13/brotherhood/archives)
 "tHZ" = (
+/obj/structure/debris/v1{
+	pixel_x = -6;
+	pixel_y = 21
+	},
 /turf/closed/wall/rust,
 /area/f13/building)
 "tIy" = (
@@ -31866,12 +31860,13 @@
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
 "wwV" = (
-/obj/structure/debris/v1{
-	pixel_x = -6;
-	pixel_y = 21
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light{
+	dir = 1;
+	light_color = "#706891"
 	},
-/turf/closed/wall/rust,
-/area/f13/building)
+/turf/open/floor/wood/f13/oak,
+/area/f13/followers)
 "wwW" = (
 /obj/structure/sink{
 	dir = 4;
@@ -32056,10 +32051,7 @@
 /area/f13/bunker)
 "wEX" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/light{
-	dir = 1;
-	light_color = "#706891"
-	},
+/obj/machinery/light,
 /turf/open/floor/wood/f13/oak,
 /area/f13/followers)
 "wFn" = (
@@ -33519,9 +33511,10 @@
 /area/f13/followers)
 "xDp" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/light,
-/turf/open/floor/wood/f13/oak,
-/area/f13/followers)
+/turf/open/floor/f13{
+	icon_state = "neutralrustyfull"
+	},
+/area/f13/building)
 "xEb" = (
 /obj/structure/table,
 /obj/effect/decal/cleanable/dirt,
@@ -33562,10 +33555,7 @@
 /turf/open/floor/f13/wood,
 /area/f13/caves)
 "xHq" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/f13{
-	icon_state = "neutralrustyfull"
-	},
+/turf/closed/indestructible/f13/matrix,
 /area/f13/building)
 "xHF" = (
 /obj/structure/filingcabinet{
@@ -34195,7 +34185,10 @@
 /turf/open/floor/f13/wood,
 /area/f13/caves)
 "ylz" = (
-/turf/closed/indestructible/f13/matrix,
+/obj/structure/debris/v1{
+	pixel_y = -17
+	},
+/turf/closed/wall/rust,
 /area/f13/building)
 "ylL" = (
 /obj/effect/decal/cleanable/dirt,
@@ -64727,13 +64720,13 @@ rXB
 tbu
 gEe
 xSP
-hQC
+gpa
 xrW
-ldz
+kQU
 uPI
 yke
-hQC
-rPe
+gpa
+rCZ
 tbu
 uPI
 yke
@@ -64985,7 +64978,7 @@ wKf
 xrW
 yke
 xrW
-kKs
+jPw
 xrW
 xrW
 yke
@@ -64995,7 +64988,7 @@ xrW
 xrW
 yke
 xrW
-kKs
+jPw
 xrW
 xrW
 yke
@@ -65241,12 +65234,12 @@ nFk
 xrW
 xrW
 yke
-jPw
+hQC
 xrW
 xrW
 xrW
 yke
-jPw
+hQC
 xrW
 xrW
 xrW
@@ -65258,7 +65251,7 @@ xrW
 xSP
 eyK
 eyK
-xHq
+xDp
 xSP
 dXE
 dXE
@@ -65772,7 +65765,7 @@ xyu
 xyu
 xyu
 xyu
-ylz
+xHq
 yke
 dXE
 dXE
@@ -66029,7 +66022,7 @@ xyu
 qjS
 xyu
 xyu
-ylz
+xHq
 yke
 dXE
 umD
@@ -66529,9 +66522,9 @@ eMH
 eyK
 eyK
 yke
-msn
-nDj
-nDj
+ldz
+ntR
+ntR
 hMf
 hWA
 xyU
@@ -66735,7 +66728,7 @@ wYo
 kUN
 kUN
 kUN
-ggG
+kUN
 kUN
 kUN
 kUN
@@ -66784,23 +66777,23 @@ dXE
 yke
 eZw
 eyK
-kQU
+kKs
 yke
 eyK
 eyK
-oSy
-tHZ
-tHZ
-tHZ
-tHZ
-tHZ
-tHZ
-tHZ
-tHZ
-tHZ
-tHZ
-tHZ
-pty
+oBy
+rPe
+rPe
+rPe
+rPe
+rPe
+rPe
+rPe
+rPe
+rPe
+rPe
+rPe
+ylz
 yke
 dXE
 dXE
@@ -67045,19 +67038,19 @@ eyK
 nBH
 eyK
 eyK
-oSy
+oBy
+rPe
 tHZ
-wwV
-tHZ
-tHZ
-tHZ
-tHZ
-tHZ
-tHZ
-tHZ
-tHZ
-tHZ
-pty
+rPe
+rPe
+rPe
+rPe
+rPe
+rPe
+rPe
+rPe
+rPe
+ylz
 yke
 dXE
 dXE
@@ -67300,21 +67293,21 @@ fPt
 eyK
 eyK
 yke
-mUp
+msn
 eyK
-oSy
-tHZ
-tHZ
-tHZ
-tHZ
-tHZ
-tHZ
-tHZ
-tHZ
-tHZ
-tHZ
-tHZ
-pty
+oBy
+rPe
+rPe
+rPe
+rPe
+rPe
+rPe
+rPe
+rPe
+rPe
+rPe
+rPe
+ylz
 yke
 dXE
 dXE
@@ -67553,25 +67546,25 @@ dXE
 dXE
 dXE
 yke
-gpa
+ggG
 eyK
 eyK
 yke
-ntR
-ocG
-pOo
-pOo
-pOo
-pOo
-pOo
-pOo
-pOo
-pOo
-pOo
-pOo
-pOo
-pOo
-pty
+mUp
+nDj
+oSy
+oSy
+oSy
+oSy
+oSy
+oSy
+oSy
+oSy
+oSy
+oSy
+oSy
+oSy
+ylz
 yke
 dXE
 dXE
@@ -75526,7 +75519,7 @@ xWQ
 nTf
 xdH
 tBz
-rCZ
+pOo
 nTf
 xdH
 xWQ
@@ -76815,9 +76808,9 @@ xNt
 cAI
 kbs
 xWQ
-wEX
+wwV
 wLJ
-xDp
+wEX
 llI
 aOc
 mXm
@@ -77067,7 +77060,7 @@ vPg
 xWQ
 byS
 tBz
-oBy
+ocG
 xNt
 mPM
 kCP
