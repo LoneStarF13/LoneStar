@@ -423,16 +423,15 @@ Star Paladin
 	)
 
 /datum/outfit/loadout/spaladina
-	name = "Overwatch Senior Paladin"
+	name = "Firesupport Senior Paladin"
 	backpack_contents = list(
-		/obj/item/gun/ballistic/automatic/m72 = 1,
-		/obj/item/ammo_box/magazine/m2mm = 3,
+		/obj/item/minigunpackbal5mm = 1,
 		/obj/item/gun/energy/laser/pistol=1,
 		/obj/item/stock_parts/cell/ammo/ec=2,
 	)
 
 /datum/outfit/loadout/spaladinb
-	name = "Mainline Senior Paladin"
+	name = "Frontline Senior Paladin"
 	backpack_contents = list(
 		/obj/item/gun/energy/laser/aer12 = 1,
 		/obj/item/attachments/scope = 1,
@@ -444,7 +443,8 @@ Star Paladin
 /datum/outfit/loadout/spaladinc
 	name = "Firesupport Senior Paladin"
 	backpack_contents = list(
-		/obj/item/minigunpackbal5mm = 1,
+		/obj/item/gun/ballistic/automatic/m72 = 1,
+		/obj/item/ammo_box/magazine/m2mm = 3,
 		/obj/item/gun/energy/laser/pistol=1,
 		/obj/item/stock_parts/cell/ammo/ec=2,
 	)
