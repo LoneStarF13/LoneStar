@@ -441,7 +441,7 @@ Star Paladin
 	)
 
 /datum/outfit/loadout/spaladinc
-	name = "Firesupport Senior Paladin"
+	name = "Overwatch Senior Paladin"
 	backpack_contents = list(
 		/obj/item/gun/ballistic/automatic/m72 = 1,
 		/obj/item/ammo_box/magazine/m2mm = 3,
