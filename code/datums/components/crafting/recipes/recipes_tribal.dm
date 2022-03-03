@@ -38,33 +38,12 @@
 
 /datum/crafting_recipe/tribalwar/bow
 	name = "String Wooden Bow"
-	result = /obj/item/gun/ballistic/bow
+	result = /obj/item/gun/ballistic/bow/tribal
 	time = 65
 	reqs = list(/obj/item/stack/sheet/mineral/wood = 5,
 				/obj/item/weaponcrafting/string = 1,
 				/obj/item/melee/onehanded/knife
 				)
-
-/datum/crafting_recipe/tribalwar/bone_bow
-	name = "Bone Bow"
-	result = /obj/item/gun/ballistic/bow/ashen
-	time = 120 // 80+120 = 200
-	always_available = FALSE
-	reqs = list(/obj/item/stack/sheet/bone = 8,
-				/obj/item/stack/sheet/sinew = 4
-				)
-
-/datum/crafting_recipe/tribalwar/pipe_bow
-	name = "Pipe Bow"
-	result = /obj/item/gun/ballistic/bow/pipe
-	time = 80
-	always_available = FALSE
-	reqs = list(/obj/item/stack/crafting/metalparts = 2,
-				/obj/item/crafting/duct_tape = 1,
-				/obj/item/stack/rods = 1,
-				/obj/item/weaponcrafting/string = 1
-				)
-	tools = list(TOOL_WORKBENCH)
 
 /datum/crafting_recipe/tribalwar/xbow
 	name = "Manual Crossbow"
@@ -436,3 +415,49 @@
 	reqs = list(/obj/item/stack/crafting/metalparts = 2,
 				/obj/item/reagent_containers/food/snacks/meat/slab/bear = 2,
 				/obj/item/clothing/head/bearpelt = 1)
+
+//Bone Dancers
+
+datum/crafting_recipe/tribalwar/bone
+	always_available = FALSE
+
+/datum/crafting_recipe/tribalwar/bone/lightarmour
+	name = "Bone Dancer Light Armor"
+	result = /obj/item/clothing/suit/f13/tribal/light/bone
+	time = 30
+	reqs = list(/obj/item/stack/sheet/bone = 6)
+
+/datum/crafting_recipe/tribalwar/bone/armour
+	name = "Bone Dancer Reinforced Armor"
+	result = /obj/item/clothing/suit/f13/tribal/bone
+	time = 60
+	reqs = list(/obj/item/stack/crafting/metalparts = 2,
+				/obj/item/stack/sheet/leather = 3,
+				/obj/item/stack/sheet/bone = 6)
+
+/datum/crafting_recipe/tribalwar/bone/heavyarmour
+	name = "Bone Dancer Heavy Armor"
+	result = /obj/item/clothing/suit/f13/tribal/heavy/bone
+	time = 60
+	reqs = list(/obj/item/clothing/suit/f13/tribal/light/bone =1,
+				/obj/item/clothing/suit/f13/tribal/bone = 1,
+				/obj/item/stack/crafting/metalparts = 5,
+				/obj/item/stack/sheet/leather = 2,
+				/obj/item/stack/sheet/bone = 4)
+
+/datum/crafting_recipe/tribalwar/bone/garb
+	name = "Bone Dancer Garb"
+	result = /obj/item/clothing/under/f13/bone
+	time = 30
+	reqs = list(/obj/item/stack/sheet/cloth = 3)
+
+
+/datum/crafting_recipe/tribalwar/bone/helmet
+	name = "Bone Dancer helmet"
+	result = /obj/item/clothing/head/helmet/skull/bone
+	time = 30
+	reqs = list(/obj/item/stack/sheet/cloth = 1,
+				/obj/item/stack/sheet/leather = 1,
+				/obj/item/clothing/head/helmet/skull = 1)
+
+
