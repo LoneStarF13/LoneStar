@@ -17,12 +17,13 @@
 /turf/open/floor/plasteel/f13/vault_floor/dark,
 /area/f13/brotherhood/surface)
 "ar" = (
-/obj/structure/table,
-/obj/item/binoculars,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
-	name = "metal plating";
-	sunlight_state = 1
+/obj/structure/bed/wooden{
+	pixel_y = 12
 	},
+/obj/item/bedsheet/black{
+	pixel_y = 12
+	},
+/turf/open/floor/wood/f13/old,
 /area/f13/building)
 "as" = (
 /turf/closed/mineral/random/low_chance,
@@ -96,11 +97,10 @@
 /turf/open/floor/f13,
 /area/f13/brotherhood/surface)
 "aQ" = (
-/obj/structure/railing{
-	color = "#A47449";
-	dir = 1
+/obj/structure/railing/handrail{
+	dir = 4
 	},
-/turf/open/indestructible/ground/outside/roof,
+/turf/open/floor/wood/f13/maple,
 /area/f13/wasteland)
 "aY" = (
 /obj/effect/decal/cleanable/dirt,
@@ -186,20 +186,8 @@
 /turf/open/floor/plasteel/f13/vault_floor/red,
 /area/f13/brotherhood/surface)
 "ca" = (
-/obj/structure/rack/shelf_metal,
-/obj/effect/spawner/lootdrop/f13/crafting,
-/obj/effect/spawner/lootdrop/f13/crafting,
-/obj/effect/spawner/lootdrop/f13/crafting,
-/obj/effect/spawner/lootdrop/f13/crafting,
-/obj/effect/spawner/lootdrop/f13/crafting,
-/obj/effect/spawner/lootdrop/f13/crafting,
-/obj/effect/spawner/lootdrop/f13/crafting,
-/obj/effect/spawner/lootdrop/f13/crafting,
-/obj/effect/spawner/lootdrop/f13/crafting,
-/obj/effect/spawner/lootdrop/f13/crafting,
-/obj/item/crafting/abraxo,
-/turf/open/floor/wood/f13,
-/area/f13/building)
+/turf/closed/wall/mineral/concrete,
+/area/f13/wasteland)
 "cg" = (
 /obj/item/twohanded/required/kirbyplants/random,
 /turf/open/floor/plasteel/f13/vault_floor/blue/side{
@@ -299,10 +287,16 @@
 	},
 /area/f13/wasteland)
 "cX" = (
-/obj/structure/table/wood,
-/obj/machinery/cell_charger,
-/turf/open/floor/wood/f13,
-/area/f13/building)
+/obj/structure/railing{
+	color = "#A47449";
+	dir = 1;
+	pixel_y = 1
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating";
+	sunlight_state = 1
+	},
+/area/f13/wasteland)
 "cY" = (
 /obj/structure/table/wood/poker,
 /turf/open/floor/wood/wood_tiled,
@@ -583,9 +577,16 @@
 /turf/open/floor/carpet/red,
 /area/f13/wasteland)
 "gw" = (
-/obj/effect/landmark/start/f13/shopkeeper,
+/obj/structure/table/wood{
+	pixel_x = -4
+	},
+/obj/item/kirbyplants{
+	icon_state = "plant-18";
+	pixel_x = -8;
+	pixel_y = 19
+	},
 /turf/open/floor/wood/f13,
-/area/f13/building)
+/area/f13/wasteland)
 "gA" = (
 /obj/structure/shelf_wood,
 /obj/item/stock_parts/cell/ammo/ec,
@@ -691,25 +692,24 @@
 	},
 /area/f13/building)
 "hK" = (
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/building)
-"hQ" = (
-/turf/closed/wall/r_wall/rust,
-/area/f13/wasteland)
-"hZ" = (
 /obj/structure/railing{
 	color = "#A47449";
-	dir = 6
+	dir = 8
 	},
 /obj/structure/railing{
 	color = "#A47449";
-	layer = 4.1;
-	pixel_x = -8
+	dir = 1
 	},
 /turf/open/transparent/openspace{
 	name = "air";
 	sunlight_state = 1
 	},
+/area/f13/building)
+"hQ" = (
+/turf/closed/wall/r_wall/rust,
+/area/f13/wasteland)
+"hZ" = (
+/turf/open/floor/wood/f13,
 /area/f13/wasteland)
 "id" = (
 /obj/structure/chair/comfy{
@@ -887,7 +887,6 @@
 /area/f13/brotherhood/surface)
 "jS" = (
 /obj/machinery/door/unpowered/securedoor{
-	autoclose = 1;
 	damage_deflection = 28;
 	max_integrity = 400;
 	obj_integrity = 400;
@@ -907,16 +906,10 @@
 	},
 /area/f13/building)
 "jZ" = (
-/obj/structure/railing{
-	color = "#A47449";
-	dir = 8
-	},
-/obj/structure/railing{
-	color = "#A47449";
-	dir = 1
-	},
-/turf/open/transparent/openspace{
-	name = "air";
+/obj/structure/table,
+/obj/item/binoculars,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating";
 	sunlight_state = 1
 	},
 /area/f13/building)
@@ -963,12 +956,8 @@
 /turf/closed/mineral/random/low_chance,
 /area/f13/caves)
 "kE" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/chair/wood,
-/turf/open/transparent/openspace{
-	name = "air";
-	sunlight_state = 1
-	},
+/obj/structure/closet/secure_closet/personal/cabinet,
+/turf/open/floor/wood/f13,
 /area/f13/wasteland)
 "kJ" = (
 /obj/structure/closet/crate/bin/trash_fallout,
@@ -1126,10 +1115,9 @@
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "nq" = (
-/obj/structure/railing{
-	color = "#A47449"
-	},
-/turf/open/indestructible/ground/outside/roof,
+/obj/structure/bed/wooden,
+/obj/item/bedsheet/qm,
+/turf/open/floor/wood/f13,
 /area/f13/wasteland)
 "ns" = (
 /obj/structure/toilet{
@@ -1141,24 +1129,12 @@
 	},
 /area/f13/building)
 "nA" = (
-/obj/structure/lattice/catwalk,
-/obj/machinery/button/door{
-	id = "interiorgate";
-	name = "inner gate";
-	pixel_x = 32;
-	pixel_y = 6
-	},
-/obj/machinery/button/door{
-	id = "exteriorgate";
-	name = "outer gate";
-	pixel_x = 32;
-	pixel_y = -6
-	},
-/turf/open/transparent/openspace{
-	name = "air";
-	sunlight_state = 1
-	},
-/area/f13/wasteland)
+/obj/machinery/workbench/advanced,
+/obj/effect/spawner/lootdrop/f13/blueprintVHigh,
+/obj/effect/spawner/lootdrop/f13/blueprintVHigh,
+/obj/effect/spawner/lootdrop/f13/blueprintHigh,
+/turf/open/floor/wood/f13,
+/area/f13/building)
 "nE" = (
 /obj/structure/railing{
 	color = "#A47449";
@@ -1176,18 +1152,8 @@
 /turf/open/indestructible/ground/outside/roof,
 /area/f13/wasteland)
 "nH" = (
-/obj/structure/railing{
-	color = "#A47449";
-	dir = 4
-	},
-/obj/structure/railing{
-	color = "#A47449";
-	dir = 1
-	},
-/turf/open/transparent/openspace{
-	name = "air";
-	sunlight_state = 1
-	},
+/obj/structure/window/fulltile/wood,
+/turf/open/floor/wood/f13,
 /area/f13/building)
 "nL" = (
 /obj/structure/fireplace,
@@ -1284,14 +1250,27 @@
 /turf/closed/wall/f13/store,
 /area/f13/building)
 "oI" = (
-/obj/structure/railing{
-	color = "#A47449"
-	},
-/turf/open/transparent/openspace{
-	name = "air";
-	sunlight_state = 1
-	},
-/area/f13/wasteland)
+/obj/structure/rack/shelf_metal,
+/obj/item/advanced_crafting_components/alloys,
+/obj/item/advanced_crafting_components/alloys,
+/obj/item/advanced_crafting_components/alloys,
+/obj/item/advanced_crafting_components/lenses,
+/obj/item/advanced_crafting_components/lenses,
+/obj/item/advanced_crafting_components/lenses,
+/obj/item/advanced_crafting_components/assembly,
+/obj/item/advanced_crafting_components/assembly,
+/obj/item/advanced_crafting_components/assembly,
+/obj/item/weaponcrafting/reciever,
+/obj/item/weaponcrafting/reciever,
+/obj/item/weaponcrafting/reciever,
+/obj/item/advanced_crafting_components/flux,
+/obj/item/advanced_crafting_components/flux,
+/obj/item/advanced_crafting_components/flux,
+/obj/item/advanced_crafting_components/conductors,
+/obj/item/advanced_crafting_components/conductors,
+/obj/item/advanced_crafting_components/conductors,
+/turf/open/floor/wood/f13,
+/area/f13/building)
 "oJ" = (
 /turf/open/floor/carpet,
 /area/f13/building)
@@ -1398,13 +1377,11 @@
 	},
 /area/f13/building)
 "qm" = (
-/obj/machinery/light{
+/obj/structure/railing{
+	color = "#A47449";
 	dir = 8
 	},
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
-	name = "metal plating";
-	sunlight_state = 1
-	},
+/turf/open/floor/wood/f13,
 /area/f13/building)
 "qs" = (
 /obj/structure/chair/sofa/corp/right,
@@ -1462,10 +1439,9 @@
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
 /area/f13/brotherhood/surface)
 "rt" = (
-/obj/structure/table,
-/obj/machinery/processor/chopping_block,
-/turf/open/floor/plasteel/blueyellow,
-/area/f13/building)
+/obj/structure/table/wood/fancy/green,
+/turf/open/floor/carpet/blue,
+/area/f13/wasteland)
 "rz" = (
 /obj/structure/table,
 /obj/machinery/computer/terminal{
@@ -1567,14 +1543,18 @@
 /turf/open/transparent/openspace,
 /area/f13/ncr)
 "sT" = (
+/obj/structure/table/wood{
+	pixel_x = 5
+	},
+/obj/machinery/cell_charger{
+	pixel_x = 6;
+	pixel_y = 12
+	},
 /obj/structure/railing{
 	color = "#A47449";
-	density = 0;
-	dir = 5;
-	pixel_x = 9;
-	pixel_y = 10
+	dir = 8
 	},
-/turf/closed/wall/rust,
+/turf/open/floor/wood/f13,
 /area/f13/building)
 "sZ" = (
 /obj/structure/sign/warning/nosmoking/circle,
@@ -1699,18 +1679,20 @@
 	},
 /area/f13/wasteland)
 "uX" = (
-/obj/structure/railing{
-	color = "#A47449";
-	dir = 8
-	},
-/obj/structure/railing{
-	color = "#A47449"
-	},
-/turf/open/transparent/openspace{
-	name = "air";
-	sunlight_state = 1
-	},
-/area/f13/building)
+/obj/structure/rack/shelf_metal,
+/obj/effect/spawner/lootdrop/f13/crafting,
+/obj/effect/spawner/lootdrop/f13/crafting,
+/obj/effect/spawner/lootdrop/f13/crafting,
+/obj/effect/spawner/lootdrop/f13/crafting,
+/obj/effect/spawner/lootdrop/f13/crafting,
+/obj/effect/spawner/lootdrop/f13/crafting,
+/obj/effect/spawner/lootdrop/f13/crafting,
+/obj/effect/spawner/lootdrop/f13/crafting,
+/obj/effect/spawner/lootdrop/f13/crafting,
+/obj/effect/spawner/lootdrop/f13/crafting,
+/obj/item/crafting/abraxo,
+/turf/open/floor/wood/f13,
+/area/f13/wasteland)
 "vk" = (
 /obj/effect/landmark/start/f13/followersguard,
 /turf/open/floor/wood/wood_tiled,
@@ -1726,7 +1708,11 @@
 	},
 /area/f13/brotherhood/surface)
 "vs" = (
-/turf/open/floor/plasteel/vault,
+/obj/machinery/autolathe/ammo/unlocked,
+/obj/item/book/granter/crafting_recipe/gunsmith_one,
+/obj/item/book/granter/crafting_recipe/gunsmith_three,
+/obj/item/book/granter/crafting_recipe/gunsmith_two,
+/turf/open/floor/wood/f13,
 /area/f13/wasteland)
 "vB" = (
 /obj/structure/barricade/sandbags,
@@ -1765,6 +1751,25 @@
 	icon_state = "neutralrustyfull"
 	},
 /area/f13/building)
+"wc" = (
+/obj/structure/lattice/catwalk,
+/obj/machinery/button/door{
+	id = "interiorgate";
+	name = "inner gate";
+	pixel_x = 32;
+	pixel_y = 6
+	},
+/obj/machinery/button/door{
+	id = "exteriorgate";
+	name = "outer gate";
+	pixel_x = 32;
+	pixel_y = -6
+	},
+/turf/open/transparent/openspace{
+	name = "air";
+	sunlight_state = 1
+	},
+/area/f13/wasteland)
 "wd" = (
 /obj/structure/filingcabinet{
 	pixel_x = 10
@@ -1773,8 +1778,13 @@
 /turf/open/floor/plasteel/f13/vault_floor/red,
 /area/f13/brotherhood/surface)
 "wp" = (
-/obj/structure/campfire/stove,
-/turf/open/floor/plasteel/blueyellow,
+/obj/structure/railing{
+	color = "#A47449"
+	},
+/turf/open/transparent/openspace{
+	name = "air";
+	sunlight_state = 1
+	},
 /area/f13/building)
 "wq" = (
 /obj/effect/decal/cleanable/dirt,
@@ -1972,12 +1982,14 @@
 /turf/open/floor/carpet/red,
 /area/f13/building)
 "yo" = (
-/obj/structure/closet/secure_closet/freezer/gulag_fridge,
-/obj/item/reagent_containers/food/condiment/flour,
-/obj/item/reagent_containers/food/condiment/milk,
-/obj/item/reagent_containers/food/condiment/rice,
-/obj/item/reagent_containers/food/drinks/bottle/champagne/empty,
-/turf/open/floor/plasteel/blueyellow,
+/obj/structure/railing{
+	color = "#A47449";
+	density = 0;
+	dir = 5;
+	pixel_x = 9;
+	pixel_y = 10
+	},
+/turf/closed/wall/rust,
 /area/f13/building)
 "yA" = (
 /obj/structure/table/wood,
@@ -2011,16 +2023,11 @@
 /turf/open/floor/plasteel/airless,
 /area/f13/building)
 "yX" = (
-/obj/structure/railing{
-	color = "#A47449";
-	dir = 1
+/obj/machinery/light{
+	dir = 8
 	},
-/obj/structure/railing{
-	color = "#A47449";
-	dir = 4
-	},
-/turf/open/transparent/openspace{
-	name = "air";
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating";
 	sunlight_state = 1
 	},
 /area/f13/building)
@@ -2151,8 +2158,18 @@
 	},
 /area/f13/building)
 "AL" = (
-/obj/machinery/autolathe,
-/turf/open/floor/wood/f13,
+/obj/structure/railing{
+	color = "#A47449";
+	dir = 1
+	},
+/obj/structure/railing{
+	color = "#A47449";
+	dir = 4
+	},
+/turf/open/transparent/openspace{
+	name = "air";
+	sunlight_state = 1
+	},
 /area/f13/building)
 "AM" = (
 /turf/open/indestructible/ground/inside/mountain,
@@ -2390,14 +2407,19 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/neutral,
 /area/f13/brotherhood/surface)
-"Dp" = (
-/turf/open/floor/plasteel/blueyellow,
-/area/f13/building)
 "Dq" = (
-/obj/structure/railing/handrail{
+/obj/structure/railing{
+	color = "#A47449";
 	dir = 4
 	},
-/turf/open/floor/wood/f13/maple,
+/obj/structure/railing{
+	color = "#A47449";
+	dir = 1
+	},
+/turf/open/transparent/openspace{
+	name = "air";
+	sunlight_state = 1
+	},
 /area/f13/building)
 "DB" = (
 /obj/structure/table/wood,
@@ -2454,11 +2476,11 @@
 /area/f13/ncr)
 "Ev" = (
 /obj/structure/railing{
-	color = "#A47449"
+	color = "#A47449";
+	dir = 8
 	},
 /obj/structure/railing{
-	color = "#A47449";
-	dir = 4
+	color = "#A47449"
 	},
 /turf/open/transparent/openspace{
 	name = "air";
@@ -2502,8 +2524,17 @@
 /turf/open/transparent/openspace,
 /area/f13/wasteland)
 "Fe" = (
-/obj/machinery/workbench/forge,
-/turf/open/floor/wood/f13,
+/obj/structure/railing{
+	color = "#A47449"
+	},
+/obj/structure/railing{
+	color = "#A47449";
+	dir = 4
+	},
+/turf/open/transparent/openspace{
+	name = "air";
+	sunlight_state = 1
+	},
 /area/f13/building)
 "Fl" = (
 /obj/structure/table,
@@ -2606,18 +2637,12 @@
 	},
 /turf/open/floor/carpet/red,
 /area/f13/building)
-"Ga" = (
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/open/floor/plasteel/blueyellow,
-/area/f13/building)
 "Gf" = (
-/obj/structure/sink/kitchen{
-	dir = 8;
-	pixel_x = 13
+/obj/machinery/light{
+	dir = 4
 	},
-/turf/open/floor/plasteel/blueyellow,
+/obj/structure/table/wood/fancy/monochrome,
+/turf/open/floor/wood/f13/old,
 /area/f13/building)
 "Gh" = (
 /obj/effect/decal/cleanable/dirt,
@@ -2752,25 +2777,7 @@
 /turf/closed/wall/f13/store,
 /area/f13/building)
 "HB" = (
-/obj/structure/rack/shelf_metal,
-/obj/item/advanced_crafting_components/alloys,
-/obj/item/advanced_crafting_components/alloys,
-/obj/item/advanced_crafting_components/alloys,
-/obj/item/advanced_crafting_components/lenses,
-/obj/item/advanced_crafting_components/lenses,
-/obj/item/advanced_crafting_components/lenses,
-/obj/item/advanced_crafting_components/assembly,
-/obj/item/advanced_crafting_components/assembly,
-/obj/item/advanced_crafting_components/assembly,
-/obj/item/weaponcrafting/reciever,
-/obj/item/weaponcrafting/reciever,
-/obj/item/weaponcrafting/reciever,
-/obj/item/advanced_crafting_components/flux,
-/obj/item/advanced_crafting_components/flux,
-/obj/item/advanced_crafting_components/flux,
-/obj/item/advanced_crafting_components/conductors,
-/obj/item/advanced_crafting_components/conductors,
-/obj/item/advanced_crafting_components/conductors,
+/obj/effect/landmark/start/f13/shopkeeper,
 /turf/open/floor/wood/f13,
 /area/f13/building)
 "HF" = (
@@ -2788,7 +2795,7 @@
 	name = "Mayor's Manor ";
 	req_access_txt = 62
 	},
-/turf/closed/wall/f13/store,
+/turf/open/floor/plasteel/airless,
 /area/f13/building)
 "HJ" = (
 /obj/effect/decal/cleanable/dirt{
@@ -2839,8 +2846,7 @@
 /turf/open/floor/carpet/red,
 /area/f13/building)
 "Iz" = (
-/obj/structure/window/fulltile/wood,
-/turf/open/space/basic,
+/turf/open/indestructible/ground/outside/dirt,
 /area/f13/building)
 "IB" = (
 /obj/effect/decal/cleanable/dirt,
@@ -2904,10 +2910,7 @@
 /turf/closed/wall/f13/tentwall,
 /area/f13/ncr)
 "Je" = (
-/obj/machinery/autolathe/ammo/unlocked,
-/obj/item/book/granter/crafting_recipe/gunsmith_one,
-/obj/item/book/granter/crafting_recipe/gunsmith_three,
-/obj/item/book/granter/crafting_recipe/gunsmith_two,
+/obj/machinery/autolathe,
 /turf/open/floor/wood/f13,
 /area/f13/building)
 "Jj" = (
@@ -2986,10 +2989,7 @@
 /turf/open/floor/plasteel/f13/vault_floor/neutral,
 /area/f13/brotherhood/surface)
 "JI" = (
-/obj/machinery/workbench/advanced,
-/obj/effect/spawner/lootdrop/f13/blueprintHigh,
-/obj/effect/spawner/lootdrop/f13/blueprintVHigh,
-/obj/effect/spawner/lootdrop/f13/blueprintVHigh,
+/obj/machinery/workbench/forge,
 /turf/open/floor/wood/f13,
 /area/f13/building)
 "Kc" = (
@@ -3094,8 +3094,8 @@
 /turf/open/indestructible/ground/outside/woodalt,
 /area/f13/wasteland)
 "Li" = (
-/obj/structure/chair/wood/wings,
-/turf/open/floor/plasteel/blueyellow,
+/obj/structure/chair/comfy,
+/turf/open/floor/wood/f13/old,
 /area/f13/building)
 "Lt" = (
 /obj/structure/table/wood,
@@ -3170,11 +3170,8 @@
 /turf/open/indestructible/ground/outside/woodalt,
 /area/f13/legion)
 "LR" = (
-/obj/machinery/door/unpowered/securedoor{
-	req_one_access_txt = 62
-	},
-/turf/open/space/basic,
-/area/f13/building)
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/wasteland)
 "LW" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -3196,10 +3193,7 @@
 /turf/open/floor/wood/wood_large,
 /area/f13/ncr)
 "Mj" = (
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/open/floor/plasteel/blueyellow,
+/turf/open/floor/wood/f13/old,
 /area/f13/building)
 "Mr" = (
 /obj/structure/table/snooker,
@@ -3302,7 +3296,6 @@
 /area/f13/building)
 "NW" = (
 /obj/machinery/door/unpowered/securedoor{
-	autoclose = 1;
 	damage_deflection = 28;
 	max_integrity = 400;
 	obj_integrity = 400;
@@ -4213,9 +4206,6 @@
 /turf/open/floor/plasteel/f13/vault_floor/purple/corner,
 /area/f13/brotherhood/surface)
 "Yx" = (
-/obj/structure/railing/handrail{
-	dir = 4
-	},
 /obj/item/binoculars{
 	pixel_x = -9
 	},
@@ -4234,8 +4224,8 @@
 /turf/open/floor/f13,
 /area/f13/brotherhood/surface)
 "YA" = (
-/obj/structure/table/wood/fancy/royalblue,
-/turf/open/floor/plasteel/blueyellow,
+/obj/structure/table/wood/fancy/royalblack,
+/turf/open/floor/wood/f13/old,
 /area/f13/building)
 "YB" = (
 /turf/open/floor/f13/wood{
@@ -4276,10 +4266,10 @@
 	},
 /area/f13/brotherhood/surface)
 "YY" = (
-/obj/structure/chair/wood/wings{
+/obj/structure/chair/comfy{
 	dir = 8
 	},
-/turf/open/floor/plasteel/blueyellow,
+/turf/open/floor/wood/f13/old,
 /area/f13/building)
 "Zg" = (
 /obj/structure/window/fulltile/wood,
@@ -4312,21 +4302,20 @@
 /turf/open/floor/wood/wood_large,
 /area/f13/ncr)
 "ZG" = (
-/obj/machinery/door/unpowered/securedoor{
-	req_one_access_txt = 62
+/obj/structure/table,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating";
+	sunlight_state = 1
 	},
-/turf/open/space/basic,
 /area/f13/wasteland)
 "ZK" = (
-/obj/structure/railing{
-	color = "#A47449";
-	dir = 4
-	},
+/obj/structure/lattice/catwalk,
+/obj/structure/chair/wood,
 /turf/open/transparent/openspace{
 	name = "air";
 	sunlight_state = 1
 	},
-/area/f13/building)
+/area/f13/wasteland)
 "ZM" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/barricade/sandbags,
@@ -26591,7 +26580,7 @@ sD
 sD
 gb
 hQ
-al
+pl
 al
 al
 al
@@ -26848,10 +26837,10 @@ sD
 ad
 hQ
 hQ
+pl
 al
-rt
-Dp
-Ga
+Mj
+Mj
 Li
 YA
 al
@@ -27105,11 +27094,11 @@ sD
 ad
 CC
 CC
+pl
 al
-wp
-Dp
-Dp
-Dp
+Mj
+Mj
+Mj
 YY
 al
 DN
@@ -27362,12 +27351,12 @@ sD
 ad
 CC
 CC
+pl
 al
-yo
-Dp
+ar
 Gf
 Mj
-Dp
+Mj
 al
 fq
 fq
@@ -29168,9 +29157,9 @@ al
 al
 al
 al
-Dq
+fq
 Yx
-qD
+rS
 PL
 PL
 PL
@@ -29423,11 +29412,11 @@ sD
 ad
 ad
 ad
-PL
-PL
-PL
-PL
-PL
+aQ
+aQ
+aQ
+aQ
+ca
 PL
 PL
 PL
@@ -32536,7 +32525,7 @@ cG
 cG
 cG
 cG
-ZG
+cG
 cG
 cG
 ad
@@ -32774,9 +32763,9 @@ PL
 PL
 PL
 PL
-CC
-CC
-CC
+ca
+ca
+ca
 qD
 qD
 qD
@@ -32790,15 +32779,15 @@ PL
 PL
 PL
 PL
-PL
-PL
-nq
-vs
-aQ
-PL
+CC
+CC
+CC
+CC
+CC
+CC
 ad
-ad
-hQ
+sD
+gb
 gb
 PL
 Wx
@@ -33031,11 +33020,11 @@ PL
 PL
 PL
 PL
-CC
-CC
-CC
-qD
-Fe
+ca
+gw
+hZ
+eo
+Vt
 hF
 Vt
 Vt
@@ -33047,17 +33036,17 @@ PL
 PL
 PL
 PL
-PL
-PL
-Kv
-LR
-Kv
-Kv
+CC
+CC
+pl
+pl
 Kv
 Kv
+Kv
+Kv
+cG
+cG
 hQ
-gb
-PL
 Wx
 Wx
 Wx
@@ -33288,12 +33277,12 @@ PL
 PL
 PL
 PL
-CC
-CC
-CC
+ca
+hZ
+hZ
 qD
 Vt
-gw
+Vt
 Vt
 Vt
 Rg
@@ -33305,16 +33294,16 @@ PL
 PL
 PL
 PL
-oI
+PL
+Rg
+wp
 tM
 EX
 Kv
-nH
-ZK
-XF
+Dq
+tY
+ol
 hQ
-gb
-PL
 Wx
 Wx
 Wx
@@ -33545,16 +33534,16 @@ PL
 PL
 PL
 PL
-CC
-CC
-CC
-Iz
+ca
+kE
+hZ
+qD
 JI
 Vt
 HB
-qD
-qD
-qD
+Vt
+qm
+sT
 qD
 CC
 PL
@@ -33562,16 +33551,16 @@ PL
 PL
 PL
 PL
-oI
+PL
+Rg
+wp
 tM
 EX
-qm
+yX
 XF
-XF
-XF
+ol
+ol
 hQ
-gb
-PL
 PL
 Wx
 Wx
@@ -33802,33 +33791,33 @@ PL
 PL
 PL
 PL
-CC
-CC
-CC
-qD
-AL
-Vt
 ca
+hZ
+hZ
 qD
-CC
-CC
-CC
-CC
-PL
-PL
-PL
-PL
-PL
-oI
-ar
-EX
-jZ
+Vt
+Vt
+Vt
+Vt
+hZ
 uX
-hK
-XF
-hQ
-gb
+ca
+CC
 PL
+PL
+PL
+PL
+PL
+PL
+Rg
+wp
+jZ
+EX
+hK
+Ev
+LR
+ol
+hQ
 PL
 PL
 PL
@@ -34059,33 +34048,33 @@ PL
 PL
 PL
 PL
-CC
-CC
-CC
+ca
+nq
+hZ
 qD
-cX
 Vt
+nA
 Je
-qD
-CC
-CC
-CC
-CC
-PL
-PL
-PL
-PL
-PL
 oI
+hZ
+vs
+ca
+CC
+PL
+PL
+PL
+PL
+PL
+PL
+Rg
+wp
 tM
 EX
-yX
-Ev
-XF
-XF
+AL
+Fe
+ol
+ol
 hQ
-gb
-PL
 PL
 PL
 PL
@@ -34316,33 +34305,33 @@ PL
 PL
 PL
 PL
-CC
-CC
-CC
-qD
-sP
+ca
+ca
+ca
 qD
 qD
 qD
+nH
+qD
+ca
+ca
+ca
 CC
-CC
-CC
-CC
 PL
 PL
 PL
 PL
 PL
-oI
+PL
+Rg
+wp
 tM
 EX
 EX
-hK
-hK
-XF
+Iz
+LR
+ol
 hQ
-gb
-PL
 PL
 PL
 PL
@@ -34590,16 +34579,16 @@ PL
 PL
 PL
 PL
-oI
-sT
-tM
-tM
-XF
-tM
-hQ
-hQ
-gb
 PL
+Rg
+wp
+yo
+tM
+tM
+ol
+ZG
+hQ
+hQ
 PL
 PL
 PL
@@ -34848,6 +34837,8 @@ PL
 PL
 PL
 PL
+PL
+PL
 nE
 nE
 nE
@@ -34855,8 +34846,6 @@ Gl
 Gl
 Gl
 vB
-PL
-PL
 PL
 PL
 PL
@@ -35108,12 +35097,12 @@ PL
 PL
 PL
 PL
+PL
+PL
 Gl
 Gl
-kE
+ZK
 vB
-PL
-PL
 PL
 PL
 PL
@@ -35365,12 +35354,12 @@ PL
 PL
 PL
 PL
+PL
+PL
 Gl
 Gl
-nA
+wc
 vB
-PL
-PL
 PL
 PL
 PL
@@ -35621,13 +35610,13 @@ PL
 PL
 PL
 PL
-ad
-ad
+Rg
+Rg
 ad
 hQ
 hQ
-PL
-PL
+hQ
+hQ
 PL
 PL
 PL
@@ -35855,8 +35844,8 @@ PL
 PL
 PL
 PL
-PL
-PL
+tY
+tY
 tY
 tY
 tY
@@ -36112,8 +36101,8 @@ PL
 PL
 PL
 PL
-tY
-hZ
+cX
+ol
 ol
 ol
 ol
@@ -36122,7 +36111,7 @@ ol
 ol
 MG
 UK
-PL
+gb
 gb
 Zg
 gb
@@ -36379,8 +36368,8 @@ ol
 ol
 Ve
 aJ
-PL
 gb
+Ux
 mH
 pL
 vZ
@@ -36636,8 +36625,8 @@ ol
 ol
 GG
 aJ
-PL
 gb
+rt
 Gm
 kX
 Ux
@@ -36893,8 +36882,8 @@ ol
 ol
 MG
 aJ
-PL
 gb
+Ux
 ug
 vZ
 Ux
@@ -37150,9 +37139,9 @@ ol
 ol
 Pv
 aJ
-PL
 gb
 kt
+Pc
 Pc
 Oi
 QN
@@ -37407,7 +37396,7 @@ ol
 ol
 GG
 aJ
-PL
+gb
 gb
 gb
 IM
@@ -37664,8 +37653,8 @@ ol
 ol
 MG
 aJ
-PL
 gb
+Pc
 Pc
 Pc
 Oi
@@ -37921,8 +37910,8 @@ ol
 ol
 dc
 aJ
-PL
 gb
+Pc
 Pc
 Pc
 Pc
@@ -38178,8 +38167,8 @@ ol
 ol
 GG
 aJ
-PL
 Zg
+Pc
 Oi
 oN
 EL
@@ -38435,8 +38424,8 @@ iA
 iA
 hf
 PL
-PL
 gb
+Pc
 Pc
 oN
 EL
@@ -38692,8 +38681,8 @@ Vt
 Vt
 sD
 PL
-PL
 gb
+Pc
 Pc
 ri
 ri
@@ -38949,8 +38938,8 @@ Vt
 Vt
 sD
 PL
-PL
 gb
+Pc
 Oi
 hE
 EL
@@ -39206,8 +39195,8 @@ sD
 eo
 rZ
 PL
-PL
 Zg
+Pc
 Pc
 oN
 EL
@@ -39463,8 +39452,8 @@ ay
 ly
 sD
 PL
-PL
 gb
+Pc
 Pc
 Pc
 Pc
@@ -39720,7 +39709,7 @@ iA
 sD
 sD
 Wx
-Wx
+gb
 gb
 Zg
 gb

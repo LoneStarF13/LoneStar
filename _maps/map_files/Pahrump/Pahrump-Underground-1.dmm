@@ -156,8 +156,12 @@
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/tunnel)
 "agq" = (
-/obj/item/mine/stun,
-/turf/open/floor/plating/tunnel,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 1;
+	pixel_y = 12
+	},
+/turf/open/floor/plasteel/f13/vault_floor/neutral/neutralchess,
 /area/f13/caves)
 "agw" = (
 /obj/machinery/door/poddoor{
@@ -424,7 +428,6 @@
 /turf/closed/mineral/random/high_chance,
 /area/f13/caves)
 "aon" = (
-/obj/item/mine/stun,
 /obj/effect/decal/cleanable/blood/tracks,
 /obj/effect/decal/cleanable/blood,
 /obj/machinery/door/poddoor{
@@ -2585,11 +2588,10 @@
 /turf/open/floor/plating/f13/inside,
 /area/f13/brotherhood/operations)
 "bGS" = (
-/obj/item/mine/shrapnel,
-/obj/machinery/light/small{
-	dir = 8
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 4
 	},
-/turf/open/indestructible/ground/inside/mountain,
+/turf/open/floor/plasteel/f13/vault_floor/yellow/white/whiteyellowchess/whiteyellowchess2,
 /area/f13/caves)
 "bGU" = (
 /obj/machinery/button/door{
@@ -3386,14 +3388,12 @@
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
 /area/f13/tunnel)
 "cgk" = (
-/obj/structure/simple_door/metal/barred,
-/obj/item/mine/stun,
-/obj/structure/decoration/rag,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/f13{
-	icon_state = "darkrusty"
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 1;
+	pixel_y = 12
 	},
-/area/f13/bunker)
+/turf/open/floor/plasteel/f13/vault_floor/neutral/neutralchess,
+/area/f13/caves)
 "cgS" = (
 /obj/machinery/door/airlock/grunge{
 	req_access_txt = "120"
@@ -5205,10 +5205,13 @@
 	},
 /area/f13/bunker)
 "diE" = (
-/obj/structure/barricade/wooden,
-/obj/item/mine/stun,
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/bunker)
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 4
+	},
+/turf/open/floor/f13{
+	icon_state = "neutralrustyfull"
+	},
+/area/f13/caves)
 "diH" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
@@ -6612,8 +6615,10 @@
 /turf/closed/wall/r_wall/rust,
 /area/f13/clinic)
 "dZM" = (
-/obj/item/mine/stun,
-/turf/open/indestructible/ground/inside/mountain,
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 8
+	},
+/turf/open/floor/plasteel/f13/vault_floor/yellow/white/whiteyellowchess/whiteyellowchess2,
 /area/f13/caves)
 "dZO" = (
 /obj/structure/decoration/rag{
@@ -6988,11 +6993,6 @@
 	icon_state = "floorrustysolid"
 	},
 /area/f13/brotherhood/rnd)
-"ejr" = (
-/obj/structure/barricade/wooden,
-/obj/item/mine/stun,
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/tunnel)
 "ejv" = (
 /obj/structure/handrail/g_central{
 	dir = 1;
@@ -11113,7 +11113,6 @@
 	},
 /area/f13/brotherhood/reactor)
 "gGG" = (
-/obj/item/mine/explosive,
 /obj/machinery/light/small,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/tunnel)
@@ -11180,12 +11179,6 @@
 	icon_state = "casino"
 	},
 /area/f13/brotherhood/rnd)
-"gJa" = (
-/obj/item/mine/stun,
-/turf/open/floor/f13{
-	icon_state = "yellowdirtyfull"
-	},
-/area/f13/clinic)
 "gJd" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable{
@@ -11531,10 +11524,6 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/brotherhood/operations)
-"gQO" = (
-/obj/item/mine/stun,
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/tunnel)
 "gQR" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/glass,
@@ -14227,10 +14216,6 @@
 	icon_state = "floorrusty"
 	},
 /area/f13/brotherhood/operations)
-"iXe" = (
-/obj/item/mine/shrapnel,
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/caves)
 "iXo" = (
 /obj/structure/table/wood,
 /obj/effect/decal/cleanable/dirt,
@@ -15576,12 +15561,6 @@
 	icon_state = "yellowdirtyfull"
 	},
 /area/f13/bunker)
-"jXX" = (
-/obj/item/mine/shrapnel,
-/turf/open/floor/plating/tunnel{
-	icon_state = "tunnelrusty"
-	},
-/area/f13/caves)
 "jXZ" = (
 /mob/living/simple_animal/hostile/supermutant/nightkin/rangedmutant,
 /turf/open/floor/wood/f13/oak,
@@ -24711,10 +24690,6 @@
 /obj/structure/flora/rock/pile/largejungle,
 /turf/open/floor/plating/dirt,
 /area/f13/caves)
-"qNw" = (
-/obj/item/mine/shrapnel,
-/turf/open/floor/plating/dirt/dark,
-/area/f13/caves)
 "qNx" = (
 /obj/structure/barricade/wooden/strong,
 /turf/open/indestructible/ground/inside/subway,
@@ -24927,13 +24902,6 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/f13/brotherhood/medical)
-"qUq" = (
-/obj/item/mine/stun,
-/obj/effect/decal/cleanable/dirt{
-	color = "#363636"
-	},
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/caves)
 "qUs" = (
 /obj/structure/debris/v4,
 /turf/closed/wall/r_wall/rust,
@@ -25973,7 +25941,6 @@
 /area/f13/tunnel)
 "rJW" = (
 /obj/structure/simple_door/metal/barred,
-/obj/item/mine/stun,
 /obj/structure/decoration/rag,
 /turf/open/floor/f13{
 	icon_state = "greenrustyfull"
@@ -26703,11 +26670,6 @@
 /obj/effect/spawner/lootdrop/f13/alcoholspawner,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/caves)
-"smN" = (
-/obj/machinery/light/small,
-/obj/item/mine/shrapnel,
-/turf/open/water,
-/area/f13/caves)
 "snm" = (
 /turf/open/floor/plasteel/f13/vault_floor/white,
 /area/f13/bunker)
@@ -27077,10 +27039,6 @@
 	icon_state = "floorrusty"
 	},
 /area/f13/den)
-"sHo" = (
-/obj/item/mine/explosive,
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/tunnel)
 "sHv" = (
 /obj/item/radio/intercom{
 	name = "Station Intercom (General)";
@@ -29538,10 +29496,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/carpet/black,
 /area/f13/brotherhood/offices2nd)
-"uKd" = (
-/obj/item/mine/shrapnel,
-/turf/open/water,
-/area/f13/caves)
 "uKf" = (
 /obj/structure/spider/stickyweb{
 	icon_state = "stickyweb2"
@@ -31113,7 +31067,6 @@
 /area/f13/brotherhood/offices2nd)
 "wbp" = (
 /mob/living/simple_animal/hostile/handy/gutsy{
-	faction = list("wastebot");
 	icon_living = "pvtgutsy";
 	icon_state = "pvtgutsy";
 	name = "Mr. Gutsy"
@@ -32057,15 +32010,6 @@
 	},
 /turf/open/floor/plating,
 /area/f13/tcoms)
-"wLN" = (
-/obj/structure/simple_door/metal/barred,
-/obj/structure/decoration/rag,
-/obj/item/mine/stun,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/f13{
-	icon_state = "darkrusty"
-	},
-/area/f13/bunker)
 "wLX" = (
 /obj/effect/decal/remains/human,
 /obj/effect/decal/cleanable/dirt,
@@ -35787,7 +35731,7 @@ vPg
 vPg
 vPg
 vPg
-uKd
+cSY
 cSY
 cSY
 cSY
@@ -35947,7 +35891,7 @@ vaH
 lmB
 vaH
 vaH
-cgk
+lmB
 qju
 qju
 pQX
@@ -36048,7 +35992,7 @@ cSY
 cSY
 cSY
 cSY
-smN
+eYQ
 lUM
 iUn
 cSY
@@ -36303,7 +36247,7 @@ vPg
 cSY
 cSY
 cSY
-uKd
+cSY
 cSY
 cSY
 ewL
@@ -36811,7 +36755,7 @@ vPg
 vPg
 vPg
 cAq
-uKd
+cSY
 cSY
 cAq
 cSY
@@ -37334,7 +37278,7 @@ vPg
 eLE
 vPg
 ovo
-qNw
+ovo
 cSY
 cSY
 cSY
@@ -38618,7 +38562,7 @@ nmy
 nqH
 xVz
 ovo
-qNw
+ovo
 ovo
 vPg
 vPg
@@ -38769,7 +38713,7 @@ lqI
 oHs
 fLU
 fLU
-wLN
+lmB
 fLU
 fLU
 ubh
@@ -38871,9 +38815,9 @@ vPg
 vPg
 eLE
 vPg
-bGS
+rRo
 xVz
-jXX
+vWd
 vWd
 xVz
 xVz
@@ -39387,7 +39331,7 @@ vPg
 xVz
 ovo
 ovo
-iXe
+xVz
 xVz
 vPg
 vPg
@@ -39754,7 +39698,7 @@ vXV
 puJ
 mnk
 puJ
-gJa
+lVt
 iJc
 lVt
 vHN
@@ -39899,7 +39843,7 @@ eLE
 vPg
 vPg
 cRW
-agq
+uPr
 bjI
 vPg
 eLE
@@ -42071,7 +42015,7 @@ pqV
 gbG
 iiu
 lVt
-gJa
+lVt
 puJ
 gbG
 pqV
@@ -44899,7 +44843,7 @@ vPg
 vPg
 vPg
 lnr
-gQO
+lnr
 lnr
 vPg
 vPg
@@ -51344,7 +51288,7 @@ vPg
 vPg
 vPg
 vPg
-ejr
+rzg
 vPg
 vPg
 vPg
@@ -52118,7 +52062,7 @@ vPg
 lnr
 lnr
 vPg
-gQO
+lnr
 vPg
 vPg
 vPg
@@ -54683,7 +54627,7 @@ vPg
 vPg
 vPg
 rzg
-gQO
+lnr
 vPg
 vPg
 aoj
@@ -64768,22 +64712,22 @@ aqQ
 kIf
 kUN
 yke
-nFk
+agq
 nFk
 wKf
 xrW
 yke
-xrW
+cgk
 hQC
 xrW
 xrW
 yke
-xrW
+cgk
 wKf
 xrW
 xrW
 yke
-xrW
+cgk
 hQC
 xrW
 xrW
@@ -65548,7 +65492,7 @@ xyu
 xyu
 xyu
 xyu
-xyu
+dZM
 xyu
 xyu
 xyu
@@ -65559,7 +65503,7 @@ jPn
 xyu
 xyu
 xyu
-xyu
+dZM
 xyu
 gtS
 yke
@@ -65800,7 +65744,7 @@ eMH
 xyu
 eZw
 xyu
-xyu
+bGS
 xyu
 xyu
 xyu
@@ -65811,7 +65755,7 @@ xyu
 xyu
 jPn
 xyu
-xyu
+bGS
 xyu
 xyu
 xyu
@@ -67343,7 +67287,7 @@ dXE
 dXE
 yke
 gfu
-vlu
+diE
 vlu
 yke
 kzL
@@ -87146,7 +87090,7 @@ vPg
 qDR
 xVz
 xzp
-qUq
+xzp
 xVz
 xVz
 xVz
@@ -87174,7 +87118,7 @@ vPg
 vPg
 eLE
 lnr
-sHo
+lnr
 lnr
 eLE
 nBk
@@ -87430,7 +87374,7 @@ vPg
 vPg
 nBk
 wHB
-sHo
+lnr
 lsP
 gGG
 hQE
@@ -87658,7 +87602,7 @@ uiY
 osd
 vPg
 qDR
-dZM
+xVz
 eLE
 eLE
 eLE
@@ -87688,7 +87632,7 @@ hQE
 nBk
 eLE
 lnr
-sHo
+lnr
 uHU
 eLE
 vPg
@@ -87910,7 +87854,7 @@ lWY
 vww
 uyu
 sbt
-diE
+sbt
 rex
 eLE
 eLE
