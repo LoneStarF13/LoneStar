@@ -256,7 +256,7 @@
 	item_state = "308"
 	mag_type = /obj/item/ammo_box/magazine/internal/boltaction
 	extra_damage = 40
-	extra_speed = 800
+	extra_speed = 600
 	fire_delay = 7
 	armour_penetration = 0.1
 	slowdown = 0.35
