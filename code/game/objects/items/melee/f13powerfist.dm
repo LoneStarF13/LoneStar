@@ -63,7 +63,7 @@
 	icon_state = "goliath"
 	item_state = "goliath"
 	force = 25
-	throw_distance = 2
+	throw_distance = 3
 
 
 // Ballistic Fist			Keywords: Damage max 42, AP 0.45, Shotgun
