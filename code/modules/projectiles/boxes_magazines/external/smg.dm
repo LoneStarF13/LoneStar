@@ -12,7 +12,7 @@
 	max_ammo = 36
 	multiple_sprites = 2
 
-/obj/item/ammo_box/magazine/cg45/empty/obj/item/ammo_box/magazine/cg45/empty
+/obj/item/ammo_box/magazine/cg45/empty
 	start_empty = TRUE
 	
 /obj/item/ammo_box/magazine/greasegun
