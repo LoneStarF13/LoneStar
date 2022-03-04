@@ -490,7 +490,8 @@
 /obj/item/projectile/beam/laser/rcw/hitscan //RCW
 	name = "rapidfire beam"
 	icon_state = "emitter"
-	damage = 25 //ALWAYS does 50, this is a burstfire hitscan weapon that fires in bursts of 2.
+	damage = 16 //ALWAYS does 50, this is a burstfire hitscan weapon that fires in bursts of 2.
+	armour_penetration = 0.02
 	hitscan = TRUE
 	muzzle_type = /obj/effect/projectile/muzzle/laser/emitter
 	tracer_type = /obj/effect/projectile/tracer/laser/emitter
