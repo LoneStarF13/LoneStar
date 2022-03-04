@@ -63,6 +63,7 @@
 	icon_state = "goliath"
 	item_state = "goliath"
 	force = 25
+	armour_penetration = 0
 	throw_distance = 2
 
 
