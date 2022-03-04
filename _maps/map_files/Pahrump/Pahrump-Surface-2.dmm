@@ -6346,7 +6346,9 @@
 	},
 /area/f13/building)
 "cRf" = (
-/obj/structure/simple_door/house/clean,
+/obj/structure/simple_door/house/clean{
+	name = "Mayor's Office"
+	},
 /turf/open/space/basic,
 /area/f13/building)
 "cRg" = (
@@ -8813,7 +8815,8 @@
 /area/f13/followers)
 "dWw" = (
 /obj/structure/simple_door/house/clean{
-	req_access_txt = 62
+	name = "Mayor's Manor ";
+	req_access_txt = 25
 	},
 /turf/open/floor/plasteel/airless,
 /area/f13/building)
