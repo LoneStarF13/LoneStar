@@ -228,7 +228,7 @@
 
 /datum/design/ammolathe/carl_gustafmag
 	name = "empty carl gustaf magazine (10mm)"
-	id = "mini_gustafmag"
+	id = "carl_gustafmag"
 	materials = list(/datum/material/iron = 4000)
 	build_path = /obj/item/ammo_box/magazine/cg45/empty
 	category = list("initial", "Basic Magazines")
