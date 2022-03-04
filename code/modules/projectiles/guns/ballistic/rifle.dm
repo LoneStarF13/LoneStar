@@ -98,6 +98,7 @@
 	desc = "should not exist"
 	can_scope = TRUE
 	scope_state = "scope_long"
+	slowdown = 0.35
 	fire_delay = 5
 	scope_x_offset = 5
 	scope_y_offset = 13
@@ -116,6 +117,7 @@
 	item_state = "cowboyrepeater"
 	mag_type = /obj/item/ammo_box/magazine/internal/shot/tube357
 	extra_damage = 35
+	extra_speed = 300
 	fire_sound = 'sound/f13weapons/cowboyrepeaterfire.ogg'
 
 
@@ -127,6 +129,7 @@
 	item_state = "trailcarbine"
 	mag_type = /obj/item/ammo_box/magazine/internal/shot/tube44
 	extra_damage = 40
+	extra_speed = 200
 	fire_sound = 'sound/f13weapons/44mag.ogg'
 
 
@@ -138,6 +141,7 @@
 	item_state = "brushgun"
 	mag_type = /obj/item/ammo_box/magazine/internal/shot/tube4570
 	extra_damage = 50
+	extra_speed = 100
 	extra_penetration = 0.05
 	fire_delay = 5.1
 	recoil = 0.15
