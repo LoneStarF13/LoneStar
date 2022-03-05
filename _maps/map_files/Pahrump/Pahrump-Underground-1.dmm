@@ -13200,13 +13200,11 @@
 	},
 /area/f13/tunnel)
 "iel" = (
-/obj/machinery/door/airlock/atmos{
-	name = "Haven Vault";
-	req_access_txt = "25"
+/obj/machinery/door/airlock/wood{
+	name = "mafiastorefront";
+	req_one_access_txt = 87
 	},
-/turf/open/floor/f13{
-	icon_state = "neutralrustyfull"
-	},
+/turf/open/floor/wood/f13/old,
 /area/f13/caves)
 "iew" = (
 /obj/structure/table,
@@ -17833,13 +17831,6 @@
 	icon_state = "tunnelrusty"
 	},
 /area/f13/caves)
-"lNY" = (
-/obj/machinery/door/airlock/wood{
-	name = "mafiastorefront";
-	req_one_access_txt = 87
-	},
-/turf/open/floor/wood/f13/old,
-/area/f13/caves)
 "lOo" = (
 /obj/structure/spider/stickyweb,
 /turf/open/indestructible/ground/inside/mountain,
@@ -20220,12 +20211,8 @@
 	},
 /area/f13/caves)
 "nBH" = (
-/obj/machinery/door/airlock/atmos{
-	name = "Haven Vault"
-	},
-/turf/open/floor/f13{
-	icon_state = "neutralrustyfull"
-	},
+/obj/machinery/door/airlock/atmos,
+/turf/open/floor/plasteel/f13/vault_floor/neutral/neutralchess,
 /area/f13/caves)
 "nCi" = (
 /obj/effect/decal/cleanable/dirt,
@@ -63444,7 +63431,7 @@ dXE
 wAO
 wAO
 wAO
-lNY
+iel
 wAO
 wAO
 dXE
@@ -65292,7 +65279,7 @@ yke
 yke
 yke
 yke
-nBH
+vlu
 yke
 yke
 nBH
@@ -65305,12 +65292,12 @@ nBH
 xSP
 yke
 yke
-nBH
+joN
 yke
 xSP
 xSP
 yke
-nBH
+joN
 yke
 yke
 umD
@@ -66066,7 +66053,7 @@ yke
 yke
 yke
 yke
-iel
+joN
 yke
 yke
 yke
