@@ -6650,6 +6650,14 @@
 	},
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/bunker)
+"eag" = (
+/obj/structure/table/wood,
+/obj/item/kirbyplants{
+	icon_state = "plant-23";
+	pixel_y = 14
+	},
+/turf/open/floor/wood/wood_large,
+/area/f13/followers)
 "eah" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -8215,6 +8223,15 @@
 /obj/effect/decal/cleanable/greenglow,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
+"eWB" = (
+/obj/structure/table/wood,
+/obj/item/kirbyplants{
+	icon_state = "plant-18";
+	pixel_x = -6;
+	pixel_y = 18
+	},
+/turf/open/floor/wood/wood_large,
+/area/f13/followers)
 "eWC" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
@@ -9418,6 +9435,11 @@
 	icon_state = "housewood2"
 	},
 /area/f13/caves)
+"fFD" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/vending/coffee,
+/turf/open/floor/carpet,
+/area/f13/followers)
 "fGt" = (
 /obj/machinery/microwave/stove,
 /turf/open/indestructible/ground/inside/subway,
@@ -12122,6 +12144,10 @@
 	},
 /turf/open/floor/wood/f13/oak,
 /area/f13/followers)
+"hpv" = (
+/obj/structure/chair/pew/left,
+/turf/open/floor/wood/wood_large,
+/area/f13/followers)
 "hpx" = (
 /obj/structure/lattice/catwalk,
 /obj/machinery/hydroponics/constructable,
@@ -12433,10 +12459,10 @@
 /area/f13/bunker)
 "hDN" = (
 /obj/machinery/door/unpowered/securedoor{
-	name = flounge;
+	name = "lounge";
 	req_one_access_txt = 124
 	},
-/turf/open/space/basic,
+/turf/open/floor/wood/wood_large,
 /area/f13/followers)
 "hDO" = (
 /mob/living/simple_animal/hostile/deathclaw,
@@ -12751,6 +12777,11 @@
 /obj/structure/sign/warning/securearea,
 /turf/closed/wall/r_wall,
 /area/f13/brotherhood/reactor)
+"hPy" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/chair/pew/right,
+/turf/open/floor/wood/wood_large,
+/area/f13/followers)
 "hPF" = (
 /obj/structure/table/wood,
 /obj/effect/decal/cleanable/dirt,
@@ -14797,14 +14828,6 @@
 /obj/effect/decal/cleanable/blood/gibs,
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/bunker)
-"jsp" = (
-/obj/machinery/door/unpowered/securedoor{
-	req_one_access_txt = 124
-	},
-/turf/open/floor/f13{
-	icon_state = "floorrusty"
-	},
-/area/f13/followers)
 "jsD" = (
 /obj/structure/noticeboard{
 	desc = "A large, rusted plaque with carefully forged set of brass letters over it denoting the section of the bunker lays beyond.";
@@ -17235,6 +17258,10 @@
 	icon_state = "neutralrustyfull"
 	},
 /area/f13/caves)
+"lrr" = (
+/obj/structure/chair/pew/right,
+/turf/open/floor/wood/wood_large,
+/area/f13/followers)
 "lrF" = (
 /obj/structure/nest/nightstalker{
 	radius = 5
@@ -24932,9 +24959,9 @@
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/tunnel)
 "qUD" = (
-/obj/machinery/door/unpowered/securedoor{
-	name = Morgue;
-	req_one_access_txt = 124
+/obj/machinery/door/airlock/medical{
+	name = "Morgue";
+	req_one_access_txt = "124"
 	},
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
@@ -25923,7 +25950,7 @@
 /area/f13/brotherhood/mining)
 "rHG" = (
 /obj/machinery/door/unpowered/securedoor{
-	name = fpsych;
+	name = "Therapist's Office";
 	req_one_access_txt = 124
 	},
 /turf/open/floor/f13{
@@ -29344,6 +29371,11 @@
 /obj/machinery/light,
 /turf/open/indestructible/ground/outside/ruins,
 /area/f13/bunker)
+"uBI" = (
+/obj/structure/table/booth,
+/obj/item/reagent_containers/food/snacks/chocolatebar,
+/turf/open/floor/carpet,
+/area/f13/followers)
 "uBO" = (
 /obj/item/candle{
 	pixel_x = 7
@@ -30087,7 +30119,7 @@
 /area/f13/caves)
 "vjQ" = (
 /obj/machinery/door/unpowered/securedoor{
-	name = froom;
+	name = "Dorm";
 	req_one_access_txt = 124
 	},
 /turf/open/floor/wood/wood_large,
@@ -30411,7 +30443,7 @@
 /area/f13/bunker)
 "vwE" = (
 /obj/machinery/door/airlock/wood{
-	name = fhallway;
+	name = "hallway";
 	req_one_access_txt = 124
 	},
 /turf/open/floor/wood/f13/oak,
@@ -31309,10 +31341,10 @@
 /area/f13/tunnel)
 "wiR" = (
 /obj/machinery/door/unpowered/securedoor{
-	name = fhallway;
+	name = "hallway";
 	req_one_access_txt = 124
 	},
-/turf/open/space/basic,
+/turf/open/floor/wood/wood_large,
 /area/f13/followers)
 "wjo" = (
 /obj/structure/lattice{
@@ -70404,9 +70436,9 @@ xWQ
 nYi
 qmj
 xWQ
+eWB
 wLJ
-wLJ
-wLJ
+eag
 xWQ
 nrB
 xWA
@@ -71689,7 +71721,7 @@ xWQ
 xWQ
 xWQ
 xWQ
-wLJ
+hpv
 wLJ
 wLJ
 xWQ
@@ -71946,7 +71978,7 @@ xWQ
 xWQ
 xWQ
 xWQ
-wLJ
+lrr
 tKk
 wLJ
 xWQ
@@ -75287,7 +75319,7 @@ nRX
 jtz
 kQU
 xWQ
-wLJ
+hpv
 tKk
 wLJ
 qUD
@@ -75538,13 +75570,13 @@ vPg
 vPg
 xWQ
 mPx
-gan
+uBI
 xNt
 vgX
 gan
-gan
+uBI
 xWQ
-tKk
+hPy
 wLJ
 wLJ
 xWQ
@@ -76051,7 +76083,7 @@ vPg
 vPg
 vPg
 xWQ
-vgX
+fFD
 xNt
 xNt
 xNt
@@ -76320,7 +76352,7 @@ wLJ
 wLJ
 xWQ
 xWQ
-jsp
+qUD
 xWQ
 xWQ
 xWQ
