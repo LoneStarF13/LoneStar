@@ -12431,6 +12431,13 @@
 	icon_state = "tunnelrusty"
 	},
 /area/f13/bunker)
+"hDN" = (
+/obj/machinery/door/unpowered/securedoor{
+	name = flounge;
+	req_one_access_txt = 124
+	},
+/turf/open/space/basic,
+/area/f13/followers)
 "hDO" = (
 /mob/living/simple_animal/hostile/deathclaw,
 /turf/open/floor/f13{
@@ -16750,6 +16757,12 @@
 "kZZ" = (
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/brotherhood/mining)
+"lap" = (
+/obj/machinery/door/unpowered/securedoor{
+	req_one_access_txt = 124
+	},
+/turf/open/floor/wood/wood_large,
+/area/f13/followers)
 "laN" = (
 /obj/machinery/chem_master/condimaster,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vault1,
@@ -24918,6 +24931,15 @@
 /obj/structure/destructible/tribal_torch/lit,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/tunnel)
+"qUD" = (
+/obj/machinery/door/unpowered/securedoor{
+	name = Morgue;
+	req_one_access_txt = 124
+	},
+/turf/open/floor/f13{
+	icon_state = "floorrusty"
+	},
+/area/f13/followers)
 "qUO" = (
 /obj/structure/table/wood,
 /obj/item/clothing/head/helmet/skull,
@@ -25901,6 +25923,7 @@
 /area/f13/brotherhood/mining)
 "rHG" = (
 /obj/machinery/door/unpowered/securedoor{
+	name = fpsych;
 	req_one_access_txt = 124
 	},
 /turf/open/floor/f13{
@@ -30064,11 +30087,10 @@
 /area/f13/caves)
 "vjQ" = (
 /obj/machinery/door/unpowered/securedoor{
+	name = froom;
 	req_one_access_txt = 124
 	},
-/turf/open/floor/f13{
-	icon_state = "bluerustysolid"
-	},
+/turf/open/floor/wood/wood_large,
 /area/f13/followers)
 "vjW" = (
 /obj/structure/chair/sofa/left{
@@ -30389,6 +30411,7 @@
 /area/f13/bunker)
 "vwE" = (
 /obj/machinery/door/airlock/wood{
+	name = fhallway;
 	req_one_access_txt = 124
 	},
 /turf/open/floor/wood/f13/oak,
@@ -31286,6 +31309,7 @@
 /area/f13/tunnel)
 "wiR" = (
 /obj/machinery/door/unpowered/securedoor{
+	name = fhallway;
 	req_one_access_txt = 124
 	},
 /turf/open/space/basic,
@@ -70124,7 +70148,7 @@ xWQ
 xWQ
 xWQ
 xWQ
-jsp
+lap
 xWQ
 xWQ
 kMZ
@@ -75266,7 +75290,7 @@ xWQ
 wLJ
 tKk
 wLJ
-jsp
+qUD
 fLy
 kzu
 vRK
@@ -76033,7 +76057,7 @@ xNt
 xNt
 vgX
 xNt
-wiR
+hDN
 wLJ
 tKk
 wLJ
