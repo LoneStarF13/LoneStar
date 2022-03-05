@@ -448,7 +448,11 @@
 /obj/structure/rack/shelf_metal,
 /obj/item/reagent_containers/glass/bucket,
 /obj/item/reagent_containers/glass/bucket,
-/turf/open/floor/wood/wood_tiled,
+/obj/item/defibrillator/primitive{
+	desc = "A Delco-brand pre-war car battery, with alligator clips and jumper cables to match. This could probably work as a makeshift defibrillator, in a pinch.";
+	name = "car battery"
+	},
+/turf/open/floor/plating,
 /area/f13/building)
 "fg" = (
 /obj/effect/decal/cleanable/dirt,
@@ -982,7 +986,7 @@
 /obj/structure/rack/shelf_metal,
 /obj/item/storage/box/lights/bulbs,
 /obj/item/storage/box/lights/tubes,
-/turf/open/floor/wood/wood_tiled,
+/turf/open/floor/plating,
 /area/f13/building)
 "lt" = (
 /obj/effect/decal/cleanable/dirt,
@@ -1563,6 +1567,9 @@
 	icon_state = "darkrusty"
 	},
 /area/f13/building)
+"tG" = (
+/turf/open/floor/plating,
+/area/f13/building)
 "tK" = (
 /obj/structure/railing{
 	dir = 8
@@ -1782,8 +1789,6 @@
 /obj/structure/guncase,
 /obj/item/gun/energy/laser/complianceregulator,
 /obj/item/gun/energy/laser/complianceregulator,
-/obj/item/gun/energy/laser/complianceregulator,
-/obj/item/gun/energy/laser/complianceregulator,
 /turf/open/floor/wood/wood_tiled,
 /area/f13/building)
 "wY" = (
@@ -1971,7 +1976,7 @@
 /obj/item/storage/toolbox/electrical,
 /obj/item/storage/toolbox/emergency,
 /obj/item/storage/belt/chameleon,
-/turf/open/floor/wood/wood_tiled,
+/turf/open/floor/plating,
 /area/f13/building)
 "zk" = (
 /turf/closed/indestructible/riveted,
@@ -2056,7 +2061,7 @@
 "Av" = (
 /obj/structure/mopbucket,
 /obj/item/mop,
-/turf/open/floor/wood/wood_tiled,
+/turf/open/floor/plating,
 /area/f13/building)
 "AB" = (
 /obj/structure/chair/wood/fancy{
@@ -2108,7 +2113,7 @@
 /obj/item/circuitboard/machine/sleeper,
 /obj/item/circuitboard/machine/mining_equipment_vendor,
 /obj/item/circuitboard/machine/seed_extractor,
-/turf/open/floor/wood/wood_tiled,
+/turf/open/floor/plating,
 /area/f13/building)
 "AT" = (
 /obj/structure/table,
@@ -2603,7 +2608,7 @@
 	pixel_x = 12
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/wood/wood_tiled,
+/turf/open/floor/plating,
 /area/f13/building)
 "GB" = (
 /obj/structure/table/wood,
@@ -2613,9 +2618,9 @@
 /area/f13/building)
 "GF" = (
 /obj/structure/guncase,
-/obj/item/gun/energy/laser/wattz,
-/obj/item/gun/energy/laser/wattz,
 /obj/item/gun/ballistic/revolver/widowmaker,
+/obj/item/gun/energy/laser/wattz/recharger,
+/obj/item/gun/energy/laser/wattz/recharger,
 /turf/open/floor/wood/wood_tiled,
 /area/f13/building)
 "GT" = (
@@ -2782,7 +2787,7 @@
 /area/f13/brotherhood/surface)
 "IM" = (
 /obj/machinery/door/airlock/wood{
-	name = "fadmindesks";
+	name = "admin desks";
 	req_one_access_txt = 124
 	},
 /turf/open/floor/wood/wood_tiled,
@@ -3005,6 +3010,10 @@
 /obj/machinery/light,
 /turf/open/floor/wood/wood_large,
 /area/f13/ncr)
+"KL" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/f13/building)
 "KQ" = (
 /obj/structure/table,
 /obj/effect/decal/cleanable/dirt,
@@ -3052,7 +3061,7 @@
 /area/f13/ncr)
 "Lv" = (
 /obj/machinery/door/airlock/wood{
-	name = "fadminrooms";
+	name = "admin rooms";
 	req_one_access_txt = 124
 	},
 /turf/open/floor/wood/wood_tiled,
@@ -3145,7 +3154,7 @@
 /area/f13/ncr)
 "Mj" = (
 /obj/machinery/door/airlock/wood{
-	name = "fguards";
+	name = "guards office";
 	req_one_access_txt = 124
 	},
 /turf/open/floor/wood/wood_tiled,
@@ -3156,7 +3165,7 @@
 /area/f13/building)
 "Mu" = (
 /obj/machinery/door/airlock/wood{
-	name = "fbroomclosets";
+	name = "broom closets";
 	req_one_access_txt = 124
 	},
 /turf/open/floor/wood/wood_tiled,
@@ -3704,7 +3713,7 @@
 /obj/item/storage/box/gloves,
 /obj/item/storage/box/masks,
 /obj/item/reagent_containers/spray/cleaner,
-/turf/open/floor/wood/wood_tiled,
+/turf/open/floor/plating,
 /area/f13/building)
 "Sh" = (
 /obj/structure/window/fulltile/house{
@@ -39173,8 +39182,8 @@ EL
 ri
 ri
 Mu
-dK
-Oi
+tG
+KL
 Av
 sD
 ad
