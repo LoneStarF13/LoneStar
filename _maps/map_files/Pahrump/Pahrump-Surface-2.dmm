@@ -28744,9 +28744,6 @@
 /area/f13/wasteland)
 "mua" = (
 /obj/structure/table/optable,
-/obj/machinery/defibrillator_mount/loaded{
-	pixel_x = 32
-	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
 /area/f13/followers)
 "muk" = (
@@ -39819,13 +39816,6 @@
 	},
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/building)
-"ruA" = (
-/obj/structure/table/optable,
-/obj/machinery/defibrillator_mount/loaded{
-	pixel_y = -28
-	},
-/turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
-/area/f13/followers)
 "ruE" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood/old,
@@ -42074,10 +42064,11 @@
 	},
 /area/f13/building)
 "sxT" = (
-/obj/machinery/light{
-	dir = 8
+/obj/machinery/defibrillator_mount/loaded{
+	pixel_x = 32
 	},
-/turf/open/floor/plasteel/f13/vault_floor/misc/cmo,
+/obj/structure/sign/departments/medbay,
+/turf/closed/wall/f13/wood,
 /area/f13/followers)
 "sya" = (
 /obj/effect/decal/cleanable/dirt{
@@ -42349,6 +42340,9 @@
 	},
 /area/f13/village)
 "sFs" = (
+/obj/machinery/defibrillator_mount/loaded{
+	pixel_x = 32
+	},
 /obj/machinery/vending/medical{
 	req_access = null
 	},
@@ -89752,9 +89746,9 @@ iTB
 nPT
 nnl
 xiy
-sxT
+xiy
 rsd
-kvF
+sxT
 oli
 dKW
 dkg
@@ -90006,11 +90000,11 @@ ybx
 nWu
 ybx
 ybx
-gJP
+nPT
 xiy
 xiy
 xiy
-ruA
+mua
 nPT
 oli
 dKW
@@ -91037,7 +91031,7 @@ nPT
 nPT
 nPT
 kvF
-nPT
+gJP
 nPT
 nPT
 oli
@@ -94117,7 +94111,7 @@ fyf
 fyf
 fyf
 fyf
-fyf
+jcp
 fyf
 fyf
 fyf
