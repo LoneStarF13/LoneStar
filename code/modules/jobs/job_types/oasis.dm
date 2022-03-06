@@ -333,6 +333,8 @@ Mayor
 	backpack = /obj/item/storage/backpack/satchel/explorer
 	satchel = /obj/item/storage/backpack/satchel/explorer
 	belt = /obj/item/storage/belt/military/assault
+	suit = /obj/item/clothing/suit/armor/bulletproof
+	neck = /obj/item/storage/belt/holster/legholster
 	l_pocket = /obj/item/storage/bag/money/small/settler
 	r_pocket = /obj/item/flashlight/flare
 	shoes = /obj/item/clothing/shoes/jackboots
@@ -344,10 +346,7 @@ Mayor
 
 /datum/outfit/loadout/standardpd
 	name = "Standard"
-	suit = /obj/item/clothing/suit/armor/bulletproof
 	head = /obj/item/clothing/head/f13/town/officer
-	neck = /obj/item/storage/belt/holster/legholster
-	shoes = /obj/item/clothing/shoes/jackboots
 	suit_store = /obj/item/gun/ballistic/shotgun/police
 	backpack_contents = list(
 		/obj/item/ammo_box/shotgun/bean = 1,
@@ -359,11 +358,8 @@ Mayor
 
 /datum/outfit/loadout/police
 	name = "Police Marksman"
-	suit = /obj/item/clothing/suit/armor/bulletproof
 	head = /obj/item/clothing/head/f13/town/marksman
-	neck = /obj/item/storage/belt/holster/legholster
 	gloves = /obj/item/clothing/gloves/rifleman
-	shoes = /obj/item/clothing/shoes/jackboots
 	suit_store = /obj/item/gun/ballistic/rifle/hunting/remington
 	backpack_contents = list(
 		/obj/item/attachments/scope = 1,
@@ -371,6 +367,7 @@ Mayor
 		/obj/item/flashlight/seclite = 1,
 		/obj/item/gun/ballistic/automatic/pistol/mk23 = 1,
 		/obj/item/ammo_box/magazine/m45exp = 2,
+		/obj/item/book/granter/trait/rifleman = 1,
 		)
 
 /datum/outfit/loadout/swat
