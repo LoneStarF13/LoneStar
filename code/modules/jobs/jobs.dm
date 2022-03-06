@@ -98,7 +98,7 @@ GLOBAL_LIST_INIT(faction_whitelist_positions, list(
 "Prospector",
 "Detective",
 
-"Chief",
+"Tribal Chief",
 "Shaman",
 "Head Hunter",
 "Druid",
@@ -231,7 +231,7 @@ GLOBAL_LIST_INIT(silicon_positions, list(
 ))
 
 GLOBAL_LIST_INIT(tribal_positions, list(
-	"Chief",
+	"Tribal Chief",
 	"Shaman",
 	"Head Hunter",
 	"Druid",
