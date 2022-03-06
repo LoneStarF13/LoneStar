@@ -810,6 +810,19 @@
 	. = ..()
 	AddComponent(/datum/component/armor_plate)
 
+/obj/item/clothing/head/f13/town/marksman
+	name = "police marksman's cap"
+	desc = "A simple dark navy service cap, worn by police marksmen."
+	icon = 'icons/fallout/clothing/hats.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
+	icon_state = "police_cap"
+	item_state = "police_cap"
+
+	armor = list("melee" = 40, "bullet" = 40, "laser" = 35,  "energy" = 35, "bomb" = 30, "bio" = 40, "rad" = 40, "fire" = 50, "acid" = 10)
+/obj/item/clothing/head/f13/town/officer/Initialize()
+	. = ..()
+	AddComponent(/datum/component/armor_plate)
+
 /obj/item/clothing/head/f13/town/sheriff
 	name = "sheriff hat"
 	desc = "A black cowboy hat with a snakeskin band."
