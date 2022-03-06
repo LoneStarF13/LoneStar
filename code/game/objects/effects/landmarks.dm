@@ -851,7 +851,7 @@ obj/effect/landmark/start/f13/ncrlogisticsofficer
 	icon_state = "Tribal"
 
 /obj/effect/landmark/start/f13/chief
-	name = "Chief"
+	name = "Tribal Chief"
 	icon_state = "Tribal"
 	
 /obj/effect/landmark/start/f13/shaman

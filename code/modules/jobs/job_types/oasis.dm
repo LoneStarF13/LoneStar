@@ -238,6 +238,7 @@ Mayor
 	ears = /obj/item/radio/headset/headset_town
 	uniform = /obj/item/clothing/under/f13/police/formal
 	suit = /obj/item/clothing/suit/armor/f13/town/chief
+	head = /obj/item/clothing/head/f13/town/chief
 	neck = /obj/item/storage/belt/holster/legholster
 	belt = /obj/item/storage/belt/military/army
 	shoes = /obj/item/clothing/shoes/jackboots
