@@ -56859,7 +56859,9 @@
 	},
 /area/f13/wasteland)
 "xKC" = (
-/obj/machinery/door/airlock/wood/glass,
+/obj/machinery/door/airlock/wood/glass{
+	req_one_access_txt = "25"
+	},
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
 	},
