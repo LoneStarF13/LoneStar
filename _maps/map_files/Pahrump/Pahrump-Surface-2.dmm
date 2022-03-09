@@ -17263,6 +17263,27 @@
 /obj/item/stock_parts/cell/high/plus{
 	pixel_y = 7
 	},
+/obj/item/flashlight{
+	pixel_y = 8
+	},
+/obj/item/flashlight{
+	pixel_y = 8
+	},
+/obj/item/flashlight{
+	pixel_y = 8
+	},
+/obj/item/flashlight{
+	pixel_y = 8
+	},
+/obj/item/flashlight{
+	pixel_y = 8
+	},
+/obj/item/flashlight{
+	pixel_y = 8
+	},
+/obj/item/flashlight{
+	pixel_y = 8
+	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
 	name = "metal plating"
 	},
@@ -17318,28 +17339,15 @@
 	},
 /area/f13/building)
 "hdX" = (
-/obj/structure/table,
 /obj/structure/reagent_dispensers/peppertank{
 	pixel_y = 32
 	},
-/obj/item/flashlight{
-	pixel_y = 8
+/obj/machinery/autolathe/ammo/unlocked{
+	advanced = 0;
+	intermediate = 0
 	},
-/obj/item/flashlight{
-	pixel_y = 8
-	},
-/obj/item/flashlight{
-	pixel_y = 8
-	},
-/obj/item/flashlight{
-	pixel_y = 8
-	},
-/obj/item/flashlight{
-	pixel_y = 8
-	},
-/obj/item/flashlight{
-	pixel_y = 8
-	},
+/obj/item/stack/ore/blackpowder/twenty,
+/obj/item/stack/sheet/metal/fifty,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
 	name = "metal plating"
 	},
@@ -38872,7 +38880,6 @@
 	},
 /area/f13/village)
 "pXv" = (
-/obj/structure/table,
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
 	},
@@ -38880,6 +38887,7 @@
 	dir = 1;
 	pixel_x = -24
 	},
+/obj/structure/table/wood,
 /turf/open/floor/f13/wood,
 /area/f13/building)
 "pXx" = (
@@ -43453,11 +43461,6 @@
 	},
 /turf/open/floor/f13/wood,
 /area/f13/caves)
-"saL" = (
-/obj/item/book/granter/crafting_recipe/gunsmith_one,
-/obj/machinery/autolathe/ammo,
-/turf/open/floor/f13/wood,
-/area/f13/building)
 "sbf" = (
 /obj/structure/closet/crate/bin,
 /obj/item/reagent_containers/food/drinks/bottle/f13nukacola,
@@ -56859,12 +56862,10 @@
 	},
 /area/f13/wasteland)
 "xKC" = (
-/obj/machinery/door/airlock/wood/glass{
-	req_one_access_txt = "25"
-	},
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
 	},
+/obj/machinery/door/airlock/wood/glass,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
 	name = "metal plating"
 	},
@@ -84886,7 +84887,7 @@ ueA
 ydO
 mvv
 pnQ
-dOc
+rkZ
 vix
 rSM
 xKC
@@ -85402,7 +85403,7 @@ ydO
 pnQ
 pXR
 sFs
-saL
+dOc
 mRK
 mHj
 ydO
