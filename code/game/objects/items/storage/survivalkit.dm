@@ -112,3 +112,9 @@
 	new /obj/item/stack/medical/gauze/adv(src)
 	new /obj/item/stack/medical/suture/medicated(src)
 	new /obj/item/stack/medical/mesh(src)
+
+/obj/item/storage/survivalkit_empty
+	name = "survival kit"
+	desc = "A robust leather pouch containing the essentials for wasteland survival."
+	icon_state = "survivalkit"
+	w_class = WEIGHT_CLASS_SMALL
