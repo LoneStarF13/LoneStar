@@ -12337,10 +12337,6 @@
 	icon_state = "housewood2"
 	},
 /area/f13/village)
-"fgy" = (
-/obj/effect/landmark/start/f13/farmer,
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
 "fgB" = (
 /obj/structure/chair/sofa/left{
 	dir = 4
@@ -15231,7 +15227,8 @@
 "gmn" = (
 /obj/structure/simple_door/metal/fence{
 	door_type = "fence_wood";
-	icon_state = "fence_wood"
+	icon_state = "fence_wood";
+	req_one_access_txt = "25"
 	},
 /turf/open/indestructible/ground/outside/wood{
 	icon_state = "wood"
@@ -16993,6 +16990,10 @@
 /obj/item/instrument/guitar,
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/wasteland)
+"gYH" = (
+/obj/effect/landmark/start/f13/deputy,
+/turf/open/floor/f13/wood,
+/area/f13/building)
 "gYM" = (
 /obj/effect/spawner/lootdrop/trash,
 /turf/open/indestructible/ground/outside/road{
@@ -17184,10 +17185,6 @@
 /area/f13/building)
 "hcp" = (
 /obj/structure/rack,
-/obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier3,
-/obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier3,
-/obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier2,
-/obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier2,
 /obj/item/ammo_box/a357,
 /obj/item/ammo_box/a357,
 /obj/item/ammo_box/a357,
@@ -17197,6 +17194,7 @@
 /obj/item/ammo_box/shotgun/rubber,
 /obj/item/ammo_box/shotgun/rubber,
 /obj/item/ammo_box/shotgun/rubber,
+/obj/item/ammo_box/a357,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/building)
 "hcr" = (
@@ -18251,6 +18249,7 @@
 /obj/item/gun/ballistic/revolver/police,
 /obj/item/gun/ballistic/rifle/repeater/cowboy,
 /obj/item/gun/ballistic/rifle/repeater/cowboy,
+/obj/item/gun/ballistic/revolver/police,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
 	name = "metal plating"
 	},
@@ -21822,8 +21821,7 @@
 /obj/item/ammo_box/tube/m44,
 /obj/item/ammo_box/tube/m44,
 /obj/item/ammo_box/tube/m44,
-/obj/item/ammo_box/magazine/m556/rifle,
-/obj/item/ammo_box/magazine/m556/rifle,
+/obj/item/ammo_box/m5mmbox,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
 	name = "metal plating"
 	},
@@ -34212,7 +34210,7 @@
 /obj/machinery/door/unpowered/securedoor{
 	autoclose = 1;
 	name = "farmhouse";
-	req_one_access_txt = "28"
+	req_one_access_txt = "25"
 	},
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
@@ -48653,11 +48651,7 @@
 	},
 /area/f13/village)
 "unS" = (
-/obj/item/clothing/shoes/combat/swat,
 /obj/structure/rack,
-/obj/item/clothing/shoes/combat/swat,
-/obj/item/clothing/shoes/combat/swat,
-/obj/item/clothing/shoes/combat/swat,
 /obj/item/clothing/gloves/f13/military,
 /obj/item/clothing/gloves/f13/military,
 /obj/item/clothing/gloves/f13/military,
@@ -48670,6 +48664,10 @@
 /obj/item/clothing/head/f13/town/officer,
 /obj/item/clothing/head/f13/town/officer,
 /obj/item/clothing/head/f13/town/officer,
+/obj/item/clothing/shoes/jackboots,
+/obj/item/clothing/shoes/jackboots,
+/obj/item/clothing/shoes/jackboots,
+/obj/item/clothing/shoes/jackboots,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/building)
 "unW" = (
@@ -49284,13 +49282,12 @@
 "uAE" = (
 /obj/structure/guncase,
 /obj/item/gun/ballistic/shotgun/police,
-/obj/item/gun/ballistic/shotgun/trench,
-/obj/item/gun/ballistic/shotgun/trench,
 /obj/effect/decal/fakelattice{
 	pixel_x = -17
 	},
 /obj/item/gun/ballistic/automatic/marksman/policerifle,
 /obj/item/gun/ballistic/automatic/marksman/policerifle,
+/obj/item/gun/ballistic/shotgun/police,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/building)
 "uAL" = (
@@ -53721,6 +53718,12 @@
 	icon_state = "horizontalbottomborderbottom0"
 	},
 /area/f13/wasteland)
+"wvS" = (
+/obj/effect/landmark/start/f13/deputy,
+/turf/open/floor/plasteel/f13/vault_floor/dark{
+	icon_state = "darkrusty"
+	},
+/area/f13/building)
 "wvT" = (
 /turf/closed/wall/f13/wood/interior,
 /area/f13/clinic)
@@ -83355,7 +83358,7 @@ uqa
 uqa
 hXb
 rpu
-rpu
+gYH
 vDE
 xlb
 xYI
@@ -85414,7 +85417,7 @@ ydO
 ydO
 vEs
 xYI
-xYI
+wvS
 khy
 xft
 mGl
@@ -94647,7 +94650,7 @@ gXt
 dZi
 mvv
 mvv
-fgy
+rPo
 mvv
 mvv
 aRl
@@ -94904,7 +94907,7 @@ cGU
 ebx
 mvv
 mvv
-fgy
+mvv
 mvv
 mvv
 aRl
