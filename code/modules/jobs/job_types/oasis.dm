@@ -764,14 +764,15 @@ Mayor
 
 /datum/outfit/loadout/ofarmer
 	name = "Farmer"
-	belt = /obj/item/storage/bag/plants
+	belt = /obj/item/storage/belt/utility
 	shoes = /obj/item/clothing/shoes/workboots
 	suit = /obj/item/clothing/suit/overalls
 	r_hand = /obj/item/gun/ballistic/automatic/pistol/n99
 	backpack_contents = list(
-		/obj/item/cultivator=1,
-		/obj/item/hatchet=1,
-		/obj/item/shovel/spade=1,
+		/obj/item/cultivator = 1,
+		/obj/item/hatchet = 1,
+		/obj/item/shovel/spade = 1,
+		/obj/item/storage/bag/plants = 1,
 		/obj/item/ammo_box/magazine/m10mm_adv/simple = 2,
 		)
 /*
