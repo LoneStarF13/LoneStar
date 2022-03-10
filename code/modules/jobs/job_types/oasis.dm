@@ -299,8 +299,8 @@ Mayor
 	title = "Officer"
 	flag = F13DEPUTY
 	department_flag = DEP_OASIS
-	total_positions = 4
-	spawn_positions = 4
+	total_positions = 6
+	spawn_positions = 6
 	supervisors = "Oasis Police Department"
 	description = "You've passed the training and tests to join the OPD, and your loyalty to the Chief is absolute - this is your new home, your family. This oasis of civilization will not fall as long as you breathe. Protect its citizens and property, for that is your new purpose."
 	selection_color = "#dcba97"
@@ -366,8 +366,8 @@ Mayor
 		/obj/item/attachments/scope = 1,
 		/obj/item/ammo_box/a762 = 3,
 		/obj/item/flashlight/seclite = 1,
-		/obj/item/gun/ballistic/automatic/pistol/mk23 = 1,
-		/obj/item/ammo_box/magazine/m45exp = 2,
+		/obj/item/gun/ballistic/revolver/police = 1,
+		/obj/item/ammo_box/a357 = 3,
 		/obj/item/book/granter/trait/rifleman = 1,
 		)
 
@@ -382,7 +382,7 @@ Mayor
 	shoes = /obj/item/clothing/shoes/jackboots
 	suit_store = /obj/item/gun/ballistic/automatic/assault_carbine/policerifle
 	backpack_contents = list(
-		/obj/item/ammo_box/magazine/m45exp=2,
+		/obj/item/ammo_box/magazine/m45exp= 2,
 		/obj/item/gun/ballistic/automatic/pistol/mk23 = 1,
 		/obj/item/ammo_box/magazine/m5mm = 1,
 		/obj/item/flashlight/seclite = 1,
@@ -412,8 +412,8 @@ Mayor
 	title = "Farmer"
 	flag = F13FARMER
 	department_flag = DEP_OASIS
-	total_positions = 4
-	spawn_positions = 4
+	total_positions = 0
+	spawn_positions = 0
 	supervisors = "Oasis Government & Police Department"
 	description = "Growing up in the Oasis, you have an endless love for the sacred Oak, for nowhere in the valley is the soil as fertile, the bounty as rich. Behind the safety of the walls, you grow crops, medicines, and raise livestock. The community depends on you, you are a manifestation of the Oak’s will."
 	selection_color = "#dcba97"
@@ -658,8 +658,8 @@ Mayor
 	title = "Citizen"
 	flag = F13SETTLER
 	department_flag = DEP_OASIS
-	total_positions = 8
-	spawn_positions = 8
+	total_positions = 9
+	spawn_positions = 9
 	supervisors = "Oasis Government & Police Department"
 	description = "You are a citizen living in the Town of Oasis - as the name suggests, it is a somewhat safe place amidst the chaos of the continent. Treat it as such, be sure to follow the laws of the land and do not associate with those who have a tendency not to, or you are likely to face exile. Remember that Oasis is your home, DO NOT act in a manner that would threaten it's safety or other citizens."
 	selection_color = "#dcba97"
@@ -673,6 +673,7 @@ Mayor
 		/datum/outfit/loadout/outdoorsman,
 		/datum/outfit/loadout/militia,
 		/datum/outfit/loadout/singer,
+		/datum/outfit/loadout/ofarmer,
 	)
 	access = list(ACCESS_BAR)
 	minimal_access = list(ACCESS_BAR)
@@ -690,7 +691,6 @@ Mayor
 	name = "Citizen"
 	jobtype = /datum/job/oasis/f13settler
 	ears = /obj/item/radio/headset/headset_town
-	belt = null
 	id = /obj/item/card/id/dogtag/town
 	ears = /obj/item/radio/headset/headset_town
 	uniform = /obj/item/clothing/under/f13/settler
@@ -761,6 +761,19 @@ Mayor
 	gloves = /obj/item/clothing/gloves/f13/leather
 	backpack_contents = list(/obj/item/ammo_box/a308 = 2,
 	)
+
+/datum/outfit/loadout/ofarmer
+	name = "Farmer"
+	belt = /obj/item/storage/bag/plants
+	shoes = /obj/item/clothing/shoes/workboots
+	suit = /obj/item/clothing/suit/overalls
+	r_hand = /obj/item/gun/ballistic/automatic/pistol/n99
+	backpack_contents = list(
+		/obj/item/cultivator=1,
+		/obj/item/hatchet=1,
+		/obj/item/shovel/spade=1,
+		/obj/item/ammo_box/magazine/m10mm_adv/simple = 2,
+		)
 /*
 /datum/outfit/loadout/secretary
 	name = "Secretary"
