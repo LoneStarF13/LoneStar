@@ -208,16 +208,13 @@
 	armor = list("melee" = 30, "bullet" = 25, "laser" = 20, "energy" = 10, "bomb" = 20, "bio" = 20, "rad" = 20, "fire" = 25, "acid" = 0)
 	slowdown = 0.04
 
+
 /obj/item/clothing/suit/armor/f13/legion/prime
 	name = "legion prime armor"
 	desc = "Legion Primes have survived some skirmishes, and when promoted often recieve a set of armor, padded leather modeled on ancient baseball catcher uniforms and various plates of metal or boiled leather."
 	icon_state = "legion_prime"
 	item_state = "legion_prime"
 	armor = list("melee" = 30, "bullet" = 33, "laser" = 20, "energy" = 10, "bomb" = 20, "bio" = 20, "rad" = 20, "fire" = 25, "acid" = 0)
-
-/obj/item/clothing/suit/armor/f13/legion/vet/orator
-	icon_state = "legion_orator"
-	item_state = "legion_orator"
 
 /obj/item/clothing/suit/armor/f13/legion/prime/slavemaster
 	name = "slavemaster armor"
@@ -234,7 +231,17 @@
 	item_state = "legion_veteran"
 	armor = list("melee" = 35, "bullet" = 37, "laser" = 25, "energy" = 15, "bomb" = 30, "bio" = 5, "rad" = 5, "fire" = 35, "acid" = 0)
 	slowdown = 0.05
+	
+//We should probably move the sprite for this to a better place.
+/obj/item/clothing/suit/armor/f13/legion/vet/orator
+	name = "legion orator armor"
+	desc = "Legion orators are rather lightly armored. Despite being high-ranking officers, they are there to be the legion's mouthpiece, and are armored as such."
 
+//Copying armor over, it's actually pretty convluted to move the sprites and It's way too much work for this bounty hunter - Kitsunemitsu  
+	armor = list("melee" = 30, "bullet" = 25, "laser" = 20, "energy" = 10, "bomb" = 20, "bio" = 20, "rad" = 20, "fire" = 25, "acid" = 0)
+	icon_state = "legion_orator"
+	item_state = "legion_orator"
+	
 /obj/item/clothing/suit/armor/f13/legion/heavy
 	name = "legion veteran decan armor"
 	desc = "A Legion veterans armor reinforced with a patched bulletproof vest, the wearer has the markings of a Decanus."
