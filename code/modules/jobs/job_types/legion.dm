@@ -509,7 +509,7 @@ commented out pending rework*/
 	name = "Orator"
 	jobtype = /datum/job/CaesarsLegion/Legionnaire/f13orator
 	neck = /obj/item/storage/belt/holster
-	suit = /obj/item/clothing/suit/armor/f13/legion/recruit/legate
+	suit = /obj/item/clothing/suit/armor/f13/legion/vet/orator
 	head = null
 	id = /obj/item/card/id/dogtag/legveteran
 	gloves = null
