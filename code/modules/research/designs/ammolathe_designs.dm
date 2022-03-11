@@ -97,6 +97,20 @@
 	build_path = /obj/item/ammo_box/magazine/m556/rifle/small/empty
 	category = list("initial", "Simple Magazines")
 
+/datum/design/ammolathe/m762_rifle_small
+	name = "empty stripper clip (7.62mm)"
+	id = "m762_rifle_small"
+	materials = list(/datum/material/iron = 3000)
+	build_path = /obj/item/ammo_box/a762/empty
+	category = list("initial", "Simple Magazines")
+
+/datum/design/ammolathe/m762_rifle_small
+	name = "empty stripper clip (.308)"
+	id = "ma762_rifle_small"
+	materials = list(/datum/material/iron = 3000)
+	build_path = /obj/item/ammo_box/a308/empty
+	category = list("initial", "Simple Magazines")
+
 /datum/design/ammolathe/m45magazine
 	name = "empty handgun magazine (.45)"
 	id = "m45magazine"
@@ -375,6 +389,13 @@
 	id = "speedloader4570"
 	materials = list(/datum/material/iron = 4000)
 	build_path = /obj/item/ammo_box/c4570/empty
+	category = list("initial", "Intermediate Magazines")
+
+/datum/design/ammolathe/m762_rifle_doublestack
+	name = "empty double stack stripper clip (7.62mm)"
+	id = "m762_rifle_doublestack"
+	materials = list(/datum/material/iron = 5000)
+	build_path = /obj/item/ammo_box/a762/doublestacked/empty
 	category = list("initial", "Intermediate Magazines")
 
 /datum/design/ammolathe/tube4570
