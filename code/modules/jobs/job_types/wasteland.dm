@@ -257,7 +257,7 @@
 	uniform = /obj/item/clothing/under/f13/khan
 	r_hand = /obj/item/book/granter/trait/selection
 	r_pocket = /obj/item/flashlight/flare
-	l_pocket = /obj/item/storage/survivalkit_khan
+	l_pocket = /obj/item/storage/survivalkit/khan
 	gloves = /obj/item/melee/unarmed/brass/spiked
 	box = null
 	backpack_contents = list(
@@ -378,7 +378,7 @@ Raider
 /datum/outfit/job/wasteland/f13raider
 	name = "Outlaw"
 	jobtype = /datum/job/wasteland/f13raider
-
+	box = /obj/item/storage/survivalkit/outlaw
 	id = null
 	ears = null
 	belt = null
@@ -625,7 +625,7 @@ Raider
 	suit_store = /obj/item/twohanded/spear/bonespear
 	shoes = /obj/item/clothing/shoes/sandal
 	belt = /obj/item/storage/backpack/spearquiver
-	box = /obj/item/storage/survivalkit_tribal
+	box = /obj/item/storage/survivalkit/tribal
 	back = /obj/item/storage/backpack/satchel/explorer
 	backpack_contents = list(
 		/obj/item/clothing/mask/cigarette/pipe = 1,
@@ -1473,7 +1473,7 @@ datum/job/wasteland/f13dendoctor
 	ears = null
 	belt = /obj/item/melee/onehanded/knife/bone
 	uniform =     /obj/item/clothing/under/f13/settler
-	box =         /obj/item/storage/survivalkit_tribal
+	box =         /obj/item/storage/survivalkit/tribal
 	shoes =     /obj/item/clothing/shoes/sandal
 	gloves =    /obj/item/clothing/gloves/f13/handwraps
 	r_hand = /obj/item/book/granter/trait/selection/tribal

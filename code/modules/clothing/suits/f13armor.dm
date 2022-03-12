@@ -434,17 +434,17 @@
 
 /obj/item/clothing/suit/armor/f13/enclave/armorvest
 	name = "armored vest"
-	desc = "(VI) Efficient prewar design issued to Enclave personell."
+	desc = "Efficient prewar design issued to Enclave personell."
 	icon_state = "armor_enclave_peacekeeper"
 	item_state = "armor_enclave_peacekeeper"
-	armor = list("tier" = 6)
+	armor = list("melee" = 55, "bullet" = 55, "laser" = 55, "energy" = 20, "bomb" = 50, "bio" = 60, "rad" = 50, "fire" = 80, "acid" = 0, "wound" = 70)
 
 /obj/item/clothing/suit/armor/f13/enclave/officercoat
 	name = "armored coat"
-	desc = "(VII) Premium prewar armor fitted into a coat for Enclave officers."
+	desc = "Premium prewar armor fitted into a coat for Enclave officers."
 	icon_state = "armor_enclave_officer"
 	item_state = "armor_enclave_officer"
-	armor = list("tier" = 7)
+	armor = list("melee" = 60, "bullet" = 60, "laser" = 60, "energy" = 20, "bomb" = 50, "bio" = 60, "rad" = 50, "fire" = 80, "acid" = 0, "wound" = 70)
 
 //Generic Tribal - For Wayfarer specific, see f13factionhead.dm
 //Trying generic tribal armor stats for this one for now.
@@ -533,7 +533,7 @@
 	equip_delay_other = 40
 	max_integrity = 250
 	resistance_flags = NONE
-	armor = list("tier" = 2, "energy" = 16, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 50, "acid" = 50)
+	armor = list("melee" = 25, "bullet" = 25,"laser" = 25, "energy" = 16, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 50, "acid" = 50)
 	togglename = "collar"
 
 /obj/item/clothing/suit/armor/f13/vaquero
@@ -670,9 +670,9 @@ obj/item/clothing/suit/armor/f13/exile/cust0m
 
 /obj/item/clothing/suit/armor/f13/harpercoat
 	name = "outlaw coat"
-	desc = "(IV) A combat duster"
+	desc = " A combat duster"
 	icon_state = "harperduster"
-	armor = list("tier" = 4, "energy" = 40, "bomb" = 25, "bio" = 40, "rad" = 35, "fire" = 80, "acid" = 0)
+	armor = list("energy" = 40, "bomb" = 25, "bio" = 40, "rad" = 35, "fire" = 80, "acid" = 0)
 
 /obj/item/clothing/suit/armor/f13/raider/reptiliatenebris
 	name = "Reptilia Tenebris"
@@ -753,11 +753,11 @@ obj/item/clothing/suit/armor/f13/exile/cust0m
 
 /obj/item/clothing/suit/armor/f13/herbertranger //Armor wise, it's reskinned raider armor.
 	name = "weathered desert ranger armor"
-	desc = "(IV) A set of pre-unification desert ranger armor, made using parts of what was once USMC riot armor. It looks as if it has been worn for decades; the coat has become discoloured from years under the Mojave sun and has multiple tears and bullet holes in its leather. The armor plating itself seems to be in relatively good shape, though it could do with some maintenance."
+	desc = " A set of pre-unification desert ranger armor, made using parts of what was once USMC riot armor. It looks as if it has been worn for decades; the coat has become discoloured from years under the Mojave sun and has multiple tears and bullet holes in its leather. The armor plating itself seems to be in relatively good shape, though it could do with some maintenance."
 	body_parts_covered = CHEST|GROIN|LEGS|ARMS
 	icon_state = "usmc_riot_gear"
 	item_state = "usmc_riot_gear"
-	armor = list("tier" = 4, "energy" = 35, "bomb" = 30, "bio" = 0, "rad" = 0, "fire" = 25, "acid" = 25)
+	armor = list("melee" = 30, "bullet" = 30, "laser" = 30, "energy" = 35, "bomb" = 30, "bio" = 0, "rad" = 0, "fire" = 25, "acid" = 25)
 	strip_delay = 40
 
 /obj/item/clothing/suit/armor/f13/herbertranger/Initialize() //HQ parts reinforcement, just like raider gear
@@ -779,7 +779,7 @@ obj/item/clothing/suit/armor/f13/exile/cust0m
 
 /obj/item/clothing/suit/armor/f13/marlowsuit/ikesuit
 	name = "gunfighter's overcoat"
-	desc = "(IV) A thick double-breasted red leather overcoat worn through with scattered tears and bullet holes."
+	desc = " A thick double-breasted red leather overcoat worn through with scattered tears and bullet holes."
 	icon_state = "ikesuit"
 	item_state = "ikesuit"
 
@@ -789,7 +789,7 @@ obj/item/clothing/suit/armor/f13/exile/cust0m
 
 /obj/item/clothing/suit/armor/f13/marlowsuit/masonsuit
 	name = "vagabond's vest"
-	desc = "(IV) A padded thick red leather vest, coated in stitched pockets and other mends."
+	desc = " A padded thick red leather vest, coated in stitched pockets and other mends."
 	icon_state = "masonsuit"
 	item_state = "masonsuit"
 
@@ -809,55 +809,55 @@ obj/item/clothing/suit/armor/f13/exile/cust0m
 
 /obj/item/clothing/suit/armor/f13/atomzealot
 	name = "zealot armor"
-	desc = "(IV) The armor of those true to the Division."
+	desc = " The armor of those true to the Division."
 	icon_state = "atomzealot"
 	item_state = "atomzealot"
-	armor = list("tier" = 4, "energy" = 45, "bomb" = 55, "bio" = 65, "rad" = 100, "fire" = 60, "acid" = 20)
+	armor = list("melee" = 40, "bullet" = 40,"laser" = 40, "energy" = 45, "bomb" = 55, "bio" = 65, "rad" = 100, "fire" = 60, "acid" = 20)
 
 /obj/item/clothing/suit/armor/f13/atomwitch
 	name = "atomic seer robes"
-	desc = "(II) The robes worn by female seers of the Division."
+	desc = " The robes worn by female seers of the Division."
 	icon_state = "atomwitch"
 	item_state = "atomwitch"
-	armor = list("tier" = 2, "energy" = 45, "bomb" = 55, "bio" = 65, "rad" = 100, "fire" = 60, "acid" = 20)
+	armor = list("melee" = 30, "bullet" = 25,"laser" = 25, "energy" = 45, "bomb" = 55, "bio" = 65, "rad" = 100, "fire" = 60, "acid" = 20)
 
 /obj/item/clothing/suit/armor/f13/harbingermantle
 	name = "Harbinger's Mantle"
-	desc = "(VII) An eerie, silken cloth that seems to be dripping with a thick mist. It is in truth a high-tech stealth device that allows for psionic amplification. The capacitors and manipulators in it utilise quantum technology and are highly volatile."
+	desc = " An eerie, silken cloth that seems to be dripping with a thick mist. It is in truth a high-tech stealth device that allows for psionic amplification. The capacitors and manipulators in it utilise quantum technology and are highly volatile."
 	icon_state = "scloak"
 	item_state = "scloak"
-	armor = list("tier" = 7, "energy" = 55, "bomb" = 45, "bio" = 45, "rad" = 45, "fire" = 45, "acid" = 0)
+	armor = list("melee" = 50, "bullet" = 50,"laser" = 50, "energy" = 55, "bomb" = 45, "bio" = 45, "rad" = 45, "fire" = 45, "acid" = 0)
 
 /obj/item/clothing/suit/armor/f13/ghostechoe
 	name = "tattered peace coat"
-	desc = "(II) An old coat belonging to a Desert Ranger once. It has been stripped of most useful protection, and has seen better days. A crude peace symbol has been painted on the back in white."
+	desc = " An old coat belonging to a Desert Ranger once. It has been stripped of most useful protection, and has seen better days. A crude peace symbol has been painted on the back in white."
 	icon_state = "ghostechoe"
 	item_state = "ghostechoe"
-	armor = list("tier" = 2, "energy" = 0, "bomb" = 16, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0)
+	armor = list("melee" = 30, "bullet" = 25,"laser" = 25, "energy" = 0, "bomb" = 16, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0)
 
 
 //Mutants
 
 /obj/item/clothing/suit/armor/f13/mutant/poncho
 	name = "mutant poncho"
-	desc = "(IV) An oversized poncho, made to fit the frame of a super mutant. Maybe he's the big ranger with an iron on his hip?"
+	desc = " An oversized poncho, made to fit the frame of a super mutant. Maybe he's the big ranger with an iron on his hip?"
 	icon_state = "mutie_poncho"
 	item_state = "mutie_poncho"
-	armor = list("tier" = 4, "energy" = 40, "bomb" = 50, "bio" = 60, "rad" = 10, "fire" = 60, "acid" = 20)
+	armor = list("melee" = 30, "bullet" = 25,"laser" = 25, "energy" = 40, "bomb" = 50, "bio" = 60, "rad" = 10, "fire" = 60, "acid" = 20)
 
 /obj/item/clothing/suit/armor/f13/mutant/metal
 	name = "mutant armour"
-	desc = "(V) An oversized set of metal armour, made to fit the frame of a super mutant. Maybe he's the big iron with a ranger on his hip?"
+	desc = " An oversized set of metal armour, made to fit the frame of a super mutant. Maybe he's the big iron with a ranger on his hip?"
 	icon_state = "mutie_metal_armour"
 	item_state = "mutie_metal_armour"
-	armor = list("tier" = 5, "energy" = 40, "bomb" = 50, "bio" = 60, "rad" = 10, "fire" = 60, "acid" = 20)
+	armor = list("melee" = 40, "bullet" = 40,"laser" = 40,  "energy" = 40, "bomb" = 50, "bio" = 60, "rad" = 10, "fire" = 60, "acid" = 20)
 
 /obj/item/clothing/suit/armor/f13/mutant/metal/reinforced
 	name = "mutant armour"
 	desc = "(6) An oversized boiler plate, hammered to fit the frame of a super mutant. Maybe he's the big iron with a ranger on his hip?"
 	icon_state = "mutie_metal_armour_mk2"
 	item_state = "mutie_metal_armour_mk2"
-	armor = list("tier" = 6, "energy" = 40, "bomb" = 50, "bio" = 60, "rad" = 40, "fire" = 30, "acid" = 20)
+	armor = list("melee" = 50, "bullet" = 50, "laser" = 50, "energy" = 40, "bomb" = 50, "bio" = 60, "rad" = 40, "fire" = 30, "acid" = 20)
 
 //TRIBALS
 

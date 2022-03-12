@@ -136,7 +136,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	backpack_contents = list(
 		/obj/item/ammo_box/magazine/m44 = 2,
 		/obj/item/storage/bag/money/small/ncrenlisted = 1,
-		/obj/item/storage/survivalkit_aid = 1,
+		/obj/item/storage/survivalkit/aid = 1,
 		)
 
 
@@ -316,7 +316,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	suit = /obj/item/clothing/suit/armor/f13/ncrarmor/mantle/reinforced
 	neck = /obj/item/storage/belt/holster/legholster
 	backpack_contents = list(
-		/obj/item/storage/survivalkit_aid = 1,
+		/obj/item/storage/survivalkit/aid = 1,
 		/obj/item/storage/bag/money/small/ncrofficers = 1,
 		)
 
@@ -396,7 +396,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 		/obj/item/gun/ballistic/revolver/revolver45 = 1,
 		/obj/item/ammo_box/c45rev = 2,
 		/obj/item/storage/bag/money/small/ncr = 2,
-		/obj/item/storage/survivalkit_aid = 1
+		/obj/item/storage/survivalkit/aid = 1
 		)
 
 /datum/outfit/loadout/repbrahminbaron
@@ -482,7 +482,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	r_pocket = /obj/item/binoculars
 	backpack_contents = list(
 		/obj/item/melee/onehanded/knife/bowie = 1,
-		/obj/item/storage/survivalkit_aid_adv = 1,
+		/obj/item/storage/survivalkit/aid/adv = 1,
 		/obj/item/storage/bag/money/small/ncrofficers = 1,
 		)
 
@@ -585,7 +585,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	suit_store = /obj/item/gun/ballistic/automatic/marksman/sniper
 	backpack_contents = list(
 		/obj/item/ammo_box/magazine/w308 = 3,
-		/obj/item/storage/survivalkit_aid = 1,
+		/obj/item/storage/survivalkit/aid = 1,
 		/obj/item/gun/ballistic/revolver/revolver45 = 1,
 		/obj/item/ammo_box/c45rev = 2,
 		)
@@ -599,7 +599,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	backpack_contents = list(
 		/obj/item/ammo_box/tube/m44 = 3,
 		/obj/item/melee/classic_baton/telescopic = 1,
-		/obj/item/storage/survivalkit_aid = 1,
+		/obj/item/storage/survivalkit/aid = 1,
 		/obj/item/attachments/scope = 1,
 		/obj/item/gun/ballistic/revolver/colt357 = 2,
 		/obj/item/ammo_box/a357=4,
@@ -615,7 +615,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	backpack_contents = list(
 		/obj/item/ammo_box/magazine/m556/rifle/assault = 1,
 		/obj/item/clothing/head/helmet/f13/combat/ncr_patrol = 1,
-		/obj/item/storage/survivalkit_aid = 1,
+		/obj/item/storage/survivalkit/aid = 1,
 		/obj/item/attachments/scope = 1,
 		/obj/item/gun/ballistic/revolver/revolver44 = 1,
 		/obj/item/ammo_box/m44 = 2,
@@ -632,7 +632,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 		/obj/item/ammo_box/shotgun/buck = 1,
 		/obj/item/ammo_box/shotgun/slug = 1,
 		/obj/item/clothing/head/helmet/f13/combat/ncr_patrol = 1,
-		/obj/item/storage/survivalkit_aid = 1,
+		/obj/item/storage/survivalkit/aid = 1,
 		/obj/item/gun/ballistic/revolver/m29/snub = 1,
 		/obj/item/ammo_box/m44box = 1,
 		)
@@ -675,7 +675,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	suit = /obj/item/clothing/suit/armor/f13/power_armor/t45b/ncr
 	backpack_contents = list(
 		/obj/item/gun/ballistic/automatic/pistol/ninemil = 1,
-		/obj/item/storage/survivalkit_aid = 1,
+		/obj/item/storage/survivalkit/aid = 1,
 		/obj/item/ammo_box/magazine/m9mmds = 2,
 		/obj/item/storage/bag/money/small/ncrenlisted = 1,
 		)
@@ -754,7 +754,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	belt = null
 	backpack_contents = list(
 		/obj/item/shovel/trench = 1,
-		/obj/item/storage/survivalkit_aid = 1,
+		/obj/item/storage/survivalkit/aid = 1,
 		/obj/item/storage/bag/money/small/ncrenlisted = 1,
 		)
 
@@ -823,7 +823,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	backpack_contents = list(
 		/obj/item/gun/ballistic/automatic/pistol/m1911 = 1,
 		/obj/item/ammo_box/magazine/m45 = 3,
-		/obj/item/storage/survivalkit_aid = 1,
+		/obj/item/storage/survivalkit/aid = 1,
 		/obj/item/storage/bag/money/small/ncrenlisted = 1,
 		)
 
@@ -869,7 +869,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	backpack_contents = list(
 		/obj/item/ammo_box/magazine/m10mm_adv/simple = 2,
 		/obj/item/melee/onehanded/knife/survival = 1,
-		/obj/item/storage/survivalkit_aid_adv = 1,
+		/obj/item/storage/survivalkit/aid/adv = 1,
 		/obj/item/storage/bag/money/small/ncrenlisted = 1,
 		/obj/item/storage/firstaid/regular = 1,
 		)
@@ -922,7 +922,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	backpack_contents = list(
 		/obj/item/melee/onehanded/knife/bayonet = 1,
 		/obj/item/storage/bag/money/small/ncrenlisted = 1,
-		/obj/item/storage/survivalkit_aid = 1,
+		/obj/item/storage/survivalkit/aid = 1,
 		)
 
 /datum/outfit/loadout/corporaldesignatedmarksman
@@ -1057,8 +1057,8 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 		/obj/item/gun/ballistic/automatic/pistol/m1911/custom = 1,
 		/obj/item/ammo_box/magazine/m45 = 2,
 		/obj/item/melee/classic_baton/telescopic = 1,
-		/obj/item/storage/survivalkit_aid = 1,
-		/obj/item/storage/survivalkit_aid_adv = 1,
+		/obj/item/storage/survivalkit/aid = 1,
+		/obj/item/storage/survivalkit/aid/adv = 1,
 		/obj/item/storage/bag/money/small/ncrofficers = 1,
 		/obj/item/storage/firstaid/regular = 1,
 		)
@@ -1134,7 +1134,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 		/obj/item/ammo_box/magazine/m9mm = 2,
 		/obj/item/grenade/plastic/c4 = 1,
 		/obj/item/melee/onehanded/knife/survival = 1,
-		/obj/item/storage/survivalkit_aid = 1,
+		/obj/item/storage/survivalkit/aid = 1,
 		/obj/item/storage/bag/money/small/ncrofficers = 1,
 		/obj/item/stack/sheet/metal/twenty = 2,
 		/obj/item/stack/sheet/glass/ten = 2,

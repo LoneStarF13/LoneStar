@@ -742,11 +742,10 @@ obj/effect/landmark/start/f13/ncrlogisticsofficer
 	icon_state = "Lawyer"
 
 /obj/effect/landmark/start/f13/sheriff
-	name = "Sheriff"
-	icon_state = "Sheriff"
+	name = "Chief"
 
 /obj/effect/landmark/start/f13/deputy
-	name = "Deputy"
+	name = "Officer"
 
 /obj/effect/landmark/start/f13/farmer
 	name = "Farmer"
@@ -852,7 +851,7 @@ obj/effect/landmark/start/f13/ncrlogisticsofficer
 	icon_state = "Tribal"
 
 /obj/effect/landmark/start/f13/chief
-	name = "Chief"
+	name = "Tribal Chief"
 	icon_state = "Tribal"
 	
 /obj/effect/landmark/start/f13/shaman
