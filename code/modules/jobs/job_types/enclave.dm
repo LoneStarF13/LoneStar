@@ -11,7 +11,7 @@
 /datum/outfit/job/enclave
 	id = null
 	ears = 			/obj/item/radio/headset/headset_enclave
-	box = 			/obj/item/storage/survivalkit_aid
+	box = 			/obj/item/storage/survivalkit/aid
 
 /datum/outfit/job/enclave/peacekeeper
 	id = 			/obj/item/card/id/dogtag/enclave/trooper

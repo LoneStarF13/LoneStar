@@ -471,6 +471,17 @@
 	desc = "14mm bullets loaded with a gaseous hepatoxic payload, which reduces the effectiveness of medicine and toxins."
 	ammo_type = /obj/item/ammo_casing/p14mm/contam
 
+/obj/item/ammo_box/m14mm/uraniumtipped
+	name = "ammo box (14mm contaminated)"
+	desc = "14mm cartridges loaded with enriched uranium bullets."
+	ammo_type = /obj/item/ammo_casing/p14mm/uraniumtipped
+
+/obj/item/ammo_box/m14mm/improv
+	name = "bag with reloaded 14mm bullets"
+	desc = "The casings are worn, the gunpowder some homebrew mix of dubious quality. At least it goes bang. Should you really be handloading 14mm like this?"
+	icon_state = "improvshotbag"
+	multiple_sprites = 1
+
 //Misc.
 /obj/item/ammo_box/m473
 	name = "ammo box (4.73mm caseless)"

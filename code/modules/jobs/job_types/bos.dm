@@ -25,7 +25,7 @@ Main doors: ACCESS_CAPTAIN 20
 	shoes = 	/obj/item/clothing/shoes/combat/swat
 	gloves = 	/obj/item/clothing/gloves/combat
 	id = 		/obj/item/card/id/dogtag
-	box = 		/obj/item/storage/survivalkit_adv
+	box = 		/obj/item/storage/survivalkit/adv
 
 /datum/outfit/job/bos/pre_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()
@@ -151,7 +151,7 @@ Head Paladin
 	neck = 			/obj/item/storage/belt/holster
 	backpack_contents = list(
 		/obj/item/melee/onehanded/knife/hunting = 1,
-		/obj/item/melee/powerfist/f13 = 1,
+		/obj/item/melee/unarmed/powerfist = 1,
 		/obj/item/gun/ballistic/automatic/pistol/n99/crusader = 1,
 		/obj/item/ammo_box/magazine/m10mm_adv/simple = 2,
 		/obj/item/reagent_containers/hypospray/medipen/stimpak = 3,
@@ -419,7 +419,7 @@ Star Paladin
 	backpack_contents = list(
 		/obj/item/melee/onehanded/knife/hunting = 1,
 		/obj/item/reagent_containers/hypospray/medipen/stimpak = 2,
-		/obj/item/melee/powerfist/f13 = 1,
+		/obj/item/melee/unarmed/powerfist = 1,
 		/obj/item/tank/internals/oxygen = 1,
 	)
 
@@ -720,7 +720,7 @@ Scribe
 		)
 
 /*
-Senior Knight
+Senior 
 */
 
 /datum/job/bos/f13seniorknight
@@ -766,6 +766,7 @@ Senior Knight
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/AEP7)
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/dks)
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/R93)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/wattz2ke)
 
 /datum/outfit/job/bos/f13seniorknight
 	name = "Senior Knight"

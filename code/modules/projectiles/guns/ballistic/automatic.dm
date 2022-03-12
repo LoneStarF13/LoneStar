@@ -213,7 +213,7 @@
 	autofire_shot_delay = 1.75
 	spread = 18
 	burst_shot_delay = 1.5
-	extra_damage = 10
+	extra_damage = 11
 	suppressed = 1
 	actions_types = null
 	fire_sound = 'sound/f13weapons/american180.ogg'
@@ -222,16 +222,16 @@
 //Greasegun				Keywords: 9mm, Automatic, 30 rounds
 /obj/item/gun/ballistic/automatic/smg/greasegun
 	name = "Grease Gun"
-	desc = "An inexpensive submachine gun, downscaled and rechambered in 9mm. Very high rate of fire in bursts."
+	desc = "An inexpensive submachine gun. Has a relatively tame rate of fire."
 	icon_state = "grease_gun"
 	item_state = "smg9mm"
 	mag_type = /obj/item/ammo_box/magazine/greasegun
-	spread = 8
-	extra_damage = 19
-	burst_shot_delay = 2.75
+	spread = 6
+	extra_damage = 20
+	burst_shot_delay = 3.25 
 	is_automatic = TRUE
 	automatic = 1
-	autofire_shot_delay = 2.5
+	autofire_shot_delay = 3.25 //barely faster than semi-auto
 	spread = 14
 	can_attachments = TRUE
 	suppressor_state = "uzi_suppressor"
@@ -269,7 +269,7 @@
 	can_attachments = FALSE
 	spread = 16.5
 	recoil = 0.3
-	extra_damage = 17
+	extra_damage = 19
 
 /obj/item/gun/ballistic/automatic/smg/greasegun/worn/auto_select()
 	var/mob/living/carbon/human/user = usr
@@ -363,8 +363,8 @@
 	is_automatic = TRUE
 	automatic = 1
 	autofire_shot_delay = 2
-	spread = 16
-	extra_damage = 18
+	spread = 18
+	extra_damage = 15
 	can_suppress = TRUE
 	can_attachments = TRUE
 	spread = 10
@@ -381,7 +381,7 @@
 			automatic = 1
 			spread = 16
 			fire_delay = 3
-			recoil = 0.1
+			recoil = 0.2
 			weapon_weight = WEAPON_HEAVY
 			to_chat(user, "<span class='notice'>You switch to automatic fire.</span>")
 			enable_burst()
@@ -780,7 +780,7 @@
 //Police rifle			Keywords: OASIS, 5.56mm, Semi-auto, 20 (10-50) round magazine
 /obj/item/gun/ballistic/automatic/marksman/policerifle
 	name = "Police Rifle"
-	desc = "A pre-war Rifle that has been constantly repaired and rebuilt by the Oasis Police Department. Held together by duct tape and prayers, it somehow still shoots."
+	desc = "A pre-war Rifle that has been constantly repaired and rebuilt by the Oasis Police Department. Held together by duct tape and prayers, it somehow still shoots. This one is chambered in 5.56."
 	icon = 'icons/fallout/objects/guns/ballistic.dmi'
 	lefthand_file = 'icons/fallout/onmob/weapons/guns_lefthand.dmi'
 	righthand_file = 'icons/fallout/onmob/weapons/guns_righthand.dmi'
@@ -1020,12 +1020,12 @@
 	icon_state = "R82"
 	item_state = "R84"
 	icon_prefix = "r82"
-	extra_damage = 28
+	extra_damage = 25
 	fire_delay = 2.5
 	is_automatic = TRUE
-	automatic = 1
-	autofire_shot_delay = 3
-	spread = 10
+	automatic = 1 //pseudo-automatic
+	autofire_shot_delay = 4
+	spread = 1.5
 	can_suppress = TRUE
 	suppressor_state = "rifle_suppressor"
 	suppressor_x_offset = 27
@@ -1041,9 +1041,9 @@
 	mag_type = /obj/item/ammo_box/magazine/m556/rifle
 	fire_delay = 2.5
 	slowdown = 0.45
-	spread = 10
+	spread = 12
 	extra_damage = 23
-	recoil = 0.1
+	recoil = 0.15
 	is_automatic = TRUE
 	automatic = 1
 	autofire_shot_delay = 2.5
@@ -1108,7 +1108,7 @@
 	can_bayonet = FALSE
 	fire_sound = 'sound/weapons/Gunshot_large_silenced.ogg'
 
-//Type 93 Chinese rifle				Keywords: 5.56mm, Automatic, 20 (10-50) round magazine, 26dmg
+//Type 93 Chinese rifle				Keywords: 5.56mm, Automatic, 20 (10-50) round magazine
 /obj/item/gun/ballistic/automatic/type93
 	name = "type 93 assault rifle"
 	desc = "The Type 93 Chinese assault rifle was designed and manufactured by a Chinese industrial conglomerate for the People's Liberation Army during the Resource Wars, for the purpose of equipping the Chinese infiltrators and American fifth-columnists. Chambered in 5.56x45."
@@ -1117,13 +1117,13 @@
 	icon_prefix = "handmade_rifle"
 	mag_type = /obj/item/ammo_box/magazine/m556/rifle
 	fire_delay = 4
-	spread = 10
+	spread = 14
 	extra_damage = 23
 	extra_penetration = 0.05
 	is_automatic = TRUE
 	automatic = 1
 	autofire_shot_delay = 3
-	recoil = 0.1
+	recoil = 0.2
 	can_suppress = TRUE
 	suppressor_state = "rifle_suppressor"
 	suppressor_x_offset = 27
@@ -1157,7 +1157,7 @@
 	burst_shot_delay = 1.5
 	extra_damage = 25
 	fire_delay = 3
-	spread = 8
+	spread = 10
 	recoil = 0.1
 	can_attachments = FALSE
 	zoomable = TRUE
@@ -1210,7 +1210,8 @@
 	righthand_file = 'icons/fallout/onmob/weapons/guns_righthand.dmi'
 	icon_state = "rifle-police"
 	autofire_shot_delay = 3.5 //not a real auto-gun
-	spread = 12 //makeshift longer barrel
+	extra_damage = 22
+	spread = 9 //longer barrel
 	can_scope = TRUE
 	
 /obj/item/gun/ballistic/automatic/assault_carbine/worn	
@@ -1220,7 +1221,8 @@
 	fire_delay = 3.5
 	burst_shot_delay = 2.2
 	spread = 14
-	extra_damage = 18
+	extra_damage = 17
+	extra_penetration = 0.2
 
 //FN-FAL				Keywords: 7.62mm, Automatic, 10/20 round magazine
 /obj/item/gun/ballistic/automatic/fnfal
@@ -1241,8 +1243,8 @@
 	fire_sound = 'sound/f13weapons/assaultrifle_fire.ogg'
 
 /obj/item/gun/ballistic/automatic/bar
-	name = "automatic rifle (debug)"
-	desc = "An ancient machine gun that looks like outdated even by pre-war standards. It has Colt etched on one-side and Sierra Madre on the other. It is alarmingly heavy for a rifle.(Debug)"
+	name = "automatic rifle (.308)"
+	desc = "An ancient machine gun that looks like outdated even by pre-war standards. It has Colt etched on one-side and Sierra Madre on the other. It is alarmingly heavy for a rifle."
 	icon = 'icons/fallout/objects/guns/bar.dmi'
 	slot_flags = ITEM_SLOT_BACK
 	icon_state = "BAR"
@@ -1253,7 +1255,7 @@
 	slowdown = 1.25 //really goddamn big
 	autofire_shot_delay = 2.75
 	extra_damage = 28
-	spread = 10
+	spread = 12
 	recoil = 0.3
 	actions_types = list(/datum/action/item_action/toggle_firemode)
 	fire_sound = 'sound/f13weapons/assaultrifle_fire.ogg'
@@ -1303,7 +1305,7 @@
 	is_automatic = TRUE
 	automatic = 1
 	autofire_shot_delay = 3
-	spread = 8
+	spread = 11
 	can_attachments = FALSE
 	actions_types = null
 	fire_sound = 'sound/f13weapons/assaultrifle_fire.ogg'
@@ -1369,7 +1371,8 @@
 	autofire_shot_delay = 3.25
 	fire_delay = 4
 	extra_damage = 28
-	spread = 8
+	extra_penetration = 0.05
+	spread = 14 //open bolt machine gun with no stock
 	can_attachments = FALSE
 	var/cover_open = FALSE
 	var/require_twohands = FALSE

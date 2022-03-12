@@ -249,7 +249,7 @@
 	reagent_state = SOLID
 	overdose_threshold = 20
 	addiction_threshold = 11
-	metabolization_rate = 1.25 * REAGENTS_METABOLISM
+	metabolization_rate = 0.5 * REAGENTS_METABOLISM
 	var/datum/brain_trauma/special/psychotic_brawling/bath_salts/rage
 
 /datum/reagent/drug/buffout/on_mob_add(mob/living/carbon/human/M)

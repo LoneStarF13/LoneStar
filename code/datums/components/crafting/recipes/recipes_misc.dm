@@ -453,3 +453,11 @@
 				/obj/item/stack/cable_coil = 3)
 	subcategory = CAT_MISCELLANEOUS
 	category = CAT_CLOTHING
+
+/datum/crafting_recipe/survivalkit
+	name = "survival kit"
+	result = /obj/item/storage/survivalkit_empty
+	time = 15
+	reqs = list(/obj/item/stack/sheet/cloth = 5)
+	subcategory = CAT_MISCELLANEOUS
+	category = CAT_MISC

@@ -258,7 +258,7 @@ heavy rifle calibers (12.7, 14mm, 7.62): Uranium, Contaminated, Incin
 
 /obj/item/projectile/bullet/m5mm/shock
 	name = "5mm shock bullet"
-	damage = -6 //about -30% damage
+	damage = -9 //about -50% damage
 	wound_bonus = 0
 	sharpness = SHARP_NONE
 	var/energy_damage = 5

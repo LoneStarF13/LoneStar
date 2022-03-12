@@ -626,7 +626,7 @@
 	desc = "A popular post-war comic series detailing the trials and tribulations of scavengers and their tools."
 	oneuse = TRUE
 	remarks = list("And it was here that I stabbed a man over a desk fan...", "The paint was chipping, but that didn't matter when he lay dead...", "A tank here, a pipe there...", "A bit of duct tape wrapped around everything...", "My flamethrower spat fire! Wait, where are my eyebrows...")
-	crafting_recipe_types = list(/datum/crafting_recipe/chainsaw, /datum/crafting_recipe/tools/forged/entrenching_tool, /datum/crafting_recipe/durathread_vest)
+	crafting_recipe_types = list(/datum/crafting_recipe/chainsaw, /datum/crafting_recipe/tools/forged/entrenching_tool, /datum/crafting_recipe/durathread_vest, /datum/crafting_recipe/steeltower)
 
 /obj/item/book/granter/crafting_recipe/scav_two
 	name = "SCAV! Issue 2"
@@ -1070,7 +1070,7 @@
 			if("Technophilia")
 				granted_trait = TRAIT_TECHNOPHREAK
 				traitname = "technology and crafting"
-				crafting_recipe_types = list(/datum/crafting_recipe/ninemil, /datum/crafting_recipe/huntingrifle, /datum/crafting_recipe/n99, /datum/crafting_recipe/huntingrifle, /datum/crafting_recipe/m1911, /datum/crafting_recipe/varmintrifle, /datum/crafting_recipe/autoaxe, /datum/crafting_recipe/steelsaw, /datum/crafting_recipe/tools/forged/entrenching_tool, /datum/crafting_recipe/chainsaw)
+				crafting_recipe_types = list(/datum/crafting_recipe/ninemil, /datum/crafting_recipe/huntingrifle, /datum/crafting_recipe/n99, /datum/crafting_recipe/huntingrifle, /datum/crafting_recipe/m1911, /datum/crafting_recipe/varmintrifle, /datum/crafting_recipe/autoaxe, /datum/crafting_recipe/steelsaw, /datum/crafting_recipe/tools/forged/entrenching_tool, /datum/crafting_recipe/chainsaw, /datum/crafting_recipe/steeltower, /datum/crafting_recipe/durathread_vest)
 			if("Pugilist")
 				granted_trait = TRAIT_IRONFIST
 				traitname = "using your fists"
@@ -1130,8 +1130,3 @@
 	name = "Bone Dancer traditions"
 	crafting_recipe_types = list(/datum/crafting_recipe/tribalwar/bone/lightarmour,/datum/crafting_recipe/tribalwar/bone/armour, /datum/crafting_recipe/tribalwar/bone/heavyarmour,
 								/datum/crafting_recipe/tribalwar/bone/garb,/datum/crafting_recipe/tribalwar/bone/helmet)
-								
-								
-								
-								
-								

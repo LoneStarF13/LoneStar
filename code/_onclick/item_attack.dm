@@ -90,14 +90,14 @@
 		return
 
 	var/bigleagues = force*0.25
-	var/buffout = force*0.25
+	var/buffout = force*0.50
 	//var/regular = force*(user.special_s/100)//SPECIAL integration
 
 	//force += regular//SPECIAL integration
-	
+
 	if (force >= 5 && HAS_TRAIT(user, TRAIT_BIG_LEAGUES))
 		force += bigleagues
-	
+
 	if (force >= 5 && HAS_TRAIT(user, TRAIT_BUFFOUT_BUFF))
 		force += buffout
 
@@ -119,7 +119,7 @@
 
 	if (force >= 5 && HAS_TRAIT(user, TRAIT_BIG_LEAGUES))
 		force -= bigleagues
-	
+
 	if (force >= 5 && HAS_TRAIT(user, TRAIT_BUFFOUT_BUFF))
 		force -= buffout
 
