@@ -67,3 +67,4 @@
 	select_name = "plasma bolt"
 	fire_sound = 'sound/f13weapons/lasmusket_fire.ogg'
 	e_cost = 1000
+	

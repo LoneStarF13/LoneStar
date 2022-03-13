@@ -174,3 +174,4 @@
 	zoom_out_amt = 13
 	fire_sound = 'sound/f13weapons/lasmusket_fire.ogg'
 	equipsound = 'sound/f13weapons/equipsounds/plasequip.ogg'
+	
