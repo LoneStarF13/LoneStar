@@ -1256,4 +1256,3 @@ Venator  - Zero slots, role built on cloning vet ranger, linear just vastly bett
 	backpack_contents = list(
 		/obj/item/melee/onehanded/machete/spatha = 1,
 		)
-		
