@@ -1016,7 +1016,6 @@ commented out pending rework*/
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/empgrenade)
 
 
-
 // AUXILIA - Civilians with special training. Can sow new uniforms for soldiers who lost theirs, and are loyal so they would never abuse this.
 
 /datum/job/CaesarsLegion/auxilia
