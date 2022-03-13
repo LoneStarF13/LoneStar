@@ -43,7 +43,6 @@
 	new /obj/item/reagent_containers/pill/radx(src)
 
 /obj/item/storage/survivalkit/adv/PopulateContents()
-	. = ..()
 	new /obj/item/reagent_containers/hypospray/medipen/stimpak(src)
 	new /obj/item/stack/medical/gauze(src)
 	new /obj/item/flashlight/seclite(src)
