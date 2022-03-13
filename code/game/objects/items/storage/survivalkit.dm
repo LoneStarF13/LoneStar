@@ -112,3 +112,21 @@
 	new /obj/item/stack/medical/gauze/adv(src)
 	new /obj/item/stack/medical/suture/medicated(src)
 	new /obj/item/stack/medical/mesh(src)
+
+/obj/item/storage/survivalkit_legion
+	name = "battlefield medicine kit"
+	desc = "A robust leather pouch containing the essentials for trauma care."
+	icon_state = "ifak"
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/storage/survivalkit_legion/ComponentInitialize()
+	. = ..()
+	var/datum/component/storage/STR = GetComponent(/datum/component/storage)
+	STR.max_items = 4
+
+/obj/item/storage/survivalkit_legion/PopulateContents()
+	. = ..()
+	new /obj/item/reagent_containers/pill/patch/bitterdrink(src)
+	new /obj/item/stack/medical/gauze(src)
+	new /obj/item/stack/medical/suture(src)
+	new /obj/item/stack/medical/ointment(src)
