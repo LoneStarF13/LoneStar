@@ -276,6 +276,28 @@
 	eyeblur = 0
 	is_reflectable = TRUE
 	pixels_per_second = TILES_TO_PIXELS(50)
+	
+//plasma musket
+/obj/item/projectile/f13plasma/plasmamusket
+	name = "plasma bolt"
+	icon_state = "plasma_clot"
+	damage_type = BURN
+	damage = 50
+	flag = "energy"
+	eyeblur = 0
+	is_reflectable = TRUE
+	pixels_per_second = TILES_TO_PIXELS(50)
+	
+//plasma cannon
+/obj/item/projectile/f13plasma/plasmasniper
+	name = "plasma bolt"
+	icon_state = "plasma_clot"
+	damage_type = BURN
+	damage = 53
+	flag = "energy"
+	eyeblur = 0
+	is_reflectable = TRUE
+	pixels_per_second = TILES_TO_PIXELS(50)
 
 //Securitrons Beam
 /obj/item/projectile/beam/laser/pistol/ultraweak

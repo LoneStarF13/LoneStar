@@ -61,3 +61,9 @@
 	select_name = "mining plasma stream"
 	fire_sound = 'sound/f13weapons/plasma_rifle.ogg'
 	e_cost = 2.4 //this seems very low but the weapon fires 5 5-damage shots per burst and only fires in bursts
+
+/obj/item/ammo_casing/energy/plasma/sniper
+	projectile_type = /obj/item/projectile/f13plasma/plasmasniper
+	select_name = "plasma bolt"
+	fire_sound = 'sound/f13weapons/lasmusket_fire.ogg'
+	e_cost = 1000

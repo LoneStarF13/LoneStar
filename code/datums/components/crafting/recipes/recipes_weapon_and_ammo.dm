@@ -735,6 +735,25 @@
 	category = CAT_WEAPONRY
 	subcategory = CAT_WEAPON
 
+/datum/crafting_recipe/plasmasniper
+	name = "Plasma Cannon"
+	result = /obj/item/gun/energy/laser/plasma/sniper
+	reqs = list(/obj/item/gun/ballistic/rifle/hobo/plasmacaster = 1,
+				/obj/item/stack/crafting/electronicparts = 5,
+				/obj/item/stack/sheet/metal = 4,
+				/obj/item/stack/crafting/goodparts = 3,
+				/obj/item/advanced_crafting_components/assembly = 1,
+				/obj/item/advanced_crafting_components/alloys = 1,
+				/obj/item/advanced_crafting_components/conductors = 1,
+				/obj/item/advanced_crafting_components/flux = 2,
+				/obj/item/stack/sheet/mineral/titanium = 1,
+				/obj/item/attachments/scope = 1,
+				/obj/item/stack/cable_coil = 10)
+	tools = list(TOOL_WORKBENCH, TOOL_MULTITOOL, TOOL_WELDER, TOOL_SCREWDRIVER)
+	time = 150
+	always_available = FALSE
+	category = CAT_WEAPONRY
+	subcategory = CAT_WEAPON
 
 //browning hi-power
 /datum/crafting_recipe/ninemil

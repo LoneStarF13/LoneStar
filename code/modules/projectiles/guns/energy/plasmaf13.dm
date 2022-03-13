@@ -150,3 +150,27 @@
 	. = ..()
 	if(!twohands)
 		return FALSE
+
+
+//Plasma Cannon.
+/obj/item/gun/energy/laser/plasma/sniper
+	name = "Plasma Cannon"
+	desc = "A refined design, taking the common wasteland plasma musket and improving upon it. Trash parts and safety hazards give way to proper stamped and machined construction. It's even been fitted with a scope and designed to take MFCs rather than shoddy plasma cans."
+	icon = 'icons/fallout/objects/guns/energy.dmi'
+	icon_state = "plasmasniper"
+	item_state = "plasmamusket"
+	slowdown = 0.3
+	ammo_type = list(/obj/item/ammo_casing/energy/plasma/sniper)
+	cell_type = /obj/item/stock_parts/cell/ammo/mfc
+	fire_delay = 30
+	dryfire_sound = 'sound/f13weapons/noammoenergy.ogg'
+	dryfire_text = "*power failure*"
+	can_bayonet = TRUE
+	knife_x_offset = 22
+	knife_y_offset = 20
+	bayonet_state = "bayonet"
+	zoomable = TRUE
+	zoom_amt = 10
+	zoom_out_amt = 13
+	fire_sound = 'sound/f13weapons/lasmusket_fire.ogg'
+	equipsound = 'sound/f13weapons/equipsounds/plasequip.ogg'
