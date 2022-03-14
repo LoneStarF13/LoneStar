@@ -143,51 +143,6 @@ Weapons		Lever shotgun, Grease gun, Repeater carbines, Revolvers, simple guns al
 	box = /obj/item/storage/box/legate
 
 
-// ORATOR
-
-/datum/job/CaesarsLegion/Legionnaire/f13orator
-	title = "Legion Orator"
-	flag = F13ORATOR
-	supervisors = "Legate"
-	selection_color = "#ffdddd"
-	req_admin_notify = 1
-	total_positions = 0
-	spawn_positions = 0
-	outfit = /datum/outfit/job/CaesarsLegion/Legionnaire/f13orator
-	display_order = JOB_DISPLAY_ORDER_ORATOR
-	access = list(ACCESS_LEGION, ACCESS_CHANGE_IDS, ACCESS_LEGION_COMMAND)
-	minimal_access = list(ACCESS_LEGION, ACCESS_CHANGE_IDS, ACCESS_LEGION_COMMAND)
-
-/datum/outfit/job/CaesarsLegion/Legionnaire/f13orator	// 10mm Revolver, Spatha
-	name = "Orator"
-	jobtype = /datum/job/CaesarsLegion/Legionnaire/f13orator
-	neck = /obj/item/storage/belt/holster
-	shoes =	/obj/item/clothing/shoes/f13/military/legate
-	suit = /obj/item/clothing/suit/armor/f13/legion/legate
-	head = null
-	id = /obj/item/card/id/dogtag/legcenturion
-	gloves = null
-	shoes = /obj/item/clothing/shoes/roman
-	suit_store = /obj/item/gun/ballistic/automatic/pistol/n99
-	r_pocket = /obj/item/storage/bag/money/small/legofficers
-	l_pocket = /obj/item/flashlight/lantern
-	l_hand = /obj/item/melee/onehanded/machete/spatha
-	backpack_contents = list(
-		/obj/item/ammo_box/magazine/m10mm_adv/simple = 2,
-		/obj/item/reagent_containers/pill/patch/bitterdrink = 1,
-		)
-
-/datum/outfit/job/CaesarsLegion/Legionnaire/f13orator/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
-	..()
-	if(visualsOnly)
-		return
-	ADD_TRAIT(H, TRAIT_HARD_YARDS, src)
-	ADD_TRAIT(H, TRAIT_LIFEGIVER, src)
-	ADD_TRAIT(H, TRAIT_IRONFIST, src)
-	ADD_TRAIT(H, TRAIT_BIG_LEAGUES, src)
-	if(H.mind)
-		var/obj/effect/proc_holder/spell/terrifying_presence/S = new /obj/effect/proc_holder/spell/terrifying_presence
-		H.mind.AddSpell(S)
 
 /////////////////
 //// Officers ///
@@ -533,6 +488,49 @@ commented out pending rework*/
 ///Specialist///////
 ////////////////////
 
+// ORATOR
+//No longer admin only. This will be great, let's see how this goes.
+//I just want to preface this by saying I have never, and will never play legion.
+// - Kitsunemitsu (Kirie Saito!)
+
+/datum/job/CaesarsLegion/Legionnaire/f13orator
+	title = "Legion Orator"
+	flag = F13ORATOR
+	supervisors = "Centurion"
+	req_admin_notify = 1
+	total_positions = 1
+	spawn_positions = 1
+	outfit = /datum/outfit/job/CaesarsLegion/Legionnaire/f13orator
+	display_order = JOB_DISPLAY_ORDER_ORATOR
+	access = list(ACCESS_LEGION, ACCESS_CHANGE_IDS, ACCESS_LEGION_COMMAND)
+	minimal_access = list(ACCESS_LEGION, ACCESS_CHANGE_IDS, ACCESS_LEGION_COMMAND)
+
+/datum/outfit/job/CaesarsLegion/Legionnaire/f13orator	// 10mm Revolver, Spatha
+	name = "Orator"
+	jobtype = /datum/job/CaesarsLegion/Legionnaire/f13orator
+	neck = /obj/item/storage/belt/holster
+	suit = /obj/item/clothing/suit/armor/f13/legion/vet/orator
+	head = null
+	id = /obj/item/card/id/dogtag/legveteran
+	gloves = null
+	shoes = /obj/item/clothing/shoes/roman
+	suit_store = /obj/item/gun/ballistic/automatic/pistol/n99
+	r_pocket = /obj/item/storage/bag/money/small/legofficers
+	l_pocket = /obj/item/flashlight/lantern
+	backpack_contents = list(
+		/obj/item/ammo_box/magazine/m10mm_adv/simple = 2,
+		/obj/item/reagent_containers/pill/patch/bitterdrink = 1,
+		)
+
+/datum/outfit/job/CaesarsLegion/Legionnaire/f13orator/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
+	..()
+	if(visualsOnly)
+		return
+	ADD_TRAIT(H, TRAIT_LIFEGIVER, src)
+	ADD_TRAIT(H, TRAIT_IRONFIST, src)
+	ADD_TRAIT(H, TRAIT_BIG_LEAGUES, src)
+		
+	
 // VEXILLARIUS
 
 /datum/job/CaesarsLegion/Legionnaire/f13vexillarius
@@ -1033,6 +1031,7 @@ commented out pending rework*/
 	loadout_options = list(
 		/datum/outfit/loadout/auxassist, // Keep track of the money, handle trading beneath the warriors
 		/datum/outfit/loadout/auxmedicus, // Do surgery, medical tasks.
+		/datum/outfit/loadout/auxopifex, // Build defenses, craft necessary items
 		)
 
 	matchmaking_allowed = list(
@@ -1098,6 +1097,24 @@ commented out pending rework*/
 		/obj/item/clothing/under/f13/legauxilia = 1,
 		)
 
+/datum/outfit/loadout/auxopifex
+	name = "Opifex (Artisan)"
+	neck = /obj/item/clothing/neck/apron/labor/forge
+	gloves = /obj/item/clothing/gloves/legion/forgemaster
+	belt = /obj/item/storage/belt
+	glasses = /obj/item/clothing/glasses/welding
+	shoes = /obj/item/clothing/shoes/f13/military/plated
+	r_pocket = /obj/item/flashlight/lantern
+	backpack_contents = list(
+		/obj/item/storage/bag/money/small/legenlisted = 1,
+		/obj/item/stack/sheet/metal/twenty = 2,
+		/obj/item/stack/sheet/mineral/wood/twenty = 1,
+		/obj/item/stack/sheet/leather/twenty = 1,
+		/obj/item/stack/sheet/cloth/thirty = 1,
+		/obj/item/stack/sheet/prewar/twenty = 1,
+		/obj/item/weldingtool = 1,
+		/obj/item/book/granter/trait/explosives = 1
+		)	
 
 // LEGION SLAVES - Servant cook, and assist with medical, low surgery. Worker farm and mine.
 // Both get Mars teachings to help out when normal work is done.
