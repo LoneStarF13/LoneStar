@@ -855,7 +855,7 @@ Mayor
 		/obj/item/storage/survivalkit/aid = 1,
 		)
 
-/datum/outfit/loadout/contractor
+/datum/outfit/loadout/formercontractor
 	name = "Former Contractor"
 	suit = /obj/item/clothing/suit/armor/f13/combat/swat
 	head = /obj/item/clothing/head/helmet/f13/combat/swat
