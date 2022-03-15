@@ -853,7 +853,7 @@ Mayor
 	belt = /obj/item/storage/belt/military/assault
 	id = /obj/item/card/id/silver
 	l_pocket = /obj/item/storage/bag/money/small/oasis
-	r_pocket = /obj/item/flashlight/seclite = 1,
+	r_pocket = /obj/item/flashlight/seclite
 	backpack = /obj/item/storage/backpack/satchel/explorer
 	satchel = /obj/item/storage/backpack/satchel/explorer
 	backpack_contents = list(
@@ -885,11 +885,11 @@ Mayor
 
 /datum/outfit/loadout/formerregulator
 	name = "Former Regulator"
-	suit = /obj/item/clothing/suit/armor/f13/utilityvest
+	suit = /obj/item/clothing/suit/armor/vest/oasis
 	head = /obj/item/clothing/head/helmet/armyhelmet
-	suit_store = /obj/item/gun/ballistic/rifle/repeater/trail
+	suit_store = /obj/item/gun/ballistic/rifle/repeater/cowboy
 	backpack_contents = list(
-		/obj/item/ammo_box/tube/m44 = 2,
+		/obj/item/ammo_box/a357 = 3,
 		/obj/item/gun/ballistic/revolver/revolver45 = 2,
 		/obj/item/ammo_box/c45rev = 3,
 		)
