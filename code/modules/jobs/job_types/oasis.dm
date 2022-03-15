@@ -812,7 +812,7 @@ Mayor
 	flag = F13DETECTIVE
 	total_positions = 1
 	spawn_positions = 1
-	description = "Placeholder."
+	description = "You're the Mayor's bodyguard, handpicked by them to protect them from anything or anyone who may want to harm them. Whether you're their lifelong friend, a special officer assigned to them by the Chief, or just some mercenary they hired off the street, you're loyal to no one except the Mayor."
 	supervisors = "The Mayor"
 	selection_color = "#dcba97"
 	outfit = /datum/outfit/job/oasis/f13detective
@@ -821,7 +821,7 @@ Mayor
 	exp_requirements = 800
 
 	loadout_options = list(
-	/datum/outfit/loadout/contractor,
+	/datum/outfit/loadout/formercontractor,
 	/datum/outfit/loadout/formerraider,
 	/datum/outfit/loadout/formerregulator,)
 
@@ -829,15 +829,10 @@ Mayor
 	minimal_access = list(ACCESS_BAR, ACCESS_CLONING, ACCESS_GATEWAY, ACCESS_CARGO_BOT, ACCESS_MINT_VAULT, ACCESS_KITCHEN, ACCESS_CLINIC, ACCESS_MINING, ACCESS_FORENSICS_LOCKERS)
 	matchmaking_allowed = list(
 		/datum/matchmaking_pref/friend = list(
-			/datum/job/wasteland/f13wastelander,
-			/datum/job/oasis/f13detective,
+			/datum/job/oasis/f13mayor,
 		),
 		/datum/matchmaking_pref/rival = list(
-			/datum/job/wasteland/f13wastelander,
-			/datum/job/oasis/f13detective,
-		),
-		/datum/matchmaking_pref/mentor = list(
-			/datum/job/wasteland/f13wastelander,
+			/datum/job/oasis,
 		),
 	)
 
@@ -849,7 +844,6 @@ Mayor
 	uniform = /obj/item/clothing/under/f13/merca
 	shoes = /obj/item/clothing/shoes/f13/military
 	neck = /obj/item/storage/belt/holster
-	gloves = /obj/item/clothing/gloves/f13/military
 	belt = /obj/item/storage/belt/military/assault
 	id = /obj/item/card/id/silver
 	l_pocket = /obj/item/storage/bag/money/small/oasis
@@ -865,6 +859,7 @@ Mayor
 	name = "Former Contractor"
 	suit = /obj/item/clothing/suit/armor/f13/combat/swat
 	head = /obj/item/clothing/head/helmet/f13/combat/swat
+	gloves = /obj/item/clothing/gloves/f13/military
 	suit_store = /obj/item/gun/ballistic/shotgun/automatic/combat/shotgunlever
 	backpack_contents = list(
 		/obj/item/ammo_box/shotgun/buck = 2,
@@ -876,6 +871,7 @@ Mayor
 	name = "Former Raider"
 	suit = /obj/item/clothing/suit/armor/f13/plates
 	head = /obj/item/clothing/head/helmet/f13/metalmask
+	gloves = /obj/item/clothing/gloves/f13/handwraps
 	suit_store = /obj/item/gun/ballistic/automatic/type93
 	backpack_contents = list(
 		/obj/item/ammo_box/magazine/m556/rifle/assault = 1,
@@ -887,11 +883,13 @@ Mayor
 	name = "Former Regulator"
 	suit = /obj/item/clothing/suit/armor/f13/raider/combatduster
 	head = /obj/item/clothing/head/f13/town/big
+	shoes = /obj/item/clothing/shoes/f13/cowboy
+	gloves = /obj/item/clothing/gloves/rifleman
 	suit_store = /obj/item/gun/ballistic/automatic/marksman
 	backpack_contents = list(
 		/obj/item/ammo_box/magazine/m556/rifle = 2,
-		/obj/item/gun/ballistic/revolver/revolver45 = 2,
-		/obj/item/ammo_box/c45rev = 3,
+		/obj/item/gun/ballistic/automatic/pistol/automag = 1,
+		/obj/item/ammo_box/magazine/automag = 2,
 		)
 
 /datum/outfit/job/oasis/f13detective/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
