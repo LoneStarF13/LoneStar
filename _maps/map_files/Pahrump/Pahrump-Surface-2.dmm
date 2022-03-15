@@ -2905,15 +2905,6 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/ncr)
-"bkn" = (
-/obj/structure/closet,
-/obj/item/clothing/under/rank/prisoner,
-/obj/item/clothing/shoes/sneakers/orange,
-/obj/item/restraints/handcuffs,
-/turf/open/floor/plasteel/f13/vault_floor/blue/side{
-	dir = 1
-	},
-/area/f13/building)
 "bkr" = (
 /obj/structure/mirelurkegg,
 /turf/open/indestructible/ground/inside/mountain,
@@ -6115,6 +6106,15 @@
 /obj/item/clothing/mask/balaclava/breath,
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
 /area/f13/brotherhood/surface)
+"cLy" = (
+/obj/structure/curtain{
+	color = "#363636";
+	pixel_y = 32
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
+/area/f13/building)
 "cLO" = (
 /obj/structure/car,
 /obj/structure/wreck/car,
@@ -10607,10 +10607,9 @@
 	},
 /area/f13/building)
 "eLl" = (
-/obj/structure/window/fulltile/wood{
-	max_integrity = 140
-	},
-/turf/open/floor/wood/f13/oak,
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/ywflowers,
+/turf/open/indestructible/ground/outside/dirt,
 /area/f13/wasteland)
 "eLo" = (
 /turf/open/floor/f13{
@@ -10789,9 +10788,10 @@
 /turf/open/floor/f13/wood,
 /area/f13/village)
 "ePI" = (
-/obj/effect/landmark/start/f13/enforcer,
-/turf/open/floor/carpet/green,
-/area/f13/building)
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/leafybush,
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/wasteland)
 "ePL" = (
 /obj/effect/turf_decal/arrows{
 	dir = 4;
@@ -11046,6 +11046,12 @@
 /mob/living/simple_animal/hostile/gecko,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/f13/oak,
+/area/f13/building)
+"eUV" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/blue/side{
+	dir = 8
+	},
 /area/f13/building)
 "eVx" = (
 /obj/item/statuebust{
@@ -11323,8 +11329,11 @@
 	},
 /area/f13/building)
 "far" = (
+/obj/structure/flora/ausbushes/sparsegrass{
+	pixel_y = 4
+	},
 /obj/structure/flora/ausbushes/fullgrass,
-/obj/structure/flora/ausbushes/ywflowers,
+/obj/structure/flora/ausbushes/fernybush,
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/wasteland)
 "fas" = (
@@ -11888,7 +11897,9 @@
 /area/f13/building)
 "fmP" = (
 /obj/structure/flora/ausbushes/fullgrass,
-/obj/structure/flora/ausbushes/leafybush,
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/fernybush,
+/obj/machinery/light/small,
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/wasteland)
 "fmQ" = (
@@ -15350,12 +15361,6 @@
 	icon_state = "floorrusty"
 	},
 /area/f13/building)
-"gJk" = (
-/obj/machinery/pool/drain{
-	pixel_y = 15
-	},
-/turf/open/floor/plasteel/f13/vault_floor/floor,
-/area/f13/building)
 "gJp" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13,
@@ -16637,12 +16642,6 @@
 	},
 /obj/structure/barricade/bars,
 /turf/open/floor/plasteel/f13/vault_floor/neutral/neutralsolid,
-/area/f13/building)
-"hkH" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/blue/side{
-	dir = 8
-	},
 /area/f13/building)
 "hkW" = (
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -18389,13 +18388,13 @@
 	},
 /area/f13/village)
 "hVp" = (
-/obj/structure/flora/ausbushes/sparsegrass{
-	pixel_y = 4
+/obj/machinery/door/airlock/grunge{
+	req_one_access_txt = "62"
 	},
-/obj/structure/flora/ausbushes/fullgrass,
-/obj/structure/flora/ausbushes/fernybush,
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
+/area/f13/building)
 "hVr" = (
 /obj/effect/turf_decal/stripes/white/line,
 /obj/effect/decal/cleanable/dirt{
@@ -19107,12 +19106,6 @@
 	},
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/wasteland)
-"ijv" = (
-/obj/machinery/light/small,
-/turf/open/floor/plasteel/f13/vault_floor/blue/side{
-	dir = 6
-	},
-/area/f13/building)
 "ijJ" = (
 /obj/machinery/iv_drip,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
@@ -21357,8 +21350,13 @@
 	},
 /area/f13/city)
 "jiJ" = (
-/obj/effect/landmark/start/f13/enforcer,
-/turf/open/floor/f13/wood,
+/obj/structure/closet,
+/obj/item/clothing/under/rank/prisoner,
+/obj/item/clothing/shoes/sneakers/orange,
+/obj/item/restraints/handcuffs,
+/turf/open/floor/plasteel/f13/vault_floor/blue/side{
+	dir = 5
+	},
 /area/f13/building)
 "jiR" = (
 /obj/effect/decal/cleanable/dirt{
@@ -24190,12 +24188,17 @@
 /turf/open/floor/f13/wood,
 /area/f13/building)
 "kvy" = (
-/obj/structure/flora/ausbushes/fullgrass,
-/obj/structure/flora/ausbushes/fullgrass,
-/obj/structure/flora/ausbushes/fernybush,
-/obj/machinery/light/small,
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
+/obj/structure/closet,
+/obj/item/clothing/under/rank/prisoner,
+/obj/item/clothing/shoes/sneakers/orange,
+/obj/item/restraints/handcuffs,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue/side{
+	dir = 1
+	},
+/area/f13/building)
 "kvz" = (
 /obj/effect/decal/cleanable/robot_debris,
 /obj/effect/decal/cleanable/oil/slippery,
@@ -30053,11 +30056,12 @@
 	},
 /area/f13/building)
 "mZn" = (
-/obj/machinery/door/airlock/grunge{
-	req_one_access_txt = "62"
-	},
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
-	name = "metal plating"
+/obj/structure/closet,
+/obj/item/clothing/under/rank/prisoner,
+/obj/item/clothing/shoes/sneakers/orange,
+/obj/item/restraints/handcuffs,
+/turf/open/floor/plasteel/f13/vault_floor/blue/side{
+	dir = 1
 	},
 /area/f13/building)
 "mZu" = (
@@ -32706,7 +32710,7 @@
 /obj/item/clothing/shoes/sneakers/orange,
 /obj/item/restraints/handcuffs,
 /turf/open/floor/plasteel/f13/vault_floor/blue/side{
-	dir = 5
+	dir = 9
 	},
 /area/f13/building)
 "olN" = (
@@ -32879,11 +32883,6 @@
 /obj/effect/decal/remains/human,
 /turf/open/floor/f13/wood{
 	icon_state = "housewood2"
-	},
-/area/f13/building)
-"opq" = (
-/turf/open/floor/plasteel/f13/vault_floor/blue/side{
-	dir = 8
 	},
 /area/f13/building)
 "opC" = (
@@ -37116,15 +37115,6 @@
 	dir = 4
 	},
 /area/f13/village)
-"qjR" = (
-/obj/structure/curtain{
-	color = "#363636";
-	pixel_y = 32
-	},
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
-	name = "metal plating"
-	},
-/area/f13/building)
 "qkf" = (
 /obj/structure/chair{
 	dir = 8
@@ -38058,15 +38048,6 @@
 "qFQ" = (
 /turf/open/floor/wood/f13/old/ruinedstraighteast,
 /area/f13/wasteland)
-"qGg" = (
-/obj/structure/closet,
-/obj/item/clothing/under/rank/prisoner,
-/obj/item/clothing/shoes/sneakers/orange,
-/obj/item/restraints/handcuffs,
-/turf/open/floor/plasteel/f13/vault_floor/blue/side{
-	dir = 9
-	},
-/area/f13/building)
 "qGk" = (
 /obj/machinery/light{
 	dir = 1;
@@ -42115,13 +42096,6 @@
 	name = "metal plating"
 	},
 /area/f13/building)
-"sxQ" = (
-/obj/machinery/light/small,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/blue/side{
-	dir = 10
-	},
-/area/f13/building)
 "sxT" = (
 /obj/machinery/light{
 	dir = 8
@@ -45930,6 +45904,12 @@
 	dir = 4
 	},
 /area/f13/village)
+"uhf" = (
+/obj/machinery/pool/drain{
+	pixel_y = 15
+	},
+/turf/open/floor/plasteel/f13/vault_floor/floor,
+/area/f13/building)
 "uhh" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/machinery/light/small{
@@ -50077,15 +50057,8 @@
 /turf/open/floor/f13/wood,
 /area/f13/building)
 "vUG" = (
-/obj/structure/closet,
-/obj/item/clothing/under/rank/prisoner,
-/obj/item/clothing/shoes/sneakers/orange,
-/obj/item/restraints/handcuffs,
-/obj/machinery/light{
-	dir = 1
-	},
 /turf/open/floor/plasteel/f13/vault_floor/blue/side{
-	dir = 1
+	dir = 8
 	},
 /area/f13/building)
 "vVa" = (
@@ -51771,6 +51744,12 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/ncr)
+"wGQ" = (
+/obj/machinery/light/small,
+/turf/open/floor/plasteel/f13/vault_floor/blue/side{
+	dir = 6
+	},
+/area/f13/building)
 "wGY" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
@@ -55206,6 +55185,13 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
+	},
+/area/f13/building)
+"ygP" = (
+/obj/machinery/light/small,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/blue/side{
+	dir = 10
 	},
 /area/f13/building)
 "ygW" = (
@@ -79509,7 +79495,7 @@ mHj
 mHj
 xSl
 mHj
-hVp
+far
 vEs
 mvv
 jkI
@@ -83098,7 +83084,7 @@ ibA
 nJU
 rpu
 jgt
-jiJ
+rpu
 rpu
 gts
 mPh
@@ -83350,7 +83336,7 @@ uqa
 dCV
 gts
 ibA
-ePI
+gJx
 ibA
 gJx
 rpu
@@ -84127,7 +84113,7 @@ fbo
 vEs
 vEs
 vEs
-far
+eLl
 vEs
 dit
 gny
@@ -84402,10 +84388,10 @@ xSl
 mHj
 mHj
 dCV
-oli
-opq
-hkH
-sxQ
+jiJ
+vUG
+eUV
+ygP
 dCV
 tik
 ueA
@@ -84657,14 +84643,14 @@ dit
 hDo
 xSl
 mHj
-kvy
+fmP
 dCV
-vUG
+kvy
 kjm
 kTy
 oyW
 uIa
-qjR
+cLy
 aRl
 uPv
 vmB
@@ -84915,10 +84901,10 @@ hRn
 xSl
 mHj
 vEs
-mZn
+hVp
 mCR
 kTy
-gJk
+uhf
 otI
 gAZ
 ueA
@@ -85155,7 +85141,7 @@ vEs
 vEs
 vEs
 fbo
-fmP
+ePI
 vEs
 dit
 qaI
@@ -85173,12 +85159,12 @@ xSl
 mHj
 gJq
 dCV
-bkn
+mZn
 kTy
 kTy
 oyW
 uIa
-qjR
+cLy
 tQl
 aRl
 bCR
@@ -85430,10 +85416,10 @@ xSl
 mHj
 vEs
 dCV
-qGg
+oli
 mfn
 nWl
-ijv
+wGQ
 dCV
 tkS
 ueA
@@ -85689,7 +85675,7 @@ mHj
 dCV
 dCV
 dCV
-mZn
+hVp
 dCV
 dCV
 tAe
@@ -87209,14 +87195,14 @@ vEs
 vEs
 vEs
 vEs
-lPT
-eLl
-eLl
+uqa
+eCK
+eCK
 fiy
 fiy
 uqa
 uqa
-ccE
+vEs
 mHj
 mHj
 iqN
@@ -87473,7 +87459,7 @@ csQ
 csQ
 xAx
 hfQ
-ccE
+vEs
 mHj
 mHj
 iqN
@@ -87730,7 +87716,7 @@ csQ
 csQ
 csQ
 tWd
-ccE
+vEs
 mHj
 mHj
 hRB
@@ -87987,7 +87973,7 @@ csQ
 csQ
 csQ
 eCK
-ccE
+vEs
 mHj
 mHj
 iqN
@@ -88244,7 +88230,7 @@ cJE
 mcI
 cJE
 uqa
-ccE
+vEs
 mHj
 mHj
 hTL
@@ -88501,7 +88487,7 @@ fXh
 fgG
 eWW
 uqa
-ccE
+vEs
 mHj
 mHj
 iqN
@@ -88758,7 +88744,7 @@ csQ
 csQ
 gRL
 uqa
-ccE
+vEs
 mHj
 mHj
 iqN
@@ -89015,7 +89001,7 @@ csQ
 csQ
 gWp
 eCK
-ccE
+vEs
 mHj
 mHj
 hRB
@@ -89272,7 +89258,7 @@ fYh
 gea
 fqi
 uqa
-ccE
+vEs
 mHj
 mHj
 iqN
@@ -89529,7 +89515,7 @@ fZm
 ftu
 kEI
 uqa
-ccE
+vEs
 mHj
 mHj
 hRB
@@ -89786,7 +89772,7 @@ fmw
 fmw
 fqD
 uqa
-ccE
+vEs
 mHj
 mHj
 iqN
@@ -90043,7 +90029,7 @@ fmw
 fmw
 nMl
 fBO
-ccE
+vEs
 mHj
 mHj
 iqN
@@ -90300,7 +90286,7 @@ fmw
 fmw
 gZi
 fBO
-ccE
+vEs
 mHj
 mHj
 iqN
@@ -90557,7 +90543,7 @@ fdx
 fmN
 bXm
 uqa
-ccE
+vEs
 mHj
 mHj
 hRB

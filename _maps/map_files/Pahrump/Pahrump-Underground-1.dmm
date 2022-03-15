@@ -2541,9 +2541,7 @@
 /turf/open/floor/f13/wood,
 /area/f13/caves)
 "bFe" = (
-/obj/machinery/door/airlock/wood{
-	req_one_access_txt = 87
-	},
+/obj/machinery/door/airlock/wood,
 /turf/open/floor/wood/f13/old,
 /area/f13/den)
 "bFl" = (
@@ -3044,7 +3042,6 @@
 	},
 /area/f13/tunnel)
 "bUY" = (
-/obj/effect/landmark/start/f13/mobboss,
 /turf/open/floor/wood/f13/old,
 /area/f13/den)
 "bVb" = (
@@ -3283,8 +3280,12 @@
 	},
 /area/f13/tunnel)
 "ccw" = (
-/turf/open/floor/wood/f13/old,
-/area/f13/den)
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/neutral/side{
+	dir = 1;
+	icon_state = "neutralrusty"
+	},
+/area/f13/caves)
 "ccz" = (
 /obj/structure/wreck/trash/engine,
 /turf/open/floor/plasteel/f13/vault_floor/yellow{
@@ -4303,9 +4304,9 @@
 /area/f13/brotherhood/leisure)
 "cGg" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/neutral/side{
-	dir = 1;
-	icon_state = "neutralrusty"
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/floor{
+	icon_state = "floorrusty"
 	},
 /area/f13/caves)
 "cGj" = (
@@ -5023,12 +5024,10 @@
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
 /area/f13/caves)
 "ddg" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/floor{
-	icon_state = "floorrusty"
+/turf/open/floor/f13{
+	icon_state = "neutralrustyfull"
 	},
-/area/f13/caves)
+/area/f13/vault)
 "ddv" = (
 /obj/effect/decal/remains/human,
 /obj/effect/decal/cleanable/blood/old{
@@ -5555,9 +5554,7 @@
 /turf/open/floor/plating/rust,
 /area/f13/caves)
 "dqh" = (
-/turf/open/floor/f13{
-	icon_state = "neutralrustyfull"
-	},
+/turf/closed/wall/rust,
 /area/f13/vault)
 "dqm" = (
 /obj/structure/rack/shelf_metal,
@@ -6099,7 +6096,7 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/brotherhood/operations)
 "dIq" = (
-/turf/closed/wall/rust,
+/turf/closed/indestructible/f13/matrix,
 /area/f13/vault)
 "dID" = (
 /obj/effect/decal/cleanable/dirt,
@@ -6285,9 +6282,6 @@
 /mob/living/simple_animal/hostile/ghoul/reaver,
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/caves)
-"dPt" = (
-/turf/closed/indestructible/f13/matrix,
-/area/f13/vault)
 "dPx" = (
 /turf/open/floor/plasteel/vault{
 	dir = 5
@@ -6539,14 +6533,6 @@
 /obj/structure/mirror,
 /turf/closed/wall/rust,
 /area/f13/caves)
-"dWG" = (
-/obj/effect/landmark/start/f13/dendoctor,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/floor{
-	icon_state = "floorrusty"
-	},
-/area/f13/den)
 "dWN" = (
 /turf/open/water,
 /area/f13/bunker)
@@ -31442,7 +31428,7 @@
 /turf/open/water{
 	slowdown = 0
 	},
-/area/f13/tunnel)
+/area/f13/caves)
 "wvk" = (
 /obj/structure/destructible/tribal_torch/wall/lit{
 	dir = 1;
@@ -61924,10 +61910,10 @@ dXE
 dXE
 wYo
 bvs
-ccw
-ccw
+bUY
+bUY
 miO
-ccw
+bUY
 ejL
 wYo
 dXE
@@ -62181,11 +62167,11 @@ dXE
 dXE
 wYo
 bzC
-ccw
-ccw
+bUY
+bUY
 miO
-ccw
-ccw
+bUY
+bUY
 wYo
 dXE
 hQE
@@ -62439,10 +62425,10 @@ dXE
 wYo
 ibZ
 bUY
-ccw
+bUY
 miO
-ccw
-ccw
+bUY
+bUY
 wYo
 dXE
 hQE
@@ -62695,11 +62681,11 @@ dXE
 dXE
 wYo
 hjc
-ccw
-ccw
+bUY
+bUY
 miO
-ccw
-ccw
+bUY
+bUY
 wYo
 dXE
 hQE
@@ -62733,7 +62719,7 @@ cSY
 cSY
 cSY
 cSY
-weW
+cSY
 weW
 weW
 weW
@@ -62952,11 +62938,11 @@ dXE
 dXE
 wYo
 bEp
-ccw
-ccw
+bUY
+bUY
 wYo
 bEp
-ccw
+bUY
 wYo
 dXE
 hQE
@@ -63208,12 +63194,12 @@ dXE
 dXE
 dXE
 wYo
-ccw
-ccw
-ccw
+bUY
+bUY
+bUY
 bFe
-ccw
-ccw
+bUY
+bUY
 wYo
 dXE
 epg
@@ -63247,7 +63233,7 @@ lqf
 hQE
 hQE
 lWw
-miI
+lWw
 miI
 xse
 miI
@@ -63472,7 +63458,7 @@ wYo
 wYo
 wYo
 wYo
-dXE
+wYo
 hQE
 epg
 epg
@@ -63723,7 +63709,7 @@ amD
 bhO
 cbQ
 wYo
-ccw
+bUY
 dhF
 dtr
 dBA
@@ -63980,10 +63966,10 @@ aAz
 cbQ
 cbQ
 wYo
-ccw
+bUY
 bFe
 dyw
-dWG
+sHh
 eyK
 eKX
 wYo
@@ -64237,7 +64223,7 @@ aZR
 cbQ
 cbQ
 bFe
-ccw
+bUY
 wYo
 dzP
 sHh
@@ -64751,7 +64737,7 @@ cbQ
 ajg
 cbQ
 wYo
-ccw
+bUY
 wYo
 wYo
 wYo
@@ -64819,8 +64805,8 @@ xrW
 xrW
 xrW
 xSP
-dqh
-dqh
+ddg
+ddg
 oeL
 xSP
 dXE
@@ -65008,7 +64994,7 @@ cbQ
 cbQ
 cbQ
 bFe
-ccw
+bUY
 wYo
 dBj
 cRh
@@ -65265,7 +65251,7 @@ cbQ
 ajg
 cbQ
 wYo
-ccw
+bUY
 bFe
 qMZ
 sHh
@@ -65335,7 +65321,7 @@ xyu
 xyu
 dZM
 xyu
-dPt
+dIq
 yke
 dXE
 dXE
@@ -65592,7 +65578,7 @@ xyu
 qjS
 xyu
 xyu
-dPt
+dIq
 yke
 dXE
 umD
@@ -66089,8 +66075,8 @@ dXE
 dXE
 yke
 fzj
-dqh
-dqh
+ddg
+ddg
 yke
 jSy
 ldz
@@ -66346,23 +66332,23 @@ dXE
 dXE
 yke
 fIG
-dqh
+ddg
 iAu
 yke
-dqh
-dqh
+ddg
+ddg
 nwX
-dIq
-dIq
-dIq
-dIq
-dIq
-dIq
-dIq
-dIq
-dIq
-dIq
-dIq
+dqh
+dqh
+dqh
+dqh
+dqh
+dqh
+dqh
+dqh
+dqh
+dqh
+dqh
 cpa
 yke
 dXE
@@ -66603,23 +66589,23 @@ dXE
 dXE
 yke
 fPt
-dqh
-dqh
+ddg
+ddg
 joN
-dqh
-dqh
+ddg
+ddg
 nwX
-dIq
+dqh
 qbU
-dIq
-dIq
-dIq
-dIq
-dIq
-dIq
-dIq
-dIq
-dIq
+dqh
+dqh
+dqh
+dqh
+dqh
+dqh
+dqh
+dqh
+dqh
 cpa
 yke
 dXE
@@ -66860,23 +66846,23 @@ dXE
 dXE
 yke
 fRg
-dqh
-dqh
+ddg
+ddg
 yke
 kvJ
-dqh
+ddg
 nwX
-dIq
-dIq
-dIq
-dIq
-dIq
-dIq
-dIq
-dIq
-dIq
-dIq
-dIq
+dqh
+dqh
+dqh
+dqh
+dqh
+dqh
+dqh
+dqh
+dqh
+dqh
+dqh
 cpa
 yke
 dXE
@@ -67118,7 +67104,7 @@ dXE
 yke
 gfu
 diE
-dqh
+ddg
 yke
 kzL
 lrg
@@ -68102,8 +68088,8 @@ dXE
 kjq
 bzQ
 qgz
+ccw
 cGg
-ddg
 tRt
 vPd
 wXp
