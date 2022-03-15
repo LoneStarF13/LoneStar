@@ -64,12 +64,13 @@ Mayor
 	id =            /obj/item/card/id/silver/mayor
 	backpack = /obj/item/storage/backpack/satchel/explorer
 	satchel = /obj/item/storage/backpack/satchel/explorer
-	l_pocket = /obj/item/storage/bag/money/small/settler
+	l_pocket = /obj/item/storage/bag/money/small/oasis
 	r_pocket = /obj/item/flashlight/seclite
 	shoes = 		/obj/item/clothing/shoes/f13/tan
 	uniform = /obj/item/clothing/under/f13/gentlesuit
 	head = /obj/item/clothing/head/f13/town/big
 	backpack_contents = list( 
+		/obj/item/stack/f13Cash/caps/onezerozerozero = 1,
 		/obj/item/storage/box/citizenship_permits = 1, \
 		/obj/item/pen/fountain/captain = 1,
 		)
@@ -165,11 +166,12 @@ Mayor
 	satchel = /obj/item/storage/backpack/satchel/leather
 	r_hand = /obj/item/storage/briefcase/secretary
 	l_hand = /obj/item/book/granter/trait/selection
-	l_pocket = /obj/item/storage/bag/money/small/settler
+	l_pocket = /obj/item/storage/bag/money/small/oasis
 	r_pocket = /obj/item/flashlight/seclite
 	shoes = 		/obj/item/clothing/shoes/f13/fancy
 	uniform = /obj/item/clothing/under/suit/black
 	backpack_contents = list(
+		/obj/item/stack/f13Cash/caps/fivezerozero = 1,
 		/obj/item/ammo_box/magazine/m9mm = 1,
 		/obj/item/melee/onehanded/knife/switchblade = 1,
 		/obj/item/pda = 1,
@@ -845,12 +847,13 @@ Mayor
 	jobtype = /datum/job/oasis/f13detective
 	ears = /obj/item/radio/headset/headset_town
 	uniform = /obj/item/clothing/under/f13/merca
-	shoes = /obj/item/clothing/shoes/jackboots
+	shoes = /obj/item/clothing/shoes/f13/military
 	neck = /obj/item/storage/belt/holster
+	gloves = /obj/item/clothing/gloves/f13/military
 	belt = /obj/item/storage/belt/military/assault
 	id = /obj/item/card/id/silver
 	l_pocket = /obj/item/storage/bag/money/small/oasis
-	r_pocket = /obj/item/flashlight/flare
+	r_pocket = /obj/item/flashlight/seclite = 1,
 	backpack = /obj/item/storage/backpack/satchel/explorer
 	satchel = /obj/item/storage/backpack/satchel/explorer
 	backpack_contents = list(
@@ -859,9 +862,9 @@ Mayor
 		)
 
 /datum/outfit/loadout/contractor
-	name = "Contractor"
-	suit = /obj/item/clothing/suit/armor/f13/combat
-	head = /obj/item/clothing/head/helmet/f13/combat
+	name = "Former Contractor"
+	suit = /obj/item/clothing/suit/armor/f13/combat/swat
+	head = /obj/item/clothing/head/helmet/f13/combat/swat
 	suit_store = /obj/item/gun/ballistic/shotgun/automatic/combat/shotgunlever
 	backpack_contents = list(
 		/obj/item/ammo_box/shotgun/buck = 2,
@@ -882,8 +885,8 @@ Mayor
 
 /datum/outfit/loadout/formerregulator
 	name = "Former Regulator"
-	suit = /obj/item/clothing/suit/armor/f13/leather_jacket/combat/coat
-	head = /obj/item/clothing/head/f13/cowboy
+	suit = /obj/item/clothing/suit/armor/f13/utilityvest
+	head = /obj/item/clothing/head/helmet/armyhelmet
 	suit_store = /obj/item/gun/ballistic/rifle/repeater/trail
 	backpack_contents = list(
 		/obj/item/ammo_box/tube/m44 = 2,
