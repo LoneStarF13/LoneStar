@@ -813,8 +813,8 @@ obj/effect/landmark/start/f13/ncrlogisticsofficer
 	icon_state = "Preacher"
 
 /obj/effect/landmark/start/f13/detective
-	name = "Detective"
-	icon_state = "Detective"
+	name = "Bodyguard"
+	icon_state = "Bodyguard"
 
 // Enclave
 /obj/effect/landmark/start/f13/usspy

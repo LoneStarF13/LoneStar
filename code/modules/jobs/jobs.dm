@@ -91,12 +91,12 @@ GLOBAL_LIST_INIT(faction_whitelist_positions, list(
 "Legion Slave",
 
 "Mayor",
+"Bodyguard",
 "Chief",
 "Officer",
 "Shopkeeper",
 "Doctor",
 "Prospector",
-"Detective",
 
 "Tribal Chief",
 "Shaman",
@@ -134,6 +134,7 @@ GLOBAL_LIST_INIT(brotherhood_positions, list(
 GLOBAL_LIST_INIT(oasis_positions, list(
 	"Mayor",
 	"Secretary",
+	"Bodyguard",
 	"Chief",
 	"Doctor",
 	"Citizen",
@@ -141,7 +142,6 @@ GLOBAL_LIST_INIT(oasis_positions, list(
 	"Shopkeeper",
 	"Farmer",
 	"Prospector",
-	"Detective",
 	"Barkeep",
 ))
 

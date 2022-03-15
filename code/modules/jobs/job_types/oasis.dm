@@ -803,20 +803,28 @@ Mayor
 	)
 
 /*----------------------------------------------------------------
---							Detective							--
+--							Bodyguard							--
 ----------------------------------------------------------------*/
 /datum/job/oasis/f13detective
-	title = "Detective"
+	title = "Bodyguard"
 	flag = F13DETECTIVE
-	total_positions = 0
-	spawn_positions = 0
-	description = "As a Detective you are a private eye who assists clients to gather evidence, conduct surveillance, find missing people, and verify information. As a private investigator you are not responsible for peacekeeping the valley, but for finding answers. Your life is already over, make the ending mean something."
-	supervisors = "paying clients"
+	total_positions = 2
+	spawn_positions = 2
+	description = "Placeholder."
+	supervisors = "The Mayor"
 	selection_color = "#dcba97"
 	outfit = /datum/outfit/job/oasis/f13detective
+	exp_requirements = 12
+	exp_type = EXP_TYPE_OASIS
+	exp_requirements = 800
 
-	access = list(ACCESS_BAR, ACCESS_FORENSICS_LOCKERS)
-	minimal_access = list(ACCESS_BAR, ACCESS_FORENSICS_LOCKERS)
+	loadout_options = list(
+	/datum/outfit/loadout/contractor,
+	/datum/outfit/loadout/formerraider,
+	/datum/outfit/loadout/formerregulator,)
+
+	access = list(ACCESS_BAR, ACCESS_CLONING, ACCESS_GATEWAY, ACCESS_CARGO_BOT, ACCESS_MINT_VAULT, ACCESS_CLINIC, ACCESS_KITCHEN, ACCESS_MINING, ACCESS_FORENSICS_LOCKERS)
+	minimal_access = list(ACCESS_BAR, ACCESS_CLONING, ACCESS_GATEWAY, ACCESS_CARGO_BOT, ACCESS_MINT_VAULT, ACCESS_KITCHEN, ACCESS_CLINIC, ACCESS_MINING, ACCESS_FORENSICS_LOCKERS)
 	matchmaking_allowed = list(
 		/datum/matchmaking_pref/friend = list(
 			/datum/job/wasteland/f13wastelander,
@@ -833,27 +841,73 @@ Mayor
 
 
 /datum/outfit/job/oasis/f13detective
-	name = "Detective"
+	name = "Bodyguard"
 	jobtype = /datum/job/oasis/f13detective
-	suit = /obj/item/clothing/suit/det_suit/grey
 	ears = /obj/item/radio/headset/headset_town
-	uniform = /obj/item/clothing/under/f13/detectivealt
-	head = /obj/item/clothing/head/f13/det_hat_alt
-	shoes =  /obj/item/clothing/shoes/laceup
+	uniform = /obj/item/clothing/under/f13/merca
+	shoes = /obj/item/clothing/shoes/jackboots
+	neck = /obj/item/storage/belt/holster
+	belt = /obj/item/storage/belt/military/assault
 	id = /obj/item/card/id/silver
 	l_pocket = /obj/item/storage/bag/money/small/oasis
 	r_pocket = /obj/item/flashlight/flare
 	backpack = /obj/item/storage/backpack/satchel/explorer
 	satchel = /obj/item/storage/backpack/satchel/explorer
-	suit_store = /obj/item/gun/ballistic/revolver/police
 	backpack_contents = list(
-		/obj/item/pda/detective=1,
-		/obj/item/camera/detective=1,
-		/obj/item/toy/crayon/white=1,
-		/obj/item/detective_scanner=1,
-		/obj/item/storage/box/gloves=1,
-		/obj/item/storage/box/evidence=1,
-		/obj/item/ammo_box/a357=2)
+		/obj/item/melee/onehanded/knife/bowie = 1,
+		/obj/item/storage/survivalkit/aid = 1,
+		)
+
+/datum/outfit/loadout/contractor
+	name = "Contractor"
+	suit = /obj/item/clothing/suit/armor/f13/combat
+	head = /obj/item/clothing/head/helmet/f13/combat
+	suit_store = /obj/item/gun/ballistic/shotgun/automatic/combat/shotgunlever
+	backpack_contents = list(
+		/obj/item/ammo_box/shotgun/buck = 2,
+		/obj/item/gun/ballistic/automatic/pistol/ninemil = 1,
+		/obj/item/ammo_box/magazine/m9mmds = 2,
+		)
+
+/datum/outfit/loadout/formerraider
+	name = "Former Raider"
+	suit = /obj/item/clothing/suit/armor/f13/plates
+	head = /obj/item/clothing/head/helmet/f13/metalmask
+	suit_store = /obj/item/gun/ballistic/automatic/type93
+	backpack_contents = list(
+		/obj/item/ammo_box/magazine/m556/rifle/assault = 1,
+		/obj/item/gun/ballistic/automatic/pistol/n99 = 1,
+		/obj/item/ammo_box/magazine/m10mm_adv/simple = 2,
+		)
+
+/datum/outfit/loadout/formerregulator
+	name = "Former Regulator"
+	suit = /obj/item/clothing/suit/armor/f13/leather_jacket/combat/coat
+	head = /obj/item/clothing/head/f13/cowboy
+	suit_store = /obj/item/gun/ballistic/rifle/repeater/trail
+	backpack_contents = list(
+		/obj/item/ammo_box/tube/m44 = 2,
+		/obj/item/gun/ballistic/revolver/revolver45 = 2,
+		/obj/item/ammo_box/c45rev = 3,
+		)
+
+/datum/job/oasis/f13detective/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
+	..()
+	if(visualsOnly)
+		return
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/legioncombatarmor)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/legioncombathelmet)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/legioncombatarmormk2)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/legioncombathelmetmk2)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/legionsalvaged)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/legionsalvaged_ncr)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/legionsalvaged_salvaged)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/legionsalvagedhelmet)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/legionriot_broken)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/legionriothelmet_broken)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/legionriot_ncr)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/legionriothelmet_ncr)
+	ADD_TRAIT(H, TRAIT_HARD_YARDS, src)
 
 /*--------------------------------------------------------------*/
 
