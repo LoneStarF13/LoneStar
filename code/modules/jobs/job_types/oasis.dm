@@ -891,7 +891,7 @@ Mayor
 		/obj/item/ammo_box/c45rev = 3,
 		)
 
-/datum/job/oasis/f13detective/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
+/datum/outfit/job/oasis/f13detective/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()
 	if(visualsOnly)
 		return
