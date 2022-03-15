@@ -810,8 +810,8 @@ Mayor
 /datum/job/oasis/f13detective
 	title = "Bodyguard"
 	flag = F13DETECTIVE
-	total_positions = 2
-	spawn_positions = 2
+	total_positions = 1
+	spawn_positions = 1
 	description = "Placeholder."
 	supervisors = "The Mayor"
 	selection_color = "#dcba97"
@@ -885,11 +885,11 @@ Mayor
 
 /datum/outfit/loadout/formerregulator
 	name = "Former Regulator"
-	suit = /obj/item/clothing/suit/armor/vest/oasis
-	head = /obj/item/clothing/head/helmet/armyhelmet
-	suit_store = /obj/item/gun/ballistic/rifle/repeater/cowboy
+	suit = /obj/item/clothing/suit/armor/f13/raider/combatduster
+	head = /obj/item/clothing/head/f13/town/big
+	suit_store = /obj/item/gun/ballistic/automatic/marksman
 	backpack_contents = list(
-		/obj/item/ammo_box/a357 = 3,
+		/obj/item/ammo_box/magazine/m556/rifle = 2,
 		/obj/item/gun/ballistic/revolver/revolver45 = 2,
 		/obj/item/ammo_box/c45rev = 3,
 		)
