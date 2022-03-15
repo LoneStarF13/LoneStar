@@ -230,7 +230,6 @@ Raider
 	access = list()
 	minimal_access = list()
 	matchmaking_allowed = list(
-		),
 		/datum/matchmaking_pref/patron = list(
 			/datum/job/wasteland/f13raider,
 		),
