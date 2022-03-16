@@ -921,6 +921,7 @@ commented out pending rework*/
 		/obj/item/ammo_box/a357 = 3,
 		/obj/item/reagent_containers/food/drinks/bottle/molotov/filled = 2,
 		/obj/item/lighter/greyscale = 1,
+		/obj/item/grenade/homemade/coffeepotbomb = 1,
 		)
 
 
