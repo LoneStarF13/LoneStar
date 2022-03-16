@@ -818,7 +818,7 @@ obj/effect/landmark/start/f13/ncrlogisticsofficer
 
 // Enclave
 /obj/effect/landmark/start/f13/eofficer
-	name = "Enclave Officer"
+	name = "Enclave Lieutenant"
 
 /obj/effect/landmark/start/f13/eatrooper
 	name = "Enclave Armored Trooper"
