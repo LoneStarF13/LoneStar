@@ -92,3 +92,14 @@
 	new /obj/item/stack/medical/gauze(src)
 	new /obj/item/stack/medical/suture(src)
 	new /obj/item/stack/medical/ointment(src)
+	
+/obj/item/storage/survivalkit_empty
+	name = "survival kit"
+	desc = "A robust leather pouch containing the essentials for wasteland survival."
+	icon_state = "survivalkit"
+	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/storage/survivalkit_empty/ComponentInitialize()
+	. = ..()
+	var/datum/component/storage/STR = GetComponent(/datum/component/storage)
+	STR.max_items = 4
