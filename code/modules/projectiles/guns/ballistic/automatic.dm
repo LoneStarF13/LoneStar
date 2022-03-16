@@ -210,10 +210,10 @@
 	can_unsuppress = FALSE
 	is_automatic = TRUE
 	automatic = 1
-	autofire_shot_delay = 1.75
+	autofire_shot_delay = 1.5
 	spread = 18
 	burst_shot_delay = 1.5
-	extra_damage = 11
+	extra_damage = 12
 	suppressed = 1
 	actions_types = null
 	fire_sound = 'sound/f13weapons/american180.ogg'
@@ -988,11 +988,11 @@
 	icon_state = "sniper_rifle"
 	item_state = "sniper_rifle"
 	mag_type = /obj/item/ammo_box/magazine/w308
-	fire_delay = 8
+	fire_delay = 10
 	burst_size = 1
 	extra_speed = 800
 	extra_penetration = 0.2
-	extra_damage = 35
+	extra_damage = 45
 	zoom_amt = 10
 	zoom_out_amt = 13
 	semi_auto = TRUE
