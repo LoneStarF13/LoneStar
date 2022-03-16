@@ -391,7 +391,7 @@
 //Part of the peacekeeper enclave stuff, adjust values as needed.
 /obj/item/clothing/head/helmet/f13/power_armor/x02helmet
 	name = "Enclave power armor helmet"
-	desc = "The Enclave Mark II Powered Combat Armor helmet."
+	desc = "The Enclave Advanced Powered Combat Armor helmet."
 	icon_state = "advanced"
 	item_state = "advanced"
 	slowdown = 0.1
