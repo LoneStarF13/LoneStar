@@ -490,7 +490,7 @@
 /obj/item/projectile/beam/laser/rcw/hitscan //RCW
 	name = "rapidfire beam"
 	icon_state = "emitter"
-	damage = 15
+	damage = 18
 	hitscan = TRUE
 	muzzle_type = /obj/effect/projectile/muzzle/laser/emitter
 	tracer_type = /obj/effect/projectile/tracer/laser/emitter
