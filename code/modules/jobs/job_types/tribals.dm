@@ -66,7 +66,7 @@ Tribal Chief
 	ADD_TRAIT(H, TRAIT_BIG_LEAGUES, src)
 
 /datum/outfit/job/tribal/f13chief
-	name =	"Chief"
+	name =	"Tribal Chief"
 	jobtype =	/datum/job/tribal/f13chief
 	head =	/obj/item/clothing/head/helmet/f13/wayfarer/chief/green
 	uniform =	/obj/item/clothing/under/f13/wayfarer

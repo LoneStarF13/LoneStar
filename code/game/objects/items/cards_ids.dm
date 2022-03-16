@@ -893,7 +893,7 @@
 
 
 /obj/item/card/id/dogtag/deputy
-	name = "deputy's badge"
+	name = "officer's badge"
 	desc = "A silver badge which shows honour and dedication."
 	assignment = "badge"
 	assignment = "Deputy"
@@ -903,7 +903,7 @@
 
 /obj/item/card/id/dogtag/deputy/attackby(obj/item/W, mob/user, params)
 	if(istype(W, /obj/item/card/id/dogtag/sheriff))
-		var/newname = stripped_input(user, "Who do you want to designate as your deputy?", , "", MAX_NAME_LEN)
+		var/newname = stripped_input(user, "Who do you want to designate as your officer?", , "", MAX_NAME_LEN)
 		if(newname)
 			to_chat(user, "You scribble the [registered_name] for the name on the badge.")
 			registered_name = newname
@@ -911,8 +911,8 @@
 	return ..()
 
 /obj/item/card/id/dogtag/sheriff
-	name = "sheriff's badge"
-	desc = "A golden Sheriff's badge."
+	name = "chief's badge"
+	desc = "A golden Chief's badge."
 	assignment = "badge"
 	icon_state = "sheriff"
 	item_state = "badge-sheriff"

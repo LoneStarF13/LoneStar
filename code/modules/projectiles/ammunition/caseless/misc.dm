@@ -4,8 +4,20 @@
 	projectile_type = /obj/item/projectile/bullet/reusable/magspear
 	caliber = "speargun"
 	icon_state = "magspear"
-	throwforce = 15 //still deadly when thrown
+	throwforce = 30 //still deadly when thrown
 	throw_speed = 3
+
+/obj/item/ammo_casing/caseless/magspear/throw_impact(atom/hit_atom, datum/thrownthing/throwingdatum)
+	if(!ishuman(hit_atom))
+		return ..()
+	var/mob/living/carbon/human/H = hit_atom
+	if(istype(H.get_active_held_item(), /obj/item/gun/ballistic/automatic/speargun))
+		var/obj/item/gun/ballistic/automatic/speargun/SG = H.get_active_held_item()
+		if(LAZYLEN(SG.magazine.stored_ammo))
+			return ..()
+		SG.magazine.give_round(src)
+		SG.chamber_round()
+		to_chat(H, "<span class = 'notice'>[src] magnetically loads itself into the [SG]!</span>")
 
 /obj/item/ammo_casing/caseless/laser
 	name = "laser casing"
