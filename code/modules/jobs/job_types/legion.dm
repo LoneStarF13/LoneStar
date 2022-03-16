@@ -836,7 +836,6 @@ commented out pending rework*/
 	backpack_contents = list(
 		/obj/item/ammo_box/a357 = 3,
 		/obj/item/restraints/legcuffs/bola = 1,
-		/obj/item/book/granter/trait/trekking = 1,
 		/obj/item/grenade/f13/frag = 1,
 		)
 
