@@ -74,11 +74,6 @@ PEACEKEEPERS
 	exp_type = EXP_TYPE_ENCLAVE
 	outfit = /datum/outfit/job/enclave/peacekeeper/officer
 
-	loadout_options = list(
-	/datum/outfit/loadout/captain, //head honcho
-	/datum/outfit/loadout/lieutenant //tear gas grenade
-	)
-
 /datum/outfit/job/enclave/peacekeeper/officer/pre_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()
 	if(visualsOnly)
