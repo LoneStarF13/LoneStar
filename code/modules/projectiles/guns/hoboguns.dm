@@ -231,7 +231,7 @@
 	knife_x_offset = 22
 	knife_y_offset = 20
 	bayonet_state = "bayonet"
-	scope_state = "scope_long"
+	scope_state = "scope_short"
 	scope_x_offset = 11
 	scope_y_offset = 14
 	fire_sound = 'sound/f13weapons/lasmusket_fire.ogg'
@@ -245,14 +245,12 @@
 	desc = "The cooling looks dubious and is that a empty can of beans used as a safety valve? Pray the plasma goes towards the enemy and not your face when you pull the trigger."
 	icon_state = "plasmamusket"
 	item_state = "plasmamusket"
-	mag_type = /obj/item/ammo_box/magazine/internal/plasmacaster
+	mag_type = /obj/item/ammo_box/magazine/internal/plasmamusket
 	fire_delay = 20
 	var/bolt_open = FALSE
 	dryfire_sound = 'sound/f13weapons/noammoenergy.ogg'
 	dryfire_text = "*power failure*"
-	scope_state = "scope_medium"
-	scope_x_offset = 9
-	scope_y_offset = 20
+	can_scope = FALSE
 	fire_sound = 'sound/f13weapons/lasmusket_fire.ogg'
 	pump_sound = 'sound/f13weapons/lasmusket_crank.ogg'
 	equipsound = 'sound/f13weapons/equipsounds/aep7equip.ogg'

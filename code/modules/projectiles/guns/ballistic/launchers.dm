@@ -56,8 +56,12 @@
 	burst_size = 1
 	fire_delay = 0
 	select = 0
-	actions_types = list()
+	zoomable = TRUE
+	zoom_amt = 10
+	zoom_out_amt = 13
+	actions_types = list(/datum/action/item_action/retract_spears)
 	casing_ejector = FALSE
+	var/list/ourcasings = list()
 
 /obj/item/gun/ballistic/automatic/speargun/ComponentInitialize()
 	. = ..()
@@ -72,6 +76,27 @@
 		to_chat(user, "<span class='notice'>You load [num_loaded] spear\s into \the [src].</span>")
 		update_icon()
 		chamber_round()
+
+/datum/action/item_action/retract_spears
+	name = "Magentize Spears"
+	desc = "Magnetically re-attract all your launched spears!"
+	check_flags = AB_CHECK_CONSCIOUS|AB_CHECK_RESTRAINED|AB_CHECK_STUN|AB_CHECK_LYING
+	icon_icon = 'icons/mob/actions/actions_items.dmi'
+	button_icon_state = "recall_spear"
+
+/datum/action/item_action/retract_spears/Trigger()
+	var/obj/item/gun/ballistic/automatic/speargun/SG = target
+	var/obj/item/thethrown
+	for(var/i in SG.ourcasings)
+		thethrown = i
+		thethrown.safe_throw_at(owner, 50, 2)
+	SG.ourcasings.Cut()
+
+/datum/action/item_action/retract_spears/IsAvailable()
+	. = ..()
+	var/obj/item/gun/ballistic/automatic/speargun/SG = target
+	if(!LAZYLEN(SG.ourcasings))
+		return FALSE
 
 /obj/item/gun/ballistic/rocketlauncher
 	name = "\improper rocket launcher"

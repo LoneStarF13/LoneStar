@@ -471,6 +471,17 @@
 	desc = "14mm bullets loaded with a gaseous hepatoxic payload, which reduces the effectiveness of medicine and toxins."
 	ammo_type = /obj/item/ammo_casing/p14mm/contam
 
+/obj/item/ammo_box/m14mm/uraniumtipped
+	name = "ammo box (14mm contaminated)"
+	desc = "14mm cartridges loaded with enriched uranium bullets."
+	ammo_type = /obj/item/ammo_casing/p14mm/uraniumtipped
+
+/obj/item/ammo_box/m14mm/improv
+	name = "bag with reloaded 14mm bullets"
+	desc = "The casings are worn, the gunpowder some homebrew mix of dubious quality. At least it goes bang. Should you really be handloading 14mm like this?"
+	icon_state = "improvshotbag"
+	multiple_sprites = 1
+
 //Misc.
 /obj/item/ammo_box/m473
 	name = "ammo box (4.73mm caseless)"
@@ -479,6 +490,35 @@
 	multiple_sprites = 2
 	ammo_type = /obj/item/ammo_casing/caseless/g11
 	max_ammo = 50
+
+/obj/item/ammo_box/m473/rubber
+	name = "ammo box (4.73mm less-than-lethal)"
+	ammo_type = /obj/item/ammo_casing/caseless/g11/rubber
+
+/obj/item/ammo_box/m473/incendiary
+	name = "ammo box (4.73mm incendiary)"
+	ammo_type = /obj/item/ammo_casing/caseless/g11/incendiary
+
+/obj/item/ammo_box/m473/uraniumtipped
+	name = "ammo box (4.73mm uranium-tipped)"
+	ammo_type = /obj/item/ammo_casing/caseless/g11/uraniumtipped
+
+/obj/item/ammo_box/m473/dumdum
+	name = "ammo box (4.73mm flat-nose)"
+	ammo_type = /obj/item/ammo_casing/caseless/g11/dumdum
+
+/obj/item/ammo_box/m473/explosive
+	name = "ammo box (4.73mm explosive)"
+	desc = "Explosive caseless rounds. Very safe."
+	ammo_type = /obj/item/ammo_casing/caseless/g11/explosive
+
+/obj/item/ammo_box/m473/shock
+	name = "ammo box (4.73mm ESD)"
+	ammo_type = /obj/item/ammo_casing/caseless/g11/shock
+
+/obj/item/ammo_box/m473/hv
+	name = "ammo box (4.73mm high-velocity)"
+	ammo_type = /obj/item/ammo_casing/caseless/g11/hv
 
 /obj/item/ammo_box/lasmusket
 	name = "Battery box (Laser musket)"
@@ -495,7 +535,7 @@
 	icon = 'icons/fallout/objects/guns/ammo.dmi'
 	icon_state = "plasmusketbox"
 	multiple_sprites = 2
-	ammo_type = /obj/item/ammo_casing/caseless/plasmacaster
+	ammo_type = /obj/item/ammo_casing/caseless/plasmamusket
 	max_ammo = 6
 	custom_materials = list(MAT_METAL = 1000)
 	w_class = WEIGHT_CLASS_NORMAL
@@ -726,6 +766,9 @@
 	custom_materials = list(/datum/material/iron = 2000)
 	w_class = WEIGHT_CLASS_SMALL
 
+/obj/item/ammo_box/a762/empty
+	start_empty = 1
+
 /obj/item/ammo_box/a308
 	name = "stripper clip (.308)"
 	desc = "A stripper clip."
@@ -737,6 +780,9 @@
 	custom_materials = list(/datum/material/iron = 2000)
 	w_class = WEIGHT_CLASS_SMALL
 
+/obj/item/ammo_box/a308/empty
+	start_empty = 1
+
 /obj/item/ammo_box/a762/doublestacked
 	name = "double stack stripper clip (.308)"
 	desc = "A stripper clip."
@@ -747,6 +793,9 @@
 	multiple_sprites = 1
 	custom_materials = list(/datum/material/iron = 2000)
 	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/ammo_box/a762/doublestacked/empty
+	start_empty = 1
 
 //5.56x45mm
 /obj/item/ammo_box/a556/stripper

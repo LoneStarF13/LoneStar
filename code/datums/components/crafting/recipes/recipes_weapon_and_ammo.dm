@@ -30,6 +30,32 @@
 	category = CAT_WEAPONRY
 	subcategory = CAT_MELEE
 
+
+
+/datum/crafting_recipe/scraptower
+	name = "Scrap Towershield"
+	result = /obj/item/shield/riot/tower/scrap
+	reqs = list(/obj/item/stack/cable_coil = 30,
+				/obj/item/stack/sheet/metal = 35,
+				/obj/item/crafting/duct_tape = 1,
+				/obj/item/crafting/wonderglue = 1)
+	tools = list(TOOL_WELDER)
+	time = 100
+	category = CAT_WEAPONRY
+	subcategory = CAT_MELEE
+
+/datum/crafting_recipe/steeltower
+	name = "Steel Towershield"
+	result = /obj/item/shield/riot/tower
+	reqs = list(/obj/item/stack/cable_coil = 30,
+				/obj/item/stack/sheet/metal = 15,
+				/obj/item/stack/crafting/metalparts = 5)
+	tools = list(TOOL_WELDER)
+	time = 100
+	category = CAT_WEAPONRY
+	subcategory = CAT_MELEE
+	always_available = FALSE
+
 /datum/crafting_recipe/buckler
 	name = "Wooden Buckler"
 	result = /obj/item/shield/riot/buckler
@@ -513,6 +539,18 @@
 	category = CAT_WEAPONRY
 	subcategory = CAT_AMMO
 
+/datum/crafting_recipe/a308
+	name = ".308 ammo box"
+	result = /obj/item/ammo_box/a308box
+	reqs = list(/obj/item/stack/sheet/metal = 7,
+	/datum/reagent/blackpowder = 25
+	)
+	tools = list(TOOL_MSRELOADER)
+	time = 75
+	category = CAT_WEAPONRY
+	subcategory = CAT_AMMO
+
+
 /datum/crafting_recipe/a50MGboxuranium
 	name = "12.7mm U-235 ammo box"
 	result = /obj/item/ammo_box/a50MGbox/uraniumtipped
@@ -553,6 +591,30 @@
 	)
 	tools = list(TOOL_AWORKBENCH)
 	time = 100
+	category = CAT_WEAPONRY
+	subcategory = CAT_AMMO
+
+/datum/crafting_recipe/m14mmboxuranium
+	name = "14mm uranium-tipped ammo box"
+	result = /obj/item/ammo_box/m14mm/uraniumtipped
+	reqs = list(/obj/item/stack/crafting/metalparts = 1,
+	/obj/item/stack/sheet/mineral/titanium = 1,
+	/obj/item/stack/sheet/mineral/uranium = 1,
+	/datum/reagent/blackpowder = 50
+	)
+	tools = list(TOOL_AWORKBENCH)
+	time = 100
+	category = CAT_WEAPONRY
+	subcategory = CAT_AMMO
+
+/datum/crafting_recipe/p14mm
+	name = "14mm handloaded ammo bag"
+	result = /obj/item/ammo_box/m14mm/improv
+	reqs = list(/obj/item/stack/sheet/metal = 6,
+	/datum/reagent/blackpowder = 30
+	)
+	tools = list(TOOL_MSRELOADER)
+	time = 75
 	category = CAT_WEAPONRY
 	subcategory = CAT_AMMO
 
@@ -699,6 +761,25 @@
 	category = CAT_WEAPONRY
 	subcategory = CAT_WEAPON
 
+/datum/crafting_recipe/plasmasniper
+	name = "Plasma Cannon"
+	result = /obj/item/gun/energy/laser/plasma/sniper
+	reqs = list(/obj/item/gun/ballistic/rifle/hobo/plasmacaster = 1,
+				/obj/item/stack/crafting/electronicparts = 5,
+				/obj/item/stack/sheet/metal = 4,
+				/obj/item/stack/crafting/goodparts = 3,
+				/obj/item/advanced_crafting_components/assembly = 1,
+				/obj/item/advanced_crafting_components/alloys = 1,
+				/obj/item/advanced_crafting_components/conductors = 1,
+				/obj/item/advanced_crafting_components/flux = 2,
+				/obj/item/stack/sheet/mineral/titanium = 1,
+				/obj/item/attachments/scope = 1,
+				/obj/item/stack/cable_coil = 10)
+	tools = list(TOOL_WORKBENCH, TOOL_MULTITOOL, TOOL_WELDER, TOOL_SCREWDRIVER)
+	time = 150
+	always_available = FALSE
+	category = CAT_WEAPONRY
+	subcategory = CAT_WEAPON
 
 //browning hi-power
 /datum/crafting_recipe/ninemil
@@ -1406,6 +1487,21 @@
 				/obj/item/advanced_crafting_components/alloys = 1,
 				/obj/item/advanced_crafting_components/lenses = 1,
 				/obj/item/stack/crafting/goodparts = 3,
+				/obj/item/stack/crafting/electronicparts = 3
+				)
+	tools = list(TOOL_AWORKBENCH)
+	time = 120
+	category = CAT_WEAPONRY
+	subcategory = CAT_WEAPON
+	always_available = FALSE
+
+//wattz 2000e
+/datum/crafting_recipe/wattz2ke
+	name = "Wattz 2000 Laser Rifle Ext. Capacity"
+	result = /obj/item/gun/energy/laser/wattz2k/extended
+	reqs = list(/obj/item/gun/energy/laser/wattz2k = 1,
+				/obj/item/advanced_crafting_components/alloys = 2,
+				/obj/item/stock_parts/capacitor/adv = 1,
 				/obj/item/stack/crafting/electronicparts = 3
 				)
 	tools = list(TOOL_AWORKBENCH)

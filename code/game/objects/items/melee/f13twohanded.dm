@@ -601,7 +601,6 @@ obj/item/twohanded/sledgehammer/supersledge/afterattack(atom/A, mob/living/user,
 	. = ..()
 	AddComponent(/datum/component/two_handed, force_unwielded = 25, force_wielded = 45, icon_wielded="[icon_prefix]2")
 
-
 // Shaman staff				Keywords: Damage 15/30, Big stamina damage buff
 /obj/item/twohanded/sledgehammer/shamanstaff
 	name = "shaman staff"

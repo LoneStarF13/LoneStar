@@ -43,3 +43,11 @@
 	icon_state = "plasmacan"
 	projectile_type = /obj/item/projectile/f13plasma/plasmacaster
 	firing_effect_type = /obj/effect/temp_visual/dir_setting/firing_effect/energy
+	
+/obj/item/ammo_casing/caseless/plasmamusket
+	name = "Plasma can"
+	desc = "A single use can of plasma for the plasma musket."
+	caliber = "plasmacaster"
+	icon_state = "plasmacan"
+	projectile_type = /obj/item/projectile/f13plasma/plasmamusket
+	firing_effect_type = /obj/effect/temp_visual/dir_setting/firing_effect/energy
