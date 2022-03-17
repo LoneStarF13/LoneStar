@@ -810,8 +810,8 @@ Mayor
 /datum/job/oasis/f13detective
 	title = "Bodyguard"
 	flag = F13DETECTIVE
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 2
+	spawn_positions = 2
 	description = "You're the Mayor's bodyguard, handpicked by them to protect them from anything or anyone who may want to harm them. Whether you're their lifelong friend, a special officer assigned to them by the Chief, or just some mercenary they hired off the street, you're loyal to no one except the Mayor."
 	supervisors = "The Mayor"
 	selection_color = "#dcba97"
@@ -860,11 +860,12 @@ Mayor
 	suit = /obj/item/clothing/suit/armor/f13/combat/swat
 	head = /obj/item/clothing/head/helmet/f13/combat/swat
 	gloves = /obj/item/clothing/gloves/f13/military
-	suit_store = /obj/item/gun/ballistic/shotgun/automatic/combat/shotgunlever
+	suit_store = /obj/item/gun/ballistic/automatic/type93
 	backpack_contents = list(
-		/obj/item/ammo_box/shotgun/buck = 2,
-		/obj/item/gun/ballistic/automatic/pistol/ninemil = 1,
-		/obj/item/ammo_box/magazine/m9mmds = 2,
+		/obj/item/ammo_box/magazine/m556/rifle/assault = 1,
+		/obj/item/gun/ballistic/automatic/pistol/n99 = 1,
+		/obj/item/ammo_box/magazine/m10mm_adv/simple = 2,
+		/obj/item/suppressor = 1,
 		)
 
 /datum/outfit/loadout/formerraider
@@ -872,11 +873,12 @@ Mayor
 	suit = /obj/item/clothing/suit/armor/f13/plates
 	head = /obj/item/clothing/head/helmet/f13/metalmask
 	gloves = /obj/item/clothing/gloves/f13/handwraps
-	suit_store = /obj/item/gun/ballistic/automatic/type93
+	suit_store = /obj/item/gun/ballistic/shotgun/automatic/combat/shotgunlever
 	backpack_contents = list(
-		/obj/item/ammo_box/magazine/m556/rifle/assault = 1,
-		/obj/item/gun/ballistic/automatic/pistol/n99 = 1,
-		/obj/item/ammo_box/magazine/m10mm_adv/simple = 2,
+		/obj/item/ammo_box/shotgun/buck = 2,
+		/obj/item/gun/ballistic/automatic/pistol/ninemil = 1,
+		/obj/item/ammo_box/magazine/m9mmds = 2,
+		/obj/item/reagent_containers/pill/patch/jet = 2,
 		)
 
 /datum/outfit/loadout/formerregulator
@@ -890,6 +892,7 @@ Mayor
 		/obj/item/ammo_box/magazine/m556/rifle = 2,
 		/obj/item/gun/ballistic/automatic/pistol/automag = 1,
 		/obj/item/ammo_box/magazine/automag = 2,
+		/obj/item/storage/box/ration/menu_two = 1,
 		)
 
 /datum/outfit/job/oasis/f13detective/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
