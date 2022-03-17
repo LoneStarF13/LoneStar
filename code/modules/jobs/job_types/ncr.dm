@@ -322,14 +322,8 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 		/obj/item/gun/ballistic/automatic/pistol/ninemil = 1,
 		/obj/item/ammo_box/magazine/m9mmds = 3,
 		/obj/item/storage/box/ration/menu_eight = 1,
+		/obj/item/book/granter/trait/trekking = 1,
 		)
-		
-/datum/outfit/job/ncr/f13sergeant/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
-	. = ..()
-	if(visualsOnly)
-		return
-	ADD_TRAIT(H, TRAIT_GENERIC, src)
-	ADD_TRAIT(H, TRAIT_HARD_YARDS, src)
 
 /datum/outfit/loadout/sergeantrifleman
 	name = "Rifleman"
@@ -909,13 +903,6 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	selection_color = "#fff5cc"
 	display_order = JOB_DISPLAY_ORDER_CORPORAL
 	outfit = /datum/outfit/job/ncr/f13corporal
-	
-/datum/outfit/job/ncr/f13corporal/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
-	. = ..()
-	if(visualsOnly)
-		return
-	ADD_TRAIT(H, TRAIT_GENERIC, src)
-	ADD_TRAIT(H, TRAIT_HARD_YARDS, src)
 
 	loadout_options = list(
 		/datum/outfit/loadout/corporaldesignatedmarksman, // Remington rife, 9mm sidearm, Bayonet
@@ -941,6 +928,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 		/obj/item/storage/bag/money/small/ncrenlisted = 1,
 		/obj/item/storage/survivalkit/aid = 1,
 		/obj/item/storage/box/ration/menu_one = 1,
+		/obj/item/book/granter/trait/trekking = 1,
 		)
 
 /datum/outfit/loadout/corporaldesignatedmarksman
@@ -1168,7 +1156,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 		/obj/item/storage/bag/money/small/ncrofficers = 1,
 		/obj/item/stack/sheet/metal/twenty = 2,
 		/obj/item/stack/sheet/glass/ten = 2,
-		/obj/item/book/granter/trait/explosives = 1
+		/obj/item/book/granter/trait/explosives = 1,
 		/obj/item/storage/box/ration/menu_eight = 1,
 		)
 
