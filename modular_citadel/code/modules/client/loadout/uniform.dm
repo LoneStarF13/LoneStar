@@ -776,4 +776,4 @@
 	path = /obj/item/clothing/under/rank/civilian/bartender/skirt
 	cost = 1
 	subcategory = LOADOUT_SUBCATEGORY_UNIFORM_SKIRTS
-	
+
