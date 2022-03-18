@@ -1091,24 +1091,31 @@
 
 //R93 PDW		Keywords: 5.56mm, Semi-Automatic, 20 (10-50) round magazine, Pistol grip
 /obj/item/gun/ballistic/automatic/r93
-	name = "R93 PDW"
-	desc = "A lightweight assault rifle manufactured by the Brotherhood of Steel with a folding stock, based on weapons from the R-series platforms. It is generally issued to Brotherhood Knights for scouting missions."
+	name = "r93 assault rifle"
+	desc = "A lightweight assault rifle manufactured by the Brotherhood of Steel with a folding stock, based on weapons from the R-series platforms. It is generally issued to Brotherhood knights for most combat operations."
 	icon_state = "r93"
 	item_state = "r93"
 	mag_type = /obj/item/ammo_box/magazine/m556/rifle
-	fire_delay = 3.25
-	spread = 1
-	extra_damage = 25
-	burst_size = 1
-	can_attachments = FALSE
-	semi_auto = TRUE
-	automatic_burst_overlay = FALSE
+	fire_delay = 2.5
+	slowdown = 0.3
+	spread = 10
+	extra_damage = 21
+	recoil = 0.125
+	is_automatic = TRUE
+	automatic = 1
+	autofire_shot_delay = 2.75
+	can_attachments = TRUE
+	can_bayonet = FALSE
 	can_scope = FALSE
 	zoomable = TRUE
-	zoom_amt = 6
-	zoom_out_amt = 9
-	can_bayonet = FALSE
-	fire_sound = 'sound/weapons/Gunshot_large_silenced.ogg'
+	zoom_amt = 9
+	zoom_out_amt = 10
+	can_suppress = TRUE
+	suppressor_x_offset = 0
+	suppressor_y_offset = 0
+	suppressor_state = "r93_suppressor"
+	actions_types = list(/datum/action/item_action/toggle_firemode)
+	fire_sound = 'sound/f13weapons/assaultrifle_fire.ogg'
 
 //Type 93 Chinese rifle				Keywords: 5.56mm, Automatic, 20 (10-50) round magazine
 /obj/item/gun/ballistic/automatic/type93
