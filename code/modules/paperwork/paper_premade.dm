@@ -255,3 +255,23 @@
 	Mix the fermented results of Xander root, barrel cactii,broc flowers and Sarsaparilla together in a large glass beaker.</b>
 	<br>
 	Bitter drink should be the result which can then be bottled by crafting. It is a very potent drink, so more than two should not be consumed."}
+
+/obj/item/paper/legionifak
+	name = "Legion Trauma Kit Instructions"
+	info = {"Bandages stop bleeding. Cut some bed sheets, or use some cloth to turn them into improvised gauze. You can then microwave them to get medical gauze.
+	<br>
+	<br>Sutures close wounds with excessive use, and can also be used to heal brute damage. While closing wounds, you will keep bleeding so bandage yourself first. You can get more by using the method above, but instead of microwaving the gauze combine it with alcohol via medical crafting to make improvised sutures.
+	<br>
+	<br>Ointment is used to treat burns. Apply the ointment to the burnt areas. Severe burn wounds will require you to bandage it then apply ointment. You can make more ointment through combining agave and gauze via crafting.
+	<br>
+	<br>Xander tea will help you recover blood and slow down blood loss. You can get more xander tea by juicing xander roots in a grinder, adding twice the amount of water as xander juice and heating it in a microwave or using a lighter/zippo/welder on it."}
+
+/obj/item/paper/ncrifak
+	name = "NCR Trauma Kit Instructions"
+	info = {"Bandages stop bleeding. Cut some bed sheets, or use some cloth to turn them into improvised gauze. You can then microwave them to get medical gauze. You can then combine the gauze and sterilizine (found via medical vendor) to make improved gauze.
+	<br>
+	<br>Sutures close wounds with excessive use, and can also be used to heal brute damage. While closing wounds, you will keep bleeding so bandage yourself first. You can get more by using the method above, but instead of microwaving the gauze combine it with alcohol or styptic powder (can be found in a medical vendor) via medical crafting to make improvised sutures and normal sutures respectively.
+	<br>
+	<br>Ointment is used to treat burns. Apply the ointment to the burnt areas. Severe burn wounds will require you to bandage it then apply ointment. You can make more ointment through combining agave and gauze via crafting. You can make regenerative mesh through combining silver sulfadiazine (obtained via medical vendor) which is a superior ointment.
+	<br>
+	<br>Epinephrine will clot excessive wounds, halting blood loss and preventing death in critical condition, preserve for when you're bleeding out. You can get more epipens from medical vendors in old ruins or general scavenging."}
