@@ -988,6 +988,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	glasses	= null
 	backpack_contents = list(
 		/obj/item/storage/bag/money/small/ncrenlisted = 1,
+		/obj/item/storage/survivalkit/ncrifak = 1,
 		)
 
 /datum/outfit/loadout/trooperrifleman
