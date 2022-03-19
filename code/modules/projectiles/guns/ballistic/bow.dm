@@ -150,9 +150,10 @@
 /obj/item/gun/ballistic/bow/yumi
 	name = "Yumi"
 	desc = "A large, slow, unwieldy bow. While heavy and slow to fire, an arrow fired from it is likely to be devestating."
-	icon_state = "bow"
-	item_state = "bow"
-	icon_prefix = "bow"
+	icon = 'icons/fallout/objects/guns/ballistic.dmi'
+	icon_state = "yumi"
+	item_state = "yumi"
+	icon_prefix = "yumi"
 	w_class = WEIGHT_CLASS_NORMAL
 	slowdown = 2
 	force = 30
