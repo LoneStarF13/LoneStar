@@ -73,3 +73,9 @@
 	desc = "An arrow made of wood, tipped with bronze. The tip is dense enough to provide some armor penetration."
 	icon_state = "bronzearrow"
 	projectile_type = /obj/item/projectile/bullet/reusable/arrow/bronze
+	
+/obj/item/ammo_casing/caseless/arrow/explosive
+	name = "explosive arrow"
+	desc = "An arrow with an pressure-activated explosive charge at the end. Cannot be reused."
+	icon_state = "explosivearrow"
+	projectile_type = /obj/item/projectile/bullet/arrow/explosive
