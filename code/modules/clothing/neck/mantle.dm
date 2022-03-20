@@ -48,10 +48,16 @@
 	desc = "Issued to the Elders of the Brotherhood. Style over substance is important. This one is designed to be worn over the shoulder."
 	icon_state = "bosshouldercape_r"
 
-/obj/item/clothing/neck/mantle/bos/paladin
-	name = "Paladin cape"
-	desc = "This stylish deep crimson cape is made to be worn below a power armor pauldron, a shoulder holster is added for utility."
-	icon_state = "paladin"
+/obj/item/clothing/neck/mantle/bos/shortpaladin
+	name = "short paladin cape"
+	desc = "This stylish deep crimson cape is made to be worn below a power armor pauldron, a shoulder holster is added for utility. Shorter version."
+	icon_state = "palcapes"
+	pocket_storage_component_path = /datum/component/storage/concrete/pockets/bos/paladin
+
+/obj/item/clothing/neck/mantle/bos/longpaladin
+	name = "long paladin cape"
+	desc = "This stylish deep crimson cape is made to be worn below a power armor pauldron, a shoulder holster is added for utility. Longer version."
+	icon_state = "palcapel"
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets/bos/paladin
 
 /obj/item/clothing/neck/mantle/ranger

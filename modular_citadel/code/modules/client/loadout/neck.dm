@@ -23,6 +23,25 @@
 	name = "ragged mantle"
 	path = /obj/item/clothing/neck/mantle/ragged
 
+/datum/gear/neck/mantle/palcapes
+	name = "short paladin cape"
+	path = /obj/item/clothing/neck/mantle/bos/shortpaladin
+	cost = 3
+	restricted_desc = "Paladins"
+	restricted_roles = list("Head Paladin",
+							"Senior Paladin",
+							"Paladin",
+							)
+
+/datum/gear/neck/mantle/palcapel
+	name = "long paladin cape"
+	path = /obj/item/clothing/neck/mantle/bos/longpaladin
+	cost = 3
+	restricted_desc = "Paladins"
+	restricted_roles = list("Head Paladin",
+							"Senior Paladin",
+							"Paladin",
+							)
 
 /datum/gear/neck/apron
 	name = "simple apron"
