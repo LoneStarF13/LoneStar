@@ -438,7 +438,7 @@
 
 /obj/item/projectile/beam/laser/tribeam/hitscan
 	name = "tribeam laser"
-	damage = 15 //if all bullets connect, this will do 45.
+	damage = 13 //if all bullets connect, this will do 39.
 	hitscan = TRUE
 	bare_wound_bonus = -30 //tribeam is bad at wounding, as basically its only real downside
 	tracer_type = /obj/effect/projectile/tracer/laser
@@ -512,7 +512,7 @@
 /obj/item/projectile/beam/laser/rcw/hitscan //RCW
 	name = "rapidfire beam"
 	icon_state = "emitter"
-	damage = 15
+	damage = 18
 	hitscan = TRUE
 	muzzle_type = /obj/effect/projectile/muzzle/laser/emitter
 	tracer_type = /obj/effect/projectile/tracer/laser/emitter

@@ -377,7 +377,7 @@
 	desc = "It's an advanced power armor MK1 helmet, typically used by the Enclave. It looks somewhat threatening."
 	icon_state = "advhelmet1"
 	item_state = "advhelmet1"
-	armor = list("melee" = 80, "bullet" = 80, "laser" = 85, "energy" = 35, "bomb" = 72, "bio" = 100, "rad" = 100, "fire" = 90, "acid" = 0, "wound" = 90)
+	armor = list("melee" = 82.5, "bullet" = 82.5, "laser" = 82.5, "energy" = 35, "bomb" = 62, "bio" = 100, "rad" = 99, "fire" = 90, "acid" = 0, "wound" = 82.5)
 
 
 /obj/item/clothing/head/helmet/f13/power_armor/advanced/hellfire
@@ -391,11 +391,11 @@
 //Part of the peacekeeper enclave stuff, adjust values as needed.
 /obj/item/clothing/head/helmet/f13/power_armor/x02helmet
 	name = "Enclave power armor helmet"
-	desc = "The Enclave Mark II Powered Combat Armor helmet."
+	desc = "The Enclave Advanced Powered Combat Armor helmet."
 	icon_state = "advanced"
 	item_state = "advanced"
 	slowdown = 0.1
-	armor = list("melee" = 85, "bullet" = 85, "laser" = 87, "energy" = 65, "bomb" = 62, "bio" = 100, "rad" = 99, "fire" = 90, "acid" = 0, "wound" = 70)
+	armor = list("melee" = 82.5, "bullet" = 82.5, "laser" = 82.5, "energy" = 35, "bomb" = 62, "bio" = 100, "rad" = 99, "fire" = 90, "acid" = 0, "wound" = 82.5)
 	actions_types = list(/datum/action/item_action/toggle_helmet_light)
 
 

@@ -265,7 +265,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 		/obj/item/storage/bag/money/small/ncrofficers = 1,
 		/obj/item/ammo_box/magazine/garand308 = 1,
 		/obj/item/grenade/smokebomb = 1,
-		/obj/item/storage/box/ration/menu_eight = 1,
+		/obj/item/storage/box/ration/menu_eight = 1
 		)
 
 /datum/outfit/job/ncr/f13lieutenant/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
@@ -343,6 +343,8 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	backpack_contents = list(
 		/obj/item/ammo_box/magazine/m10mm_adv/ext = 2,
 		/obj/item/melee/onehanded/knife/trench = 1,
+		/obj/item/storage/box/ration/menu_eight = 1,
+		/obj/item/book/granter/trait/trekking = 1,
 		/obj/item/grenade/f13/frag = 1,
 		)
 
@@ -483,6 +485,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 		/obj/item/melee/onehanded/knife/bowie = 1,
 		/obj/item/storage/survivalkit/aid/adv = 1,
 		/obj/item/storage/bag/money/small/ncrofficers = 1,
+		/obj/item/grenade/smokebomb = 1,
 		)
 
 /datum/outfit/loadout/vrclassic
@@ -573,6 +576,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 		/obj/item/melee/onehanded/knife/bowie = 1,
 		/obj/item/storage/bag/money/small/ncrofficers = 1,
 		/obj/item/clothing/mask/gas/ranger = 1,
+		/obj/item/grenade/smokebomb = 1,
 		)
 
 /datum/outfit/loadout/rangerrecon
@@ -678,7 +682,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 		/obj/item/ammo_box/magazine/m9mmds = 2,
 		/obj/item/storage/bag/money/small/ncrenlisted = 1,
 		/obj/item/storage/box/ration/menu_two = 1,
-		/obj/item/grenade/f13/frag = 1,
+		/obj/item/grenade/f13/frag = 1
 		)
 
 /datum/outfit/loadout/shockht
@@ -942,7 +946,8 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 		/obj/item/gun/ballistic/automatic/pistol/ninemil = 1,
 		/obj/item/ammo_box/magazine/m9mmds = 2,
 		/obj/item/storage/belt/holster/legholster = 1,
-		/obj/item/grenade/smokebomb = 1,
+		/obj/item/storage/box/ration/menu_two = 1,
+		/obj/item/grenade/smokebomb = 1
 		)
 
 /datum/outfit/loadout/corporalrifleman
@@ -952,7 +957,9 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	suit_store = /obj/item/gun/ballistic/automatic/service/r82
 	backpack_contents = list(
 		/obj/item/ammo_box/magazine/m556/rifle = 2,
-		/obj/item/grenade/f13/frag = 1,
+		/obj/item/storage/box/ration/menu_one = 1,
+		/obj/item/book/granter/trait/trekking = 1,
+		/obj/item/grenade/f13/frag = 1
 		)
 
 

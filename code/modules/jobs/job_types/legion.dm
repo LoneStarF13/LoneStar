@@ -480,7 +480,7 @@ commented out pending rework*/
 		/obj/item/melee/onehanded/machete/forgedmachete = 1,
 		/obj/item/storage/backpack/spearquiver = 1,
 		/obj/item/melee/onehanded/knife/bayonet = 1,
-		/obj/item/warpaint_bowl,
+		/obj/item/warpaint_bowl = 1,
 		)
 
 
@@ -1062,7 +1062,7 @@ commented out pending rework*/
 	r_pocket = /obj/item/flashlight/lantern
 	backpack_contents = list(
 		/obj/item/reagent_containers/pill/patch/healingpowder = 2,
-		/obj/item/warpaint_bowl
+		/obj/item/warpaint_bowl = 1,
 		)
 
 /datum/outfit/job/CaesarsLegion/auxilia/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)

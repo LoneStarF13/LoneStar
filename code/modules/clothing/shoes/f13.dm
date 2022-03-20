@@ -102,6 +102,12 @@
 	icon_state = "ncr_boots"
 	item_state = "ncr"
 
+/obj/item/clothing/shoes/f13/military/serviceboots
+	name = "service boots"
+	desc = "Tall, shiny boots with kevlar layers."
+	icon_state = "boots_enclave"
+	item_state = "boots_enclave"
+
 /obj/item/clothing/shoes/f13/military/ncr_officer_boots
 	name = "officer boots"
 	desc = "A pair of well-polished brown leather calf boots fitted with straps."
