@@ -117,7 +117,6 @@
 		dropped = TRUE
 	new /obj/effect/temp_visual/explosion(get_turf(target))
 	return BULLET_ACT_HIT
-	handle_drop()
 
 /obj/item/projectile/bullet/reusable/arrow/explosive/handle_drop()
 	if(!dropped)
