@@ -66,6 +66,12 @@
 	icon_state = "rangercape"
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets/bos/paladin
 
+/obj/item/clothing/neck/mantle/rangerponcho
+	name = "NCR ranger poncho"
+	desc = "An old poncho used by rangers to protect from the natural elements. Most likely has a holster hidden underneath."
+	icon_state = "rangerponcho"
+	pocket_storage_component_path = /datum/component/storage/concrete/pockets/bos/paladin
+
 /obj/item/clothing/neck/mantle/chief
 	name = "chieftains mantle"
 	desc = "A symbol of the authority of the Wayfarer Chief."

@@ -43,6 +43,15 @@
 							"Paladin",
 							)
 
+/datum/gear/neck/mantle/rangerponcho
+	name = "NCR ranger poncho"
+	path = /obj/item/clothing/neck/mantle/rangerponcho
+	cost = 3
+	restricted_desc = "Rangers"
+	restricted_roles = list("NCR Ranger",
+							"NCR Veteran Ranger",
+							)
+
 /datum/gear/neck/apron
 	name = "simple apron"
 	path = /obj/item/clothing/neck/apron/labor
