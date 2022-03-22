@@ -65,6 +65,9 @@ Administrator
 	ADD_TRAIT(H, TRAIT_CHEMWHIZ, src)
 	ADD_TRAIT(H, TRAIT_MEDICALEXPERT, src)
 	ADD_TRAIT(H, TRAIT_SURGERY_HIGH, src)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/plasmasniper)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/durathread_vest)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/tribalradio)
 
 /datum/outfit/job/followers/f13leadpractitioner
 	name =	"Followers Administrator"
@@ -119,6 +122,9 @@ Professor
 	ADD_TRAIT(H, TRAIT_TECHNOPHREAK, src)
 	ADD_TRAIT(H, TRAIT_GENERIC, src)
 	ADD_TRAIT(H, TRAIT_CHEMWHIZ, src)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/plasmasniper)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/durathread_vest)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/tribalradio)
 
 /datum/outfit/job/followers/f13Professor
 	name = "Followers Scientist"

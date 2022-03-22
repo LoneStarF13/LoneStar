@@ -632,6 +632,7 @@ Raider
 		/obj/item/melee/onehanded/knife/bone = 1,
 		/obj/item/radio/tribal = 1,
 		/obj/item/book/granter/trait/bigleagues = 1,
+		/obj/item/book/granter/crafting_recipe/blueprint/yumi = 1,
 		)
 
 /datum/outfit/loadout/raider_mobster
@@ -1160,7 +1161,9 @@ Raider
 	..()
 	ADD_TRAIT(H, TRAIT_TECHNOPHREAK, src)
 	ADD_TRAIT(H, TRAIT_LIFEGIVER, src)
-
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/plasmasniper)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/tribalradio)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/durathread_vest)
 
 /datum/outfit/job/wasteland/f13mobboss/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()
@@ -1229,6 +1232,9 @@ datum/job/wasteland/f13dendoctor
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/medx)
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/buffout)
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/set_vrboard/den)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/plasmasniper)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/tribalradio)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/durathread_vest)
 
 
 /datum/outfit/job/wasteland/f13dendoctor/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
@@ -1456,7 +1462,9 @@ datum/job/wasteland/f13dendoctor
 		/datum/crafting_recipe/tribalwar/bracers,
 		/datum/crafting_recipe/tribal/bonetalisman,
 		/datum/crafting_recipe/tribal/bonebag,
-		/datum/crafting_recipe/tribalwar/spearquiver
+		/datum/crafting_recipe/tribalwar/spearquiver,
+		/datum/crafting_recipe/tribalwar/yumi,
+		/datum/crafting_recipe/durathread_vest
 	)
 	for(var/datum/crafting_recipe/recipe as() in recipes)
 		H.mind.teach_crafting_recipe(recipe)
