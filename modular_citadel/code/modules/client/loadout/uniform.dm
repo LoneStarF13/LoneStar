@@ -679,13 +679,6 @@
 	cost = 1
 	subcategory = LOADOUT_SUBCATEGORY_UNIFORM_WASTELAND
 
-/datum/gear/uniform/wasteland/arizona/ranger
-	name = "Arizona ranger scouting uniform"
-	path = /obj/item/clothing/under/f13/arizona_ranger_scout
-	cost = 1
-	restricted_roles = list("NCR Veteran Ranger", "NCR Ranger")
-	subcategory = LOADOUT_SUBCATEGORY_UNIFORM_WASTELAND
-
 /datum/gear/uniform/wasteland/helenduds
 	name = "Gambler's gang attire"
 	path = /datum/gear/uniform/wasteland
