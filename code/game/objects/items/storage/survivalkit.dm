@@ -76,11 +76,11 @@
 	new /obj/item/stack/medical/mesh(src)
 
 /obj/item/storage/survivalkit/legionifak
-    name = "Legion Trauma Kit"
-    desc = "A plastic case containing a basic trauma kit for a wide variety of wounds."
-    icon_state = "ifak"
-    lefthand_file = 'icons/mob/inhands/equipment/medical_lefthand.dmi'
-    righthand_file = 'icons/mob/inhands/equipment/medical_righthand.dmi'
+	name = "Legion Trauma Kit"
+	desc = "A plastic case containing a basic trauma kit for a wide variety of wounds."
+	icon_state = "ifak"
+	lefthand_file = 'icons/mob/inhands/equipment/medical_lefthand.dmi'
+	righthand_file = 'icons/mob/inhands/equipment/medical_righthand.dmi'
 
 /obj/item/storage/survivalkit/legionifak/ComponentInitialize()
 	. = ..()
@@ -96,11 +96,11 @@
 	new /obj/item/reagent_containers/food/drinks/bottle/xandertea(src)
 
 /obj/item/storage/survivalkit/ncrifak
-    name = "NCR Trauma Kit"
-    desc = "A plastic case containing a basic trauma kit for a wide variety of wounds."
-    icon_state = "ifak"
-    lefthand_file = 'icons/mob/inhands/equipment/medical_lefthand.dmi'
-    righthand_file = 'icons/mob/inhands/equipment/medical_righthand.dmi'
+	name = "NCR Trauma Kit"
+	desc = "A plastic case containing a basic trauma kit for a wide variety of wounds."
+	icon_state = "ifak"
+	lefthand_file = 'icons/mob/inhands/equipment/medical_lefthand.dmi'
+	righthand_file = 'icons/mob/inhands/equipment/medical_righthand.dmi'
 
 /obj/item/storage/survivalkit/ncrifak/ComponentInitialize()
 	. = ..()
