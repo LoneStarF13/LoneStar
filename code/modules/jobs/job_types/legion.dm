@@ -200,10 +200,11 @@ Weapons		Lever shotgun, Grease gun, Repeater carbines, Revolvers, simple guns al
 	backpack_contents = list(
 		/obj/item/restraints/legcuffs/bola = 1,
 		/obj/item/storage/bag/money/small/legion = 1,
-		/obj/item/warpaint_bowl,
+		/obj/item/warpaint_bowl = 1,
 		/obj/item/ammo_box/a357 = 1,
 		/obj/item/gun/ballistic/revolver/colt357 = 1,
-		/obj/item/binoculars
+		/obj/item/binoculars = 1,
+		/obj/item/grenade/f13/frag = 1,
 		)
 
 /datum/outfit/loadout/palacent
@@ -298,7 +299,8 @@ commented out pending rework*/
 		/obj/item/gun/ballistic/revolver/colt357 = 1,
 		/obj/item/restraints/handcuffs = 1,
 		/obj/item/storage/bag/money/small/legofficers = 1,
-		/obj/item/binoculars
+		/obj/item/binoculars = 1,
+		/obj/item/grenade/smokebomb = 1,
 		)
 
 /datum/outfit/loadout/decvetfront
@@ -308,7 +310,6 @@ commented out pending rework*/
 	backpack_contents = list(
 		/obj/item/gun/ballistic/automatic/smg/greasegun = 1,
 		/obj/item/ammo_box/magazine/greasegun = 2,
-		/obj/item/grenade/smokebomb = 1,
 		)
 
 /datum/outfit/loadout/decvetrear
@@ -479,7 +480,7 @@ commented out pending rework*/
 		/obj/item/melee/onehanded/machete/forgedmachete = 1,
 		/obj/item/storage/backpack/spearquiver = 1,
 		/obj/item/melee/onehanded/knife/bayonet = 1,
-		/obj/item/warpaint_bowl,
+		/obj/item/warpaint_bowl = 1,
 		)
 
 
@@ -584,7 +585,7 @@ commented out pending rework*/
 		/obj/item/restraints/handcuffs = 1,
 		/obj/item/megaphone/cornu = 1,
 		/obj/item/storage/bag/money/small/legenlisted = 1,
-		/obj/item/warpaint_bowl,
+		/obj/item/warpaint_bowl = 1,
 		)
 
 /datum/outfit/loadout/vexbear
@@ -655,6 +656,7 @@ commented out pending rework*/
 		/obj/item/storage/bag/money/small/legenlisted = 1,
 		/obj/item/melee/onehanded/machete = 1,
 		/obj/item/restraints/handcuffs = 1,
+		/obj/item/grenade/smokebomb = 1,
 		)
 
 /datum/outfit/loadout/expambusher
@@ -674,7 +676,6 @@ commented out pending rework*/
 		/obj/item/ammo_box/a762 = 3,
 		/obj/item/book/granter/trait/rifleman = 1,
 		/obj/item/attachments/scope = 1,
-		/obj/item/grenade/smokebomb = 1,
 		)
 
 
@@ -744,6 +745,7 @@ commented out pending rework*/
 		/obj/item/ammo_box/m44 = 3,
 		/obj/item/shield/riot/bullet_proof = 1,
 		/obj/item/stack/crafting/armor_plate = 3,
+		/obj/item/grenade/f13/frag = 1,
 		)
 
 /datum/outfit/loadout/vetrifle
@@ -753,6 +755,7 @@ commented out pending rework*/
 		/obj/item/ammo_box/tube/m44 = 3,
 		/obj/item/gun/ballistic/revolver/colt357 = 1,
 		/obj/item/ammo_box/a357 = 1,
+		/obj/item/grenade/smokebomb = 1,
 		)
 
 /datum/outfit/loadout/vetberserker
@@ -807,6 +810,7 @@ commented out pending rework*/
 	if(visualsOnly)
 		return
 	ADD_TRAIT(H, TRAIT_BIG_LEAGUES, src)
+	ADD_TRAIT(H, TRAIT_HARD_YARDS, src)
 
 /datum/outfit/job/CaesarsLegion/Legionnaire/f13legionary
 	name = "Prime Legionnaire"
@@ -832,7 +836,7 @@ commented out pending rework*/
 	backpack_contents = list(
 		/obj/item/ammo_box/a357 = 3,
 		/obj/item/restraints/legcuffs/bola = 1,
-		/obj/item/book/granter/trait/trekking = 1,
+		/obj/item/grenade/f13/frag = 1,
 		)
 
 /datum/outfit/loadout/primerifle
@@ -907,7 +911,7 @@ commented out pending rework*/
 	backpack_contents = list(
 		/obj/item/restraints/legcuffs/bola = 1,
 		/obj/item/book/granter/trait/trekking = 1,
-		/obj/item/warpaint_bowl
+		/obj/item/warpaint_bowl = 1,
 		)
 
 /datum/outfit/loadout/recruitlegion
@@ -917,6 +921,7 @@ commented out pending rework*/
 		/obj/item/ammo_box/a357 = 3,
 		/obj/item/reagent_containers/food/drinks/bottle/molotov/filled = 2,
 		/obj/item/lighter/greyscale = 1,
+		/obj/item/grenade/homemade/coffeepotbomb = 1,
 		)
 
 
@@ -1060,7 +1065,7 @@ commented out pending rework*/
 	r_pocket = /obj/item/flashlight/lantern
 	backpack_contents = list(
 		/obj/item/reagent_containers/pill/patch/healingpowder = 2,
-		/obj/item/warpaint_bowl
+		/obj/item/warpaint_bowl = 1,
 		)
 
 /datum/outfit/job/CaesarsLegion/auxilia/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)

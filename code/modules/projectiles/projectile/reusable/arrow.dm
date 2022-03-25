@@ -19,7 +19,7 @@
 	damage = 20
 	armour_penetration = 0.10
 	supereffective_damage = 40
-	supereffective_faction = list("hostile", "ant", "supermutant", "deathclaw", "cazador", "raider", "china", "gecko", "wastebot")
+	supereffective_faction = list("hostile", "ant", "supermutant", "deathclaw", "cazador", "raider", "china", "gecko", "wastebot","radscorpion")
 	ammo_type = /obj/item/ammo_casing/caseless/arrow/bone
 
 /obj/item/projectile/bullet/reusable/arrow/bronze //Just some AP shots
@@ -83,7 +83,7 @@
 	damage = 20
 	sharpness = SHARP_EDGED
 	ammo_type = /obj/item/ammo_casing/caseless/arrow/broadhead
-	embedding = list(embed_chance=100, fall_chance=0, jostle_chance=3, ignore_throwspeed_threshold=TRUE, pain_stam_pct=0.2, pain_mult=3, jostle_pain_mult=5, rip_time=25, projectile_payload = /obj/item/ammo_casing/caseless/arrow/broadhead)
+	embedding = list(embed_chance=95, fall_chance=0, jostle_chance=3, ignore_throwspeed_threshold=TRUE, pain_stam_pct=0.2, pain_mult=3, jostle_pain_mult=5, rip_time=25, projectile_payload = /obj/item/ammo_casing/caseless/arrow/broadhead)
 
 /obj/item/projectile/bullet/reusable/arrow/broadhead/on_hit(atom/target, blocked)
 	if(iscarbon(target))
