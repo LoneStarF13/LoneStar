@@ -253,13 +253,13 @@
 	pump_sound = 'sound/weapons/boltpump.ogg'
 	fire_sound = 'sound/f13weapons/boltfire.ogg'
 
-//Lee-Enfield,SMLE 						Keywords: 7.62, Bolt-action, 5 rounds internal, very fast firing rate
+//Lee-Enfield,SMLE 						Keywords: 7.62, Bolt-action, 5 rounds internal, very fast firing rate, stamina cost on working bolt (do not remove this)
 /obj/item/gun/ballistic/rifle/enfield
 	name = "Lee-Enfield rifle"
-	desc = "A british rifle sometimes known as the SMLE. It seems to have been re-chambered in .308."
+	desc = "An antiquated rifle. It can punch well above its weight class, but drains stamina to work the bolt."
 	icon_state = "enfield2"
 	item_state = "308"
-	mag_type = /obj/item/ammo_box/magazine/internal/boltaction/smle
+	mag_type = /obj/item/ammo_box/magazine/internal/boltaction
 	extra_damage = 40
 	extra_speed = 600
 	fire_delay = 6
@@ -275,6 +275,7 @@
 	knife_y_offset = 21
 	pump_sound = 'sound/weapons/boltpump.ogg'
 	fire_sound = 'sound/f13weapons/boltfire.ogg'
+	pump_stam_cost = 10
 
 
 

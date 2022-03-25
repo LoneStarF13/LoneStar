@@ -494,7 +494,7 @@ Raider
 	/datum/outfit/loadout/warrior,
 	/datum/outfit/loadout/ncrcitizen,
 	/datum/outfit/loadout/legioncivilian,
-	/datum/outfit/loadout/wastelander_desert_ranger)
+	/datum/outfit/loadout/wastelander_arizona_ranger)
 
 /datum/outfit/job/wasteland/f13wastelander
 	name = "Wastelander"
@@ -645,9 +645,9 @@ Raider
 	backpack_contents = list(
 		/obj/item/ammo_box/magazine/m556/rifle=2)
 
-/datum/outfit/loadout/wastelander_desert_ranger
-	name = "Desert Ranger Scout"
-	uniform = /obj/item/clothing/under/f13/desert_ranger_scout
+/datum/outfit/loadout/wastelander_arizona_ranger
+	name = "Arizona Ranger Scout"
+	uniform = /obj/item/clothing/under/f13/arizona_ranger_scout
 	shoes = /obj/item/clothing/shoes/f13/cowboy
 	head = /obj/item/clothing/head/f13/cowboy
 	gloves = /obj/item/clothing/gloves/color/brown
