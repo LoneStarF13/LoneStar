@@ -125,3 +125,15 @@
 	desc = "Plain and rugged piece of clothing, put it over your suit and make sure your gear don't get soaked through when it rains."
 	icon_state = "poncho"
 	body_parts_covered = CHEST|GROIN|ARMS
+
+/obj/item/clothing/neck/mantle/legionmantle
+	name = "Legion mantle"
+	desc = "A mantle made in the legion colors,with a golden wreath brooch. Most likely has a holster hidden underneath."
+	icon_state = "legionmantle"
+	pocket_storage_component_path = /datum/component/storage/concrete/pockets/bos/paladin
+
+/obj/item/clothing/neck/mantle/legiontoga
+	name = "Legion toga"
+	desc = "A toga made in the legion colors, with a golden wreath brooch. Most likely has a holster hidden underneath."
+	icon_state = "legiontoga"
+	pocket_storage_component_path = /datum/component/storage/concrete/pockets/bos/paladin

@@ -52,6 +52,34 @@
 							"NCR Veteran Ranger",
 							)
 
+/datum/gear/neck/mantle/legionmantle
+	name = "Legion mantle"
+	path = /obj/item/clothing/neck/mantle/legionmantle
+	cost = 2
+	restricted_desc = "Legion Veteran+"
+	restricted_roles = list("Legion Orator",
+							"Legion Centurion",
+							"Legion Veteran Decanus",
+							"Legion Prime Decanus",
+							"Legion Recruit Decanus",
+							"Legion Vexillarius",
+							"Veteran Legionnaire"
+						)
+
+/datum/gear/neck/mantle/legiontoga
+	name = "Legion toga"
+	path = /obj/item/clothing/neck/mantle/legiontoga
+	cost = 2
+	restricted_desc = "Legion Veteran+"
+	restricted_roles = list("Legion Orator",
+							"Legion Centurion",
+							"Legion Veteran Decanus",
+							"Legion Prime Decanus",
+							"Legion Recruit Decanus",
+							"Legion Vexillarius",
+							"Veteran Legionnaire"
+						)
+
 /datum/gear/neck/apron
 	name = "simple apron"
 	path = /obj/item/clothing/neck/apron/labor
