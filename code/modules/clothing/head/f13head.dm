@@ -335,7 +335,7 @@
 	desc = "It's a T-51b power helmet, typically used by the Brotherhood. It looks somewhat charming."
 	icon_state = "t51bhelmet0"
 	item_state = "t51bhelmet0"
-	armor = list("melee" = 70, "bullet" = 70, "laser" = 70, "energy" = 27, "bomb" = 62, "bio" = 100, "rad" = 99, "fire" = 90, "acid" = 0, "wound" = 70)
+	armor = list("melee" = 72.5, "bullet" = 72.5, "laser" = 72.5, "energy" = 30, "bomb" = 62, "bio" = 100, "rad" = 99, "fire" = 90, "acid" = 0, "wound" = 72)
 	actions_types = list(/datum/action/item_action/toggle_helmet_light)
 
 /obj/item/clothing/head/helmet/f13/power_armor/t51b/update_icon_state()

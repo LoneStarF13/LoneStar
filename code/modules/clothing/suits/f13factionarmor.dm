@@ -205,7 +205,7 @@
 	desc = "Legion Recruits carry very basic protection, repurposed old sports gear with bits of leather and other tribal style armor that the wearer has managed to scrounge up."
 	icon_state = "legion_recruit"
 	item_state = "legion_recruit"
-	armor = list("melee" = 30, "bullet" = 25, "laser" = 20, "energy" = 10, "bomb" = 20, "bio" = 20, "rad" = 20, "fire" = 25, "acid" = 0, "wound" = 40)
+	armor = list("melee" = 33, "bullet" = 25, "laser" = 20, "energy" = 10, "bomb" = 20, "bio" = 20, "rad" = 20, "fire" = 25, "acid" = 0, "wound" = 40)
 	slowdown = 0.04
 
 
@@ -214,7 +214,7 @@
 	desc = "Legion Primes have survived some skirmishes, and when promoted often recieve a set of armor, padded leather modeled on ancient baseball catcher uniforms and various plates of metal or boiled leather."
 	icon_state = "legion_prime"
 	item_state = "legion_prime"
-	armor = list("melee" = 30, "bullet" = 33, "laser" = 20, "energy" = 10, "bomb" = 20, "bio" = 20, "rad" = 20, "fire" = 25, "acid" = 0, "wound" = 40)
+	armor = list("melee" = 35, "bullet" = 33, "laser" = 20, "energy" = 10, "bomb" = 20, "bio" = 20, "rad" = 20, "fire" = 25, "acid" = 0, "wound" = 40)
 
 /obj/item/clothing/suit/armor/f13/legion/prime/slavemaster
 	name = "slavemaster armor"
@@ -285,7 +285,7 @@
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/armor_heavy.dmi'
 	icon_state = "legion_centurion"
 	item_state = "legion_centurion"
-	armor = list("melee" = 55, "bullet" = 55, "laser" = 20, "energy" = 20, "bomb" = 20, "bio" = 20, "rad" = 20, "fire" = 25, "acid" = 0, "wound" = 55)
+	armor = list("melee" = 45, "bullet" = 45, "laser" = 45, "energy" = 25, "bomb" = 35, "bio" = 20, "rad" = 20, "fire" = 25, "acid" = 0, "wound" = 55)
 	slowdown = 0.1
 
 /obj/item/clothing/suit/armor/f13/legion/palacent
@@ -295,7 +295,7 @@
 	desc = "A Centurion able to defeat a Brotherhood Paladin gets the honorific title 'Paladin-Slayer', and adds bits of the looted armor to his own."
 	icon_state = "legion_palacent"
 	item_state = "legion_palacent"
-	armor = list("melee" = 50, "bullet" = 50, "laser" = 50, "energy" = 20, "bomb" = 20, "bio" = 20, "rad" = 20, "fire" = 25, "acid" = 0, "wound" = 55)
+	armor = list("melee" = 50, "bullet" = 50, "laser" = 60, "energy" = 30, "bomb" = 35, "bio" = 20, "rad" = 20, "fire" = 25, "acid" = 0, "wound" = 55)
 	slowdown = 0.25
 
 
@@ -306,7 +306,7 @@
 	desc = "Centurions who have led many patrols and ambushes against NCR Rangers have a distinct look from the many looted pieces of Ranger armor, and are often experienced in skirmishing."
 	icon_state = "legion_rangercent"
 	item_state = "legion_rangercent"
-	armor = list("melee" = 55, "bullet" = 50, "laser" = 25, "energy" = 35, "bomb" = 39, "bio" = 60, "rad" = 20, "fire" = 80, "acid" = 0, "wound" = 55)
+	armor = list("melee" = 35, "bullet" = 60, "laser" = 35, "energy" = 25, "bomb" = 35, "bio" = 60, "rad" = 20, "fire" = 80, "acid" = 0, "wound" = 55)
 	slowdown = 0.08
 
 /obj/item/clothing/suit/armor/f13/legion/legate
@@ -536,7 +536,7 @@
 	desc = "A quaint little jacket and scarf worn by NCR trail rangers. This one has the leather bleached and the scarf dyed black."
 	icon_state = "modif_r_vest"
 	item_state = "modif_r_vest"
-	armor = list("melee" = 35, "bullet" = 40, "laser" = 35, "energy" = 20, "bomb" = 25, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0)
+	armor = list("melee" = 35, "bullet" = 40, "laser" = 35, "energy" = 18, "bomb" = 25, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0)
 	slowdown = 0.05
 
 /obj/item/clothing/suit/armor/f13/modif_r_vest/Initialize()
@@ -548,7 +548,7 @@
 	desc = "A set of standard issue ranger patrol armor that provides defense similar to a suit of pre-war combat armor. It's got NCR markings, making it clear who it was made by."
 	icon_state = "ncr_patrol"
 	item_state = "ncr_patrol"
-	armor = list("melee" = 30, "bullet" = 45, "laser" = 25, "energy" = 45, "bomb" = 55, "bio" = 60, "rad" = 15, "fire" = 60, "acid" = 30, "wound" = 40)
+	armor = list("melee" = 30, "bullet" = 45, "laser" = 25, "energy" = 20, "bomb" = 55, "bio" = 60, "rad" = 15, "fire" = 60, "acid" = 30, "wound" = 40)
 
 /obj/item/clothing/suit/armor/f13/combat/ncr_patrol/Initialize()
 	. = ..()
@@ -579,8 +579,8 @@
 	icon_state = "ranger"
 	item_state = "ranger"
 	body_parts_covered = CHEST|GROIN|LEGS|FEET|ARMS
-	slowdown = 0.08
-	armor = list("melee" = 50, "bullet" = 60, "laser" = 40, "energy" = 40, "bomb" = 55, "bio" = 60, "rad" = 60, "fire" = 90, "acid" = 20, "wound" = 55)
+	slowdown = 0.1
+	armor = list("melee" = 50, "bullet" = 60, "laser" = 40, "energy" = 25, "bomb" = 55, "bio" = 60, "rad" = 60, "fire" = 90, "acid" = 20, "wound" = 55)
 
 
 /obj/item/clothing/suit/armor/f13/ncrcfjacket
@@ -735,7 +735,7 @@
 	desc = "a steel breastplate, inspired by a pre-war design. Looks like oasis citiznes added an additional layer of metal on the front face."
 	icon_state = "steel_bib"
 	item_state = "steel_bib"
-	armor = list( "melee" = 25, "bullet" = 50, "laser" = 40, "energy" = 15, "bomb" = 20, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0, "wound" = 42)
+	armor = list( "melee" = 35, "bullet" = 50, "laser" = 40, "energy" = 15, "bomb" = 20, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0, "wound" = 42)
 	slowdown = 0.11
 	strip_delay = 5
 
@@ -814,6 +814,15 @@
 	slowdown = 0.3
 //Followers
 
+/obj/item/clothing/suit/armor/f13/vest/followers
+	name = "followers armor vest"
+	desc = "A coat in light colors with the markings of the Followers, concealing a bullet-proof vest."
+	icon_state = "vest_follower"
+	item_state = "vest_follower"
+	slowdown = 0.08
+	armor = list("melee" = 20, "bullet" = 45, "laser" = 20, "energy" = 25, "bomb" = 30, "bio" = 50, "rad" = 0, "fire" = 5, "acid" = 0, "wound" = 40)
+	pocket_storage_component_path = /datum/component/storage/concrete/pockets/medical
+	
 //Vault
 
 /obj/item/clothing/suit/armor/f13/riot/vault
