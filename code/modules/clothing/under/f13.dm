@@ -362,9 +362,9 @@
 
 /obj/item/clothing/under/f13/legorat
 	name = "legionary orator fatigues"
-	desc = "A red cotton tunic with some leather pants, of good quality."
-	icon_state = "legorat"
-	item_state = "legorat"
+	desc = "A black cotton tunic with some leather pants, of good quality."
+	icon_state = "legoratb"
+	item_state = "legoratb"
 	fitted = FEMALE_UNIFORM_TOP
 	can_adjust = FALSE
 
