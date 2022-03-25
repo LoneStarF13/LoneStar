@@ -360,14 +360,6 @@
 	fitted = FEMALE_UNIFORM_TOP
 	can_adjust = TRUE
 
-/obj/item/clothing/under/f13/legorat
-	name = "legionary orator fatigues"
-	desc = "A black cotton tunic with some leather pants, of good quality."
-	icon_state = "legoratb"
-	item_state = "legoratb"
-	fitted = FEMALE_UNIFORM_TOP
-	can_adjust = FALSE
-
 /obj/item/clothing/under/f13/legskirt/tac
 	name = "\improper ''tactical'' combat skirt"
 	desc = "A leathery skirt below a thick, black, long-sleeve cotton shirt. Perfect for operatives favoring wardrobe malfunctions."
