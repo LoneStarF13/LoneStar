@@ -320,7 +320,7 @@
 	item_state = "t45bpowerarmor"
 	armor = list("melee" = 70, "bullet" = 70, "laser" = 70, "energy" = 20, "bomb" = 50, "bio" = 60, "rad" = 50, "fire" = 80, "acid" = 0, "wound" = 65)
 	requires_training = FALSE
-	slowdown = 0.5
+	slowdown = 0.35
 	powered = FALSE
 
 /obj/item/clothing/suit/armor/f13/power_armor/t45b/restored
@@ -391,7 +391,7 @@
 	desc = "The pinnacle of pre-war technology. This suit of power armor provides substantial protection to the wearer."
 	icon_state = "t51bpowerarmor"
 	item_state = "t51bpowerarmor"
-	slowdown = 0.15 //+0.05 from helmet = total 0.175
+	slowdown = 0.2 //+0.05 from helmet = total 0.25
 	armor = list("melee" = 72.5, "bullet" = 72.5, "laser" = 72.5, "energy" = 30, "bomb" = 62, "bio" = 100, "rad" = 99, "fire" = 90, "acid" = 0, "wound" = 72)
 
 /obj/item/clothing/suit/armor/f13/power_armor/t51green
@@ -399,7 +399,7 @@
 	desc = "The pinnacle of pre-war technology. This suit of power armor provides substantial protection to the wearer. It's plates have been chemially treated to be stronger."
 	icon_state = "t51green"
 	item_state = "t51green"
-	slowdown = 0.15 //+0.05 from helmet = total 0.2
+	slowdown = 0.2 //+0.05 from helmet = total 0.25
 	armor = list("melee" = 75, "bullet" = 75, "laser" = 75, "energy" = 27, "bomb" = 64, "bio" = 100, "rad" = 99, "fire" = 90, "acid" = 0, "wound" = 75)
 
 /obj/item/clothing/suit/armor/f13/power_armor/t51b/bos
