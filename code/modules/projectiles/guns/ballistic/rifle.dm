@@ -141,10 +141,11 @@
 	item_state = "brushgun"
 	mag_type = /obj/item/ammo_box/magazine/internal/shot/tube4570
 	extra_damage = 50
+	slowdown = 0.4
 	extra_penetration = 0.05
 	extra_speed = 100
-	fire_delay = 5.1
-	recoil = 0.15
+	fire_delay = 5.5
+	recoil = 0.2
 	fire_sound = 'sound/f13weapons/brushgunfire.ogg'
 
 
@@ -252,13 +253,13 @@
 	pump_sound = 'sound/weapons/boltpump.ogg'
 	fire_sound = 'sound/f13weapons/boltfire.ogg'
 
-//Lee-Enfield,SMLE 						Keywords: 7.62, Bolt-action, 5 rounds internal, very fast firing rate, high stamina cost on working bolt
+//Lee-Enfield,SMLE 						Keywords: 7.62, Bolt-action, 5 rounds internal, very fast firing rate
 /obj/item/gun/ballistic/rifle/enfield
 	name = "Lee-Enfield rifle"
 	desc = "A british rifle sometimes known as the SMLE. It seems to have been re-chambered in .308."
 	icon_state = "enfield2"
 	item_state = "308"
-	mag_type = /obj/item/ammo_box/magazine/internal/boltaction
+	mag_type = /obj/item/ammo_box/magazine/internal/boltaction/smle
 	extra_damage = 40
 	extra_speed = 600
 	fire_delay = 6
@@ -274,7 +275,6 @@
 	knife_y_offset = 21
 	pump_sound = 'sound/weapons/boltpump.ogg'
 	fire_sound = 'sound/f13weapons/boltfire.ogg'
-	pump_stam_cost = 15
 
 
 
@@ -329,7 +329,7 @@
 	mag_type = /obj/item/ammo_box/magazine/amr
 	fire_delay = 11 //Heavy round, tiny bit slower
 	extra_damage = 60
-	extra_penetration = 0.25
+	extra_penetration = 0.45
 	recoil = 1
 	spread = 0
 	force = 10 //Big clumsy and sensitive scope, makes for a poor club
