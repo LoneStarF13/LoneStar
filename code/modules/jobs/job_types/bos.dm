@@ -684,7 +684,7 @@ Senior
 	exp_requirements = 1800
 
 	loadout_options = list(
-	/datum/outfit/loadout/sknighta, //AER9
+	/datum/outfit/loadout/sknighta, //Wattz 2K
 	/datum/outfit/loadout/sknightb, //Browning Auto-5
 	/datum/outfit/loadout/sknightc, //R93 Assault Rifle
 	)
