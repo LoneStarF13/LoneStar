@@ -7871,9 +7871,13 @@
 	},
 /area/f13/den)
 "ezx" = (
-/obj/machinery/autolathe/ammo,
-/obj/item/book/granter/crafting_recipe/gunsmith_three,
+/obj/machinery/autolathe/ammo{
+	basic = 1;
+	intermediate = 1
+	},
 /obj/effect/turf_decal/stripes/box,
+/obj/item/stack/sheet/metal/fifty,
+/obj/item/stack/ore/blackpowder/twenty,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/brotherhood/armory)
 "ezG" = (
@@ -8045,6 +8049,9 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/item/gun/energy/laser/pistol,
+/obj/item/gun/energy/laser/pistol,
+/obj/item/gun/energy/laser/pistol,
 /turf/open/floor/f13{
 	icon_state = "reddirtyfull"
 	},
@@ -9507,6 +9514,23 @@
 	icon_state = "housewood3-broken"
 	},
 /area/f13/caves)
+"fwO" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/rack,
+/obj/item/ammo_box/magazine/m556/rifle/assault,
+/obj/item/ammo_box/magazine/m556/rifle/assault,
+/obj/item/ammo_box/magazine/m556/rifle,
+/obj/item/ammo_box/magazine/m556/rifle,
+/obj/item/ammo_box/magazine/m556/rifle,
+/obj/item/ammo_box/magazine/m556/rifle,
+/obj/item/ammo_box/magazine/m556/rifle,
+/obj/item/ammo_box/magazine/m556/rifle,
+/obj/item/ammo_box/magazine/m556/rifle,
+/obj/item/ammo_box/magazine/m556/rifle,
+/turf/open/floor/f13{
+	icon_state = "reddirtyfull"
+	},
+/area/f13/brotherhood/armory)
 "fwX" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/oil/slippery,
@@ -9963,6 +9987,9 @@
 	name = "Knight-Engineer Pip-Boy 3000"
 	},
 /obj/machinery/light/small,
+/obj/item/pda/engineering{
+	name = "Knight-Engineer Pip-Boy 3000"
+	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/brotherhood/operations)
 "fJQ" = (
@@ -10344,6 +10371,16 @@
 /obj/effect/turf_decal/stripes/red/line{
 	dir = 4
 	},
+/obj/item/stock_parts/cell/ammo/ec,
+/obj/item/stock_parts/cell/ammo/ec,
+/obj/item/stock_parts/cell/ammo/ec,
+/obj/item/stock_parts/cell/ammo/ec,
+/obj/item/stock_parts/cell/ammo/ec,
+/obj/item/stock_parts/cell/ammo/ec,
+/obj/item/stock_parts/cell/ammo/ec,
+/obj/item/stock_parts/cell/ammo/ec,
+/obj/item/stock_parts/cell/ammo/ec,
+/obj/item/stock_parts/cell/ammo/ec,
 /turf/open/floor/f13{
 	icon_state = "reddirtyfull"
 	},
@@ -10677,6 +10714,19 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/brotherhood/rnd)
+"geP" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/rack,
+/obj/item/gun/ballistic/automatic/pistol/mk23,
+/obj/item/gun/ballistic/automatic/pistol/mk23,
+/obj/item/gun/ballistic/automatic/pistol/mk23,
+/obj/item/gun/ballistic/automatic/pistol/mk23,
+/obj/item/gun/ballistic/automatic/pistol/mk23,
+/obj/item/gun/ballistic/automatic/pistol/mk23,
+/turf/open/floor/f13{
+	icon_state = "reddirtyfull"
+	},
+/area/f13/brotherhood/armory)
 "gfi" = (
 /obj/machinery/suit_storage_unit/mining,
 /obj/effect/decal/cleanable/dirt{
@@ -15461,6 +15511,8 @@
 /obj/item/twohanded/sledgehammer/supersledge,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/bot_red,
+/obj/item/melee/powered/ripper,
+/obj/item/melee/powered/ripper,
 /turf/open/floor/f13{
 	icon_state = "reddirtyfull"
 	},
@@ -15496,8 +15548,10 @@
 /area/f13/caves)
 "juq" = (
 /obj/structure/rack,
-/obj/item/shield/riot/bullet_proof,
-/obj/item/shield/riot/bullet_proof,
+/obj/item/pda{
+	icon_state = "pda-warden";
+	name = "Armory Warden PDA"
+	},
 /obj/item/pda{
 	icon_state = "pda-warden";
 	name = "Armory Warden PDA"
@@ -19577,26 +19631,20 @@
 	},
 /area/f13/bunker)
 "mIx" = (
-/obj/structure/closet/crate/secure/weapon{
-	anchored = 1
-	},
-/obj/item/stock_parts/cell/ammo/ecp,
-/obj/item/stock_parts/cell/ammo/ecp,
-/obj/item/stock_parts/cell/ammo/ecp,
-/obj/item/stock_parts/cell/ammo/ecp,
-/obj/item/stock_parts/cell/ammo/ecp,
-/obj/item/stock_parts/cell/ammo/ecp,
-/obj/item/stock_parts/cell/ammo/ecp,
-/obj/item/stock_parts/cell/ammo/ecp,
-/obj/item/stock_parts/cell/ammo/ecp,
-/obj/item/stock_parts/cell/ammo/ecp,
-/obj/item/stock_parts/cell/ammo/ecp,
-/obj/item/stock_parts/cell/ammo/ecp,
-/obj/item/stock_parts/cell/ammo/ecp,
-/obj/item/stock_parts/cell/ammo/ecp,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/small,
 /obj/effect/turf_decal/stripes/red/line,
+/obj/structure/closet/crate/secure/weapon{
+	anchored = 1;
+	name = "Knight crate";
+	req_one_access_txt = "257"
+	},
+/obj/item/gun/ballistic/automatic/r93,
+/obj/item/gun/ballistic/automatic/r93,
+/obj/item/gun/energy/laser/wattz2k,
+/obj/item/gun/energy/laser/wattz2k,
+/obj/item/gun/ballistic/shotgun/police,
+/obj/item/gun/ballistic/shotgun/police,
 /turf/open/floor/f13{
 	icon_state = "reddirtyfull"
 	},
@@ -20390,8 +20438,6 @@
 /obj/item/storage/belt/military/army,
 /obj/item/storage/belt/military/army,
 /obj/item/storage/belt/military/army,
-/obj/item/storage/belt/military/army,
-/obj/item/clothing/mask/gas/sechailer,
 /obj/item/clothing/mask/gas/sechailer,
 /obj/item/clothing/mask/gas/sechailer,
 /obj/item/clothing/mask/gas/sechailer,
@@ -20416,50 +20462,6 @@
 /obj/item/clothing/shoes/combat/swat{
 	pixel_x = 7;
 	pixel_y = -9
-	},
-/obj/item/storage/belt/military{
-	pixel_x = -7;
-	pixel_y = -9
-	},
-/obj/item/storage/belt/military{
-	pixel_x = -7;
-	pixel_y = -9
-	},
-/obj/item/storage/belt/military{
-	pixel_x = -7;
-	pixel_y = -9
-	},
-/obj/item/storage/belt/military{
-	pixel_x = -7;
-	pixel_y = -9
-	},
-/obj/item/storage/belt/military{
-	pixel_x = -7;
-	pixel_y = -9
-	},
-/obj/item/clothing/mask/gas/sechailer/swat{
-	pixel_x = 8;
-	pixel_y = 8
-	},
-/obj/item/clothing/mask/gas/sechailer/swat{
-	pixel_x = 8;
-	pixel_y = 8
-	},
-/obj/item/clothing/mask/gas/sechailer/swat{
-	pixel_x = 8;
-	pixel_y = 8
-	},
-/obj/item/clothing/mask/gas/sechailer/swat{
-	pixel_x = 8;
-	pixel_y = 8
-	},
-/obj/item/clothing/mask/gas/sechailer/swat{
-	pixel_x = 8;
-	pixel_y = 8
-	},
-/obj/item/clothing/head/helmet/f13/combat/brotherhood/initiate{
-	pixel_x = -9;
-	pixel_y = 10
 	},
 /obj/item/clothing/head/helmet/f13/combat/brotherhood/initiate{
 	pixel_x = -9;
@@ -20520,6 +20522,16 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/item/clothing/mask/gas/sechailer,
+/obj/item/clothing/mask/gas/sechailer,
+/obj/item/clothing/mask/gas/sechailer,
+/obj/item/clothing/mask/gas/sechailer,
+/obj/item/clothing/mask/gas/sechailer,
+/obj/item/clothing/mask/gas/sechailer,
+/obj/item/storage/belt/military/assault,
+/obj/item/storage/belt/military/assault,
+/obj/item/storage/belt/military/assault,
+/obj/item/storage/belt/military/assault,
 /turf/open/floor/f13{
 	icon_state = "reddirtyfull"
 	},
@@ -28430,28 +28442,20 @@
 /turf/open/floor/wood/f13/old,
 /area/f13/caves)
 "sNW" = (
-/obj/structure/closet/crate/secure/weapon{
-	anchored = 1
-	},
-/obj/item/stock_parts/cell/ammo/mfc,
-/obj/item/stock_parts/cell/ammo/mfc,
-/obj/item/stock_parts/cell/ammo/mfc,
-/obj/item/stock_parts/cell/ammo/mfc,
-/obj/item/stock_parts/cell/ammo/mfc,
-/obj/item/stock_parts/cell/ammo/mfc,
-/obj/item/stock_parts/cell/ammo/mfc,
-/obj/item/stock_parts/cell/ammo/mfc,
-/obj/item/stock_parts/cell/ammo/mfc,
-/obj/item/stock_parts/cell/ammo/mfc,
-/obj/item/stock_parts/cell/ammo/mfc,
-/obj/item/stock_parts/cell/ammo/mfc,
-/obj/item/stock_parts/cell/ammo/mfc,
-/obj/item/stock_parts/cell/ammo/mfc,
-/obj/item/stock_parts/cell/ammo/mfc,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/stripes/red/line{
 	dir = 9
 	},
+/obj/structure/closet/crate/secure/weapon{
+	anchored = 1;
+	req_one_access_txt = "256";
+	name = "Paladin crate"
+	},
+/obj/item/minigunpackbal5mm,
+/obj/item/gun/energy/laser/scatter,
+/obj/item/gun/energy/laser/scatter,
+/obj/item/gun/ballistic/automatic/assault_rifle,
+/obj/item/gun/ballistic/automatic/assault_rifle,
 /turf/open/floor/f13{
 	icon_state = "reddirtyfull"
 	},
@@ -29175,6 +29179,16 @@
 /area/f13/tunnel)
 "tvd" = (
 /obj/structure/rack,
+/obj/item/ammo_box/magazine/m45exp,
+/obj/item/ammo_box/magazine/m45exp,
+/obj/item/ammo_box/magazine/m45exp,
+/obj/item/ammo_box/magazine/m45exp,
+/obj/item/ammo_box/magazine/m45exp,
+/obj/item/ammo_box/magazine/m45exp,
+/obj/item/ammo_box/magazine/m45exp,
+/obj/item/ammo_box/magazine/m45exp,
+/obj/item/ammo_box/magazine/m45exp,
+/obj/item/ammo_box/magazine/m45exp,
 /turf/open/floor/f13{
 	icon_state = "reddirtyfull"
 	},
@@ -29483,24 +29497,17 @@
 	},
 /area/f13/tunnel)
 "tHk" = (
-/obj/structure/closet/crate/secure/weapon{
-	anchored = 1
-	},
-/obj/item/stock_parts/cell/ammo/ec,
-/obj/item/stock_parts/cell/ammo/ec,
-/obj/item/stock_parts/cell/ammo/ec,
-/obj/item/stock_parts/cell/ammo/ec,
-/obj/item/stock_parts/cell/ammo/ec,
-/obj/item/stock_parts/cell/ammo/ec,
-/obj/item/stock_parts/cell/ammo/ec,
-/obj/item/stock_parts/cell/ammo/ec,
-/obj/item/stock_parts/cell/ammo/ec,
-/obj/item/stock_parts/cell/ammo/ec,
-/obj/item/stock_parts/cell/ammo/ec,
-/obj/item/stock_parts/cell/ammo/ec,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/stripes/red/line{
 	dir = 5
+	},
+/obj/item/stock_parts/cell/ammo/ecp,
+/obj/item/stock_parts/cell/ammo/ecp,
+/obj/item/stock_parts/cell/ammo/ecp,
+/obj/item/ammo_box/magazine/cz53,
+/obj/structure/closet/crate/secure/weapon{
+	anchored = 1;
+	name = "specialized ammo crate"
 	},
 /turf/open/floor/f13{
 	icon_state = "reddirtyfull"
@@ -35281,6 +35288,14 @@
 	layer = 2.7;
 	pixel_y = 17
 	},
+/obj/item/stock_parts/cell/ammo/mfc,
+/obj/item/stock_parts/cell/ammo/mfc,
+/obj/item/stock_parts/cell/ammo/mfc,
+/obj/item/stock_parts/cell/ammo/mfc,
+/obj/item/stock_parts/cell/ammo/mfc,
+/obj/item/stock_parts/cell/ammo/mfc,
+/obj/item/stock_parts/cell/ammo/mfc,
+/obj/item/stock_parts/cell/ammo/mfc,
 /turf/open/floor/f13{
 	icon_state = "reddirtyfull"
 	},
@@ -100296,10 +100311,10 @@ jdS
 nek
 llQ
 xkq
-xkq
+geP
 llQ
 tvd
-xkq
+fwO
 llQ
 mIx
 irU
