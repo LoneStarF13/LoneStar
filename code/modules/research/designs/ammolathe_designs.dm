@@ -433,6 +433,13 @@
 	build_path = /obj/item/ammo_box/magazine/m14mm/empty
 	category = list("initial", "Intermediate Magazines")
 
+/datum/design/ammolathe/smg14
+	name = "empty smg magazine (14mm)"
+	id = "m127smg"
+	materials = list(/datum/material/iron = 6000)
+	build_path = /obj/item/ammo_box/magazine/smg14/empty
+	category = list("initial", "Intermediate Magazines")
+
 /datum/design/ammolathe/m22smg
 	name = "empty toploader magazine (.22lr)"
 	id = "m22smg"
@@ -576,6 +583,13 @@
 	id = "tommygunm45"
 	materials = list(/datum/material/iron = 8000)
 	build_path = /obj/item/ammo_box/magazine/tommygunm45/empty
+	category = list("initial", "Advanced Magazines")
+
+/datum/design/ammolathe/smg14stacked
+	name = "empty smg stacked magazine (14mm)"
+	id = "m127ssmg"
+	materials = list(/datum/material/iron = 8000)
+	build_path = /obj/item/ammo_box/magazine/smg14/stacked/empty
 	category = list("initial", "Advanced Magazines")
 
 /datum/design/ammolathe/lmg556
