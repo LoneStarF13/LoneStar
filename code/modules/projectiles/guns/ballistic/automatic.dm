@@ -218,6 +218,26 @@
 	actions_types = null
 	fire_sound = 'sound/f13weapons/american180.ogg'
 
+//14mm SMG				Keywords: 14mm, Automatic, 21 rounds
+/obj/item/gun/ballistic/automatic/smg/smg14
+	name = "14mm SMG"
+	desc = "A heavy-duty SMG designed to tear through most forms of armor."
+	icon_state = "14smg"
+	item_state = "14smg"
+	slowdown = 0.25
+	w_class = WEIGHT_CLASS_BULKY
+	mag_type = /obj/item/ammo_box/magazine/smg14
+	is_automatic = TRUE
+	automatic = 1
+	autofire_shot_delay = 3.25
+	spread = 9
+	extra_damage = 32
+	extra_penetration = 0.1
+	recoil = 0.35
+	can_attachments = TRUE
+	can_suppress = FALSE
+	actions_types = list(/datum/action/item_action/toggle_firemode)
+	fire_sound = 'sound/f13weapons/magnum_fire.ogg'
 
 //Greasegun				Keywords: 9mm, Automatic, 30 rounds
 /obj/item/gun/ballistic/automatic/smg/greasegun

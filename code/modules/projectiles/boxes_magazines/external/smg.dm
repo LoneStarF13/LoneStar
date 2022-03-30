@@ -96,6 +96,29 @@
 /obj/item/ammo_box/magazine/tommygunm45/empty
 	start_empty = 1
 
+/obj/item/ammo_box/magazine/smg14
+	name = "14mm smg magazine"
+	icon = 'icons/fallout/objects/guns/ammo.dmi'
+	icon_state = "14mmsg"
+	ammo_type = /obj/item/ammo_casing/p14mm
+	caliber = "14"
+	max_ammo = 21
+
+/obj/item/ammo_box/magazine/smg14/empty
+	start_empty = 1
+
+/obj/item/ammo_box/magazine/smg14/stacked
+	name = "14mm smg stacked magazine"
+	icon = 'icons/fallout/objects/guns/ammo.dmi'
+	icon_state = "14mmsge"
+	ammo_type = /obj/item/ammo_casing/p14mm
+	caliber = "14"
+	max_ammo = 27
+	multiple_sprites = 2
+
+/obj/item/ammo_box/magazine/smg14/stacked/empty
+	start_empty = 1
+
 /obj/item/ammo_box/magazine/m10mm_p90
 	name = "toploader magazine (10mm)"
 	icon = 'icons/fallout/objects/guns/ammo.dmi'
