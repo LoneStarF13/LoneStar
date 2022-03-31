@@ -694,6 +694,11 @@
 	list_reagents = list(/datum/reagent/consumable/ethanol/nukashine = 100)
 	foodtype = NUKA
 
+/obj/item/reagent_containers/food/drinks/bottle/xandertea
+	name = "flask of xander tea"
+	desc = "A flask of xander tea, often drank by Legionaries and Tribals to deal with blood loss."
+	icon_state = "flask"
+	list_reagents = list(/datum/reagent/consumable/tea/xandertea = 50)
 
 // Empty bottles
 /obj/item/reagent_containers/food/drinks/bottle/brown/white

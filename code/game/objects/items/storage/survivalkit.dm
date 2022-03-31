@@ -75,8 +75,52 @@
 	new /obj/item/stack/medical/suture/medicated(src)
 	new /obj/item/stack/medical/mesh(src)
 
+/obj/item/storage/survivalkit/legionifak
+	name = "Legion Trauma Kit"
+	desc = "A plastic case containing a basic trauma kit for a wide variety of wounds."
+	icon_state = "ifak"
+	lefthand_file = 'icons/mob/inhands/equipment/medical_lefthand.dmi'
+	righthand_file = 'icons/mob/inhands/equipment/medical_righthand.dmi'
+
+/obj/item/storage/survivalkit/legionifak/ComponentInitialize()
+	. = ..()
+	var/datum/component/storage/STR = GetComponent(/datum/component/storage)
+	STR.max_items = 5
+
+/obj/item/storage/survivalkit/legionifak/PopulateContents()
+	new /obj/item/reagent_containers/pill/patch/bitterdrink(src)
+	new /obj/item/stack/medical/gauze(src)
+	new /obj/item/stack/medical/suture(src)
+	new /obj/item/stack/medical/ointment(src)
+	new /obj/item/paper/legionifak(src)
+	new /obj/item/reagent_containers/food/drinks/bottle/xandertea(src)
+
+/obj/item/storage/survivalkit/ncrifak
+	name = "NCR Trauma Kit"
+	desc = "A plastic case containing a basic trauma kit for a wide variety of wounds."
+	icon_state = "ifak"
+	lefthand_file = 'icons/mob/inhands/equipment/medical_lefthand.dmi'
+	righthand_file = 'icons/mob/inhands/equipment/medical_righthand.dmi'
+
+/obj/item/storage/survivalkit/ncrifak/ComponentInitialize()
+	. = ..()
+	var/datum/component/storage/STR = GetComponent(/datum/component/storage)
+	STR.max_items = 5
+
+/obj/item/storage/survivalkit/ncrifak/PopulateContents()
+	new /obj/item/reagent_containers/hypospray/medipen(src)
+	new /obj/item/stack/medical/gauze(src)
+	new /obj/item/stack/medical/suture(src)
+	new /obj/item/stack/medical/ointment(src)
+	new /obj/item/paper/ncrifak(src)
+	
 /obj/item/storage/survivalkit_empty
 	name = "survival kit"
 	desc = "A robust leather pouch containing the essentials for wasteland survival."
 	icon_state = "survivalkit"
 	w_class = WEIGHT_CLASS_SMALL
+
+/obj/item/storage/survivalkit_empty/ComponentInitialize()
+	. = ..()
+	var/datum/component/storage/STR = GetComponent(/datum/component/storage)
+	STR.max_items = 4
