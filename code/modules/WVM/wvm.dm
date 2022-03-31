@@ -672,7 +672,7 @@ GLOBAL_VAR_INIT(vendor_cash, 0)
 		new /datum/data/wasteland_equipment("Pulse Grenade",						/obj/item/grenade/empgrenade,								500)
 		)
 	highpop_list = list(
-		new /datum/data/wasteland_equipment(".45 incendiary ammo box",		/obj/item/ammo_box/c45/incendiary									50),
+		new /datum/data/wasteland_equipment(".45 incendiary ammo box",		/obj/item/ammo_box/c45/incendiary,									50),
 		new /datum/data/wasteland_equipment(".22 electroshock ammo box)",	/obj/item/ammo_box/m22/shock,										80),
 		new /datum/data/wasteland_equipment("[DANGER] 7.62 uranium-tipped ammo box",	/obj/item/ammo_box/a762box/uraniumtipped,				200),
 		new /datum/data/wasteland_equipment("Speed strip (.357)",			/obj/item/ammo_box/a357,											70),
