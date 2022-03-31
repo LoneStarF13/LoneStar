@@ -154,8 +154,8 @@ Weapons		Lever shotgun, Grease gun, Repeater carbines, Revolvers, simple guns al
 	title = "Legion Centurion"
 	flag = F13CENTURION
 	head_announce = list("Security")
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 0
+	spawn_positions = 0
 	description = "You are the camp commander and strongest soldier. Use your officers, the Decanii, to delegate tasks, make sure you lead and give orders. Take no disrespect, you are the dominus. If you prove a fool or weak, expect to be dispatched by a stronger subordinate."
 	supervisors = "the Legate"
 	selection_color = "#ffdddd"
@@ -257,8 +257,8 @@ commented out pending rework*/
 /datum/job/CaesarsLegion/Legionnaire/f13decanvet
 	title = "Legion Veteran Decanus"
 	flag = F13DECANVET
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 0
+	spawn_positions = 0
 	description = "You answer directly to the Centurion, his second in command. Lead the camp, ensure its defended, keep track of the Explorers and use your veterans to their full potential."
 	supervisors = "the Centurion"
 	display_order = JOB_DISPLAY_ORDER_DECANVET
@@ -329,8 +329,8 @@ commented out pending rework*/
 /datum/job/CaesarsLegion/Legionnaire/f13decan
 	title = "Legion Prime Decanus"
 	flag = F13DECAN
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 0
+	spawn_positions = 0
 	description = "A experienced officer, often commanding the camp. Give orders, lead patrols."
 	supervisors = "the Veteran Decanus and the Centurion"
 	display_order = JOB_DISPLAY_ORDER_DECAN
@@ -417,8 +417,8 @@ commented out pending rework*/
 /datum/job/CaesarsLegion/Legionnaire/f13decanrec
 	title = "Legion Recruit Decanus"
 	flag = F13DECANREC
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 0
+	spawn_positions = 0
 	description = "The junior officer, you must train the recruits and test them, and if a suicide charge is needed, lead them to a glorious death."
 	supervisors = "the Prime/Veteran Decanus and the Centurion"
 	display_order = JOB_DISPLAY_ORDER_DECANREC
@@ -503,8 +503,8 @@ commented out pending rework*/
 	flag = F13ORATOR
 	supervisors = "Centurion"
 	req_admin_notify = 1
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 0
+	spawn_positions = 0
 	outfit = /datum/outfit/job/CaesarsLegion/Legionnaire/f13orator
 	display_order = JOB_DISPLAY_ORDER_ORATOR
 	access = list(ACCESS_LEGION, ACCESS_CHANGE_IDS, ACCESS_LEGION_COMMAND)
@@ -542,8 +542,8 @@ commented out pending rework*/
 /datum/job/CaesarsLegion/Legionnaire/f13vexillarius
 	title = "Legion Vexillarius"
 	flag = F13VEXILLARIUS
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 0
+	spawn_positions = 0
 	description = "You are a Veteran of proven bravery. When not fighting, relay orders from the commander and act as a bodyguard."
 	supervisors = "the Veteran Decanus and Centurion"
 	display_order = JOB_DISPLAY_ORDER_VEXILLARIUS
@@ -617,8 +617,8 @@ commented out pending rework*/
 /datum/job/CaesarsLegion/Legionnaire/f13explorer
 	title = "Legion Explorer"
 	flag = F13EXPLORER
-	total_positions = 3
-	spawn_positions = 3
+	total_positions = 0
+	spawn_positions = 0
 	description = "Scout the area, secure key points, but do not ignore orders or wordlessly die some place. A good explorer helps his unit by taking initiative and helping the commander without needing micro-managment."
 	supervisors = "the Veteran Decanus and Centurion must be obeyed, and as always, respect must be given to other Decanus. You are not a officer, but you are a specialist."
 	display_order = JOB_DISPLAY_ORDER_EXPLORER
@@ -696,8 +696,8 @@ commented out pending rework*/
 /datum/job/CaesarsLegion/Legionnaire/vetlegionnaire
 	title = "Veteran Legionnaire"
 	flag = F13VETLEGIONARY
-	total_positions = 3
-	spawn_positions = 3
+	total_positions = 0
+	spawn_positions = 0
 	description = "A hardened warrior, obeying the orders from the Decanus and Centurion is second nature, as is fighting the profligates. If no officers are present, make sure the younger warriors act like proper Legionaires."
 	supervisors = "the Decani and Centurion"
 	display_order = JOB_DISPLAY_ORDER_VETLEGIONARY
@@ -790,8 +790,8 @@ commented out pending rework*/
 /datum/job/CaesarsLegion/Legionnaire/f13legionary
 	title = "Prime Legionnaire"
 	flag = F13LEGIONARY
-	total_positions = 4
-	spawn_positions = 4
+	total_positions = 0
+	spawn_positions = 0
 	description = "A front line soldier who has shown ability to obey and fought in some battles. The Legions muscle, the young men who will build the future with their own blood and sacrifice, for Caesar."
 	supervisors = "the Decani and Centurion"
 	display_order = JOB_DISPLAY_ORDER_LEGIONARY
@@ -871,8 +871,8 @@ commented out pending rework*/
 /datum/job/CaesarsLegion/Legionnaire/f13recleg
 	title = "Recruit Legionnaire"
 	flag = F13RECRUITLEG
-	total_positions = 5
-	spawn_positions = 5
+	total_positions = 0
+	spawn_positions = 0
 	description = "You have recently come of age or been inducted into Caesar's Legion. You have absolutely no training, and are expected to follow every whim of the Decanii and your Centurion. Respect the soldiers of higher rank."
 	supervisors = "the Decani and Centurion."
 	display_order = JOB_DISPLAY_ORDER_RECRUITLEG
@@ -945,8 +945,8 @@ commented out pending rework*/
 /datum/job/CaesarsLegion/Legionnaire/f13immune
 	title = "Legion Immune"
 	flag = F13IMMUNE
-	total_positions = 5
-	spawn_positions = 1
+	total_positions = 0
+	spawn_positions = 0
 	description = " An Immune is a legionnaire temporarily assigned to keeping the camp in order, according to their tasking on any given week."
 	supervisors = "the Centurion."
 	display_order = JOB_DISPLAY_ORDER_IMMUNE
@@ -980,8 +980,8 @@ commented out pending rework*/
 /datum/job/CaesarsLegion/Legionnaire/f13campfollower	// Chainsaw, Extra materials, Blueprints
 	title = "Legion Forgemaster"
 	flag = F13CAMPFOLLOWER
-	total_positions = 2
-	spawn_positions = 2
+	total_positions = 0
+	spawn_positions = 0
 	description = "The Forgemaster makes weapons of all sorts and upgrades them, keeping order in the Forge and makes sure the camp is defended."
 	supervisors = "the Centurion."
 	display_order = JOB_DISPLAY_ORDER_CAMPFOLLOWER
@@ -1035,8 +1035,8 @@ commented out pending rework*/
 /datum/job/CaesarsLegion/auxilia
 	title = "Legion Auxilia"
 	flag = F13AUXILIA
-	total_positions = 2
-	spawn_positions = 2
+	total_positions = 0
+	spawn_positions = 0
 	description = "A non-combat position in the Legion for free citizens who perform tasks that need special training, such as surgery. They are loyal to the Legion even if they are not treated as equals to warriors."
 	supervisors = "the Centurion"
 	display_order = JOB_DISPLAY_ORDER_AUXILIA
@@ -1137,8 +1137,8 @@ commented out pending rework*/
 /datum/job/CaesarsLegion/slave
 	title = "Legion Slave"
 	flag = F13LEGIONSLAVE
-	total_positions = 3
-	spawn_positions = 3
+	total_positions = 0
+	spawn_positions = 0
 	description = "A slave that survives the breaking camps is given a Legion appropriate name (latin-tribal inspired) and bull tattoo. Be obedient, respectful, stay inside the camp. Work the farm, mine, make food, clean and help injured men. Do NOT escape on your own, up to you how to handle it if forcibly freed by outside forces."
 	supervisors = "Officers and Slavemaster first, then Auxilia, then warriors."
 	display_order = JOB_DISPLAY_ORDER_LEGIONSLAVE
