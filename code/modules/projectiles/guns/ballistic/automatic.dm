@@ -734,6 +734,7 @@
 	burst_size = 1
 	spread = 1
 	extra_damage = 32
+	slowdown = 0.3
 	can_attachments = FALSE
 	automatic_burst_overlay = FALSE
 	semi_auto = TRUE
