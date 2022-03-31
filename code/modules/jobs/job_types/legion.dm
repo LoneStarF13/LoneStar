@@ -512,7 +512,7 @@ commented out pending rework*/
 	neck = /obj/item/clothing/neck/mantle/legionmantle
 	suit = /obj/item/clothing/suit/armor/f13/legion/vet/orator
 	uniform = /obj/item/clothing/under/f13/legorat
-	head = null
+	head = /obj/item/clothing/head/helmet/f13/legion/vet/orator
 	id = /obj/item/card/id/dogtag/legveteran
 	shoes = /obj/item/clothing/shoes/f13/military/legion
 	gloves = /obj/item/clothing/gloves/legion
@@ -522,6 +522,7 @@ commented out pending rework*/
 	backpack_contents = list(
 		/obj/item/reagent_containers/pill/patch/bitterdrink = 1,
 		/obj/item/clothing/neck/mantle/legiontoga = 1,
+		/obj/item/shield/riot/bullet_proof = 1,
 		)
 
 /datum/outfit/job/CaesarsLegion/Legionnaire/f13orator/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
