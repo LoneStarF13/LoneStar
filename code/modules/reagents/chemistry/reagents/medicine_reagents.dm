@@ -350,11 +350,18 @@
 			if(show_message)
 				to_chat(M, "<span class='warning'>You don't feel so good...</span>")
 		else if(M.getBruteLoss())
-			M.adjustBruteLoss(-reac_volume)
-			if(show_message)
-				to_chat(M, "<span class='danger'>You feel your bruises healing! It stings like hell!</span>")
-			M.emote("scream")
-			SEND_SIGNAL(M, COMSIG_ADD_MOOD_EVENT, "painful_medicine", /datum/mood_event/painful_medicine)
+			if (reac_volume >= 21)
+				if(show_message)
+					to_chat(M, "<span class='danger'>The pink mixture is clotting up, running down your body without effect! It stings like hell!</span>")
+				M.emote("shiver")
+				SEND_SIGNAL(M, COMSIG_ADD_MOOD_EVENT, "painful_medicine", /datum/mood_event/painful_medicine)
+				return
+			else	
+				M.adjustBruteLoss(-reac_volume)
+				if(show_message)
+					to_chat(M, "<span class='danger'>You feel your bruises healing! It stings like hell!</span>")
+				M.emote("scream")
+				SEND_SIGNAL(M, COMSIG_ADD_MOOD_EVENT, "painful_medicine", /datum/mood_event/painful_medicine)
 	..()
 
 /datum/reagent/medicine/styptic_powder/reaction_obj(obj/O, reac_volume)
