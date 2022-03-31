@@ -510,11 +510,12 @@ commented out pending rework*/
 	access = list(ACCESS_LEGION, ACCESS_CHANGE_IDS, ACCESS_LEGION_COMMAND)
 	minimal_access = list(ACCESS_LEGION, ACCESS_CHANGE_IDS, ACCESS_LEGION_COMMAND)
 
-/datum/outfit/job/CaesarsLegion/Legionnaire/f13orator	// Spatha
+/datum/outfit/job/CaesarsLegion/Legionnaire/f13orator	// Spatha, Automag
 	name = "Orator"
 	jobtype = /datum/job/CaesarsLegion/Legionnaire/f13orator
 	neck = /obj/item/clothing/neck/mantle/legionmantle
 	suit = /obj/item/clothing/suit/armor/f13/legion/vet/orator
+	mask = /obj/item/clothing/mask/bandana/legion/legvet
 	uniform = /obj/item/clothing/under/f13/legorat
 	head = /obj/item/clothing/head/helmet/f13/legion/vet/orator
 	id = /obj/item/card/id/dogtag/legveteran
@@ -527,6 +528,8 @@ commented out pending rework*/
 		/obj/item/storage/survivalkit/legionifak = 1,
 		/obj/item/reagent_containers/pill/patch/bitterdrink = 1,
 		/obj/item/clothing/neck/mantle/legiontoga = 1,
+		/obj/item/gun/ballistic/automatic/pistol/automag = 1,
+		/obj/item/ammo_box/magazine/automag = 2,
 		)
 
 /datum/outfit/job/CaesarsLegion/Legionnaire/f13orator/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
