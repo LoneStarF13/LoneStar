@@ -527,7 +527,6 @@ commented out pending rework*/
 		/obj/item/storage/survivalkit/legionifak = 1,
 		/obj/item/reagent_containers/pill/patch/bitterdrink = 1,
 		/obj/item/clothing/neck/mantle/legiontoga = 1,
-    	/obj/item/shield/riot/bullet_proof = 1,
 		)
 
 /datum/outfit/job/CaesarsLegion/Legionnaire/f13orator/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
