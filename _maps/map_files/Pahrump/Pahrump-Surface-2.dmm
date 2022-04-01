@@ -7853,9 +7853,12 @@
 /area/f13/ncr)
 "dpK" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/closet/crate/wooden,
 /obj/structure/destructible/tribal_torch/wall/lit{
 	dir = 8
+	},
+/obj/machinery/radioterminal/legion{
+	layer = 4;
+	pixel_y = 29
 	},
 /turf/open/floor/f13/wood,
 /area/f13/legion)
@@ -10701,14 +10704,6 @@
 	icon_state = "rubbleslab"
 	},
 /area/f13/village)
-"ezv" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/radioterminal/legion{
-	layer = 4;
-	pixel_y = 29
-	},
-/turf/open/floor/f13/wood,
-/area/f13/legion)
 "ezx" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table,
@@ -31989,12 +31984,6 @@
 	icon_state = "dirt"
 	},
 /area/f13/village)
-"mVQ" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/landmark/start/f13/campfollower,
-/obj/effect/landmark/start/f13/campfollower,
-/turf/open/floor/f13/wood,
-/area/f13/legion)
 "mVR" = (
 /obj/structure/reagent_dispensers/compostbin,
 /turf/open/floor/f13/wood,
@@ -36147,14 +36136,6 @@
 /obj/effect/spawner/lootdrop/f13/armor/random,
 /turf/open/floor/f13/wood,
 /area/f13/building)
-"oJn" = (
-/obj/structure/chair/wood{
-	dir = 1
-	},
-/obj/effect/landmark/start/f13/campfollower,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/f13/wood,
-/area/f13/legion)
 "oJp" = (
 /obj/structure/chair/office,
 /obj/effect/decal/cleanable/dirt,
@@ -37247,6 +37228,16 @@
 	icon_state = "dirt"
 	},
 /area/f13/wasteland)
+"phW" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/barricade/bars{
+	max_integrity = 800;
+	name = "strong metal bars";
+	obj_integrity = 800
+	},
+/obj/structure/table/wood,
+/turf/open/floor/f13/wood,
+/area/f13/legion)
 "pia" = (
 /obj/structure/chair/sofa/left{
 	dir = 1
@@ -41295,6 +41286,12 @@
 /obj/effect/spawner/lootdrop/f13/weapon/melee/random,
 /turf/open/floor/f13/wood,
 /area/f13/village)
+"qRS" = (
+/obj/effect/landmark/start/f13/campfollower,
+/turf/open/indestructible/ground/inside/subway{
+	name = "stone floor"
+	},
+/area/f13/legion)
 "qSe" = (
 /obj/structure/car/rubbish1,
 /obj/structure/tires/two,
@@ -45229,16 +45226,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/f13/old,
 /area/f13/building)
-"sJl" = (
-/obj/structure/table/wood,
-/obj/structure/barricade/bars{
-	max_integrity = 800;
-	name = "strong metal bars";
-	obj_integrity = 800
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/f13/wood,
-/area/f13/legion)
 "sJr" = (
 /obj/item/reagent_containers/glass/bucket/wood,
 /obj/item/reagent_containers/glass/bucket/wood,
@@ -54377,6 +54364,14 @@
 	icon_state = "horizontaloutermain0"
 	},
 /area/f13/wasteland)
+"wDz" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/chair/wood{
+	dir = 1
+	},
+/obj/effect/landmark/start/f13/campfollower,
+/turf/open/floor/f13/wood,
+/area/f13/legion)
 "wDK" = (
 /obj/structure/filingcabinet,
 /obj/effect/decal/cleanable/cobweb/cobweb2,
@@ -120508,7 +120503,7 @@ vIB
 ggK
 hom
 kIs
-xNm
+jYG
 xNm
 bMP
 uNK
@@ -120765,11 +120760,11 @@ gCL
 ggK
 hom
 jAa
+jYG
 xNm
 xNm
-xNm
-cfp
-xNm
+phW
+wDz
 wJF
 xXm
 xNm
@@ -121025,7 +121020,7 @@ hom
 uda
 xNm
 xNm
-cfp
+oxP
 xNm
 xNm
 seY
@@ -121281,9 +121276,9 @@ gcK
 hom
 bvO
 jmv
-jYG
+xNm
 kAJ
-ezv
+vKl
 xNm
 xNm
 xXm
@@ -121538,9 +121533,9 @@ gcK
 hom
 yaI
 jmv
-mVQ
-sJl
-oJn
+xNm
+cfp
+xNm
 xNm
 ybr
 vFj
@@ -121795,8 +121790,8 @@ gcK
 hom
 xNm
 wqz
-jYG
-hom
+xNm
+xGS
 xXm
 xNm
 xNm
@@ -122570,7 +122565,7 @@ hom
 hom
 feD
 feD
-feD
+qRS
 feD
 sHR
 xNm
