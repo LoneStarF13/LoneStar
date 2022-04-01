@@ -99,3 +99,25 @@
 	armour_penetration = 0.05
 	damage = 30
 	ammo_type = /obj/item/ammo_casing/caseless/arrow/serrated
+
+/obj/item/projectile/bullet/reusable/arrow/explosive
+	name = "explosive arrow"
+	desc = "An arrow with a pressure-activated explosive charge at the end. Cannot be reused."
+	armour_penetration = 0.2
+	damage = 5
+	ammo_type = /obj/item/ammo_casing/caseless/arrow/explosive
+
+/obj/item/projectile/bullet/reusable/arrow/explosive/on_hit(atom/target, blocked=0)
+	. = ..()
+	if(!isliving(target)) //if the target isn't alive, so is a wall or something
+		explosion(target, 0, 0, 1, 1)
+		dropped = TRUE
+	else
+		explosion(target, 0, 0, 1, 1)
+		dropped = TRUE
+	new /obj/effect/temp_visual/explosion(get_turf(target))
+	return BULLET_ACT_HIT
+
+/obj/item/projectile/bullet/reusable/arrow/explosive/handle_drop()
+	if(!dropped)
+		dropped = FALSE

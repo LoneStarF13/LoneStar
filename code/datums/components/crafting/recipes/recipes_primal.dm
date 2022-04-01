@@ -234,6 +234,19 @@
 				/obj/item/advanced_crafting_components/alloys = 1,
 				/obj/item/stack/sheet/glass = 4)
 	category = CAT_TRIBAL
+	
+/datum/crafting_recipe/tribalwar/yumi
+	name = "Yumi"
+	result = /obj/item/gun/ballistic/bow/yumi
+	time = 360
+	reqs = list(/obj/item/stack/sheet/mineral/wood = 10,
+				/obj/item/weaponcrafting/string = 6,
+				/obj/item/stack/sheet/mineral/bamboo = 30,
+				/obj/item/stack/sheet/sinew = 2,
+				/obj/item/stack/sheet/glass = 4,
+				/obj/item/stack/crafting/metalparts = 5)
+	category = CAT_TRIBAL
+	always_available = FALSE
 
 //ARROWS
 
@@ -316,6 +329,19 @@
 	reqs = list(
 		/obj/item/stack/rods = 1,
 		/obj/item/stack/crafting/goodparts = 1
+		)
+	category = CAT_TRIBAL
+	tools = list(TOOL_WORKBENCH)
+	
+/datum/crafting_recipe/tribalwar/arrowexplode
+	name = "Explosive Arrow"
+	result = /obj/item/ammo_casing/caseless/arrow/explosive
+	time = 15
+	reqs = list(
+		/obj/item/stack/rods = 1,
+		/obj/item/stack/crafting/goodparts = 2,
+		/obj/item/pressure_plate = 1,
+		/datum/reagent/blackpowder = 10
 		)
 	category = CAT_TRIBAL
 	tools = list(TOOL_WORKBENCH)
