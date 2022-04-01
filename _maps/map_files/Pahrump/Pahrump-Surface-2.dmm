@@ -20045,7 +20045,10 @@
 /obj/item/stack/sheet/glass{
 	amount = 50
 	},
-/turf/open/floor/f13/wood,
+/turf/open/indestructible/ground/outside/dirt{
+	dir = 4;
+	icon_state = "dirt"
+	},
 /area/f13/wasteland)
 "ibZ" = (
 /mob/living/simple_animal/hostile/eyebot,
@@ -32173,6 +32176,7 @@
 /obj/item/clothing/neck/apron/labor/forge{
 	pixel_x = 32
 	},
+/obj/structure/reagent_dispensers/barrel/explosive,
 /turf/open/indestructible/ground/inside/subway{
 	name = "stone floor"
 	},
