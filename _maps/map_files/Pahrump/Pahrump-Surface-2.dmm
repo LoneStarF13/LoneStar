@@ -2588,6 +2588,15 @@
 	icon_state = "housebase"
 	},
 /area/f13/building)
+"bdj" = (
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 1;
+	pixel_y = 12
+	},
+/turf/open/indestructible/ground/outside/dirt{
+	icon_state = "dirt"
+	},
+/area/f13/wasteland)
 "bdp" = (
 /obj/structure/table/wood,
 /obj/item/newspaper,
@@ -4073,6 +4082,13 @@
 	icon_state = "darkrusty"
 	},
 /area/f13/building)
+"bHB" = (
+/obj/structure/stairs/south{
+	color = "#A47449";
+	dir = 4
+	},
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/legion)
 "bIc" = (
 /obj/effect/decal/marking{
 	icon_state = "dottedhorizontalcorroded"
@@ -21469,10 +21485,7 @@
 /area/f13/village)
 "iJG" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/open/indestructible/ground/outside/water{
-	desc = "Deep, filtered pool water.";
-	name = "pool water"
-	},
+/turf/open/pool,
 /area/f13/legion)
 "iJI" = (
 /obj/structure/chair/wood/worn{
@@ -22527,6 +22540,9 @@
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ballistic/hobo,
 /turf/open/floor/f13/wood,
 /area/f13/village)
+"jbR" = (
+/turf/open/pool,
+/area/f13/legion)
 "jbV" = (
 /obj/structure/chair/wood/modern{
 	dir = 4;
@@ -23271,6 +23287,13 @@
 	icon_state = "outermaincornerinner"
 	},
 /area/f13/wasteland)
+"jpV" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/stairs/south{
+	color = "#A47449"
+	},
+/turf/open/floor/f13/wood,
+/area/f13/legion)
 "jpW" = (
 /obj/structure/destructible/tribal_torch/wall/lit{
 	dir = 4
@@ -25540,6 +25563,12 @@
 	name = "metal plating"
 	},
 /area/f13/building)
+"klb" = (
+/obj/structure/stairs/south{
+	color = "#A47449"
+	},
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/legion)
 "kld" = (
 /obj/structure/barricade/wooden,
 /turf/open/indestructible/ground/outside/road{
@@ -40679,12 +40708,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/legion)
-"qHe" = (
-/obj/structure/stairs/north{
-	color = "#A47449"
-	},
-/turf/open/indestructible/ground/outside/desert,
-/area/f13/wasteland)
 "qHu" = (
 /obj/effect/decal/remains{
 	icon_state = "remains"
@@ -43191,6 +43214,15 @@
 	icon_state = "housewood2"
 	},
 /area/f13/village)
+"rOr" = (
+/obj/structure/decoration/vent,
+/obj/machinery/shower{
+	pixel_y = 20
+	},
+/turf/open/floor/f13{
+	icon_state = "bluerustysolid"
+	},
+/area/f13/legion)
 "rOD" = (
 /obj/structure/rack,
 /obj/effect/spawner/lootdrop/f13/advcrafting,
@@ -52254,6 +52286,11 @@
 	dir = 8
 	},
 /obj/item/clothing/under/misc/bathrobe,
+/obj/item/clothing/under/misc/bathrobe,
+/obj/item/clothing/under/misc/bathrobe,
+/obj/item/clothing/under/misc/bathrobe,
+/obj/item/clothing/under/misc/bathrobe,
+/obj/item/clothing/under/misc/bathrobe,
 /turf/open/floor/f13{
 	icon_state = "bluerustysolid"
 	},
@@ -52266,6 +52303,10 @@
 /area/f13/wasteland)
 "vGB" = (
 /obj/structure/decoration/vent,
+/obj/machinery/shower{
+	dir = 1;
+	icon_state = "shower"
+	},
 /turf/open/floor/f13{
 	icon_state = "bluerustysolid"
 	},
@@ -52594,6 +52635,9 @@
 "vNg" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/decoration/vent,
+/obj/machinery/shower{
+	pixel_y = 20
+	},
 /turf/open/floor/f13{
 	icon_state = "bluerustysolid"
 	},
@@ -52955,6 +52999,11 @@
 "vVO" = (
 /obj/structure/table,
 /obj/item/reagent_containers/rag/towel,
+/obj/item/reagent_containers/rag/towel,
+/obj/item/reagent_containers/rag/towel,
+/obj/item/reagent_containers/rag/towel,
+/obj/item/reagent_containers/rag/towel,
+/obj/item/reagent_containers/rag/towel,
 /turf/open/floor/f13{
 	icon_state = "bluerustysolid"
 	},
@@ -52969,10 +53018,7 @@
 /area/f13/wasteland)
 "vWo" = (
 /obj/structure/chair/bench,
-/turf/open/indestructible/ground/outside/water{
-	desc = "Deep, filtered pool water.";
-	name = "pool water"
-	},
+/turf/open/pool,
 /area/f13/legion)
 "vWw" = (
 /obj/structure/barricade/wooden/planks/pregame,
@@ -53302,10 +53348,7 @@
 "weS" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/chair/bench,
-/turf/open/indestructible/ground/outside/water{
-	desc = "Deep, filtered pool water.";
-	name = "pool water"
-	},
+/turf/open/pool,
 /area/f13/legion)
 "weW" = (
 /obj/structure/bus_door,
@@ -53329,10 +53372,11 @@
 "wfr" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/indestructible/ground/outside/water{
-	desc = "Deep, filtered pool water.";
-	name = "pool water"
+/obj/structure/pool/ladder{
+	dir = 1;
+	pixel_y = -21
 	},
+/turf/open/pool,
 /area/f13/legion)
 "wfz" = (
 /obj/structure/chair/left,
@@ -53807,11 +53851,6 @@
 	icon_state = "housewood3-broken"
 	},
 /area/f13/raiders)
-"wqz" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/table/wood,
-/turf/open/floor/f13/wood,
-/area/f13/legion)
 "wqG" = (
 /obj/structure/chair/bench,
 /obj/effect/spawner/lootdrop/f13/armor/tier2,
@@ -55857,10 +55896,10 @@
 	},
 /area/f13/building)
 "xgk" = (
-/turf/open/indestructible/ground/outside/water{
-	desc = "Deep, filtered pool water.";
-	name = "pool water"
+/obj/structure/pool/ladder{
+	pixel_x = -4
 	},
+/turf/open/pool,
 /area/f13/legion)
 "xgm" = (
 /obj/effect/decal/cleanable/dirt,
@@ -56770,6 +56809,10 @@
 /obj/effect/spawner/lootdrop/f13/foodspawner,
 /obj/effect/spawner/lootdrop/f13/foodspawner,
 /obj/effect/spawner/lootdrop/f13/foodspawner,
+/obj/item/reagent_containers/food/snacks/meat/slab,
+/obj/item/reagent_containers/food/snacks/meat/slab,
+/obj/item/reagent_containers/food/snacks/meat/slab,
+/obj/item/reagent_containers/food/snacks/meat/slab,
 /turf/open/floor/f13{
 	icon_state = "whitegreenrustychess"
 	},
@@ -111014,10 +111057,10 @@ xNm
 nKs
 xNm
 hom
-tBN
+bdj
 mvv
 bpD
-fyf
+gcK
 gcK
 gcK
 gcK
@@ -111273,8 +111316,8 @@ xNm
 rgS
 dHq
 mvv
-hgM
-lPT
+bpD
+gcK
 gcK
 gcK
 gcK
@@ -111531,7 +111574,7 @@ rgS
 dHq
 mvv
 bpD
-lAC
+gcK
 gcK
 gcK
 gcK
@@ -112031,7 +112074,7 @@ hom
 hom
 hom
 hom
-cRh
+bHB
 gcK
 gcK
 hom
@@ -112045,7 +112088,7 @@ hom
 jgY
 mvv
 bpD
-fyf
+lAC
 gcK
 gcK
 gcK
@@ -112288,7 +112331,7 @@ bEu
 xys
 rEd
 hom
-gcK
+ayd
 gcK
 gcK
 hom
@@ -113593,7 +113636,7 @@ hom
 dvo
 hom
 hom
-vGB
+rOr
 vWo
 xgk
 vWo
@@ -113852,7 +113895,7 @@ glt
 hom
 vIu
 iJG
-xgk
+jbR
 weS
 xsj
 oxP
@@ -114108,8 +114151,8 @@ xys
 xXm
 pkS
 xsj
-xgk
-xgk
+jbR
+jbR
 iJG
 kMl
 hom
@@ -114366,7 +114409,7 @@ xNm
 pkS
 kMl
 iJG
-xgk
+jbR
 wfr
 kMl
 whU
@@ -114622,8 +114665,8 @@ aop
 xXm
 hom
 gkn
-xgk
-xgk
+jbR
+jbR
 weS
 kMl
 whU
@@ -114880,7 +114923,7 @@ xNm
 hom
 vNg
 vWo
-xgk
+jbR
 vWo
 vGB
 hom
@@ -115639,7 +115682,7 @@ hom
 hom
 hom
 hom
-qHe
+oAo
 oAo
 fyf
 hwC
@@ -117159,7 +117202,7 @@ niI
 uqW
 uqW
 uqW
-hom
+iKX
 fyf
 tBN
 rjH
@@ -119470,7 +119513,7 @@ wom
 hom
 fKN
 xXm
-iKX
+klb
 hom
 nCl
 nhu
@@ -121800,7 +121843,7 @@ ggK
 gcK
 hom
 xNm
-wqz
+xNm
 xNm
 xGS
 xXm
@@ -122058,7 +122101,7 @@ gcK
 hom
 xNm
 xNm
-xNm
+bMP
 hom
 iFT
 iFT
@@ -122315,7 +122358,7 @@ gcK
 hom
 ylR
 xNm
-bMP
+jpV
 hom
 fwK
 feD
