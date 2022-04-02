@@ -39,7 +39,7 @@
 
 /obj/item/reagent_containers/food/snacks/chips
 	name = "old world potato chips"
-	desc = "A bag of salted or flavored potato chips, sealed in an inert environment for freshness. A common snack pre-War, you can still find the odd pack of these in most places where people lived or worked.""
+	desc = "A bag of salted or flavored potato chips, sealed in an inert environment for freshness. A common snack pre-War, you can still find the odd pack of these in most places where people lived or worked."
 	icon_state = "chips"
 	trash = /obj/item/trash/chips
 	bitesize = 1
