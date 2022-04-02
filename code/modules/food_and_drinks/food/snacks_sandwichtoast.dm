@@ -34,7 +34,6 @@
 	desc = "Goes great with Tomato soup!"
 	icon = 'icons/obj/food/burgerbread.dmi'
 	icon_state = "toastedsandwich"
-	trash = /obj/item/trash/plate
 	bonus_reagents = list(/datum/reagent/consumable/nutriment = 1, /datum/reagent/consumable/nutriment/vitamin = 1)
 	list_reagents = list(/datum/reagent/consumable/nutriment = 7, /datum/reagent/consumable/nutriment/vitamin = 1)
 	tastes = list("toast" = 1, "cheese" = 1)
