@@ -28,7 +28,7 @@
 
 /obj/item/reagent_containers/food/snacks/meat/slab/wolf
 	name = "dog meat"
-	desc = "Some asians love this stuff.<br>It does not taste too bad actually."
+	desc = "It does not taste too bad actually."
 	list_reagents = list(/datum/reagent/consumable/nutriment = 6, /datum/reagent/consumable/nutriment/vitamin = 2)
 	bitesize = 4 //Average animal
 	filling_color = "#FA8072"
