@@ -30,7 +30,7 @@
 
 /obj/item/reagent_containers/food/snacks/pizza/margherita
 	name = "pizza margherita"
-	desc = "The most cheezy pizza in galaxy."
+	desc = "The most cheezy pizza in America."
 	icon_state = "pizzamargherita"
 	slice_path = /obj/item/reagent_containers/food/snacks/pizzaslice/margherita
 	bonus_reagents = list(/datum/reagent/consumable/nutriment = 5, /datum/reagent/consumable/nutriment/vitamin = 5)
@@ -43,7 +43,7 @@
 
 /obj/item/reagent_containers/food/snacks/pizzaslice/margherita
 	name = "margherita slice"
-	desc = "A slice of the most cheezy pizza in galaxy."
+	desc = "A slice of the most cheezy pizza in America."
 	icon_state = "pizzamargheritaslice"
 	filling_color = "#FFA500"
 	tastes = list("crust" = 1, "tomato" = 1, "cheese" = 1)
@@ -61,7 +61,7 @@
 
 /obj/item/reagent_containers/food/snacks/pizzaslice/meat
 	name = "meatpizza slice"
-	desc = "A nutritious slice of meatpizza."
+	desc = "A nutritious slice of meat pizza."
 	icon_state = "meatpizzaslice"
 	filling_color = "#A52A2A"
 	tastes = list("crust" = 1, "tomato" = 1, "cheese" = 1, "meat" = 1)
@@ -87,7 +87,7 @@
 
 /obj/item/reagent_containers/food/snacks/pizza/vegetable
 	name = "vegetable pizza"
-	desc = "No one of Tomatos Sapiens were harmed during making this pizza."
+	desc = "No one of mutants were harmed during making this pizza."
 	icon_state = "vegetablepizza"
 	slice_path = /obj/item/reagent_containers/food/snacks/pizzaslice/vegetable
 	bonus_reagents = list(/datum/reagent/consumable/nutriment = 5, /datum/reagent/consumable/nutriment/vitamin = 5)
