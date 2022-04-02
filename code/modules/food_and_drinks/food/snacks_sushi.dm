@@ -18,7 +18,7 @@
 
 /obj/item/reagent_containers/food/snacks/tuna
 	name = "Canned Tuna"
-	desc = "A small can of tuna fish beloved by felines."
+	desc = "A small can of tuna fish."
 	icon_state = "tuna_can"
 	list_reagents = list(/datum/reagent/consumable/sodiumchloride = 5, /datum/reagent/mercury = 2)
 	tastes = list("tuna" = 15, "mercury" = 1, "salt" = 3)
@@ -38,7 +38,7 @@
 
 /obj/item/reagent_containers/food/snacks/sushie_adv
 	name = "Funa Nigiri"
-	desc = "A piece of carp lightly placed on some rice."
+	desc = "A piece of mutant carp lightly placed on some rice."
 	icon_state = "sushie_adv"
 	bonus_reagents = list(/datum/reagent/consumable/nutriment/vitamin = 2)
 	list_reagents = list(/datum/reagent/consumable/nutriment = 2)
@@ -49,7 +49,7 @@
 
 /obj/item/reagent_containers/food/snacks/sushie_pro
 	name = "Funa Nigiri"
-	desc = "A well prepared piece of the best of the carp fillet placed on rice. Looks fancy and fresh!"
+	desc = "A well prepared piece of the best mutant carp placed on rice. Looks fancy and fresh!"
 	icon_state = "sushie_pro"
 	bonus_reagents = list(/datum/reagent/consumable/nutriment = 1, /datum/reagent/consumable/nutriment/vitamin = 2)
 	list_reagents = list(/datum/reagent/consumable/nutriment = 8, /datum/reagent/consumable/nutriment/vitamin = 1)
@@ -69,7 +69,7 @@
 
 /obj/item/reagent_containers/food/snacks/riceball
 	name = "Onigiri"
-	desc = "A ball of rice with some light salt and a wrap of Kudzu skin."
+	desc = "A ball of rice with some light salt and a wrap of kudzu skin."
 	icon_state = "riceball"
 	list_reagents = list(/datum/reagent/consumable/nutriment = 5, /datum/reagent/consumable/sodiumchloride = 2)
 	tastes = list("rice" = 4, "salt" = 1)
@@ -77,7 +77,7 @@
 
 /obj/item/reagent_containers/food/snacks/sashimi
 	name = "carp sashimi"
-	desc = "Celebrate surviving attack from hostile alien lifeforms by hospitalising yourself."
+	desc = "Celebrate surviving attack from hostile mutant fish by hospitalising yourself."
 	icon_state = "sashimi"
 	bonus_reagents = list(/datum/reagent/consumable/nutriment = 1, /datum/reagent/consumable/capsaicin = 4, /datum/reagent/consumable/nutriment/vitamin = 4)
 	list_reagents = list(/datum/reagent/consumable/nutriment = 6, /datum/reagent/consumable/capsaicin = 5)
@@ -118,5 +118,5 @@
 
 /obj/item/reagent_containers/food/snacks/fishing_sushi/masago_sushi //any roe(?)
 	name = "masago sushi"
-	desc = "Sushi that has been made with some kind of roe?"
+	desc = "Sushi that has been made with some kind of roe."
 	icon_state = "sushi_Masago"
