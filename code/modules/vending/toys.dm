@@ -2,8 +2,8 @@
 	name = "\improper Wilson Atomatoys"
 	desc = "Founded in 2042 by George Wilson and Arlen Glass, Wilson Atomatoys had one mission: Help children dream and imagine a better future beyond the hopeless years of a world ravaged by strife and war. It was their calling, their passion, their life's mission that they pursued for the next thirty-five years, often at the expense of time spent with their families. Their flagship product, the Giddyup Buttercup, became a smash hit on the market, eventually bringing in hundreds of millions of dollars in revenue per annum, in spite of its excessive price tag of $16 000 per unit."
 	icon_state = "syndi"
-	product_slogans = "Get your cool toys today!;Every girl's fantasy now made a reality;Quality toys for cheap prices!;Give those commies the o' rock sock em kid!;30% less lead!"
-	product_ads = "Feel like a real soldier the Red Ryder line of toy guns!;Express your inner child today!;Don't shoot your eye out!;Slash and slay like Grognak!;Make your next game of cops and commies FUN!"
+	product_slogans = "Get your cool toys today!;Every girl's fantasy now made a reality;Quality toys for cheap prices!;Give those commies the o' rock sock em kid!"
+	product_ads = "Feel like a real soldier with your Red Ryder BB Gun!;Express your inner child today!;Don't shoot your eye out!;Slash and slay like Grognak!;Make your next game of cops and commies FUN!"
 	vend_reply = "Come back for more!"
 	circuit = /obj/item/circuitboard/machine/vending/donksofttoyvendor
 	products = list(
