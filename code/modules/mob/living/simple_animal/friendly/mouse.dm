@@ -93,10 +93,6 @@
 			be_fruitful()
 			qdel(cheese)
 			return
-	for(var/obj/item/reagent_containers/food/snacks/royalcheese/bigcheese in range(1, src))
-		qdel(bigcheese)
-		evolve()
-		return
 
 /**
  *Checks the mouse cap, if it's above the cap, doesn't spawn a mouse. If below, spawns a mouse and adds it to cheeserats.
