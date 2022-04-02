@@ -219,7 +219,7 @@
 
 /obj/item/instrument/harmonica
 	name = "harmonica"
-	desc = "For when you get a bad case of the space blues."
+	desc = "For when you get a bad case of the blues."
 	icon_state = "harmonica"
 	item_state = "harmonica"
 	allowed_instrument_ids = "harmonica"
