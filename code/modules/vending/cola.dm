@@ -1,6 +1,6 @@
 
 /obj/machinery/vending/cola
-	name = "\improper Robust Softdrinks"
+	name = "\improper Nuka-Cola vending machine"
 	icon = 'icons/obj/f13vending.dmi'
 	desc = "The Nuka-Cola Corporation was a corporation, best known for its flagship product, Nuka-Cola. The soda is considered to be the most popular drink in the United States both before and after the war."
 	icon_state = "nuka_vending"
@@ -12,7 +12,7 @@
 	refill_canister = /obj/item/vending_refill/cola
 
 /obj/item/vending_refill/cola
-	machine_name = "Robust Softdrinks"
+	machine_name = "Nuka-Cola vending machine"
 	icon_state = "refill_cola"
 
 /obj/machinery/vending/cola/random
