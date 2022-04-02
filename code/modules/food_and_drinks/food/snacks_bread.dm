@@ -64,8 +64,7 @@
 
 /obj/item/reagent_containers/food/snacks/breadslice/xenomeat
 	name = "mutant meatbread slice"
-	desc = "A slice of delicious meatbread. Extra acidic
-	."
+	desc = "A slice of delicious meatbread. Extra acidic."
 	icon_state = "xenobreadslice"
 	filling_color = "#32CD32"
 	list_reagents = list(/datum/reagent/consumable/nutriment = 6, /datum/reagent/consumable/nutriment/vitamin = 1)
