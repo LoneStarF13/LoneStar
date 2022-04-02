@@ -14,9 +14,9 @@
 	foodtype = JUNKFOOD | SUGAR
 
 /obj/item/reagent_containers/food/snacks/sosjerky
-	name = "\improper Scaredy's Private Reserve Beef Jerky"
+	name = "\improper Private Reserve Beef Jerky"
 	icon_state = "sosjerky"
-	desc = "Beef jerky made from the finest space cows."
+	desc = "Beef jerky made from the finest cows."
 	trash = /obj/item/trash/sosjerky
 	list_reagents = list(/datum/reagent/consumable/nutriment = 1, /datum/reagent/consumable/sugar = 3, /datum/reagent/consumable/sodiumchloride = 2)
 	junkiness = 25
@@ -62,13 +62,13 @@
 
 /obj/item/reagent_containers/food/snacks/no_raisin/healthy
 	name = "homemade raisins"
-	desc = "Homemade raisins, the best in all of spess."
+	desc = "Homemade raisins, the best in all of the wasteland."
 	list_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/nutriment/vitamin = 2)
 	junkiness = 0
 	foodtype = FRUIT
 
 /obj/item/reagent_containers/food/snacks/spacetwinkie
-	name = "space twinkie"
+	name = "twinkie"
 	icon_state = "space_twinkie"
 	desc = "Guaranteed to survive longer than you will."
 	list_reagents = list(/datum/reagent/consumable/sugar = 4)
