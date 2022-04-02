@@ -4,7 +4,7 @@
 
 /obj/item/reagent_containers/food/snacks/dough
 	name = "dough"
-	desc = "A piece of dough."
+	desc = "Dough is a thick, malleable, sometimes elastic paste made from grains or from leguminous crops."
 	icon = 'icons/obj/food/food_ingredients.dmi'
 	icon_state = "dough"
 	cooked_type = /obj/item/reagent_containers/food/snacks/store/bread/plain
@@ -30,7 +30,7 @@
 // sliceable into 3xdoughslices
 /obj/item/reagent_containers/food/snacks/flatdough
 	name = "flat dough"
-	desc = "A flattened dough."
+	desc = "A dough, rolled out until thin."
 	icon = 'icons/obj/food/food_ingredients.dmi'
 	icon_state = "flat dough"
 	slice_path = /obj/item/reagent_containers/food/snacks/doughslice
@@ -56,7 +56,7 @@
 
 /obj/item/reagent_containers/food/snacks/doughslice
 	name = "dough slice"
-	desc = "A slice of dough. Can be cooked into a bun."
+	desc = "A slice of bread dough."
 	icon = 'icons/obj/food/food_ingredients.dmi'
 	icon_state = "doughslice"
 	cooked_type = /obj/item/reagent_containers/food/snacks/bun
@@ -67,7 +67,7 @@
 
 /obj/item/reagent_containers/food/snacks/bun
 	name = "bun"
-	desc = "A base for any self-respecting burger."
+	desc = "A base for creating burgers."
 	icon = 'icons/obj/food/burgerbread.dmi'
 	icon_state = "bun"
 	list_reagents = list(/datum/reagent/consumable/nutriment = 1)
@@ -78,7 +78,7 @@
 
 /obj/item/reagent_containers/food/snacks/cakebatter
 	name = "cake batter"
-	desc = "Cook it to get a cake."
+	desc = "Cake batter waiting for the oven."
 	icon = 'icons/obj/food/food_ingredients.dmi'
 	icon_state = "cakebatter"
 	cooked_type = /obj/item/reagent_containers/food/snacks/store/cake/plain
@@ -101,7 +101,7 @@
 
 /obj/item/reagent_containers/food/snacks/piedough
 	name = "pie dough"
-	desc = "Cook it to get a pie."
+	desc = "A base for making pies."
 	icon = 'icons/obj/food/food_ingredients.dmi'
 	icon_state = "piedough"
 	slice_path = /obj/item/reagent_containers/food/snacks/rawpastrybase
@@ -114,7 +114,7 @@
 
 /obj/item/reagent_containers/food/snacks/rawpastrybase
 	name = "raw pastry base"
-	desc = "Must be cooked before use."
+	desc = "A base for making pastries, must be cooked first."
 	icon = 'icons/obj/food/food_ingredients.dmi'
 	icon_state = "rawpastrybase"
 	cooked_type = /obj/item/reagent_containers/food/snacks/pastrybase
@@ -125,7 +125,7 @@
 
 /obj/item/reagent_containers/food/snacks/pastrybase
 	name = "pastry base"
-	desc = "A base for any self-respecting pastry."
+	desc = "A base for making pastries."
 	icon = 'icons/obj/food/food_ingredients.dmi'
 	icon_state = "pastrybase"
 	list_reagents = list(/datum/reagent/consumable/nutriment = 1)
