@@ -1,7 +1,7 @@
 
 /obj/item/reagent_containers/food/snacks/pie
 	icon = 'icons/obj/food/piecake.dmi'
-	trash = /obj/item/trash/plate
+	/*trash = /obj/item/trash/plate/*
 	bitesize = 3
 	w_class = WEIGHT_CLASS_NORMAL
 	volume = 80
