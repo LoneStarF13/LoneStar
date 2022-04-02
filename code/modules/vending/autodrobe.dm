@@ -1,9 +1,9 @@
 /obj/machinery/vending/autodrobe
-	name = "\improper AutoDrobe"
-	desc = "A vending machine for costumes."
+	name = "\improper Freddy Fear's House of Scares"
+	desc = "Freddy Fears's House of Scares was a Halloween costume company in based out of Maryland."
 	icon_state = "theater"
 	icon_deny = "theater-deny"
-	product_slogans = "Dress for success!;Suited and booted!;It's show time!;Why leave style up to fate? Use AutoDrobe!"
+	product_slogans = "Dress for success!;Suited and booted!;It's show time!;Why leave style up to fate?"
 	vend_reply = "Thank you for using AutoDrobe!"
 	products = list(/obj/item/clothing/suit/chickensuit = 1,
 						/obj/item/clothing/head/chicken = 1,
