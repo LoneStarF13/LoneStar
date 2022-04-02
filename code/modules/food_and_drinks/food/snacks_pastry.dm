@@ -4,7 +4,7 @@
 
 /obj/item/reagent_containers/food/snacks/donut
 	name = "donut"
-	desc = "Goes great with robust coffee."
+	desc = "Goes great with coffee."
 	icon = 'icons/obj/food/donut.dmi'
 	icon_state = "donut"
 	bitesize = 5
@@ -82,8 +82,8 @@
 	decorated_icon = "donut_homer"
 
 /obj/item/reagent_containers/food/snacks/donut/trumpet
-	name = "spaceman's donut"
-	desc = "Goes great with a cold beaker of malk."
+	name = "moon monkey donut"
+	desc = "Goes great with a cold beaker of milk."
 	icon_state = "donut_purple"
 	bonus_reagents = list(/datum/reagent/medicine/polypyr = 3, /datum/reagent/consumable/sprinkles = 1)
 	tastes = list("donut" = 3, "violets" = 1)
@@ -182,7 +182,7 @@
 
 /obj/item/reagent_containers/food/snacks/donut/jelly/trumpet
 	name = "spaceman's jelly donut"
-	desc = "Goes great with a cold beaker of malk."
+	desc = "Goes great with a cold beaker of milk."
 	icon_state = "jelly_purple"
 	bonus_reagents = list(/datum/reagent/medicine/polypyr = 3, /datum/reagent/consumable/sprinkles = 1, /datum/reagent/consumable/nutriment/vitamin = 1)
 	tastes = list("jelly" = 1, "donut" = 3, "violets" = 1)
@@ -272,7 +272,7 @@
 
 /obj/item/reagent_containers/food/snacks/donut/jelly/slimejelly/trumpet
 	name = "spaceman's jelly donut"
-	desc = "Goes great with a cold beaker of malk."
+	desc = "Goes great with a cold beaker of milk."
 	icon_state = "jelly_purple"
 	bonus_reagents = list(/datum/reagent/medicine/polypyr = 3, /datum/reagent/consumable/sprinkles = 1, /datum/reagent/consumable/nutriment/vitamin = 1)
 	tastes = list("jelly" = 1, "donut" = 3, "violets" = 1)
@@ -403,7 +403,6 @@
 	name = "waffles"
 	desc = "Mmm, waffles."
 	icon_state = "waffles"
-	trash = /obj/item/trash/waffles
 	bonus_reagents = list(/datum/reagent/consumable/nutriment/vitamin = 1)
 	list_reagents = list(/datum/reagent/consumable/nutriment = 8, /datum/reagent/consumable/nutriment/vitamin = 1)
 	filling_color = "#D2691E"
@@ -414,7 +413,6 @@
 	name = "\improper Soylent Green"
 	desc = "Not made of people. Honest." //Totally people.
 	icon_state = "soylent_green"
-	trash = /obj/item/trash/waffles
 	bonus_reagents = list(/datum/reagent/consumable/nutriment/vitamin = 1)
 	list_reagents = list(/datum/reagent/consumable/nutriment = 10, /datum/reagent/consumable/nutriment/vitamin = 1)
 	filling_color = "#9ACD32"
@@ -425,7 +423,6 @@
 	name = "\improper Soylent Virdians"
 	desc = "Not made of people. Honest." //Actually honest for once.
 	icon_state = "soylent_yellow"
-	trash = /obj/item/trash/waffles
 	bonus_reagents = list(/datum/reagent/consumable/nutriment/vitamin = 1)
 	list_reagents = list(/datum/reagent/consumable/nutriment = 10, /datum/reagent/consumable/nutriment/vitamin = 1)
 	filling_color = "#9ACD32"
@@ -436,7 +433,6 @@
 	name = "roffle waffles"
 	desc = "Waffles from Roffle. Co."
 	icon_state = "rofflewaffles"
-	trash = /obj/item/trash/waffles
 	bitesize = 4
 	bonus_reagents = list(/datum/reagent/consumable/nutriment/vitamin = 2)
 	list_reagents = list(/datum/reagent/consumable/nutriment = 8, /datum/reagent/drug/mushroomhallucinogen = 2, /datum/reagent/consumable/nutriment/vitamin = 2)
