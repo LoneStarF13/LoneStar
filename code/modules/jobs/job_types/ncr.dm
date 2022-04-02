@@ -745,6 +745,8 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/huntingrifle)
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/huntingshotgun)
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/m1carbine)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/durathread_vest)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/tribalradio)
 	ADD_TRAIT(H, TRAIT_TECHNOPHREAK, src)
 
 /datum/outfit/job/ncr/f13combatengineer
@@ -1139,6 +1141,8 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/servicerifle)
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/scoutcarbine)
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/plasmasniper)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/durathread_vest)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/tribalradio)
 	ADD_TRAIT(H, TRAIT_TECHNOPHREAK, src)
 
 /datum/outfit/job/ncr/f13logisticsofficer		// Grease Gun, 9mm sidearm, Survival knife, C-4 bomb, Extra materials, Full blueprints

@@ -838,6 +838,11 @@
 	name = "gauss rifle blueprint"
 	icon_state = "blueprint2"
 	crafting_recipe_types = list(/datum/crafting_recipe/gaussrifle)
+	
+/obj/item/book/granter/crafting_recipe/blueprint/yumi
+	name = "yumi blueprint"
+	icon_state = "blueprint2"
+	crafting_recipe_types = list(/datum/crafting_recipe/tribalwar/yumi)
 
 /obj/item/book/granter/crafting_recipe/manual/denvr
 	name = "den vr configuration"

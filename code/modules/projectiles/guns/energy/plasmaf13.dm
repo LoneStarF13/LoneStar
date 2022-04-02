@@ -157,6 +157,7 @@
 	name = "Plasma Cannon"
 	desc = "A refined design, taking the common wasteland plasma musket and improving upon it. Trash parts and safety hazards give way to proper stamped and machined construction. It's even been fitted with a scope and designed to take MFCs rather than shoddy plasma cans."
 	icon = 'icons/fallout/objects/guns/energy.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/backslot_weapon.dmi'
 	icon_state = "plasmasniper"
 	item_state = "plasmamusket"
 	slowdown = 0.3

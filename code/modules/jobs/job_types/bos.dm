@@ -44,6 +44,8 @@ Main doors: ACCESS_CAPTAIN 20
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/boscombathelmetmk2)
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/set_vrboard/bos)
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/gate_bos)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/durathread_vest)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/tribalradio)
 /*
 Elder
 */
