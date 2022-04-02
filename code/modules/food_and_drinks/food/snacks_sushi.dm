@@ -20,7 +20,6 @@
 	name = "Canned Tuna"
 	desc = "A small can of tuna fish beloved by felines."
 	icon_state = "tuna_can"
-//trash = /obj/item/trash/tuna_used //I dont know if I like this idea - A Masked Cat
 	list_reagents = list(/datum/reagent/consumable/sodiumchloride = 5, /datum/reagent/mercury = 2)
 	tastes = list("tuna" = 15, "mercury" = 1, "salt" = 3)
 	foodtype = MEAT
