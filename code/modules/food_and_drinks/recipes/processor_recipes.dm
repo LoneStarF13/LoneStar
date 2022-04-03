@@ -52,3 +52,14 @@
 	input = /mob/living/simple_animal/slime
 	output = null
 	required_machine = /obj/machinery/processor/slime
+
+///// wasteland processor ////
+
+/*/datum/food_processor_process/homemadecram
+	input = /obj/item/reagent_containers/food/snacks/rawbrahminliver
+	output = /obj/item/reagent_containers/food/snacks/brahminpate
+
+/datum/food_processor_process/homemadecram
+	input = /obj/item/reagent_containers/food/snacks/rawbrahmintongue
+	output = /obj/item/reagent_containers/food/snacks/homemadesalisburysteak
+*/
