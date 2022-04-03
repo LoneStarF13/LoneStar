@@ -113,16 +113,6 @@
 	result = /obj/item/reagent_containers/food/snacks/homemadecram
 	subcategory = CAT_WASTEFOOD
 
-/datum/crafting_recipe/food/homemadecram
-	name = "Homemade Cram"
-	reqs = list(
-		/obj/item/reagent_containers/food/snacks/brahminpate = 1,
-		/obj/item/reagent_containers/food/snacks/grown/chili = 1,
-		/datum/reagent/consumable/flour = 5
-	)
-	result = /obj/item/reagent_containers/food/snacks/homemadecram
-	subcategory = CAT_WASTEFOOD
-
 /datum/crafting_recipe/food/cookedhomemadecram
 	name = "Fried Homemade Cram"
 	reqs = list(
