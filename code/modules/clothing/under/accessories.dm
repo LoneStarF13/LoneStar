@@ -270,7 +270,7 @@
 
 /obj/item/clothing/accessory/armband/hydro
 	name = "hydroponics guard armband"
-	desc = "An armband, worn by ecurity forces to display which department they're assigned to. This one is green and blue."
+	desc = "An armband, worn by security forces to display which department they're assigned to. This one is green and blue."
 	icon_state = "hydroband"
 
 /obj/item/clothing/accessory/armband/med
