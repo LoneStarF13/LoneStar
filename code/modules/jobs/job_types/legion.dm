@@ -282,6 +282,12 @@ commented out pending rework*/
 	ADD_TRAIT(H, TRAIT_IRONFIST, src)
 	ADD_TRAIT(H, TRAIT_HARD_YARDS, src)
 	ADD_TRAIT(H, TRAIT_LIFEGIVER, src)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/vetdecanlaser)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/veterandecanballistic)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/vetdecanballistichelm1)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/vetdecanballistichelm2)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/vetdecanhelmlaser1)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/vetdecanhelmlaser2)
 
 /datum/outfit/job/CaesarsLegion/Legionnaire/f13decanvet
 	name = "Legion Veteran Decanus"
@@ -645,6 +651,10 @@ commented out pending rework*/
 		return
 	ADD_TRAIT(H, TRAIT_HARD_YARDS, src)
 	ADD_TRAIT(H, TRAIT_BIG_LEAGUES, src)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/explorerlaser)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/explorerballistic)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/explorerhelmlaserproof)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/explorerhelmballistic)
 
 /datum/outfit/job/CaesarsLegion/Legionnaire/f13explorer
 	name = "Legion Explorer"
@@ -726,6 +736,10 @@ commented out pending rework*/
 	ADD_TRAIT(H, TRAIT_BIG_LEAGUES, src)
 	ADD_TRAIT(H, TRAIT_LIFEGIVER, src)
 	ADD_TRAIT(H, TRAIT_HARD_YARDS, src)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/veteranballistic)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/veteranlaser)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/veteranhelmballistic)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/veteranhelmlaserproof)
 
 /datum/outfit/job/CaesarsLegion/Legionnaire/vetlegionnaire
 	name = "Veteran Legionnaire"

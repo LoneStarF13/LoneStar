@@ -48,7 +48,7 @@
 	item_state = "combat_coat"
 	desc = "A heavy armor with ballistic inserts, sewn into a padded riot police coat."
 	armor = list("melee" = 45, "bullet" = 45, "laser" = 35, "energy" = 20, "bomb" = 30, "bio" = 0, "rad" = 0, "fire" = 5, "acid" = 35, "wound" = 45)
-	slowdown = 0.15
+	slowdown = 0.25
 
 /obj/item/clothing/suit/armor/f13/kit
 	name = "armor kit"
@@ -95,7 +95,7 @@
 	item_state = "leather_armor"
 	armor = list("melee" = 35, "bullet" = 20, "laser" = 35, "energy" = 25, "bomb" = 32, "bio" = 0, "rad" = 10, "fire" = 30, "acid" = 35, "wound" = 30)
 	strip_delay = 40
-	slowdown = 0.06
+	slowdown = 0.08
 
 /obj/item/clothing/suit/armor/f13/leatherarmor/reinforced
 	name = "reinforced leather armor"
@@ -103,7 +103,7 @@
 	item_state = "leather_armor_2"
 	desc = "An enhanced version of the basic leather armor with extra layers of protection. Finely crafted from tanned brahmin hide."
 	armor = list("melee" = 37, "bullet" = 22, "laser" = 37, "energy" = 27, "bomb" = 35, "bio" = 0, "rad" = 15, "fire" = 40, "acid" = 35, "wound" = 35)
-	slowdown = 0.08
+	slowdown = 0.1
 
 
 /obj/item/clothing/suit/armor/f13/metalarmor
@@ -114,7 +114,7 @@
 	icon_state = "metal_chestplate"
 	item_state = "metal_chestplate"
 	armor = list("melee" = 40, "bullet" = 45, "laser" = 50, "energy" = 15, "bomb" = 45, "bio" = 30, "rad" = 15, "fire" = 60, "acid" = 0, "wound" = 45)
-	slowdown = 0.22
+	slowdown = 0.3
 	strip_delay = 10
 
 /obj/item/clothing/suit/armor/f13/metalarmor/laserproof
@@ -124,8 +124,8 @@
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/armor_medium.dmi'
 	icon_state = "armor_enclave_peacekeeper"
 	item_state = "armor_enclave_peacekeeper"
-	armor = list("melee" = 38, "bullet" = 42, "laser" = 60, "energy" = 25, "bomb" = 45, "bio" = 30, "rad" = 15, "fire" = 60, "acid" = 0, "wound" = 45)
-	slowdown = 0.2
+	armor = list("melee" = 38, "bullet" = 38, "laser" = 72, "energy" = 25, "bomb" = 45, "bio" = 30, "rad" = 15, "fire" = 60, "acid" = 0, "wound" = 45)
+	slowdown = 0.3
 	strip_delay = 10
 
 /obj/item/clothing/suit/armor/fluff/metalarmor/Initialize()
@@ -143,7 +143,7 @@
 	icon_state = "metal_chestplate2"
 	item_state = "metal_chestplate2"
 	armor = list("melee" = 45, "bullet" = 50, "laser" = 55, "energy" = 15, "bomb" = 45, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0, "wound" = 50)
-	slowdown = 0.25
+	slowdown = 0.3
 	strip_delay = 10
 
 /obj/item/clothing/suit/armor/f13/metalarmor/steelbib
@@ -151,8 +151,8 @@
 	desc = "a steel breastplate, inspired by a pre-war design. It provides some protection against impacts, cuts, and medium-velocity bullets."
 	icon_state = "steel_bib"
 	item_state = "steel_bib"
-	armor = list("melee" = 20, "bullet" = 45, "laser" = 20, "energy" = 15, "bomb" = 20, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0, "wound" = 40)
-	slowdown = 0.06
+	armor = list("melee" = 20, "bullet" = 45, "laser" = 50, "energy" = 15, "bomb" = 20, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0, "wound" = 40)
+	slowdown = 0.1
 	strip_delay = 5
 
 //Combat armor (Faction specific is on f13factionarmor.dm)
@@ -162,12 +162,12 @@
 	icon_state = "combat_armor"
 	item_state = "combat_armor"
 	armor = list("melee" = 45, "bullet" = 45, "laser" = 45, "energy" = 20, "bomb" = 50, "bio" = 60, "rad" = 10, "fire" = 60, "acid" = 20, "wound" = 50)
-	slowdown = 0.12
+	slowdown = 0.15
 
 /obj/item/clothing/suit/armor/f13/combat/laserproof
 	name = "ablative combat armor"
 	desc = "An old military grade pre war combat armor. This one switches out its ballistic fibers for an ablative coating that disrupts energy weapons."
-	armor = list("melee" = 35, "bullet" = 35, "laser" = 60, "energy" = 50, "bomb" = 50, "bio" = 60, "rad" = 10, "fire" = 60, "acid" = 20, "wound" = 50)
+	armor = list("melee" = 35, "bullet" = 35, "laser" = 80, "energy" = 50, "bomb" = 50, "bio" = 60, "rad" = 10, "fire" = 60, "acid" = 20, "wound" = 50)
 
 /obj/item/clothing/suit/armor/f13/combat/dark
 	name = "combat armor"
@@ -203,6 +203,7 @@
 	icon_state = "armoralt"
 	item_state = "armoralt"
 	armor = list("melee" = 30, "bullet" = 50, "laser" = 30, "energy" = 20, "bomb" = 55, "bio" = 60, "rad" = 15, "fire" = 60, "acid" = 30, "wound" = 55)
+	slowdown = 0.13
 
 /obj/item/clothing/suit/armor/f13/combat/chinese
 	name = "chinese combat armor"
@@ -391,7 +392,7 @@
 	desc = "The pinnacle of pre-war technology. This suit of power armor provides substantial protection to the wearer."
 	icon_state = "t51bpowerarmor"
 	item_state = "t51bpowerarmor"
-	slowdown = 0.15 //+0.05 from helmet = total 0.175
+	slowdown = 0.4 //+0.05 from helmet = total 0.45
 	armor = list("melee" = 72.5, "bullet" = 72.5, "laser" = 72.5, "energy" = 30, "bomb" = 62, "bio" = 100, "rad" = 99, "fire" = 90, "acid" = 0, "wound" = 72)
 
 /obj/item/clothing/suit/armor/f13/power_armor/t51green
@@ -399,7 +400,7 @@
 	desc = "The pinnacle of pre-war technology. This suit of power armor provides substantial protection to the wearer. It's plates have been chemially treated to be stronger."
 	icon_state = "t51green"
 	item_state = "t51green"
-	slowdown = 0.15 //+0.05 from helmet = total 0.2
+	slowdown = 0.5 //+0.05 from helmet = total 0.55
 	armor = list("melee" = 75, "bullet" = 75, "laser" = 75, "energy" = 27, "bomb" = 64, "bio" = 100, "rad" = 99, "fire" = 90, "acid" = 0, "wound" = 75)
 
 /obj/item/clothing/suit/armor/f13/power_armor/t51b/bos
@@ -455,7 +456,7 @@
 	icon_state = "cloak_outcast"
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/armor_light.dmi'
 	item_state = "cloak_outcast"
-	armor = list("melee" = 40, "bullet" = 30, "laser" = 20, "energy" = 0, "bomb" = 10, "bio" = 0, "rad" = 0, "fire" = 10, "acid" = 0)
+	armor = list("melee" = 40, "bullet" = 30, "laser" = 5, "energy" = 0, "bomb" = 10, "bio" = 0, "rad" = 0, "fire" = 10, "acid" = 0)
 	strip_delay = 40
 	hoodtype = /obj/item/clothing/head/hooded/cloakhood/tribaloutcast
 	body_parts_covered = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
@@ -467,7 +468,7 @@
 	icon_state = "hood_tribaloutcast"
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
 	item_state = "hood_tribaloutcast"
-	armor = list("melee" = 40, "bullet" = 30,"laser" = 20, "energy" = 0, "bomb" = 10, "bio" = 0, "rad" = 0, "fire" = 10, "acid" = 0)
+	armor = list("melee" = 40, "bullet" = 30,"laser" = 5, "energy" = 0, "bomb" = 10, "bio" = 0, "rad" = 0, "fire" = 10, "acid" = 0)
 	flags_inv = HIDEEARS|HIDEEYES|HIDEHAIR|HIDEFACIALHAIR
 
 /obj/item/clothing/suit/armor/f13/tribal
@@ -475,7 +476,7 @@
 	desc = "A set of armor made of gecko hides.<br>It's pretty good for makeshift armor."
 	icon_state = "tribal"
 	item_state = "tribal"
-	armor = list("melee" = 40, "bullet" = 35,"laser" = 20, "energy" = 0, "bomb" = 10, "bio" = 0, "rad" = 0, "fire" = 10, "acid" = 0)
+	armor = list("melee" = 55, "bullet" = 35,"laser" = 20, "energy" = 0, "bomb" = 10, "bio" = 0, "rad" = 0, "fire" = 10, "acid" = 0)
 	flags_inv = HIDEJUMPSUIT
 	strip_delay = 40
 	icon = 'icons/fallout/clothing/armored_light.dmi'
@@ -500,7 +501,7 @@
 	icon_state = "tesla_armor"
 	item_state = "tesla_armor"
 	blood_overlay_type = "armor"
-	armor = list("melee" = 25, "bullet" = 25,"laser" = 80, "energy" = 60, "bomb" = 40, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0)
+	armor = list("melee" = 25, "bullet" = 25,"laser" = 99, "energy" = 60, "bomb" = 40, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0)
 	resistance_flags = FIRE_PROOF
 	var/hit_reflect_chance = 20
 	protected_zones = list(BODY_ZONE_CHEST, BODY_ZONE_PRECISE_GROIN, BODY_ZONE_L_ARM, BODY_ZONE_R_ARM, BODY_ZONE_L_LEG, BODY_ZONE_R_LEG)
@@ -521,7 +522,7 @@
 	icon_state = "sulphite"
 	item_state = "sulphite"
 	armor = list("melee" = 25, "bullet" = 55,"laser" = 40, "energy" = 20, "bomb" = 50, "bio" = 60, "rad" = 10, "fire" = 60, "acid" = 20, "wound" = 45)
-	slowdown = 0.20
+	slowdown = 0.3
 
 /obj/item/clothing/suit/toggle/armor
 	body_parts_covered = CHEST|GROIN
@@ -622,7 +623,7 @@
 	strip_delay = 70
 	equip_delay_other = 50
 	mutantrace_variation = STYLE_DIGITIGRADE|STYLE_NO_ANTHRO_ICON
-	slowdown = 0.05
+	slowdown = 0.15
 
 /obj/item/clothing/suit/armor/bone
 	name = "bone armor"
@@ -630,7 +631,7 @@
 	icon_state = "bonearmor"
 	item_state = "bonearmor"
 	blood_overlay_type = "armor"
-	armor = list("melee" = 40, "bullet" = 35, "laser" = 20, "energy" = 10, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 50, "acid" = 50, "wound" = 45)
+	armor = list("melee" = 65, "bullet" = 5, "laser" = 0, "energy" = 10, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 50, "acid" = 50, "wound" = 45)
 	body_parts_covered = CHEST|GROIN|LEGS|FEET|ARMS
 
 //Custom/Patreon/Donor - A lot of this likely needs putting in the graveyard

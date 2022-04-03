@@ -577,8 +577,8 @@ datum/crafting_recipe/steelbib/heavy
 	tools = list(TOOL_FORGE)
 	category = CAT_CLOTHING
 	subcategory = CAT_ARMOR
+/*
 
-/*CRAFT rework: removed for balance
 /datum/crafting_recipe/tesla_armor
 	name = "tesla armor"
 	result = /obj/item/clothing/suit/armor/laserproof
@@ -589,7 +589,7 @@ datum/crafting_recipe/steelbib/heavy
 	time = 60
 	category = CAT_CLOTHING
 	subcategory = CAT_GENCLOTHES
-*//*CRAFT rework: removed for balance
+
 /datum/crafting_recipe/tesla_helmet
 	name = "tesla helmet"
 	result = /obj/item/clothing/head/helmet/f13/tesla
@@ -600,7 +600,7 @@ datum/crafting_recipe/steelbib/heavy
 	time = 60
 	category = CAT_CLOTHING
 	subcategory = CAT_GENCLOTHES
-*//*
+
 /datum/crafting_recipe/combat_armor
 	name = "combat armor"
 	result = /obj/item/clothing/suit/armor/f13/combat
@@ -612,7 +612,7 @@ datum/crafting_recipe/steelbib/heavy
 	time = 60
 	category = CAT_CLOTHING
 	subcategory = CAT_GENCLOTHES
-*//*CRAFT rework: removed for balance
+
 /datum/crafting_recipe/combat_helmet
 	name = "combat armor"
 	result = /obj/item/clothing/head/helmet/f13/combat
@@ -638,6 +638,148 @@ datum/crafting_recipe/steelbib/heavy
 	subcategory = CAT_GENCLOTHES
 
 //CLOTHING//
+
+//Legion armor conversions
+
+/datum/crafting_recipe/veteranlaser
+	name = "Laserproof Veteran armor conversion"
+	result = /obj/item/clothing/suit/armor/f13/legion/vet/laserproof
+	reqs = list(/obj/item/clothing/suit/armor/f13/legion/vet = 1,
+				/obj/item/stack/crafting/metalparts = 2)
+	tools = list(TOOL_WORKBENCH)
+	time = 60
+	category = CAT_CLOTHING
+	subcategory = CAT_ARMOR
+
+/datum/crafting_recipe/vetdecanlaser
+	name = "Laserproof Veteran Decanus armor conversion"
+	result = /obj/item/clothing/suit/armor/f13/legion/heavy/laserproof
+	reqs = list(/obj/item/clothing/suit/armor/f13/legion/heavy = 1,
+				/obj/item/stack/crafting/metalparts = 2)
+	tools = list(TOOL_WORKBENCH)
+	time = 60
+	category = CAT_CLOTHING
+	subcategory = CAT_ARMOR
+
+/datum/crafting_recipe/explorerlaser
+	name = "Laserproof explorer armor conversion"
+	result = /obj/item/clothing/suit/armor/f13/legion/vet/explorer/laserproof
+	reqs = list(/obj/item/clothing/suit/armor/f13/legion/vet/explorer = 1,
+				/obj/item/stack/crafting/metalparts = 2)
+	tools = list(TOOL_WORKBENCH)
+	time = 60
+	category = CAT_CLOTHING
+	subcategory = CAT_ARMOR
+
+/datum/crafting_recipe/explorerballistic
+	name = "Remove laserproofing from explorer armor"
+	result = /obj/item/clothing/suit/armor/f13/legion/vet/explorer
+	reqs = list(/obj/item/clothing/suit/armor/f13/legion/vet/explorer/laserproof = 1,
+				/obj/item/stack/crafting/metalparts = 2)
+	tools = list(TOOL_WORKBENCH)
+	time = 60
+	category = CAT_CLOTHING
+	subcategory = CAT_ARMOR
+
+/datum/crafting_recipe/veteranballistic
+	name = "Remove laserproofing from veteran armor"
+	result = /obj/item/clothing/suit/armor/f13/legion/vet
+	reqs = list(/obj/item/clothing/suit/armor/f13/legion/vet/laserproof = 1,
+				/obj/item/stack/crafting/metalparts = 2)
+	tools = list(TOOL_WORKBENCH)
+	time = 60
+	category = CAT_CLOTHING
+	subcategory = CAT_ARMOR
+
+/datum/crafting_recipe/veterandecanballistic
+	name = "Remove laserproofing from veteran decanus armor"
+	result = /obj/item/clothing/suit/armor/f13/legion/heavy/laserproof
+	reqs = list(/obj/item/clothing/suit/armor/f13/legion/heavy = 1,
+				/obj/item/stack/crafting/metalparts = 2)
+	tools = list(TOOL_WORKBENCH)
+	time = 60
+	category = CAT_CLOTHING
+	subcategory = CAT_ARMOR
+
+/datum/crafting_recipe/veteranhelmlaserproof
+	name = "Laserproof veteran helmet conversion"
+	result = /obj/item/clothing/head/helmet/f13/legion/vet/laserproof
+	reqs = list(/obj/item/clothing/head/helmet/f13/legion/vet = 1,
+				/obj/item/stack/crafting/metalparts = 2)
+	tools = list(TOOL_WORKBENCH)
+	time = 60
+	category = CAT_CLOTHING
+	subcategory = CAT_ARMOR
+
+/datum/crafting_recipe/veteranhelmballistic
+	name = "Remove laserproofing from veteran helmet"
+	result = /obj/item/clothing/head/helmet/f13/legion/vet
+	reqs = list(/obj/item/clothing/head/helmet/f13/legion/vet/laserproof = 1,
+				/obj/item/stack/crafting/metalparts = 2)
+	tools = list(TOOL_WORKBENCH)
+	time = 60
+	category = CAT_CLOTHING
+	subcategory = CAT_ARMOR
+
+/datum/crafting_recipe/explorerhelmlaserproof
+	name = "Laserproof explorer hood conversion"
+	result = /obj/item/clothing/suit/armor/f13/legion/vet/explorer/laserproof
+	reqs = list(/obj/item/clothing/suit/armor/f13/legion/vet/explorer = 1,
+				/obj/item/stack/crafting/metalparts = 2)
+	tools = list(TOOL_WORKBENCH)
+	time = 60
+	category = CAT_CLOTHING
+	subcategory = CAT_ARMOR
+
+/datum/crafting_recipe/explorerhelmballistic
+	name = "Remove laserproofing from explorer hood"
+	result = /obj/item/clothing/suit/armor/f13/legion/vet/explorer
+	reqs = list(/obj/item/clothing/suit/armor/f13/legion/vet/explorer/laserproof = 1,
+				/obj/item/stack/crafting/metalparts = 2)
+	tools = list(TOOL_WORKBENCH)
+	time = 60
+	category = CAT_CLOTHING
+	subcategory = CAT_ARMOR
+
+/datum/crafting_recipe/vetdecanhelmlaser1
+	name = "Laserproof reinforced veteran decanus helmet"
+	result = /obj/item/clothing/head/helmet/f13/legion/heavy/laserproof
+	reqs = list(/obj/item/clothing/head/helmet/f13/legion/heavy = 1,
+				/obj/item/stack/crafting/metalparts = 2)
+	tools = list(TOOL_WORKBENCH)
+	time = 60
+	category = CAT_CLOTHING
+	subcategory = CAT_ARMOR
+
+/datum/crafting_recipe/vetdecanhelmlaser2
+	name = "Laserproof veteran decanus helmet"
+	result = /obj/item/clothing/head/helmet/f13/legion/vet/decan/laserproof
+	reqs = list(/obj/item/clothing/head/helmet/f13/legion/vet/decan = 1,
+				/obj/item/stack/crafting/metalparts = 2)
+	tools = list(TOOL_WORKBENCH)
+	time = 60
+	category = CAT_CLOTHING
+	subcategory = CAT_ARMOR
+
+/datum/crafting_recipe/vetdecanballistichelm1
+	name = "Remove laserproofing from veteran decanus reinforced helmet"
+	result = /obj/item/clothing/head/helmet/f13/legion/heavy/laserproof
+	reqs = list(/obj/item/clothing/head/helmet/f13/legion/heavy = 1,
+				/obj/item/stack/crafting/metalparts = 2)
+	tools = list(TOOL_WORKBENCH)
+	time = 60
+	category = CAT_CLOTHING
+	subcategory = CAT_ARMOR
+
+/datum/crafting_recipe/vetdecanballistichelm2
+	name = "Remove laserproofing from veteran decanus helmet"
+	result = /obj/item/clothing/head/helmet/f13/legion/vet/decan
+	reqs = list(/obj/item/clothing/head/helmet/f13/legion/vet/decan/laserproof= 1,
+				/obj/item/stack/crafting/metalparts = 2)
+	tools = list(TOOL_WORKBENCH)
+	time = 60
+	category = CAT_CLOTHING
+	subcategory = CAT_ARMOR
 
 
 /datum/crafting_recipe/tailor/ncruniform
