@@ -321,7 +321,7 @@
 	item_state = "t45bpowerarmor"
 	armor = list("melee" = 70, "bullet" = 70, "laser" = 70, "energy" = 20, "bomb" = 50, "bio" = 60, "rad" = 50, "fire" = 80, "acid" = 0, "wound" = 65)
 	requires_training = FALSE
-	slowdown = 0.5
+	slowdown = 0.35
 	powered = FALSE
 
 /obj/item/clothing/suit/armor/f13/power_armor/t45b/restored
