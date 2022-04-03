@@ -529,3 +529,49 @@
 	list_reagents = list(/datum/reagent/consumable/eggyolk = 5)
 	tastes = list("dried eggs" = 1, "confusion" = 1)
 	dried_being = /mob/living/simple_animal/chicken
+
+///WATELAND MEAT - SPRITES NEED///
+
+/*
+/obj/item/reagent_containers/food/snacks/brahminpate
+	name = "Brahmin Pate"
+	desc = "A pread of finely pureed seasoned and pureed brahmin liver. "
+	icon_state = "rawmeatball" 
+	cooked_type = /obj/item/reagent_containers/food/snacks/meatball
+	list_reagents = list(/datum/reagent/consumable/nutriment = 3)
+	filling_color = "#bd2020"
+	tastes = list("meat" = 1, "iron" = 1)
+	foodtype = MEAT
+
+/obj/item/reagent_containers/food/snacks/homemadesalisburysteak
+	name = "Homemade Salisbury Steak"
+	desc = "Ground brahmin tongue mixed with bread crumbs, onion, and egg, served with gravy."
+	icon_state = "rawmeatball" 
+	cooked_type = /obj/item/reagent_containers/food/snacks/meatball
+	list_reagents = list(/datum/reagent/consumable/nutriment = 3)
+	filling_color = "#bd2020"
+	tastes = list("spicy meat" = 1)
+	foodtype = MEAT
+
+/obj/item/reagent_containers/food/snacks/homemadecram
+	name = "Homemade Cram"
+	desc = "A delicious spiced meat load.
+	icon_state = "rawmeatball" 
+	cooked_type = /obj/item/reagent_containers/food/snacks/meatball
+	list_reagents = list(/datum/reagent/consumable/nutriment = 3)
+	bonus_reagents = list(/datum/reagent/consumable/nutriment = 1, /datum/reagent/consumable/nutriment/vitamin = 4)
+	filling_color = "#bd2020"
+	tastes = list("spicy meat" = 1, "tasty fat" = 2, "shredded meat" = 2)
+	foodtype = MEAT
+
+/obj/item/reagent_containers/food/snacks/cookedhomemadecram
+	name = "Fried Homemade Cram"
+	desc = "A slice of delicious spiced meat rolled in flour and baked until crispy.
+	icon_state = "rawmeatball" 
+	cooked_type = /obj/item/reagent_containers/food/snacks/meatball
+	list_reagents = list(/datum/reagent/consumable/nutriment = 5)
+	bonus_reagents = list(/datum/reagent/consumable/nutriment = 1, /datum/reagent/consumable/nutriment/vitamin = 2)
+	filling_color = "#bd2020"
+	tastes = list("savory meat" = 1, "mouth-watering fat" = 2, "crunchy breading" = 2)
+	foodtype = MEAT
+*/
