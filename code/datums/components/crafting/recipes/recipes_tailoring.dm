@@ -650,6 +650,7 @@ datum/crafting_recipe/steelbib/heavy
 	time = 60
 	category = CAT_CLOTHING
 	subcategory = CAT_ARMOR
+	always_available = FALSE
 
 /datum/crafting_recipe/vetdecanlaser
 	name = "Laserproof Veteran Decanus armor conversion"
@@ -660,6 +661,7 @@ datum/crafting_recipe/steelbib/heavy
 	time = 60
 	category = CAT_CLOTHING
 	subcategory = CAT_ARMOR
+	always_available = FALSE
 
 /datum/crafting_recipe/explorerlaser
 	name = "Laserproof explorer armor conversion"
@@ -670,6 +672,7 @@ datum/crafting_recipe/steelbib/heavy
 	time = 60
 	category = CAT_CLOTHING
 	subcategory = CAT_ARMOR
+	always_available = FALSE
 
 /datum/crafting_recipe/explorerballistic
 	name = "Remove laserproofing from explorer armor"
@@ -680,6 +683,7 @@ datum/crafting_recipe/steelbib/heavy
 	time = 60
 	category = CAT_CLOTHING
 	subcategory = CAT_ARMOR
+	always_available = FALSE
 
 /datum/crafting_recipe/veteranballistic
 	name = "Remove laserproofing from veteran armor"
@@ -690,6 +694,7 @@ datum/crafting_recipe/steelbib/heavy
 	time = 60
 	category = CAT_CLOTHING
 	subcategory = CAT_ARMOR
+	always_available = FALSE
 
 /datum/crafting_recipe/veterandecanballistic
 	name = "Remove laserproofing from veteran decanus armor"
@@ -700,6 +705,7 @@ datum/crafting_recipe/steelbib/heavy
 	time = 60
 	category = CAT_CLOTHING
 	subcategory = CAT_ARMOR
+	always_available = FALSE
 
 /datum/crafting_recipe/veteranhelmlaserproof
 	name = "Laserproof veteran helmet conversion"
@@ -710,6 +716,7 @@ datum/crafting_recipe/steelbib/heavy
 	time = 60
 	category = CAT_CLOTHING
 	subcategory = CAT_ARMOR
+	always_available = FALSE
 
 /datum/crafting_recipe/veteranhelmballistic
 	name = "Remove laserproofing from veteran helmet"
@@ -720,6 +727,7 @@ datum/crafting_recipe/steelbib/heavy
 	time = 60
 	category = CAT_CLOTHING
 	subcategory = CAT_ARMOR
+	always_available = FALSE
 
 /datum/crafting_recipe/explorerhelmlaserproof
 	name = "Laserproof explorer hood conversion"
@@ -730,6 +738,7 @@ datum/crafting_recipe/steelbib/heavy
 	time = 60
 	category = CAT_CLOTHING
 	subcategory = CAT_ARMOR
+	always_available = FALSE
 
 /datum/crafting_recipe/explorerhelmballistic
 	name = "Remove laserproofing from explorer hood"
@@ -740,6 +749,7 @@ datum/crafting_recipe/steelbib/heavy
 	time = 60
 	category = CAT_CLOTHING
 	subcategory = CAT_ARMOR
+	always_available = FALSE
 
 /datum/crafting_recipe/vetdecanhelmlaser1
 	name = "Laserproof reinforced veteran decanus helmet"
@@ -750,6 +760,7 @@ datum/crafting_recipe/steelbib/heavy
 	time = 60
 	category = CAT_CLOTHING
 	subcategory = CAT_ARMOR
+	always_available = FALSE
 
 /datum/crafting_recipe/vetdecanhelmlaser2
 	name = "Laserproof veteran decanus helmet"
@@ -760,6 +771,7 @@ datum/crafting_recipe/steelbib/heavy
 	time = 60
 	category = CAT_CLOTHING
 	subcategory = CAT_ARMOR
+	always_available = FALSE
 
 /datum/crafting_recipe/vetdecanballistichelm1
 	name = "Remove laserproofing from veteran decanus reinforced helmet"
@@ -770,6 +782,7 @@ datum/crafting_recipe/steelbib/heavy
 	time = 60
 	category = CAT_CLOTHING
 	subcategory = CAT_ARMOR
+	always_available = FALSE
 
 /datum/crafting_recipe/vetdecanballistichelm2
 	name = "Remove laserproofing from veteran decanus helmet"
@@ -780,6 +793,7 @@ datum/crafting_recipe/steelbib/heavy
 	time = 60
 	category = CAT_CLOTHING
 	subcategory = CAT_ARMOR
+	always_available = FALSE
 
 
 /datum/crafting_recipe/tailor/ncruniform
