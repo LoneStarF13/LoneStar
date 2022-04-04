@@ -4,7 +4,7 @@
 
 /obj/item/reagent_containers/food/snacks/donut
 	name = "donut"
-	desc = "Goes great with coffee."
+	desc = "Goes great with a cup of joe."
 	icon = 'icons/obj/food/donut.dmi'
 	icon_state = "donut"
 	bitesize = 5
@@ -499,8 +499,8 @@
 	qdel(src)
 
 /obj/item/reagent_containers/food/snacks/donkpocket/warm
-	name = "warm Donk-pocket"
-	desc = "The heated food of choice for the seasoned traitor."
+	name = "warm hot-pocket"
+	desc = "The heated food of choice for the seasoned scumbag."
 	bonus_reagents = list(/datum/reagent/medicine/omnizine = 3)
 	list_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/medicine/omnizine = 3)
 	cooked_type = null
@@ -509,7 +509,7 @@
 
 /obj/item/reagent_containers/food/snacks/dankpocket
 	name = "\improper Dank-pocket"
-	desc = "The food of choice for the seasoned botanist."
+	desc = "The food of choice for the seasoned chem-pusher."
 	icon_state = "dankpocket"
 	list_reagents = list(/datum/reagent/toxin/lipolicide = 3, /datum/reagent/drug/space_drugs = 3, /datum/reagent/consumable/nutriment = 4)
 	filling_color = "#00FF00"
