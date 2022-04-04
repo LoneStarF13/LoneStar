@@ -127,7 +127,7 @@
 	id = "imitationcarpmeat"
 	required_reagents = list(/datum/reagent/toxin/carpotoxin = 5)
 	required_container = /obj/item/reagent_containers/food/snacks/tofu
-	mix_message = "The mixture becomes similar to carp meat."
+	mix_message = "The mixture becomes similar to mutant carp meat."
 
 /datum/chemical_reaction/imitationcarpmeat/on_reaction(datum/reagents/holder)
 	var/location = get_turf(holder.my_atom)
