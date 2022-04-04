@@ -132,7 +132,6 @@
 	tastes = list("meat" = 1, "oil" = 1)
 	foodtype = GRAIN | MEAT
 
-
 /obj/item/reagent_containers/food/snacks/pie/tofupie
 	name = "tofu-pie"
 	icon_state = "meatpie"
@@ -140,7 +139,6 @@
 	bonus_reagents = list(/datum/reagent/consumable/nutriment = 1, /datum/reagent/consumable/nutriment/vitamin = 2)
 	tastes = list("pie" = 1, "tofu" = 1)
 	foodtype = GRAIN
-
 
 /obj/item/reagent_containers/food/snacks/pie/amanita_pie
 	name = "amanita pie"
@@ -152,7 +150,6 @@
 	tastes = list("pie" = 1, "mushroom" = 1)
 	foodtype = GRAIN | VEGETABLES | TOXIC | GROSS
 
-
 /obj/item/reagent_containers/food/snacks/pie/plump_pie
 	name = "plump pie"
 	desc = "I bet you love stuff made out of plump helmets!"
@@ -160,7 +157,6 @@
 	bonus_reagents = list(/datum/reagent/consumable/nutriment = 1, /datum/reagent/consumable/nutriment/vitamin = 4)
 	tastes = list("pie" = 1, "mushroom" = 1)
 	foodtype = GRAIN | VEGETABLES
-
 
 /obj/item/reagent_containers/food/snacks/pie/plump_pie/Initialize()
 	. = ..()
@@ -174,16 +170,13 @@
 		reagents.add_reagent(/datum/reagent/medicine/omnizine, 5)
 		foodtype += ANTITOXIC
 
-
 /obj/item/reagent_containers/food/snacks/pie/xemeatpie
 	name = "mutant-pie"
 	icon_state = "xenomeatpie"
 	desc = "Probably not healthy."
-	trash = /obj/item/trash/plate
 	bonus_reagents = list(/datum/reagent/consumable/nutriment = 1, /datum/reagent/consumable/nutriment/vitamin = 5)
 	tastes = list("pie" = 1, "meat" = 1, "acid" = 1)
 	foodtype = GRAIN | MEAT
-
 
 /obj/item/reagent_containers/food/snacks/pie/applepie
 	name = "apple pie"
@@ -217,7 +210,6 @@
 	desc = "A slice of pumpkin pie, with whipped cream on top. Perfection."
 	icon = 'icons/obj/food/piecake.dmi'
 	icon_state = "pumpkinpieslice"
-	trash = /obj/item/trash/plate
 	filling_color = "#FFA500"
 	list_reagents = list(/datum/reagent/consumable/nutriment = 2)
 	tastes = list("pie" = 1, "pumpkin" = 1)
@@ -274,7 +266,6 @@
 	desc = "A slice of blumpkin pie, with whipped cream on top. Is this edible?"
 	icon = 'icons/obj/food/piecake.dmi'
 	icon_state = "blumpkinpieslice"
-	trash = /obj/item/trash/plate
 	filling_color = "#1E90FF"
 	list_reagents = list(/datum/reagent/consumable/nutriment = 2)
 	tastes = list("pie" = 1, "a mouthful of pool water" = 1)
@@ -295,7 +286,6 @@
 	desc = "A slice of sweet dulce de batata jelly."
 	icon = 'icons/obj/food/piecake.dmi'
 	icon_state = "dulcedebatataslice"
-	trash = /obj/item/trash/plate
 	filling_color = "#8B4513"
 	list_reagents = list(/datum/reagent/consumable/nutriment = 2)
 	tastes = list("jelly" = 1, "sweet potato" = 1)
@@ -324,7 +314,6 @@
 	desc = "A portion delightful healthy snake made of nut layers with thin bread"
 	icon = 'icons/obj/food/piecake.dmi'
 	icon_state = "baklavaslice"
-	trash = /obj/item/trash/plate
 	filling_color = "#1E90FF"
 	list_reagents = list(/datum/reagent/consumable/nutriment = 2, /datum/reagent/consumable/nutriment/vitamin = 4)
 	tastes = list("nuts" = 1, "pie" = 1)
