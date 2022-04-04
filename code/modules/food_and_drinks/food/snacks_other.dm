@@ -102,7 +102,7 @@
 
 /obj/item/reagent_containers/food/snacks/tatortot
 	name = "tator tot"
-	desc = "A large fried potato nugget that may or may not try to valid you."
+	desc = "A large fried potato nugget."
 	icon_state = "tatortot"
 	list_reagents = list(/datum/reagent/consumable/nutriment = 4)
 	filling_color = "FFD700"
@@ -122,7 +122,7 @@
 
 /obj/item/reagent_containers/food/snacks/cheesyfries
 	name = "cheesy fries"
-	desc = "Fries. Covered in cheese. Duh."
+	desc = "Fries. Covered in cheese."
 	icon_state = "cheesyfries"
 	bonus_reagents = list(/datum/reagent/consumable/nutriment = 1, /datum/reagent/consumable/nutriment/vitamin = 2)
 	list_reagents = list(/datum/reagent/consumable/nutriment = 6)
@@ -142,7 +142,7 @@
 
 /obj/item/reagent_containers/food/snacks/badrecipe
 	name = "burned mess"
-	desc = "Someone should be demoted from cook for this."
+	desc = "Someone should be fired from cook for this."
 	icon_state = "badrecipe"
 	list_reagents = list(/datum/reagent/toxin/bad_food = 30)
 	filling_color = "#8B4513"
@@ -209,7 +209,7 @@
 
 /obj/item/reagent_containers/food/snacks/spiderling
 	name = "spiderling"
-	desc = "It's slightly twitching in your hand. Ew..."
+	desc = "It's slightly twitching in your hand."
 	icon_state = "spiderling"
 	list_reagents = list(/datum/reagent/consumable/nutriment = 1, /datum/reagent/toxin = 4)
 	filling_color = "#00800"
@@ -227,7 +227,7 @@
 
 /obj/item/reagent_containers/food/snacks/tobiko
 	name = "tobiko"
-	desc = "Spider eggs wrapped in a thin salted Kudzu pod"
+	desc = "Spider eggs wrapped in a thin salted seaweed wrap"
 	icon_state = "sushie_egg"
 	list_reagents = list(/datum/reagent/consumable/nutriment = 6, /datum/reagent/consumable/nutriment/vitamin = 2)
 	filling_color = "#FF3333" // R225 G051 B051
@@ -236,7 +236,7 @@
 
 /obj/item/reagent_containers/food/snacks/chococoin
 	name = "chocolate coin"
-	desc = "A completely edible but nonflippable festive coin."
+	desc = "A completely edible festive coin."
 	icon_state = "chococoin"
 	bonus_reagents = list(/datum/reagent/consumable/nutriment = 1, /datum/reagent/consumable/sugar = 1)
 	list_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/coco = 1)
@@ -595,7 +595,7 @@
 
 /obj/item/reagent_containers/food/snacks/riceball
 	name = "onigiri"
-	desc = "A ball of rice with some light salt and a wrap of Kudzu skin."
+	desc = "A ball of rice with some light salt and a seaweed wrap"
 	icon_state = "riceball"
 	list_reagents = list(/datum/reagent/consumable/nutriment = 6, /datum/reagent/consumable/sodiumchloride = 2)
 	tastes = list("rice" = 3, "salt" = 1)
@@ -612,7 +612,7 @@
 	foodtype = FRUIT | SUGAR
 
 /obj/item/reagent_containers/food/snacks/cannedpeaches/maint
-	name = "Canned Peaches"
+	name = "Dented Canned of Peaches"
 	desc = "I have a mouth and I must eat."
 	icon_state = "peachcanmaint"
 	tastes = list("peaches" = 1, "tin" = 7)
@@ -735,7 +735,7 @@
 
 /obj/item/reagent_containers/food/snacks/soup/mammi
 	name = "Mammi"
-	desc = "A bowl of mushy bread and milk. It reminds you, not too fondly, of a bowel movement."
+	desc = "A bowl of mushy bread and milk."
 	icon_state = "mammi"
 	bonus_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/nutriment/vitamin = 1)
 	list_reagents = list(/datum/reagent/consumable/nutriment = 8, /datum/reagent/consumable/nutriment/vitamin = 1)
@@ -743,5 +743,5 @@
 /obj/item/reagent_containers/food/snacks/hotcrossbun
 	bitesize = 2
 	name = "hot-cross bun"
-	desc = "The Cross represents the Assistants that died for your sins."
+	desc = "A New canaanite favorite."
 	icon_state = "hotcrossbun"
