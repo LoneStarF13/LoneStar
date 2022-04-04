@@ -11,7 +11,7 @@
 	// Addself these only ones I know.
 	whitelist = list("ADanimator", "PilotBland", "Cythisia", "Kneesox", "Foxeye", "Oddbomber3768", "Poots13", "Scheveningen", "Akoy")
 	species_traits = list(NOEYES,NO_UNDERWEAR,NOTRANSSTING,NOGENITALS,NOAROUSAL)
-	inherent_traits = list(TRAIT_RADIMMUNE,TRAIT_VIRUSIMMUNE, TRAIT_HEAVY_SLEEPER, TRAIT_POOR_AIM, TRAIT_STRONG_GRABBER, TRAIT_QUICK_CARRY, TRAIT_UNARMED_WEAPON, TRAIT_IRONFIST,TRAIT_BIG_LEAGUES)
+	inherent_traits = list(TRAIT_RADIMMUNE,TRAIT_VIRUSIMMUNE, TRAIT_MUTATION_STASIS, TRAIT_TOXINLOVER, TRAIT_LONGPORKLOVER, TRAIT_HARD_YARDS, TRAIT_GIANT, TRAIT_STUNIMMUNE, TRAIT_RESISTHEAT, TRAIT_PUSHIMMUNE, TRAIT_TASED_RESISTANCE, TRAIT_HEAVY_SLEEPER, TRAIT_POOR_AIM, TRAIT_STRONG_GRABBER, TRAIT_QUICK_CARRY, TRAIT_UNARMED_WEAPON, TRAIT_IRONFIST,TRAIT_BIG_LEAGUES)
 	inherent_biotypes = list(MOB_INORGANIC, MOB_HUMANOID)
 	punchstunthreshold = 20
 	punchdamagelow = 10
@@ -21,7 +21,6 @@
 	use_skintones = 0
 	sexes = 0
 	armor = 60 // Until armor is added in loot pools, then move down to 20-30
-	speedmod = 0.75
 	liked_food = JUNKFOOD | FRIED | RAW
 //TODO
 // Disable Prosthetics or make custom ones

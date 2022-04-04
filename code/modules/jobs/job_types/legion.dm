@@ -507,6 +507,7 @@ commented out pending rework*/
 	spawn_positions = 1
 	outfit = /datum/outfit/job/CaesarsLegion/Legionnaire/f13orator
 	display_order = JOB_DISPLAY_ORDER_ORATOR
+	exp_requirements = 900
 	access = list(ACCESS_LEGION, ACCESS_CHANGE_IDS, ACCESS_LEGION_COMMAND)
 	minimal_access = list(ACCESS_LEGION, ACCESS_CHANGE_IDS, ACCESS_LEGION_COMMAND)
 
