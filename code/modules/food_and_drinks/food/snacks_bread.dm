@@ -54,7 +54,7 @@
 
 /obj/item/reagent_containers/food/snacks/store/bread/xenomeat
 	name = "mutant meatbread loaf"
-	desc = "The culinary base of every self-respecting eloquen/tg/entleman. Extra acidic."
+	desc = "The culinary base of every self-respecting mutant meat enjoyer. Extra acidic."
 	icon_state = "xenomeatbread"
 	slice_path = /obj/item/reagent_containers/food/snacks/breadslice/xenomeat
 	bonus_reagents = list(/datum/reagent/consumable/nutriment = 5, /datum/reagent/consumable/nutriment/vitamin = 10)
