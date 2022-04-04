@@ -192,6 +192,7 @@ also: most hitscan weapons have more charge than their normal projectile counter
 /obj/item/ammo_casing/energy/laser/gatling/hitscan
 	projectile_type = /obj/item/projectile/beam/laser/gatling/hitscan
 	e_cost = 10 //it's actually 240 shots now, as it fires in a burst of 5
+	fire_sound = 'sound/f13weapons/multiplas_rifle.ogg'
 
 /obj/item/ammo_casing/energy/laser/laer
 	projectile_type = /obj/item/projectile/beam/laser/laer
