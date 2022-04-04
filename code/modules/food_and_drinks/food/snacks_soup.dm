@@ -239,7 +239,7 @@
 
 /obj/item/reagent_containers/food/snacks/soup/bisque
 	name = "bisque"
-	desc = "A classic entree from Space-France."
+	desc = "A classic entree from France."
 	icon_state = "bisque"
 	bonus_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/nutriment/vitamin = 6)
 	tastes = list("creamy texture" = 1, "crab" = 4)
