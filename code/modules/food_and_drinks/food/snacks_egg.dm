@@ -13,7 +13,7 @@
 
 /obj/item/reagent_containers/food/snacks/egg
 	name = "egg"
-	desc = "An egg!"
+	desc = "From a chicken"
 	icon_state = "egg"
 	list_reagents = list(/datum/reagent/consumable/eggyolk = 5)
 	cooked_type = /obj/item/reagent_containers/food/snacks/boiledegg
