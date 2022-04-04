@@ -28,23 +28,23 @@
 
 /obj/item/reagent_containers/food/snacks/fishmeat/carp
 	name = "carp fillet"
-	desc = "A fillet of carp meat."
+	desc = "A fillet of mutant carp meat."
 	list_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/toxin/carpotoxin = 2, /datum/reagent/consumable/nutriment/vitamin = 2)
 	cooked_type = /obj/item/reagent_containers/food/snacks/meat/steak/fish
 	tastes = list("fish" = 1)
 
 /obj/item/reagent_containers/food/snacks/fishmeat/carp/imitation
-	name = "imitation carp fillet"
+	name = "imitation mutant carp fillet"
 	desc = "Almost just like the real thing, kinda."
 
 /obj/item/reagent_containers/food/snacks/fishmeat/salmon
-	name = "salmon fillet"
-	desc = "A raw salmon fillet that has been prepared."
+	name = "mutant salmon fillet"
+	desc = "A raw mutant salmon fillet that has been prepared."
 	cooked_type = /obj/item/reagent_containers/food/snacks/fishmeat/salmon/cooked
 
 /obj/item/reagent_containers/food/snacks/fishmeat/salmon/cooked
-	name = "cooked salmon fillet"
-	desc = "A gorgeously cooked salmon fillet that has a sear that is to die for."
+	name = "cooked mutant salmon fillet"
+	desc = "A gorgeously cooked mutant salmon fillet that has a sear that is to die for."
 	icon = 'icons/obj/fish/seafood.dmi'
 	icon_state = "smokedsalmon"
 
@@ -127,7 +127,7 @@
 
 /obj/item/reagent_containers/food/snacks/sushi_basic
 	name = "funa hosomaki"
-	desc = "A small cylindrical kudzu skin, filled with rice and fish."
+	desc = "A small cylindrical seaweed wrap, filled with rice and fish."
 	icon_state = "sushie_basic"
 	bonus_reagents = list(/datum/reagent/consumable/nutriment/vitamin = 2)
 	list_reagents = list(/datum/reagent/consumable/nutriment = 4)
@@ -182,7 +182,7 @@
 
 /obj/item/reagent_containers/food/snacks/spiderleg
 	name = "spider leg"
-	desc = "A still twitching leg of a giant spider... you don't really want to eat this, do you?"
+	desc = "A still twitching leg of a giant spider."
 	icon_state = "spiderleg"
 	list_reagents = list(/datum/reagent/consumable/nutriment = 2, /datum/reagent/toxin = 2)
 	cooked_type = /obj/item/reagent_containers/food/snacks/boiledspiderleg
@@ -357,7 +357,7 @@
 
 /obj/item/reagent_containers/food/snacks/boiledspiderleg
 	name = "boiled spider leg"
-	desc = "A giant spider's leg that's still twitching after being cooked. Gross!"
+	desc = "A giant spider's leg that's still twitching after being cooked."
 	icon_state = "spiderlegcooked"
 	bonus_reagents = list(/datum/reagent/consumable/nutriment = 1, /datum/reagent/consumable/capsaicin = 2, /datum/reagent/consumable/nutriment/vitamin = 2)
 	list_reagents = list(/datum/reagent/consumable/nutriment = 3, /datum/reagent/consumable/capsaicin = 2)
@@ -378,7 +378,7 @@
 
 /obj/item/reagent_containers/food/snacks/sashimi
 	name = "carp sashimi"
-	desc = "Celebrate surviving attack from hostile alien lifeforms by hospitalising yourself."
+	desc = "Celebrate surviving attack from hostile mutants by hospitalising yourself."
 	icon_state = "sashimi"
 	bonus_reagents = list(/datum/reagent/consumable/nutriment = 1, /datum/reagent/consumable/capsaicin = 4, /datum/reagent/consumable/nutriment/vitamin = 4)
 	list_reagents = list(/datum/reagent/consumable/nutriment = 6, /datum/reagent/consumable/capsaicin = 5)
