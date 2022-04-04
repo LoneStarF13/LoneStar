@@ -35,7 +35,7 @@
 	foodtype = GRAIN | VEGETABLES
 
 /obj/item/reagent_containers/food/snacks/copypasta
-	name = "Doble helping noodles"
+	name = "Double helping noodles"
 	desc = "Way to many noodles for one person."
 	icon = 'icons/obj/food/pizzaspaghetti.dmi'
 	icon_state = "copypasta"
