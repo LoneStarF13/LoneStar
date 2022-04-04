@@ -4,7 +4,7 @@
 
 /obj/item/reagent_containers/food/snacks/candy
 	name = "expired candy bar"
-	desc = "The package may be illegible but the sugar rich chocolate confection inside despite a touch of mold remains as edible as ever."
+	desc = "The package may be illegible but the sugar rich chocolate confection inside that despite a touch of mold remains as edible as ever."
 	icon_state = "candy"
 	trash = /obj/item/trash/candy
 	list_reagents = list(/datum/reagent/consumable/nutriment = 1, /datum/reagent/consumable/sugar = 3, /datum/reagent/consumable/coco = 3)
