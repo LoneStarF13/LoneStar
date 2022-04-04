@@ -10,7 +10,6 @@
 
 /obj/item/reagent_containers/food/snacks/cakeslice
 	icon = 'icons/obj/food/piecake.dmi'
-	trash = /obj/item/trash/plate
 	list_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/consumable/nutriment/vitamin = 1)
 	customfoodfilling = 0 //to avoid infinite cake-ception
 	tastes = list("cake" = 1)
@@ -36,7 +35,7 @@
 
 /obj/item/reagent_containers/food/snacks/store/cake/carrot
 	name = "carrot cake"
-	desc = "A favorite desert of a certain wascally wabbit. Not a lie."
+	desc = "A favorite desert of a certain jackalope.."
 	icon_state = "carrotcake"
 	slice_path = /obj/item/reagent_containers/food/snacks/cakeslice/carrot
 	slices_num = 5
@@ -47,7 +46,7 @@
 
 /obj/item/reagent_containers/food/snacks/cakeslice/carrot
 	name = "carrot cake slice"
-	desc = "Carrotty slice of Carrot Cake, carrots are good for your eyes! Also not a lie."
+	desc = "Carrotty slice of Carrot Cake, carrots are good for your eyes!"
 	icon_state = "carrotcake_slice"
 	filling_color = "#FFA500"
 	list_reagents = list(/datum/reagent/consumable/nutriment = 4, /datum/reagent/medicine/oculine = 2, /datum/reagent/consumable/nutriment/vitamin = 1)
@@ -328,7 +327,7 @@ obj/item/reagent_containers/food/snacks/store/cake/pound_cake
 
 /obj/item/reagent_containers/food/snacks/store/cake/hardware_cake
 	name = "hardware cake"
-	desc = "The Brotherhood are going to be SO mad."
+	desc = "The Brotherhood is going to be SO mad."
 	icon_state = "hardware_cake"
 	slice_path = /obj/item/reagent_containers/food/snacks/cakeslice/hardware_cake_slice
 	bonus_reagents = list(/datum/reagent/toxin/acid = 15, /datum/reagent/oil = 15)
