@@ -24,7 +24,7 @@
 	select_name = "plasma burst"
 	icon_state = "neurotoxin"
 	fire_sound = 'sound/f13weapons/plasma_rifle.ogg'
-	e_cost = 160//12
+	e_cost = 200//12
 
 /obj/item/ammo_casing/energy/plasma/scatter
 	projectile_type = /obj/item/projectile/f13plasma/scatter
@@ -47,7 +47,7 @@
 	e_cost = 160 //10 shots
 
 /obj/item/ammo_casing/energy/plasma/pistol/glock/extended
-	e_cost = 80 //20 shots
+	e_cost = 120 //20 shots
 
 /obj/item/ammo_casing/energy/plasma/pistol/alien
 	projectile_type = /obj/item/projectile/f13plasma/pistol/alien
