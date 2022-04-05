@@ -44,6 +44,9 @@ Unused icons for new areas are "awaycontent1" ~ "awaycontent30"
 /area/awaymission/vr/bos/enclavebunker
 	name = "Enclave Bunker VR Mission"
 
+/area/awaymission/vr/bos/vaultbunker
+	name = "Vault-Tec Bunker VR Mission"
+
 /area/awaymission/vr/bos/casino
 	name = "Casino VR Mission"
 
