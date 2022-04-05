@@ -620,9 +620,6 @@
 
 	return ..()
 
-/obj/item/gun/energy/minigun/attack_self(mob/living/user)
-	return
-
 /obj/item/gun/energy/minigun/dropped(mob/user)
 	. = ..()
 	if(ammo_pack)
