@@ -61,6 +61,10 @@
 #define RADIO_KEY_BOS "q"
 #define RADIO_TOKEN_BOS ":q"
 
+#define RADIO_CHANNEL_OPS "Operations"
+#define RADIO_KEY_OPS "i"
+#define RADIO_TOKEN_OPS ":i"
+
 #define RADIO_CHANNEL_ENCLAVE "Enclave"
 #define RADIO_KEY_ENCLAVE "z"
 #define RADIO_TOKEN_ENCLAVE ":z"
@@ -107,6 +111,7 @@
 #define FREQ_RANGER 1373 //Ranger
 #define FREQ_DEN 1375 //Den
 #define FREQ_KHANS 1376 //Khans
+#define FREQ_OPS 1377 //BoS Operations
 
 #define FREQ_HOLOGRID_SOLUTION 1433
 #define FREQ_STATUS_DISPLAYS 1435

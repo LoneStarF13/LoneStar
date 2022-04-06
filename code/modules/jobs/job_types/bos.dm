@@ -1089,7 +1089,7 @@ Off-Duty
 	name = "BoS Off-Duty"
 	jobtype = /datum/job/bos/f13offdutybos
 	backpack = /obj/item/storage/backpack
-	ears = 			/obj/item/radio/headset
+	ears = 			/obj/item/radio/headset/headset_bos/offduty
 	uniform =		/obj/item/clothing/under/syndicate
 	belt = 			/obj/item/storage/belt/military/army
 	shoes = 		/obj/item/clothing/shoes/combat
@@ -1097,6 +1097,5 @@ Off-Duty
 	id = 			/obj/item/card/id/dogtag
 	backpack_contents = list(
 		/obj/item/reagent_containers/hypospray/medipen/stimpak=1,
-		/obj/item/encryptionkey/headset_bos=1,
 		/obj/item/melee/onehanded/knife/survival=1
 		)

@@ -20,7 +20,8 @@ GLOBAL_LIST_INIT(channel_tokens, list(
 	RADIO_CHANNEL_DEN = RADIO_TOKEN_DEN,
 	RADIO_CHANNEL_LEGION = RADIO_TOKEN_LEGION,
 	RADIO_CHANNEL_RANGER = RADIO_TOKEN_RANGER,
-	RADIO_CHANNEL_KHANS = RADIO_TOKEN_KHANS
+	RADIO_CHANNEL_KHANS = RADIO_TOKEN_KHANS,
+	RADIO_CHANNEL_OPS = RADIO_TOKEN_OPS
 ))
 
 /obj/item/radio/headset
@@ -345,13 +346,25 @@ GLOBAL_LIST_INIT(channel_tokens, list(
 
 /obj/item/radio/headset/headset_bos
 	name = "brotherhood radio headset"
-	desc = "This is used by the brotherhood of steel.\nTo access the BOS channel, use :q."
+	desc = "This is used by the brotherhood of steel.\nTo access the BOS channel, use :q.\nTo access the Operations channel, use :i."
 	icon_state = "cent_headset"
 	keyslot = new /obj/item/encryptionkey/headset_bos
 	linked_faction = FACTION_BROTHERHOOD
 	factionized = TRUE
 
 /obj/item/radio/headset/headset_bos/ComponentInitialize()
+	. = ..()
+	AddComponent(/datum/component/wearertargeting/earprotection, list(SLOT_EARS))
+
+/obj/item/radio/headset/headset_bos/offduty
+	name = "brotherhood off-duty radio headset"
+	desc = "This is used by the brotherhood of steel.\nTo access the BOS channel, use :q."
+	icon_state = "cent_headset"
+	keyslot = new /obj/item/encryptionkey/headset_bos/offduty
+	linked_faction = FACTION_BROTHERHOOD
+	factionized = TRUE
+
+/obj/item/radio/headset/headset_bos/offduty/ComponentInitialize()
 	. = ..()
 	AddComponent(/datum/component/wearertargeting/earprotection, list(SLOT_EARS))
 
