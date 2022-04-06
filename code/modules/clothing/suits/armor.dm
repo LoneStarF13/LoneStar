@@ -157,12 +157,6 @@
 	icon_state = "syndievest"
 	mutantrace_variation = STYLE_DIGITIGRADE
 
-/obj/item/clothing/suit/armor/vest/capcarapace/alt
-	name = "captain's parade jacket"
-	desc = "For when an armoured vest isn't fashionable enough."
-	icon_state = "capformal"
-	item_state = "capspacesuit"
-
 /obj/item/clothing/suit/armor/riot
 	name = "riot suit"
 	desc = "A suit of semi-flexible polycarbonate body armor with heavy padding to protect against melee attacks. Helps the wearer resist shoving in close quarters."
@@ -431,3 +425,74 @@ Suits. 0-10 in its primary value, slowdown 0, various utility
 	max_integrity = 250
 	resistance_flags = NONE
 	togglename = "collar"
+
+/obj/item/clothing/suit/toggle/captains_parade
+    name = "captain's parade jacket"
+    desc = "For when an armoured vest isn't fashionable enough."
+    icon_state = "capformal"
+    body_parts_covered = CHEST|GROIN|ARMS
+    armor = list("melee" = 15, "bullet" = 20, "laser" = 10, "energy" = 10, "bomb" = 15, "bio" = 10, "rad" = 0, "fire" = 20, "acid" = 5)
+    togglename = "buttons"
+
+/obj/item/clothing/suit/toggle/captains_parade/Initialize()
+    . = ..()
+    allowed = GLOB.security_wintercoat_allowed
+
+/obj/item/clothing/suit/toggle/armor/vest/centcom_formal
+    name = "\improper CentCom formal coat"
+    desc = "A stylish coat given to CentCom Commanders. Perfect for sending ERTs to suicide missions with style!"
+    icon_state = "centcom_formal"
+    body_parts_covered = CHEST|GROIN|ARMS
+    armor = list("melee" = 15, "bullet" = 20, "laser" = 10, "energy" = 10, "bomb" = 15, "bio" = 10, "rad" = 0, "fire" = 20, "acid" = 5)
+    togglename = "buttons"
+
+/obj/item/clothing/suit/toggle/armor/vest/centcom_formal/Initialize()
+    . = ..()
+    allowed = GLOB.security_wintercoat_allowed
+
+/obj/item/clothing/suit/toggle/armor/hos/hos_formal
+    name = "\improper Head of Security's parade jacket"
+    desc = "For when an armoured vest isn't fashionable enough."
+    icon_state = "hosformal"
+    body_parts_covered = CHEST|GROIN|ARMS
+    armor = list("melee" = 15, "bullet" = 20, "laser" = 10, "energy" = 10, "bomb" = 15, "bio" = 10, "rad" = 0, "fire" = 20, "acid" = 5)
+    togglename = "buttons"
+
+/obj/item/clothing/suit/toggle/armor/hos/hos_formal/Initialize()
+    . = ..()
+    allowed = GLOB.security_wintercoat_allowed
+/obj/item/clothing/suit/toggle/captains_parade
+    name = "captain's parade jacket"
+    desc = "For when an armoured vest isn't fashionable enough."
+    icon_state = "capformal"
+    body_parts_covered = CHEST|GROIN|ARMS
+    armor = list("melee" = 15, "bullet" = 20, "laser" = 10, "energy" = 10, "bomb" = 15, "bio" = 10, "rad" = 0, "fire" = 20, "acid" = 5)
+    togglename = "buttons"
+
+/obj/item/clothing/suit/toggle/captains_parade/Initialize()
+    . = ..()
+    allowed = GLOB.security_wintercoat_allowed
+
+/obj/item/clothing/suit/toggle/armor/vest/centcom_formal
+    name = "\improper CentCom formal coat"
+    desc = "A stylish coat given to CentCom Commanders. Perfect for sending ERTs to suicide missions with style!"
+    icon_state = "centcom_formal"
+    body_parts_covered = CHEST|GROIN|ARMS
+    armor = list("melee" = 15, "bullet" = 20, "laser" = 10, "energy" = 10, "bomb" = 15, "bio" = 10, "rad" = 0, "fire" = 20, "acid" = 5)
+    togglename = "buttons"
+
+/obj/item/clothing/suit/toggle/armor/vest/centcom_formal/Initialize()
+    . = ..()
+    allowed = GLOB.security_wintercoat_allowed
+
+/obj/item/clothing/suit/toggle/armor/hos/hos_formal
+    name = "\improper Head of Security's parade jacket"
+    desc = "For when an armoured vest isn't fashionable enough."
+    icon_state = "hosformal"
+    body_parts_covered = CHEST|GROIN|ARMS
+    armor = list("melee" = 15, "bullet" = 20, "laser" = 10, "energy" = 10, "bomb" = 15, "bio" = 10, "rad" = 0, "fire" = 20, "acid" = 5)
+    togglename = "buttons"
+
+/obj/item/clothing/suit/toggle/armor/hos/hos_formal/Initialize()
+    . = ..()
+    allowed = GLOB.security_wintercoat_allowed

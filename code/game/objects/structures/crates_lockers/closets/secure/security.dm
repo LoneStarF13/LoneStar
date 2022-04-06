@@ -7,7 +7,7 @@
 	new /obj/item/clothing/neck/petcollar(src) //I considered removing the pet stuff too but eh, who knows. We might get Renault back. Plus I guess you could use that collar for... other means. Aren't you supposed to be guarding the disk?
 	new /obj/item/pet_carrier(src)
 	new /obj/item/clothing/suit/armor/vest/capcarapace(src)
-	new /obj/item/clothing/suit/armor/vest/capcarapace/alt(src)
+	new /obj/item/clothing/suit/toggle/captains_parade(src)
 	new /obj/item/clothing/head/crown/fancy(src)
 	new /obj/item/cartridge/captain(src)
 	new /obj/item/storage/box/silver_ids(src)
