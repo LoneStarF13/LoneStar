@@ -9,6 +9,18 @@
 	subcategory = LOADOUT_SUBCATEGORY_BACKPACK_TOYS
 	cost = 2
 
+/datum/gear/backpack/beeplushie
+	name = "Bee Plushie"
+	path = /obj/item/toy/plush/beeplushie
+	subcategory = LOADOUT_SUBCATEGORY_BACKPACK_TOYS
+	cost = 2
+
+/datum/gear/backpack/snakeplushie
+	name = "Snake Plushie"
+	path = /obj/item/toy/plush/snakeplushie
+	subcategory = LOADOUT_SUBCATEGORY_BACKPACK_TOYS
+	cost = 2
+
 /datum/gear/backpack/toykatana
 	name = "Toy Katana"
 	path = /obj/item/toy/katana
