@@ -167,9 +167,9 @@
 
 /obj/item/encryptionkey/headset_bos
 	name = "Brotherhood radio encryption key"
-	desc = "An encryption key for a radio headset.  To access the Brotherhood channel, use :q. To access the Operations channel, use :i."
+	desc = "An encryption key for a radio headset.  To access the main Operations channel, use :q. To access the BOS channel, use :i."
 	icon_state = "cypherkey"
-	channels = list(RADIO_CHANNEL_BOS = 1, RADIO_CHANNEL_OPS = 1)
+	channels = list(RADIO_CHANNEL_OPS = 1, RADIO_CHANNEL_BOS = 1)
 
 /obj/item/encryptionkey/headset_bos/offduty
 	name = "Brotherhood Off-Duty radio encryption key"

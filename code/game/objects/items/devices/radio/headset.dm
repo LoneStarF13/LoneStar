@@ -346,7 +346,7 @@ GLOBAL_LIST_INIT(channel_tokens, list(
 
 /obj/item/radio/headset/headset_bos
 	name = "brotherhood radio headset"
-	desc = "This is used by the brotherhood of steel.\nTo access the BOS channel, use :q.\nTo access the Operations channel, use :i."
+	desc = "This is used by the brotherhood of steel.\nTo access the main Operations channel, use :q.\nTo access the BOS channel, use :i."
 	icon_state = "cent_headset"
 	keyslot = new /obj/item/encryptionkey/headset_bos
 	linked_faction = FACTION_BROTHERHOOD

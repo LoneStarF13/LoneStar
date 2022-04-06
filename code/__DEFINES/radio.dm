@@ -58,12 +58,12 @@
 #define RADIO_TOKEN_RANGER ":r"
 
 #define RADIO_CHANNEL_BOS "BOS"
-#define RADIO_KEY_BOS "q"
-#define RADIO_TOKEN_BOS ":q"
+#define RADIO_KEY_BOS "i"
+#define RADIO_TOKEN_BOS ":i"
 
 #define RADIO_CHANNEL_OPS "Operations"
-#define RADIO_KEY_OPS "i"
-#define RADIO_TOKEN_OPS ":i"
+#define RADIO_KEY_OPS "q"
+#define RADIO_TOKEN_OPS ":q"
 
 #define RADIO_CHANNEL_ENCLAVE "Enclave"
 #define RADIO_KEY_ENCLAVE "z"
