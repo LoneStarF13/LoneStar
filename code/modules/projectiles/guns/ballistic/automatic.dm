@@ -609,7 +609,8 @@
 /obj/item/gun/ballistic/automatic/wt550
 	name = "WT-550"
 	desc = "A compact PDW derived from the G11, firing the same 4.73mm rounds."
-	item_state = "WT550"
+	item_state = "m90"
+	icon_state = "WT550"
 	mag_type = /obj/item/ammo_box/magazine/m473/small
 	burst_size = 1
 	is_automatic = TRUE
@@ -617,8 +618,9 @@
 	extra_damage = 20
 	autofire_shot_delay = 1.75
 	extra_penetration = 0.2
+	slowdown = 0.2
 	w_class = WEIGHT_CLASS_NORMAL
-	weapon_weight = WEAPON_MEDIUM
+	weapon_weight = WEAPON_HEAVY
 	spread = 0
 	fire_delay = 1
 	can_bayonet = TRUE
@@ -719,6 +721,25 @@
 	zoom_out_amt = 13
 	can_scope = FALSE
 	fire_sound = 'sound/weapons/Gunshot_large_silenced.ogg'
+
+
+//Combat Rifle		Keywords: .45 Caliber Rifle, No Attachments (!)
+/obj/item/gun/ballistic/automatic/combat
+	name = "Combat Rifle"
+	desc = "A .45 semi-automatic combat rifle, produced pre-war for National Guard forces."
+	icon_state = "combat_rifle"
+	item_state = "combatrifle"
+	icon_prefix = "combatrifle"
+	mag_type = /obj/item/ammo_box/magazine/greasegun
+	fire_delay = 3
+	burst_size = 1
+	spread = 1
+	extra_damage = 32
+	slowdown = 0.3
+	can_attachments = FALSE
+	automatic_burst_overlay = FALSE
+	semi_auto = TRUE
+	fire_sound = 'sound/f13weapons/combatrifle.ogg'
 
 //Service rifle			Keywords: NCR, 5.56mm, Semi-auto, 20 (10-50) round magazine, 25dmg
 /obj/item/gun/ballistic/automatic/service
@@ -1275,7 +1296,7 @@
 	name = "g11"
 	desc = "This experimental gun fires a caseless cartridge consisting of a block of propellant with a bullet buried inside. The weight and space savings allows for a very high magazine capacity. Chambered in 4.73mm."
 	icon_state = "g11"
-	item_state = "g11"
+	item_state = "arg"
 	mag_type = /obj/item/ammo_box/magazine/m473
 	burst_size = 1
 	extra_damage = 22.5

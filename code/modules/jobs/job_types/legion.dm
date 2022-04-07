@@ -517,22 +517,26 @@ commented out pending rework*/
 	access = list(ACCESS_LEGION, ACCESS_CHANGE_IDS, ACCESS_LEGION_COMMAND)
 	minimal_access = list(ACCESS_LEGION, ACCESS_CHANGE_IDS, ACCESS_LEGION_COMMAND)
 
-/datum/outfit/job/CaesarsLegion/Legionnaire/f13orator	// 10mm Revolver, Spatha
+/datum/outfit/job/CaesarsLegion/Legionnaire/f13orator	// Spatha, Automag
 	name = "Orator"
 	jobtype = /datum/job/CaesarsLegion/Legionnaire/f13orator
-	neck = /obj/item/storage/belt/holster
+	neck = /obj/item/clothing/neck/mantle/legionmantle
 	suit = /obj/item/clothing/suit/armor/f13/legion/vet/orator
-	head = null
+	mask = /obj/item/clothing/mask/bandana/legion/legvet
+	uniform = /obj/item/clothing/under/f13/legorat
+	head = /obj/item/clothing/head/helmet/f13/legion/vet/orator
 	id = /obj/item/card/id/dogtag/legveteran
-	gloves = null
-	shoes = /obj/item/clothing/shoes/roman
-	suit_store = /obj/item/gun/ballistic/automatic/pistol/n99
+	shoes = /obj/item/clothing/shoes/f13/military/legion
+	gloves = /obj/item/clothing/gloves/legion
+	suit_store = /obj/item/melee/onehanded/machete/spatha
 	r_pocket = /obj/item/storage/bag/money/small/legofficers
 	l_pocket = /obj/item/flashlight/lantern
 	backpack_contents = list(
 		/obj/item/storage/survivalkit/legionifak = 1,
-		/obj/item/ammo_box/magazine/m10mm_adv/simple = 2,
 		/obj/item/reagent_containers/pill/patch/bitterdrink = 1,
+		/obj/item/clothing/neck/mantle/legiontoga = 1,
+		/obj/item/gun/ballistic/automatic/pistol/automag = 1,
+		/obj/item/ammo_box/magazine/automag = 2,
 		)
 
 /datum/outfit/job/CaesarsLegion/Legionnaire/f13orator/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
@@ -542,8 +546,8 @@ commented out pending rework*/
 	ADD_TRAIT(H, TRAIT_LIFEGIVER, src)
 	ADD_TRAIT(H, TRAIT_IRONFIST, src)
 	ADD_TRAIT(H, TRAIT_BIG_LEAGUES, src)
-		
-	
+
+
 // VEXILLARIUS
 
 /datum/job/CaesarsLegion/Legionnaire/f13vexillarius
@@ -1046,7 +1050,7 @@ commented out pending rework*/
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/tribalwar/yumi)
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/durathread_vest)
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/tribalradio)
-	
+
 
 // AUXILIA - Civilians with special training. Can sow new uniforms for soldiers who lost theirs, and are loyal so they would never abuse this.
 
@@ -1149,7 +1153,7 @@ commented out pending rework*/
 		/obj/item/stack/sheet/prewar/twenty = 1,
 		/obj/item/weldingtool = 1,
 		/obj/item/book/granter/trait/explosives = 1
-		)	
+		)
 
 // LEGION SLAVES - Servant cook, and assist with medical, low surgery. Worker farm and mine.
 // Both get Mars teachings to help out when normal work is done.

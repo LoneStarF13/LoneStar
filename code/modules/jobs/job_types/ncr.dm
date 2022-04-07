@@ -259,7 +259,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	r_pocket = /obj/item/binoculars
 	suit_store = /obj/item/gun/ballistic/automatic/m1garand/republicspride
 	backpack_contents = list(
-		/obj/item/melee/onehanded/knife/bayonet = 1, \
+		/obj/item/melee/onehanded/machete/ncrflag = 1, \
 		/obj/item/gun/ballistic/automatic/pistol/ninemil = 1, \
 		/obj/item/ammo_box/magazine/m9mmds = 2, \
 		/obj/item/storage/bag/money/small/ncrofficers = 1,

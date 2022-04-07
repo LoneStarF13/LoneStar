@@ -1017,6 +1017,20 @@
 	subcategory = CAT_WEAPON
 	always_available = FALSE
 
+//F4 combat rifle
+/datum/crafting_recipe/combatrifle
+	name = "Combat Rifle"
+	result = /obj/item/gun/ballistic/automatic/combat
+	reqs = list(/obj/item/stack/sheet/metal = 10,
+				/obj/item/advanced_crafting_components/assembly = 1,
+				/obj/item/stack/crafting/goodparts = 3
+				)
+	tools = list(TOOL_WORKBENCH)
+	time = 120
+	category = CAT_WEAPONRY
+	subcategory = CAT_WEAPON
+	always_available = FALSE
+
 //r84 lmg
 /datum/crafting_recipe/lmg
 	name = "R84 LMG"

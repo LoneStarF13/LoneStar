@@ -169,7 +169,7 @@
 
 /obj/item/ammo_box/magazine/m473/small
 	name = "4.7mm carbine magazine"
-	icon_state = "473small"
+	icon_state = "46x30mmtA"
 	max_ammo = 20
 
 /obj/item/ammo_box/magazine/m473/small/empty
