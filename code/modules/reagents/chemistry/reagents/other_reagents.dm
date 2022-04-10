@@ -13,10 +13,10 @@
 	shot_glass_icon_state = "shotglassred"
 	pH = 7.4
 
-// FEED ME,SEYMOUR!
+// FEED ME
 /datum/reagent/blood/on_hydroponics_apply(obj/item/seeds/myseed, datum/reagents/chems, obj/machinery/hydroponics/mytray)
 	. = ..()
-	if(chems.has_reagent(src.type, 1))
+	if(chems.has_reagent(src, 1))
 		mytray.adjustPests(rand(2,3))
 
 /datum/reagent/blood/reaction_mob(mob/living/L, method = TOUCH, reac_volume)
@@ -1060,6 +1060,7 @@
 		mytray.adjustToxic(round(chems.get_reagent_amount(src.type) * 1.5))
 		mytray.adjustWater(-round(chems.get_reagent_amount(src.type) * 0.5))
 		mytray.adjustWeeds(-rand(1,3))
+		// White Phosphorous + water -> phosphoric acid. That's not a good thing really.
 
 /datum/reagent/chlorine/on_mob_life(mob/living/carbon/M)
 	M.take_bodypart_damage(1*REM, 0, 0, 0)
@@ -1103,6 +1104,14 @@
 	color = "#832828" // rgb: 131, 40, 40
 	taste_description = "vinegar"
 	pH = 6.5
+
+// Phosphoric salts are beneficial though. And even if the plant suffers, in the long run the tray gets some nutrients. The benefit isn't worth that much.
+/datum/reagent/phosphorus/on_hydroponics_apply(obj/item/seeds/myseed, datum/reagents/chems, obj/machinery/hydroponics/mytray, mob/user)
+	. = ..()
+	if(chems.has_reagent(src, 1))
+		mytray.adjustHealth(-round(chems.get_reagent_amount(src) * 0.75))
+		mytray.adjustWater(-round(chems.get_reagent_amount(src) * 0.5))
+		mytray.adjustWeeds(-rand(1,2))
 
 /datum/reagent/lithium
 	name = "Lithium"

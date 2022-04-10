@@ -58,6 +58,7 @@
 	icon_state = "seed-rice"
 	species = "rice"
 	plantname = "Rice Stalks"
+	instability = 1
 	product = /obj/item/reagent_containers/food/snacks/grown/rice
 	mutatelist = list()
 	growthstages = 3

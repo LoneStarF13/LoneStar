@@ -17,6 +17,7 @@
 	genes = list(/datum/plant_gene/trait/plant_type/fungal_metabolism)
 	mutatelist = list(/obj/item/seeds/tower/steel)
 	reagents_add = list(/datum/reagent/cellulose = 0.05, /datum/reagent/oxygen = 0.05)
+	graft_gene = /datum/plant_gene/trait/plant_type/fungal_metabolism
 
 /obj/item/seeds/tower/steel
 	name = "pack of steel-cap mycelium"

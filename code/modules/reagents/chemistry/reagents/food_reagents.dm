@@ -49,6 +49,11 @@
 	var/brute_heal = 1
 	var/burn_heal = 0
 
+/datum/reagent/consumable/nutriment/on_hydroponics_apply(obj/item/seeds/myseed, datum/reagents/chems, obj/machinery/hydroponics/mytray, mob/user)
+	. = ..()
+	if(chems.has_reagent(src, 1))
+		mytray.adjustHealth(round(chems.get_reagent_amount(src) * 0.2))
+
 /datum/reagent/consumable/nutriment/on_mob_life(mob/living/carbon/M)
 	if(!HAS_TRAIT(M, TRAIT_NO_PROCESS_FOOD))
 		if(prob(50))
@@ -732,6 +737,16 @@
 	nutriment_factor = 10 * REAGENTS_METABOLISM
 	metabolization_rate = 1 * REAGENTS_METABOLISM
 	taste_description = "sweetness"
+
+	// On the other hand, honey has been known to carry pollen with it rarely. Can be used to take in a lot of plant qualities all at once, or harm the plant.
+/datum/reagent/consumable/honey/on_hydroponics_apply(obj/item/seeds/myseed, datum/reagents/chems, obj/machinery/hydroponics/mytray, mob/user)
+	. = ..()
+	if(chems.has_reagent(src, 1))
+		if(myseed && prob(20))
+			mytray.pollinate(rand(1,3))
+		else
+			mytray.adjustWeeds(rand(1,2))
+			mytray.adjustPests(rand(1,2))
 
 /datum/reagent/consumable/honey/on_mob_life(mob/living/carbon/M)
 	M.reagents.add_reagent(/datum/reagent/consumable/sugar,3)

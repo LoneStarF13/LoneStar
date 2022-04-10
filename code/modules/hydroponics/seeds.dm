@@ -8,37 +8,57 @@
 	icon_state = "seed"				// Unknown plant seed - these shouldn't exist in-game.
 	w_class = WEIGHT_CLASS_TINY
 	resistance_flags = FLAMMABLE
-	var/plantname = "Plants"		// Name of plant when planted.
-	var/obj/item/product						// A type path. The thing that is created when the plant is harvested.
+	/// Name of plant when planted.
+	var/plantname = "Plants"
+	/// A type path. The thing that is created when the plant is harvested.
+	var/obj/item/product
+	///Describes the product on the product path.
 	var/productdesc
-	var/species = ""				// Used to update icons. Should match the name in the sprites unless all icon_* are overridden.
-
-	var/growing_icon = 'icons/obj/hydroponics/growing.dmi' //the file that stores the sprites of the growing plant from this seed.
-	var/icon_grow					// Used to override grow icon (default is "[species]-grow"). You can use one grow icon for multiple closely related plants with it.
-	var/icon_dead					// Used to override dead icon (default is "[species]-dead"). You can use one dead icon for multiple closely related plants with it.
-	var/icon_harvest				// Used to override harvest icon (default is "[species]-harvest"). If null, plant will use [icon_grow][growthstages].
-
-	var/lifespan = 25				// How long before the plant begins to take damage from age.
-	var/endurance = 15				// Amount of health the plant has.
-	var/maturation = 6				// Used to determine which sprite to switch to when growing.
-	var/production = 6				// Changes the amount of time needed for a plant to become harvestable.
-	var/yield = 3					// Amount of growns created per harvest. If is -1, the plant/shroom/weed is never meant to be harvested.
-	var/potency = 10				// The 'power' of a plant. Generally effects the amount of reagent in a plant, also used in other ways.
-	var/growthstages = 6			// Amount of growth sprites the plant has.
-	var/instability = 5             //Chance that a plant will mutate in each stage of it's life.
-	var/rarity = 0					// How rare the plant is. Used for giving points to cargo when shipping off to CentCom.
-	var/list/mutatelist = list()	// The type of plants that this plant can mutate into.
-	var/list/genes = list()			// Plant genes are stored here, see plant_genes.dm for more info.
-	var/list/forbiddengenes = list()
-	var/list/reagents_add = list()
-	// A list of reagents to add to product.
+		/// Used to update icons. Should match the name in the sprites unless all icon_* are overridden.
+	var/species = ""
+	///the file that stores the sprites of the growing plant from this seed.
+	var/growing_icon = 'icons/obj/hydroponics/growing.dmi'
+	/// Used to override grow icon (default is "[species]-grow"). You can use one grow icon for multiple closely related plants with it.
+	var/icon_grow
+	/// Used to override dead icon (default is "[species]-dead"). You can use one dead icon for multiple closely related plants with it.
+	var/icon_dead
+	/// Used to override harvest icon (default is "[species]-harvest"). If null, plant will use [icon_grow][growthstages].
+	var/icon_harvest
+	/// How long before the plant begins to take damage from age.
+	var/lifespan = 25
+	/// Amount of health the plant has.
+	var/endurance = 15
+	/// Used to determine which sprite to switch to when growing.
+	var/maturation = 6
+	/// Changes the amount of time needed for a plant to become harvestable.
+	var/production = 6
+	/// Amount of growns created per harvest. If is -1, the plant/shroom/weed is never meant to be harvested.
+	var/yield = 3
+	/// The 'power' of a plant. Generally effects the amount of reagent in a plant, also used in other ways.
+	var/potency = 10
+	/// Amount of growth sprites the plant has.
+	var/growthstages = 6
+	// Chance that a plant will mutate in each stage of it's life.
+	var/instability = 5
+	/// How rare the plant is. Used for giving points to cargo when shipping off to CentCom.
+	var/rarity = 0
+	/// The type of plants that this plant can mutate into.
+	var/list/mutatelist
+	/// Plant genes are stored here, see plant_genes.dm for more info.
+	var/list/genes
+	/// A list of reagents to add to product.
+	var/list/reagents_add
 	// Format: "reagent_id" = potency multiplier
 	// Stronger reagents must always come first to avoid being displaced by weaker ones.
 	// Total amount of any reagent in plant is calculated by formula: 1 + round(potency * multiplier)
-
-	var/weed_rate = 1 //If the chance below passes, then this many weeds sprout during growth
-	var/weed_chance = 5 //Percentage chance per tray update to grow weeds
-	var/seed_flags = MUTATE_EARLY //Determines if a plant is allowed to mutate early at 30+ instability
+	///If the chance below passes, then this many weeds sprout during growth
+	var/weed_rate = 1
+	///Percentage chance per tray update to grow weeds
+	var/weed_chance = 5
+	///Determines if the plant has had a graft removed or not.
+	var/grafted = FALSE
+	///Trait to be applied when grafting a plant.
+	var/graft_gene
 
 /obj/item/seeds/Initialize(mapload, nogenes = 0)
 	. = ..()
@@ -55,6 +75,7 @@
 		icon_harvest = "[species]-harvest"
 
 	if(!nogenes) // not used on Copy()
+		genes = list()
 		genes += new /datum/plant_gene/core/lifespan(lifespan)
 		genes += new /datum/plant_gene/core/endurance(endurance)
 		genes += new /datum/plant_gene/core/weed_rate(weed_rate)
@@ -105,10 +126,6 @@
 		S.genes += G.Copy()
 	S.reagents_add = reagents_add.Copy() // Faster than grabbing the list from genes.
 	return S
-
-obj/item/seeds/proc/is_gene_forbidden(typepath)
-	return (typepath in forbiddengenes)
-
 
 /obj/item/seeds/proc/get_gene(typepath)
 	return (locate(typepath) in genes)
@@ -176,42 +193,13 @@ obj/item/seeds/proc/is_gene_forbidden(typepath)
 
 
 /obj/item/seeds/proc/harvest(mob/user)
-	///Reference to the tray/soil the seeds are planted in.
 	var/obj/machinery/hydroponics/parent = loc //for ease of access
-	///Count used for creating the correct amount of results to the harvest.
 	var/t_amount = 0
-	///List of plants all harvested from the same batch.
 	var/list/result = list()
-	///Tile of the harvester to deposit the growables.
 	var/output_loc = parent.Adjacent(user) ? user.loc : parent.loc //needed for TK
-	///Name of the grown products.
 	var/product_name
-	///The Number of products produced by the plant, typically the yield.
-	var/product_count = getYield()
-
-	parent.investigate_log("manual harvest by [key_name(user)] of [getYield()] of [src], with seed traits [english_list(genes)] and reagents_add [english_list_assoc(reagents_add)] and potency [potency].", INVESTIGATE_BOTANY)
-
-	while(t_amount < product_count)
-		var/obj/item/reagent_containers/food/snacks/grown/t_prod
-		if(instability >= 30 && (seed_flags & MUTATE_EARLY) && LAZYLEN(mutatelist) && prob(instability/3))
-			var/obj/item/seeds/new_prod = pick(mutatelist)
-			t_prod = initial(new_prod.product)
-			if(!t_prod)
-				continue
-			t_prod = new t_prod(output_loc, src)
-			t_prod.seed = new new_prod
-			t_prod.seed.name = initial(new_prod.name)
-			t_prod.seed.desc = initial(new_prod.desc)
-			t_prod.seed.plantname = initial(new_prod.plantname)
-			t_prod.transform = initial(t_prod.transform)
-			t_prod.transform *= TRANSFORM_USING_VARIABLE(t_prod.seed.potency, 100) + 0.5
-			t_amount++
-			if(t_prod.seed)
-				//t_prod.seed = new new_prod
-				t_prod.seed.instability = round(instability * 0.5)
-			continue
-		else
-			t_prod = new product(output_loc, src)
+	while(t_amount < getYield())
+		var/obj/item/reagent_containers/food/snacks/grown/t_prod = new product(output_loc, src)
 		if(parent.myseed.plantname != initial(parent.myseed.plantname))
 			t_prod.name = lowertext(parent.myseed.plantname)
 		if(productdesc)
@@ -274,6 +262,10 @@ obj/item/seeds/proc/is_gene_forbidden(typepath)
 
 
 /// Setters procs ///
+
+/**
+  * Adjusts seed yield up or down according to adjustamt. (Max 10)
+  */
 /obj/item/seeds/proc/adjust_yield(adjustamt)
 	if(yield != -1) // Unharvestable shouldn't suddenly turn harvestable
 		yield = clamp(yield + adjustamt, 0, 10)
@@ -284,18 +276,27 @@ obj/item/seeds/proc/is_gene_forbidden(typepath)
 		if(C)
 			C.value = yield
 
+/**
+  * Adjusts seed lifespan up or down according to adjustamt. (Max 100)
+  */
 /obj/item/seeds/proc/adjust_lifespan(adjustamt)
 	lifespan = clamp(lifespan + adjustamt, 10, 100)
 	var/datum/plant_gene/core/C = get_gene(/datum/plant_gene/core/lifespan)
 	if(C)
 		C.value = lifespan
 
+/**
+  * Adjusts seed endurance up or down according to adjustamt. (Max 100)
+  */
 /obj/item/seeds/proc/adjust_endurance(adjustamt)
 	endurance = clamp(endurance + adjustamt, 10, 100)
 	var/datum/plant_gene/core/C = get_gene(/datum/plant_gene/core/endurance)
 	if(C)
 		C.value = endurance
 
+/**
+  * Adjusts seed production seed up or down according to adjustamt. (Max 10)
+  */
 /obj/item/seeds/proc/adjust_production(adjustamt)
 	if(yield != -1)
 		production = clamp(production + adjustamt, 1, 10)
@@ -303,6 +304,9 @@ obj/item/seeds/proc/is_gene_forbidden(typepath)
 		if(C)
 			C.value = production
 
+/**
+  * Adjusts seed instability up or down according to adjustamt. (Max 100)
+  */
 /obj/item/seeds/proc/adjust_instability(adjustamt)
 	if(instability == -1)
 		return
@@ -311,6 +315,9 @@ obj/item/seeds/proc/is_gene_forbidden(typepath)
 	if(C)
 		C.value = instability
 
+/**
+  * Adjusts seed potency up or down according to adjustamt. (Max 100)
+  */
 /obj/item/seeds/proc/adjust_potency(adjustamt)
 	if(potency != -1)
 		potency = clamp(potency + adjustamt, 0, 100)
@@ -318,12 +325,18 @@ obj/item/seeds/proc/is_gene_forbidden(typepath)
 		if(C)
 			C.value = potency
 
+/**
+  * Adjusts seed weed grwoth speed up or down according to adjustamt. (Max 10)
+  */
 /obj/item/seeds/proc/adjust_weed_rate(adjustamt)
 	weed_rate = clamp(weed_rate + adjustamt, 0, 10)
 	var/datum/plant_gene/core/C = get_gene(/datum/plant_gene/core/weed_rate)
 	if(C)
 		C.value = weed_rate
 
+/**
+  * Adjusts seed weed chance up or down according to adjustamt. (Max 67%)
+  */
 /obj/item/seeds/proc/adjust_weed_chance(adjustamt)
 	weed_chance = clamp(weed_chance + adjustamt, 0, 67)
 	var/datum/plant_gene/core/C = get_gene(/datum/plant_gene/core/weed_chance)
@@ -332,6 +345,9 @@ obj/item/seeds/proc/is_gene_forbidden(typepath)
 
 //Directly setting stats
 
+/**
+  * Sets the plant's yield stat to the value of adjustamt. (Max 10)
+  */
 /obj/item/seeds/proc/set_yield(adjustamt)
 	if(yield != -1) // Unharvestable shouldn't suddenly turn harvestable
 		yield = clamp(adjustamt, 0, 10)
@@ -342,18 +358,26 @@ obj/item/seeds/proc/is_gene_forbidden(typepath)
 		if(C)
 			C.value = yield
 
+/**
+  * Sets the plant's lifespan stat to the value of adjustamt. (Max 100)
+  */
 /obj/item/seeds/proc/set_lifespan(adjustamt)
 	lifespan = clamp(adjustamt, 10, 100)
 	var/datum/plant_gene/core/C = get_gene(/datum/plant_gene/core/lifespan)
 	if(C)
 		C.value = lifespan
 
+/**
+  * Sets the plant's endurance stat to the value of adjustamt. (Max 100)
+  */
 /obj/item/seeds/proc/set_endurance(adjustamt)
 	endurance = clamp(adjustamt, 10, 100)
 	var/datum/plant_gene/core/C = get_gene(/datum/plant_gene/core/endurance)
 	if(C)
 		C.value = endurance
-
+/**
+  * Sets the plant's production stat to the value of adjustamt. (Max 10)
+  */
 /obj/item/seeds/proc/set_production(adjustamt)
 	if(yield != -1)
 		production = clamp(adjustamt, 1, 10)
@@ -361,6 +385,9 @@ obj/item/seeds/proc/is_gene_forbidden(typepath)
 		if(C)
 			C.value = production
 
+/**
+  * Sets the plant's potency stat to the value of adjustamt. (Max 100)
+  */
 /obj/item/seeds/proc/set_potency(adjustamt)
 	if(potency != -1)
 		potency = clamp(adjustamt, 0, 100)
@@ -368,6 +395,9 @@ obj/item/seeds/proc/is_gene_forbidden(typepath)
 		if(C)
 			C.value = potency
 
+/**
+  * Sets the plant's instability stat to the value of adjustamt. (Max 100)
+  */
 /obj/item/seeds/proc/set_instability(adjustamt)
 	if(instability == -1)
 		return
@@ -376,12 +406,18 @@ obj/item/seeds/proc/is_gene_forbidden(typepath)
 	if(C)
 		C.value = instability
 
+/**
+  * Sets the plant's weed production rate to the value of adjustamt. (Max 10)
+  */
 /obj/item/seeds/proc/set_weed_rate(adjustamt)
 	weed_rate = clamp(adjustamt, 0, 10)
 	var/datum/plant_gene/core/C = get_gene(/datum/plant_gene/core/weed_rate)
 	if(C)
 		C.value = weed_rate
 
+/**
+  * Sets the plant's weed growth percentage to the value of adjustamt. (Max 67%)
+  */
 /obj/item/seeds/proc/set_weed_chance(adjustamt)
 	weed_chance = clamp(adjustamt, 0, 67)
 	var/datum/plant_gene/core/C = get_gene(/datum/plant_gene/core/weed_chance)
@@ -544,7 +580,7 @@ obj/item/seeds/proc/is_gene_forbidden(typepath)
 	for(var/i in 1 to amount_random_traits)
 		var/random_trait = pick((subtypesof(/datum/plant_gene/trait)-typesof(/datum/plant_gene/trait/plant_type)))
 		var/datum/plant_gene/trait/T = new random_trait
-		if(T.can_add(src) && !is_gene_forbidden(random_trait))
+		if(T.can_add(src))
 			genes += T
 		else
 			qdel(T)
