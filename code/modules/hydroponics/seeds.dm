@@ -286,7 +286,7 @@
 		C.value = lifespan
 
 /**
- 	* Adjusts seed endurance up or down according to adjustamt. (Max 100)
+	* Adjusts seed endurance up or down according to adjustamt. (Max 100)
 	*/
 /obj/item/seeds/proc/adjust_endurance(adjustamt)
 	endurance = clamp(endurance + adjustamt, 10, 100)
