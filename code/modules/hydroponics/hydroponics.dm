@@ -578,7 +578,7 @@
 		update_icon()
 		dead = TRUE
 
-/obj/machinery/hydroponics/proc/pollinate(var/range = 1)
+/obj/machinery/hydroponics/proc/pollinate(range = 1)
 	for(var/obj/machinery/hydroponics/T in oview(src, range))
 		if(T.myseed && !T.dead)
 			T.myseed.potency =  round(clamp((T.myseed.potency+(1/10)*(myseed.potency-T.myseed.potency)),0,100))
