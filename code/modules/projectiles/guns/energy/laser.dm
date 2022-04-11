@@ -603,8 +603,8 @@
 	burst_size = 1
 	burst_shot_delay = 1
 	automatic = 1
-	autofire_shot_delay = 2.5
-	spread = 8
+	autofire_shot_delay = 1.8
+	spread = 6
 	fire_delay = 1
 	weapon_weight = WEAPON_HEAVY
 	fire_sound = 'sound/weapons/laser.ogg'

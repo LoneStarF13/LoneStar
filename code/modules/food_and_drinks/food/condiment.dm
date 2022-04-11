@@ -341,3 +341,10 @@
 /obj/item/reagent_containers/food/condiment/pack/soup
 	name = "soup bouillon pack"
 	list_reagents = list(/datum/reagent/consumable/dry_ramen = 10)
+
+/obj/item/reagent_containers/food/condiment/bbqsauce
+	name = "barbecue sauce"
+	desc = "Ahm I gehtin ah moar.. Sweet tangy, Byte?"
+	icon_state = "bbqsauce"
+	list_reagents = list(/datum/reagent/consumable/bbqsauce = 50)
+	possible_states = list()

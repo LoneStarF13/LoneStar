@@ -272,7 +272,7 @@
 	icon_state = "plasma_clot"
 	damage_type = BURN
 	damage = 60
-	flag = "laser"
+	flag = "energy"
 	eyeblur = 0
 	is_reflectable = TRUE
 	pixels_per_second = TILES_TO_PIXELS(50)
@@ -326,7 +326,7 @@
 
 /obj/item/projectile/beam/laser/pistol/hitscan //hitscan AEP7
 	name = "laser beam"
-	damage = 19
+	damage = 20
 	hitscan = TRUE
 	armour_penetration = 0.02
 	tracer_type = /obj/effect/projectile/tracer/laser
@@ -377,7 +377,7 @@
 
 /obj/item/projectile/beam/laser/pistol/wattz/hitscan //hitscan wattz
 	name = "weak laser beam"
-	damage = 15
+	damage = 17
 	hitscan = TRUE
 	tracer_type = /obj/effect/projectile/tracer/laser
 	muzzle_type = /obj/effect/projectile/muzzle/laser
@@ -390,9 +390,9 @@
 
 /obj/item/projectile/beam/laser/pistol/wattz/magneto/hitscan
 	name = "penetrating laser beam"
-	damage = 15
+	damage = 17
 	hitscan = TRUE
-	armour_penetration = 0.2 //rare laser to keep its AP, since base model is so bad
+	armour_penetration = 0.22 //rare laser to keep its AP, since base model is so bad
 	tracer_type = /obj/effect/projectile/tracer/laser
 	muzzle_type = /obj/effect/projectile/muzzle/laser
 	impact_type = /obj/effect/projectile/impact/laser
@@ -453,6 +453,21 @@
 	eyeblur = 0
 	is_reflectable = FALSE
 
+/obj/item/projectile/f13plasma/repeater/mining
+	name = "mining plasma stream"
+	icon_state = "plasma_clot"
+	damage_type = BURN
+	damage = 5
+	flag = "energy"
+	eyeblur = 0
+	is_reflectable = FALSE
+
+/obj/item/projectile/f13plasma/repeater/mining/on_hit(atom/target)
+	. = ..()
+	if(ismineralturf(target))
+		var/turf/closed/mineral/M = target
+		M.gets_drilled(firer)
+
 /obj/item/projectile/f13plasma/pistol //Plasma pistol
 	damage = 33
 
@@ -475,7 +490,7 @@
 /obj/item/projectile/beam/laser/rcw/hitscan //RCW
 	name = "rapidfire beam"
 	icon_state = "emitter"
-	damage = 25 //ALWAYS does 50, this is a burstfire hitscan weapon that fires in bursts of 2.
+	damage = 15
 	hitscan = TRUE
 	muzzle_type = /obj/effect/projectile/muzzle/laser/emitter
 	tracer_type = /obj/effect/projectile/tracer/laser/emitter

@@ -150,16 +150,16 @@
 	damage = 15
 	stamina = 10
 	armour_penetration = 0.45
-	wound_bonus = 15
-	bare_wound_bonus = 15
+	wound_bonus = 10
+	bare_wound_bonus = 10
 	sharpness = SHARP_NONE //crunch
 	tile_dropoff = 0
 	tile_dropoff_s = 0
 
 /obj/item/projectile/bullet/pellet/trainshot/on_hit(atom/target)
 	. = ..()
-	if(ismovable(target) && prob(8))
-		var/atom/movable/M = target
+	if(isliving(target) && prob(8))
+		var/mob/living/M = target
 		var/atom/throw_target = get_edge_target_turf(M, get_dir(src, get_step_away(M, src)))
 		M.safe_throw_at(throw_target, 2, 3)
 

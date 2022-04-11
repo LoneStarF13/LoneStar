@@ -257,7 +257,7 @@
 	uniform = /obj/item/clothing/under/f13/khan
 	r_hand = /obj/item/book/granter/trait/selection
 	r_pocket = /obj/item/flashlight/flare
-	l_pocket = /obj/item/storage/survivalkit_khan
+	l_pocket = /obj/item/storage/survivalkit/khan
 	gloves = /obj/item/melee/unarmed/brass/spiked
 	box = null
 	backpack_contents = list(
@@ -296,6 +296,7 @@
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/thatgun)
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/uzi)
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/smg10mm)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/gate_khanate)
 
 /datum/outfit/loadout/enforcer
 	name = "Enforcer"
@@ -377,7 +378,7 @@ Raider
 /datum/outfit/job/wasteland/f13raider
 	name = "Outlaw"
 	jobtype = /datum/job/wasteland/f13raider
-
+	box = /obj/item/storage/survivalkit/outlaw
 	id = null
 	ears = null
 	belt = null
@@ -624,7 +625,7 @@ Raider
 	suit_store = /obj/item/twohanded/spear/bonespear
 	shoes = /obj/item/clothing/shoes/sandal
 	belt = /obj/item/storage/backpack/spearquiver
-	box = /obj/item/storage/survivalkit_tribal
+	box = /obj/item/storage/survivalkit/tribal
 	back = /obj/item/storage/backpack/satchel/explorer
 	backpack_contents = list(
 		/obj/item/clothing/mask/cigarette/pipe = 1,
@@ -1428,9 +1429,41 @@ datum/job/wasteland/f13dendoctor
 	ADD_TRAIT(H, TRAIT_TRAPPER, src)
 	ADD_TRAIT(H, TRAIT_MACHINE_SPIRITS, src)
 	ADD_TRAIT(H, TRAIT_AUTO_DRAW, src)
+	ADD_TRAIT(H, TRAIT_HARD_YARDS, src)
+	H.grant_language(/datum/language/tribal)
+	var/list/recipes = list(
+		/datum/crafting_recipe/tribal_pa,
+		/datum/crafting_recipe/tribal_pa_helmet,
+		/datum/crafting_recipe/tribal_combat_armor,
+		/datum/crafting_recipe/tribal_combat_armor_helmet,
+		/datum/crafting_recipe/tribal_r_combat_armor,
+		/datum/crafting_recipe/tribal_r_combat_armor_helmet,
+		/datum/crafting_recipe/tribalwar/chitinarmor,
+		/datum/crafting_recipe/tribalwar/deathclawspear,
+		/datum/crafting_recipe/tribalwar/lightcloak,
+		/datum/crafting_recipe/tribalwar/legendaryclawcloak,
+		/datum/crafting_recipe/warpaint,
+		/datum/crafting_recipe/tribalradio,
+		/datum/crafting_recipe/tribalwar/goliathcloak,
+		/datum/crafting_recipe/tribalwar/bonebow,
+		/datum/crafting_recipe/tribalwar/tribe_bow,
+		/datum/crafting_recipe/tribalwar/sturdybow,
+		/datum/crafting_recipe/tribalwar/warclub,
+		/datum/crafting_recipe/tribalwar/silverbow,
+		/datum/crafting_recipe/tribalwar/arrowbone,
+		/datum/crafting_recipe/tribalwar/bonespear,
+		/datum/crafting_recipe/tribalwar/bonecodpiece,
+		/datum/crafting_recipe/tribalwar/bracers,
+		/datum/crafting_recipe/tribal/bonetalisman,
+		/datum/crafting_recipe/tribal/bonebag,
+		/datum/crafting_recipe/tribalwar/spearquiver
+	)
+	for(var/datum/crafting_recipe/recipe as() in recipes)
+		H.mind.teach_crafting_recipe(recipe)
 	H.grant_language(/datum/language/tribal)
 	H.social_faction = FACTION_WASTELAND
 	add_verb(H, /mob/living/proc/create_tribe)
+
 
 /datum/outfit/job/wasteland/f13tribal
 	name = "Tribal"
@@ -1440,7 +1473,7 @@ datum/job/wasteland/f13dendoctor
 	ears = null
 	belt = /obj/item/melee/onehanded/knife/bone
 	uniform =     /obj/item/clothing/under/f13/settler
-	box =         /obj/item/storage/survivalkit_tribal
+	box =         /obj/item/storage/survivalkit/tribal
 	shoes =     /obj/item/clothing/shoes/sandal
 	gloves =    /obj/item/clothing/gloves/f13/handwraps
 	r_hand = /obj/item/book/granter/trait/selection/tribal
@@ -1717,35 +1750,3 @@ datum/job/wasteland/f13dendoctor
 		/obj/item/reagent_containers/pill/patch/healpoultice = 2
 
 	)
-/datum/outfit/job/wasteland/f13tribal/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
-	..()
-	if(visualsOnly)
-		return
-	ADD_TRAIT(H, TRAIT_GENERIC, src)
-	ADD_TRAIT(H, TRAIT_HARD_YARDS, src)
-	H.grant_language(/datum/language/tribal)
-	var/list/recipes = list(
-		/datum/crafting_recipe/punji_sticks,
-		/datum/crafting_recipe/tribalwar/chitinarmor,
-		/datum/crafting_recipe/tribalwar/deathclawspear,
-		/datum/crafting_recipe/tribalwar/lightcloak,
-		/datum/crafting_recipe/tribalwar/legendaryclawcloak,
-		/datum/crafting_recipe/warpaint,
-		/datum/crafting_recipe/tribalradio,
-		/datum/crafting_recipe/tribalwar/goliathcloak,
-		/datum/crafting_recipe/tribalwar/bonebow,
-		/datum/crafting_recipe/tribalwar/tribe_bow,
-		/datum/crafting_recipe/tribalwar/sturdybow,
-		/datum/crafting_recipe/tribalwar/warclub,
-		/datum/crafting_recipe/tribalwar/silverbow,
-		/datum/crafting_recipe/tribalwar/arrowbone,
-		/datum/crafting_recipe/tribalwar/bonespear,
-		/datum/crafting_recipe/tribalwar/bonecodpiece,
-		/datum/crafting_recipe/tribalwar/bracers,
-		/datum/crafting_recipe/tribal/bonetalisman,
-		/datum/crafting_recipe/tribal/bonebag,
-		/datum/crafting_recipe/tribalwar/spearquiver
-	)
-
-	for(var/datum/crafting_recipe/recipe as() in recipes)
-		H.mind.teach_crafting_recipe(recipe)

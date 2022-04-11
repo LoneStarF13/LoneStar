@@ -2541,7 +2541,9 @@
 /turf/open/floor/f13/wood,
 /area/f13/caves)
 "bFe" = (
-/obj/machinery/door/airlock/wood,
+/obj/machinery/door/airlock/wood{
+	req_one_access_txt = 87"
+	},
 /turf/open/floor/wood/f13/old,
 /area/f13/den)
 "bFl" = (
@@ -8003,6 +8005,10 @@
 	height = 1;
 	id = "vaultladder"
 	},
+/obj/structure/debris/v1{
+	pixel_x = 26;
+	pixel_y = -8
+	},
 /turf/open/floor/plasteel/f13/vault_floor/yellow/white/whiteyellowchess/whiteyellowchess2,
 /area/f13/vault)
 "eMM" = (
@@ -9422,7 +9428,7 @@
 /area/f13/caves)
 "fFD" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/vending/coffee,
+/obj/machinery/vending/wardrobe/chem_wardrobe,
 /turf/open/floor/carpet,
 /area/f13/followers)
 "fGt" = (
@@ -15403,9 +15409,11 @@
 /turf/open/water,
 /area/f13/caves)
 "jQK" = (
-/obj/machinery/vending/wardrobe/chem_wardrobe,
-/turf/open/floor/carpet,
-/area/f13/followers)
+/obj/structure/debris/v1{
+	pixel_y = -17
+	},
+/turf/open/floor/plasteel/f13/vault_floor/yellow/white/whiteyellowchess/whiteyellowchess2,
+/area/f13/vault)
 "jQN" = (
 /obj/structure/table,
 /turf/open/floor/f13{
@@ -16561,12 +16569,9 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/bunker)
 "kQL" = (
-/obj/machinery/light/small{
-	dir = 4;
-	pixel_y = -15
-	},
-/turf/open/floor/carpet,
-/area/f13/followers)
+/obj/structure/sign/poster/prewar/vault_tec,
+/turf/closed/wall/vault,
+/area/f13/vault)
 "kQO" = (
 /obj/structure/sink/puddle,
 /turf/open/indestructible/ground/inside/mountain,
@@ -20598,6 +20603,9 @@
 	light_color = "red";
 	pixel_y = 15
 	},
+/obj/machinery/vending/coffee{
+	pixel_y = 19
+	},
 /turf/open/floor/carpet,
 /area/f13/followers)
 "nSk" = (
@@ -22076,12 +22084,14 @@
 /area/f13/brotherhood/operations)
 "oWJ" = (
 /obj/structure/table/wood/fancy/blackred{
-	pixel_x = -20;
-	pixel_y = 2
+	pixel_x = -28
 	},
 /obj/item/toy/cards/deck{
-	pixel_x = -16;
+	pixel_x = -27;
 	pixel_y = 3
+	},
+/obj/structure/chair/sofa/corp/right{
+	dir = 8
 	},
 /turf/open/floor/carpet,
 /area/f13/followers)
@@ -23110,10 +23120,11 @@
 	},
 /area/f13/bunker)
 "pOo" = (
-/obj/structure/chair/sofa/corp/right{
-	dir = 8
-	},
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small{
+	dir = 4;
+	pixel_y = -15
+	},
 /turf/open/floor/carpet,
 /area/f13/followers)
 "pOu" = (
@@ -29486,8 +29497,8 @@
 	},
 /area/f13/brotherhood/offices2nd)
 "uNq" = (
-/obj/structure/chair/sofa/corp{
-	dir = 1
+/obj/structure/chair/sofa/corp/corner{
+	dir = 8
 	},
 /turf/open/floor/carpet,
 /area/f13/followers)
@@ -29553,12 +29564,6 @@
 	},
 /turf/open/floor/wood,
 /area/f13/brotherhood/rnd)
-"uQl" = (
-/obj/structure/chair/sofa/corp/corner{
-	dir = 8
-	},
-/turf/open/floor/carpet,
-/area/f13/followers)
 "uRF" = (
 /obj/structure/destructible/clockwork/wall_gear{
 	pixel_x = 32
@@ -30256,7 +30261,7 @@
 "vwE" = (
 /obj/machinery/door/airlock/wood{
 	name = "hallway";
-	req_one_access_txt = 124
+	req_one_access_txt = "124"
 	},
 /turf/open/floor/wood/f13/oak,
 /area/f13/followers)
@@ -31148,7 +31153,8 @@
 "wiR" = (
 /obj/machinery/door/unpowered/securedoor{
 	name = "hallway";
-	req_one_access_txt = 124
+	req_one_access = null;
+	req_one_access_txt = "124"
 	},
 /turf/open/floor/wood/wood_large,
 /area/f13/followers)
@@ -61400,7 +61406,7 @@ wnQ
 wnQ
 wnQ
 wnQ
-hox
+wnQ
 wnQ
 wnQ
 hQE
@@ -64016,22 +64022,22 @@ hQE
 yke
 yke
 xSP
-yke
+kQL
 yke
 xSP
 yke
+kQL
 yke
 yke
 yke
 yke
 yke
+kQL
 yke
 yke
 yke
 yke
-yke
-yke
-yke
+kQL
 yke
 yke
 lEt
@@ -65555,8 +65561,8 @@ xVz
 xVz
 xVz
 hQE
-yke
-eMH
+jSy
+jQK
 xyu
 eZw
 xyu
@@ -66844,7 +66850,7 @@ dXE
 dXE
 dXE
 dXE
-yke
+kQL
 fRg
 ddg
 ddg
@@ -76359,7 +76365,7 @@ vPg
 xWQ
 jPw
 xNt
-vgX
+pOo
 xNt
 oWJ
 uNq
@@ -76614,12 +76620,12 @@ vPg
 vPg
 vPg
 xWQ
-jQK
-vgX
-kQL
-xNt
-pOo
-uQl
+xWQ
+qPi
+xWQ
+xWQ
+qPi
+xWQ
 xWQ
 wLJ
 wLJ
@@ -76870,13 +76876,13 @@ vPg
 aoj
 vPg
 vPg
-xWQ
-xWQ
-xWQ
-xWQ
-xWQ
-xWQ
-xWQ
+vPg
+vPg
+vPg
+vPg
+vPg
+vPg
+vPg
 xWQ
 xHq
 xHq

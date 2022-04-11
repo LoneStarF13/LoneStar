@@ -292,3 +292,14 @@
 	".357 Single Action Revolver" = /obj/item/gun/ballistic/revolver/colt357,
 	"5.56mm Varmint Rifle" = /obj/item/gun/ballistic/automatic/varmint
 	)
+
+/obj/item/choice_beacon/box/g11ammo
+	name = "choice box (tactical ammunition)"
+	desc = "Contains 50 rounds of your preferred tactical 4.73mm ammunition."
+	var/static/list/ammolist = list("4.73mm flat-nose bullets" = /obj/item/ammo_box/m473/dumdum,
+		"4.73mm incendiary bullets" = /obj/item/ammo_box/m473/incendiary,
+		"4.73mm electro-static discharge bullets" = /obj/item/ammo_box/m473/shock,
+		"4.73mm high-velocity bullets" = /obj/item/ammo_box/m473/hv)
+
+/obj/item/choice_beacon/box/g11ammo/generate_display_names()
+	return ammolist
