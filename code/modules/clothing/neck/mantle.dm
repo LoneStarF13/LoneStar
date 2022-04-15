@@ -48,16 +48,28 @@
 	desc = "Issued to the Elders of the Brotherhood. Style over substance is important. This one is designed to be worn over the shoulder."
 	icon_state = "bosshouldercape_r"
 
-/obj/item/clothing/neck/mantle/bos/paladin
-	name = "Paladin cape"
-	desc = "This stylish deep crimson cape is made to be worn below a power armor pauldron, a shoulder holster is added for utility."
-	icon_state = "paladin"
+/obj/item/clothing/neck/mantle/bos/shortpaladin
+	name = "short paladin cape"
+	desc = "This stylish deep crimson cape is made to be worn below a power armor pauldron, a shoulder holster is added for utility. Shorter version."
+	icon_state = "palcapes"
+	pocket_storage_component_path = /datum/component/storage/concrete/pockets/bos/paladin
+
+/obj/item/clothing/neck/mantle/bos/longpaladin
+	name = "long paladin cape"
+	desc = "This stylish deep crimson cape is made to be worn below a power armor pauldron, a shoulder holster is added for utility. Longer version."
+	icon_state = "palcapel"
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets/bos/paladin
 
 /obj/item/clothing/neck/mantle/ranger
 	name = "NCR ranger cape"
 	desc = "Ranger cape made from what looks like old poncho fitted with star, stripes and a bear. Most likely has a holster hidden underneath."
 	icon_state = "rangercape"
+	pocket_storage_component_path = /datum/component/storage/concrete/pockets/bos/paladin
+
+/obj/item/clothing/neck/mantle/rangerponcho
+	name = "NCR ranger poncho"
+	desc = "An old poncho used by rangers to protect from the natural elements. Most likely has a holster hidden underneath."
+	icon_state = "rangerponcho"
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets/bos/paladin
 
 /obj/item/clothing/neck/mantle/chief
@@ -113,3 +125,15 @@
 	desc = "Plain and rugged piece of clothing, put it over your suit and make sure your gear don't get soaked through when it rains."
 	icon_state = "poncho"
 	body_parts_covered = CHEST|GROIN|ARMS
+
+/obj/item/clothing/neck/mantle/legionmantle
+	name = "Legion mantle"
+	desc = "A mantle made in the legion colors,with a golden wreath brooch. Most likely has a holster hidden underneath."
+	icon_state = "legionmantle"
+	pocket_storage_component_path = /datum/component/storage/concrete/pockets/bos/paladin
+
+/obj/item/clothing/neck/mantle/legiontoga
+	name = "Legion toga"
+	desc = "A toga made in the legion colors, with a golden wreath brooch. Most likely has a holster hidden underneath."
+	icon_state = "legiontoga"
+	pocket_storage_component_path = /datum/component/storage/concrete/pockets/bos/paladin

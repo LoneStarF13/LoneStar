@@ -805,7 +805,6 @@ obj/effect/spawner/lootdrop/f13/medical/rnd/good
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ballistic/superlow
 	name = "very low tier non-hobo ballistic gun"
 	loot = list(/obj/effect/spawner/bundle/f13/ninemil,
-				/obj/effect/spawner/bundle/f13/sig,
 				/obj/effect/spawner/bundle/f13/caravan_shotgun,
 				/obj/effect/spawner/bundle/f13/mosin,
 				/obj/effect/spawner/bundle/f13/remington,
@@ -1261,6 +1260,13 @@ obj/effect/spawner/lootdrop/f13/medical/rnd/good
 	items = list(
 				/obj/item/gun/ballistic/automatic/marksman,
 				/obj/item/ammo_box/magazine/m556/rifle/
+				)
+
+/obj/effect/spawner/bundle/f13/combat_rifle
+	name = "combat rifle and ammo spawner"
+	items = list(
+				/obj/item/gun/ballistic/automatic/combat,
+				/obj/item/ammo_box/magazine/greasegun/
 				)
 
 /obj/effect/spawner/bundle/f13/rcw
@@ -2089,6 +2095,7 @@ obj/effect/spawner/lootdrop/f13/medical/rnd/good
 		/obj/item/book/granter/crafting_recipe/blueprint/r84,
 		/obj/item/book/granter/crafting_recipe/blueprint/deagle,
 		/obj/item/book/granter/crafting_recipe/blueprint/marksman,
+		/obj/item/book/granter/crafting_recipe/blueprint/combatrifle,
 		/obj/item/book/granter/crafting_recipe/blueprint/plasmapistol,
 		/obj/item/book/granter/crafting_recipe/blueprint/brushgun,
 	)
@@ -2162,7 +2169,6 @@ obj/effect/spawner/lootdrop/f13/medical/rnd/good
 	lootcount = 1
 	lootdoubles = FALSE
 	loot = list(
-		/obj/effect/spawner/bundle/f13/sig,
 		/obj/effect/spawner/bundle/f13/beretta,
 		/obj/effect/spawner/bundle/f13/ninemil
 	)

@@ -578,7 +578,7 @@
 	list_reagents = list(/datum/reagent/consumable/nutriment = 24)
 	filling_color = "B#22222"
 	foodtype = MEAT
-
+	
 /obj/item/reagent_containers/food/snacks/f13/mirelurkcake
 	name = "mirelurk cake"
 	desc = "A savory cake made from the meat of a Mirelurk.  A popular dish from the coastlines."
@@ -859,3 +859,29 @@
 	tastes = list("beef luncheon loaf" = 3, "jalapeno peppers and spices" = 2)
 	trash = /obj/item/trash/f13/k_ration
 	foodtype = MEAT
+
+/obj/item/reagent_containers/food/snacks/kebab/f13
+	name = "generic kebab"
+	desc = "you goofed"
+	icon = 'icons/fallout/objects/food&drinks/food.dmi' //we need to start migrating more foods to this path
+	
+/obj/item/reagent_containers/food/snacks/kebab/f13/gecko
+	name = "gecko kebab"
+	desc = "delicious bits of gecko on a metal skewer"
+	icon_state = "squirrelbits" //the gecko kebab sprite is ass, please change ASAP
+	list_reagents = list(/datum/reagent/consumable/nutriment = 6, /datum/reagent/consumable/nutriment/vitamin = 2, /datum/reagent/water = 5) //healthy, will slightly reduce bloodloss
+	tastes = list("meat" = 4, "scales" = 1)
+
+/obj/item/reagent_containers/food/snacks/kebab/f13/ghost
+	name = "kebab el fuego"
+	desc = "mutant ghost peppers on a skewer, feel the heat of a nuclear blast on your tastebuds."
+	icon_state = "squirrelbits" //placeholder, make new sprite
+	list_reagents = list(/datum/reagent/consumable/nutriment = 6, /datum/reagent/consumable/nutriment/vitamin = 2, /datum/reagent/consumable/condensedcapsaicin = 8)
+	
+/obj/item/reagent_containers/food/snacks/kebab/f13/squirrelstick //heals on eat, has slight radiation
+	name = "squirrel on a stick"
+	desc = "It's a whole squirrel roasted on a stick. Tastes of home on the wastes."
+	icon_state = "squrrielstick"
+	list_reagents = list(/datum/reagent/consumable/nutriment = 6, /datum/reagent/consumable/nutriment/vitamin = 4, /datum/reagent/medicine/bicaridine = 2, /datum/reagent/radium = 1) 
+	foodtype = MEAT
+

@@ -28,3 +28,10 @@
 //Crossbow Ammo
 /obj/item/ammo_box/magazine/internal/bow/cross
 	max_ammo = 3 // 4 shots in total
+
+//Yumi Ammo
+/obj/item/ammo_box/magazine/internal/bow/yumi
+	name = "yumi internal magazine"
+	ammo_type = /obj/item/ammo_casing/caseless/arrow
+	caliber = "arrow"
+	max_ammo = 1 // 1 shots in total

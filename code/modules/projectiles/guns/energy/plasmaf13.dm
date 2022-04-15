@@ -76,7 +76,7 @@
 	ammo_type = list(/obj/item/ammo_casing/energy/plasmacarbine)
 	cell_type = /obj/item/stock_parts/cell/ammo/mfc
 	burst_size = 2
-	burst_shot_delay = 1.5
+	burst_shot_delay = 4.5
 	actions_types = list(/datum/action/item_action/toggle_firemode)
 	can_scope = TRUE
 	scope_state = "plasma_scope"
@@ -98,7 +98,7 @@
 	name = "multiplas rifle"
 	item_state = "multiplas"
 	icon_state = "multiplas"
-	fire_delay = 3
+	fire_delay = 5
 	desc = "A modified A3-20 plasma caster built by REPCONN equipped with a multicasting kit that creates multiple weaker clots."
 	equipsound = 'sound/f13weapons/equipsounds/plasequip.ogg'
 	ammo_type = list(/obj/item/ammo_casing/energy/plasma/scatter)
@@ -150,3 +150,28 @@
 	. = ..()
 	if(!twohands)
 		return FALSE
+
+
+//Plasma Cannon.
+/obj/item/gun/energy/laser/plasma/sniper
+	name = "Plasma Cannon"
+	desc = "A refined design, taking the common wasteland plasma musket and improving upon it. Trash parts and safety hazards give way to proper stamped and machined construction. It's even been fitted with a scope and designed to take MFCs rather than shoddy plasma cans."
+	icon = 'icons/fallout/objects/guns/energy.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/backslot_weapon.dmi'
+	icon_state = "plasmasniper"
+	item_state = "plasmamusket"
+	slowdown = 0.3
+	ammo_type = list(/obj/item/ammo_casing/energy/plasma/sniper)
+	cell_type = /obj/item/stock_parts/cell/ammo/mfc
+	fire_delay = 30
+	dryfire_sound = 'sound/f13weapons/noammoenergy.ogg'
+	dryfire_text = "*power failure*"
+	can_bayonet = TRUE
+	knife_x_offset = 22
+	knife_y_offset = 20
+	bayonet_state = "bayonet"
+	zoomable = TRUE
+	zoom_amt = 10
+	zoom_out_amt = 13
+	fire_sound = 'sound/f13weapons/lasmusket_fire.ogg'
+	equipsound = 'sound/f13weapons/equipsounds/plasequip.ogg'

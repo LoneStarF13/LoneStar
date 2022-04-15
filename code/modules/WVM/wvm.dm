@@ -827,7 +827,13 @@ GLOBAL_VAR_INIT(vendor_cash, 0)
 		new /datum/data/wasteland_equipment("Metal Sheets x 20",				/obj/item/stack/sheet/metal/twenty,									50),
 		new /datum/data/wasteland_equipment("Metal Sheets x 50",				/obj/item/stack/sheet/metal/fifty,									115),
 		new /datum/data/wasteland_equipment("Glass Sheets x 10",				/obj/item/stack/sheet/glass/ten,									30),
-		new /datum/data/wasteland_equipment("Glass Sheets x 50",				/obj/item/stack/sheet/glass/fifty,									90)
+		new /datum/data/wasteland_equipment("Glass Sheets x 50",				/obj/item/stack/sheet/glass/fifty,									90),
+		new /datum/data/wasteland_equipment("Wood Planks x 50",					/obj/item/stack/sheet/mineral/wood/fifty,							50),
+		new /datum/data/wasteland_equipment("Wood Planks x 20",					/obj/item/stack/sheet/mineral/wood/twenty,							20),
+		new /datum/data/wasteland_equipment("Art Canvas 19x19",					/obj/item/canvas/nineteenXnineteen,									20),
+		new /datum/data/wasteland_equipment("Art Canvas 23x19",					/obj/item/canvas/twentythreeXnineteen,								20),
+		new /datum/data/wasteland_equipment("Art Canvas 23x23",					/obj/item/canvas/twentythreeXtwentythree,							20),
+		new /datum/data/wasteland_equipment("Spray Can",						/obj/item/toy/crayon/spraycan,										75)
 		)
 	highpop_list = list(
 		new /datum/data/wasteland_equipment("High Quality Parts",				/obj/item/stack/crafting/goodparts,									25),

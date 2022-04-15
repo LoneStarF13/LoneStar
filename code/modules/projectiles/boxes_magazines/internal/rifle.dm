@@ -34,3 +34,6 @@
 	caliber = "a50MG"
 	max_ammo = 4
 	multiload = 0 //one bullet at a time
+
+/obj/item/ammo_box/magazine/internal/boltaction/smle
+	max_ammo = 10

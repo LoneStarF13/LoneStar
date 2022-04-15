@@ -275,7 +275,7 @@
 	icon_state = "khan_jacket"
 	item_state = "khan_jacket"
 	body_parts_covered = CHEST|GROIN|ARMS|LEGS|HANDS|FEET
-	armor = list("melee" = 30, "bullet" = 30, "laser" = 30, "energy" = 20, "bomb" = 30, "bio" = 10, "rad" = 10, "fire" = 10, "acid" = 0)
+	armor = list("melee" = 30, "bullet" = 30, "laser" = 30, "energy" = 20, "bomb" = 30, "bio" = 10, "rad" = 10, "fire" = 10, "acid" = 0, "wound" = 40)
 	slowdown = 0.05
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets
 
@@ -290,7 +290,7 @@
 	icon_state = "khan_jacket_armored"
 	item_state = "khan_jacket_armored"
 	body_parts_covered = CHEST|GROIN|ARMS|LEGS|HANDS|FEET
-	armor = list("melee" = 37, "bullet" = 37, "laser" = 40, "energy" = 25, "bomb" = 30, "bio" = 10, "rad" = 10, "fire" = 10, "acid" = 0)
+	armor = list("melee" = 37, "bullet" = 37, "laser" = 40, "energy" = 25, "bomb" = 30, "bio" = 10, "rad" = 10, "fire" = 10, "acid" = 0, "wound" = 45)
 	slowdown = 0.08
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets/small
 
@@ -305,7 +305,7 @@
 	icon_state = "khan_heavy"
 	item_state = "khan_heavy"
 	body_parts_covered = CHEST|GROIN|ARMS|LEGS|HANDS|FEET
-	armor = list("melee" = 40, "bullet" = 40, "laser" = 47, "energy" = 25, "bomb" = 35, "bio" = 10, "rad" = 10, "fire" = 10, "acid" = 0)
+	armor = list("melee" = 45, "bullet" = 45, "laser" = 50, "energy" = 25, "bomb" = 35, "bio" = 10, "rad" = 10, "fire" = 10, "acid" = 0, "wound" = 50)
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets/small
 	slowdown = 0.2
 
@@ -320,7 +320,7 @@
 	desc = "A worn-down white labcoat with some wiring hanging from the right side.<br>Upon closer inspection, you can see an ancient bloodstains that could tell an entire story about thrilling adventures of a previous owner."
 	icon_state = "followers"
 	item_state = "labcoat"
-	armor = list("melee" = 25, "bullet" = 15, "laser" = 20, "energy" = 25, "bomb" = 20, "bio" = 100, "rad" = 100, "fire" = 0, "acid" = 0)
+	armor = list("melee" = 25, "bullet" = 15, "laser" = 20, "energy" = 25, "bomb" = 20, "bio" = 100, "rad" = 100, "fire" = 0, "acid" = 0, "wound" = 33)
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets/medical
 
 /obj/item/clothing/suit/armor/f13/generaluniform

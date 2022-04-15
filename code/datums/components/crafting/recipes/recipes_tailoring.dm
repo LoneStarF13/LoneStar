@@ -121,6 +121,22 @@
 	category = CAT_CLOTHING
 	subcategory = CAT_ARMOR
 
+/datum/crafting_recipe/raiderpa
+	name = "Raider Power Armor"
+	result = /obj/item/clothing/suit/armor/f13/power_armor/raiderpa
+	reqs = list(/obj/item/clothing/suit/armor/f13/metalarmor = 1,
+				/obj/item/stack/crafting/armor_plate = 3,
+				/obj/item/crafting = 15,
+				/obj/item/ingot/gold = 1,
+				/obj/item/stock_parts/cell/ammo/mfc = 5,
+				/obj/item/stack/sheet/prewar = 20
+				)
+	tools = list(TOOL_WORKBENCH)
+	time = 600
+	category = CAT_CLOTHING
+	subcategory = CAT_ARMOR
+	always_available = FALSE
+	
 datum/crafting_recipe/steelbib
 	name = "Steel Breastplate"
 	result = /obj/item/clothing/suit/armor/f13/metalarmor/steelbib
@@ -533,6 +549,17 @@ datum/crafting_recipe/steelbib/heavy
 	tools = list(TOOL_FORGE)
 	category = CAT_CLOTHING
 	subcategory = CAT_ARMOR
+
+/datum/crafting_recipe/wastehound
+	name = "wastehound raider helmet"
+	result = /obj/item/clothing/head/helmet/f13/raider/wastehound
+	time = 120
+	reqs = list(/obj/item/stack/sheet/animalhide/human = 5,
+				/obj/item/stack/sheet/mineral/titanium = 5,
+				/obj/item/stack/sheet/cloth = 5)
+	category = CAT_CLOTHING
+	subcategory = CAT_ARMOR
+	always_available = FALSE
 
 /datum/crafting_recipe/durathread_helmet
 	name = "Makeshift Durathread Helmet"
@@ -1069,22 +1096,6 @@ datum/crafting_recipe/steelbib/heavy
 	subcategory = CAT_MISCCLOTHING
 
 /*
-/datum/crafting_recipe/durathread_vest
-	name = "Makeshift Vest"
-	result = /obj/item/clothing/suit/armor/vest/durathread
-	reqs = list( /obj/item/stack/sheet/durathread = 5,
-				/obj/item/stack/sheet/leather = 4)
-	time = 50
-	category = CAT_CLOTHING
-	subcategory = CAT_GENCLOTHES
-/datum/crafting_recipe/durathread_helmet
-	name = "Makeshift Helmet"
-	result = /obj/item/clothing/head/helmet/durathread
-	reqs = list( /obj/item/stack/sheet/durathread = 4,
-				/obj/item/stack/sheet/leather = 5)
-	time = 40
-	category = CAT_CLOTHING
-	subcategory = CAT_GENCLOTHES
 /datum/crafting_recipe/fannypack
 	name = "Fannypack"
 	result = /obj/item/storage/belt/fannypack

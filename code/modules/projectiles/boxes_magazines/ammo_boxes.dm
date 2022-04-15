@@ -535,7 +535,7 @@
 	icon = 'icons/fallout/objects/guns/ammo.dmi'
 	icon_state = "plasmusketbox"
 	multiple_sprites = 2
-	ammo_type = /obj/item/ammo_casing/caseless/plasmacaster
+	ammo_type = /obj/item/ammo_casing/caseless/plasmamusket
 	max_ammo = 6
 	custom_materials = list(MAT_METAL = 1000)
 	w_class = WEIGHT_CLASS_NORMAL

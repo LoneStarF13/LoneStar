@@ -198,12 +198,14 @@ Weapons		Lever shotgun, Grease gun, Repeater carbines, Revolvers, simple guns al
 	l_pocket = /obj/item/flashlight/lantern
 	box = /obj/item/storage/survivalkit/tribal/adv
 	backpack_contents = list(
+		/obj/item/storage/survivalkit/legionifak = 1,
 		/obj/item/restraints/legcuffs/bola = 1,
 		/obj/item/storage/bag/money/small/legion = 1,
-		/obj/item/warpaint_bowl,
+		/obj/item/warpaint_bowl = 1,
 		/obj/item/ammo_box/a357 = 1,
 		/obj/item/gun/ballistic/revolver/colt357 = 1,
-		/obj/item/binoculars
+		/obj/item/binoculars = 1,
+		/obj/item/grenade/f13/frag = 1,
 		)
 
 /datum/outfit/loadout/palacent
@@ -294,11 +296,13 @@ commented out pending rework*/
 	r_pocket = /obj/item/flashlight/lantern
 	box = /obj/item/storage/survivalkit/tribal/adv
 	backpack_contents = list(
+		/obj/item/storage/survivalkit/legionifak = 1,
 		/obj/item/ammo_box/a357 = 1,
 		/obj/item/gun/ballistic/revolver/colt357 = 1,
 		/obj/item/restraints/handcuffs = 1,
 		/obj/item/storage/bag/money/small/legofficers = 1,
-		/obj/item/binoculars
+		/obj/item/binoculars = 1,
+		/obj/item/grenade/smokebomb = 1,
 		)
 
 /datum/outfit/loadout/decvetfront
@@ -308,7 +312,6 @@ commented out pending rework*/
 	backpack_contents = list(
 		/obj/item/gun/ballistic/automatic/smg/greasegun = 1,
 		/obj/item/ammo_box/magazine/greasegun = 2,
-		/obj/item/grenade/smokebomb = 1,
 		)
 
 /datum/outfit/loadout/decvetrear
@@ -374,6 +377,7 @@ commented out pending rework*/
 	l_pocket = /obj/item/restraints/handcuffs
 	box = /obj/item/storage/survivalkit/tribal/adv
 	backpack_contents = list(
+		/obj/item/storage/survivalkit/legionifak = 1,
 		/obj/item/melee/onehanded/machete/gladius = 1,
 		/obj/item/storage/bag/money/small/legofficers = 1,
 		/obj/item/grenade/smokebomb = 1,
@@ -457,6 +461,7 @@ commented out pending rework*/
 	r_pocket = /obj/item/flashlight/lantern
 	l_pocket = /obj/item/storage/survivalkit/tribal
 	backpack_contents = list(
+		/obj/item/storage/survivalkit/legionifak = 1,
 		/obj/item/reagent_containers/pill/patch/healingpowder = 1,
 		/obj/item/restraints/handcuffs = 1,
 		/obj/item/storage/bag/money/small/legofficers = 1,
@@ -479,7 +484,7 @@ commented out pending rework*/
 		/obj/item/melee/onehanded/machete/forgedmachete = 1,
 		/obj/item/storage/backpack/spearquiver = 1,
 		/obj/item/melee/onehanded/knife/bayonet = 1,
-		/obj/item/warpaint_bowl,
+		/obj/item/warpaint_bowl = 1,
 		)
 
 
@@ -502,24 +507,30 @@ commented out pending rework*/
 	spawn_positions = 1
 	outfit = /datum/outfit/job/CaesarsLegion/Legionnaire/f13orator
 	display_order = JOB_DISPLAY_ORDER_ORATOR
+	exp_requirements = 900
 	access = list(ACCESS_LEGION, ACCESS_CHANGE_IDS, ACCESS_LEGION_COMMAND)
 	minimal_access = list(ACCESS_LEGION, ACCESS_CHANGE_IDS, ACCESS_LEGION_COMMAND)
 
-/datum/outfit/job/CaesarsLegion/Legionnaire/f13orator	// 10mm Revolver, Spatha
+/datum/outfit/job/CaesarsLegion/Legionnaire/f13orator	// Spatha, Automag
 	name = "Orator"
 	jobtype = /datum/job/CaesarsLegion/Legionnaire/f13orator
-	neck = /obj/item/storage/belt/holster
+	neck = /obj/item/clothing/neck/mantle/legionmantle
 	suit = /obj/item/clothing/suit/armor/f13/legion/vet/orator
-	head = null
+	mask = /obj/item/clothing/mask/bandana/legion/legvet
+	uniform = /obj/item/clothing/under/f13/legorat
+	head = /obj/item/clothing/head/helmet/f13/legion/vet/orator
 	id = /obj/item/card/id/dogtag/legveteran
-	gloves = null
-	shoes = /obj/item/clothing/shoes/roman
-	suit_store = /obj/item/gun/ballistic/automatic/pistol/n99
+	shoes = /obj/item/clothing/shoes/f13/military/legion
+	gloves = /obj/item/clothing/gloves/legion
+	suit_store = /obj/item/melee/onehanded/machete/spatha
 	r_pocket = /obj/item/storage/bag/money/small/legofficers
 	l_pocket = /obj/item/flashlight/lantern
 	backpack_contents = list(
-		/obj/item/ammo_box/magazine/m10mm_adv/simple = 2,
+		/obj/item/storage/survivalkit/legionifak = 1,
 		/obj/item/reagent_containers/pill/patch/bitterdrink = 1,
+		/obj/item/clothing/neck/mantle/legiontoga = 1,
+		/obj/item/gun/ballistic/automatic/pistol/automag = 1,
+		/obj/item/ammo_box/magazine/automag = 2,
 		)
 
 /datum/outfit/job/CaesarsLegion/Legionnaire/f13orator/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
@@ -529,8 +540,8 @@ commented out pending rework*/
 	ADD_TRAIT(H, TRAIT_LIFEGIVER, src)
 	ADD_TRAIT(H, TRAIT_IRONFIST, src)
 	ADD_TRAIT(H, TRAIT_BIG_LEAGUES, src)
-		
-	
+
+
 // VEXILLARIUS
 
 /datum/job/CaesarsLegion/Legionnaire/f13vexillarius
@@ -580,11 +591,12 @@ commented out pending rework*/
 	gloves = /obj/item/clothing/gloves/legion/plated
 	r_pocket = /obj/item/flashlight/lantern
 	backpack_contents = list(
+		/obj/item/storage/survivalkit/legionifak = 1,
 		/obj/item/reagent_containers/pill/patch/healingpowder = 1,
 		/obj/item/restraints/handcuffs = 1,
 		/obj/item/megaphone/cornu = 1,
 		/obj/item/storage/bag/money/small/legenlisted = 1,
-		/obj/item/warpaint_bowl,
+		/obj/item/warpaint_bowl = 1,
 		)
 
 /datum/outfit/loadout/vexbear
@@ -650,11 +662,13 @@ commented out pending rework*/
 	l_pocket = /obj/item/binoculars
 	suit_store = /obj/item/gun/ballistic/revolver/revolver45
 	backpack_contents = list(
+		/obj/item/storage/survivalkit/legionifak = 1,
 		/obj/item/ammo_box/c45/improvised = 1,
 		/obj/item/reagent_containers/pill/patch/healingpowder = 1,
 		/obj/item/storage/bag/money/small/legenlisted = 1,
 		/obj/item/melee/onehanded/machete = 1,
 		/obj/item/restraints/handcuffs = 1,
+		/obj/item/grenade/smokebomb = 1,
 		)
 
 /datum/outfit/loadout/expambusher
@@ -674,7 +688,6 @@ commented out pending rework*/
 		/obj/item/ammo_box/a762 = 3,
 		/obj/item/book/granter/trait/rifleman = 1,
 		/obj/item/attachments/scope = 1,
-		/obj/item/grenade/smokebomb = 1,
 		)
 
 
@@ -731,6 +744,7 @@ commented out pending rework*/
 	shoes = /obj/item/clothing/shoes/f13/military/plated
 	r_pocket = /obj/item/flashlight/lantern
 	backpack_contents = list(
+		/obj/item/storage/survivalkit/legionifak = 1,
 		/obj/item/reagent_containers/pill/patch/healingpowder = 1,
 		/obj/item/storage/bag/money/small/legenlisted = 1,
 		/obj/item/restraints/handcuffs = 1,
@@ -744,6 +758,7 @@ commented out pending rework*/
 		/obj/item/ammo_box/m44 = 3,
 		/obj/item/shield/riot/bullet_proof = 1,
 		/obj/item/stack/crafting/armor_plate = 3,
+		/obj/item/grenade/f13/frag = 1,
 		)
 
 /datum/outfit/loadout/vetrifle
@@ -753,6 +768,7 @@ commented out pending rework*/
 		/obj/item/ammo_box/tube/m44 = 3,
 		/obj/item/gun/ballistic/revolver/colt357 = 1,
 		/obj/item/ammo_box/a357 = 1,
+		/obj/item/grenade/smokebomb = 1,
 		)
 
 /datum/outfit/loadout/vetberserker
@@ -807,6 +823,7 @@ commented out pending rework*/
 	if(visualsOnly)
 		return
 	ADD_TRAIT(H, TRAIT_BIG_LEAGUES, src)
+	ADD_TRAIT(H, TRAIT_HARD_YARDS, src)
 
 /datum/outfit/job/CaesarsLegion/Legionnaire/f13legionary
 	name = "Prime Legionnaire"
@@ -820,6 +837,7 @@ commented out pending rework*/
 	r_pocket = /obj/item/flashlight/lantern
 	l_pocket = /obj/item/restraints/handcuffs
 	backpack_contents = list(
+		/obj/item/storage/survivalkit/legionifak = 1,
 		/obj/item/storage/bag/money/small/legenlisted = 1,
 		/obj/item/reagent_containers/pill/patch/healingpowder = 1,
 		/obj/item/melee/onehanded/machete/forgedmachete = 1,
@@ -832,7 +850,7 @@ commented out pending rework*/
 	backpack_contents = list(
 		/obj/item/ammo_box/a357 = 3,
 		/obj/item/restraints/legcuffs/bola = 1,
-		/obj/item/book/granter/trait/trekking = 1,
+		/obj/item/grenade/f13/frag = 1,
 		)
 
 /datum/outfit/loadout/primerifle
@@ -896,6 +914,7 @@ commented out pending rework*/
 	glasses = /obj/item/clothing/glasses/legiongoggles
 	r_pocket = /obj/item/flashlight/lantern
 	backpack_contents = list(
+		/obj/item/storage/survivalkit/legionifak = 1,
 		/obj/item/storage/bag/money/small/legenlisted = 1,
 		/obj/item/reagent_containers/pill/patch/healingpowder = 1,
 		/obj/item/melee/onehanded/machete = 1,
@@ -907,7 +926,7 @@ commented out pending rework*/
 	backpack_contents = list(
 		/obj/item/restraints/legcuffs/bola = 1,
 		/obj/item/book/granter/trait/trekking = 1,
-		/obj/item/warpaint_bowl
+		/obj/item/warpaint_bowl = 1,
 		)
 
 /datum/outfit/loadout/recruitlegion
@@ -917,6 +936,7 @@ commented out pending rework*/
 		/obj/item/ammo_box/a357 = 3,
 		/obj/item/reagent_containers/food/drinks/bottle/molotov/filled = 2,
 		/obj/item/lighter/greyscale = 1,
+		/obj/item/grenade/homemade/coffeepotbomb = 1,
 		)
 
 
@@ -1013,7 +1033,10 @@ commented out pending rework*/
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/strongrocket)
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/empgrenade)
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/steeltower)
-	
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/tribalwar/yumi)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/durathread_vest)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/tribalradio)
+
 
 // AUXILIA - Civilians with special training. Can sow new uniforms for soldiers who lost theirs, and are loyal so they would never abuse this.
 
@@ -1057,7 +1080,7 @@ commented out pending rework*/
 	r_pocket = /obj/item/flashlight/lantern
 	backpack_contents = list(
 		/obj/item/reagent_containers/pill/patch/healingpowder = 2,
-		/obj/item/warpaint_bowl
+		/obj/item/warpaint_bowl = 1,
 		)
 
 /datum/outfit/job/CaesarsLegion/auxilia/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
@@ -1069,6 +1092,8 @@ commented out pending rework*/
 	ADD_TRAIT(H, TRAIT_TECHNOPHREAK, src)
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/tailor/legionuniform)
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/warpaint)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/durathread_vest)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/tribalradio)
 
 
 /datum/outfit/loadout/auxassist
@@ -1114,7 +1139,7 @@ commented out pending rework*/
 		/obj/item/stack/sheet/prewar/twenty = 1,
 		/obj/item/weldingtool = 1,
 		/obj/item/book/granter/trait/explosives = 1
-		)	
+		)
 
 // LEGION SLAVES - Servant cook, and assist with medical, low surgery. Worker farm and mine.
 // Both get Mars teachings to help out when normal work is done.

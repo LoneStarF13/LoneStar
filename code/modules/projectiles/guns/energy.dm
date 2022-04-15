@@ -339,7 +339,7 @@
 		return TRUE
 	return ..()
 
-/obj/item/gun/energy/AltClick(mob/user)
+/obj/item/gun/energy/attack_self(mob/living/user)
 	if (!ishuman(user))
 		return
 	if (get_dist(src, user)<2)
@@ -386,4 +386,4 @@
 /obj/item/gun/energy/examine(mob/user)
 	. = ..()
 	if(can_charge == 1)
-		. += span_notice("Alt-click to eject the battery.")
+		. += span_notice("Click to eject the battery.")

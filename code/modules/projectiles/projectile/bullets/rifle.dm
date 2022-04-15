@@ -215,7 +215,7 @@ heavy rifle calibers (12.7, 14mm, 7.62): Uranium, Contaminated, Incin
 
 /obj/item/projectile/bullet/a473/incendiary
 	name = "4.73 tracer bullet"
-	damage = -10
+	damage = -8
 	armour_penetration = 0.1
 	var/fire_stacks = 3
 	zone_accuracy_factor = 100
@@ -244,6 +244,7 @@ heavy rifle calibers (12.7, 14mm, 7.62): Uranium, Contaminated, Incin
 
 /obj/item/projectile/bullet/a473/explosive
 	name = "4.73 explosive bullet"
+	damage = -10
 
 /obj/item/projectile/bullet/a473/explosive/on_hit(atom/target, blocked = FALSE)
 	..()

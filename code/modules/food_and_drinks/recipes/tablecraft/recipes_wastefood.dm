@@ -76,7 +76,7 @@
 		/obj/item/reagent_containers/food/snacks/meat/steak/squirrel = 2,
 		/obj/item/stack/rods = 1
 	)
-	result = /obj/item/reagent_containers/food/snacks/f13/squirrelstick
+	result = /obj/item/reagent_containers/food/snacks/kebab/f13/squirrelstick
 	subcategory = CAT_WASTEFOOD
 
 /datum/crafting_recipe/food/squirrelstew
