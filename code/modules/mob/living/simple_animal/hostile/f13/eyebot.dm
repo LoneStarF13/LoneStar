@@ -8,7 +8,7 @@
 	icon = 'icons/fallout/mobs/robots/eyebots.dmi'
 	icon_state = "eyebot"
 	icon_living = "eyebot"
-	icon_dead = "eyebot_d"
+	icon_dead = "robot_dead"
 	speak_chance = 0
 	turns_per_move = 6
 	environment_smash = 0
@@ -38,6 +38,7 @@
 	vision_range = 7 //reduced from 13 to 7 because who needs that kind of shit in their life
 	aggro_vision_range = 7 //as above
 	ranged = 1
+	loot = list(/obj/effect/decal/remains/deadeyebot, /obj/item/clothing/head/helmet/f13/raider/eyebot)
 	projectiletype = /obj/item/projectile/beam/laser/pistol/wattz
 	projectilesound = 'sound/weapons/resonator_fire.ogg'
 	aggrosound = list('sound/f13npc/eyebot/aggro.ogg', )

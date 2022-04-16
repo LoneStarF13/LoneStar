@@ -400,3 +400,11 @@ datum/gear/head/steelpot_bandolier
 	cost = 2
 	restricted_desc = "KHAN"
 	restricted_roles = list("Great Khan")
+
+/datum/gear/head/raider_wastehound
+	name = "Raider Wastehound Helmet"
+	path = /obj/item/clothing/head/helmet/f13/raider/wastehound
+	cost = 2
+	restricted_desc = "OUTLAW"
+	restricted_roles = list("outlaw")
+

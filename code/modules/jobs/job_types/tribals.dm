@@ -33,6 +33,7 @@
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/tribal_pa)
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/tribal_pa_helmet)
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/tribalradio)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/tribalwar/yumi)
 
 /*
 Tribal Chief

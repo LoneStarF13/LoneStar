@@ -603,11 +603,10 @@
 	burst_size = 1
 	burst_shot_delay = 1
 	automatic = 1
-	autofire_shot_delay = 1.8
+	autofire_shot_delay = 1
 	spread = 6
 	fire_delay = 1
 	weapon_weight = WEAPON_HEAVY
-	fire_sound = 'sound/weapons/laser.ogg'
 	ammo_type = list(/obj/item/ammo_casing/energy/laser/gatling/hitscan)
 	cell_type = /obj/item/stock_parts/cell/ammo/ecp
 	item_flags = NEEDS_PERMIT | SLOWS_WHILE_IN_HAND
@@ -620,9 +619,6 @@
 		return INITIALIZE_HINT_QDEL //No pack, no gun
 
 	return ..()
-
-/obj/item/gun/energy/minigun/attack_self(mob/living/user)
-	return
 
 /obj/item/gun/energy/minigun/dropped(mob/user)
 	. = ..()

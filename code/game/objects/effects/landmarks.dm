@@ -813,18 +813,31 @@ obj/effect/landmark/start/f13/ncrlogisticsofficer
 	icon_state = "Preacher"
 
 /obj/effect/landmark/start/f13/detective
-	name = "Detective"
-	icon_state = "Detective"
+	name = "Bodyguard"
+	icon_state = "Bodyguard"
 
 // Enclave
-/obj/effect/landmark/start/f13/usspy
-	name = "Enclave Private"
-
-/obj/effect/landmark/start/f13/uslt
+/obj/effect/landmark/start/f13/eofficer
 	name = "Enclave Lieutenant"
 
+/obj/effect/landmark/start/f13/eatrooper
+	name = "Enclave Armored Trooper"
+
+/obj/effect/landmark/start/f13/etrooper
+	name = "Enclave Trooper"
+
+/obj/effect/landmark/start/f13/escientist
+	name = "Enclave Scientist"
+
+//US Army
+/obj/effect/landmark/start/f13/usspy
+	name = "US Private"
+
+/obj/effect/landmark/start/f13/uslt
+	name = "US Officer"
+
 /obj/effect/landmark/start/f13/ussgt
-	name = "Enclave Sergeant"
+	name = "US Armored Trooper"
 
 /obj/effect/landmark/start/f13/uscommander
 	name = "US Commander"
@@ -833,10 +846,10 @@ obj/effect/landmark/start/f13/ncrlogisticsofficer
 	name = "US Medic"
 
 /obj/effect/landmark/start/f13/usprivate
-	name = "US Private"
+	name = "US Trooper"
 
 /obj/effect/landmark/start/f13/usscientist
-	name = "Enclave Scientist"
+	name = "US Scientist"
 
 /obj/effect/landmark/start/f13/usengineer
 	name = "US Engineer"

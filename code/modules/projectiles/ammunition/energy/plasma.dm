@@ -24,7 +24,7 @@
 	select_name = "plasma burst"
 	icon_state = "neurotoxin"
 	fire_sound = 'sound/f13weapons/plasma_rifle.ogg'
-	e_cost = 160//12
+	e_cost = 200//12
 
 /obj/item/ammo_casing/energy/plasma/scatter
 	projectile_type = /obj/item/projectile/f13plasma/scatter
@@ -47,7 +47,7 @@
 	e_cost = 160 //10 shots
 
 /obj/item/ammo_casing/energy/plasma/pistol/glock/extended
-	e_cost = 80 //20 shots
+	e_cost = 120 //20 shots
 
 /obj/item/ammo_casing/energy/plasma/pistol/alien
 	projectile_type = /obj/item/projectile/f13plasma/pistol/alien
@@ -61,3 +61,9 @@
 	select_name = "mining plasma stream"
 	fire_sound = 'sound/f13weapons/plasma_rifle.ogg'
 	e_cost = 2.4 //this seems very low but the weapon fires 5 5-damage shots per burst and only fires in bursts
+
+/obj/item/ammo_casing/energy/plasma/sniper
+	projectile_type = /obj/item/projectile/f13plasma/plasmasniper
+	select_name = "plasma bolt"
+	fire_sound = 'sound/f13weapons/lasmusket_fire.ogg'
+	e_cost = 1000

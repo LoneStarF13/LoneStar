@@ -100,3 +100,11 @@
 	caliber = "plasmacaster"
 	max_ammo = 2
 	multiload = 1
+	
+/obj/item/ammo_box/magazine/internal/plasmamusket
+	name = "plasmamusket magazine"
+	desc = "Oh god, this shouldn't be here"
+	ammo_type = /obj/item/ammo_casing/caseless/plasmamusket
+	caliber = "plasmacaster"
+	max_ammo = 2
+	multiload = 1

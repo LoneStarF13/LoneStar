@@ -345,7 +345,13 @@
 
 /datum/reagent/medicine/styptic_powder/reaction_mob(mob/living/M, method=TOUCH, reac_volume, show_message = 1)
 	if(iscarbon(M) && M.stat != DEAD)
-		if(method in list(INGEST, VAPOR, INJECT))
+		if(method in list(INGEST, VAPOR, INJECT, TOUCH))
+			if (method == TOUCH)
+				if(show_message)
+					to_chat(M, "<span class='warning'>The pink mixture is clotting up, running down your body without effect! It stings and feels slimy!</span>")
+				M.emote("shiver")
+				SEND_SIGNAL(M, COMSIG_ADD_MOOD_EVENT, "painful_medicine", /datum/mood_event/painful_medicine)
+				return
 			M.adjustToxLoss(0.5*reac_volume)
 			if(show_message)
 				to_chat(M, "<span class='warning'>You don't feel so good...</span>")
@@ -433,6 +439,7 @@
 	reagent_state = LIQUID
 	color = "#6D6374"
 	metabolization_rate = 0.4 * REAGENTS_METABOLISM
+	overdose_threshold = 60
 	pH = 2.6
 	value = REAGENT_VALUE_COMMON
 
@@ -443,6 +450,11 @@
 	C.adjustStaminaLoss(-0.5*REM, 0)
 	..()
 	return TRUE
+
+/datum/reagent/medicine/mine_salve/overdose_process(mob/living/M)
+	M.adjustToxLoss(2*REM, FALSE)
+	..()
+	. = 1
 
 /datum/reagent/medicine/mine_salve/reaction_mob(mob/living/M, method=TOUCH, reac_volume, show_message = 1)
 	if(iscarbon(M) && M.stat != DEAD)

@@ -65,6 +65,14 @@
 	force = 36
 	block_chance = 10
 
+/obj/item/melee/onehanded/machete/ncrflag
+	name = "NCR Flagpole"
+	desc = "The proud standard of the New California Republic. Used as a tool by patriots, used as a weapon by legends."
+	icon_state = "flag-ncr"
+	item_state = "flag-ncr"
+	force = 36
+	block_chance = 10
+	
 /obj/item/melee/onehanded/machete/spatha
 	name = "spatha"
 	desc = "This long blade is favoured by Legion officers and leaders, a finely crafted weapon with good steel and hilt made from bronze and bone."

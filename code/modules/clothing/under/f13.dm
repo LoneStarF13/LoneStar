@@ -360,6 +360,15 @@
 	fitted = FEMALE_UNIFORM_TOP
 	can_adjust = TRUE
 
+/obj/item/clothing/under/f13/legorat
+	name = "legionary tunic"
+	desc = "A black cotton tunic with some leather pants, of good quality."
+	icon_state = "legoratb"
+	item_state = "legoratb"
+	fitted = FEMALE_UNIFORM_TOP
+	var/sleeves_adjusted = 0
+	can_adjust = TRUE
+
 /obj/item/clothing/under/f13/legskirt/tac
 	name = "\improper ''tactical'' combat skirt"
 	desc = "A leathery skirt below a thick, black, long-sleeve cotton shirt. Perfect for operatives favoring wardrobe malfunctions."
@@ -1681,9 +1690,9 @@
 	icon_state = "mutie_ranger_under"
 	item_state = "mutie_ranger_under"
 
-/obj/item/clothing/under/f13/desert_ranger_scout
-	name = "desert ranger scouting uniform"
-	desc = "A set of clothing worn by desert ranger scouts."
+/obj/item/clothing/under/f13/arizona_ranger_scout
+	name = "Arizona ranger scouting uniform"
+	desc = "A set of clothing worn by Arizona ranger scouts."
 	icon_state = "scoutclothes"
 	can_adjust = FALSE
 	item_state = "scoutclothes"

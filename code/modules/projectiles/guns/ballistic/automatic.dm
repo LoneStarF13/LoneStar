@@ -210,10 +210,10 @@
 	can_unsuppress = FALSE
 	is_automatic = TRUE
 	automatic = 1
-	autofire_shot_delay = 1.75
+	autofire_shot_delay = 1.5
 	spread = 18
 	burst_shot_delay = 1.5
-	extra_damage = 11
+	extra_damage = 12
 	suppressed = 1
 	actions_types = null
 	fire_sound = 'sound/f13weapons/american180.ogg'
@@ -609,7 +609,8 @@
 /obj/item/gun/ballistic/automatic/wt550
 	name = "WT-550"
 	desc = "A compact PDW derived from the G11, firing the same 4.73mm rounds."
-	item_state = "WT550"
+	item_state = "m90"
+	icon_state = "WT550"
 	mag_type = /obj/item/ammo_box/magazine/m473/small
 	burst_size = 1
 	is_automatic = TRUE
@@ -617,8 +618,9 @@
 	extra_damage = 20
 	autofire_shot_delay = 1.75
 	extra_penetration = 0.2
+	slowdown = 0.2
 	w_class = WEIGHT_CLASS_NORMAL
-	weapon_weight = WEAPON_MEDIUM
+	weapon_weight = WEAPON_HEAVY
 	spread = 0
 	fire_delay = 1
 	can_bayonet = TRUE
@@ -719,6 +721,25 @@
 	zoom_out_amt = 13
 	can_scope = FALSE
 	fire_sound = 'sound/weapons/Gunshot_large_silenced.ogg'
+
+
+//Combat Rifle		Keywords: .45 Caliber Rifle, No Attachments (!)
+/obj/item/gun/ballistic/automatic/combat
+	name = "Combat Rifle"
+	desc = "A .45 semi-automatic combat rifle, produced pre-war for National Guard forces."
+	icon_state = "combat_rifle"
+	item_state = "combatrifle"
+	icon_prefix = "combatrifle"
+	mag_type = /obj/item/ammo_box/magazine/greasegun
+	fire_delay = 3
+	burst_size = 1
+	spread = 1
+	extra_damage = 32
+	slowdown = 0.3
+	can_attachments = FALSE
+	automatic_burst_overlay = FALSE
+	semi_auto = TRUE
+	fire_sound = 'sound/f13weapons/combatrifle.ogg'
 
 //Service rifle			Keywords: NCR, 5.56mm, Semi-auto, 20 (10-50) round magazine, 25dmg
 /obj/item/gun/ballistic/automatic/service
@@ -990,11 +1011,11 @@
 	icon_state = "sniper_rifle"
 	item_state = "sniper_rifle"
 	mag_type = /obj/item/ammo_box/magazine/w308
-	fire_delay = 8
+	fire_delay = 10
 	burst_size = 1
 	extra_speed = 800
 	extra_penetration = 0.2
-	extra_damage = 35
+	extra_damage = 45
 	zoom_amt = 10
 	zoom_out_amt = 13
 	semi_auto = TRUE
@@ -1091,24 +1112,31 @@
 
 //R93 PDW		Keywords: 5.56mm, Semi-Automatic, 20 (10-50) round magazine, Pistol grip
 /obj/item/gun/ballistic/automatic/r93
-	name = "R93 PDW"
-	desc = "A lightweight assault rifle manufactured by the Brotherhood of Steel with a folding stock, based on weapons from the R-series platforms. It is generally issued to Brotherhood Knights for scouting missions."
+	name = "r93 assault rifle"
+	desc = "A lightweight assault rifle manufactured by the Brotherhood of Steel with a folding stock, based on weapons from the R-series platforms. It is generally issued to Brotherhood knights for most combat operations."
 	icon_state = "r93"
 	item_state = "r93"
 	mag_type = /obj/item/ammo_box/magazine/m556/rifle
-	fire_delay = 3.25
-	spread = 1
-	extra_damage = 25
-	burst_size = 1
-	can_attachments = FALSE
-	semi_auto = TRUE
-	automatic_burst_overlay = FALSE
+	fire_delay = 2.5
+	slowdown = 0.3
+	spread = 10
+	extra_damage = 21
+	recoil = 0.125
+	is_automatic = TRUE
+	automatic = 1
+	autofire_shot_delay = 2.75
+	can_attachments = TRUE
+	can_bayonet = FALSE
 	can_scope = FALSE
 	zoomable = TRUE
-	zoom_amt = 6
-	zoom_out_amt = 9
-	can_bayonet = FALSE
-	fire_sound = 'sound/weapons/Gunshot_large_silenced.ogg'
+	zoom_amt = 9
+	zoom_out_amt = 10
+	can_suppress = TRUE
+	suppressor_x_offset = 0
+	suppressor_y_offset = 0
+	suppressor_state = "r93_suppressor"
+	actions_types = list(/datum/action/item_action/toggle_firemode)
+	fire_sound = 'sound/f13weapons/assaultrifle_fire.ogg'
 
 //Type 93 Chinese rifle				Keywords: 5.56mm, Automatic, 20 (10-50) round magazine
 /obj/item/gun/ballistic/automatic/type93
@@ -1253,6 +1281,7 @@
 	item_state = "BAR"
 	icon_prefix = "BAR"
 	automatic = 1
+	mag_type = /obj/item/ammo_box/magazine/m762/ext
 	force = 24 //club
 	slowdown = 1.25 //really goddamn big
 	autofire_shot_delay = 2.75
@@ -1260,14 +1289,14 @@
 	spread = 12
 	recoil = 0.3
 	actions_types = list(/datum/action/item_action/toggle_firemode)
-	fire_sound = 'sound/f13weapons/assaultrifle_fire.ogg'
+	fire_sound = 'sound/f13weapons/automaticrifle_BAR.ogg'
 
 //H&K G11				Keywords: 4.73mm, Automatic, 50 round magazine
 /obj/item/gun/ballistic/automatic/g11
 	name = "g11"
 	desc = "This experimental gun fires a caseless cartridge consisting of a block of propellant with a bullet buried inside. The weight and space savings allows for a very high magazine capacity. Chambered in 4.73mm."
 	icon_state = "g11"
-	item_state = "g11"
+	item_state = "arg"
 	mag_type = /obj/item/ammo_box/magazine/m473
 	burst_size = 1
 	extra_damage = 22.5

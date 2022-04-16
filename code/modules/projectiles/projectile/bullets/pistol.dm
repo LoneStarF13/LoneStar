@@ -153,7 +153,6 @@ Uranium, Contaminated
 	if(isliving(target))
 		var/mob/living/M = target
 		reagents.reaction(M, TOUCH)
-		reagents.trans_to(M, reagents.total_volume)
 
 /obj/item/projectile/bullet/c9mm/incendiary
 	name = "9mm incendiary bullet"
