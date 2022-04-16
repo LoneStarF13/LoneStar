@@ -19,6 +19,12 @@
 "as" = (
 /turf/closed/mineral/random/low_chance,
 /area/f13/ncr)
+"at" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/indestructible/ground/outside/roof,
+/area/f13/building)
 "aw" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -503,12 +509,6 @@
 	sunlight_state = 1
 	},
 /area/f13/wasteland)
-"ep" = (
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/open/indestructible/ground/outside/roof,
-/area/f13/building)
 "er" = (
 /obj/structure/table,
 /obj/effect/decal/cleanable/dirt,
@@ -1239,14 +1239,6 @@
 	},
 /turf/open/floor/carpet/red,
 /area/f13/building)
-"lC" = (
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/open/floor/plasteel/f13/vault_floor/blue/side{
-	dir = 5
-	},
-/area/f13/building)
 "lE" = (
 /obj/structure/dresser,
 /turf/open/floor/plasteel/f13/vault_floor/blue/side{
@@ -1683,14 +1675,6 @@
 	},
 /turf/open/floor/wood/f13/maple,
 /area/f13/building)
-"qA" = (
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/open/floor/plasteel/f13/vault_floor/blue/side{
-	dir = 4
-	},
-/area/f13/building)
 "qD" = (
 /turf/closed/wall/mineral/concrete,
 /area/f13/building)
@@ -2103,12 +2087,6 @@
 	},
 /turf/open/floor/wood/wood_tiled,
 /area/f13/followers)
-"vy" = (
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/open/indestructible/ground/outside/roof,
-/area/f13/building)
 "vC" = (
 /obj/structure/window/fulltile/wood,
 /turf/open/floor/wood/f13,
@@ -2430,6 +2408,10 @@
 	icon_state = "darkrusty";
 	name = "grimy tile"
 	},
+/area/f13/building)
+"ym" = (
+/obj/machinery/light/floor,
+/turf/open/floor/wood/wood_tiled,
 /area/f13/building)
 "yn" = (
 /obj/structure/table/booth,
@@ -3389,6 +3371,14 @@
 	dir = 8
 	},
 /area/f13/building)
+"IA" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue/side{
+	dir = 4
+	},
+/area/f13/building)
 "IB" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/yellow/side{
@@ -3579,14 +3569,6 @@
 /obj/structure/window/spawner/west,
 /turf/open/floor/f13,
 /area/f13/brotherhood/surface)
-"Ke" = (
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/open/floor/plasteel/f13/vault_floor/blue/side{
-	dir = 1
-	},
-/area/f13/building)
 "Kg" = (
 /obj/structure/sign/poster/prewar/vault_tec,
 /turf/closed/wall/f13/store,
@@ -3665,6 +3647,12 @@
 /obj/machinery/light,
 /turf/open/floor/wood/wood_large,
 /area/f13/ncr)
+"KH" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/indestructible/ground/outside/roof,
+/area/f13/building)
 "KL" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
@@ -4383,6 +4371,14 @@
 /obj/structure/decoration/clock/old/active,
 /turf/closed/wall/f13/store,
 /area/f13/building)
+"RB" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue/side{
+	dir = 1
+	},
+/area/f13/building)
 "RC" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/dark{
@@ -4989,10 +4985,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/neutral,
 /area/f13/brotherhood/surface)
-"WZ" = (
-/obj/machinery/light/floor,
-/turf/open/floor/wood/wood_tiled,
-/area/f13/building)
 "Xa" = (
 /obj/structure/chair/office/dark{
 	dir = 1
@@ -29634,7 +29626,7 @@ sB
 Mz
 Kv
 Zp
-vy
+KH
 on
 Kv
 sD
@@ -30142,10 +30134,10 @@ PL
 PL
 sB
 Kv
-sB
-sB
-sB
-sB
+YY
+ON
+ON
+JI
 Kv
 Zp
 ay
@@ -30399,10 +30391,10 @@ PL
 PL
 PL
 Kv
-lC
-ON
-ON
-JI
+RB
+UG
+UG
+Sn
 TV
 ay
 ay
@@ -30662,7 +30654,7 @@ UG
 QN
 Kv
 Zp
-ep
+at
 on
 Kv
 sD
@@ -31684,7 +31676,7 @@ PL
 PL
 PL
 IW
-Ke
+RB
 UG
 QN
 Kv
@@ -32203,7 +32195,7 @@ UG
 Sn
 Kv
 Mu
-qA
+IA
 iv
 Ub
 ad
@@ -32433,9 +32425,9 @@ sD
 ad
 al
 dK
-WZ
+ym
 dK
-WZ
+ym
 GV
 qm
 GT
@@ -32712,7 +32704,7 @@ PL
 PL
 PL
 Kv
-Ke
+RB
 UG
 QN
 wS

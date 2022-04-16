@@ -13782,6 +13782,12 @@
 /obj/effect/spawner/lootdrop/f13/alcoholspawner,
 /turf/open/floor/f13/wood,
 /area/f13/building)
+"gbJ" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/f13/wood,
+/area/f13/followers)
 "gbL" = (
 /turf/closed/mineral/random/high_chance,
 /area/f13/caves)
@@ -15573,6 +15579,14 @@
 	},
 /turf/open/floor/f13{
 	icon_state = "bar"
+	},
+/area/f13/building)
+"gOS" = (
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue/side{
+	dir = 1
 	},
 /area/f13/building)
 "gOU" = (
@@ -19376,6 +19390,12 @@
 	icon_state = "darkrusty"
 	},
 /area/f13/bunker)
+"iql" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/turf/open/floor/wood/f13/oak,
+/area/f13/building)
 "iqr" = (
 /obj/structure/fence/handrail_corner{
 	dir = 4;
@@ -26946,6 +26966,11 @@
 /obj/structure/barricade/wooden,
 /turf/open/indestructible/ground/outside/sidewalk,
 /area/f13/wasteland)
+"lKL" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small,
+/turf/open/floor/plasteel/f13/vault_floor/blue/side,
+/area/f13/building)
 "lKO" = (
 /obj/structure/table,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
@@ -28924,13 +28949,6 @@
 /obj/structure/destructible/tribal_torch/lit,
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/wasteland)
-"mEz" = (
-/obj/machinery/button/door{
-	id = "followershutters";
-	name = "door shutters"
-	},
-/turf/closed/wall/f13/wood,
-/area/f13/followers)
 "mEE" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
@@ -29558,12 +29576,6 @@
 	icon_state = "horizontalinnermain0"
 	},
 /area/f13/tunnel)
-"mTo" = (
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/open/floor/f13/wood,
-/area/f13/followers)
 "mTy" = (
 /obj/structure/table/wood/settler,
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ballistic/low,
@@ -30446,12 +30458,6 @@
 	icon = 'icons/turf/f13floors2.dmi';
 	icon_state = "bluerustychess2"
 	},
-/area/f13/building)
-"nns" = (
-/obj/effect/decal/cleanable/dirt{
-	color = "000000"
-	},
-/turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "nnG" = (
 /obj/effect/landmark/start/f13/deputy,
@@ -33700,6 +33706,13 @@
 	icon_state = "floorrustysolid"
 	},
 /area/f13/building)
+"oNa" = (
+/obj/machinery/button/door{
+	id = "followershutters";
+	name = "door shutters"
+	},
+/turf/closed/wall/f13/wood,
+/area/f13/followers)
 "oNf" = (
 /obj/item/gun/ballistic/revolver/detective,
 /turf/open/indestructible/ground/outside/desert,
@@ -35013,11 +35026,6 @@
 	},
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/legion)
-"psl" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/light/small,
-/turf/open/floor/plasteel/f13/vault_floor/blue/side,
-/area/f13/building)
 "psK" = (
 /obj/effect/decal/marking{
 	icon_state = "doublehorizontalcorroded"
@@ -42111,14 +42119,6 @@
 	icon_state = "dirtcorner"
 	},
 /area/f13/wasteland)
-"sDi" = (
-/obj/machinery/light/small{
-	dir = 1
-	},
-/turf/open/floor/plasteel/f13/vault_floor/blue/side{
-	dir = 1
-	},
-/area/f13/building)
 "sDk" = (
 /obj/structure/table/glass,
 /obj/item/storage/box/pillbottles{
@@ -80911,7 +80911,7 @@ uCT
 mlm
 mCR
 kTy
-psl
+lKL
 nqp
 nra
 lbO
@@ -82965,7 +82965,7 @@ xSl
 mHj
 vYN
 wFk
-sDi
+gOS
 jfj
 otI
 xdM
@@ -84513,7 +84513,7 @@ kTy
 oyW
 uIa
 cLy
-nns
+iql
 uPv
 vmB
 dCV
@@ -91183,8 +91183,8 @@ aRl
 aRl
 aRl
 uqa
-mEz
-mTo
+oNa
+gbJ
 ybx
 iNo
 nPT
