@@ -4218,6 +4218,14 @@
 	icon_state = "housewood2"
 	},
 /area/f13/tunnel)
+"cDX" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/floor,
+/turf/open/floor/plasteel/f13/vault_floor/floor{
+	icon_state = "floorrusty"
+	},
+/area/f13/den)
 "cDY" = (
 /obj/effect/decal/cleanable/cobweb/cobweb2,
 /turf/closed/mineral/random/low_chance/underground,
@@ -8764,6 +8772,13 @@
 /obj/structure/table/wood/settler,
 /turf/open/floor/f13/wood,
 /area/f13/caves)
+"fmz" = (
+/obj/machinery/door/airlock/wood{
+	req_one_access_txt = "87"
+	},
+/obj/machinery/door/poddoor/shutters,
+/turf/open/floor/wood/f13/old,
+/area/f13/den)
 "fmO" = (
 /obj/structure/simple_door/metal/ventilation,
 /obj/effect/decal/cleanable/dirt,
@@ -16470,7 +16485,7 @@
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
 "kKs" = (
-/obj/machinery/door/unpowered/secure_legion,
+/obj/machinery/door/unpowered/celldoor,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/followers)
 "kKB" = (
@@ -25049,14 +25064,6 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/bunker)
-"rav" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/light/floor,
-/turf/open/floor/plasteel/f13/vault_floor/floor{
-	icon_state = "floorrusty"
-	},
-/area/f13/den)
 "raA" = (
 /obj/structure/table,
 /obj/item/radio/off,
@@ -63224,7 +63231,7 @@ wYo
 bUY
 bUY
 bUY
-bFe
+fmz
 bUY
 bUY
 wYo
@@ -65282,7 +65289,7 @@ bUY
 bFe
 qMZ
 sHh
-rav
+cDX
 bIh
 wYo
 hQE
