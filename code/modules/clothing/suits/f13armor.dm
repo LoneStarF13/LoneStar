@@ -672,7 +672,7 @@ obj/item/clothing/suit/armor/f13/exile/cust0m
 	name = "outlaw coat"
 	desc = " A combat duster"
 	icon_state = "harperduster"
-	armor = list("energy" = 40, "bomb" = 25, "bio" = 40, "rad" = 35, "fire" = 80, "acid" = 0)
+	armor = list("energy" = 30, "bomb" = 30, "bio" = 30, "rad" = 30, "fire" = 30, "acid" = 30)
 
 /obj/item/clothing/suit/armor/f13/raider/reptiliatenebris
 	name = "Reptilia Tenebris"

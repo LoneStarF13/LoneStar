@@ -28,3 +28,47 @@
 
 
 */
+/datum/gear/donator/kits/sydneyblackhawk
+    name = "Sydney's Belongings"
+    path = /obj/item/storage/box/large/custom_kit/sydneyblackhawk
+    ckeywhitelist = list("cythisia")
+
+/datum/gear/donator/kits/tomokomaus
+    name = "Tomoko's Belongings"
+    path = /obj/item/storage/box/large/custom_kit/tomokomaus
+    ckeywhitelist = list("thottierisette")
+
+/datum/gear/donator/kits/pontiac
+    name = "Pontiac's Belongings"
+    path = /obj/item/storage/box/large/custom_kit/pontiac
+    ckeywhitelist = list("nirzak")
+
+/datum/gear/donator/kits/saturioprotacius
+    name = "Saturio's Belongings"
+    path = /obj/item/storage/box/large/custom_kit/saturioprotacius
+    ckeywhitelist = list("SnugglyTrap")
+
+/datum/gear/donator/kits/alexamaisie
+    name = "Alexa's Belongings"
+    path = /obj/item/storage/box/large/custom_kit/alexamaisie
+    ckeywhitelist = list("valkyra")	
+
+/datum/gear/donator/kits/cumae
+    name = "Cumae's Belongings"
+    path = /obj/item/storage/box/large/custom_kit/cumae
+    ckeywhitelist = list("valkyra")	
+
+/datum/gear/donator/kits/averyamadeus
+	name = "Avery Amadeus' belongings"
+	path = /obj/item/storage/box/large/custom_kit/averyamadeus
+	ckeywhitelist = list("topbirb")
+
+/datum/gear/donator/kits/averyamadeus
+	name = "Rigs' belongings"
+	path = /obj/item/storage/box/large/custom_kit/rigs
+	ckeywhitelist = list("topbirb")
+
+/datum/gear/donator/kits/averyamadeus
+	name = "Sangarinus' belongings"
+	path = /obj/item/storage/box/large/custom_kit/sangarinus
+	ckeywhitelist = list("topbirb")
