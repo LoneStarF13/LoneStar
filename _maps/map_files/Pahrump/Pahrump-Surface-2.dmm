@@ -2641,6 +2641,7 @@
 /area/f13/building)
 "bfV" = (
 /obj/structure/chair/sofa/corp/left,
+/obj/effect/landmark/start/f13/detective,
 /turf/open/floor/carpet/royalblack,
 /area/f13/building)
 "bgd" = (
@@ -3253,6 +3254,11 @@
 /obj/structure/window/fulltile/house/broken,
 /turf/open/floor/f13/wood,
 /area/f13/village)
+"brm" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small,
+/turf/open/floor/plasteel/f13/vault_floor/blue/side,
+/area/f13/building)
 "brw" = (
 /obj/structure/car/rubbish2,
 /turf/open/indestructible/ground/outside/dirt{
@@ -4959,6 +4965,7 @@
 /obj/structure/chair/sofa/corp/right{
 	dir = 4
 	},
+/obj/effect/landmark/start/f13/detective,
 /turf/open/floor/carpet/royalblack,
 /area/f13/building)
 "cio" = (
@@ -7925,6 +7932,14 @@
 /obj/structure/car/rubbish1,
 /turf/closed/wall/r_wall/rust,
 /area/f13/caves)
+"dAE" = (
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue/side{
+	dir = 1
+	},
+/area/f13/building)
 "dAW" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 9
@@ -13782,12 +13797,6 @@
 /obj/effect/spawner/lootdrop/f13/alcoholspawner,
 /turf/open/floor/f13/wood,
 /area/f13/building)
-"gbJ" = (
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/open/floor/f13/wood,
-/area/f13/followers)
 "gbL" = (
 /turf/closed/mineral/random/high_chance,
 /area/f13/caves)
@@ -15579,14 +15588,6 @@
 	},
 /turf/open/floor/f13{
 	icon_state = "bar"
-	},
-/area/f13/building)
-"gOS" = (
-/obj/machinery/light/small{
-	dir = 1
-	},
-/turf/open/floor/plasteel/f13/vault_floor/blue/side{
-	dir = 1
 	},
 /area/f13/building)
 "gOU" = (
@@ -19390,12 +19391,6 @@
 	icon_state = "darkrusty"
 	},
 /area/f13/bunker)
-"iql" = (
-/obj/effect/decal/cleanable/dirt{
-	color = "000000"
-	},
-/turf/open/floor/wood/f13/oak,
-/area/f13/building)
 "iqr" = (
 /obj/structure/fence/handrail_corner{
 	dir = 4;
@@ -22729,6 +22724,12 @@
 	icon_state = "horizontalinnermain0"
 	},
 /area/f13/wasteland)
+"jQq" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/f13/wood,
+/area/f13/followers)
 "jQt" = (
 /obj/structure/rack,
 /obj/item/reagent_containers/glass/bucket/wood,
@@ -26513,6 +26514,13 @@
 	icon_state = "outerpavement"
 	},
 /area/f13/wasteland)
+"lzf" = (
+/obj/machinery/button/door{
+	id = "followershutters";
+	name = "door shutters"
+	},
+/turf/closed/wall/f13/wood,
+/area/f13/followers)
 "lAo" = (
 /obj/structure/fence{
 	dir = 1
@@ -26966,11 +26974,6 @@
 /obj/structure/barricade/wooden,
 /turf/open/indestructible/ground/outside/sidewalk,
 /area/f13/wasteland)
-"lKL" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/light/small,
-/turf/open/floor/plasteel/f13/vault_floor/blue/side,
-/area/f13/building)
 "lKO" = (
 /obj/structure/table,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
@@ -33706,13 +33709,6 @@
 	icon_state = "floorrustysolid"
 	},
 /area/f13/building)
-"oNa" = (
-/obj/machinery/button/door{
-	id = "followershutters";
-	name = "door shutters"
-	},
-/turf/closed/wall/f13/wood,
-/area/f13/followers)
 "oNf" = (
 /obj/item/gun/ballistic/revolver/detective,
 /turf/open/indestructible/ground/outside/desert,
@@ -35358,6 +35354,12 @@
 "pAm" = (
 /turf/closed/wall/f13/wood/house,
 /area/f13/caves)
+"pAr" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/turf/open/floor/wood/f13/oak,
+/area/f13/building)
 "pAC" = (
 /obj/structure/fence{
 	dir = 4
@@ -80911,7 +80913,7 @@ uCT
 mlm
 mCR
 kTy
-lKL
+brm
 nqp
 nra
 lbO
@@ -82965,7 +82967,7 @@ xSl
 mHj
 vYN
 wFk
-gOS
+dAE
 jfj
 otI
 xdM
@@ -84513,7 +84515,7 @@ kTy
 oyW
 uIa
 cLy
-iql
+pAr
 uPv
 vmB
 dCV
@@ -91183,8 +91185,8 @@ aRl
 aRl
 aRl
 uqa
-oNa
-gbJ
+lzf
+jQq
 ybx
 iNo
 nPT
