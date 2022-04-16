@@ -17900,6 +17900,7 @@
 	},
 /area/f13/building)
 "hKe" = (
+/obj/machinery/vending/hydroseeds,
 /turf/open/floor/wood/f13/old/ruinedcornerendbl,
 /area/f13/building)
 "hKo" = (
@@ -22120,9 +22121,8 @@
 /turf/open/indestructible/ground/inside/dirt,
 /area/f13/wasteland)
 "jzN" = (
-/obj/structure/rack,
-/obj/item/storage/box/disks_plantgene,
-/turf/open/floor/wood/f13/oak,
+/obj/machinery/light/floor,
+/turf/open/floor/f13/wood,
 /area/f13/building)
 "jAb" = (
 /obj/structure/chair/sofa/corp/right{
@@ -22163,9 +22163,8 @@
 	},
 /area/f13/building)
 "jBx" = (
-/obj/machinery/workbench,
-/obj/machinery/light,
-/turf/open/floor/wood/f13/oak,
+/obj/machinery/vending/hydronutrients,
+/turf/open/indestructible/ground/outside/desert,
 /area/f13/building)
 "jBy" = (
 /obj/structure/rack,
@@ -22623,39 +22622,8 @@
 /turf/open/floor/f13/wood,
 /area/f13/caves)
 "jNX" = (
-/obj/machinery/smartfridge/bottlerack/seedbin{
-	pixel_x = -2;
-	pixel_y = 2
-	},
-/obj/item/seeds/xander,
-/obj/item/seeds/xander,
-/obj/item/seeds/xander,
-/obj/item/seeds/poppy/broc,
-/obj/item/seeds/poppy/broc,
-/obj/item/seeds/poppy/broc,
-/obj/item/seeds/wheat,
-/obj/item/seeds/wheat,
-/obj/item/seeds/wheat,
-/obj/item/seeds/onion,
-/obj/item/seeds/onion,
-/obj/item/seeds/cabbage,
-/obj/item/seeds/cabbage,
-/obj/item/seeds/corn,
-/obj/item/seeds/corn,
-/obj/item/seeds/tomato,
-/obj/item/seeds/tomato,
-/obj/item/seeds/cotton,
-/obj/item/seeds/cotton,
-/obj/item/seeds/chili,
-/obj/item/seeds/chili,
-/obj/item/seeds/onion,
-/obj/item/seeds/onion,
-/obj/item/seeds/potato,
-/obj/item/seeds/potato,
-/obj/item/seeds/pumpkin,
-/obj/item/seeds/pumpkin,
-/obj/item/seeds/cocoapod,
-/obj/item/seeds/cocoapod,
+/obj/structure/rack,
+/obj/item/storage/box/disks_plantgene,
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "jOq" = (
@@ -24186,7 +24154,7 @@
 /obj/item/clothing/under/rank/prisoner,
 /obj/item/clothing/shoes/sneakers/orange,
 /obj/item/restraints/handcuffs,
-/obj/machinery/light{
+/obj/machinery/light/small{
 	dir = 1
 	},
 /turf/open/floor/plasteel/f13/vault_floor/blue/side{
@@ -25534,6 +25502,9 @@
 	},
 /area/f13/building)
 "lcm" = (
+/obj/machinery/light/small{
+	dir = 1
+	},
 /turf/open/floor/plasteel/f13/vault_floor/blue/side{
 	dir = 9
 	},
@@ -25978,6 +25949,14 @@
 	icon_state = "housewood3-broken"
 	},
 /area/f13/legion)
+"llx" = (
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue/side{
+	dir = 1
+	},
+/area/f13/building)
 "lly" = (
 /obj/structure/chair/wood{
 	dir = 1
@@ -26839,6 +26818,9 @@
 	pixel_y = 32
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small{
+	dir = 1
+	},
 /turf/open/floor/plasteel/f13/vault_floor/blue/side{
 	dir = 1
 	},
@@ -32541,6 +32523,9 @@
 /obj/item/clothing/under/rank/prisoner,
 /obj/item/clothing/shoes/sneakers/orange,
 /obj/item/restraints/handcuffs,
+/obj/machinery/light/small{
+	dir = 1
+	},
 /turf/open/floor/plasteel/f13/vault_floor/blue/side{
 	dir = 9
 	},
@@ -33880,10 +33865,7 @@
 	},
 /area/f13/village)
 "oRs" = (
-/obj/machinery/smartfridge/drying_rack,
-/obj/machinery/light{
-	dir = 4
-	},
+/obj/machinery/plantgenes,
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "oRu" = (
@@ -34591,9 +34573,12 @@
 /turf/open/floor/f13/wood,
 /area/f13/building)
 "pgL" = (
-/obj/machinery/vending/hydronutrients,
+/obj/machinery/smartfridge/drying_rack,
+/obj/machinery/light{
+	dir = 4
+	},
 /turf/open/floor/wood/f13/oak,
-/area/f13/followers)
+/area/f13/building)
 "pgN" = (
 /obj/structure/target_stake,
 /obj/effect/mob_spawn/human/corpse,
@@ -34923,7 +34908,7 @@
 /area/f13/building)
 "ppd" = (
 /obj/structure/simple_door/metal/store,
-/turf/open/space/basic,
+/turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/building)
 "ppl" = (
 /obj/structure/barricade/sandbags,
@@ -36787,6 +36772,7 @@
 /area/f13/building)
 "qgi" = (
 /obj/effect/landmark/start/f13/enforcer,
+/obj/machinery/light/floor,
 /turf/open/floor/f13/wood,
 /area/f13/building)
 "qgl" = (
@@ -37670,12 +37656,6 @@
 /obj/item/reagent_containers/rag/towel,
 /turf/open/floor/f13/wood,
 /area/f13/legion)
-"qBN" = (
-/obj/effect/decal/cleanable/dirt{
-	color = "000000"
-	},
-/turf/open/floor/wood/f13/oak,
-/area/f13/building)
 "qBR" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -38325,9 +38305,9 @@
 	},
 /area/f13/village)
 "qOf" = (
-/obj/machinery/vending/hydroseeds,
+/obj/machinery/biogenerator,
 /turf/open/floor/wood/f13/oak,
-/area/f13/followers)
+/area/f13/building)
 "qOw" = (
 /obj/structure/table,
 /obj/machinery/cell_charger,
@@ -38706,7 +38686,8 @@
 	},
 /area/f13/wasteland)
 "qUC" = (
-/obj/machinery/biogenerator,
+/obj/machinery/workbench,
+/obj/machinery/light,
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "qUV" = (
@@ -40886,6 +40867,11 @@
 /area/f13/caves)
 "saL" = (
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small{
+	dir = 8;
+	light_color = "#d8b1b1";
+	pixel_y = -32
+	},
 /turf/open/floor/plasteel/f13/vault_floor/blue/side{
 	dir = 5
 	},
@@ -44279,6 +44265,12 @@
 /obj/effect/overlay/junk/urinal,
 /turf/closed/wall/f13/supermart,
 /area/f13/building)
+"tzg" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/turf/open/floor/wood/f13/oak,
+/area/f13/building)
 "tzk" = (
 /obj/structure/bookcase,
 /turf/open/floor/f13/wood,
@@ -46275,7 +46267,39 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/legion)
 "urO" = (
-/obj/machinery/plantgenes,
+/obj/machinery/smartfridge/bottlerack/seedbin{
+	pixel_x = -2;
+	pixel_y = 2
+	},
+/obj/item/seeds/xander,
+/obj/item/seeds/xander,
+/obj/item/seeds/xander,
+/obj/item/seeds/poppy/broc,
+/obj/item/seeds/poppy/broc,
+/obj/item/seeds/poppy/broc,
+/obj/item/seeds/wheat,
+/obj/item/seeds/wheat,
+/obj/item/seeds/wheat,
+/obj/item/seeds/onion,
+/obj/item/seeds/onion,
+/obj/item/seeds/cabbage,
+/obj/item/seeds/cabbage,
+/obj/item/seeds/corn,
+/obj/item/seeds/corn,
+/obj/item/seeds/tomato,
+/obj/item/seeds/tomato,
+/obj/item/seeds/cotton,
+/obj/item/seeds/cotton,
+/obj/item/seeds/chili,
+/obj/item/seeds/chili,
+/obj/item/seeds/onion,
+/obj/item/seeds/onion,
+/obj/item/seeds/potato,
+/obj/item/seeds/potato,
+/obj/item/seeds/pumpkin,
+/obj/item/seeds/pumpkin,
+/obj/item/seeds/cocoapod,
+/obj/item/seeds/cocoapod,
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "urQ" = (
@@ -52136,6 +52160,11 @@
 /obj/effect/spawner/lootdrop/f13/foodspawner,
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
+"wSm" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small,
+/turf/open/floor/plasteel/f13/vault_floor/blue/side,
+/area/f13/building)
 "wSn" = (
 /obj/structure/simple_door/room,
 /turf/open/floor/f13{
@@ -54520,6 +54549,11 @@
 	name = "clinic";
 	req_one_access_txt = "124"
 	},
+/obj/machinery/door/poddoor/shutters{
+	armor = list("melee" = 40, "bullet" = 30, "laser" = 25, "energy" = 75, "bomb" = 25, "bio" = 100, "rad" = 100, "fire" = 100, "acid" = 70);
+	id = "followershutters";
+	name = "followers shutters"
+	},
 /turf/open/floor/f13/wood,
 /area/f13/followers)
 "xUW" = (
@@ -54617,6 +54651,13 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/legion)
+"xXu" = (
+/obj/machinery/button/door{
+	id = "followershutters";
+	name = "door shutters"
+	},
+/turf/closed/wall/f13/wood,
+/area/f13/followers)
 "xXz" = (
 /obj/structure/chair/stool/bar,
 /turf/open/floor/f13/wood,
@@ -80870,7 +80911,7 @@ uCT
 mlm
 mCR
 kTy
-otI
+wSm
 nqp
 nra
 lbO
@@ -81364,7 +81405,7 @@ gJx
 gts
 xFV
 rpu
-rpu
+jzN
 gts
 vEs
 vEs
@@ -82134,7 +82175,7 @@ gJx
 gJx
 rpu
 rpu
-rpu
+jzN
 rpu
 gts
 mHj
@@ -82924,7 +82965,7 @@ xSl
 mHj
 vYN
 wFk
-mCR
+llx
 jfj
 otI
 xdM
@@ -84472,7 +84513,7 @@ kTy
 oyW
 uIa
 cLy
-qBN
+tzg
 uPv
 vmB
 dCV
@@ -90627,7 +90668,7 @@ hGw
 hGw
 nPT
 iVA
-pgL
+iVA
 gJP
 ybx
 ybx
@@ -90884,7 +90925,7 @@ jTr
 aRl
 iVA
 iVA
-qOf
+iVA
 nPT
 ybx
 ybx
@@ -91141,8 +91182,8 @@ jTr
 aRl
 aRl
 aRl
-jzN
-nPT
+uqa
+xXu
 ybx
 ybx
 iNo
@@ -91397,8 +91438,8 @@ qxT
 jTr
 guZ
 aRl
-aRl
-qUC
+qOf
+uqa
 nPT
 nPT
 nPT
@@ -91654,9 +91695,9 @@ qxT
 jTr
 aRl
 aRl
-aRl
-jBx
+qUC
 uqa
+dCV
 dCV
 dCV
 dCV
@@ -91911,9 +91952,9 @@ qxT
 jTr
 aRl
 aRl
-aRl
-jNX
+urO
 uqa
+dCV
 dCV
 uqa
 uqa
@@ -92166,11 +92207,11 @@ rjH
 jlc
 qxT
 jTr
-aRl
-aRl
+jNX
+pgL
 oRs
-urO
 uqa
+dCV
 dCV
 uqa
 fyf
@@ -92427,7 +92468,7 @@ uqa
 uqa
 uqa
 uqa
-uqa
+dCV
 dCV
 uqa
 fyf
@@ -92679,7 +92720,7 @@ mvv
 jfx
 jlc
 qxT
-dbO
+jBx
 dCV
 dCV
 dCV

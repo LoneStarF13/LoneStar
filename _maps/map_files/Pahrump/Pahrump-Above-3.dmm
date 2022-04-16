@@ -124,6 +124,7 @@
 /obj/effect/spawner/lootdrop/f13/crafting,
 /obj/effect/spawner/lootdrop/f13/crafting,
 /obj/item/crafting/abraxo,
+/obj/machinery/light,
 /turf/open/floor/wood/f13,
 /area/f13/building)
 "bu" = (
@@ -202,6 +203,10 @@
 	},
 /turf/open/floor/wood/wood_tiled,
 /area/f13/followers)
+"cf" = (
+/obj/machinery/light/floor,
+/turf/open/floor/wood/wood_tiled,
+/area/f13/building)
 "cg" = (
 /obj/machinery/light{
 	dir = 1
@@ -228,8 +233,10 @@
 	},
 /area/f13/legion)
 "cs" = (
-/obj/structure/simple_door/house/clean,
-/turf/closed/wall/f13/store,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/wood/f13,
 /area/f13/building)
 "ct" = (
 /obj/machinery/vending/coffee,
@@ -731,6 +738,7 @@
 /obj/structure/chair/sofa/corp/left{
 	dir = 1
 	},
+/obj/machinery/light,
 /turf/open/floor/carpet/purple,
 /area/f13/building)
 "gy" = (
@@ -866,6 +874,14 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/building)
+"hW" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue/side{
+	dir = 4
+	},
+/area/f13/building)
 "hZ" = (
 /obj/structure/chair/right{
 	dir = 1
@@ -879,6 +895,14 @@
 /obj/item/kirbyplants/random,
 /turf/open/floor/f13/wood{
 	icon_state = "housewood4-broken"
+	},
+/area/f13/building)
+"ii" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue/side{
+	dir = 1
 	},
 /area/f13/building)
 "ik" = (
@@ -1135,6 +1159,14 @@
 /obj/structure/campfire/barrel,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
+"kL" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/plasteel/f13/vault_floor/blue/side{
+	dir = 5
+	},
+/area/f13/building)
 "kO" = (
 /obj/structure/sign/poster/prewar/poster72,
 /turf/closed/wall/f13/store,
@@ -1193,8 +1225,8 @@
 	},
 /area/f13/building)
 "lp" = (
-/obj/structure/simple_door/wood,
-/turf/open/space/basic,
+/obj/machinery/light,
+/turf/open/floor/plasteel/barber,
 /area/f13/building)
 "lr" = (
 /obj/structure/sign/poster/prewar/poster60,
@@ -1931,7 +1963,7 @@
 	},
 /area/f13/building)
 "tS" = (
-/obj/machinery/door/unpowered/secure_NCR,
+/obj/machinery/door/unpowered/securedoor,
 /turf/open/floor/wood/f13,
 /area/f13/building)
 "tT" = (
@@ -2753,6 +2785,9 @@
 	dir = 8;
 	doc_content_1 = "Hey neighbour... just saw something.. frankly fucked up.. uh.. well, your wife is in your house right now with another man, now I'm hearing.. an awful lot of noises.. I'm sorry you're hearing this from me, Clint.. but, I have to do my duty as a man to man.. well.. that's all I wanted to type to you.  -Your Neighbour Sebastian.";
 	doc_title_1 = "I'm sorry, Clint."
+	},
+/obj/machinery/light{
+	dir = 4
 	},
 /turf/open/floor/wood/f13,
 /area/f13/building)
@@ -3822,15 +3857,14 @@
 /obj/effect/decal/fakelattice{
 	pixel_x = -17
 	},
+/obj/item/gun/ballistic/revolver/police,
+/obj/item/gun/ballistic/revolver/police,
+/obj/item/gun/ballistic/revolver/police,
+/obj/item/gun/ballistic/rifle/repeater/cowboy,
+/obj/item/gun/ballistic/rifle/repeater/cowboy,
 /obj/machinery/light{
-	dir = 8;
-	pixel_y = -16
+	dir = 4
 	},
-/obj/item/gun/ballistic/revolver/police,
-/obj/item/gun/ballistic/revolver/police,
-/obj/item/gun/ballistic/revolver/police,
-/obj/item/gun/ballistic/rifle/repeater/cowboy,
-/obj/item/gun/ballistic/rifle/repeater/cowboy,
 /turf/open/floor/plasteel/f13/vault_floor/blue/side{
 	dir = 5
 	},
@@ -4160,6 +4194,12 @@
 "Qo" = (
 /obj/structure/sign/poster/official/obey,
 /turf/closed/wall/rust,
+/area/f13/building)
+"Qr" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/indestructible/ground/outside/roof,
 /area/f13/building)
 "Qs" = (
 /obj/structure/sign/painting/library{
@@ -4705,6 +4745,12 @@
 	sunlight_state = 1
 	},
 /area/f13/wasteland)
+"UL" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/indestructible/ground/outside/roof,
+/area/f13/building)
 "UP" = (
 /obj/structure/railing{
 	color = "#A47449"
@@ -4849,6 +4895,7 @@
 /area/f13/brotherhood/surface)
 "VV" = (
 /obj/machinery/autolathe,
+/obj/machinery/light,
 /turf/open/floor/wood/f13,
 /area/f13/building)
 "VX" = (
@@ -28011,7 +28058,7 @@ ad
 CC
 CC
 al
-Vt
+cs
 Vt
 JP
 Sp
@@ -29555,7 +29602,7 @@ ad
 al
 yW
 yW
-cs
+gM
 Yg
 Yg
 al
@@ -29587,7 +29634,7 @@ sB
 Mz
 Kv
 Zp
-ay
+UL
 on
 Kv
 sD
@@ -29814,7 +29861,7 @@ al
 al
 al
 Yg
-Yg
+lp
 al
 fq
 fq
@@ -30352,7 +30399,7 @@ PL
 PL
 PL
 Kv
-YY
+kL
 ON
 ON
 JI
@@ -30612,10 +30659,10 @@ IM
 Mj
 UG
 UG
-Sn
+QN
 Kv
 Zp
-ay
+Qr
 on
 Kv
 sD
@@ -31637,7 +31684,7 @@ PL
 PL
 PL
 IW
-Mj
+ii
 UG
 QN
 Kv
@@ -32156,7 +32203,7 @@ UG
 Sn
 Kv
 Mu
-iv
+hW
 iv
 Ub
 ad
@@ -32386,9 +32433,9 @@ sD
 ad
 al
 dK
+cf
 dK
-dK
-dK
+cf
 GV
 qm
 GT
@@ -32665,7 +32712,7 @@ PL
 PL
 PL
 Kv
-Mj
+ii
 UG
 QN
 wS
@@ -39583,7 +39630,7 @@ BV
 ZW
 BV
 BV
-lp
+CJ
 Vt
 Vt
 Vt

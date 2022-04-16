@@ -2261,6 +2261,9 @@
 /obj/structure/shelf_wood,
 /obj/effect/spawner/lootdrop/f13/blueprintMid,
 /obj/effect/spawner/lootdrop/f13/blueprintMid,
+/obj/machinery/light/small{
+	dir = 1
+	},
 /turf/open/floor/wood/f13/old,
 /area/f13/den)
 "bvT" = (
@@ -4397,7 +4400,7 @@
 /turf/closed/indestructible/f13vaultrusted,
 /area/f13/bunker)
 "cJI" = (
-/obj/machinery/light/fo13colored,
+/obj/machinery/light/floor,
 /turf/open/floor/wood/f13/old,
 /area/f13/den)
 "cJJ" = (
@@ -4567,8 +4570,11 @@
 /turf/open/floor/wood/f13/carpet,
 /area/f13/bunker)
 "cPI" = (
-/obj/structure/falsewall/rust,
-/turf/open/space/basic,
+/obj/effect/turf_decal/weather/dirt{
+	dir = 1
+	},
+/obj/machinery/light/floor,
+/turf/open/floor/wood/f13/old,
 /area/f13/den)
 "cPP" = (
 /obj/structure/closet/cabinet,
@@ -5775,6 +5781,7 @@
 "dyw" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/floor,
 /turf/open/floor/plasteel/f13/vault_floor/neutral/side{
 	dir = 1;
 	icon_state = "neutralrusty"
@@ -7011,6 +7018,10 @@
 	height = 1;
 	id = "denladder"
 	},
+/obj/machinery/light/small{
+	dir = 8;
+	light_color = "#d8b1b1"
+	},
 /turf/open/floor/wood/f13/old,
 /area/f13/den)
 "ejM" = (
@@ -7542,6 +7553,7 @@
 /area/f13/bunker)
 "eyK" = (
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/floor,
 /turf/open/floor/plasteel/f13/vault_floor/floor{
 	icon_state = "floorrusty"
 	},
@@ -24599,6 +24611,7 @@
 /area/f13/brotherhood/offices1st)
 "qMZ" = (
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/floor,
 /turf/open/floor/plasteel/f13/vault_floor/neutral/side{
 	dir = 1;
 	icon_state = "neutralrusty"
@@ -25036,6 +25049,14 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/bunker)
+"rav" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/floor,
+/turf/open/floor/plasteel/f13/vault_floor/floor{
+	icon_state = "floorrusty"
+	},
+/area/f13/den)
 "raA" = (
 /obj/structure/table,
 /obj/item/radio/off,
@@ -63972,7 +63993,7 @@ aAz
 cbQ
 cbQ
 wYo
-bUY
+cJI
 bFe
 dyw
 sHh
@@ -64486,7 +64507,7 @@ wYo
 wYo
 wYo
 wYo
-cJI
+bUY
 wYo
 dAO
 cOv
@@ -64743,7 +64764,7 @@ cbQ
 ajg
 cbQ
 wYo
-bUY
+cJI
 wYo
 wYo
 wYo
@@ -65261,7 +65282,7 @@ bUY
 bFe
 qMZ
 sHh
-sHh
+rav
 bIh
 wYo
 hQE
@@ -66285,7 +66306,7 @@ aqQ
 ggG
 buX
 bRm
-cMf
+cPI
 wYo
 hQE
 hQE
@@ -66542,7 +66563,7 @@ wYo
 wYo
 wYo
 wYo
-cPI
+wYo
 wYo
 hQE
 epg
