@@ -743,6 +743,60 @@
 
 	..()
 
+
+
+/obj/item/clothing/belt/snuggly_cape
+	name = "Tomoko's Belt"
+	desc = "A belt captured from a fallen Legionary. The leather has been stained black and the sash has been dyed purple."
+	icon = "icons/fallout/clothing/belts.dmi"
+	icon_state = "mausbeltcustom"
+	item_color = "mausbeltcustom"
+	item_state = "mausbeltcustom"
+	slot_flags = ITEM_SLOT_BELT
+/obj/item/clothing/belt/snuggly_cape
+	name = "Saturio's Cape"
+	desc = "A handcrafted shoulder cape, emblazoned with Legion colors. There is a holster hidden inside."
+	icon = "icons/fallout/clothing/belts.dmi"
+	icon_state = "snuggly_cape"
+	item_color = "snuggly_cape"
+	item_state = "snuggly_cape"
+	slot_flags = ITEM_SLOT_BELT | ITEM_SLOT_NECK
+
+/obj/item/storage/belt/holster/ComponentInitialize()
+	. = ..()
+	var/datum/component/storage/STR = GetComponent(/datum/component/storage)
+	STR.max_items = 4
+	STR.max_w_class = WEIGHT_CLASS_NORMAL
+	STR.can_hold = typecacheof(list(
+		/obj/item/gun/ballistic/automatic/pistol,
+		/obj/item/gun/ballistic/revolver,
+		/obj/item/ammo_box/magazine,
+		/obj/item/ammo_box/tube,
+		/obj/item/ammo_box/a357,
+		/obj/item/ammo_box/c38,
+		/obj/item/ammo_box/l10mm,
+		/obj/item/ammo_box/a762,
+		/obj/item/ammo_box/shotgun,
+		/obj/item/ammo_box/m44,
+		/obj/item/ammo_box/a762,
+		/obj/item/ammo_box/a556/stripper,
+		/obj/item/ammo_box/needle,
+		/obj/item/ammo_box/a308,
+		/obj/item/ammo_box/c4570,
+		/obj/item/ammo_box/a50MG,
+		/obj/item/ammo_box/c45rev,
+		/obj/item/ammo_box/a45lcrev,
+		/obj/item/gun/energy/laser/solar,
+		/obj/item/gun/energy/laser/pistol,
+		/obj/item/gun/energy/laser/complianceregulator,
+		/obj/item/gun/energy/laser/plasma/pistol,
+		/obj/item/gun/energy/laser/plasma/glock,
+		/obj/item/gun/energy/laser/plasma/glock/extended,
+		/obj/item/gun/energy/laser/wattz,
+		/obj/item/gun/energy/laser/wattz/magneto,
+		/obj/item/gun/energy/laser/plasma/pistol/alien,
+		/obj/item/stock_parts/cell/ammo/ec
+		))
 /obj/item/storage/belt/holster
 	name = "shoulder holster"
 	desc = "A holster to carry a handgun and ammo. WARNING: Badasses only."
